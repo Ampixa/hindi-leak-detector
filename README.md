@@ -8,7 +8,27 @@ reference reading of the same sentence?
 Flags are **candidates, not confirmed errors**. General Hindi-error accuracy has
 not been measured against human labels.
 
-## Latest result: Swar by Naamche Labs
+## How it works
+
+For each word in a sentence:
+
+1. **Dual G2P** builds the Nepali pronunciation and the Hindi alternative, e.g.
+   हैन → Nepali `h ʌi̯ n ʌ` vs Hindi `h ɛː n`. Where they differ is a testable site.
+2. **Same-text reference**: two readings of the sentence by the Nepali teacher
+   in *other* voices. Each is ASR-checked and must itself show the Nepali vowel
+   to count ("qualified").
+3. **Alignment** with frozen MMS locates each word in query and reference.
+4. **Evidence** from two frozen phone encoders (XLSR-53, LV-60): CTC path
+   margins Nepali-vs-Hindi and vowel-region features, 57 per site.
+5. **Two 945-parameter MLP heads** score vowel-quality change and deletion.
+   A word is flagged only when the qualified references agree; disagreement
+   is `uncertain`.
+
+Worked example (हैन, from `reports/cross_system_results_v80/cases/cross80_s00.json`):
+IndicF5 scores 0.999 against qualified references in every voice and ASR hears
+"hand"; the Nepali teacher mostly scores 0.02–0.17 and ASR hears होइन.
+
+## Example measurement: Swar by Naamche Labs
 
 [Swar](https://huggingface.co/Aarjan/swar) is an open Nepali voice-cloning model
 by [Naamche Labs](https://github.com/Naamche-Labs/swar), fine-tuned from
@@ -33,26 +53,6 @@ confirms them. Only 126 of 724 word positions carry a testable vowel contrast.
 Details: `reports/cross_system_swar_v84/` (Swar), `reports/cross_system_results_v80/`
 (IndicF5 / teacher). Swar weights are CC BY-SA 4.0 and are **not** redistributed
 here; no generated audio is included.
-
-## How it works
-
-For each word in a sentence:
-
-1. **Dual G2P** builds the Nepali pronunciation and the Hindi alternative, e.g.
-   हैन → Nepali `h ʌi̯ n ʌ` vs Hindi `h ɛː n`. Where they differ is a testable site.
-2. **Same-text reference**: two readings of the sentence by the Nepali teacher
-   in *other* voices. Each is ASR-checked and must itself show the Nepali vowel
-   to count ("qualified").
-3. **Alignment** with frozen MMS locates each word in query and reference.
-4. **Evidence** from two frozen phone encoders (XLSR-53, LV-60): CTC path
-   margins Nepali-vs-Hindi and vowel-region features, 57 per site.
-5. **Two 945-parameter MLP heads** score vowel-quality change and deletion.
-   A word is flagged only when the qualified references agree; disagreement
-   is `uncertain`.
-
-Worked example (हैन, from `reports/cross_system_results_v80/cases/cross80_s00.json`):
-IndicF5 scores 0.999 against qualified references in every voice and ASR hears
-"hand"; the Nepali teacher mostly scores 0.02–0.17 and ASR hears होइन.
 
 ## Layout
 
