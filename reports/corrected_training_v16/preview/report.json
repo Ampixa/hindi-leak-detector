@@ -1,0 +1,190 @@
+{
+  "status": "trained_corrected_structured_source_candidate",
+  "model_sha256": "9d3caf0a1d5ffe32056b665c4cbbba4580f2ad06e533d9d9a00e75c984245146",
+  "final": false,
+  "best_epoch": 2,
+  "fitting_recipe": "matched_focal_and_pairwise_v16",
+  "epochs_run": 17,
+  "training_loss_word_rows": 7884,
+  "partition_texts": {
+    "train": 378,
+    "development": 72
+  },
+  "partition_focal_lexemes": {
+    "train": 175,
+    "development": 46
+  },
+  "conditioning_groups": {
+    "train": 8,
+    "development": 4
+  },
+  "development": {
+    "phonetics": {
+      "focal_source": {
+        "n": 146,
+        "positive_labels": 73,
+        "negative_labels": 73,
+        "tp": 43,
+        "fp": 16,
+        "fn": 30,
+        "tn": 57,
+        "precision": 0.7288135593220338,
+        "recall": 0.589041095890411,
+        "false_positive_rate": 0.2191780821917808,
+        "accuracy": 0.684931506849315,
+        "balanced_accuracy": 0.6849315068493151,
+        "brier": 0.22210692973509394
+      },
+      "conservative_focal_source": {
+        "n": 146,
+        "positive_labels": 73,
+        "negative_labels": 73,
+        "tp": 28,
+        "fp": 7,
+        "fn": 45,
+        "tn": 66,
+        "precision": 0.8,
+        "recall": 0.3835616438356164,
+        "false_positive_rate": 0.0958904109589041,
+        "accuracy": 0.6438356164383562,
+        "balanced_accuracy": 0.6438356164383561,
+        "brier": 0.22210692973509394
+      },
+      "operating_points": {
+        "balanced": 0.57,
+        "high": 0.6947900652885437,
+        "low": 0.1725013554096222
+      },
+      "focal_lexemes": 46,
+      "lexeme_cluster_balanced_accuracy_ci95": [
+        0.631578947368421,
+        0.7361196911196911
+      ],
+      "unchanged_neighbor_flag_rate": 0.27303754266211605,
+      "conservative_unchanged_neighbor_flag_rate": 0.1296928327645051,
+      "uncertain_fraction": 0.5958904109589042,
+      "paired_source_ordering": {
+        "pairs": 73,
+        "f5_above_teacher": 60,
+        "fraction": 0.821917808219178,
+        "median_score_delta": 0.14667952060699463
+      }
+    },
+    "prosody": {
+      "focal_source": {
+        "n": 146,
+        "positive_labels": 73,
+        "negative_labels": 73,
+        "tp": 29,
+        "fp": 13,
+        "fn": 44,
+        "tn": 60,
+        "precision": 0.6904761904761905,
+        "recall": 0.3972602739726027,
+        "false_positive_rate": 0.1780821917808219,
+        "accuracy": 0.6095890410958904,
+        "balanced_accuracy": 0.6095890410958904,
+        "brier": 0.23927760585263985
+      },
+      "conservative_focal_source": {
+        "n": 146,
+        "positive_labels": 73,
+        "negative_labels": 73,
+        "tp": 17,
+        "fp": 7,
+        "fn": 56,
+        "tn": 66,
+        "precision": 0.7083333333333334,
+        "recall": 0.2328767123287671,
+        "false_positive_rate": 0.0958904109589041,
+        "accuracy": 0.5684931506849316,
+        "balanced_accuracy": 0.5684931506849314,
+        "brier": 0.23927760585263985
+      },
+      "operating_points": {
+        "balanced": 0.5499999999999999,
+        "high": 0.5957408547401428,
+        "low": 0.29585009813308716
+      },
+      "focal_lexemes": 46,
+      "lexeme_cluster_balanced_accuracy_ci95": [
+        0.548391482597055,
+        0.676923076923077
+      ],
+      "unchanged_neighbor_flag_rate": 0.16382252559726962,
+      "conservative_unchanged_neighbor_flag_rate": 0.10921501706484642,
+      "uncertain_fraction": 0.678082191780822,
+      "paired_source_ordering": {
+        "pairs": 73,
+        "f5_above_teacher": 56,
+        "fraction": 0.7671232876712328,
+        "median_score_delta": 0.05849885940551758
+      }
+    },
+    "combined": {
+      "focal_source": {
+        "n": 146,
+        "positive_labels": 73,
+        "negative_labels": 73,
+        "tp": 44,
+        "fp": 14,
+        "fn": 29,
+        "tn": 59,
+        "precision": 0.7586206896551724,
+        "recall": 0.6027397260273972,
+        "false_positive_rate": 0.1917808219178082,
+        "accuracy": 0.7054794520547946,
+        "balanced_accuracy": 0.7054794520547945,
+        "brier": 0.21611280618404105
+      },
+      "conservative_focal_source": {
+        "n": 146,
+        "positive_labels": 73,
+        "negative_labels": 73,
+        "tp": 36,
+        "fp": 7,
+        "fn": 37,
+        "tn": 66,
+        "precision": 0.8372093023255814,
+        "recall": 0.4931506849315068,
+        "false_positive_rate": 0.0958904109589041,
+        "accuracy": 0.6986301369863014,
+        "balanced_accuracy": 0.6986301369863013,
+        "brier": 0.21611280618404105
+      },
+      "operating_points": {
+        "balanced": 0.5099999999999999,
+        "high": 0.5749768018722534,
+        "low": 0.16386497020721436
+      },
+      "focal_lexemes": 46,
+      "lexeme_cluster_balanced_accuracy_ci95": [
+        0.6333333333333333,
+        0.7757597880164395
+      ],
+      "unchanged_neighbor_flag_rate": 0.22866894197952217,
+      "conservative_unchanged_neighbor_flag_rate": 0.16382252559726962,
+      "uncertain_fraction": 0.5068493150684932,
+      "paired_source_ordering": {
+        "pairs": 73,
+        "f5_above_teacher": 60,
+        "fraction": 0.821917808219178,
+        "median_score_delta": 0.15371166914701462
+      }
+    }
+  },
+  "development_site_coverage": {
+    "focal_occurrences": 146,
+    "supported_site_occurrences": 72
+  },
+  "reserved_test": null,
+  "actual_hindi_error_accuracy": null,
+  "actual_prosody_error_accuracy": null,
+  "limits": [
+    "Physical source provenance is known; actual realized phone correctness is not supplied by source identity.",
+    "No hidden speech embeddings used; phone posteriors can still retain voice/codec cues.",
+    "Exact unsupported dental/aspirated paths remain unavailable; temporal central-vowel evidence remains measured separately.",
+    "Prosody branch learns source-related local delivery shifts, not validated Hindi-specific intonation.",
+    "Shared carrier templates and source family; no unseen-generator or real-human Hindi-error accuracy claim."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "files_removed": 63,
+  "logical_bytes_removed": 7836427,
+  "free_before_bytes": 51033800704,
+  "free_after_bytes": 51041755136,
+  "observed_free_delta_bytes": 7954432,
+  "external_workloads_not_isolated": true,
+  "retained": [
+    "README.md",
+    "manifest.json"
+  ],
+  "historical_state_restorable": true
+}

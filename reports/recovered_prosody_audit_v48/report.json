@@ -1,0 +1,140 @@
+{
+  "status": "complete_recovered_prosody_transfer_audit",
+  "created_utc": "2026-11-09T02:16:59.619882+00:00",
+  "model_sha256": "cf46b138ad009c5b133160859a8316d91c7b93784043ea814e327e638341d567",
+  "branch": "prosody_only",
+  "input_dimension": 300,
+  "no_phonetic_or_voice_embedding_inputs": true,
+  "threshold": 0.6751213073730469,
+  "decisions": {
+    "a450/no_source_shift": 849,
+    "a450/source_shift": 275,
+    "real/no_source_shift": 803,
+    "real/source_shift": 332,
+    "swar/source_shift": 263,
+    "swar/no_source_shift": 886,
+    "a450/reference_sensitive": 222,
+    "real/reference_sensitive": 211,
+    "swar/reference_sensitive": 197
+  },
+  "swar_minus_real_median_source_score": -0.03614126890897751,
+  "swar_greater_than_real_fraction": 0.413075780089153,
+  "development_examples": [
+    {
+      "id": "real_yt_yt01_005",
+      "source": "a450",
+      "word_ordinal": 1,
+      "word": "हैन",
+      "content_pass_references": 2,
+      "decision": "no_source_shift",
+      "mean_source_score": 0.4807783514261246
+    },
+    {
+      "id": "real_yt_yt01_005",
+      "source": "real",
+      "word_ordinal": 1,
+      "word": "हैन",
+      "content_pass_references": 2,
+      "decision": "no_source_shift",
+      "mean_source_score": 0.5775529146194458
+    },
+    {
+      "id": "real_yt_yt01_005",
+      "source": "swar",
+      "word_ordinal": 1,
+      "word": "हैन",
+      "content_pass_references": 2,
+      "decision": "no_source_shift",
+      "mean_source_score": 0.5404083430767059
+    },
+    {
+      "id": "real_yt_yt01_008",
+      "source": "a450",
+      "word_ordinal": 1,
+      "word": "किनकि",
+      "content_pass_references": 2,
+      "decision": "reference_sensitive",
+      "mean_source_score": 0.604854628443718
+    },
+    {
+      "id": "real_yt_yt01_008",
+      "source": "real",
+      "word_ordinal": 1,
+      "word": "किनकि",
+      "content_pass_references": 2,
+      "decision": "reference_sensitive",
+      "mean_source_score": 0.6139529943466187
+    },
+    {
+      "id": "real_yt_yt01_008",
+      "source": "swar",
+      "word_ordinal": 1,
+      "word": "किनकि",
+      "content_pass_references": 2,
+      "decision": "reference_sensitive",
+      "mean_source_score": 0.5999952554702759
+    },
+    {
+      "id": "real_yt_yt03_018",
+      "source": "a450",
+      "word_ordinal": 0,
+      "word": "तलको",
+      "content_pass_references": 2,
+      "decision": "reference_sensitive",
+      "mean_source_score": 0.6398580968379974
+    },
+    {
+      "id": "real_yt_yt03_018",
+      "source": "real",
+      "word_ordinal": 0,
+      "word": "तलको",
+      "content_pass_references": 2,
+      "decision": "no_source_shift",
+      "mean_source_score": 0.6146830320358276
+    },
+    {
+      "id": "real_yt_yt03_018",
+      "source": "swar",
+      "word_ordinal": 0,
+      "word": "तलको",
+      "content_pass_references": 2,
+      "decision": "reference_sensitive",
+      "mean_source_score": 0.6570784747600555
+    },
+    {
+      "id": "real_yt_yt05_036",
+      "source": "a450",
+      "word_ordinal": 14,
+      "word": "किनकि",
+      "content_pass_references": 2,
+      "decision": "no_source_shift",
+      "mean_source_score": 0.36533626914024353
+    },
+    {
+      "id": "real_yt_yt05_036",
+      "source": "real",
+      "word_ordinal": 14,
+      "word": "किनकि",
+      "content_pass_references": 2,
+      "decision": "no_source_shift",
+      "mean_source_score": 0.48008131980895996
+    },
+    {
+      "id": "real_yt_yt05_036",
+      "source": "swar",
+      "word_ordinal": 14,
+      "word": "किनकि",
+      "content_pass_references": 2,
+      "decision": "no_source_shift",
+      "mean_source_score": 0.5622345805168152
+    }
+  ],
+  "actual_hindi_error_accuracy": null,
+  "promotion": "not_promoted_source_supervision_is_not_Hindi_prosody_gold",
+  "limits": [
+    "Scores indicate similarity to old teacher/IndicF5 source supervision, never calibrated Hindi intonation errors.",
+    "Recorded-human shifts against generated references expose normal/reference variation, not Native-error false-positive labels.",
+    "Two reference voices and shared word alignment do not establish speaker invariance.",
+    "Phone class/aspiration and discourse context must be handled before attributing pitch changes to Hindi prosody."
+  ]
+}

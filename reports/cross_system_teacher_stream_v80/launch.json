@@ -1,0 +1,18 @@
+{
+  "pid": 94378,
+  "command": [
+    "ssh",
+    "-4",
+    "-o",
+    "BatchMode=yes",
+    "-o",
+    "ConnectTimeout=8",
+    "-o",
+    "UserKnownHostsFile=/Volumes/T9/hindi-detector/runtime/l40_known_hosts_v14",
+    "-o",
+    "StrictHostKeyChecking=yes",
+    "ampixa@khalti-gpu",
+    "cd /home/ampixa/hindi-detector-teacher-f5-v14 && env PYTHONDONTWRITEBYTECODE=1 /home/ampixa/pocket_tts_stage/.venv/bin/python -u -m scripts.stream_cross_system_teacher --plan /home/ampixa/hindi-detector-teacher-f5-v14/plans/cross_system_sentences_v80 --skip-json '[\"cross80_s00_v0\", \"cross80_s00_v1\", \"cross80_s00_v2\", \"cross80_s00_v3\", \"cross80_s01_v0\", \"cross80_s01_v1\", \"cross80_s01_v2\", \"cross80_s01_v3\", \"cross80_s02_v0\", \"cross80_s02_v1\", \"cross80_s02_v2\", \"cross80_s02_v3\", \"cross80_s03_v0\", \"cross80_s03_v1\", \"cross80_s03_v2\", \"cross80_s03_v3\", \"cross80_s04_v0\", \"cross80_s04_v1\", \"cross80_s04_v2\", \"cross80_s04_v3\", \"cross80_s05_v0\", \"cross80_s05_v1\", \"cross80_s05_v2\", \"cross80_s05_v3\", \"cross80_s06_v0\", \"cross80_s06_v1\", \"cross80_s06_v2\", \"cross80_s06_v3\", \"cross80_s07_v0\", \"cross80_s07_v1\", \"cross80_s07_v2\", \"cross80_s07_v3\", \"cross80_s08_v0\", \"cross80_s08_v1\", \"cross80_s08_v2\", \"cross80_s08_v3\", \"cross80_s09_v0\", \"cross80_s09_v1\", \"cross80_s09_v2\", \"cross80_s09_v3\", \"cross80_s10_v0\", \"cross80_s10_v1\", \"cross80_s10_v2\", \"cross80_s10_v3\", \"cross80_s11_v0\", \"cross80_s11_v1\", \"cross80_s11_v2\", \"cross80_s11_v3\", \"cross80_s12_v0\", \"cross80_s12_v1\", \"cross80_s12_v2\", \"cross80_s12_v3\", \"cross80_s13_v0\", \"cross80_s13_v1\", \"cross80_s13_v2\", \"cross80_s13_v3\", \"cross80_s14_v0\", \"cross80_s14_v1\", \"cross80_s14_v2\", \"cross80_s14_v3\", \"cross80_s15_v0\", \"cross80_s15_v1\", \"cross80_s15_v2\", \"cross80_s15_v3\", \"cross80_s16_v0\", \"cross80_s16_v1\", \"cross80_s16_v2\", \"cross80_s16_v3\", \"cross80_s17_v0\", \"cross80_s17_v1\", \"cross80_s17_v2\", \"cross80_s17_v3\", \"cross80_s18_v0\", \"cross80_s18_v1\"]'"
+  ],
+  "created_utc": "2026-11-09T09:07:19.683596+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "reviewed_utc": "2026-11-09T13:53:40.711790+00:00",
+  "actual_reviewer_model": [
+    "claude-opus-5-5[1m]"
+  ],
+  "verdict": "GO after small pre-fit checks; no architecture redesign requested.",
+  "verified_dispositions": {
+    "B1": "Trainer filters measured rows and asserts exact array_index/label alignment before CV/pair/weight helpers; already implemented.",
+    "B2": "Pooled OOF operating point and all-attempted positive/negative denominators already implemented; added fixed40-60ms strata gate before fit.",
+    "B3": "Verified anchored_vowels stores absolute gap_start/end_frame and crop-relative native_focal_span. Added real v71 metadata fixture, reject out-of-word hint instead of clipping, retain abstentions.",
+    "processing": "Verified S0 uses same PCM splice and S2 uses WORLD. Pair checks share original/WORLD processing base; operations still differ at joins, explicitly not proof against splice artifacts.",
+    "extra_checks": "Relative80dB floor, query-only evidence denylist/extractor pin, duration-only baseline, fallback rates. Reviewed float32 cache avoids train/inference quantization mismatch."
+  },
+  "corrections": [
+    "The reviewer had not seen the trainer; B1 and pooled-CV/denominator parts of B2 were already satisfied.",
+    "Taking the maximum of family thresholds does not increase the calibration flag rate; it is at least as conservative for each family. Small-sample/generalization uncertainty still applies."
+  ],
+  "scope": "Physical contrast training only; live model unchanged, no Swar/v80 labels/audio fitted. No claimed isolated raw-acoustic effect or real Hindi-error accuracy."
+}

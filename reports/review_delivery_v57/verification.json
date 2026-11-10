@@ -1,0 +1,189 @@
+{
+  "created_utc": "2026-11-09T03:08:21.541271+00:00",
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "model_bytes": 22824,
+  "service_pid_command": "44652 /Volumes/T9/hindi-detector/.venv-indicf5/bin/python -u -m hindi_detector.wordlab_server --pack /Volumes/T9/hindi-detector/data/indicf5_audio8_v1 --pack /Volumes/T9/hindi-detector/data/pocket_architecture_probe_v3 --pack /Volumes/T9/hindi-detector/data/human_g2p_bank_v5 --pack /Volumes/T9/hindi-detector/data/wordmatrix_v3 --pack /Volumes/T9/hindi-detector/data/pocket_wordmatrix_v4 --page /Volumes/T9/hindi-detector/review/wordlab.html --data /Volumes/T9/hindi-detector/review/human_word_data_v8 --port 8770",
+  "pages": {
+    "/": {
+      "status": 200,
+      "bytes": 24789,
+      "sha256": "c37a73eb82dc2dc48c900ab7a36af877e0c23c26e173cc2998dfcc0035cf635b"
+    },
+    "/progress": {
+      "status": 200,
+      "bytes": 24789,
+      "sha256": "c37a73eb82dc2dc48c900ab7a36af877e0c23c26e173cc2998dfcc0035cf635b"
+    },
+    "/swar": {
+      "status": 200,
+      "bytes": 24789,
+      "sha256": "c37a73eb82dc2dc48c900ab7a36af877e0c23c26e173cc2998dfcc0035cf635b"
+    }
+  },
+  "api_cases": 96,
+  "scored_cases": 90,
+  "swar_word_flags": 21,
+  "teacher_replicated_candidates": 9,
+  "supported_word_positions": [
+    260,
+    1433
+  ],
+  "unit_tests_passed": 160,
+  "browser": {
+    "desktop": [
+      1440,
+      1100
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "no_horizontal_overflow": true,
+    "numeric_original_and_expanded_search": true,
+    "new_060_two_qualified_readings": true,
+    "new_069_three_qualified_readings": true,
+    "new_word_replay_seekable": [
+      0,
+      6.955
+    ],
+    "new_word_replay_end_observed": 2.766362,
+    "new_word_replay_paused": true,
+    "no_playback_notice": true,
+    "known2_development_flags_retained": true,
+    "console_errors": 0,
+    "note": "Initial evaluate raced HTML copy and saw prior document; re-navigation after delivery passed. Not an application failure."
+  },
+  "storage_groups": [
+    {
+      "path": "data/prosody_transfer_v49",
+      "bytes": 29568305,
+      "files": 195,
+      "inventory_sha256": "fb120edcf82a2c90c0f6c20661157c2c5e1cad4bf938604b7936f8b9214e92e3"
+    },
+    {
+      "path": "reports/recovered_prosody_audit_v48",
+      "bytes": 4533169,
+      "files": 7,
+      "inventory_sha256": "7825a27930e3eb0b833d2838255fb007200c3853026ead26d1afd657c072c7e8"
+    },
+    {
+      "path": "reports/prosody_native_donor_synthesis_v49",
+      "bytes": 17490,
+      "files": 9,
+      "inventory_sha256": "96027c4c79db83f173787992723e1d835a6ce5d8fd993cafbe1dc225be3ca7cb"
+    },
+    {
+      "path": "reports/prosody_native_donor_features_v49",
+      "bytes": 38820798,
+      "files": 336,
+      "inventory_sha256": "de9b55a6762a2479ebe12a867b133c76a1275bf0ec1e5934699a5e7a38c2a60e"
+    },
+    {
+      "path": "reports/prosody_native_donor_content_v49",
+      "bytes": 310502,
+      "files": 4,
+      "inventory_sha256": "65aa4c21452263feecbf51752a8e5a07a3ca8abdf68f36fe73fd792f983c08e8"
+    },
+    {
+      "path": "reports/prosody_interventions_v49",
+      "bytes": 115860607,
+      "files": 1158,
+      "inventory_sha256": "44c1c85030fd2842d2bbcb1ec9a7da59aad4fc5af6bc5cc8c83efe7c8680ab1c"
+    },
+    {
+      "path": "reports/prosody_transfer_training_v49",
+      "bytes": 240567,
+      "files": 9,
+      "inventory_sha256": "c245ff7e9611092b54e9e015f3b53ebd11cde06d67d51f266d94f2e9fefe0c31"
+    },
+    {
+      "path": "reports/prosody_direction_development_v50",
+      "bytes": 246054,
+      "files": 9,
+      "inventory_sha256": "7fca251a4ce64bf670c228a25af73e7dc49068587358fd90c32426f809aff49c"
+    },
+    {
+      "path": "reports/rhythm_interventions_v51",
+      "bytes": 84645024,
+      "files": 1145,
+      "inventory_sha256": "931816888044a70dd32afa1d149a3f71e42ba93bc5d10e171dbde0ff86d0d181"
+    },
+    {
+      "path": "reports/rhythm_launch_v51",
+      "bytes": 51298,
+      "files": 8,
+      "inventory_sha256": "74a5062face657fa33d0d7f908fb6d494ac6e894188f76714f72ef9eff48cbb7"
+    },
+    {
+      "path": "reports/rhythm_interventions_v52",
+      "bytes": 126996976,
+      "files": 1661,
+      "inventory_sha256": "a998d4c930ea723b7a4da8d1e9deabae519e4f0f6c21c083839dcab79ee52dca"
+    },
+    {
+      "path": "reports/rhythm_launch_v52",
+      "bytes": 19855,
+      "files": 8,
+      "inventory_sha256": "70f32db51539f1a902336d23454f851016652e6aff1153b5bb5332b585760dd4"
+    },
+    {
+      "path": "reports/rhythm_transfer_training_v52",
+      "bytes": 211483,
+      "files": 9,
+      "inventory_sha256": "db93c7a94b631594342a86a54486e2bd4f327b6f07ac74cf974a0a70cfcd61a9"
+    },
+    {
+      "path": "reports/numeric_swar_content_v53",
+      "bytes": 135987,
+      "files": 7,
+      "inventory_sha256": "6c65d3c16064bbb432dc20de6616a016d9d747acb66d9da9d6f3abb9cd04ac70"
+    },
+    {
+      "path": "reports/numeric_swar_expansions_v54",
+      "bytes": 3938694,
+      "files": 53,
+      "inventory_sha256": "56c6904e9416079d7e7dcef8412576332d6e754d2e250ecb45a7ff04831fb305"
+    },
+    {
+      "path": "reports/numeric_teacher_check_v54",
+      "bytes": 735068,
+      "files": 4,
+      "inventory_sha256": "5484de870e3738dd1abffd573dd3d14a967d5bddb0d17caa7c7a53de56c937a6"
+    },
+    {
+      "path": "reports/prosody_admission_v55",
+      "bytes": 8721,
+      "files": 4,
+      "inventory_sha256": "d33861274e86eee12df57b66e6c5a1d0446df5d5467f2cebe98525e4a5b2b68c"
+    },
+    {
+      "path": "reports/review_amendment_v56",
+      "bytes": 135141,
+      "files": 9,
+      "inventory_sha256": "3b452db2e9a4fac7274d138becd3dc1db2bdfc8a1bb30daf14394452eb61bb22"
+    },
+    {
+      "path": "reports/review_delivery_v57",
+      "bytes": 31888,
+      "files": 5,
+      "inventory_sha256": "b88083b45e4edc9a2fb825662780f4e8e30a182792f6830937075e8970001eeb"
+    },
+    {
+      "path": "reports/prosody_transfer_launch_v49",
+      "bytes": 50265,
+      "files": 23,
+      "inventory_sha256": "23784e0228063f59caf644ac3fdd0987915160fa86847a60819e3059aba4c43b"
+    }
+  ],
+  "k2_free_bytes": 230731878400,
+  "files_removed": 0,
+  "space_reclaimed_bytes": 0,
+  "limits": [
+    "No general real Hindi-error accuracy is established.",
+    "Failed prosody candidates remain excluded.",
+    "New numeric word flag lacks qualified teacher corroboration.",
+    "No public site changes/messages/HF uploads."
+  ]
+}

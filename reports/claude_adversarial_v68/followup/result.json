@@ -1,0 +1,97 @@
+{
+  "duration_api_ms": 221750,
+  "stop_reason": "end_turn",
+  "session_id": "893b7d9a-8f5b-481e-bee2-00ed31fdfb94",
+  "total_cost_usd": 0.7151020000000001,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 36038,
+    "cache_read_input_tokens": 2350,
+    "output_tokens": 21316,
+    "output_tokens_details": {
+      "thinking_tokens": 17803
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 36038,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 21316,
+        "cache_read_input_tokens": 2350,
+        "cache_creation_input_tokens": 36038,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 36038
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-opus-5-5[1m]": {
+      "inputTokens": 2,
+      "outputTokens": 21316,
+      "cacheReadInputTokens": 2350,
+      "cacheCreationInputTokens": 36038,
+      "webSearchRequests": 0,
+      "costUSD": 0.7151020000000001,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 17803,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "# Follow-up review: local exact-CTC head, control builder and fit recipe\n\n**Bottom line:** The exact CTC is mathematically sound, and eligibility uses only the unedited source, so there is no outcome selection. Three defects in the control design still block fitting:\n1. The union region removes consonant edges, so positives arrive with degenerate (censored) features and damaged anchors.\n2. The WORLD vocoder appears only in negatives.\n3. Eligibility filters on the same features that S_original is later scored with, so S_original's false-flag rate looks good by construction.\n\nNone of the three blocks the pilot control build or raw generation.\n\nI did not run anything or consult the advisor, since you asked for no tools. **E** means I read it in the supplied source; **I** means it is my inference and needs a check.\n\n## Corrections to my previous review\n\n- **P0-8 (SHA):** wrong. `require_pair` asserts both approved hashes (E). The quota and cap issue is also fixed: the cap is now 512 and each cause has its own quota.\n- **P0-9 (Allosaurus ids):** resolved. `padded[:,4:] = values[:,1:]` and `index+3` stay consistent, so no real phones are dropped (E).\n- **P0-7 (CTC skip):** my fix was wrong. Forbidding the skip whenever sets overlap would reject valid paths with different tokens. Your token-state version is the correct construction.\n\n## 1. Exact CTC (`exact_phone_ctc.py`): valid\n\n- **Forward pass (E):**\n  - Each unit is a set of token states with no transitions between them, so the token cannot change within a phone.\n  - A blank is reached only from the previous unit. A skip from unit i−1 to unit i is allowed only when the token differs: `_without_each` gives the log-sum of all states except the matching token.\n  - Every concrete label sequence with its alignment maps to exactly one lattice path, so the score equals the sum of CTC likelihoods over U₁×…×Uₙ. That matches what your enumeration test checks.\n- **Viterbi trace (E):** the top/second-best skip parent, the single-element case, the blank parent and the backtrace are all correct. Spans are contiguous by construction.\n- **Non-blocking test gaps:**\n  - The marginal test checks against the legacy `log_likelihood`, not against an independent ground truth. Add a brute-force log-sum over all frame routes (the same loop as your Viterbi test).\n  - Run the exhaustive-Viterbi test over `[{1,2},{1,2}]`, `[{2},{2,3}]`, three units and several seeds, not one case.\n\n## 2. Blocking defects (fix before fitting)\n\n**B1. The union region over-removes, and positives become censored and anchor-damaged.** (E, with consequence I)\n- The \"gap\" runs from the end of the left consonant's peak span to the start of the right one. CTC spans are peaky (1–2 frames), so the gap contains consonant release, VOT and closure as well as the vowel.\n- Taking the union across probes (`min` start, `max` end, with up to 40 ms disagreement) can cut into one probe's consonant span.\n- Consequences:\n  - At query time the deletion-path anchors then become adjacent, so most P1 rows will likely hit `gap_available=0`. That forces margin = +30, native_fit = −30, mass = peak = 0.\n  - Anchor-emission features drop only in P1.\n  - A linear head can separate P1 by \"gap exists\" or \"anchor damaged\", which says nothing about natural deletion, where both consonants are kept.\n- Minimal fix:\n  - Make the training P1 region the **intersection** of the two probes' gaps, required to contain both focal spans, and tighten the agreement limit to ≤20 ms.\n  - Keep the union as a test-only P1u variant.\n  - Clip margins to a predeclared range (for example ±10) so the censor value cannot dominate standardisation.\n  - Before fitting, report the fraction of P1 rows with `gap_available=0` and the per-family anchor-emission shift (P1 vs S0). If P1's anchors differ from S0's, drop the two anchor features from the decision head and keep them as diagnostics.\n\n**B2. The WORLD vocoder appears only in negatives.** (E)\n- S_world and S2 are vocoded; P1 never is. The head can learn \"vocoded → negative\", which makes S2 (the key duration-vs-presence control) easy for the wrong reason.\n- Minimal fix: add **P1w = `splice(world_original, start, end, empty)`**. WORLD keeps timing, so the region is unchanged. Train with it as a positive, and compare S2 and S_world against P1w.\n- Otherwise, move S_world and S2 to test-only.\n\n**B3. S_original specificity is circular.** (E)\n- Eligibility requires `features[2] < 0`, focal emission > −1.5 and ownership ≥ 0.5, computed from the same feature function on the same audio.\n- S_original's low scores therefore come largely from that filter, and a dev 99th percentile set on filtered negatives will be too low for real clips with reduced vowels.\n- Minimal fix:\n  - Score **every** canonical render through the live path (including ineligible ones; no region is needed) and report it as a separate unfiltered family, S_all.\n  - Do the same for every edited render (R).\n  - Set the threshold at the 99th percentile of the **hardest** negative family (S0, S2 or S_all, predeclared), not on all non-deletion rows pooled. Pooling in trivial families (S1 and S_original) pulls the effective percentile down.\n\n**B4. The frame-duration convention differs between source and query.** (E)\n- The source uses `item['phone_frame_seconds']`. The query uses `len(wave)/16000/len(log_probs)`. For wav2vec2 framing these differ by about 1%, which is roughly one frame of crop drift over 1.5–2 s.\n- Fix: use one function for both, and make it the one the live scorer uses.\n- Test: S_original's features computed through production must equal the eligibility features within a stated tolerance. This also checks that the frames directory matches the production encoders.\n\n## 3. Other checks on the new code\n\n- **No outcome selection (E):** all exclusions happen before any waveform is written. S1 and S2 membership depends only on source geometry. After-edit `ValueError`s become abstentions, and `record.update` runs before the measurement, so abstention rows keep their audio SHA.\n  - Compare P1 against S2 only on the ≥80 ms subset where S2 exists.\n- **Greedy optional-unit pruning (E):** it reads the query, but it scores both hypotheses symmetrically and protects both anchors. That's acceptable, and it should be logged in the evidence, which it already is.\n- **Plan builder (E):**\n  - Swar words from `cases.json` are excluded **only** when a consonant table is active (`--allow-` or `--unknown-consonant-context`). Assert that the exclusion set contains all 96 Swar words, whatever flags are used.\n  - Exclusion checks only the surface form `word`. Also check edited and canonical phone strings against Swar and prior-test phone strings.\n- **Bulk cost:** nothing in this fit consumes the 96 quality lexemes or the train/dev edited (c1) renders. Drop the quality lexemes unless a quality consumer exists. The c1 renders are only needed for test R (dev R is optional diagnostics).\n\n## 4. Fit recipe and denominators\n\n- **Grouped CV is valid:** the validation cell is (fold k ∧ voice v) and training excludes (fold k ∨ voice v). Requirements:\n  - Assign folds by `phone_collision_group`, not lexeme.\n  - Assert that all families of a source share one cell.\n  - Assert there is no group or voice overlap within any cell.\n  - Choose λ and the head (local24, primary12 or secondary12) from pooled out-of-fold scores only.\n- **Weighting is valid:** equal weight per lexeme, with each source's negative families sharing unit weight.\n- **Denominators:**\n  - Complete-case plus all-attempted reporting is valid.\n  - A positive abstention counts as a miss.\n  - For negative abstentions, report rate per family and keep them out of the specificity numerator rather than counting them as correct rejections. A label-skewed abstention rate is a finding in itself.\n- **Confidence intervals:** cluster bootstrap by collision group, with per-voice breakdown (n = 4 voices). At roughly 72 test lexemes × 4 voices × yield, 0 false flags gives an upper bound near 4% only if yield is ≥30%.\n- **Required baselines on test:**\n  - single-feature thresholds on `gap_available` and `gap_deletion_margin_mean`;\n  - within-source label permutation, which should score at chance.\n\n  If the 24-feature head does not beat the single-feature baselines, report that it adds nothing.\n\n## 5. Tests that must pass before fitting\n\n1. S_original production features equal eligibility features; the dt convention matches the live scorer (B4).\n2. Distribution report: P1 `gap_available`, and P1 vs S0 anchor emission (B1).\n3. P1w is built; vocoder balance holds across labels (B2).\n4. Fold and pair index assertions plus a row-shuffle invariance test (as you planned).\n5. Exclusion-set count and phone-collision assertion.\n6. The extra CTC tests in §1 (cheap).\n\n## Go/no-go\n\n| Stage | Decision |\n|---|---|\n| Pilot control build and yield report | **Go**, after the B4 dt fix. Yield is source-only and unaffected by B1–B3. |\n| Bulk raw generation | **Go** once the pilot yield supports the size and the exclusion assertion passes. Drop the optional quality lexemes and keep c1 renders for test only unless a consumer exists. Region and family fixes happen after generation. |\n| Fit | **No-go** until B1–B4 are fixed and the tests in §5 pass. |\n| Test open | **Once**, after the code, data, head and threshold hashes are frozen on k2 and copied to cdjk. Gates: predeclared S_all, S2 vs P1w and R requested-deletion rates. |\n| Promotion | **No-go** until those gates pass. v66 stays untested and shadow-only. Human labels are needed only before claiming real-error precision. |",
+  "ttft_ms": 190197,
+  "type": "result",
+  "duration_ms": 221798,
+  "uuid": "ffef8f83-0dd8-469b-8871-328f681b3818",
+  "ttft_stream_ms": 2628,
+  "time_to_request_ms": 24,
+  "first_content_frame_ms": 2629,
+  "queued_turn_count": 0,
+  "result_index": 0
+}

@@ -1,0 +1,234 @@
+{
+  "status": "trained_anchored_source_proxy_not_validated_hindi_leakage",
+  "machine": "k2 Apple M2 Ultra CPU; frozen features, no L40S job",
+  "selected_recipe": {
+    "representation": "layer24",
+    "l2": 0.1,
+    "mean_grouped_cv_log_loss": 0.4401854403061116,
+    "fold_losses": [
+      0.4425636214520077,
+      0.3156236562132167,
+      0.5623690432531105
+    ],
+    "solver_checks": [
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 57,
+        "objective": 0.06445684744606937,
+        "gradient_inf_norm": 8.54808306052085e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 70,
+        "objective": 0.07615934698656256,
+        "gradient_inf_norm": 4.0077250033568193e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 69,
+        "objective": 0.06818404941437517,
+        "gradient_inf_norm": 2.4068965651146204e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      }
+    ]
+  },
+  "candidate_count": 12,
+  "threshold": 0.5,
+  "test_used_for_selection": false,
+  "training": {
+    "views": 216,
+    "parent_clips": 72,
+    "speaker_groups": 12
+  },
+  "development": {
+    "views": 72,
+    "parent_clips": 24,
+    "source_proxy_metrics_full": {
+      "n": 16,
+      "positive_labels": 8,
+      "negative_labels": 8,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "tn": 8,
+      "precision": 1.0,
+      "recall": 1.0,
+      "false_positive_rate": 0.0,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "brier": 0.019927043712563514
+    },
+    "score_distributions_full": {
+      "audio8_r3": {
+        "n": 8,
+        "high_score_count": 0,
+        "median": 0.01471990257190071,
+        "mean": 0.025981498681071462
+      },
+      "indicf5_stock": {
+        "n": 8,
+        "high_score_count": 8,
+        "median": 0.9034563664425954,
+        "mean": 0.8468947545583283
+      },
+      "native_recording": {
+        "n": 8,
+        "high_score_count": 0,
+        "median": 0.1229672141433826,
+        "mean": 0.17322438497523557
+      }
+    }
+  },
+  "previously_inspected_benchmark": {
+    "v1_source_proxy_metrics": {
+      "n": 48,
+      "positive_labels": 24,
+      "negative_labels": 24,
+      "tp": 16,
+      "fp": 5,
+      "fn": 8,
+      "tn": 19,
+      "precision": 0.7619047619047619,
+      "recall": 0.6666666666666666,
+      "false_positive_rate": 0.20833333333333334,
+      "accuracy": 0.7291666666666666,
+      "balanced_accuracy": 0.7291666666666666,
+      "brier": 0.24410092472664713
+    },
+    "v2_source_proxy_metrics": {
+      "n": 48,
+      "positive_labels": 24,
+      "negative_labels": 24,
+      "tp": 17,
+      "fp": 9,
+      "fn": 7,
+      "tn": 15,
+      "precision": 0.6538461538461539,
+      "recall": 0.7083333333333334,
+      "false_positive_rate": 0.375,
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6666666666666667,
+      "brier": 0.2496066150354769
+    },
+    "v1_controls": {
+      "audio8_dpo_R2": {
+        "n": 24,
+        "high_score_count": 6,
+        "median": 1.5574476088860193e-05,
+        "mean": 0.2555001580895677
+      },
+      "audio8_r3": {
+        "n": 24,
+        "high_score_count": 5,
+        "median": 0.00011315393300733311,
+        "mean": 0.21524164984201385
+      },
+      "indicf5_stock": {
+        "n": 24,
+        "high_score_count": 16,
+        "median": 0.9989742906931488,
+        "mean": 0.6885843262951422
+      },
+      "native_recording": {
+        "n": 24,
+        "high_score_count": 11,
+        "median": 0.05362344567517117,
+        "mean": 0.44089650721278195
+      }
+    },
+    "v2_controls": {
+      "audio8_dpo_R2": {
+        "n": 24,
+        "high_score_count": 11,
+        "median": 0.39934232837538064,
+        "mean": 0.4364404322423289
+      },
+      "audio8_r3": {
+        "n": 24,
+        "high_score_count": 9,
+        "median": 0.24522782740086985,
+        "mean": 0.40708191968265384
+      },
+      "indicf5_stock": {
+        "n": 24,
+        "high_score_count": 17,
+        "median": 0.9194361857146338,
+        "mean": 0.7281166557041437
+      },
+      "native_recording": {
+        "n": 24,
+        "high_score_count": 7,
+        "median": 0.2411794892795396,
+        "mean": 0.37146573877005035
+      }
+    },
+    "v2_pair_ordering": {
+      "audio8_r3": {
+        "pairs": 24,
+        "indicf5_above_negative_count": 20
+      },
+      "native_recording": {
+        "pairs": 24,
+        "indicf5_above_negative_count": 19
+      }
+    }
+  },
+  "fresh_native_negative_proxy_probe": {
+    "speaker_groups": 32,
+    "v1": {
+      "full": {
+        "n": 32,
+        "high_score_count": 20,
+        "flag_rate": 0.625,
+        "wilson95_for_proxy_flag_rate": [
+          0.4525440735307745,
+          0.7706611269054578
+        ]
+      },
+      "short_1p5": {
+        "n": 32,
+        "high_score_count": 20,
+        "flag_rate": 0.625,
+        "wilson95_for_proxy_flag_rate": [
+          0.4525440735307745,
+          0.7706611269054578
+        ]
+      }
+    },
+    "v2": {
+      "full": {
+        "n": 32,
+        "high_score_count": 4,
+        "flag_rate": 0.125,
+        "wilson95_for_proxy_flag_rate": [
+          0.04970134387480073,
+          0.2806830548165022
+        ]
+      },
+      "short_1p5": {
+        "n": 32,
+        "high_score_count": 11,
+        "flag_rate": 0.34375,
+        "wilson95_for_proxy_flag_rate": [
+          0.20410437924433172,
+          0.5168891202103778
+        ]
+      }
+    }
+  },
+  "human_label_events_used": 0,
+  "verified_hindi_leakage_accuracy": null,
+  "limitations": [
+    "Source labels and native negative anchors are weak assumptions; no human accent gold was invented.",
+    "The original benchmark was inspected during v1 development. Its v2 comparison is exploratory, not pristine test accuracy.",
+    "The fresh probe tests only native negative proxies, not Hindi-like sensitivity or unseen-TTS architecture generalization.",
+    "Full and cropped views share parents; group identities stay together and per-view-stratum uncertainty uses 32 distinct source groups.",
+    "A classifier may still learn synthesizer/channel cues. No schwa localization or causal Hindi checkpoint attribution is established.",
+    "Cross-corpus real-person identity and upstream model training-text exposure remain unverified."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "candidate_trained_reliability_unvalidated",
+  "generated_clips": 1024,
+  "report": "reports/pocket_crossed_models_v4/report.json",
+  "reliable_automatic_detector": false,
+  "remaining": "Independent native false-alarm and actual word/prosody-error validation; source role accuracy is insufficient.",
+  "updated_utc": "2026-11-07T11:09:52.193275+00:00",
+  "pid": 32344
+}

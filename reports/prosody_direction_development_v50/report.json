@@ -1,0 +1,38 @@
+{
+  "status": "complete_train_dev_only_direction_baseline",
+  "best_epoch": 34,
+  "high": 0.7878989441490173,
+  "train": {
+    "positive_count": 92,
+    "negative_count": 184,
+    "true_positive": 0,
+    "false_positive": 0,
+    "recall": 0.0,
+    "specificity": 1.0,
+    "balanced_accuracy": 0.5,
+    "actual_hindi_error_accuracy": null
+  },
+  "development": {
+    "positive_count": 24,
+    "negative_count": 48,
+    "true_positive": 0,
+    "false_positive": 0,
+    "recall": 0.0,
+    "specificity": 1.0,
+    "balanced_accuracy": 0.5,
+    "actual_hindi_error_accuracy": null
+  },
+  "development_at_point5": {
+    "positive_count": 24,
+    "negative_count": 48,
+    "true_positive": 11,
+    "false_positive": 28,
+    "recall": 0.4583333333333333,
+    "specificity": 0.4166666666666667,
+    "balanced_accuracy": 0.4375,
+    "actual_hindi_error_accuracy": null
+  },
+  "test_policy": "No v49 reserved arrays loaded; new formulation requires newly generated untouched word families before reporting a held-out result.",
+  "actual_hindi_error_accuracy": null,
+  "promotion": "not_promoted_reference_conditioning_is_not_error_gold"
+}

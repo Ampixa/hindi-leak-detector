@@ -1,0 +1,24 @@
+{
+  "recovered_texts": 7,
+  "recovered_ids": [
+    "night11_1819a5fe1a857452fc9b",
+    "night11_1f7a39e10e0426ab8dda",
+    "night11_1fb20b204bf7ed159c99",
+    "night11_354e0cf53cd96fc78e77",
+    "night11_35bd0a955b9a8a72355c",
+    "night11_3806b07b990eec6dc82c",
+    "night11_3ea527a33c6147063e80"
+  ],
+  "original_feature_errors_retained": true,
+  "encoder_policy": "Each recovered quartet and physical pair entirely CPU; other groups original MPS.",
+  "boundary_quarantines": [
+    {
+      "text_id": "night11_d4b835f23d35422c596b",
+      "reason": "inspected zero-context word boundary interrupted original run",
+      "status": "quarantined_not_error_label"
+    }
+  ],
+  "physical_content_quarantines": 5,
+  "final_model_sha256": "cf46b138ad009c5b133160859a8316d91c7b93784043ea814e327e638341d567",
+  "previous_failures": "/Volumes/T9/hindi-detector/reports/corrected_training_v16/recovery_v17/previous_failure_states.json"
+}

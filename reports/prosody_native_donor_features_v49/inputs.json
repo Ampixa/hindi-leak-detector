@@ -1,0 +1,8 @@
+{
+  "plan_sha256": "764feaa6e6362851755c45c830286524c4fcc20eb2bbdc420457dbec69ec03d1",
+  "controller": "/Volumes/T9/hindi-detector/reports/prosody_native_donor_synthesis_v49",
+  "namespace": "prosody_transfer_v49",
+  "requested_jobs": 164,
+  "secondary_model": false,
+  "policy": "Generated classes are requests, not observed phonetic gold. Canonical analysis text is explicit and distinct from edited synthesis text."
+}

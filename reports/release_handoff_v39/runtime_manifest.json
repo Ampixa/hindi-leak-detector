@@ -1,0 +1,422 @@
+{
+  "schema": "release_runtime_inventory_v39",
+  "created_utc": "2026-11-09T01:43:24.698907+00:00",
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "original_host": "k2",
+  "project_root": "/Volumes/T9/hindi-detector",
+  "status": "active",
+  "next_review": "2026-11-10",
+  "consumer": "Runnable frozen word detector and private Swar review",
+  "model": {
+    "path": "reports/task_vowel_release_v31/model.pt",
+    "bytes": 22824,
+    "sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+    "schema": "task_vowel_v30",
+    "release_id": "task_vowel_release_v31",
+    "heads": {
+      "vowel_deletion": {
+        "parameters": 945,
+        "architecture": "mlp16",
+        "feature_mode": "secondary57",
+        "origin": "task_specific_corrected_fit",
+        "operating_points": {
+          "high": 0.5,
+          "low": 0.2,
+          "development_negatives": 87
+        }
+      },
+      "vowel_quality": {
+        "parameters": 945,
+        "architecture": "mlp16",
+        "feature_mode": "primary57",
+        "origin": "development_regression_fallback/paired_local_detector_v27",
+        "operating_points": {
+          "high": 0.5,
+          "low": 0.2,
+          "development_negatives": 60
+        }
+      }
+    }
+  },
+  "features": [
+    "primary_query_margin_mean",
+    "primary_query_margin_median",
+    "primary_query_margin_min",
+    "primary_query_margin_max",
+    "primary_query_margin_std",
+    "primary_reference_margin_mean",
+    "primary_reference_margin_min",
+    "primary_reference_margin_max",
+    "primary_relative_margin_mean",
+    "primary_relative_margin_min",
+    "primary_relative_margin_max",
+    "primary_relative_margin_std",
+    "primary_query_target_fit",
+    "primary_query_alternative_fit",
+    "primary_positive_margin_fraction",
+    "primary_above_reference_fraction",
+    "primary_is_vowel_deletion",
+    "primary_is_vowel_quality",
+    "primary_query_native_site_log_emission",
+    "primary_query_alternative_site_log_emission",
+    "primary_query_native_site_conditional_mass",
+    "primary_query_alternative_site_conditional_mass",
+    "primary_query_native_site_frame_fraction",
+    "primary_query_left_anchor_log_emission",
+    "primary_query_right_anchor_log_emission",
+    "primary_query_left_anchor_available",
+    "primary_query_right_anchor_available",
+    "primary_query_gap_vowel_mass",
+    "primary_query_gap_vowel_peak",
+    "primary_query_gap_word_fraction",
+    "primary_query_gap_available",
+    "primary_reference_native_site_log_emission",
+    "primary_reference_alternative_site_log_emission",
+    "primary_reference_native_site_conditional_mass",
+    "primary_reference_alternative_site_conditional_mass",
+    "primary_reference_native_site_frame_fraction",
+    "primary_reference_left_anchor_log_emission",
+    "primary_reference_right_anchor_log_emission",
+    "primary_reference_left_anchor_available",
+    "primary_reference_right_anchor_available",
+    "primary_reference_gap_vowel_mass",
+    "primary_reference_gap_vowel_peak",
+    "primary_reference_gap_word_fraction",
+    "primary_reference_gap_available",
+    "primary_delta_native_site_log_emission",
+    "primary_delta_alternative_site_log_emission",
+    "primary_delta_native_site_conditional_mass",
+    "primary_delta_alternative_site_conditional_mass",
+    "primary_delta_native_site_frame_fraction",
+    "primary_delta_left_anchor_log_emission",
+    "primary_delta_right_anchor_log_emission",
+    "primary_delta_left_anchor_available",
+    "primary_delta_right_anchor_available",
+    "primary_delta_gap_vowel_mass",
+    "primary_delta_gap_vowel_peak",
+    "primary_delta_gap_word_fraction",
+    "primary_delta_gap_available",
+    "secondary_query_margin_mean",
+    "secondary_query_margin_median",
+    "secondary_query_margin_min",
+    "secondary_query_margin_max",
+    "secondary_query_margin_std",
+    "secondary_reference_margin_mean",
+    "secondary_reference_margin_min",
+    "secondary_reference_margin_max",
+    "secondary_relative_margin_mean",
+    "secondary_relative_margin_min",
+    "secondary_relative_margin_max",
+    "secondary_relative_margin_std",
+    "secondary_query_target_fit",
+    "secondary_query_alternative_fit",
+    "secondary_positive_margin_fraction",
+    "secondary_above_reference_fraction",
+    "secondary_is_vowel_deletion",
+    "secondary_is_vowel_quality",
+    "secondary_query_native_site_log_emission",
+    "secondary_query_alternative_site_log_emission",
+    "secondary_query_native_site_conditional_mass",
+    "secondary_query_alternative_site_conditional_mass",
+    "secondary_query_native_site_frame_fraction",
+    "secondary_query_left_anchor_log_emission",
+    "secondary_query_right_anchor_log_emission",
+    "secondary_query_left_anchor_available",
+    "secondary_query_right_anchor_available",
+    "secondary_query_gap_vowel_mass",
+    "secondary_query_gap_vowel_peak",
+    "secondary_query_gap_word_fraction",
+    "secondary_query_gap_available",
+    "secondary_reference_native_site_log_emission",
+    "secondary_reference_alternative_site_log_emission",
+    "secondary_reference_native_site_conditional_mass",
+    "secondary_reference_alternative_site_conditional_mass",
+    "secondary_reference_native_site_frame_fraction",
+    "secondary_reference_left_anchor_log_emission",
+    "secondary_reference_right_anchor_log_emission",
+    "secondary_reference_left_anchor_available",
+    "secondary_reference_right_anchor_available",
+    "secondary_reference_gap_vowel_mass",
+    "secondary_reference_gap_vowel_peak",
+    "secondary_reference_gap_word_fraction",
+    "secondary_reference_gap_available",
+    "secondary_delta_native_site_log_emission",
+    "secondary_delta_alternative_site_log_emission",
+    "secondary_delta_native_site_conditional_mass",
+    "secondary_delta_alternative_site_conditional_mass",
+    "secondary_delta_native_site_frame_fraction",
+    "secondary_delta_left_anchor_log_emission",
+    "secondary_delta_right_anchor_log_emission",
+    "secondary_delta_left_anchor_available",
+    "secondary_delta_right_anchor_available",
+    "secondary_delta_gap_vowel_mass",
+    "secondary_delta_gap_vowel_peak",
+    "secondary_delta_gap_word_fraction",
+    "secondary_delta_gap_available"
+  ],
+  "frozen_phone_checkpoints": {
+    "primary": {
+      "model": "facebook/wav2vec2-xlsr-53-espeak-cv-ft",
+      "revision": "2c733782da5604684829819a5eb744c193fe9398",
+      "created_utc": "2026-11-06T07:39:56.870362+00:00",
+      "host": "Khatra-Dev-Nepals-Mac-Studio.local",
+      "files": [
+        {
+          "path": "config.json",
+          "bytes": 1856,
+          "sha256": "4609fb49b7e1d28aecb2840da1926c40bd915bc6f1120a940afacf7159bbfb13"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "bytes": 212,
+          "sha256": "a2254a5b58f72cd4de3632f8eee64f3f098b7c1402128d2f419e7d00ae13e335"
+        },
+        {
+          "path": "vocab.json",
+          "bytes": 4637,
+          "sha256": "d732ab2456c0c017930001dc9af0b41b3b93d25b2eb9740bf9d925508d7d87d0"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 412,
+          "sha256": "d663833dacef7d29f563e23029d448fe41415dbe5e8e6d5a98b598a5258c18d8"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "bytes": 85,
+          "sha256": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3043,
+          "sha256": "32a058c9a338807e9e237fad17a9f400f67c64ee2e18d71750c912ffbfb9e22b"
+        },
+        {
+          "path": "pytorch_model.bin",
+          "bytes": 1263535127,
+          "sha256": "04366b6c8d24099ef313cf02f0e58d26f5dddfda16edbfc8eb2c713d94a9f551"
+        }
+      ]
+    },
+    "secondary": {
+      "repo": "facebook/wav2vec2-lv-60-espeak-cv-ft",
+      "revision": "ae45363bf3413b374fecd9dc8bc1df0e24c3b7f4",
+      "publisher_licence": "apache-2.0",
+      "files": [
+        {
+          "path": "config.json",
+          "publisher_path": "config.json",
+          "url": "https://huggingface.co/facebook/wav2vec2-lv-60-espeak-cv-ft/resolve/ae45363bf3413b374fecd9dc8bc1df0e24c3b7f4/config.json",
+          "bytes": 1856,
+          "sha256": "4609fb49b7e1d28aecb2840da1926c40bd915bc6f1120a940afacf7159bbfb13",
+          "publisher_lfs_sha256": null
+        },
+        {
+          "path": "preprocessor_config.json",
+          "publisher_path": "preprocessor_config.json",
+          "url": "https://huggingface.co/facebook/wav2vec2-lv-60-espeak-cv-ft/resolve/ae45363bf3413b374fecd9dc8bc1df0e24c3b7f4/preprocessor_config.json",
+          "bytes": 212,
+          "sha256": "a2254a5b58f72cd4de3632f8eee64f3f098b7c1402128d2f419e7d00ae13e335",
+          "publisher_lfs_sha256": null
+        },
+        {
+          "path": "pytorch_model.bin",
+          "publisher_path": "pytorch_model.bin",
+          "url": "https://huggingface.co/facebook/wav2vec2-lv-60-espeak-cv-ft/resolve/ae45363bf3413b374fecd9dc8bc1df0e24c3b7f4/pytorch_model.bin",
+          "bytes": 1263535127,
+          "sha256": "3173bde9e9ce490fa0f989e413c42f25bc1820c020adc1e6b9b87025b3cfcc5e",
+          "publisher_lfs_sha256": "3173bde9e9ce490fa0f989e413c42f25bc1820c020adc1e6b9b87025b3cfcc5e"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "publisher_path": "special_tokens_map.json",
+          "url": "https://huggingface.co/facebook/wav2vec2-lv-60-espeak-cv-ft/resolve/ae45363bf3413b374fecd9dc8bc1df0e24c3b7f4/special_tokens_map.json",
+          "bytes": 85,
+          "sha256": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+          "publisher_lfs_sha256": null
+        },
+        {
+          "path": "tokenizer_config.json",
+          "publisher_path": "tokenizer_config.json",
+          "url": "https://huggingface.co/facebook/wav2vec2-lv-60-espeak-cv-ft/resolve/ae45363bf3413b374fecd9dc8bc1df0e24c3b7f4/tokenizer_config.json",
+          "bytes": 321,
+          "sha256": "1273ec458332cc55226ec596904bae811420755ace7e5d69462b61c4f480b457",
+          "publisher_lfs_sha256": null
+        },
+        {
+          "path": "vocab.json",
+          "publisher_path": "vocab.json",
+          "url": "https://huggingface.co/facebook/wav2vec2-lv-60-espeak-cv-ft/resolve/ae45363bf3413b374fecd9dc8bc1df0e24c3b7f4/vocab.json",
+          "bytes": 4637,
+          "sha256": "d732ab2456c0c017930001dc9af0b41b3b93d25b2eb9740bf9d925508d7d87d0",
+          "publisher_lfs_sha256": null
+        },
+        {
+          "path": "PUBLISHER.md",
+          "publisher_path": "README.md",
+          "url": "https://huggingface.co/facebook/wav2vec2-lv-60-espeak-cv-ft/resolve/ae45363bf3413b374fecd9dc8bc1df0e24c3b7f4/README.md",
+          "bytes": 3035,
+          "sha256": "81a55816a87034bcf0828d6181fa88abad32a0cbfcebc2ebc8b336664b69ba60",
+          "publisher_lfs_sha256": null
+        }
+      ]
+    }
+  },
+  "alignment": {
+    "creator": "Codex GPT-6 /root",
+    "created_utc": "2026-11-07T07:44:05.065420+00:00",
+    "url": "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt",
+    "publisher_revision": null,
+    "publisher_sha256": null,
+    "sha256": "20ef12963ab4924bef49ac4fc7f58ad5da2ee43b2c11bc8c853c9b90ecdbc680",
+    "size_bytes": 1262047414,
+    "file": "model.pt",
+    "torch": "2.6.0",
+    "torchaudio": "2.6.0",
+    "sample_rate": 16000,
+    "dictionary": {
+      "-": 0,
+      "a": 1,
+      "i": 2,
+      "e": 3,
+      "n": 4,
+      "o": 5,
+      "u": 6,
+      "t": 7,
+      "s": 8,
+      "r": 9,
+      "m": 10,
+      "k": 11,
+      "l": 12,
+      "d": 13,
+      "g": 14,
+      "h": 15,
+      "y": 16,
+      "b": 17,
+      "p": 18,
+      "w": 19,
+      "c": 20,
+      "v": 21,
+      "j": 22,
+      "z": 23,
+      "f": 24,
+      "'": 25,
+      "q": 26,
+      "x": 27,
+      "*": 28
+    },
+    "bundle_documentation": "\nTrained on 31K hours of data in 1,130 languages from *Scaling Speech Technology to 1,000+ Languages* :cite:`pratap2023scaling`.\n\nPublished by the authors of *Scaling Speech Technology to 1,000+ Languages* :cite:`pratap2023scaling` under [`CC-BY-NC 4.0 License <https://github.com/facebookresearch/fairseq/tree/100cd91db19bb27277a06a25eb4154c805b10189/examples/mms#license>`__].\n\nPlease refer to :py:class:`torchaudio.pipelines.Wav2Vec2FABundle` for usage details.\n\n.. note::\n\n   Unlike other Wav2Vec2 bundles, this model does not have a token for word boundary (like `|`). This makes the post-processing of alignments slightly different.\n",
+    "uroman": "1.3.1.1",
+    "pyworld": "0.3.5",
+    "use": "Alignment only; not Nepali/Hindi pronunciation truth",
+    "parameters": 315466396
+  },
+  "frozen_numeric_dependency_sha256": {
+    "hindi_detector/task_vowel_detector.py": "8f228b88aebb2ea137576c0de0987de45a9f9d15a260781ed032de66d425825d",
+    "hindi_detector/dual_paired_vowels.py": "5074c492212587a13b22eb1fe8c8d02d848f31b1ca8d4be6b80fca4c287d84d4",
+    "hindi_detector/paired_local_vowels.py": "dfb430bc9287d4381528857149c898309cfb4945eebf0ac30d765f0500250701",
+    "hindi_detector/intrinsic_vowels.py": "3ce154a6c16e512beb0dbf1410c5831182217ad3ba4ff452513c19f3a86c8ab9",
+    "hindi_detector/phone_lattice.py": "d09806c5af55f10165d4ebc8a6ca642548f71dd96bc9fd9ec1062084b3bc839e",
+    "hindi_detector/pronunciation_sites.py": "196478421e43328f46982bb1c5a7893f96bf18472d9be4795a45440b91fcdcb2"
+  },
+  "frontends": {
+    "input_inventory_path": "data/swar_phone_plan_v18/inputs.json",
+    "input_inventory_sha256": "4ee89e0fb6d5fbd2c4ffa7d2ad762e585ea224a53ff611601890f6aeb87cae09",
+    "scope": "Actual pinned Nepali frontend and Hindi eSpeak; Nepal Bhasa/Newa not substituted"
+  },
+  "generation_pair": {
+    "schema": "teacher_indicf5_pair_v14",
+    "systems": {
+      "pocket_teacher_250000_24l": {
+        "host": "khalti-gpu",
+        "weights": "/home/ampixa/pocket_tts_stage/teacher_run_20261002/model.safetensors",
+        "sha256": "2b4636e3aed0e4f2d035630e504be95fc58f494b690a851a91bfe0dd8299516f",
+        "step": 250000,
+        "layers": 24,
+        "source": "/home/ampixa/pocket_tts_stage/pocket-tts",
+        "source_revision": "2f0e24033bf49e8aedcfeb9da2be4fcf2e4cc2c2",
+        "config": "/home/ampixa/pocket_tts_stage/pocket-tts/pocket_tts/config/english_2026-04_24l.yaml",
+        "tokenizer": "/home/ampixa/pocket_tts_stage/model/tokenizer_clean.model",
+        "tokenizer_sha256": "d59424239dac0eeed522a28dabd48e17f523464afbfc50c5ccafa6be79f43122",
+        "inference": {
+          "temperature": 0.3,
+          "n_steps": 1,
+          "cfg_coef": 2.0,
+          "eos_threshold": -1.0,
+          "max_frames": 220,
+          "device": "cuda",
+          "dtype": "float32"
+        }
+      },
+      "indicf5_stock": {
+        "host": "k2",
+        "repo": "ai4bharat/IndicF5",
+        "revision": "fb652a96e508091045890dae5bb99fe511facbcf",
+        "sha256": "ba7f3671180fb7784e24bd1dafc96e729a38ce02e7f6d3877cdef32525a1865c",
+        "model_root": "/Volumes/T9/hindi-detector/models/indicf5",
+        "inference": {
+          "nfe_step": 32,
+          "cfg_strength": 2.0,
+          "sway_sampling_coef": -1.0,
+          "speed": 1.0,
+          "device": "mps"
+        }
+      }
+    },
+    "supersedes": "k2 nepali_v1c step1309 and Pocket Hindi parent roles; old results are historical only",
+    "automatic_pronunciation_labels": null
+  },
+  "python": "3.12.13 (main, Apr 14 2026, 14:33:40) [Clang 22.1.3 ]",
+  "versions": {
+    "torch": "2.6.0",
+    "torchaudio": "2.6.0",
+    "transformers": "4.49.0",
+    "numpy": "1.26.4",
+    "soundfile": "0.14.0",
+    "scipy": "1.17.1",
+    "pyworld": "0.3.5",
+    "uroman": "1.3.1.1"
+  },
+  "cli_sources": [
+    {
+      "path": "scripts/detect_nepali_leakage.py",
+      "bytes": 11135,
+      "sha256": "7bf1aeff591bd1fb0460f25ae51c482e9d05a66d6ed72f30e418b5900cfcaed1"
+    },
+    {
+      "path": "hindi_detector/teacher_reference_cache.py",
+      "bytes": 11551,
+      "sha256": "ebd11df59fb98f585272d7a9735ccb227f194f8595477b7f5cf4957ed16b2c92"
+    },
+    {
+      "path": "hindi_detector/native_observations.py",
+      "bytes": 1686,
+      "sha256": "de19cc2336b7a4ca0009fd99dd524f5acb9a295ab707d9406ecf69af8f8ad9f4"
+    },
+    {
+      "path": "scripts/check_query_content.py",
+      "bytes": 3587,
+      "sha256": "8601cbbd362781bd5c74eed56f2aec5d39c6747f2de5a288c080ffbb934c47f6"
+    }
+  ],
+  "service": {
+    "pid": 44652,
+    "url": "http://100.80.123.8:8770/swar",
+    "html_sha256": "c1469e67d9660ff56a738311e578e85c253cbcadfd977b93bb0305b0ea77ba76",
+    "source_sha256": "5d6369e09b4d4a28d27e29b0b12ca4c41cdff0160359493ecef552685387a1b1",
+    "transition": "reports/wordlab_service/range_v47_transition.json"
+  },
+  "weight_copies": "Full acoustic/generative weights stay on their documented k2/L40 paths; local head copy only for word release. Shared external deployed Zipformer model not copied.",
+  "not_on_HF": true,
+  "licences": "Head/source authored for Ampixa/user; pretrained/corpus rights remain inherited. Shared MMS alignment has research/usage restrictions documented in its source inventory; this is not a commercial-use clearance.",
+  "reproduction": ".venv-indicf5/bin/python -m scripts.detect_nepali_leakage --query WAV --text NEPALI --out NEW [--reference TRUSTED_SAME_TEXT ...] [--check-query-content]",
+  "retention": "Keep selected resumable head, compact runtime/config/metrics/decisions while consumed. Redundant diagnostics/logs/audio expire24h after consumer finishes; models/data have exact source receipts and restore pins. No HF publication.",
+  "service_before_range_fix": {
+    "pid": 37066,
+    "url": "http://100.80.123.8:8770/swar",
+    "html_sha256": "2df8ab0461c8dc4aaf6a1f2dae907b96c227f031a9c150b42fcf0510ae3850c4",
+    "source_sha256": "049809ceaa2cb095add0121ec25967f4ca6b91d7f3af53038feec437e342738f"
+  },
+  "last_review_utc": "2026-11-09T02:04:36.064854+00:00"
+}

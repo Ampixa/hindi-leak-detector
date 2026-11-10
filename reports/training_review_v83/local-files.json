@@ -1,0 +1,11 @@
+{
+  "reviewed_utc": "2026-11-09T14:55:19.994702+00:00",
+  "scope": "Actual local compact members; original large data remains k2.",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 7607,
+      "sha256": "71057dae853b4273b63c78641e6074a6145022c96d765534709181358dda8108"
+    }
+  ]
+}

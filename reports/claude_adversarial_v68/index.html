@@ -1,0 +1,335 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Claude adversarial review — Nepali detector</title><style>body{font:16px/1.65 system-ui,sans-serif;max-width:1000px;margin:40px auto;padding:0 20px;color:#172b42;background:#f3f6fa}h1{line-height:1.15}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:white;border:1px solid #d0dbe5;padding:20px;border-radius:8px}summary{cursor:pointer;color:#14686c}a{color:#14686c}</style><h1>Adversarial review before the next fit</h1><p>Actual Claude Opus5.5 review, requested by the user. The first pass identified failure modes; the follow-up checked the new source, confirmed the exact CTC construction, and allowed raw generation while retaining pre-fit gates. No new model has been promoted.</p><h2>Our decision record</h2><pre>{
+  &quot;reviewer&quot;: &quot;Claude Opus5.5 (actual CLI model metadata)&quot;,
+  &quot;user_request&quot;: &quot;Adversarial review before new training&quot;,
+  &quot;first_review&quot;: &quot;result.json&quot;,
+  &quot;followup&quot;: &quot;followup/result.json&quot;,
+  &quot;resolved&quot;: [
+    &quot;Exact token-state CTC; enumeration/Viterbi tests pass.&quot;,
+    &quot;Post-edit ValueError outcomes retained, not excluded.&quot;,
+    &quot;New local-only head rejects quality contrasts and has no reference/availability/word-duration inputs.&quot;,
+    &quot;Generator quotas and four conditioning voices supported.&quot;,
+    &quot;WORLD-balanced positive added; conservative source-intersection core pilot running.&quot;
+  ],
+  &quot;verified_reviewer_corrections&quot;: [
+    &quot;Approved teacher/IndicF5 hashes were already asserted in require_pair.&quot;,
+    &quot;Allosaurus real IDs1..3 already preserved by zero-probability padding/ID shift.&quot;,
+    &quot;Simply forbidding transitions between overlapping sets would be incorrect; exact per-token recurrence implemented.&quot;
+  ],
+  &quot;remaining_before_fit&quot;: [
+    &quot;Check pilot production/source feature consistency and family anchor/gap distributions.&quot;,
+    &quot;Reserve unfiltered canonical and edited requests as unlabeled diagnostics, not automatic Native-correct/error gold.&quot;,
+    &quot;Train-only grouped CV and explicit source/family pairing; dev calibration only.&quot;,
+    &quot;Pin all feature/encoder/aligner dependencies; freeze/copy test protocol outside k2 before opening scores.&quot;
+  ],
+  &quot;release_claim&quot;: &quot;Research preview; no real-error accuracy, Hindi probability or validated prosody claim.&quot;
+}</pre><details><summary>First review, verbatim</summary><pre># Adversarial review: Nepali vowel-deletion detector, query-only v66, and the next run
+
+**Bottom line:** Do not generate the full dataset or fit anything yet. About 8 code defects must be fixed first; several of them invalidate the meaning of the current numbers rather than just the code. v66&#x27;s &quot;0/19 dev shams&quot; is guaranteed by how the threshold was chosen, so it is not evidence. The current sham does not control for &quot;audio was removed&quot;, so the detector may only be learning that something was cut out.
+
+I did not consult the advisor tool or run anything, since you asked for no tools. Everything below comes from reading the source you pasted.
+
+**E** marks something read directly from that source. **I** marks my inference, which needs a test before you rely on it. Source/teacher agreement is never treated as Hindi-error truth. Only हैन, किनकि (development) and नेकपा (found by the detector, then confirmed by you) carry human labels. Since all three were found or selected through the detector, they cannot measure accuracy.
+
+---
+
+## 1. Must fix before any generation or fitting (P0)
+
+**P0-1. v66&#x27;s development numbers are not evidence.** (E, `train_query_deletion.py`)
+- The dev set is used three times: for early stopping (best dev BCE per epoch), for choosing among the 6 candidates (lowest dev BCE), and for the threshold (`high = max(.5, max dev-sham score + 1e-5)`).
+- Because of that threshold rule, dev sham flags are 0 by definition. 19/19 detections is then a separation score measured after optimising on the same data.
+- Fix: treat v66 as untested. From now on, choose the model family and early-stopping epoch with grouped cross-validation over train+dev (leaving out whole lexemes and voices). Set the threshold from those held-out folds, then open a new test once.
+
+**P0-2. The pairing in the ranking loss is assumed, never checked.** (E)
+- `logits[1::2] - logits[::2]` and `wt[::2]` only make sense if the rows strictly alternate sham/edit for the same `pair_id` and `mode`.
+- `records` comes from `gather()`, then a `kind` filter, then a `split` filter. Nothing asserts the order, and an odd count would misalign or broadcast silently.
+- Fix: build explicit index tensors and assert that both rows share `pair_id` and `mode` and have labels `(0, 1)`.
+- Test: shuffle the rows and confirm the loss is unchanged.
+
+**P0-3. Positives are dropped after editing, depending on the outcome.** (E, `build_full_context_controls.py`)
+- The `try/except ValueError` covers the label loop. If `measure()` or `context_template` fails on the edited audio (for example &quot;Neither declared pronunciation can fit&quot; or a failed trace), the whole pair is excluded. Its WAVs are relabelled `disposable_uncommitted_pair_diagnostic`.
+- That is exactly the post-hoc removal of physically edited positives you want to forbid.
+- Fix: split the exception paths.
+  - Pre-edit eligibility failures (text, source, reference) → exclusion.
+  - Post-edit measurement failures → recorded as `abstain`, kept in the denominator. Count them as misses for positives and non-flags for shams, and report them by label.
+- Test: inject a failing `measure` on label 1 and confirm the pair is still in the report.
+
+**P0-4. Allosaurus availability can differ within a pair, and the flag is an input.** (E)
+- `third.get((group, job_id, label))` is looked up per label, so a sham can have third-encoder features while its edit does not.
+- `independent_available` is a model input. If Allosaurus fails more often on deleted audio, the flag becomes a label shortcut.
+- Fix: decide availability per pair (both rows or neither). Report availability by label, and run an ablation with the flag removed.
+
+**P0-5. Nothing stops v66 from scoring a quality site.** (E, `query_deletion.score`)
+- `is_vowel_deletion` and `is_vowel_quality` are constant in deletion-only training, so their scale is clamped to 0.05.
+- Fed a quality site, the input becomes about (1 − mean)/0.05 ≈ 20, clipped to 8: a large out-of-distribution value.
+- Fix: raise an error in `score()` unless every row is a deletion contrast, and drop the constant columns.
+
+**P0-6. Checkpoint pinning doesn&#x27;t cover the feature code.** (E, `query_deletion.load`)
+- It pins only `query_deletion.py`. `intrinsic_vowels.py`, `phone_lattice.py`, `paired_local_vowels.py`, the independent-phone runtime and the encoder weights can all change while the checkpoint still loads.
+- `third_runtime_sha256` is stored but never checked against the live runtime.
+- Fix: pin every file in the feature path plus the encoder checkpoint hashes, and verify the runtime hash on load.
+
+**P0-7. The CTC skip rule lets overlapping phone sets share frames.** (E, `phone_lattice.path_score`)
+- `skip` is allowed whenever `states[i] != states[i-2]`, comparing sets.
+- In true CTC, the same token emitted twice without a blank collapses to one token. If two adjacent sets share a token, one continuous run can therefore &quot;satisfy&quot; both units.
+- This applies to `any_vowel` next to a vowel, and to diphthong sets: `ʌi̯` contains a/ɑ/ɐ, which are also in the ə set.
+- Fix: forbid the skip when `states[i] &amp; states[i-2]` is non-empty. Ship this as a new versioned function, because changing it silently would alter the features of the live v31 model.
+- Training controls are mostly protected, because `full_gap` rejects sites next to another vowel. Live Swar sites (for example आइसके) are not.
+
+**P0-8. The plan builder cannot produce the run you described.** (E, `build_minimal_vowel_plan.py`)
+- `--per-kind` is capped at 256.
+- Deletion and quality quotas must balance exactly, or the build raises &quot;Could not verify balanced word plan&quot;.
+- The checkpoint SHA is checked only through `require_pair`, never against `2b4636e3…` explicitly.
+- Fix: add `--deletion-only` with an independent quota and an explicit SHA assert.
+- Exclude by lexeme stem as well as surface form (for example तलको vs तल), and across splits as well as from prior plans.
+
+**P0-9 (verify; this one is inference).** `conditional_mass`, `free` decoding and `represent()` assume ids 0–3 are special tokens (`p[:, 4:]`, `t &gt; 3`). That is the wav2vec2 tokenizer convention. If Allosaurus&#x27;s 230-phone inventory has real phones at ids 1–3, they are silently excluded from features.
+- Test: assert, for each vocabulary, which ids are blank and which are special.
+
+**P1 (fix before the fit, not before generation):**
+- **Reference-invariance test for the &quot;query-only&quot; columns.** The guard only checks names (`&#x27;reference&#x27;`, `&#x27;delta_&#x27;`). `positive_margin_fraction` has no `query_` prefix, so whether it depends on the reference is unknown. Recompute `vector()` with a random reference and assert all 23 selected columns are bit-identical.
+- **Live word boundaries.** Controls use oracle boundaries from `map_word`, but live clips are cut by the aligner. Test features must be extracted through the production alignment of the edited audio. Mapped boundaries are for auditing only.
+- **Magic indices.** `dual_paired_vowels.supported` uses numeric feature positions (`a[:,30]`, `a[:,44]`, …). Index by feature name and add a schema test.
+- **`audit_additional_swar_phones` support rule has no query-side ownership check.** It uses whole-path `query[1] &gt; 0` only. Add `query native_site_log_emission &lt; τ` and low `gap_vowel_mass`, and report the result as a new versioned audit, not by rewriting v65.
+
+---
+
+## 2. Is query-only 79 a sound next baseline?
+
+**As a candidate architecture: yes.** It removes reference confidence, the mechanism that caused the two sham false flags in the rejected extension, and the reference-generation latency.
+
+**As a measured baseline: not yet.**
+- Its only numbers come from data it was optimised on (P0-1).
+- **Scope limit (I):** without a reference or norm, query-only features cannot separate Hindi-like schwa deletion from normal Nepali casual or fast-speech reduction. The physical-edit task does not test this at all.
+
+**Specific confounds in the 79 columns (E/I):**
+- **Duration shortcut.** `log_word_frames`, `native_site_frame_fraction`, `gap_word_fraction` (and their paired-query equivalents) all shrink on positives by exactly the removed duration. The sham never changes duration, and the 0.25 ranking term rewards this difference directly.
+- **Lexical structure.** `native_unit_count`, `site_position`, `site_initial/final`, `native_vowel_fraction` and `background_reductions` are identical within a pair. They can only shift the threshold by word shape, which is a word-ID proxy that may not transfer to new words.
+- **Whole-path margins.** The `margin_*` family is normalised over the padded crop, so evidence from elsewhere in the word dilutes or dominates it. This is consistent with the आइसके diagnostic (I).
+
+**Pre-registered checks that would refute it**, each reported with confidence intervals over base pairs:
+
+| Audit / ablation | Refuted if |
+|---|---|
+| Remove the duration family | Detection drops more than ~15 points, or the off-target duration-matched removal control (S1, §4) flags at more than half the positive rate |
+| Remove the margin family (keep local emission, gap mass, anchors) | Local-only is much worse and whole-path features carry the model (detection depends on non-local evidence) |
+| Coefficient audit | The `native_site_log_emission` coefficient is ≥ 0 or negligible compared with margins |
+| Remove lexical/position columns | Test performance improves (they were overfitting word shape) |
+| Remove the availability flag; score third-unavailable rows separately | The flag is significant, or availability is unbalanced between labels |
+| `dual46` vs `third33` vs `combined79`, compared against single-feature thresholds (focal emission alone, gap vowel mass alone) | `combined79` doesn&#x27;t beat the best single local feature on the fresh test |
+| Shuffle labels within pairs | Anything above chance (indicates a pipeline leak) |
+| Grouped CV by lexeme and voice, 5+ seeds | Large variance between seeds; one seed and 19 pairs can&#x27;t rank 6 candidates |
+| Per-voice and per-mode results; whether the live context mode matches the mode that set the threshold | Threshold set by a mode the live path doesn&#x27;t use |
+
+---
+
+## 3. Enforcing focal-vowel ownership without filtering away real deletions
+
+**Principle: eligibility may depend on text and pre-edit audio only.** The criteria are:
+- the canonical G2P structure: non-vowel neighbours on both sides, a site the representation supports, no set overlap after the P0-7 fix;
+- source/reference qualification on the unedited audio.
+
+**Nothing that reads the query audio may exclude a positive.** Every query-side gate (ASR content, measurement failure, third-encoder availability) becomes an abstain outcome counted in the denominator. Report coverage as positions eligible out of positions requested, by context class.
+
+**Make the evidence local:**
+1. **Anchored-window comparison.** Compute the native Viterbi alignment once, freeze both anchor consonants, and score both hypotheses only on the frames from the left-anchor start to the right-anchor end. Differences elsewhere in the word then cancel. Use this local margin instead of whole-crop margins.
+2. **Ownership statistic.** From forward-backward over the native path, measure how much of the focal state&#x27;s posterior occupancy falls on frames whose best path belongs to a neighbouring unit. High borrowing means low ownership. Strong focal emission sitting on a neighbour&#x27;s frames is not evidence that the focal vowel is present, which is the आइसके trap in either direction.
+3. **Adjacent vowels.** Abstain by text-level rule and report it as a coverage gap. Do not exclude by measured outcome.
+4. **Break the boundary circularity.** `full_gap` defines the removed region from the same primary encoder that later scores the features. Add a positive family whose boundaries are jittered by ±1–2 frames inside the owned interval, and ideally one whose boundaries come from the third encoder. Detection should be stable across them.
+
+---
+
+## 4. Smallest useful run
+
+**Stage A: pilot (cheap, after P0 fixes).** Use about 48 new deletion lexemes × 2 train voices, rendering both canonical and G2P-verified edited text. Measure:
+- the qualification yield, with exclusions by reason;
+- the ownership-eligibility rate;
+- the post-edit abstain rate by label.
+
+Then size the main run with words = target pairs ÷ (voices × yield).
+
+I only infer the current yield (~30%, from 50 train pairs against plan size). If that holds, &quot;several hundred&quot; pairs needs roughly 300+ train lexemes, which is impossible under the 256 cap.
+
+**Stage B: main run, frozen before generation.**
+- **Targets:**
+  - about 200 train base pairs (≥120 lexemes), 50 dev, and ≥80 test pairs;
+  - ≥60 test lexemes, test voices and carrier never used in any fit, and no Swar or prior-plan lexemes or stems;
+  - with 0 flags out of 80 shams, the 95% upper bound on the false-flag rate is about 3.7%. 19 shams can&#x27;t bound it below about 15%.
+- **Voices:** the plan offers only 2 voices per split. With 2 test voices, &quot;voice generalisation&quot; has n = 2, so report per voice and say so.
+- **Freeze:** write the plan, code and model hashes somewhere outside the work directory (a commit, or a message to you) before the test audio exists. The workspace is not a git repository, so `frozen_selection.json` is only self-attested.
+
+**Controls, built per base pair from the same source:**
+
+| Family | Label | Purpose | Train? |
+|---|---|---|---|
+| P1 full focal removal (pre-registered boundaries) | 1 | Physical deletion | yes |
+| P1j jittered or third-encoder boundaries | 1 | Boundary circularity | test only |
+| S0 matched 2 ms reinsertion sham | 0 | Splice-fade artifact | yes |
+| S1 duration-matched removal off the focal vowel (inside a consonant closure, or in another word) | 0 | Detects &quot;something was removed&quot; | yes |
+| S2 focal vowel time-compressed to 50% (WSOLA), still present | 0 | Duration vs presence; Nepali reduction | yes |
+| S3 global tempo 0.9/1.1 of the unchanged clip | 0 | Speaking rate | test only |
+| S4 gain −12/+6 dB, plus the live codec/resampler | 0 | Channel | test only |
+| S5 the other voice&#x27;s unchanged reading | 0 | Voice | test only |
+| R natural render of the edited text (no splice) | requested | Splice-free transfer | eval only; report as a &quot;requested-deletion detection rate&quot;, never accuracy |
+
+Keeping S3–S5 and R out of training is what makes the test a generalisation test.
+
+**Fit:**
+- Freeze the candidate list in advance: `local-only`, `dual46`, `third33`, `combined79`, linear models only.
+- Choose by grouped CV (lexeme and voice).
+- Set the threshold at the CV sham-score 99th percentile plus a fixed margin, not at the observed maximum.
+- Open the test once. If it fails, record that and run a new test; don&#x27;t tune and re-score.
+- v62 stays diagnostic only.
+
+**Promotion gate (proposed defaults, adjust before the freeze):**
+- S0 at most 1/80;
+- each of S1–S5 at or below 5% (Wilson upper bound reported);
+- P1 detection ≥ 80%, with the lower confidence bound above the current baseline on the same test;
+- P1j within 10 points of P1;
+- no regression on हैन, किनकि or नेकपा (these are regression checks, not accuracy);
+- every change to the Swar review flag set listed for listening.
+
+**What can improve automatically vs what needs human labels:**
+- **Automatic is valid** for artifact robustness, the controlled false-flag rate, locality, invariance, synthetic detection rate and latency.
+- **Independent real labels are needed** for any precision or recall on real Swar output, for any claim that a flag means &quot;Hindi-like&quot; rather than normal Nepali reduction, and for any calibrated probability.
+- The smallest useful labelling step is a blind, randomised, stratified listening set: about 40 flagged and 40 unflagged testable positions, judged by 2 native Nepali listeners. That is needed only before precision claims, not before engineering steps.
+
+---
+
+## 5. Realtime and score scope; tomorrow&#x27;s release
+
+**Latency:**
+- Report separately: Swar synthesis; each encoder pass (XLSR, LV60, Allosaurus); feature extraction and the head; cached-reference lookup; cold Native reference generation.
+- For each, give p50/p95 and real-time factor, warm and cold, on the deployment hardware, using the length distribution of the 90 review clips.
+- The encoders are bidirectional, so the honest claim is a post-utterance result in X s at p95 for Y s of audio. Do not call it streaming or &quot;realtime&quot;.
+- The reference-free path&#x27;s latency only counts if that model is promoted.
+
+**Score:**
+- Call the 0–100 value an &quot;uncalibrated vowel-deletion evidence score&quot;.
+- Show categories such as &quot;candidate&quot; and &quot;strong candidate&quot; at the frozen operating points.
+- Never call it a Hindi probability or accent accuracy.
+- The 0.2 low operating point is unvalidated, so drop it or label it exploratory.
+- State coverage: 260 of 1433 word positions are testable.
+
+**Tomorrow (research preview):**
+- **Go:** current baseline live, labelled with its scope; playable cases with only the 3 human-labelled ones marked confirmed (provenance shown); the four Allosaurus-supported words shown as unconfirmed; latency table.
+- **No-go:** v66 in live decisions (shadow logging only); any accuracy or &quot;Hindi %&quot; wording; prosody.
+- **Allosaurus licensing:** the checkpoint has no stated terms, so confirm them before any external preview depends on it.
+
+## Go/no-go by stage
+
+| Stage | Decision |
+|---|---|
+| 0. P0-1…P0-8 fixes plus tests (P0-9 verified) | **Required first** |
+| A. Pilot generation | **Go** once stage 0 is done |
+| B. Full generation | **Go** after the pilot yield and control builders are verified and the plan hash is frozen externally |
+| Fit | **Go** after the test plan is frozen and the P1 reference-invariance test passes |
+| Test open | **Once** |
+| Promotion of v66 | **No-go** until the §4 gates pass on the fresh test |
+| Tomorrow&#x27;s preview | **Go** with the baseline, honest scope and v66 in shadow mode only |</pre></details><details open><summary>Follow-up review, verbatim</summary><pre># Follow-up review: local exact-CTC head, control builder and fit recipe
+
+**Bottom line:** The exact CTC is mathematically sound, and eligibility uses only the unedited source, so there is no outcome selection. Three defects in the control design still block fitting:
+1. The union region removes consonant edges, so positives arrive with degenerate (censored) features and damaged anchors.
+2. The WORLD vocoder appears only in negatives.
+3. Eligibility filters on the same features that S_original is later scored with, so S_original&#x27;s false-flag rate looks good by construction.
+
+None of the three blocks the pilot control build or raw generation.
+
+I did not run anything or consult the advisor, since you asked for no tools. **E** means I read it in the supplied source; **I** means it is my inference and needs a check.
+
+## Corrections to my previous review
+
+- **P0-8 (SHA):** wrong. `require_pair` asserts both approved hashes (E). The quota and cap issue is also fixed: the cap is now 512 and each cause has its own quota.
+- **P0-9 (Allosaurus ids):** resolved. `padded[:,4:] = values[:,1:]` and `index+3` stay consistent, so no real phones are dropped (E).
+- **P0-7 (CTC skip):** my fix was wrong. Forbidding the skip whenever sets overlap would reject valid paths with different tokens. Your token-state version is the correct construction.
+
+## 1. Exact CTC (`exact_phone_ctc.py`): valid
+
+- **Forward pass (E):**
+  - Each unit is a set of token states with no transitions between them, so the token cannot change within a phone.
+  - A blank is reached only from the previous unit. A skip from unit i−1 to unit i is allowed only when the token differs: `_without_each` gives the log-sum of all states except the matching token.
+  - Every concrete label sequence with its alignment maps to exactly one lattice path, so the score equals the sum of CTC likelihoods over U₁×…×Uₙ. That matches what your enumeration test checks.
+- **Viterbi trace (E):** the top/second-best skip parent, the single-element case, the blank parent and the backtrace are all correct. Spans are contiguous by construction.
+- **Non-blocking test gaps:**
+  - The marginal test checks against the legacy `log_likelihood`, not against an independent ground truth. Add a brute-force log-sum over all frame routes (the same loop as your Viterbi test).
+  - Run the exhaustive-Viterbi test over `[{1,2},{1,2}]`, `[{2},{2,3}]`, three units and several seeds, not one case.
+
+## 2. Blocking defects (fix before fitting)
+
+**B1. The union region over-removes, and positives become censored and anchor-damaged.** (E, with consequence I)
+- The &quot;gap&quot; runs from the end of the left consonant&#x27;s peak span to the start of the right one. CTC spans are peaky (1–2 frames), so the gap contains consonant release, VOT and closure as well as the vowel.
+- Taking the union across probes (`min` start, `max` end, with up to 40 ms disagreement) can cut into one probe&#x27;s consonant span.
+- Consequences:
+  - At query time the deletion-path anchors then become adjacent, so most P1 rows will likely hit `gap_available=0`. That forces margin = +30, native_fit = −30, mass = peak = 0.
+  - Anchor-emission features drop only in P1.
+  - A linear head can separate P1 by &quot;gap exists&quot; or &quot;anchor damaged&quot;, which says nothing about natural deletion, where both consonants are kept.
+- Minimal fix:
+  - Make the training P1 region the **intersection** of the two probes&#x27; gaps, required to contain both focal spans, and tighten the agreement limit to ≤20 ms.
+  - Keep the union as a test-only P1u variant.
+  - Clip margins to a predeclared range (for example ±10) so the censor value cannot dominate standardisation.
+  - Before fitting, report the fraction of P1 rows with `gap_available=0` and the per-family anchor-emission shift (P1 vs S0). If P1&#x27;s anchors differ from S0&#x27;s, drop the two anchor features from the decision head and keep them as diagnostics.
+
+**B2. The WORLD vocoder appears only in negatives.** (E)
+- S_world and S2 are vocoded; P1 never is. The head can learn &quot;vocoded → negative&quot;, which makes S2 (the key duration-vs-presence control) easy for the wrong reason.
+- Minimal fix: add **P1w = `splice(world_original, start, end, empty)`**. WORLD keeps timing, so the region is unchanged. Train with it as a positive, and compare S2 and S_world against P1w.
+- Otherwise, move S_world and S2 to test-only.
+
+**B3. S_original specificity is circular.** (E)
+- Eligibility requires `features[2] &lt; 0`, focal emission &gt; −1.5 and ownership ≥ 0.5, computed from the same feature function on the same audio.
+- S_original&#x27;s low scores therefore come largely from that filter, and a dev 99th percentile set on filtered negatives will be too low for real clips with reduced vowels.
+- Minimal fix:
+  - Score **every** canonical render through the live path (including ineligible ones; no region is needed) and report it as a separate unfiltered family, S_all.
+  - Do the same for every edited render (R).
+  - Set the threshold at the 99th percentile of the **hardest** negative family (S0, S2 or S_all, predeclared), not on all non-deletion rows pooled. Pooling in trivial families (S1 and S_original) pulls the effective percentile down.
+
+**B4. The frame-duration convention differs between source and query.** (E)
+- The source uses `item[&#x27;phone_frame_seconds&#x27;]`. The query uses `len(wave)/16000/len(log_probs)`. For wav2vec2 framing these differ by about 1%, which is roughly one frame of crop drift over 1.5–2 s.
+- Fix: use one function for both, and make it the one the live scorer uses.
+- Test: S_original&#x27;s features computed through production must equal the eligibility features within a stated tolerance. This also checks that the frames directory matches the production encoders.
+
+## 3. Other checks on the new code
+
+- **No outcome selection (E):** all exclusions happen before any waveform is written. S1 and S2 membership depends only on source geometry. After-edit `ValueError`s become abstentions, and `record.update` runs before the measurement, so abstention rows keep their audio SHA.
+  - Compare P1 against S2 only on the ≥80 ms subset where S2 exists.
+- **Greedy optional-unit pruning (E):** it reads the query, but it scores both hypotheses symmetrically and protects both anchors. That&#x27;s acceptable, and it should be logged in the evidence, which it already is.
+- **Plan builder (E):**
+  - Swar words from `cases.json` are excluded **only** when a consonant table is active (`--allow-` or `--unknown-consonant-context`). Assert that the exclusion set contains all 96 Swar words, whatever flags are used.
+  - Exclusion checks only the surface form `word`. Also check edited and canonical phone strings against Swar and prior-test phone strings.
+- **Bulk cost:** nothing in this fit consumes the 96 quality lexemes or the train/dev edited (c1) renders. Drop the quality lexemes unless a quality consumer exists. The c1 renders are only needed for test R (dev R is optional diagnostics).
+
+## 4. Fit recipe and denominators
+
+- **Grouped CV is valid:** the validation cell is (fold k ∧ voice v) and training excludes (fold k ∨ voice v). Requirements:
+  - Assign folds by `phone_collision_group`, not lexeme.
+  - Assert that all families of a source share one cell.
+  - Assert there is no group or voice overlap within any cell.
+  - Choose λ and the head (local24, primary12 or secondary12) from pooled out-of-fold scores only.
+- **Weighting is valid:** equal weight per lexeme, with each source&#x27;s negative families sharing unit weight.
+- **Denominators:**
+  - Complete-case plus all-attempted reporting is valid.
+  - A positive abstention counts as a miss.
+  - For negative abstentions, report rate per family and keep them out of the specificity numerator rather than counting them as correct rejections. A label-skewed abstention rate is a finding in itself.
+- **Confidence intervals:** cluster bootstrap by collision group, with per-voice breakdown (n = 4 voices). At roughly 72 test lexemes × 4 voices × yield, 0 false flags gives an upper bound near 4% only if yield is ≥30%.
+- **Required baselines on test:**
+  - single-feature thresholds on `gap_available` and `gap_deletion_margin_mean`;
+  - within-source label permutation, which should score at chance.
+
+  If the 24-feature head does not beat the single-feature baselines, report that it adds nothing.
+
+## 5. Tests that must pass before fitting
+
+1. S_original production features equal eligibility features; the dt convention matches the live scorer (B4).
+2. Distribution report: P1 `gap_available`, and P1 vs S0 anchor emission (B1).
+3. P1w is built; vocoder balance holds across labels (B2).
+4. Fold and pair index assertions plus a row-shuffle invariance test (as you planned).
+5. Exclusion-set count and phone-collision assertion.
+6. The extra CTC tests in §1 (cheap).
+
+## Go/no-go
+
+| Stage | Decision |
+|---|---|
+| Pilot control build and yield report | **Go**, after the B4 dt fix. Yield is source-only and unaffected by B1–B3. |
+| Bulk raw generation | **Go** once the pilot yield supports the size and the exclusion assertion passes. Drop the optional quality lexemes and keep c1 renders for test only unless a consumer exists. Region and family fixes happen after generation. |
+| Fit | **No-go** until B1–B4 are fixed and the tests in §5 pass. |
+| Test open | **Once**, after the code, data, head and threshold hashes are frozen on k2 and copied to cdjk. Gates: predeclared S_all, S2 vs P1w and R requested-deletion rates. |
+| Promotion | **No-go** until those gates pass. v66 stays untested and shadow-only. Human labels are needed only before claiming real-error precision. |</pre></details><p><a href="triage.json">Structured decision record</a> · <a href="result.json">Original review receipt</a> · <a href="followup/result.json">Follow-up receipt</a></p>

@@ -1,0 +1,23 @@
+{
+  "partitions": {
+    "train": 100,
+    "development": 24,
+    "reserved_evaluation": 40
+  },
+  "selection": "Metadata hash rank; distinct focal words, content-pass exact original quartets, voiced word150..2500ms, utterances<=12sec; no classifier scores.",
+  "carrier": "Correct24-layer Native teacher waveform; Native spectral envelope, aperiodicity and voicing mask fixed for every class.",
+  "conditions": [
+    "WORLD sham using own contour",
+    "third-Native-donor contour transfer",
+    "stock-IndicF5-donor contour transfer"
+  ],
+  "donor_normalization": "Donor utterance-median-relative log F0; same20 normalized word-time knots and30ms edge blend for both donor classes. Native carrier median sets absolute pitch.",
+  "measurement": "Remeasure emitted waveform F0/energy; do not use intended target arrays as detector features.",
+  "labels": "Native versus Hindi-checkpoint prosody transfer is known source-style supervision, not real Hindi-error gold.",
+  "phonetic_controls": "No spectrum/aperiodicity/voicing-mask/word-boundary substitution. Check actual outputs and phonetic stability; reject invalid outputs explicitly.",
+  "nuisance_audit": "Global pitch+/-3 semitones and volume changes must not create additional prosody flags; Native-to-Native transfers are explicit controls.",
+  "test_policy": "Freeze model/thresholds on train/dev before opening reserved intervention scores; actual Swar remains diagnostic, not an independently labeled prosody benchmark.",
+  "known_user_cases": "Both reported target words and all six picked sentences excluded from new fitting.",
+  "source_model_pair_sha256": "06b469ad88fff6ea655c3c39ba7b70082ed9bb30c607afe61141b61c16b370e6",
+  "source_items_sha256": "5eac41038e6101cdd0785e0965810548d2b55949262bc468743c351939e39820"
+}

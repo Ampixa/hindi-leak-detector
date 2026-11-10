@@ -1,0 +1,56 @@
+{
+  "created_utc": "2026-11-09T01:39:08.681615+00:00",
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "model_sha256_unchanged": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "previous_hashes": {
+    "review_report.json": "028c9257b7eb7db360f640bdb29791ada074df4406092c023f7ecfe2748fa854",
+    "review_additions.json": "4f42641471e6b86e26a64024ce75562f9f5148fdabd9b106f0ecc9090f646fdb"
+  },
+  "inputs": [
+    {
+      "path": "reports/quality_followup_summary_v38/report.json",
+      "sha256": "22cb9f1664b5c8d123a3c47500a52576c608248a22b51b598b204ed3882b493a"
+    },
+    {
+      "path": "reports/release_cold_verification_v43/report.json",
+      "sha256": "97c06cfde9ae805cc170ebded25ccd1535ef9bccda51c941420117820fa27c25"
+    },
+    {
+      "path": "reports/query_guard_verification_v44/report.json",
+      "sha256": "5ce860879bcab0c18c110dfa2424a357f0fee7be5e92419c0948d3351572d267"
+    },
+    {
+      "path": "reports/swar_content_audit_v41/report.json",
+      "sha256": "fcff9384af63f58f745db593fe98a097ceebec37a0c952e625e502c0839fd281"
+    },
+    {
+      "path": "reports/release_teacher_consensus_v36/words.json",
+      "sha256": "90ebcb42dc25eedab00204e4369575d22dbd3dcc7b1245857b1637ddff5a5230"
+    }
+  ],
+  "files": [
+    {
+      "path": "review_report.json",
+      "bytes": 69535,
+      "sha256": "1adc8c38f4e54c2b96cbc4543e07117cece21fcbbbe22ce819ccd815ce9ff602"
+    },
+    {
+      "path": "review_additions.json",
+      "bytes": 1166594,
+      "sha256": "3ccc9daba6fc4b7c4e0b3f064185fd4938e51377050c94f7fd23b7d84d182d43"
+    },
+    {
+      "path": "priority_flags.json",
+      "bytes": 36841,
+      "sha256": "e5744b5e04fec1f857d04c34bb7a79e5a28eac696b83b5b350e744946bd4f587"
+    }
+  ],
+  "source_sha256": "948b57040f9bb67888458cb9e1cb1fcf65dec05d319b4e2cfa036ad4ff02389e",
+  "page_sha256": "2df8ab0461c8dc4aaf6a1f2dae907b96c227f031a9c150b42fcf0510ae3850c4",
+  "purpose": "Private review of frozen-head validation, content/abstention checks and corroborated candidate locations. No predictions or model thresholds changed.",
+  "status": "active",
+  "review": "2026-11-09",
+  "next_review": "2026-11-10",
+  "not_on_HF": true
+}

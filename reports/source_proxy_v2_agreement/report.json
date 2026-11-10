@@ -1,0 +1,68 @@
+{
+  "status": "exploratory_two_head_agreement_policy",
+  "rule": "Both fixed-0.5 heads must agree; otherwise uncertain.",
+  "source_proxy_metrics": {
+    "n": 48,
+    "covered": 41,
+    "abstained": 7,
+    "coverage": 0.8541666666666666,
+    "covered_accuracy": 0.7317073170731707,
+    "correct_fraction_of_all_items": 0.625,
+    "positive_recall_including_abstentions": 0.625,
+    "negative_flag_rate_including_abstentions": 0.20833333333333334
+  },
+  "benchmark_controls": {
+    "audio8_dpo_R2": {
+      "n": 24,
+      "positive_flags": 5,
+      "negative_decisions": 12,
+      "uncertain": 7
+    },
+    "audio8_r3": {
+      "n": 24,
+      "positive_flags": 5,
+      "negative_decisions": 15,
+      "uncertain": 4
+    },
+    "indicf5_stock": {
+      "n": 24,
+      "positive_flags": 15,
+      "negative_decisions": 6,
+      "uncertain": 3
+    },
+    "native_recording": {
+      "n": 24,
+      "positive_flags": 7,
+      "negative_decisions": 13,
+      "uncertain": 4
+    }
+  },
+  "native_probe_by_view": {
+    "full": {
+      "n": 32,
+      "covered": 14,
+      "abstained": 18,
+      "coverage": 0.4375,
+      "covered_accuracy": 0.7857142857142857,
+      "correct_fraction_of_all_items": 0.34375,
+      "positive_recall_including_abstentions": null,
+      "negative_flag_rate_including_abstentions": 0.09375
+    },
+    "short_1p5": {
+      "n": 32,
+      "covered": 17,
+      "abstained": 15,
+      "coverage": 0.53125,
+      "covered_accuracy": 0.5294117647058824,
+      "correct_fraction_of_all_items": 0.28125,
+      "positive_recall_including_abstentions": null,
+      "negative_flag_rate_including_abstentions": 0.25
+    }
+  },
+  "provenance_limit": "Rule introduced after binary v2 results. Reused benchmark/probe measurements are exploratory; no fresh accuracy claim.",
+  "limits": [
+    "Heads are correlated and agreement is not a calibrated confidence guarantee.",
+    "Coverage and positive recall include abstentions explicitly; covered accuracy alone is insufficient.",
+    "All reference labels remain weak source/native assumptions, not human accent gold."
+  ]
+}

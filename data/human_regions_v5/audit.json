@@ -1,0 +1,53 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "started_utc": "2026-11-07T11:22:24.020497+00:00",
+  "completed_utc": "2026-11-07T11:42:17.582896+00:00",
+  "status": "human_metadata_recovered_not_accent_labels",
+  "repository": "ai4bharat/indicvoices_r",
+  "revision": "5f4495c91d500742a58d1be2ab07d77f73c0acf8",
+  "shards": 139,
+  "source_utterances": 42276,
+  "local_source_groups": 684,
+  "local_group_recordings": 25372,
+  "local_groups_with_metadata": 25372,
+  "single_utterance_text_duration_candidates": 15150,
+  "ambiguous_single_utterance_matches": 0,
+  "not_matched_as_single_utterance": 10222,
+  "states": {
+    "West Bengal": 42276
+  },
+  "districts": [
+    {
+      "state": "West Bengal",
+      "district": "Alipurduar",
+      "source_utterances": 82
+    },
+    {
+      "state": "West Bengal",
+      "district": "Darjeeling",
+      "source_utterances": 19100
+    },
+    {
+      "state": "West Bengal",
+      "district": "Jalpaiguri",
+      "source_utterances": 3558
+    },
+    {
+      "state": "West Bengal",
+      "district": "Kalimpong",
+      "source_utterances": 19536
+    }
+  ],
+  "audio_column_read": false,
+  "full_parquet_payload_checksum_verified": false,
+  "historical_local_prep_revision_known": false,
+  "geography_is_an_accent_label": false,
+  "first_language_residence_and_hindi_exposure": "unknown; never inferred from state/district",
+  "limits": [
+    "Source-region fields describe the speaker region reported by the dataset, not current residence or Hindi influence.",
+    "The local staging source can concatenate utterances with fixed 250 ms gaps. Local groups are not automatically natural prosodic units.",
+    "Single-utterance matches require exact normalized text and close duration; their original audio identity is not checksum-verified.",
+    "Speaker IDs are source metadata, not independently verified real-person identity.",
+    "Metadata is fetched at a pinned current revision; the historical corpus extraction revision remains unknown."
+  ]
+}

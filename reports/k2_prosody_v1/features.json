@@ -1,0 +1,38 @@
+[
+  {
+    "audio_path": "/Volumes/T9/hindi-detector/data/g00005.pocket.16k.wav",
+    "sample_rate": 16000,
+    "duration_seconds": 4.56,
+    "active_fraction": 0.46799116997792495,
+    "interior_pause_count": 5,
+    "interior_pause_seconds": 1.77,
+    "voiced_fraction": 0.37748344370860926,
+    "f0_median_hz": 125.98425196850394,
+    "f0_range_semitones": 13.230121296971694,
+    "f0_slope_semitones_per_second": -0.07253696282777801,
+    "tail_offset_semitones": -4.84328613127143,
+    "status": "descriptive_features_only",
+    "warnings": [
+      "Energy threshold is a pause proxy, not a speech/phone aligner.",
+      "Autocorrelation pitch is provisional and can contain octave errors."
+    ]
+  },
+  {
+    "audio_path": "/Volumes/T9/hindi-detector/data/g00005.audio8.16k.wav",
+    "sample_rate": 16000,
+    "duration_seconds": 4.41175,
+    "active_fraction": 0.3812785388127854,
+    "interior_pause_count": 1,
+    "interior_pause_seconds": 1.6,
+    "voiced_fraction": 0.2899543378995434,
+    "f0_median_hz": 92.48554913294798,
+    "f0_range_semitones": 6.778425787265184,
+    "f0_slope_semitones_per_second": 1.5978578444844453,
+    "tail_offset_semitones": 3.540922502855172,
+    "status": "descriptive_features_only",
+    "warnings": [
+      "Energy threshold is a pause proxy, not a speech/phone aligner.",
+      "Autocorrelation pitch is provisional and can contain octave errors."
+    ]
+  }
+]

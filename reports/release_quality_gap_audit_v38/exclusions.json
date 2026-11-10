@@ -1,0 +1,954 @@
+[
+  {
+    "job_id": "qual38_1b4e7cc364f449b4d83c_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1b4e7cc364f449b4d83c_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1b9bab2b9eb95c233a38_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1b9bab2b9eb95c233a38_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1bf2973c9ee5cd397393_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1bf2973c9ee5cd397393_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1c7276dc9bea02174000_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1c7276dc9bea02174000_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1cdf75c24898e83e1f97_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1cdf75c24898e83e1f97_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1ce9839e7cef4579e7f8_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1ce9839e7cef4579e7f8_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1da502afaabec146bdca_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1da502afaabec146bdca_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1dc91d7428422a2c37db_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1dc91d7428422a2c37db_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1dd38b07f36800f78ae6_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1dd38b07f36800f78ae6_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1dd6af302dfd8857bdf0_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1dd6af302dfd8857bdf0_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1f64b536f4b39e69d63c_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1f64b536f4b39e69d63c_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1fdf0dbfdb2415bcf50d_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_1fdf0dbfdb2415bcf50d_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2036e40fceca8739e69f_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2036e40fceca8739e69f_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2094a36bebc7dc51967d_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2094a36bebc7dc51967d_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_209b7ff27d51d0cae641_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_209b7ff27d51d0cae641_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_20bd5443b49178fd0c51_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_20bd5443b49178fd0c51_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_21d8acdf831c2903290f_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_21d8acdf831c2903290f_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_22b7d0ac921c22b4e6ed_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_22b7d0ac921c22b4e6ed_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_23683256bea216ba3048_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_23683256bea216ba3048_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2394c9825d596b572516_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2394c9825d596b572516_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2423393562e9afc175fc_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2423393562e9afc175fc_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_251187b6a923dc6d534d_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_251187b6a923dc6d534d_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2688d34e727be75fd6a4_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2688d34e727be75fd6a4_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_26c77723f167bc0829fa_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_26c77723f167bc0829fa_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_28800fa5a6cc07754fa4_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_28800fa5a6cc07754fa4_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_28d0149c47e96b9998af_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_28d0149c47e96b9998af_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2a15643444d082441c01_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2a15643444d082441c01_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2aaa2f04ab33dc0287eb_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2aaa2f04ab33dc0287eb_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2c0e0728eeb3022e7803_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2c0e0728eeb3022e7803_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2c7f40ebe3ffe2adbc72_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2c7f40ebe3ffe2adbc72_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2d08ddc805c45daa7eb1_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2d08ddc805c45daa7eb1_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2e41c6403716a9bcb2e6_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_2e41c6403716a9bcb2e6_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3045954d3867a4fbd811_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3045954d3867a4fbd811_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_309e3b4fdab49da3c2f2_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_309e3b4fdab49da3c2f2_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_30a64d7da7ab6c7fa316_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_30a64d7da7ab6c7fa316_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_313f17b237c5c1c713a4_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_313f17b237c5c1c713a4_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_31ebdc1573f7fbbef5e2_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_31ebdc1573f7fbbef5e2_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_321b456e0072ced02c32_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_321b456e0072ced02c32_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_337303b1d9a6f0cdb960_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_337303b1d9a6f0cdb960_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_33b5785468d15b1a4ed6_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_33b5785468d15b1a4ed6_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_34596a0790c6b61d6784_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_34596a0790c6b61d6784_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_356c72bd5efa528a912a_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_356c72bd5efa528a912a_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3577c1ecb7732f8110a4_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3577c1ecb7732f8110a4_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3601fb29fb57fec562a5_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3601fb29fb57fec562a5_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_36d388d1c515a11bfca3_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_36d388d1c515a11bfca3_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_38524cb5470afa23019d_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_38524cb5470afa23019d_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_38add4129b60fcc698b6_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_38add4129b60fcc698b6_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_390452e18093253e5cab_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_390452e18093253e5cab_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3936a86974c5e2bae08d_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3936a86974c5e2bae08d_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_39d62a1f956464e3d38a_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_39d62a1f956464e3d38a_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3a71a62219448b49177c_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3a71a62219448b49177c_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3ad4d2179bc2dac346ae_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3ad4d2179bc2dac346ae_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3af0de5f560b29b87a5a_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3af0de5f560b29b87a5a_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3aff875f6fa9dc12b369_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3aff875f6fa9dc12b369_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3b4e0959ed0b38566690_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3b4e0959ed0b38566690_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3b54dbef7610254a3424_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3b54dbef7610254a3424_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3b6db45573cf06996ef3_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3b6db45573cf06996ef3_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3b96805feef1511b8e38_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3b96805feef1511b8e38_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3ba0c46c38ecde3c1c85_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3ba0c46c38ecde3c1c85_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3bf48481e762d5f07a65_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3bf48481e762d5f07a65_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3c45c9e4e1e842d1ad62_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3c45c9e4e1e842d1ad62_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3c56c059d5e0eca22d5f_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3c56c059d5e0eca22d5f_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3cac1c13a13a96bc0346_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3cac1c13a13a96bc0346_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3cc139e7c0230971f307_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3cc139e7c0230971f307_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3cdd70e8352d77913572_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3cdd70e8352d77913572_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3cf1322f0f700664aaee_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3cf1322f0f700664aaee_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3d2d36b047759b3fb4fc_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3d2d36b047759b3fb4fc_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3d52982494f3eef47bc8_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3d52982494f3eef47bc8_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3dd185bbfffa8754c770_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3dd185bbfffa8754c770_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3e5ee8c739f0a9db1c23_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3e5ee8c739f0a9db1c23_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3e8501ca1bfe9241f023_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3e8501ca1bfe9241f023_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3ebb9ad5d4a6e31c5e52_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3ebb9ad5d4a6e31c5e52_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3ef1756a5c9a51114161_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3ef1756a5c9a51114161_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3f2b129c4269dd45e94f_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3f2b129c4269dd45e94f_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3f8ca9aea51d554bf7e1_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3f8ca9aea51d554bf7e1_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3fb4c294c57d60891100_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_3fb4c294c57d60891100_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_40193e36537c57300fa8_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_40193e36537c57300fa8_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_408e534b3e6d82e709ed_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_408e534b3e6d82e709ed_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4095ceedeb099394bf1c_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_40bef18e69a9827bde5d_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_40c6ab356420f840498e_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_40c6ab356420f840498e_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_40e1f3a77db88e4b2db9_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_41104df46642eaa1a3c8_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_41104df46642eaa1a3c8_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_41198b23d75b66541342_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_41198b23d75b66541342_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4141436b5625679836f5_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4141436b5625679836f5_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_41fb0ad5ac20224e1c89_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_420dc11f4a18f77a8155_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_420dc11f4a18f77a8155_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_422fea66a3ba08537922_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_422fea66a3ba08537922_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_423aa5a1a39c95f62cc0_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_423aa5a1a39c95f62cc0_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_42475d3c72e849387bcf_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_428882952954b63f5d22_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_428882952954b63f5d22_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4312d770fd9595650d52_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4312d770fd9595650d52_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_437be755d01091f0f586_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_437be755d01091f0f586_v1_c0",
+    "reason": "Edited-reading donor alternative not established by both probes"
+  },
+  {
+    "job_id": "qual38_439dacb9fb71a1e643bc_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_439dacb9fb71a1e643bc_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_43bbd41357f3475a85bb_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_43c27027040855b180a7_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_43c27027040855b180a7_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_43f602c601a2a5d12281_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_43f602c601a2a5d12281_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_44054c14c39235cef8f4_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_440d4f37d333a8fdcbb9_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_440d4f37d333a8fdcbb9_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_44399e6bec3c7b60e404_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_44399e6bec3c7b60e404_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_44d8ed7c017acc95ef58_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_44d8ed7c017acc95ef58_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_44ee57f77c117dd7114b_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_44ee57f77c117dd7114b_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_450e8f6327c6204267ca_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_450e8f6327c6204267ca_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_454f5323a134eec3977f_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_454f5323a134eec3977f_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_46407d6c832664a627b6_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_46407d6c832664a627b6_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_46baa213363b16bf1ebe_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_46baa213363b16bf1ebe_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_46f3f2cbf3f676039d13_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_46f3f2cbf3f676039d13_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_474016c1a7ed993041e2_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_474016c1a7ed993041e2_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_475ef1b83b395ef5d690_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_475ef1b83b395ef5d690_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_476f74cfdb9ee0c4617e_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4780848962d842d0e23f_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4780848962d842d0e23f_v1_c0",
+    "reason": "Edited-reading donor alternative not established by both probes"
+  },
+  {
+    "job_id": "qual38_47947d983fd26986a858_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_47c64515500408ea8c54_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_47c64515500408ea8c54_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_48bb5f97d09330fc2300_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_48bb5f97d09330fc2300_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_48fd7a9632c5b960b3ec_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_48fd7a9632c5b960b3ec_v1_c0",
+    "reason": "Edited-reading donor alternative not established by both probes"
+  },
+  {
+    "job_id": "qual38_48fd7cc7fca1a19909d5_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_48fd7cc7fca1a19909d5_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4967108293f6e362c6e0_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4a7c94f7668c7a26d933_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4a7c94f7668c7a26d933_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4abd2a67baae62e15617_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4af9b41877b1a86bb913_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4af9b41877b1a86bb913_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4afb6e2473f7843c159b_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4b0d14d10b524667c439_v0_c0",
+    "reason": "Edited-reading donor alternative not established by both probes"
+  },
+  {
+    "job_id": "qual38_4b52c71063b4b3c26e2b_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4bdc1cedaef3c53c9ee2_v0_c0",
+    "reason": "Edited-reading donor alternative not established by both probes"
+  },
+  {
+    "job_id": "qual38_4bdc1cedaef3c53c9ee2_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4c170c8cf4e54594b82c_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4c170c8cf4e54594b82c_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4c8dfddea1dbf30d302f_v0_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  },
+  {
+    "job_id": "qual38_4c8dfddea1dbf30d302f_v1_c0",
+    "reason": "Canonical Native nucleus not established by both probes"
+  }
+]

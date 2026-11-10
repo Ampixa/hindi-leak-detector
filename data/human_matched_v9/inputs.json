@@ -1,0 +1,22 @@
+[
+  {
+    "path": "data/human_g2p_bank_v5/word_bank.json",
+    "sha256": "056edc34c0a1788b057c983d1697b35f5504970fd9463e03dead3b1712087e8d"
+  },
+  {
+    "path": "data/human_g2p_bank_v5/selection.json",
+    "sha256": "f1a1be6d2db7e27ae90b75f5cd5d90210a46b2486b7681225708585e2682794d"
+  },
+  {
+    "path": "data/human_original_audio_v6/report.json",
+    "sha256": "4295b5e61edbc6a96ac08beab395b9a58069d5b1d64e76f0b700d67e52fec39f"
+  },
+  {
+    "path": "data/human_original_audio_v6/recordings.json",
+    "sha256": "4c32475effcb5c2011daf4dad850f2d40cc9769f6e51e77f46fbee3a59db09be"
+  },
+  {
+    "path": "data/wordmatrix_v3/selection.json",
+    "sha256": "c450d7fce0cd96c578edbf13f4e43b1bf2586c0e955b3015692f6cecd4c26942"
+  }
+]

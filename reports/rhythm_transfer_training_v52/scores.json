@@ -1,0 +1,5312 @@
+[
+  {
+    "id": "proso49_bd55bb80e1d6402d5f8c",
+    "word": "बहन",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.11662845313549042,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bd55bb80e1d6402d5f8c",
+    "word": "बहन",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.1302814930677414,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bd55bb80e1d6402d5f8c",
+    "word": "बहन",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.881072998046875,
+    "high_source_style_flag": true,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f1a2ce0abf940209d65e",
+    "word": "गहना",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.2073442041873932,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f1a2ce0abf940209d65e",
+    "word": "गहना",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.6698886156082153,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f1a2ce0abf940209d65e",
+    "word": "गहना",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7706869840621948,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_fdeb85d3ca536461a989",
+    "word": "सिद्ध",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.14318010210990906,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_fdeb85d3ca536461a989",
+    "word": "सिद्ध",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.1915355920791626,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_fdeb85d3ca536461a989",
+    "word": "सिद्ध",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.5900388360023499,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_5c8244762d34c4d79081",
+    "word": "केर",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.10166236013174057,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_5c8244762d34c4d79081",
+    "word": "केर",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.8226205706596375,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_5c8244762d34c4d79081",
+    "word": "केर",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.827907145023346,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_a22d53a6793fc3c29c18",
+    "word": "किन",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.23144382238388062,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_a22d53a6793fc3c29c18",
+    "word": "किन",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.5684782862663269,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_a22d53a6793fc3c29c18",
+    "word": "किन",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.72519850730896,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_82dd8cc99351cb795753",
+    "word": "अर्थ",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.5577713251113892,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_82dd8cc99351cb795753",
+    "word": "अर्थ",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.5743569135665894,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_82dd8cc99351cb795753",
+    "word": "अर्थ",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.561173141002655,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_13282d41c200d1db85ca",
+    "word": "पुर",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.27775779366493225,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_13282d41c200d1db85ca",
+    "word": "पुर",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.7911663055419922,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_13282d41c200d1db85ca",
+    "word": "पुर",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8870844841003418,
+    "high_source_style_flag": true,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bc6a396a44b22668f4d8",
+    "word": "स्वर्ण",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.13850747048854828,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bc6a396a44b22668f4d8",
+    "word": "स्वर्ण",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.18243424594402313,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bc6a396a44b22668f4d8",
+    "word": "स्वर्ण",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.6356285214424133,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d4e95913dc5fd9c889d4",
+    "word": "छान",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.22636502981185913,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d4e95913dc5fd9c889d4",
+    "word": "छान",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.6664093732833862,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d4e95913dc5fd9c889d4",
+    "word": "छान",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.5410375595092773,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b55dbc15cfe8c2759937",
+    "word": "मेहरा",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.2793019413948059,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b55dbc15cfe8c2759937",
+    "word": "मेहरा",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.33581802248954773,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b55dbc15cfe8c2759937",
+    "word": "मेहरा",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8121147751808167,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_997b4a4c9f2df101c7df",
+    "word": "सिवाय",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.4784817397594452,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_997b4a4c9f2df101c7df",
+    "word": "सिवाय",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.32232823967933655,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_997b4a4c9f2df101c7df",
+    "word": "सिवाय",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.38325047492980957,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ea29145886ce37b544c1",
+    "word": "समेट",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.6516721844673157,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ea29145886ce37b544c1",
+    "word": "समेट",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.12348273396492004,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ea29145886ce37b544c1",
+    "word": "समेट",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8281704187393188,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_27d6832338f769d95f01",
+    "word": "बोहरा",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.1468110978603363,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_27d6832338f769d95f01",
+    "word": "बोहरा",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.15348604321479797,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_27d6832338f769d95f01",
+    "word": "बोहरा",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.6829426884651184,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_8e85ff29655a3f7d1549",
+    "word": "रक्त",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.19509956240653992,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_8e85ff29655a3f7d1549",
+    "word": "रक्त",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.14609864354133606,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_8e85ff29655a3f7d1549",
+    "word": "रक्त",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7967065572738647,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b59b73f80c4555373ed7",
+    "word": "कन",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.299025297164917,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b59b73f80c4555373ed7",
+    "word": "कन",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.48610687255859375,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b59b73f80c4555373ed7",
+    "word": "कन",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.625309944152832,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b76a7d8d37bd49c56db1",
+    "word": "गरम",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.31732022762298584,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b76a7d8d37bd49c56db1",
+    "word": "गरम",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.5330415368080139,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b76a7d8d37bd49c56db1",
+    "word": "गरम",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.5787428021430969,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_a19ce206d6de92a1f600",
+    "word": "बुद्ध",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.26619401574134827,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_a19ce206d6de92a1f600",
+    "word": "बुद्ध",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.2632271945476532,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_a19ce206d6de92a1f600",
+    "word": "बुद्ध",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.48311835527420044,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_032334655bc23fcd5be5",
+    "word": "कल्प",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.21139773726463318,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_032334655bc23fcd5be5",
+    "word": "कल्प",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.13352252542972565,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_032334655bc23fcd5be5",
+    "word": "कल्प",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.738224446773529,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_294c70f7b537140e6d7e",
+    "word": "जब",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.18272194266319275,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_294c70f7b537140e6d7e",
+    "word": "जब",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.21786296367645264,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_294c70f7b537140e6d7e",
+    "word": "जब",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.2531648874282837,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_745712e93f82a31cdeda",
+    "word": "मसला",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.7578495740890503,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_745712e93f82a31cdeda",
+    "word": "मसला",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.7477362751960754,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_745712e93f82a31cdeda",
+    "word": "मसला",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7824180722236633,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_aed5a1d70035b90d0570",
+    "word": "ज्येष्ठ",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.6772491335868835,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_aed5a1d70035b90d0570",
+    "word": "ज्येष्ठ",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.41229668259620667,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_aed5a1d70035b90d0570",
+    "word": "ज्येष्ठ",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.6579984426498413,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_4f268ff4c4e09f8a18e7",
+    "word": "युद्ध",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.22584067285060883,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_4f268ff4c4e09f8a18e7",
+    "word": "युद्ध",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.2869303822517395,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_4f268ff4c4e09f8a18e7",
+    "word": "युद्ध",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8980186581611633,
+    "high_source_style_flag": true,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_fe735604d0bec9e0c157",
+    "word": "लट्ठ",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.5395497679710388,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_fe735604d0bec9e0c157",
+    "word": "लट्ठ",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.5611953735351562,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_fe735604d0bec9e0c157",
+    "word": "लट्ठ",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7369726300239563,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_cad33c57bdd2cea041ae",
+    "word": "खान",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.4263351857662201,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_cad33c57bdd2cea041ae",
+    "word": "खान",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.3747347295284271,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_cad33c57bdd2cea041ae",
+    "word": "खान",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.39984217286109924,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b350d2c1d83b9c4628d9",
+    "word": "पुतला",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.6044632792472839,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b350d2c1d83b9c4628d9",
+    "word": "पुतला",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.7295133471488953,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b350d2c1d83b9c4628d9",
+    "word": "पुतला",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8017802238464355,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_194d4b4bc9d1e8533789",
+    "word": "बिहान",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.34746068716049194,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_194d4b4bc9d1e8533789",
+    "word": "बिहान",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.3702503442764282,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_194d4b4bc9d1e8533789",
+    "word": "बिहान",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.430609792470932,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_9c894fbd1243c1c9de2f",
+    "word": "पय",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.1491137146949768,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_9c894fbd1243c1c9de2f",
+    "word": "पय",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.15086735785007477,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_9c894fbd1243c1c9de2f",
+    "word": "पय",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8851721286773682,
+    "high_source_style_flag": true,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_747ffeeacc967ae38799",
+    "word": "जय",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.2336529940366745,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_747ffeeacc967ae38799",
+    "word": "जय",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.549436092376709,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_747ffeeacc967ae38799",
+    "word": "जय",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7550314664840698,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_71532eaf2935cd5a0c93",
+    "word": "दोस्त",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.39056602120399475,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_71532eaf2935cd5a0c93",
+    "word": "दोस्त",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.20008179545402527,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_71532eaf2935cd5a0c93",
+    "word": "दोस्त",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8675983548164368,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f003368a967b367fb7f2",
+    "word": "नगर",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.675822377204895,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f003368a967b367fb7f2",
+    "word": "नगर",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.15593567490577698,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f003368a967b367fb7f2",
+    "word": "नगर",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.708664059638977,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_22c3bf325d16850ba676",
+    "word": "स्वच्छ",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.29826560616493225,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_22c3bf325d16850ba676",
+    "word": "स्वच्छ",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.28097003698349,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_22c3bf325d16850ba676",
+    "word": "स्वच्छ",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.3515414893627167,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ed143b67ed906dea872e",
+    "word": "पदार्थ",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.12499231100082397,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ed143b67ed906dea872e",
+    "word": "पदार्थ",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.10883361101150513,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ed143b67ed906dea872e",
+    "word": "पदार्थ",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.5977528691291809,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c847f9324e19156df71f",
+    "word": "कर्मचारी",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.24058897793293,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c847f9324e19156df71f",
+    "word": "कर्मचारी",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.6129128336906433,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c847f9324e19156df71f",
+    "word": "कर्मचारी",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8490447402000427,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_3bab12171d9b9c29a1f8",
+    "word": "युक्त",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.3078974783420563,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_3bab12171d9b9c29a1f8",
+    "word": "युक्त",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.3789927363395691,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_3bab12171d9b9c29a1f8",
+    "word": "युक्त",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.3399336636066437,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bccec279935f3935216b",
+    "word": "पस",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.1849382370710373,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bccec279935f3935216b",
+    "word": "पस",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.18873336911201477,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bccec279935f3935216b",
+    "word": "पस",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.826875627040863,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bb5a23cc8c39b4754f2c",
+    "word": "कलह",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.585114598274231,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bb5a23cc8c39b4754f2c",
+    "word": "कलह",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.39271825551986694,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bb5a23cc8c39b4754f2c",
+    "word": "कलह",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7521322965621948,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ac5a2cab91a738a80261",
+    "word": "कष्ट",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.21019917726516724,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ac5a2cab91a738a80261",
+    "word": "कष्ट",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.13236704468727112,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ac5a2cab91a738a80261",
+    "word": "कष्ट",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8336459994316101,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6c2f3b1ce8ca4d972544",
+    "word": "दशहरा",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.3172963261604309,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6c2f3b1ce8ca4d972544",
+    "word": "दशहरा",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.22863143682479858,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6c2f3b1ce8ca4d972544",
+    "word": "दशहरा",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.6578949093818665,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_594b474fa0d1b22fb925",
+    "word": "नलिन",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.6107996702194214,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_594b474fa0d1b22fb925",
+    "word": "नलिन",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.5347887277603149,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_594b474fa0d1b22fb925",
+    "word": "नलिन",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8253678679466248,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_4adcf51d3bfaac631030",
+    "word": "कमला",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.10923432558774948,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_4adcf51d3bfaac631030",
+    "word": "कमला",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.16234511137008667,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_4adcf51d3bfaac631030",
+    "word": "कमला",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7450530529022217,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_301174e31c2ab034ab63",
+    "word": "गुजरात",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.5126863121986389,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_301174e31c2ab034ab63",
+    "word": "गुजरात",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.4764386713504791,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_301174e31c2ab034ab63",
+    "word": "गुजरात",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.5289128422737122,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_059df9598a64cc1ca6b8",
+    "word": "दायर",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.4035627841949463,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_059df9598a64cc1ca6b8",
+    "word": "दायर",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.4612714648246765,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_059df9598a64cc1ca6b8",
+    "word": "दायर",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.3535121977329254,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_5709167eb9d125991009",
+    "word": "सार्थ",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.20438958704471588,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_5709167eb9d125991009",
+    "word": "सार्थ",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.1538504809141159,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_5709167eb9d125991009",
+    "word": "सार्थ",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8141850233078003,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_1e3dfeab4bbcee0a247d",
+    "word": "शुल्क",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.30354031920433044,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_1e3dfeab4bbcee0a247d",
+    "word": "शुल्क",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.6276641488075256,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_1e3dfeab4bbcee0a247d",
+    "word": "शुल्क",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.5758654475212097,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_a64b36da4daba5d2e361",
+    "word": "खरब",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.46630221605300903,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_a64b36da4daba5d2e361",
+    "word": "खरब",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.3329482972621918,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_a64b36da4daba5d2e361",
+    "word": "खरब",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.5448760986328125,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_aed7acabb4a282f0cafa",
+    "word": "तरह",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.12830866873264313,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_aed7acabb4a282f0cafa",
+    "word": "तरह",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.145381897687912,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_aed7acabb4a282f0cafa",
+    "word": "तरह",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8234951496124268,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_934058661be036310eea",
+    "word": "सपना",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.49122223258018494,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_934058661be036310eea",
+    "word": "सपना",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.11793135106563568,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_934058661be036310eea",
+    "word": "सपना",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7901114821434021,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_09d0de3f5cdaf82787ef",
+    "word": "जिरह",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.7255775928497314,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_09d0de3f5cdaf82787ef",
+    "word": "जिरह",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.2397114485502243,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_09d0de3f5cdaf82787ef",
+    "word": "जिरह",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8318046927452087,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_eb397850a4c20c52447b",
+    "word": "सराहना",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.30643564462661743,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_eb397850a4c20c52447b",
+    "word": "सराहना",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.1513407975435257,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_eb397850a4c20c52447b",
+    "word": "सराहना",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7310840487480164,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_859c965fc43338c8d5e2",
+    "word": "सायर",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.27182015776634216,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_859c965fc43338c8d5e2",
+    "word": "सायर",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.6825470328330994,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_859c965fc43338c8d5e2",
+    "word": "सायर",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.3971177041530609,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_1cdd988062dc9ddc6f70",
+    "word": "साह",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.16878941655158997,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_1cdd988062dc9ddc6f70",
+    "word": "साह",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.23286154866218567,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_1cdd988062dc9ddc6f70",
+    "word": "साह",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7749727368354797,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_9cd82f465f205da996a5",
+    "word": "सकल",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.10326440632343292,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_9cd82f465f205da996a5",
+    "word": "सकल",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.12271337956190109,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_9cd82f465f205da996a5",
+    "word": "सकल",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7068032622337341,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bef3749f60fd30b59a83",
+    "word": "नहर",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.2821650505065918,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bef3749f60fd30b59a83",
+    "word": "नहर",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.13769349455833435,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bef3749f60fd30b59a83",
+    "word": "नहर",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.19766755402088165,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_31649e86e3beb40f5107",
+    "word": "लाद",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.31071972846984863,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_31649e86e3beb40f5107",
+    "word": "लाद",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.39320260286331177,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_31649e86e3beb40f5107",
+    "word": "लाद",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8357605338096619,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_64bd54d957de21575e2f",
+    "word": "मर्म",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.4674847424030304,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_64bd54d957de21575e2f",
+    "word": "मर्म",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.40475258231163025,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_64bd54d957de21575e2f",
+    "word": "मर्म",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.5316866040229797,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_32f9deb72682ac8ae538",
+    "word": "हर्ष",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.17784275114536285,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_32f9deb72682ac8ae538",
+    "word": "हर्ष",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.2554786503314972,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_32f9deb72682ac8ae538",
+    "word": "हर्ष",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.6482461094856262,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_612c235db09e2c4d4ea8",
+    "word": "साधना",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.2084384560585022,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_612c235db09e2c4d4ea8",
+    "word": "साधना",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.18345457315444946,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_612c235db09e2c4d4ea8",
+    "word": "साधना",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8612649440765381,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_76d20cd8cb83dfd3faee",
+    "word": "रुग्ण",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.7092919945716858,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_76d20cd8cb83dfd3faee",
+    "word": "रुग्ण",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.3355805575847626,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_76d20cd8cb83dfd3faee",
+    "word": "रुग्ण",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8364487886428833,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_45496bc8ee651bc68d34",
+    "word": "रहन",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.2758532464504242,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_45496bc8ee651bc68d34",
+    "word": "रहन",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.45680734515190125,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_45496bc8ee651bc68d34",
+    "word": "रहन",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7845211625099182,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_62e8fa4379eebcdb94a7",
+    "word": "मुडेर",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.6658581495285034,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_62e8fa4379eebcdb94a7",
+    "word": "मुडेर",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.298662394285202,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_62e8fa4379eebcdb94a7",
+    "word": "मुडेर",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7940704822540283,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_74b4f04e359a7013e340",
+    "word": "प्रश्न",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.35435664653778076,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_74b4f04e359a7013e340",
+    "word": "प्रश्न",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.3014761507511139,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_74b4f04e359a7013e340",
+    "word": "प्रश्न",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.27365735173225403,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f57542b6265febc23c36",
+    "word": "पोखरा",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.7753934264183044,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f57542b6265febc23c36",
+    "word": "पोखरा",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.3836696743965149,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f57542b6265febc23c36",
+    "word": "पोखरा",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8670788407325745,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_3d16ac64846f9cb159cd",
+    "word": "छिन्न",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.21642154455184937,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_3d16ac64846f9cb159cd",
+    "word": "छिन्न",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.15057089924812317,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_3d16ac64846f9cb159cd",
+    "word": "छिन्न",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.6558173298835754,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_7ddf7831367a4b656557",
+    "word": "सतह",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.5706251859664917,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_7ddf7831367a4b656557",
+    "word": "सतह",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.2615267038345337,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_7ddf7831367a4b656557",
+    "word": "सतह",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.543043851852417,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_559792ff70b145b93e1a",
+    "word": "काष्ठ",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.19082385301589966,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_559792ff70b145b93e1a",
+    "word": "काष्ठ",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.21030054986476898,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_559792ff70b145b93e1a",
+    "word": "काष्ठ",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8609459400177002,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_4ddc4506af34e60cb3e3",
+    "word": "डाह",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.5060490965843201,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_4ddc4506af34e60cb3e3",
+    "word": "डाह",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.4831550717353821,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_4ddc4506af34e60cb3e3",
+    "word": "डाह",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.44608595967292786,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_9d6a62116daaacb02af3",
+    "word": "कनिष्ठ",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.15345041453838348,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_9d6a62116daaacb02af3",
+    "word": "कनिष्ठ",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.12354609370231628,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_9d6a62116daaacb02af3",
+    "word": "कनिष्ठ",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.19698204100131989,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c8192e89811ef9945a7e",
+    "word": "मलमास",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.31247031688690186,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c8192e89811ef9945a7e",
+    "word": "मलमास",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.6397750973701477,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c8192e89811ef9945a7e",
+    "word": "मलमास",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7788063287734985,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_81d769178a78d5992822",
+    "word": "स्थापना",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.18210521340370178,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_81d769178a78d5992822",
+    "word": "स्थापना",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.23634664714336395,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_81d769178a78d5992822",
+    "word": "स्थापना",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8437238335609436,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_54457c725ca0b9df0279",
+    "word": "सदर",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.15913112461566925,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_54457c725ca0b9df0279",
+    "word": "सदर",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.14824143052101135,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_54457c725ca0b9df0279",
+    "word": "सदर",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.49517786502838135,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_50513d8f0bdd86551c33",
+    "word": "याचना",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.35079699754714966,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_50513d8f0bdd86551c33",
+    "word": "याचना",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.1523778885602951,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_50513d8f0bdd86551c33",
+    "word": "याचना",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7265380024909973,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d2b082e597304b0b50d1",
+    "word": "मातहत",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.11021699756383896,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d2b082e597304b0b50d1",
+    "word": "मातहत",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.11583331972360611,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d2b082e597304b0b50d1",
+    "word": "मातहत",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7796322107315063,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_5703efcfc5836c07a2a0",
+    "word": "सराय",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.19119125604629517,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_5703efcfc5836c07a2a0",
+    "word": "सराय",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.15418113768100739,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_5703efcfc5836c07a2a0",
+    "word": "सराय",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.18177996575832367,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f5a24ecb797e9fda8209",
+    "word": "भक्त",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.44412922859191895,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f5a24ecb797e9fda8209",
+    "word": "भक्त",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.3914068937301636,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f5a24ecb797e9fda8209",
+    "word": "भक्त",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.5226137638092041,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d4daa3c4a5b1e78662bc",
+    "word": "डसना",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.28538140654563904,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d4daa3c4a5b1e78662bc",
+    "word": "डसना",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.1940024495124817,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d4daa3c4a5b1e78662bc",
+    "word": "डसना",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8433486819267273,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_1f9f0649f4a430f37350",
+    "word": "मेहमान",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.3183481693267822,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_1f9f0649f4a430f37350",
+    "word": "मेहमान",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.36043205857276917,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_1f9f0649f4a430f37350",
+    "word": "मेहमान",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.34693729877471924,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0801e1f3d34c9fba07c0",
+    "word": "नरम",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.413054883480072,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0801e1f3d34c9fba07c0",
+    "word": "नरम",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.40228813886642456,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0801e1f3d34c9fba07c0",
+    "word": "नरम",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.6574814319610596,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_976eeff59f9cb9466477",
+    "word": "ग्रह",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.1486075520515442,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_976eeff59f9cb9466477",
+    "word": "ग्रह",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.341246634721756,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_976eeff59f9cb9466477",
+    "word": "ग्रह",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7875244617462158,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0078c32912abfc406dd0",
+    "word": "थाप",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.18973475694656372,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0078c32912abfc406dd0",
+    "word": "थाप",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.19065134227275848,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0078c32912abfc406dd0",
+    "word": "थाप",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8028720021247864,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_2af077c199ebcc91e7e1",
+    "word": "दुष्ट",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.25389599800109863,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_2af077c199ebcc91e7e1",
+    "word": "दुष्ट",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.1373433917760849,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_2af077c199ebcc91e7e1",
+    "word": "दुष्ट",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8059953451156616,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_5dd671b98d8ca20b19a8",
+    "word": "सामना",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.11788184940814972,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_5dd671b98d8ca20b19a8",
+    "word": "सामना",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.13081638514995575,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_5dd671b98d8ca20b19a8",
+    "word": "सामना",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.639492392539978,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f651584d47fb1605fd04",
+    "word": "महतो",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.3786991834640503,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f651584d47fb1605fd04",
+    "word": "महतो",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.47569945454597473,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f651584d47fb1605fd04",
+    "word": "महतो",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.4571771025657654,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d93f0a18735f1e678a10",
+    "word": "मार्ग",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.7730093598365784,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d93f0a18735f1e678a10",
+    "word": "मार्ग",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.5211682319641113,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d93f0a18735f1e678a10",
+    "word": "मार्ग",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.7767170667648315,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_54824584431903fc11da",
+    "word": "स्निग्ध",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.5256717205047607,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_54824584431903fc11da",
+    "word": "स्निग्ध",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.7841429114341736,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_54824584431903fc11da",
+    "word": "स्निग्ध",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.8370025157928467,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6bd7630e69132034babf",
+    "word": "बहर",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.22711743414402008,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6bd7630e69132034babf",
+    "word": "बहर",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.24178999662399292,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6bd7630e69132034babf",
+    "word": "बहर",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.5960447192192078,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ba38192e5635d25bd21d",
+    "word": "जेष्ठ",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.15474647283554077,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ba38192e5635d25bd21d",
+    "word": "जेष्ठ",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.14715537428855896,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ba38192e5635d25bd21d",
+    "word": "जेष्ठ",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.2095901370048523,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0ffdde8503a778dc4146",
+    "word": "धूर्त",
+    "condition": "sham",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.48882177472114563,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0ffdde8503a778dc4146",
+    "word": "धूर्त",
+    "condition": "native_transfer",
+    "split": "train",
+    "label": 0,
+    "source_style_score": 0.3364756107330322,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0ffdde8503a778dc4146",
+    "word": "धूर्त",
+    "condition": "hindi_transfer",
+    "split": "train",
+    "label": 1,
+    "source_style_score": 0.71185302734375,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_2ceec7620c8029f07c21",
+    "word": "मुजरा",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.5609835386276245,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_2ceec7620c8029f07c21",
+    "word": "मुजरा",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.6042647361755371,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_2ceec7620c8029f07c21",
+    "word": "मुजरा",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.6621057987213135,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e4364d442feab215807e",
+    "word": "तह",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.6913642883300781,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e4364d442feab215807e",
+    "word": "तह",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.5390316843986511,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e4364d442feab215807e",
+    "word": "तह",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.6903955936431885,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_2db6c0f11e0ce071c52a",
+    "word": "द्रोण",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.7861549854278564,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_2db6c0f11e0ce071c52a",
+    "word": "द्रोण",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.8343388438224792,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_2db6c0f11e0ce071c52a",
+    "word": "द्रोण",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.8222714066505432,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f3928267a44ff2414fbe",
+    "word": "फाल",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.5952427387237549,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f3928267a44ff2414fbe",
+    "word": "फाल",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.29297736287117004,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f3928267a44ff2414fbe",
+    "word": "फाल",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.8098053932189941,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_9386422e98a64914945c",
+    "word": "राख",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.7286719083786011,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_9386422e98a64914945c",
+    "word": "राख",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.7866917848587036,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_9386422e98a64914945c",
+    "word": "राख",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.7320824861526489,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_31fae9b4daa28dd89523",
+    "word": "ठप्प",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.8117960095405579,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_31fae9b4daa28dd89523",
+    "word": "ठप्प",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.28771889209747314,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_31fae9b4daa28dd89523",
+    "word": "ठप्प",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.7890759706497192,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ce8cd6eb0f3f877e4526",
+    "word": "पादरी",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.8805220127105713,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ce8cd6eb0f3f877e4526",
+    "word": "पादरी",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.13950271904468536,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ce8cd6eb0f3f877e4526",
+    "word": "पादरी",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.8382618427276611,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0084df7cdabc64fcc7c7",
+    "word": "मूर्त",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.36189934611320496,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0084df7cdabc64fcc7c7",
+    "word": "मूर्त",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.31957384943962097,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0084df7cdabc64fcc7c7",
+    "word": "मूर्त",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.7539964914321899,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e86155a1f76211cc2dc2",
+    "word": "गह",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.386546790599823,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e86155a1f76211cc2dc2",
+    "word": "गह",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.3732445538043976,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e86155a1f76211cc2dc2",
+    "word": "गह",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.31648632884025574,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d8db04b4cc6ccce4d66e",
+    "word": "चेतना",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.3381049931049347,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d8db04b4cc6ccce4d66e",
+    "word": "चेतना",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.6885080337524414,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d8db04b4cc6ccce4d66e",
+    "word": "चेतना",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.5445232391357422,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_1962c9ef947875518187",
+    "word": "देख",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.3461363613605499,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_1962c9ef947875518187",
+    "word": "देख",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.3854101598262787,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_1962c9ef947875518187",
+    "word": "देख",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.2980889678001404,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_76dc14af41ee892cc26d",
+    "word": "सहर",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.18140234053134918,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_76dc14af41ee892cc26d",
+    "word": "सहर",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.7433578968048096,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_76dc14af41ee892cc26d",
+    "word": "सहर",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.5592001080513,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ff5472d2fdc0fbb67f7b",
+    "word": "दुरुस्त",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.5041531324386597,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ff5472d2fdc0fbb67f7b",
+    "word": "दुरुस्त",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.4563416838645935,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ff5472d2fdc0fbb67f7b",
+    "word": "दुरुस्त",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.4869711995124817,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6e863b3dee7211d29c94",
+    "word": "लहर",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.26407772302627563,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6e863b3dee7211d29c94",
+    "word": "लहर",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.11205912381410599,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6e863b3dee7211d29c94",
+    "word": "लहर",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.7980841398239136,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c9f37cd8bef76985bd9a",
+    "word": "रसना",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.8577369451522827,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c9f37cd8bef76985bd9a",
+    "word": "रसना",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.8694795966148376,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c9f37cd8bef76985bd9a",
+    "word": "रसना",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.8883204460144043,
+    "high_source_style_flag": true,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_9dce95ccd6256f27cd3d",
+    "word": "खन",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.5090672969818115,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_9dce95ccd6256f27cd3d",
+    "word": "खन",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.4394950568675995,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_9dce95ccd6256f27cd3d",
+    "word": "खन",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.5448864102363586,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_3df991580a47985f71b7",
+    "word": "जोगिन",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.5652936697006226,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_3df991580a47985f71b7",
+    "word": "जोगिन",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.3422963619232178,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_3df991580a47985f71b7",
+    "word": "जोगिन",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.7240356802940369,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6c6476823d0cf1d9150e",
+    "word": "म्लेच्छ",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.38790392875671387,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6c6476823d0cf1d9150e",
+    "word": "म्लेच्छ",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.3494013845920563,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6c6476823d0cf1d9150e",
+    "word": "म्लेच्छ",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.33162882924079895,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_141660bac39fc9e6cb16",
+    "word": "प्रारब्ध",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.5659732222557068,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_141660bac39fc9e6cb16",
+    "word": "प्रारब्ध",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.3057287037372589,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_141660bac39fc9e6cb16",
+    "word": "प्रारब्ध",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.675597608089447,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_4f6375da99082b358dcc",
+    "word": "शहर",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.3491780757904053,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_4f6375da99082b358dcc",
+    "word": "शहर",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.34810465574264526,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_4f6375da99082b358dcc",
+    "word": "शहर",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.41446438431739807,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_8bb4877ccd88d87319ac",
+    "word": "कर्म",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.347400963306427,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_8bb4877ccd88d87319ac",
+    "word": "कर्म",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.40266796946525574,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_8bb4877ccd88d87319ac",
+    "word": "कर्म",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.8426722884178162,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_701db0ca8a33f52e51ef",
+    "word": "ढकना",
+    "condition": "sham",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.3570789396762848,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_701db0ca8a33f52e51ef",
+    "word": "ढकना",
+    "condition": "native_transfer",
+    "split": "development",
+    "label": 0,
+    "source_style_score": 0.35589906573295593,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_701db0ca8a33f52e51ef",
+    "word": "ढकना",
+    "condition": "hindi_transfer",
+    "split": "development",
+    "label": 1,
+    "source_style_score": 0.3070923089981079,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_603aa1ffbec61fb52c0e",
+    "word": "कहन",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.3382103443145752,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_603aa1ffbec61fb52c0e",
+    "word": "कहन",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.320473849773407,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_603aa1ffbec61fb52c0e",
+    "word": "कहन",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.3841656446456909,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_603aa1ffbec61fb52c0e",
+    "word": "कहन",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.348095178604126,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_603aa1ffbec61fb52c0e",
+    "word": "कहन",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.3449280858039856,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_603aa1ffbec61fb52c0e",
+    "word": "कहन",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.3382103443145752,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_a0df2a6548b5e31ca4c4",
+    "word": "जबर",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6621508598327637,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_a0df2a6548b5e31ca4c4",
+    "word": "जबर",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6542268395423889,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_a0df2a6548b5e31ca4c4",
+    "word": "जबर",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.6568960547447205,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_a0df2a6548b5e31ca4c4",
+    "word": "जबर",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6479841470718384,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_a0df2a6548b5e31ca4c4",
+    "word": "जबर",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6646601557731628,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_a0df2a6548b5e31ca4c4",
+    "word": "जबर",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6621508598327637,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_760c1006e783f1fde8d5",
+    "word": "इष्ट",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.5355846285820007,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_760c1006e783f1fde8d5",
+    "word": "इष्ट",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.2957765758037567,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_760c1006e783f1fde8d5",
+    "word": "इष्ट",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.8016678690910339,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_760c1006e783f1fde8d5",
+    "word": "इष्ट",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.12765005230903625,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_760c1006e783f1fde8d5",
+    "word": "इष्ट",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.5355846285820007,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_760c1006e783f1fde8d5",
+    "word": "इष्ट",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.5355846285820007,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_68ddd6561bd1b65e15d3",
+    "word": "पट्ट",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.1291646957397461,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_68ddd6561bd1b65e15d3",
+    "word": "पट्ट",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.14691688120365143,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_68ddd6561bd1b65e15d3",
+    "word": "पट्ट",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.886820375919342,
+    "high_source_style_flag": true,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_68ddd6561bd1b65e15d3",
+    "word": "पट्ट",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.1291646957397461,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_68ddd6561bd1b65e15d3",
+    "word": "पट्ट",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.11302133649587631,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_68ddd6561bd1b65e15d3",
+    "word": "पट्ट",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.1291646957397461,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_7aa4c1de412e0b7cc2a4",
+    "word": "भनभन",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6208973526954651,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_7aa4c1de412e0b7cc2a4",
+    "word": "भनभन",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.5516534447669983,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_7aa4c1de412e0b7cc2a4",
+    "word": "भनभन",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.5736325979232788,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_7aa4c1de412e0b7cc2a4",
+    "word": "भनभन",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6162601113319397,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_7aa4c1de412e0b7cc2a4",
+    "word": "भनभन",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6162601113319397,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_7aa4c1de412e0b7cc2a4",
+    "word": "भनभन",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6208973526954651,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c19b07720d72d0af903b",
+    "word": "रचना",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.8625463843345642,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c19b07720d72d0af903b",
+    "word": "रचना",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.8688695430755615,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c19b07720d72d0af903b",
+    "word": "रचना",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.8626415729522705,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c19b07720d72d0af903b",
+    "word": "रचना",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.8598254919052124,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c19b07720d72d0af903b",
+    "word": "रचना",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.8624395728111267,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c19b07720d72d0af903b",
+    "word": "रचना",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.8625463843345642,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c361942ef0f6711ab8c2",
+    "word": "सहरी",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.4926147162914276,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c361942ef0f6711ab8c2",
+    "word": "सहरी",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.5545742511749268,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c361942ef0f6711ab8c2",
+    "word": "सहरी",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.7241520881652832,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c361942ef0f6711ab8c2",
+    "word": "सहरी",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.49261993169784546,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c361942ef0f6711ab8c2",
+    "word": "सहरी",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.5383726358413696,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_c361942ef0f6711ab8c2",
+    "word": "सहरी",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.4926147162914276,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bfd7953eea97e4c115ec",
+    "word": "अष्ट",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.3425133526325226,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bfd7953eea97e4c115ec",
+    "word": "अष्ट",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.2998600900173187,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bfd7953eea97e4c115ec",
+    "word": "अष्ट",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.3069622218608856,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bfd7953eea97e4c115ec",
+    "word": "अष्ट",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.3425133526325226,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bfd7953eea97e4c115ec",
+    "word": "अष्ट",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.3425133526325226,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bfd7953eea97e4c115ec",
+    "word": "अष्ट",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.3425133526325226,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f602f712a79c3727c96f",
+    "word": "अमर",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.14508120715618134,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f602f712a79c3727c96f",
+    "word": "अमर",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.14248241484165192,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f602f712a79c3727c96f",
+    "word": "अमर",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.2449520379304886,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f602f712a79c3727c96f",
+    "word": "अमर",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.12686492502689362,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f602f712a79c3727c96f",
+    "word": "अमर",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.14508120715618134,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f602f712a79c3727c96f",
+    "word": "अमर",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.14508120715618134,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_cd43197deec208cd578e",
+    "word": "तर्क",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.13142278790473938,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_cd43197deec208cd578e",
+    "word": "तर्क",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.21445515751838684,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_cd43197deec208cd578e",
+    "word": "तर्क",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.8376488089561462,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_cd43197deec208cd578e",
+    "word": "तर्क",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.13142278790473938,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_cd43197deec208cd578e",
+    "word": "तर्क",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.13142278790473938,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_cd43197deec208cd578e",
+    "word": "तर्क",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.13142278790473938,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_3528376b68b6e77a0a25",
+    "word": "अर्ध",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.4129471778869629,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_3528376b68b6e77a0a25",
+    "word": "अर्ध",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6341874599456787,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_3528376b68b6e77a0a25",
+    "word": "अर्ध",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.8763410449028015,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_3528376b68b6e77a0a25",
+    "word": "अर्ध",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6533897519111633,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_3528376b68b6e77a0a25",
+    "word": "अर्ध",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6533897519111633,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_3528376b68b6e77a0a25",
+    "word": "अर्ध",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.4129471778869629,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d39bd0b4c892bc40a7c1",
+    "word": "कूर्म",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.4857322871685028,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d39bd0b4c892bc40a7c1",
+    "word": "कूर्म",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.47298070788383484,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d39bd0b4c892bc40a7c1",
+    "word": "कूर्म",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.527934193611145,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d39bd0b4c892bc40a7c1",
+    "word": "कूर्म",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.5297430753707886,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d39bd0b4c892bc40a7c1",
+    "word": "कूर्म",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.41066792607307434,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_d39bd0b4c892bc40a7c1",
+    "word": "कूर्म",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.4857322871685028,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b47a63877b462a358174",
+    "word": "नष्ट",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.1280507743358612,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b47a63877b462a358174",
+    "word": "नष्ट",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.13076317310333252,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b47a63877b462a358174",
+    "word": "नष्ट",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.5654556751251221,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b47a63877b462a358174",
+    "word": "नष्ट",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.13343511521816254,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b47a63877b462a358174",
+    "word": "नष्ट",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.1280507743358612,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_b47a63877b462a358174",
+    "word": "नष्ट",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.1280507743358612,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f266218b49b8862de962",
+    "word": "महरा",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7194410562515259,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f266218b49b8862de962",
+    "word": "महरा",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6467524170875549,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f266218b49b8862de962",
+    "word": "महरा",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.7798217535018921,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f266218b49b8862de962",
+    "word": "महरा",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7853559255599976,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f266218b49b8862de962",
+    "word": "महरा",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7470923066139221,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_f266218b49b8862de962",
+    "word": "महरा",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7194410562515259,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_82713e05b89197900c2b",
+    "word": "साट",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.758747935295105,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_82713e05b89197900c2b",
+    "word": "साट",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.22121953964233398,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_82713e05b89197900c2b",
+    "word": "साट",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.5173772573471069,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_82713e05b89197900c2b",
+    "word": "साट",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.3964865207672119,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_82713e05b89197900c2b",
+    "word": "साट",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.758747935295105,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_82713e05b89197900c2b",
+    "word": "साट",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.758747935295105,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_db690ee5331fdfb52cb9",
+    "word": "गमला",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.437008261680603,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_db690ee5331fdfb52cb9",
+    "word": "गमला",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.4101894795894623,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_db690ee5331fdfb52cb9",
+    "word": "गमला",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.5007997751235962,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_db690ee5331fdfb52cb9",
+    "word": "गमला",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.437008261680603,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_db690ee5331fdfb52cb9",
+    "word": "गमला",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.4106390178203583,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_db690ee5331fdfb52cb9",
+    "word": "गमला",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.437008261680603,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_59d9e21f5b08394afefd",
+    "word": "मार",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6335391402244568,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_59d9e21f5b08394afefd",
+    "word": "मार",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7160353064537048,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_59d9e21f5b08394afefd",
+    "word": "मार",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.6641238331794739,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_59d9e21f5b08394afefd",
+    "word": "मार",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6486784815788269,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_59d9e21f5b08394afefd",
+    "word": "मार",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6326828002929688,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_59d9e21f5b08394afefd",
+    "word": "मार",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6335391402244568,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_70f076333c26b09bafac",
+    "word": "ब्रह्म",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.31519603729248047,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_70f076333c26b09bafac",
+    "word": "ब्रह्म",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7741921544075012,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_70f076333c26b09bafac",
+    "word": "ब्रह्म",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.8158330321311951,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_70f076333c26b09bafac",
+    "word": "ब्रह्म",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.15303117036819458,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_70f076333c26b09bafac",
+    "word": "ब्रह्म",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.31519603729248047,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_70f076333c26b09bafac",
+    "word": "ब्रह्म",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.31519603729248047,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bb7dd4bdd0c6f2ea103e",
+    "word": "भिन्न",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.24087320268154144,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bb7dd4bdd0c6f2ea103e",
+    "word": "भिन्न",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.23633231222629547,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bb7dd4bdd0c6f2ea103e",
+    "word": "भिन्न",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.7821964621543884,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bb7dd4bdd0c6f2ea103e",
+    "word": "भिन्न",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.15039505064487457,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bb7dd4bdd0c6f2ea103e",
+    "word": "भिन्न",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.3049127459526062,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_bb7dd4bdd0c6f2ea103e",
+    "word": "भिन्न",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.24087320268154144,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_dfa18a64706cbffe9f49",
+    "word": "थपना",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.11789592355489731,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_dfa18a64706cbffe9f49",
+    "word": "थपना",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.8095497488975525,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_dfa18a64706cbffe9f49",
+    "word": "थपना",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.8724778890609741,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_dfa18a64706cbffe9f49",
+    "word": "थपना",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.11165806651115417,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_dfa18a64706cbffe9f49",
+    "word": "थपना",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.19025978446006775,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_dfa18a64706cbffe9f49",
+    "word": "थपना",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.11789592355489731,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_8c539ca499a09bebc432",
+    "word": "असल",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.5956171154975891,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_8c539ca499a09bebc432",
+    "word": "असल",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.5879318714141846,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_8c539ca499a09bebc432",
+    "word": "असल",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.485806941986084,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_8c539ca499a09bebc432",
+    "word": "असल",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6426088809967041,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_8c539ca499a09bebc432",
+    "word": "असल",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6110420823097229,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_8c539ca499a09bebc432",
+    "word": "असल",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.5956171154975891,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_497f7047409774e8f0e4",
+    "word": "बहल",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.5576971769332886,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_497f7047409774e8f0e4",
+    "word": "बहल",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.51878422498703,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_497f7047409774e8f0e4",
+    "word": "बहल",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.6052284836769104,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_497f7047409774e8f0e4",
+    "word": "बहल",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.5576971769332886,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_497f7047409774e8f0e4",
+    "word": "बहल",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.5490607619285583,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_497f7047409774e8f0e4",
+    "word": "बहल",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.5576971769332886,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_2c2fb2ffc40657499d2f",
+    "word": "चाहना",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.33195579051971436,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_2c2fb2ffc40657499d2f",
+    "word": "चाहना",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.3305927515029907,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_2c2fb2ffc40657499d2f",
+    "word": "चाहना",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.40761855244636536,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_2c2fb2ffc40657499d2f",
+    "word": "चाहना",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.3414098620414734,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_2c2fb2ffc40657499d2f",
+    "word": "चाहना",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.3164333999156952,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_2c2fb2ffc40657499d2f",
+    "word": "चाहना",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.33195579051971436,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6a6551bca5c079d084fe",
+    "word": "सृजना",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.33874571323394775,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6a6551bca5c079d084fe",
+    "word": "सृजना",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.15828591585159302,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6a6551bca5c079d084fe",
+    "word": "सृजना",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.28623560070991516,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6a6551bca5c079d084fe",
+    "word": "सृजना",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.12381571531295776,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6a6551bca5c079d084fe",
+    "word": "सृजना",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.4441997706890106,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6a6551bca5c079d084fe",
+    "word": "सृजना",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.33874571323394775,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e3b136f26fdb61c32af8",
+    "word": "महल",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6696966290473938,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e3b136f26fdb61c32af8",
+    "word": "महल",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7941976189613342,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e3b136f26fdb61c32af8",
+    "word": "महल",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.5393193960189819,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e3b136f26fdb61c32af8",
+    "word": "महल",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7211711406707764,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e3b136f26fdb61c32af8",
+    "word": "महल",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7887735962867737,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e3b136f26fdb61c32af8",
+    "word": "महल",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6696966290473938,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e51a587cad3829cd0339",
+    "word": "गिरोह",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6298252940177917,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e51a587cad3829cd0339",
+    "word": "गिरोह",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.5557523369789124,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e51a587cad3829cd0339",
+    "word": "गिरोह",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.6142463088035583,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e51a587cad3829cd0339",
+    "word": "गिरोह",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6080703735351562,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e51a587cad3829cd0339",
+    "word": "गिरोह",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6179763674736023,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_e51a587cad3829cd0339",
+    "word": "गिरोह",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6298252940177917,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_42e3e3b10da123adf03c",
+    "word": "जीर्ण",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.14884789288043976,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_42e3e3b10da123adf03c",
+    "word": "जीर्ण",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.12775278091430664,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_42e3e3b10da123adf03c",
+    "word": "जीर्ण",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.1751328408718109,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_42e3e3b10da123adf03c",
+    "word": "जीर्ण",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.14954312145709991,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_42e3e3b10da123adf03c",
+    "word": "जीर्ण",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.14884789288043976,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_42e3e3b10da123adf03c",
+    "word": "जीर्ण",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.14884789288043976,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_80254ee6eabf86c43543",
+    "word": "धर्म",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.26318031549453735,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_80254ee6eabf86c43543",
+    "word": "धर्म",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.22201980650424957,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_80254ee6eabf86c43543",
+    "word": "धर्म",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.34166547656059265,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_80254ee6eabf86c43543",
+    "word": "धर्म",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.20544162392616272,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_80254ee6eabf86c43543",
+    "word": "धर्म",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.20544162392616272,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_80254ee6eabf86c43543",
+    "word": "धर्म",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.26318031549453735,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_cf97de8da70dee5d80bc",
+    "word": "पालना",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.31810620427131653,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_cf97de8da70dee5d80bc",
+    "word": "पालना",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.36087939143180847,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_cf97de8da70dee5d80bc",
+    "word": "पालना",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.34019359946250916,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_cf97de8da70dee5d80bc",
+    "word": "पालना",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.31810620427131653,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_cf97de8da70dee5d80bc",
+    "word": "पालना",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.3329308032989502,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_cf97de8da70dee5d80bc",
+    "word": "पालना",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.31810620427131653,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0903482f72e00d67d6fc",
+    "word": "कसर",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.12722989916801453,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0903482f72e00d67d6fc",
+    "word": "कसर",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.1970166563987732,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0903482f72e00d67d6fc",
+    "word": "कसर",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.8806968927383423,
+    "high_source_style_flag": true,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0903482f72e00d67d6fc",
+    "word": "कसर",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.12722989916801453,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0903482f72e00d67d6fc",
+    "word": "कसर",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.12599578499794006,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_0903482f72e00d67d6fc",
+    "word": "कसर",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.12722989916801453,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_70f9c3bf994491316139",
+    "word": "दुग्ध",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7392497062683105,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_70f9c3bf994491316139",
+    "word": "दुग्ध",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.8000161051750183,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_70f9c3bf994491316139",
+    "word": "दुग्ध",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.7621898651123047,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_70f9c3bf994491316139",
+    "word": "दुग्ध",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7696410417556763,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_70f9c3bf994491316139",
+    "word": "दुग्ध",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7737952470779419,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_70f9c3bf994491316139",
+    "word": "दुग्ध",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7392497062683105,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_92c097c4e24a1155c32f",
+    "word": "चूर्ण",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7050228118896484,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_92c097c4e24a1155c32f",
+    "word": "चूर्ण",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7837814688682556,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_92c097c4e24a1155c32f",
+    "word": "चूर्ण",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.5643249154090881,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_92c097c4e24a1155c32f",
+    "word": "चूर्ण",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.6733517050743103,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_92c097c4e24a1155c32f",
+    "word": "चूर्ण",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7050228118896484,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_92c097c4e24a1155c32f",
+    "word": "चूर्ण",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7050228118896484,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6989b0f710d406acf5b4",
+    "word": "जाग",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.2802077829837799,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6989b0f710d406acf5b4",
+    "word": "जाग",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.595867931842804,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6989b0f710d406acf5b4",
+    "word": "जाग",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.6141495108604431,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6989b0f710d406acf5b4",
+    "word": "जाग",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.2674323618412018,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6989b0f710d406acf5b4",
+    "word": "जाग",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.312410831451416,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_6989b0f710d406acf5b4",
+    "word": "जाग",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.2802077829837799,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ce83744f641b373a2e57",
+    "word": "अमन",
+    "condition": "sham",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.3825870454311371,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ce83744f641b373a2e57",
+    "word": "अमन",
+    "condition": "native_transfer",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.7709228992462158,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ce83744f641b373a2e57",
+    "word": "अमन",
+    "condition": "hindi_transfer",
+    "split": "reserved_evaluation",
+    "label": 1,
+    "source_style_score": 0.4323599636554718,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ce83744f641b373a2e57",
+    "word": "अमन",
+    "condition": "sham_pitch_plus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.49376609921455383,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ce83744f641b373a2e57",
+    "word": "अमन",
+    "condition": "sham_pitch_minus3",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.2848709523677826,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  },
+  {
+    "id": "proso49_ce83744f641b373a2e57",
+    "word": "अमन",
+    "condition": "sham_gain",
+    "split": "reserved_evaluation",
+    "label": 0,
+    "source_style_score": 0.3825870454311371,
+    "high_source_style_flag": false,
+    "actual_hindi_error_probability": null
+  }
+]

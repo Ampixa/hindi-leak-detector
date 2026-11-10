@@ -1,0 +1,18 @@
+{
+  "selection_sha256": "cd90935e170085268d830eba78b75374936ba0fe92b580babd2b6c5a0ab71165",
+  "system": "swar_podvoices_ema",
+  "driver_sha256": "cc8faba79f358f500a39070d9b08c7bb01d983bad9a783f4eb5a08f3f22565ca",
+  "swar": {
+    "repo": "Aarjan/swar",
+    "revision": "8ca6f1bbc9da567d92158822e24673c2084e7e86",
+    "root": "/Volumes/T9/hindi-detector/models/swar_8ca6f1b",
+    "sha256": "b932ea211288795a4a07749b84b51622b2c181cd29343f56f2a5c85598875b53"
+  },
+  "settings": {
+    "nfe_step": 32,
+    "cfg_strength": 2.0,
+    "sway_sampling_coef": -1.0,
+    "speed": 1.0,
+    "device": "mps"
+  }
+}

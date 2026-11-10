@@ -1,0 +1,119 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "created_utc": "2026-11-07T09:22:06.361594+00:00",
+  "owner": "Ampixa/user",
+  "status": "reference",
+  "next_review": "2026-11-14",
+  "deleted_files": [
+    {
+      "path": "runtime/word_install.log",
+      "bytes": 453,
+      "sha256": "ab1dab66bde2e51c7d26b188ecb0443d4a0545eb0af76d1bf279a11f419442a2",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    },
+    {
+      "path": "runtime/uroman_install.log",
+      "bytes": 152,
+      "sha256": "71309a896a4289a469fe3da23f22893caf794a54d17947c3fe071ebc095f5e8b",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    },
+    {
+      "path": "runtime/pyworld_install.log",
+      "bytes": 205,
+      "sha256": "9c12128d457e8f80cdac942b9c0fdd512678320cfbde3a320836738c5e39b929",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    },
+    {
+      "path": "runtime/word_setuptools_install.log",
+      "bytes": 261,
+      "sha256": "8d17842f0f0bc30649613b8497f7e7d47b1217a3df27cafc9ab8b0ec0dabf291",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    },
+    {
+      "path": "reports/wordlab_models_v3_fit.log",
+      "bytes": 5390,
+      "sha256": "2840414abb8d9007c4cee30d8f2d8ff130df8994e43a65366a2cf0c656896dcc",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    },
+    {
+      "path": "reports/reference_word_v3_fit.log",
+      "bytes": 4769,
+      "sha256": "8c32c82624c468ff2e5c55716649036cd8218caf47b77b4166d5b320b64a6093",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    },
+    {
+      "path": "reports/voice_controls_v3_run.log",
+      "bytes": 5025,
+      "sha256": "cad55015e830d5046ab82b6870b2942adc1424d1c77c486cf2c031778c8ab8cf",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    },
+    {
+      "path": "reports/schwa_sites_native_benchmark_v3.log",
+      "bytes": 13471,
+      "sha256": "4e6f83f0920d144fa1aeb681faa42194239146595a1d5835ad77b5e7a7f8a697",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    },
+    {
+      "path": "reports/schwa_matrix_f5_v3.log",
+      "bytes": 46107,
+      "sha256": "736446ac2c766ce676afdad8f0378201b7e67779e83e863d6cfb4d6fbc002a81",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    },
+    {
+      "path": "data/wordmatrix_v3/indicf5/synthesis.log",
+      "bytes": 38768,
+      "sha256": "abccb873cb5c2843cd5e6c5e0165aae6151d63a804260629423c10a75c3313c9",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    },
+    {
+      "path": "reports/wordlab_training_v3/extract.log",
+      "bytes": 7714,
+      "sha256": "007cb3087d14783e6c11f6c49c87f5e6cd85c7bfa6bd3b6dd1fccc800d090289",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    },
+    {
+      "path": "reports/wordlab_test_v3/extract.log",
+      "bytes": 7818,
+      "sha256": "4bf158b7b1ee8ad7f5b7761f0d5762b257802680f15df8eb19a3eb10b2e38120",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    },
+    {
+      "path": "reports/wordlab_pocket_probe_v3/extract.log",
+      "bytes": 1422,
+      "sha256": "e4056e50cefea9a10f0960ba319f877a5f4f178a5f45846f8f0482705ab89067",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    },
+    {
+      "path": "reports/wordlab_native_wordbank_v3/extract.log",
+      "bytes": 10072,
+      "sha256": "d609e874c644d4aca3d5e7d530d44aedbe2fa7b5613c284563c19f2797af818c",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    },
+    {
+      "path": "reports/wordlab_matrix_f5_v3/extract.log",
+      "bytes": 40288,
+      "sha256": "30c0843f8151991ced94c4d3a7550201da4f22aee48ca5e2939630eefd49dded",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    },
+    {
+      "path": "reports/wordlab_pilot_v3/extract.log",
+      "bytes": 757,
+      "sha256": "c00d0bb007e5684e08db92391ea57929e14697fd9468e3799727e92aa8c7be0d",
+      "reason": "Completed experiment/import verified; exact config, source snapshots, errors and result receipts retained."
+    }
+  ],
+  "deleted_log_bytes": 182672,
+  "package_cache": {
+    "path": "runtime/word-cache",
+    "allocated_bytes_before": 57339904,
+    "reason": "Imports, all completed word extraction manifests and temporal probes verified; installed venv and package freeze retained.",
+    "tool_output": "Clearing cache at: /Volumes/T9/hindi-detector/runtime/word-cache\nRemoved 2258 files (49.4MiB)\n",
+    "checksums": "uv-managed disposable package/build cache; individual checksums not retained"
+  },
+  "free_bytes_before": 283488829440,
+  "free_bytes_after": 283553984512,
+  "raw_transient_logs_no_longer_restorable": true,
+  "preserved": "All source WAVs, models, exact captured source, receipts, metrics, live service/queue logs, original corpus and human annotations.",
+  "free_space_change_other_workloads_may_contribute": true,
+  "measured_free_space_increase_bytes": 65155072
+}

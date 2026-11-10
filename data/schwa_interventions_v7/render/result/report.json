@@ -1,0 +1,11 @@
+{
+  "status": "same_voice_interventions_rendered_not_human_error_labels",
+  "completed": 960,
+  "plan_sha256": "96c420b5d017631473cd6fd9d27fc4e3bc3a76a71b8ff6bc4db40e3df5e8f12f",
+  "audio_bytes": 30295296,
+  "speaker_rate_repeat_checks": 10,
+  "renderer_duration_step_samples": 256,
+  "actual_hindi_accuracy": null,
+  "actual_pronunciation_gold": false,
+  "input_label_meaning": "Known requested one-site vowel-count change, not independently verified acoustic realization or human acceptability."
+}

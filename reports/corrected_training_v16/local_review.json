@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-11-08T08:52:33.963350+00:00",
+  "creator": "Codex (GPT-6), session /root",
+  "owner": "Ampixa/user",
+  "original_host": "cdjk",
+  "original_path": "/Users/cdjk/github/hindi-detector",
+  "status": "reference",
+  "next_review": "2026-11-09",
+  "purpose": "End-of-turn storage/checkpoint verification for continued training",
+  "model_sha256": "9d3caf0a1d5ffe32056b665c4cbbba4580f2ad06e533d9d9a00e75c984245146",
+  "local_disk_free_bytes": 42460192768,
+  "cleanup": "Automatic approval review blocked browser snapshot deletion; all retained/documented, zero reclaimed",
+  "known_duplicate": "k2 selected preview checkpoint; hashes match report",
+  "not_on_hf": true,
+  "licence": "Existing source licences, including MMS research dependency",
+  "reproduction": "Same pinned v16 model and frozen inputs; private review verification receipt",
+  "deletion_condition": "Keep compact model/storage receipt through final review; remove obsolete diagnostic receipts after consumer closes"
+}

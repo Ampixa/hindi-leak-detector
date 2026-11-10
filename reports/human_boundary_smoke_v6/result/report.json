@@ -1,0 +1,64 @@
+{
+  "status": "fixed_boundary_sensitivity_measured_not_hindi_accuracy",
+  "clips": 2,
+  "selected_corpus_clips": 232,
+  "explicit_clip_limit": 2,
+  "failed_clips": 0,
+  "planned_word_occurrences": 2,
+  "statuses": {
+    "consistent_sign_in_tested_windows": 1,
+    "unavailable_g2p_projection": 1
+  },
+  "baseline_comparisons_reproduced": 1,
+  "maximum_baseline_absolute_difference": 0.0,
+  "shorter_than_80ms_warnings": 0,
+  "fixed_window_recipes": [
+    [
+      "baseline_context_30ms",
+      -0.03,
+      0.03
+    ],
+    [
+      "tight_word",
+      0.0,
+      0.0
+    ],
+    [
+      "context_80ms",
+      -0.08,
+      0.08
+    ],
+    [
+      "translated_early_20ms",
+      -0.05,
+      0.01
+    ],
+    [
+      "translated_late_20ms",
+      -0.01,
+      0.05
+    ],
+    [
+      "start_early_20ms",
+      -0.05,
+      0.03
+    ],
+    [
+      "end_late_20ms",
+      -0.03,
+      0.05
+    ]
+  ],
+  "hindi_leakage_accuracy": null,
+  "native_acceptability_accuracy": null,
+  "preferred_style_accuracy": null,
+  "bank_sha256": "056edc34c0a1788b057c983d1697b35f5504970fd9463e03dead3b1712087e8d",
+  "evidence_manifest_sha256": "6dc0a55b1a04baafc05900d0888d59e451c7a3d663e00561502e19e6221fc792",
+  "limits": [
+    "Changing sign across fixed windows shows fragile path evidence, not which pronunciation is correct.",
+    "Consistent sign does not prove the alignment, G2P or probe is correct.",
+    "Wider windows can contain neighboring speech; all fixed windows stay visible and none is selected by score.",
+    "Unsupported phones and impossible paths remain explicit, never native support or zero risk.",
+    "All human error/style labels remain unknown; geography is not a feature or label."
+  ]
+}

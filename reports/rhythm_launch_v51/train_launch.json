@@ -1,0 +1,11 @@
+{
+  "pid": 48477,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-u",
+    "-m",
+    "scripts.train_prosody_transfer",
+    "--rhythm"
+  ],
+  "created_utc": "2026-11-09T02:48:46.224910+00:00"
+}

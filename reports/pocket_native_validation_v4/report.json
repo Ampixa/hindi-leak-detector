@@ -1,0 +1,32 @@
+{
+  "status": "native_control_reference_comparison_complete_reliability_unvalidated",
+  "native_control_clips": 32,
+  "models_sha256": "90d6cfec8b3559c221b93609f03ad40593cd1ffdca2679c520dff6d643cd610b",
+  "reliable_automatic_detector": false,
+  "branches": {
+    "phonetics": {
+      "high_bag_scores": 24,
+      "clips_with_any_high_word": 30,
+      "word_count": 408,
+      "high_word_scores": 112
+    },
+    "prosody": {
+      "high_bag_scores": 27,
+      "clips_with_any_high_word": 32,
+      "word_count": 408,
+      "high_word_scores": 189
+    },
+    "combined": {
+      "high_bag_scores": 23,
+      "clips_with_any_high_word": 30,
+      "word_count": 408,
+      "high_word_scores": 130
+    }
+  },
+  "limits": [
+    "Native corpus identity supplies weak negative controls, not independently judged accent gold.",
+    "32 source groups are insufficient to establish a low error rate across dialects/contexts.",
+    "Native references and F5 probes have previously been examined; this is exploratory diagnostic validation.",
+    "Different valid intonation can disagree with a synthetic preferred reading without being Hindi leakage."
+  ]
+}

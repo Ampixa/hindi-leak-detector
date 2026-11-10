@@ -1,0 +1,1035 @@
+{
+  "status": "regional_human_g2p_contrast_bank_selected_unlabeled",
+  "word_families": 32,
+  "unique_recordings": 232,
+  "source_groups": 187,
+  "reported_regions": [
+    [
+      "West Bengal",
+      "Alipurduar"
+    ],
+    [
+      "West Bengal",
+      "Darjeeling"
+    ],
+    [
+      "West Bengal",
+      "Jalpaiguri"
+    ],
+    [
+      "West Bengal",
+      "Kalimpong"
+    ]
+  ],
+  "eligible_single_utterance_contexts": 7331,
+  "waveform_qc_failures": [],
+  "excluded_prior_source_groups": [
+    "S4256915200327223",
+    "S4256919400327589",
+    "S4256921100325188",
+    "S4256923500327821",
+    "S4256931400326180",
+    "S4256933800326415",
+    "S4256936900324767",
+    "S4256949000324163",
+    "S4256950900326276",
+    "S4256955700327169",
+    "S4256958500325615",
+    "S4256960200326239",
+    "S4256961300324408",
+    "S4256963000327919",
+    "S4256968700325306",
+    "S4256982800327411",
+    "S4256993600327187",
+    "S4257003900347171",
+    "S4257015100398433",
+    "S4257015800301515",
+    "S4257018100398290",
+    "S4257038600301422",
+    "S4257060500347481",
+    "S4257062600351384",
+    "S4257080900301974",
+    "S4257088000351428",
+    "S4257154100339229",
+    "S4257177400338821",
+    "S4257182100381951",
+    "S4257183700338924",
+    "S4257258600309052",
+    "S4257273500309006",
+    "S4257274900309830",
+    "S4257279900309919",
+    "S4257292700347526",
+    "S4257298100347538",
+    "S4257387500340373",
+    "S4257387600341130",
+    "S4257391800340504",
+    "S4257482900307073",
+    "S4257592000350688",
+    "S4257664400303616",
+    "S4257689200333878",
+    "S4257692200386391",
+    "S4257700500348326",
+    "S4257716200306820",
+    "S4257718200369758",
+    "S4257727300382701",
+    "S4257728700306822",
+    "S4257734800306057",
+    "S4257741500304512",
+    "S4257751100369637",
+    "S4257754400369385",
+    "S4257764000369040",
+    "S4257775500306176",
+    "S4257799100369302",
+    "S4257818800334152",
+    "S4257892500334342",
+    "S4257893600334805",
+    "S4257899000356919",
+    "S4257938300377849",
+    "S4257964300389259",
+    "S4258006200359213",
+    "S4258007300359488",
+    "S4258012700311274",
+    "S4258014800359639",
+    "S4258034700301705",
+    "S4258038100359205",
+    "S4258045700390584",
+    "S4258052200390134",
+    "S4258076500359661",
+    "S4258084400396634",
+    "S4258107400367029",
+    "S4258124900316554",
+    "S4258134900316977",
+    "S4258145700306807",
+    "S4258147000367444",
+    "S4258160100398406",
+    "S4258174000316355",
+    "S4258182200316847",
+    "S4258193000306125",
+    "S4258209300397381",
+    "S4258254800397423",
+    "S4258259900397306",
+    "S4258405200335282",
+    "S4258453800348915",
+    "S4258465100315719",
+    "S4258499600394731",
+    "S4258502600318048",
+    "S4258521300379169",
+    "S4258544700379178",
+    "S4258564000363122",
+    "S4258569400363641",
+    "S4258586900320961",
+    "S4258650600397479",
+    "S4258659500317740",
+    "S4258700800392918",
+    "S4258707800392558",
+    "S4258709200332681",
+    "S4258716800392755",
+    "S4258727400360509",
+    "S4258785100392834",
+    "S4258790600360258",
+    "S4258912200357092",
+    "S4258950100357203",
+    "S4259007700302614",
+    "S4259016000397503",
+    "S4259031200302942",
+    "S4259065500397435",
+    "S4259085700325035",
+    "S4259093200369941",
+    "S4259099900302234",
+    "S4259279700316061",
+    "S4259300900382367",
+    "S4259301000382836",
+    "S4259303500373494",
+    "S4259307200382602",
+    "S4259311700374147",
+    "S4259317600339124",
+    "S4259321500375130",
+    "S4259326600373607",
+    "S4259329100365878",
+    "S4259333900344578",
+    "S4259343400382517",
+    "S4259346000373546",
+    "S4259348900375296",
+    "S4259350800393608",
+    "S4259355800382027",
+    "S4259361500382428",
+    "S4259375800339936",
+    "S4259382400392883",
+    "S4259384300339981",
+    "S4259385700393384",
+    "S4259386800339426",
+    "S4259396100374865",
+    "S4259404700357247",
+    "S4259408000357437",
+    "S4259424500357645",
+    "S4259440200361747",
+    "S4259445500306484",
+    "S4259454800379450",
+    "S4259460700361524",
+    "S4259477200361463",
+    "S4259494700361768",
+    "S4259496900361141",
+    "S4259638800304563",
+    "S4259675300304689",
+    "S4259708000369496",
+    "S4259729900369742",
+    "S4259747200369569",
+    "S4259771000369911",
+    "S4259771200375896",
+    "S4259790200369285",
+    "S4259794900375714",
+    "S4259806300383273",
+    "S4259867700361421",
+    "S4259923300353492",
+    "S4259980800353695"
+  ],
+  "word_coverage": [
+    {
+      "word": "अब",
+      "source_speakers": 353,
+      "reported_regions": 4,
+      "candidate_contexts": 1848
+    },
+    {
+      "word": "जब",
+      "source_speakers": 67,
+      "reported_regions": 3,
+      "candidate_contexts": 82
+    },
+    {
+      "word": "तर",
+      "source_speakers": 289,
+      "reported_regions": 4,
+      "candidate_contexts": 572
+    },
+    {
+      "word": "निमित्त",
+      "source_speakers": 2,
+      "reported_regions": 1,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "बिहान",
+      "source_speakers": 48,
+      "reported_regions": 3,
+      "candidate_contexts": 58
+    },
+    {
+      "word": "आज",
+      "source_speakers": 55,
+      "reported_regions": 4,
+      "candidate_contexts": 71
+    },
+    {
+      "word": "सामना",
+      "source_speakers": 17,
+      "reported_regions": 2,
+      "candidate_contexts": 18
+    },
+    {
+      "word": "शब्द",
+      "source_speakers": 15,
+      "reported_regions": 3,
+      "candidate_contexts": 19
+    },
+    {
+      "word": "प्राप्त",
+      "source_speakers": 85,
+      "reported_regions": 2,
+      "candidate_contexts": 103
+    },
+    {
+      "word": "प्रश्न",
+      "source_speakers": 9,
+      "reported_regions": 3,
+      "candidate_contexts": 10
+    },
+    {
+      "word": "हुन",
+      "source_speakers": 49,
+      "reported_regions": 3,
+      "candidate_contexts": 59
+    },
+    {
+      "word": "धर्म",
+      "source_speakers": 22,
+      "reported_regions": 3,
+      "candidate_contexts": 25
+    },
+    {
+      "word": "तय",
+      "source_speakers": 5,
+      "reported_regions": 2,
+      "candidate_contexts": 5
+    },
+    {
+      "word": "पालना",
+      "source_speakers": 2,
+      "reported_regions": 2,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "लाग",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "सुन्न",
+      "source_speakers": 8,
+      "reported_regions": 3,
+      "candidate_contexts": 8
+    },
+    {
+      "word": "सहरी",
+      "source_speakers": 2,
+      "reported_regions": 2,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "गरम",
+      "source_speakers": 23,
+      "reported_regions": 3,
+      "candidate_contexts": 24
+    },
+    {
+      "word": "किन",
+      "source_speakers": 60,
+      "reported_regions": 3,
+      "candidate_contexts": 70
+    },
+    {
+      "word": "यथार्थ",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "ध्वस्त",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "चेतना",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "ग्रह",
+      "source_speakers": 2,
+      "reported_regions": 2,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "युद्ध",
+      "source_speakers": 2,
+      "reported_regions": 1,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "नष्ट",
+      "source_speakers": 9,
+      "reported_regions": 3,
+      "candidate_contexts": 9
+    },
+    {
+      "word": "कष्ट",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "सहर",
+      "source_speakers": 14,
+      "reported_regions": 2,
+      "candidate_contexts": 15
+    },
+    {
+      "word": "तल",
+      "source_speakers": 24,
+      "reported_regions": 3,
+      "candidate_contexts": 29
+    },
+    {
+      "word": "अर्थ",
+      "source_speakers": 6,
+      "reported_regions": 3,
+      "candidate_contexts": 6
+    },
+    {
+      "word": "तबला",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "चिक",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "पूर्ण",
+      "source_speakers": 8,
+      "reported_regions": 2,
+      "candidate_contexts": 9
+    },
+    {
+      "word": "खान",
+      "source_speakers": 21,
+      "reported_regions": 3,
+      "candidate_contexts": 22
+    },
+    {
+      "word": "सदर",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "मेहनत",
+      "source_speakers": 2,
+      "reported_regions": 2,
+      "candidate_contexts": 3
+    },
+    {
+      "word": "सफर",
+      "source_speakers": 2,
+      "reported_regions": 1,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "तुलसी",
+      "source_speakers": 3,
+      "reported_regions": 1,
+      "candidate_contexts": 3
+    },
+    {
+      "word": "तब",
+      "source_speakers": 12,
+      "reported_regions": 2,
+      "candidate_contexts": 12
+    },
+    {
+      "word": "बिक",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "दत्त",
+      "source_speakers": 2,
+      "reported_regions": 1,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "बार",
+      "source_speakers": 9,
+      "reported_regions": 3,
+      "candidate_contexts": 9
+    },
+    {
+      "word": "गुजरात",
+      "source_speakers": 7,
+      "reported_regions": 3,
+      "candidate_contexts": 7
+    },
+    {
+      "word": "उक्त",
+      "source_speakers": 4,
+      "reported_regions": 1,
+      "candidate_contexts": 8
+    },
+    {
+      "word": "मल्ल",
+      "source_speakers": 2,
+      "reported_regions": 1,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "भिन्न",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 5
+    },
+    {
+      "word": "शुभ",
+      "source_speakers": 5,
+      "reported_regions": 2,
+      "candidate_contexts": 5
+    },
+    {
+      "word": "परपर",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "स्वच्छ",
+      "source_speakers": 5,
+      "reported_regions": 2,
+      "candidate_contexts": 5
+    },
+    {
+      "word": "शुद्ध",
+      "source_speakers": 9,
+      "reported_regions": 2,
+      "candidate_contexts": 10
+    },
+    {
+      "word": "नरम",
+      "source_speakers": 4,
+      "reported_regions": 3,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "दुग्ध",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "कृष्ण",
+      "source_speakers": 3,
+      "reported_regions": 2,
+      "candidate_contexts": 3
+    },
+    {
+      "word": "देख",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "राख",
+      "source_speakers": 5,
+      "reported_regions": 3,
+      "candidate_contexts": 5
+    },
+    {
+      "word": "पुष्प",
+      "source_speakers": 2,
+      "reported_regions": 2,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "तुलना",
+      "source_speakers": 3,
+      "reported_regions": 1,
+      "candidate_contexts": 3
+    },
+    {
+      "word": "अमर",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "शिल्प",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 5
+    },
+    {
+      "word": "गहना",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "घटना",
+      "source_speakers": 7,
+      "reported_regions": 2,
+      "candidate_contexts": 7
+    },
+    {
+      "word": "गर",
+      "source_speakers": 20,
+      "reported_regions": 3,
+      "candidate_contexts": 20
+    },
+    {
+      "word": "रद्द",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "पर",
+      "source_speakers": 7,
+      "reported_regions": 3,
+      "candidate_contexts": 8
+    },
+    {
+      "word": "स्थापना",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "मृग",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "उच्च",
+      "source_speakers": 9,
+      "reported_regions": 2,
+      "candidate_contexts": 11
+    },
+    {
+      "word": "स्वायत्त",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "असल",
+      "source_speakers": 8,
+      "reported_regions": 3,
+      "candidate_contexts": 9
+    },
+    {
+      "word": "पुतला",
+      "source_speakers": 2,
+      "reported_regions": 2,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "उपाय",
+      "source_speakers": 3,
+      "reported_regions": 2,
+      "candidate_contexts": 3
+    },
+    {
+      "word": "शाह",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "स्वादिष्ट",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "मर",
+      "source_speakers": 5,
+      "reported_regions": 3,
+      "candidate_contexts": 5
+    },
+    {
+      "word": "सपना",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "आय",
+      "source_speakers": 7,
+      "reported_regions": 2,
+      "candidate_contexts": 7
+    },
+    {
+      "word": "शीर्ष",
+      "source_speakers": 2,
+      "reported_regions": 1,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "जन्म",
+      "source_speakers": 12,
+      "reported_regions": 2,
+      "candidate_contexts": 12
+    },
+    {
+      "word": "गमला",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "स्वप्न",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "दशहरा",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "शुल्क",
+      "source_speakers": 10,
+      "reported_regions": 2,
+      "candidate_contexts": 10
+    },
+    {
+      "word": "रचना",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "दसहरा",
+      "source_speakers": 2,
+      "reported_regions": 1,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "महल",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "मसला",
+      "source_speakers": 9,
+      "reported_regions": 2,
+      "candidate_contexts": 9
+    },
+    {
+      "word": "अन्न",
+      "source_speakers": 3,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "मार्ग",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "सिद्ध",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "पेय",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "पदार्थ",
+      "source_speakers": 3,
+      "reported_regions": 2,
+      "candidate_contexts": 3
+    },
+    {
+      "word": "निम्न",
+      "source_speakers": 3,
+      "reported_regions": 2,
+      "candidate_contexts": 3
+    },
+    {
+      "word": "भ्रष्ट",
+      "source_speakers": 2,
+      "reported_regions": 2,
+      "candidate_contexts": 3
+    },
+    {
+      "word": "तीर्थ",
+      "source_speakers": 3,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "पोखरा",
+      "source_speakers": 3,
+      "reported_regions": 2,
+      "candidate_contexts": 3
+    },
+    {
+      "word": "चिन्ह",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "कन",
+      "source_speakers": 2,
+      "reported_regions": 2,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "लहसुन",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "स्पष्ट",
+      "source_speakers": 2,
+      "reported_regions": 2,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "नगर",
+      "source_speakers": 3,
+      "reported_regions": 2,
+      "candidate_contexts": 3
+    },
+    {
+      "word": "पस",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "पहल",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "बुद्ध",
+      "source_speakers": 8,
+      "reported_regions": 2,
+      "candidate_contexts": 8
+    },
+    {
+      "word": "चाहना",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "दुख",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "साधना",
+      "source_speakers": 3,
+      "reported_regions": 1,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "कर्मचारी",
+      "source_speakers": 2,
+      "reported_regions": 1,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "स्वर्ण",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "सृजना",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 5
+    },
+    {
+      "word": "भग्न",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "बाट",
+      "source_speakers": 5,
+      "reported_regions": 2,
+      "candidate_contexts": 5
+    },
+    {
+      "word": "कसरत",
+      "source_speakers": 2,
+      "reported_regions": 2,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "जोगिन",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "मुक्त",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "भव",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "थाह",
+      "source_speakers": 4,
+      "reported_regions": 2,
+      "candidate_contexts": 4
+    },
+    {
+      "word": "रोप",
+      "source_speakers": 2,
+      "reported_regions": 2,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "हमला",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "बन",
+      "source_speakers": 3,
+      "reported_regions": 1,
+      "candidate_contexts": 3
+    },
+    {
+      "word": "लहरा",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "सहन",
+      "source_speakers": 2,
+      "reported_regions": 2,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "रहन",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "स्नेह",
+      "source_speakers": 3,
+      "reported_regions": 1,
+      "candidate_contexts": 3
+    },
+    {
+      "word": "साट",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "गुप्त",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "सुस्त",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "परास्त",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "तरह",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "बोल",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "ठप्प",
+      "source_speakers": 2,
+      "reported_regions": 1,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "हर्ष",
+      "source_speakers": 2,
+      "reported_regions": 1,
+      "candidate_contexts": 2
+    },
+    {
+      "word": "लय",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "अल्प",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "गृह",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "चित्त",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "खन",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "निकाल",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "चाँदनी",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "अस्त",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    },
+    {
+      "word": "पुस्त",
+      "source_speakers": 1,
+      "reported_regions": 1,
+      "candidate_contexts": 1
+    }
+  ],
+  "metadata_revision": "5f4495c91d500742a58d1be2ab07d77f73c0acf8",
+  "output_contract": [
+    "Broad native Nepali support, including regional varieties",
+    "Deviation from the preferred TTS pronunciation style",
+    "Independent Hindi-phone hypothesis evidence"
+  ],
+  "limits": [
+    "All human examples are unlabeled for Hindi leakage; region never supplies a pronunciation label.",
+    "Each example matches one original utterance by speaker/text/duration, not verified raw audio checksum identity.",
+    "G2P outputs are alternative priors. Real human audio must determine realized phones and legitimate variants.",
+    "Hindi dictionary aliases used for candidate mining erase distinctions; raw Hindi G2P/lexicon outputs are preserved separately.",
+    "The named Newa repository implements Nepali here; this is not a Nepal Bhasa pronunciation bank."
+  ]
+}

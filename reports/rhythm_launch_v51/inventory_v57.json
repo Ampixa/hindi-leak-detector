@@ -1,0 +1,55 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "host": "k2",
+  "original_path": "/Volumes/T9/hindi-detector/reports/rhythm_launch_v51",
+  "created_utc": "2026-11-09T03:08:21.541271+00:00",
+  "last_review_utc": "2026-11-09T03:08:21.541271+00:00",
+  "next_review": "2026-11-10",
+  "not_on_HF": true,
+  "retention": "Compact admission/rollback/source pins retained for active Hindi-detector goal. Completed raw control WAVs/redundant frames disposable24h after consumer closes; no blind deletion. Source-model rights/MMS research restrictions inherited.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1708,
+      "sha256": "3f94f40f741d90faa6a976acc6296281277033e81f88b30415437df4b9f4e569",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "build.log",
+      "bytes": 45107,
+      "sha256": "4fdf0d60815393fab53b84c94a41208f1bded69961759704229deedeeedad06a",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "build_launch.json",
+      "bytes": 212,
+      "sha256": "e9d5f2879d31be3a41dd34ea0697d7b7468d986a899740a1abef95662ad81a5d",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "inputs.json",
+      "bytes": 266,
+      "sha256": "a5d0a5ff51c280d3fb62b825ade1519471d722cd8cf6a4a0183ad23aef879c89",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "status.json",
+      "bytes": 382,
+      "sha256": "bd386325cdf0d6ace99811b03d0f5e6abd5a0d5837da182ce8d173f29c1bc66a",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "train.log",
+      "bytes": 1072,
+      "sha256": "2d5dab77b1e9895bbf51a37a5ce638a0c7f10552027ef0fbc53f68368bf1053b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "train_launch.json",
+      "bytes": 224,
+      "sha256": "ba185c3488af557878017ca8828d020750a0c8b117caa48c5ea8505bc7e3ec63",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    }
+  ]
+}

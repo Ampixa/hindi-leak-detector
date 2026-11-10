@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-11-09T01:09:58.822910+00:00",
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "model_sha256_unchanged": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "previous_additions_sha256": "d7c5ee0b148df9e88714b8ce44ff021a41e8ea5dd93dcddeb1adb2644164891a",
+  "files": [
+    {
+      "path": "native_observations.json",
+      "bytes": 16076,
+      "sha256": "75be2ee994df4375dace594b37026cbd842ee848db4d430e94f803d4ed4b3113"
+    },
+    {
+      "path": "review_additions.json",
+      "bytes": 1064089,
+      "sha256": "4f42641471e6b86e26a64024ce75562f9f5148fdabd9b106f0ecc9090f646fdb"
+    }
+  ],
+  "new_descriptive_entries": 15,
+  "source_sha256": "7e5520c559549ebb89e5cdc126bf81597e6d9bba42b9377696351517aec7e449",
+  "purpose": "Expose observed human variation alongside flags and generic CLI results; no prediction changes.",
+  "status": "active",
+  "next_review": "2026-11-10",
+  "not_on_HF": true
+}

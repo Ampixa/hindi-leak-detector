@@ -1,0 +1,5 @@
+# Acoustic candidate pre-fit review
+
+Created by Codex GPT-6 /root at 2026-11-09T13:39:57.207915+00:00 UTC, owner Ampixa/user, original host cdjks-MacBook-Pro-2.local, original path /Users/cdjk/github/hindi-detector/reports/claude_acoustic_review_v81. Actual Claude CLI adversarial review, no tools/MCP/session persistence. Prompt.txt exact supplied source/design, inputs.json per-input hashes/sizes, launch.json PID/command/time, stdout.json structured output/model usage, stderr.log errors, result.json parsed review and triage.json verified dispositions once complete. No audio/encoder/checkpoint copies or HF upload; source usage restrictions inherited. Statusactive, consumer upcoming controlled acoustic fit; review2026-11-10. Raw prompt/logs disposable24h after consumer closes, compact conclusions retained. No model/source labels as human gold.
+
+result.json contains actual Claude model metadata/review; triage.json records verified fixes and reviewer corrections before any fit. The review saw feature code and concrete trainer design, not the later trainer source; do not imply a line-by-line trainer audit.

@@ -1,0 +1,21 @@
+{
+  "pid": 15872,
+  "commands": [
+    [
+      "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+      "-u",
+      "-m",
+      "scripts.train_corrected_preview"
+    ],
+    [
+      "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+      "-u",
+      "-m",
+      "scripts.audit_structured_pilot",
+      "--checkpoint-group",
+      "preview"
+    ]
+  ],
+  "worker_source": "import subprocess;commands=[['/Volumes/T9/hindi-detector/.venv-indicf5/bin/python', '-u', '-m', 'scripts.train_corrected_preview'], ['/Volumes/T9/hindi-detector/.venv-indicf5/bin/python', '-u', '-m', 'scripts.audit_structured_pilot', '--checkpoint-group', 'preview']]\nfor cmd in commands:subprocess.run(cmd,check=True)",
+  "created_utc": "2026-11-08T08:42:15.317478+00:00"
+}

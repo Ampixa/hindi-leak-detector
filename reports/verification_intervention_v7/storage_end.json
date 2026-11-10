@@ -1,0 +1,19 @@
+{
+  "observed_utc": "2026-11-07T15:38:27.305765+00:00",
+  "local_free_bytes": 50963279872,
+  "k2": {
+    "source_files_verified": 114,
+    "live_original_worker": "54496 01:00:48 /Volumes/T9/hindi-detector/.venv-indicf5/bin/python -m scripts.verify_original_human_audio --out /Volumes/T9/hindi-detector/data/human_original_audio_v6 --max-row-groups 400 --resume",
+    "process_check_rc": 0,
+    "original_recordings_recovered": 211,
+    "byte_identical_reproductions": 211,
+    "failure_present": false,
+    "t9_free_bytes": 271226474496,
+    "models_bytes": 4357061150,
+    "kala_runtime_bytes": 169102436
+  },
+  "cleanup_logical_bytes_deleted": 173479257,
+  "cleanup_observed_free_space_increase_bytes": 21716992,
+  "free_space_delta_not_isolated_from_other_workloads": true,
+  "active_original_audio_job_and_other_workloads_untouched": true
+}

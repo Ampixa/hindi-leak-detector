@@ -1,0 +1,6 @@
+{
+  "phase": "failed_explicitly",
+  "pid": 48384,
+  "updated_utc": "2026-11-09T02:48:47.287393+00:00",
+  "error": "Traceback (most recent call last):\n  File \"/Volumes/T9/hindi-detector/scripts/run_rhythm_experiment.py\", line 49, in main\n    raise RuntimeError(name + ' child failed explicitly with exit' + str(code))\nRuntimeError: train child failed explicitly with exit1\n"
+}

@@ -1,0 +1,14 @@
+{
+  "pid": 66222,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-asr-gate/bin/python",
+    "-u",
+    "-m",
+    "scripts.continue_corrected_pair",
+    "--plan",
+    "/Volumes/T9/hindi-detector/data/teacher_indicf5_v14",
+    "--out",
+    "/Volumes/T9/hindi-detector/reports/corrected_pair_v14"
+  ],
+  "created_utc": "2026-11-08T05:23:31.038477+00:00"
+}

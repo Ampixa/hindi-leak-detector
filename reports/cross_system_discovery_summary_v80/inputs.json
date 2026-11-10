@@ -1,0 +1,9 @@
+{
+  "selection_sha256": "cd90935e170085268d830eba78b75374936ba0fe92b580babd2b6c5a0ab71165",
+  "report_sha256": "e69373a9cf384b71381af5af60d29d16775378e7b017da9dc6d0dabf9e184bd8",
+  "content_sha256": "3d8e70eb1e272eff223e884467a8e6123b545f5f46fbe9aa0cddc9981be746b0",
+  "teacher_transport_sha256": "596d6a2fe7d3105494cd33c409e5d8713b9ecccfc185e1f2fbbf1c9c9d973e84",
+  "html_sha256": "3424ab9c777c793b15bfccd0703fe790d224697679ed21c08b63c032482f3895",
+  "raw_weights_copied": false,
+  "audio_copied_to_mac": false
+}

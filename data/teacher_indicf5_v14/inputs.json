@@ -1,0 +1,18 @@
+{
+  "old_text_plan_sha256": "5c025deccaca65664df33e4997fe2d3f654e33d4f3eaadf69568fc2dd03e9e70",
+  "prior_sha256": "4ce1caa87ef4ff04db69d41ee52b6a72e8ba25afbb16ab8457b759da0e9f0750",
+  "selection": "fixed metadata-only per-split quotas, max half natural, no old ASR outcomes used",
+  "text_counts": {
+    "train": 512,
+    "development": 128,
+    "reserved_evaluation": 128
+  },
+  "kind_counts": {
+    "train/natural_transcript": 256,
+    "train/authored_targeted_carrier": 256,
+    "development/natural_transcript": 11,
+    "development/authored_targeted_carrier": 117,
+    "reserved_evaluation/natural_transcript": 36,
+    "reserved_evaluation/authored_targeted_carrier": 92
+  }
+}

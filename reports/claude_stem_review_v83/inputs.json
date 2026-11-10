@@ -1,0 +1,18 @@
+{
+  "hindi_detector/stem_deletion.py": {
+    "bytes": 2867,
+    "sha256": "c8fff6c966a9b8716ca777c0b4cce6a6dda58f3808d13c845f99bab03b4e0d64"
+  },
+  "scripts/prepare_stem_features.py": {
+    "bytes": 6104,
+    "sha256": "45a12dccd5b652305d1322741b18d95ff965232a3edb99a18e6fb79ab6927b9d"
+  },
+  "tests/test_stem_deletion.py": {
+    "bytes": 1386,
+    "sha256": "3b1ac3e3038f1fbfc880dc1a1a1900dde53404ba5fe676e35c9af3b4476d09d9"
+  },
+  "scripts/train_nucleus_deletion.py": {
+    "bytes": 16671,
+    "sha256": "c2e5f6604af4248f038cf8d076ffb13a6588eb29a6b19c7f6692831d74d1a76a"
+  }
+}

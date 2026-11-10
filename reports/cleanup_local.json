@@ -1,0 +1,188 @@
+{
+  "created_by": "Codex GPT-6 /root",
+  "created_utc": "2026-11-06T07:57:50.213770+00:00",
+  "deleted": [
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/qa-mobile.png",
+      "bytes": 60927,
+      "sha256": "8eadde35ebd72442292aa8a26a6bfa099548fb98811ff866c65e30014157cf93",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/tests/__pycache__/test_core.cpython-314.pyc",
+      "bytes": 8042,
+      "sha256": "af7c1169559f4207cd8cf3c32bbabc467030450c71a7e5b28801f0ed8c69157c",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/hindi_detector/__pycache__/acoustic.cpython-314.pyc",
+      "bytes": 3543,
+      "sha256": "26dc867d37dcb9cbbd719fed58bc982d8cc05d7acc3d45f5cc445982cd40afd0",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/hindi_detector/__pycache__/acoustic.cpython-315.pyc",
+      "bytes": 3527,
+      "sha256": "e2013ffb0bfdc2f97d4038cddf1125250f3a3a12945622ece1000dc3932073d9",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/hindi_detector/__pycache__/candidates.cpython-314.pyc",
+      "bytes": 6774,
+      "sha256": "1937696d7781e8f7424f4f80a781f71c310505b2c7bec9fca1b020c9c6a243a7",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/hindi_detector/__pycache__/candidates.cpython-315.pyc",
+      "bytes": 6794,
+      "sha256": "a74edc0b3c3eb2717cb7bfd14fa140d41a93aca48c9f00a4a59d1ff89839cd7c",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/hindi_detector/__pycache__/cli.cpython-314.pyc",
+      "bytes": 7837,
+      "sha256": "b1969bc7282aca6fbe7b346061dd76438f66cbf904a6c5a4a5445263041b80d7",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/hindi_detector/__pycache__/cli.cpython-315.pyc",
+      "bytes": 9850,
+      "sha256": "1958f9e1616540dc3860cac4d9e2b28b3e84287576db79b1b726a6cc3b421f24",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/hindi_detector/__pycache__/prosody.cpython-314.pyc",
+      "bytes": 6203,
+      "sha256": "e482c1a01dfac97909ece37ee99b437ea0e87b95cf864dae09037db511405167",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/hindi_detector/__pycache__/ctc.cpython-314.pyc",
+      "bytes": 6427,
+      "sha256": "2985ab3363f8b634ff7496147378681173066067f1c617b206a03e4b36c1d78f",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/hindi_detector/__pycache__/ctc.cpython-315.pyc",
+      "bytes": 6491,
+      "sha256": "45ec5c83be534778628c07b087473e99a7690cdbde00e8feab5436e997b7d3ae",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/hindi_detector/__pycache__/prosody.cpython-315.pyc",
+      "bytes": 6190,
+      "sha256": "458c9cb6fcb7f9737be5119ece73f8574a95c0f79a4d8c819e53befbd9c7b248",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/hindi_detector/__pycache__/__init__.cpython-314.pyc",
+      "bytes": 246,
+      "sha256": "dfa601ae1f98bc6c8ce0878e96f11894d9f19f5fb16413b055a17eebb507312b",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/hindi_detector/__pycache__/__init__.cpython-315.pyc",
+      "bytes": 213,
+      "sha256": "2b11b4b3b767866126bdc3f88861ac48115d6203e4e5f928bb33fa2ee0514fa9",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/hindi_detector/__pycache__/artifacts.cpython-315.pyc",
+      "bytes": 3940,
+      "sha256": "e5375906412b490114efaa0afa0a68bf0a811e938be41f2e0593a1116b48f192",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/hindi_detector/__pycache__/artifacts.cpython-314.pyc",
+      "bytes": 3937,
+      "sha256": "370c055f5077a90f05b21542d03aadca05e95f27c7af91189bf5fa68bbd2a5d7",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/scripts/__pycache__/fetch_sources.cpython-315.pyc",
+      "bytes": 4123,
+      "sha256": "ddd77c62572d4919890516b335e0b3ea08b696df667585c0cecd4204279a1ef1",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/scripts/__pycache__/run_pocket_pilot.cpython-315.pyc",
+      "bytes": 13028,
+      "sha256": "7abbd0584411f53da2b7d5056577375782e465c6891faa0d9f46996eb814cbad",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/scripts/__pycache__/fetch_acoustic_model.cpython-315.pyc",
+      "bytes": 3566,
+      "sha256": "9148edfa7f3d631a04d86b124fd276a95871d0464c9adf539f5cfab6d6062433",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.sources/frontend/nepali_frontend/__pycache__/data.cpython-314.pyc",
+      "bytes": 4310,
+      "sha256": "c177c5ce2bd733fcfce25d889a1e091c9132aa1961a2dd34fa967c15d26e6d00",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.sources/frontend/nepali_frontend/__pycache__/__init__.cpython-314.pyc",
+      "bytes": 410,
+      "sha256": "209670bf6069b4dc42eb63ea6bfe933a32e0a0e6ee9bf3cabaf721f254c171d1",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.sources/frontend/nepali_frontend/g2p/__pycache__/post_rules.cpython-314.pyc",
+      "bytes": 19726,
+      "sha256": "3617f41281d5b89fe7a93a8c4ee8ffd9143433aeb90ad2b05ac4a126c58af67c",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.sources/frontend/nepali_frontend/g2p/__pycache__/akshara.cpython-314.pyc",
+      "bytes": 9765,
+      "sha256": "ab76d943e2fe6cfe6dd03ec012b8f29649ccddc46c7620599ea21b23956e526a",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.sources/frontend/nepali_frontend/g2p/__pycache__/phonemizer.cpython-314.pyc",
+      "bytes": 7291,
+      "sha256": "07798a7dfbf84f0d796853bf7630e7988a008ee2282c8a74916826cf6e736b50",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.sources/frontend/nepali_frontend/g2p/__pycache__/base_map.cpython-314.pyc",
+      "bytes": 4750,
+      "sha256": "f4b1d8afab4fd34c3a4fd0e6fb93b1d167772d6c03785294b447a1434c1f89d2",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.sources/frontend/nepali_frontend/g2p/__pycache__/__init__.cpython-314.pyc",
+      "bytes": 227,
+      "sha256": "8ecb601ca00374e0f1920a0390538a78906ed8ff2c7f6657634b8d80c6b6c29c",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.playwright-mcp/console-2026-11-06T07-48-20-086Z.log",
+      "bytes": 143,
+      "sha256": "327ed82b346528f9e33e819ca531964ac6e849522254fa12b0f7b4e06f66df70",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.playwright-mcp/page-2026-11-06T07-48-20-314Z.yml",
+      "bytes": 21188,
+      "sha256": "c39081d4b7899e272d437f7bf41e6f6d416e725044af912b0e2e8ec61c084127",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.playwright-mcp/page-2026-11-06T07-56-15-886Z.yml",
+      "bytes": 24351,
+      "sha256": "7b451c082b43cfca48f309794b6e5f16d8b4b883b798204b571df5f6cc28879a",
+      "reason": "completed browser QA or disposable Python bytecode"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.playwright-mcp/page-2026-11-06T07-54-36-021Z.yml",
+      "bytes": 24351,
+      "sha256": "7534706deb1069484bf154f793b2d13e3e9a94146892d16a0f8e8c09cd23650f",
+      "reason": "completed browser QA or disposable Python bytecode"
+    }
+  ],
+  "reclaimed_logical_bytes": 278170,
+  "free_bytes_after": 36783525888
+}

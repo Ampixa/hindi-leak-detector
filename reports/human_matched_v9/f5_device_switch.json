@@ -1,0 +1,20 @@
+{
+  "stopped_owned_cpu_pid": 82255,
+  "reason": "Measured first5.19s clip required103.24s CPU wall; verified MPS available; unrelated score_lines workload explicitly usesCPU.",
+  "cpu_completed_clips": 1,
+  "cpu_output_group": "data/human_matched_v9/indicf5",
+  "new_primary_pack": "data/human_matched_f5_v9",
+  "new_mps_pid": 83042,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-m",
+    "scripts.run_indicf5_comparison",
+    "--pack",
+    "data/human_matched_f5_v9",
+    "--device",
+    "mps"
+  ],
+  "source_plan_sha256": "3081371782f34c260d3f6e317f99890827339f3fcc08b2eb13cc8749b5ef783e",
+  "created_utc": "2026-11-07T16:13:28.918530+00:00",
+  "preservation": "CPU receipts/WAV retained for direct cross-device diagnostic, not mixed into primary MPS experiment."
+}

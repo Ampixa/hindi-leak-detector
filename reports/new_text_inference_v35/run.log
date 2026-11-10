@@ -1,0 +1,35 @@
+INFO:hindi_detector.teacher_reference_cache:Preparing two best-teacher references: ['-m', 'scripts.run_swar_teacher_validation', '--plan', '/Volumes/T9/hindi-detector/data/inference_ref_75036d4376e1fe995f369adc', '--out', '/Volumes/T9/hindi-detector/reports/inference_ref_75036d4376e1fe995f369adc/controller', '--namespace', 'inference_ref_75036d4376e1fe995f369adc', '--smoke', '2']; log /Volumes/T9/hindi-detector/reports/inference_ref_75036d4376e1fe995f369adc/controller.log
+ERROR:hindi_detector.teacher_reference_cache:Unseen-text reference preparation failed; cache retained for inspection at /Volumes/T9/hindi-detector/reports/inference_ref_75036d4376e1fe995f369adc
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/hindi_detector/teacher_reference_cache.py", line 130, in references_for_text
+    subprocess.run(command, cwd=root, stdout=handle, stderr=subprocess.STDOUT, check=True, timeout=1200)
+  File "/Users/k2/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Volumes/T9/hindi-detector/.venv-indicf5/bin/python', '-u', '-m', 'scripts.run_swar_teacher_validation', '--plan', '/Volumes/T9/hindi-detector/data/inference_ref_75036d4376e1fe995f369adc', '--out', '/Volumes/T9/hindi-detector/reports/inference_ref_75036d4376e1fe995f369adc/controller', '--namespace', 'inference_ref_75036d4376e1fe995f369adc', '--smoke', '2']' returned non-zero exit status 1.
+ERROR:root:Release inference failed explicitly
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/detect_nepali_leakage.py", line 108, in <module>
+    try:main()
+        ^^^^^^
+  File "/Volumes/T9/hindi-detector/scripts/detect_nepali_leakage.py", line 49, in main
+    references,reference_preparation=references_for_text(ROOT,args.text,generate=not args.cached_only)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/teacher_reference_cache.py", line 130, in references_for_text
+    subprocess.run(command, cwd=root, stdout=handle, stderr=subprocess.STDOUT, check=True, timeout=1200)
+  File "/Users/k2/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Volumes/T9/hindi-detector/.venv-indicf5/bin/python', '-u', '-m', 'scripts.run_swar_teacher_validation', '--plan', '/Volumes/T9/hindi-detector/data/inference_ref_75036d4376e1fe995f369adc', '--out', '/Volumes/T9/hindi-detector/reports/inference_ref_75036d4376e1fe995f369adc/controller', '--namespace', 'inference_ref_75036d4376e1fe995f369adc', '--smoke', '2']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Volumes/T9/hindi-detector/scripts/detect_nepali_leakage.py", line 108, in <module>
+    try:main()
+        ^^^^^^
+  File "/Volumes/T9/hindi-detector/scripts/detect_nepali_leakage.py", line 49, in main
+    references,reference_preparation=references_for_text(ROOT,args.text,generate=not args.cached_only)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/teacher_reference_cache.py", line 130, in references_for_text
+    subprocess.run(command, cwd=root, stdout=handle, stderr=subprocess.STDOUT, check=True, timeout=1200)
+  File "/Users/k2/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Volumes/T9/hindi-detector/.venv-indicf5/bin/python', '-u', '-m', 'scripts.run_swar_teacher_validation', '--plan', '/Volumes/T9/hindi-detector/data/inference_ref_75036d4376e1fe995f369adc', '--out', '/Volumes/T9/hindi-detector/reports/inference_ref_75036d4376e1fe995f369adc/controller', '--namespace', 'inference_ref_75036d4376e1fe995f369adc', '--smoke', '2']' returned non-zero exit status 1.

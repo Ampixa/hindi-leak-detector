@@ -1,0 +1,35 @@
+{
+  "pid": 58857,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-m",
+    "hindi_detector.wordlab_server",
+    "--pack",
+    "data/indicf5_audio8_v1",
+    "--pack",
+    "data/pocket_architecture_probe_v3",
+    "--pack",
+    "data/human_g2p_bank_v5",
+    "--pack",
+    "data/wordmatrix_v3",
+    "--pack",
+    "data/pocket_wordmatrix_v4",
+    "--page",
+    "review/wordlab.html",
+    "--data",
+    "review/human_word_data_v8",
+    "--port",
+    "8770"
+  ],
+  "created_utc": "2026-11-08T04:55:43.887573+00:00",
+  "sources": [
+    {
+      "path": "hindi_detector/wordlab_server.py",
+      "sha256": "e8b0d68ba64279255fca43652cae656573f62b3cee941d9244a6d76152c28339"
+    },
+    {
+      "path": "review/overnight.html",
+      "sha256": "65163ff7e46a32cc17e3ddfe0441861474a0482bfe396eeb18682699c11be4df"
+    }
+  ]
+}

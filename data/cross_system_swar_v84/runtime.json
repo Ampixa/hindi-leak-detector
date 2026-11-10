@@ -1,0 +1,19 @@
+{
+  "system": "swar_podvoices_ema",
+  "repo": "Aarjan/swar",
+  "revision": "8ca6f1bbc9da567d92158822e24673c2084e7e86",
+  "weights_sha256": "b932ea211288795a4a07749b84b51622b2c181cd29343f56f2a5c85598875b53",
+  "frontend": "app/pipeline/clone.py to_model_text(chars), SCHWA_HOLD/NEPAL_ACCENT defaults",
+  "frontend_sha256": "323fecf59d196b61d83822b1aa81009e54e4fc3bc7876fd56eeef10daa715edb",
+  "settings": {
+    "nfe_step": 32,
+    "cfg_strength": 2.0,
+    "sway_sampling_coef": -1.0,
+    "speed": 1.0,
+    "device": "mps"
+  },
+  "remove_silence": false,
+  "torch": "2.6.0",
+  "strict_state_loading": true,
+  "fp32": true
+}

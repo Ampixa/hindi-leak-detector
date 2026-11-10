@@ -1,0 +1,26 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 2415,
+    "sha256": "8ae50e076f788bcb85c651f18638be55846d05a6eef31a03a51c2d1603b198e0",
+    "mutable": false
+  },
+  {
+    "path": "inputs.json",
+    "bytes": 514,
+    "sha256": "09f8790dc5693622c0e0b674416311b2809970de68f3a126555c04fdfaa87c22",
+    "mutable": false
+  },
+  {
+    "path": "storage.json",
+    "bytes": 950,
+    "sha256": "c14ab31309c3dcad098374020602c72fb6f86158c3c6d0bb2f6bff878d704625",
+    "mutable": false
+  },
+  {
+    "path": "summary.json",
+    "bytes": 4445,
+    "sha256": "5eaf236a68a8af9ffc23dce0943ea487523e432fad1bd42717c0a84b5603e6b2",
+    "mutable": false
+  }
+]

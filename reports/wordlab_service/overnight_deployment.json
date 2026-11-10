@@ -1,0 +1,27 @@
+{
+  "pid": 13402,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-m",
+    "hindi_detector.wordlab_server",
+    "--pack",
+    "data/indicf5_audio8_v1",
+    "--pack",
+    "data/pocket_architecture_probe_v3",
+    "--pack",
+    "data/human_g2p_bank_v5",
+    "--pack",
+    "data/wordmatrix_v3",
+    "--pack",
+    "data/pocket_wordmatrix_v4",
+    "--page",
+    "review/wordlab.html",
+    "--data",
+    "review/human_word_data_v8",
+    "--port",
+    "8770"
+  ],
+  "previous_pid": 85765,
+  "created_utc": "2026-11-08T01:38:28.160421+00:00",
+  "scope": "read-only /overnight and fixed audio whitelist; existing annotation service untouched"
+}

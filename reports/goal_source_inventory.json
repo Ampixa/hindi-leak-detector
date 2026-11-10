@@ -1,0 +1,625 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "created_utc": "2026-11-07T09:33:24.144461+00:00",
+  "owner": "Ampixa/user",
+  "status": "active",
+  "origin_host": "cdjks-MacBook-Pro-2.local",
+  "origin_path": "/Users/cdjk/github/hindi-detector",
+  "purpose": "Current authored detector/data-quality source and UI; historical experiment snapshots preserve actual earlier code. No Git repository exists.",
+  "next_review": "2026-11-14",
+  "hf_upload": false,
+  "git_revision": null,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 348,
+      "sha256": "678a84a257d5b8b206482b7d46bb3eac24daed8e0f9cc7950a63c51e57619c88"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 18977,
+      "sha256": "adde967bffc5a6c7ba4ec7b045b2dbc3ed590b4cd2518421f41b6cc2de94880e"
+    },
+    {
+      "path": "hindi_detector/__init__.py",
+      "size_bytes": 79,
+      "sha256": "67ea7540e6f71f3c324cc9c007217e2cd60c8edccf429cf3014a97d21b266855"
+    },
+    {
+      "path": "hindi_detector/acoustic.py",
+      "size_bytes": 1848,
+      "sha256": "d7edec613db0475bf4e47e33b65966bf37ec66f4aaeeeb282fcbcedcb2436a0c"
+    },
+    {
+      "path": "hindi_detector/anchored_proxy.py",
+      "size_bytes": 5916,
+      "sha256": "295860fd6820b783ee780a93aa1e42491221b1d865c9a2100f7603daffb23b2a"
+    },
+    {
+      "path": "hindi_detector/artifacts.py",
+      "size_bytes": 2180,
+      "sha256": "c1d763dbef1375fcd4e2310ee32447d353c43de462aaf51f358caf813d2304c7"
+    },
+    {
+      "path": "hindi_detector/boundary_audit.py",
+      "size_bytes": 3400,
+      "sha256": "801bb939903e20e8d6a266ff3498a981241fafc2f4e677e0b6dea33fd1c28fc2"
+    },
+    {
+      "path": "hindi_detector/candidates.py",
+      "size_bytes": 4014,
+      "sha256": "ca79e1c4012341d3848a4ed551b1cf797d12ec598df65e653b2f681cca1916f8"
+    },
+    {
+      "path": "hindi_detector/cli.py",
+      "size_bytes": 5462,
+      "sha256": "ca05992d648f62e3e43aa431bb3a55a2985e94e50a9746871cc5d2b63744f2b9"
+    },
+    {
+      "path": "hindi_detector/crossed_words.py",
+      "size_bytes": 5890,
+      "sha256": "0dcc5d290b0b35a5c4213a14c3d390f58efd7dca1a03f1c107a2b97dc6dd4cfe"
+    },
+    {
+      "path": "hindi_detector/ctc.py",
+      "size_bytes": 2992,
+      "sha256": "0273881950020a4637615fb2a0bf16fc63916a250f82cebed78ff843f92e1c0e"
+    },
+    {
+      "path": "hindi_detector/evaluation.py",
+      "size_bytes": 7457,
+      "sha256": "df66390370c5c789f38cf59a1e139552ccf3c70b48c09835c21e7c3421198b49"
+    },
+    {
+      "path": "hindi_detector/g2p_evidence.py",
+      "size_bytes": 4852,
+      "sha256": "7a4c2c36b5934bf38cd29031816717c7a86cfda94793262fb0839ead863008f2"
+    },
+    {
+      "path": "hindi_detector/interventions.py",
+      "size_bytes": 4355,
+      "sha256": "d0beac2979fc69ac2cf22442df595e621ecd808cb5874bf5506e2e0a49c91b5d"
+    },
+    {
+      "path": "hindi_detector/kala_render.py",
+      "size_bytes": 4593,
+      "sha256": "442a40d794dbb936dbc3d0d12ed0855e34ba58fb901783a2b8d0745f8a67c45e"
+    },
+    {
+      "path": "hindi_detector/local_features.py",
+      "size_bytes": 4003,
+      "sha256": "4763df5b149f50d350fa0425fd204d9eda0d6ce05b3df1f8c3606e32d8e0519c"
+    },
+    {
+      "path": "hindi_detector/prosody.py",
+      "size_bytes": 3498,
+      "sha256": "dfd1b5473da28f631a9a10e4c179803fbdf95be3dd6f328d50cf82786378c450"
+    },
+    {
+      "path": "hindi_detector/proxy.py",
+      "size_bytes": 3367,
+      "sha256": "fd3757f742bab0f5e08e1e6e13ccf470f9e19713b912eb655ae6093f2b1453fb"
+    },
+    {
+      "path": "hindi_detector/real_word_transfer.py",
+      "size_bytes": 9736,
+      "sha256": "99427797d227727e74310bc48d147f76cb786518600af79b578d8c73e2e98586"
+    },
+    {
+      "path": "hindi_detector/reference_words.py",
+      "size_bytes": 3265,
+      "sha256": "cb10598ce8be1af723191256f7f1939bd54d41ee08b6d8ecbad06c1d71ede7e5"
+    },
+    {
+      "path": "hindi_detector/review_server.py",
+      "size_bytes": 11688,
+      "sha256": "a2c489a99dbc11b4ac285642f0dcee96d68decc7d16262bc5f1ffeb82a1a73f4"
+    },
+    {
+      "path": "hindi_detector/schwa_probe.py",
+      "size_bytes": 3994,
+      "sha256": "ac5cfe80b891d464f303f15c9aaf781ddf4f28d9f24d39166563712ec5d8e892"
+    },
+    {
+      "path": "hindi_detector/site_reference.py",
+      "size_bytes": 1387,
+      "sha256": "7862de7ab18e024d9985f3dcdc3763a4a3c9044c46bf16e8ddec3e5de26b98cf"
+    },
+    {
+      "path": "hindi_detector/supervision.py",
+      "size_bytes": 3823,
+      "sha256": "e073858dd444d74c5b16b592512639c4e9b2316000907ce3a829eaf761f61a0e"
+    },
+    {
+      "path": "hindi_detector/voice_control.py",
+      "size_bytes": 3206,
+      "sha256": "f8c9c82b91fa003a4d287f40f5738e0285d6d90e3f1a050f522149c56247f185"
+    },
+    {
+      "path": "hindi_detector/wave_identity.py",
+      "size_bytes": 2229,
+      "sha256": "11eeb27ad1bae4983842bb0e42fd8f9b816778db2e095b236dd30605891efa0a"
+    },
+    {
+      "path": "hindi_detector/word_evidence.py",
+      "size_bytes": 9618,
+      "sha256": "6b96fbd81ce5b85cce8ab35f52e8f59157d5f8a94b5abc54189fbe1f2c2be1d1"
+    },
+    {
+      "path": "hindi_detector/word_model.py",
+      "size_bytes": 7774,
+      "sha256": "4efe2ebade77e83463aa5759b0b946502bc80d83371e56af3465154bf622d16d"
+    },
+    {
+      "path": "hindi_detector/wordlab_server.py",
+      "size_bytes": 10096,
+      "sha256": "bfa9cedc723ce03effab799c7b09d0e239fe3745d2e70c0c99e01068f7715f44"
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 531,
+      "sha256": "05c61c9c5201efebadc049e1c138a4eea21d899102ec86e5ca61e2ca0d12b8e9"
+    },
+    {
+      "path": "review/annotate.html",
+      "size_bytes": 11181,
+      "sha256": "7a57827beee8d85230b72b62974292798acd6859387a24d0f3f8bebe2c0006d7"
+    },
+    {
+      "path": "review/index.html",
+      "size_bytes": 23754,
+      "sha256": "4e5f3feecc9e6f91968fae30596ad51c57ae052f315206d868f7863725468b42"
+    },
+    {
+      "path": "review/pocket-progress.html",
+      "size_bytes": 18578,
+      "sha256": "1433535464d89f385d129374540c1c0efa6afd87e591229b463aa8d5dc92f576"
+    },
+    {
+      "path": "review/results.html",
+      "size_bytes": 8673,
+      "sha256": "dd97b59b712ecdd2b24e89869b7636cba4f61d4f74a7a595d67bc89143678976"
+    },
+    {
+      "path": "review/wordlab-progress.html",
+      "size_bytes": 18578,
+      "sha256": "1433535464d89f385d129374540c1c0efa6afd87e591229b463aa8d5dc92f576"
+    },
+    {
+      "path": "review/wordlab.html",
+      "size_bytes": 21975,
+      "sha256": "0e424b21a57fb43a9440538d6ef13e48f80ec4a7fa0cc78952f9c9ea97a31595"
+    },
+    {
+      "path": "scripts/acquire_indicf5.py",
+      "size_bytes": 4308,
+      "sha256": "899c15d1da190cd2f5e2deb57cdcc0097c5f9be02b3740f1cb925ea076116d23"
+    },
+    {
+      "path": "scripts/acquire_kala_controls.py",
+      "size_bytes": 3601,
+      "sha256": "09a8f3778e4d915cdb38d416e8026f453186de919d2f15a285621d334b3cede0"
+    },
+    {
+      "path": "scripts/acquire_voice_control.py",
+      "size_bytes": 5435,
+      "sha256": "b53afb00e8cccb9088ee4fee65a3ee9acd897d1a96a4238aa2c06d20c7417848"
+    },
+    {
+      "path": "scripts/acquire_word_runtime.py",
+      "size_bytes": 2125,
+      "sha256": "81335b70ca85abbcb09409bed30080b0ede83ebaa7c010122d83ec54f38eb64b"
+    },
+    {
+      "path": "scripts/analyze_word_audio.py",
+      "size_bytes": 3864,
+      "sha256": "b9681f293eca74ec2db95df4951375ee1cb9146dea4b4d8d602bb2b6ca33e800"
+    },
+    {
+      "path": "scripts/apply_schwa_components.py",
+      "size_bytes": 11680,
+      "sha256": "b3b160eead4ca4a47f5dcd8b1a18b2229416a823efe0cc725d930224bf3ec3a4"
+    },
+    {
+      "path": "scripts/audit_human_boundaries.py",
+      "size_bytes": 10803,
+      "sha256": "6dca06be642f485693c84eaca2acf4bc824f1873792c79999274915a78943050"
+    },
+    {
+      "path": "scripts/build_comparison_pack.py",
+      "size_bytes": 5229,
+      "sha256": "cbf34da84ec4dff556d36ee0416313dd1de77edc6c266bf60a6de81fc56527a6"
+    },
+    {
+      "path": "scripts/build_human_matched_pack.py",
+      "size_bytes": 8400,
+      "sha256": "edccbfa0dc8bd3703cb5f2fe70f9a80c8f45699a497b82238cc60cd56e48c296"
+    },
+    {
+      "path": "scripts/build_human_word_review.py",
+      "size_bytes": 7730,
+      "sha256": "94327f62bb92a20f579e793a6d49beb5f44f4b53bd77d945aa116881df24bc88"
+    },
+    {
+      "path": "scripts/build_intervention_pack.py",
+      "size_bytes": 6041,
+      "sha256": "c0254f601cb2862ba54272dfcf1450a1baecfde91a41564bfe1c8360eca08aa9"
+    },
+    {
+      "path": "scripts/build_schwa_reference.py",
+      "size_bytes": 4568,
+      "sha256": "4943c3cde2fac60fae17dfc85428b448037833d7182006b1f7bbe83e1c55e633"
+    },
+    {
+      "path": "scripts/build_transfer_review.py",
+      "size_bytes": 9104,
+      "sha256": "000c156c08e102c69e71c768989396de8c0af6fa1ffcfc3d7353be24c454ff83"
+    },
+    {
+      "path": "scripts/build_word_matrix.py",
+      "size_bytes": 6462,
+      "sha256": "732504b807f1c159b78a5a284bcd9a7ca13e95c6702bf6083643c0ca51781aa8"
+    },
+    {
+      "path": "scripts/build_wordlab.py",
+      "size_bytes": 3432,
+      "sha256": "e1926793ea202636d28a1f6c458027bffd0229fc53a8641887a58e4d5a7df025"
+    },
+    {
+      "path": "scripts/check_intervention_phonetics.py",
+      "size_bytes": 6962,
+      "sha256": "02a9a441d1dccc5b7a054ae20eeb5cf99fd8006c064f95faf8260f7630f471c7"
+    },
+    {
+      "path": "scripts/cleanup_cancelled_audio8.py",
+      "size_bytes": 7592,
+      "sha256": "37c44a7435be57a848cd8b5bba0e8b28469f7d6e08b78a8f40f948085b8f56fc"
+    },
+    {
+      "path": "scripts/continue_human_matched.py",
+      "size_bytes": 5450,
+      "sha256": "51c2cfffe5e2e74d57db8efb7afb8a17e7b6c1fc2c32f1b38f461c4f9a68cbb3"
+    },
+    {
+      "path": "scripts/continue_pocket_pipeline.py",
+      "size_bytes": 4431,
+      "sha256": "4c1c37cf0071fa79f4eb3eacc1bf34c6d2997dd08256d11397a3ddda7bb0c492"
+    },
+    {
+      "path": "scripts/evaluate_pronunciation_head.py",
+      "size_bytes": 5388,
+      "sha256": "c41cff8b892c4cbadc1185486c424e0b49c0d09b4281117aa0e622d24e238e35"
+    },
+    {
+      "path": "scripts/extract_comparison_features.py",
+      "size_bytes": 5812,
+      "sha256": "a7c15b71a113083d966c769e905462a1e1e9a84d92d5df3113ad98f0958d3e8f"
+    },
+    {
+      "path": "scripts/extract_intervention_features.py",
+      "size_bytes": 7976,
+      "sha256": "8a06a23686a31ad729e22528056d84eb30e6a65c398a1a49de85e12921d4b870"
+    },
+    {
+      "path": "scripts/extract_proxy_windows.py",
+      "size_bytes": 6686,
+      "sha256": "33dc55a29acddfbd8bb1ea3cf2caa7ecd152b009de9bded20913096ea25cc6b1"
+    },
+    {
+      "path": "scripts/extract_word_evidence.py",
+      "size_bytes": 5840,
+      "sha256": "a2049d7774cf0f8230c40ac498fa154b458f1510b4c7e9d1db24dd69090306f3"
+    },
+    {
+      "path": "scripts/fetch_acoustic_model.py",
+      "size_bytes": 1736,
+      "sha256": "891b2ab6b5ff0640024105f482c6e9e1832049dca69035d3d98cd178be0f502b"
+    },
+    {
+      "path": "scripts/fetch_sources.py",
+      "size_bytes": 2185,
+      "sha256": "00949314ca7ae9f0893b364736185fc31b9c1776b671bdeb88e70248cccbf21e"
+    },
+    {
+      "path": "scripts/probe_kala_interventions.py",
+      "size_bytes": 8217,
+      "sha256": "cd20edf41f0c07c401de9d20108dd44d694212d00cacce8bcb5aaea8de8bf573"
+    },
+    {
+      "path": "scripts/probe_schwa_sites.py",
+      "size_bytes": 7576,
+      "sha256": "2a079b085fec4944d0539849a86539bf88e9434c28f157241392c82d8b9f594b"
+    },
+    {
+      "path": "scripts/queue_audio8_matrix.py",
+      "size_bytes": 2703,
+      "sha256": "e760d458155b2cc05fe06d70b3ecc4bd93eb08411d99790663c345fdce5e5a9c"
+    },
+    {
+      "path": "scripts/recover_human_regions.py",
+      "size_bytes": 11897,
+      "sha256": "e8c40d1cda61c0aa0234904b7e8c7906712cf132080aef08871eb49ecdefe14f"
+    },
+    {
+      "path": "scripts/render_anchored_report.py",
+      "size_bytes": 8066,
+      "sha256": "fcc96d35bba68310a8ae049d2f21ceef6408f3f98d1f96cec8e4adb0707fabf0"
+    },
+    {
+      "path": "scripts/render_proxy_report.py",
+      "size_bytes": 6820,
+      "sha256": "3d268858e90104df19ea756b16cd234b4f1656210ad5fca5e93499d611012d0c"
+    },
+    {
+      "path": "scripts/render_word_progress.py",
+      "size_bytes": 15019,
+      "sha256": "a606bd821382609878f0fe8de12740abbb3179944bb4c83268bbb0bbb947a19c"
+    },
+    {
+      "path": "scripts/report_proxy_agreement.py",
+      "size_bytes": 3305,
+      "sha256": "c50f4c0e204f51ac4af8f3d3f49f473b07b0a70eb91c276883c65d1aecdbb207"
+    },
+    {
+      "path": "scripts/reproduce_human_staging.py",
+      "size_bytes": 3249,
+      "sha256": "f21b7f60efb8aa3fe58bdbfddae4a724530baf1971db99e7e5eaa3bdcfd5c2c3"
+    },
+    {
+      "path": "scripts/restore_audio8_runtime.py",
+      "size_bytes": 3358,
+      "sha256": "ed1897e41eac16f5110c1c6cb16a25f2a5c5bfcdafb448f4f7134e1d895e2dc2"
+    },
+    {
+      "path": "scripts/run_audio8_matrix.py",
+      "size_bytes": 9242,
+      "sha256": "28318196daea721a8230fc00a72c108833d58bcf7b027d4ef0462328a689ff9c"
+    },
+    {
+      "path": "scripts/run_audio8_proxy.py",
+      "size_bytes": 7324,
+      "sha256": "773cc5e04c1c108b91ba1b405a77ed602ba5ad78c362df25cecc2b90cd7b4027"
+    },
+    {
+      "path": "scripts/run_human_g2p_evidence.py",
+      "size_bytes": 2703,
+      "sha256": "3eecc962b82bc2ed2ecca24bc74186cfb4465b1b95f68f854d8a4af092d4f918"
+    },
+    {
+      "path": "scripts/run_indicf5_comparison.py",
+      "size_bytes": 8406,
+      "sha256": "66b208983314981cfce56e27e792184f3964fa8a5b60dcf6dc633b605849d408"
+    },
+    {
+      "path": "scripts/run_indicf5_matrix.py",
+      "size_bytes": 8722,
+      "sha256": "fa82bf0ee7a94c624ab6c1b18c0d957768d35d3e6f23b226cabc965ac7c791be"
+    },
+    {
+      "path": "scripts/run_intervention_pack.py",
+      "size_bytes": 4342,
+      "sha256": "c881dab286cffd2965e4b280704280e652f43b5bcf179101599e9408cceb0d9d"
+    },
+    {
+      "path": "scripts/run_pocket_matrix.py",
+      "size_bytes": 12412,
+      "sha256": "9be6b6867c100588bce51afe5ef3d5a4df2f4311d4bee4c8f54b41fb2cdc3fd4"
+    },
+    {
+      "path": "scripts/run_pocket_pilot.py",
+      "size_bytes": 8175,
+      "sha256": "4ea08141577670c564686fae61f9534947bfe2aac1ba2f8a5122dd1fc06dc31a"
+    },
+    {
+      "path": "scripts/run_voice_controls.py",
+      "size_bytes": 10931,
+      "sha256": "6c4da1c26167acddbe4d41624aeeff5b1e767a91532d5dda473038243dce884c"
+    },
+    {
+      "path": "scripts/score_checkpoint_probe.py",
+      "size_bytes": 4351,
+      "sha256": "4b775b3829dcda951dccd2eb4113a656e42caa6aee1f29d9c9616ba7103dfd4c"
+    },
+    {
+      "path": "scripts/score_schwa_references.py",
+      "size_bytes": 2792,
+      "sha256": "81f686eaee435eb210d3967759a9811e24bdf34176fe80ccff86f3841f976037"
+    },
+    {
+      "path": "scripts/score_source_proxy.py",
+      "size_bytes": 4818,
+      "sha256": "f233741a13b4b913013a4b58a227952ac4c31545309e90ba0b136525ec810670"
+    },
+    {
+      "path": "scripts/score_word_schwa.py",
+      "size_bytes": 5942,
+      "sha256": "4895a4250c5b31e0177a04a3845721b53caccaa186ad4582aad0a59000865706"
+    },
+    {
+      "path": "scripts/select_development_data.py",
+      "size_bytes": 5642,
+      "sha256": "d71b7d51f4c64c489b269ee12a117dcab402f4613b31a64600cd0fcead122608"
+    },
+    {
+      "path": "scripts/select_human_g2p_bank.py",
+      "size_bytes": 14149,
+      "sha256": "4625edf88679613053e293bf1de809e9ae713d72d948424cc74cfc76f9dfe68e"
+    },
+    {
+      "path": "scripts/select_native_probe.py",
+      "size_bytes": 4603,
+      "sha256": "04b60408ebe7f220a7930780da747926d332e2c7cabb96a65f3d3717c99ce6a5"
+    },
+    {
+      "path": "scripts/select_native_wordbank.py",
+      "size_bytes": 5533,
+      "sha256": "43486c3ab443a593a990cf6e1a3fc602bdde83c847c2f9a47b91605279886aee"
+    },
+    {
+      "path": "scripts/start_review.py",
+      "size_bytes": 2842,
+      "sha256": "27f33152818d4719b9052fb7789fc1e4a6311a6345a13568285d10c772576c48"
+    },
+    {
+      "path": "scripts/stream_comparison_audio.py",
+      "size_bytes": 1169,
+      "sha256": "d5b1fc461a1136bbf0f78cc170e7e7025eba39c3ff48a25a0208204da8a15313"
+    },
+    {
+      "path": "scripts/summarize_human_g2p.py",
+      "size_bytes": 6013,
+      "sha256": "915aa67ba77df781fca95997f012c6415fb72569ca613566ead5255f0c4ba47f"
+    },
+    {
+      "path": "scripts/summarize_real_word_transfer.py",
+      "size_bytes": 11443,
+      "sha256": "acd3d637bb441d98bea7b55d576314aa3c8c04fd6bcf0f6d813c6df995617c30"
+    },
+    {
+      "path": "scripts/train_anchored_proxy.py",
+      "size_bytes": 11734,
+      "sha256": "8d1ae88ef490be3f90f0d790784961fd6630f3cd8956c15b2daf8da2faa3447e"
+    },
+    {
+      "path": "scripts/train_crossed_words.py",
+      "size_bytes": 8994,
+      "sha256": "fda83e5bc39dcd5427131f07b0dd2b42d28e67e5af8c975473664dfbbb221050"
+    },
+    {
+      "path": "scripts/train_intervention_heads.py",
+      "size_bytes": 11107,
+      "sha256": "e584dca813fdb7b11a5cc18adc391ff5531ebdd1d5d6177ae226708092a2c226"
+    },
+    {
+      "path": "scripts/train_pronunciation_head.py",
+      "size_bytes": 8056,
+      "sha256": "90bd3b8884d68c63cc960603fc5084706376ec22484cdf13fe619110f89d7303"
+    },
+    {
+      "path": "scripts/train_reference_words.py",
+      "size_bytes": 6087,
+      "sha256": "2f0fdd81579a8ed0e5dacb159d183d0024dbde0c66cb1c8347d8ef13fa427737"
+    },
+    {
+      "path": "scripts/train_source_proxy.py",
+      "size_bytes": 9292,
+      "sha256": "a1409e3cf32db53d14191db6e1953a18268c4901e1f30e70e454487e2de673ec"
+    },
+    {
+      "path": "scripts/train_word_heads.py",
+      "size_bytes": 7368,
+      "sha256": "94ccdb33c5134ae6c693fe675d5a77c2b34677f35c5e59af86f99f6f70054b5f"
+    },
+    {
+      "path": "scripts/validate_pocket_native.py",
+      "size_bytes": 11185,
+      "sha256": "4600f547122dc038f7d13df13d736f132dad5f66fb7df6dac168a2655f63ef48"
+    },
+    {
+      "path": "scripts/verify_original_human_audio.py",
+      "size_bytes": 13799,
+      "sha256": "01b5ee91840afb3a14d0dc2d85cbbef1f5be7da2ca9179238ff9481b6fdd8f36"
+    },
+    {
+      "path": "sources.lock.json",
+      "size_bytes": 5661,
+      "sha256": "23cde054c5632bb53af85d435b681cad85b9652a77fc03c1f794567e930b8b2a"
+    },
+    {
+      "path": "tests/test_anchored_proxy.py",
+      "size_bytes": 1479,
+      "sha256": "122aa38a37b65b52dd92c27e6b9b7e2a37e510386d984fe321698056f4ba5179"
+    },
+    {
+      "path": "tests/test_boundary_audit.py",
+      "size_bytes": 2509,
+      "sha256": "9825d57c67640ade731c1a2ccd0eb1610c7f86814054563ded7e8fbde3dbad51"
+    },
+    {
+      "path": "tests/test_core.py",
+      "size_bytes": 2820,
+      "sha256": "3a2bee1583e2a05f367a6c57837be7a8804a0d6f46b7700c8b5f9143bc100249"
+    },
+    {
+      "path": "tests/test_crossed_words.py",
+      "size_bytes": 2328,
+      "sha256": "a42474e621b228950a3d48de241bdedf53a46a7deba5abc090f9002abba158eb"
+    },
+    {
+      "path": "tests/test_evaluation.py",
+      "size_bytes": 2805,
+      "sha256": "169fb22c8eed1a44d2bf7c04547deb0a0c327d3e2e3f0c93b4491d0c73eaa08b"
+    },
+    {
+      "path": "tests/test_g2p_evidence.py",
+      "size_bytes": 2215,
+      "sha256": "ad9985dcf0eed8f3fbc4d09baba9a75bc0102e984ed7816dfae076e9e350fffc"
+    },
+    {
+      "path": "tests/test_interventions.py",
+      "size_bytes": 1769,
+      "sha256": "a13f5e7f17e8e3f5e305d4c74ed5e2fb56281db4a436b1a696f6b10d0a7e2357"
+    },
+    {
+      "path": "tests/test_local_features.py",
+      "size_bytes": 1569,
+      "sha256": "4c9ffe48ae54eefa81e9a60cadc8d2bba93fdf0a5f88d546adc29a723959ab15"
+    },
+    {
+      "path": "tests/test_proxy.py",
+      "size_bytes": 1273,
+      "sha256": "1f531b5cc6663442fd7aa047af27ad375be444bd543c3fa1287055085f285e41"
+    },
+    {
+      "path": "tests/test_real_word_transfer.py",
+      "size_bytes": 3957,
+      "sha256": "9c21a1ecefefb93e479a6a536eafa14523eb10500f8dd27b5a7ea57d999624ac"
+    },
+    {
+      "path": "tests/test_reference_words.py",
+      "size_bytes": 1298,
+      "sha256": "7754b5adcfa818622eefd4779c1608efdf6dfbfe142fad540ddd741787892380"
+    },
+    {
+      "path": "tests/test_review_labels.py",
+      "size_bytes": 1377,
+      "sha256": "ba3ba7355733fd3e46b7513740d243ed9541fbe8e02e96c3ee76ab9b9c0f07fa"
+    },
+    {
+      "path": "tests/test_review_packs.py",
+      "size_bytes": 3291,
+      "sha256": "e3599c53e13fb1bbe2a78ab9f5140e3948d7d8038413ea0330b4023602c2e3fe"
+    },
+    {
+      "path": "tests/test_schwa_probe.py",
+      "size_bytes": 1470,
+      "sha256": "f0a2fdec3c0314a6f0498c7b8d9284e258052317f1ba41f8b56af71ec55f45ae"
+    },
+    {
+      "path": "tests/test_site_reference.py",
+      "size_bytes": 1046,
+      "sha256": "a965bf4ccba8c157ce22ca0cf13c432223692c61b632d4cb26a8e3cdbaa36a2a"
+    },
+    {
+      "path": "tests/test_supervision.py",
+      "size_bytes": 2301,
+      "sha256": "473350aa54d7f57714cb6fba0a65bd95c075b33b77203cf80e5345d6e1280b42"
+    },
+    {
+      "path": "tests/test_transfer_summary.py",
+      "size_bytes": 769,
+      "sha256": "faeadbfe5000f87cd4f6dec8b00b9a4a3eb3106999d2e7753a574af6ba925de7"
+    },
+    {
+      "path": "tests/test_wave_identity.py",
+      "size_bytes": 1512,
+      "sha256": "13b3d5c8086f87654e24cbcb870b8c2614f49cdb4c99922149d8a017bc6c573e"
+    },
+    {
+      "path": "tests/test_word_model.py",
+      "size_bytes": 924,
+      "sha256": "baa1162b4d6d5215026da8b17caeadfc1079407c56521126f227db73bd1f9549"
+    }
+  ],
+  "updated_utc": "2026-11-07T16:26:49.428718+00:00"
+}

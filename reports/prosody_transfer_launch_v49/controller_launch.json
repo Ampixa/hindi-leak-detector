@@ -1,0 +1,18 @@
+{
+  "pid": 47147,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-u",
+    "-m",
+    "scripts.run_swar_teacher_validation",
+    "--plan",
+    "/Volumes/T9/hindi-detector/data/prosody_transfer_v49",
+    "--out",
+    "/Volumes/T9/hindi-detector/reports/prosody_native_donor_synthesis_v49",
+    "--namespace",
+    "prosody_transfer_v49",
+    "--smoke",
+    "6"
+  ],
+  "created_utc": "2026-11-09T02:33:08.946774+00:00"
+}

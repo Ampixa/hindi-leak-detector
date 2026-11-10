@@ -1,0 +1,45 @@
+[
+  {
+    "name": "real_yt_yt01_005",
+    "query": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/swar/real_yt_yt01_005.wav",
+    "reference": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/real/real_yt_yt01_005.wav",
+    "text": "अब हैन कामदारहरुलाई मात्रै थियो भने चाहिँ अहिले स्टुन्टहरुलाई पनि भाको छ।",
+    "word": "हैन",
+    "expected": "flagged_vowel",
+    "content_guard": true
+  },
+  {
+    "name": "real_yt_yt01_008",
+    "query": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/swar/real_yt_yt01_008.wav",
+    "reference": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/real/real_yt_yt01_008.wav",
+    "text": "स्ट्रंगर किनकि अब मल्टिकल्चर वर्ल्ड छ।",
+    "word": "किनकि",
+    "expected": "flagged_vowel",
+    "content_guard": true
+  },
+  {
+    "name": "deliberately_mismatched_transcript",
+    "query": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/swar/real_yt_yt01_005.wav",
+    "reference": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/real/real_yt_yt01_005.wav",
+    "text": "स्ट्रंगर किनकि अब मल्टिकल्चर वर्ल्ड छ।",
+    "word": "हैन",
+    "expected": "unscored_content_mismatch",
+    "content_guard": true
+  },
+  {
+    "name": "real_yt_yt06_045_reference_abstention",
+    "query": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/swar/real_yt_yt06_045.wav",
+    "reference": null,
+    "text": "हैन यहाँको प्रब्लमहरु छ पोलिसीहरु त्यसैगरी बिस्तारै रिफर्म पनि हुदै थियो।",
+    "expected": "unscored_reference_quality",
+    "content_guard": false
+  },
+  {
+    "name": "real_yt_yt10_074_reference_abstention",
+    "query": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/swar/real_yt_yt10_074.wav",
+    "reference": null,
+    "text": "अल्वेज रेडी टाइम फ्री हुनुपर्यो। अब मैले पोडकास्ट क्लास दिदै छु।",
+    "expected": "unscored_reference_quality",
+    "content_guard": false
+  }
+]

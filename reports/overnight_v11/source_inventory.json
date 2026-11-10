@@ -1,0 +1,721 @@
+{
+  "created_utc": "2026-11-08T04:59:20.983869+00:00",
+  "creator": "Codex /root",
+  "files": [
+    {
+      "path": "scripts/build_intervention_pack.py",
+      "bytes": 6041,
+      "sha256": "c0254f601cb2862ba54272dfcf1450a1baecfde91a41564bfe1c8360eca08aa9"
+    },
+    {
+      "path": "scripts/extract_bulk_words.py",
+      "bytes": 8728,
+      "sha256": "36c61d091fc9657aeb071c80768733e173d71920c29494de537f735cb268e2f3"
+    },
+    {
+      "path": "scripts/queue_audio8_matrix.py",
+      "bytes": 2703,
+      "sha256": "e760d458155b2cc05fe06d70b3ecc4bd93eb08411d99790663c345fdce5e5a9c"
+    },
+    {
+      "path": "scripts/analyze_word_audio.py",
+      "bytes": 3864,
+      "sha256": "b9681f293eca74ec2db95df4951375ee1cb9146dea4b4d8d602bb2b6ca33e800"
+    },
+    {
+      "path": "scripts/run_pocket_pilot.py",
+      "bytes": 8175,
+      "sha256": "4ea08141577670c564686fae61f9534947bfe2aac1ba2f8a5122dd1fc06dc31a"
+    },
+    {
+      "path": "scripts/fetch_acoustic_model.py",
+      "bytes": 1736,
+      "sha256": "891b2ab6b5ff0640024105f482c6e9e1832049dca69035d3d98cd178be0f502b"
+    },
+    {
+      "path": "scripts/validate_pocket_native.py",
+      "bytes": 11185,
+      "sha256": "4600f547122dc038f7d13df13d736f132dad5f66fb7df6dac168a2655f63ef48"
+    },
+    {
+      "path": "scripts/build_pocket_reference_plan.py",
+      "bytes": 4244,
+      "sha256": "6b2303587c51ad233942bd89b4ee8d0ae07e221f38f7e1a1e4bddc2686e69b18"
+    },
+    {
+      "path": "scripts/build_wordlab.py",
+      "bytes": 3432,
+      "sha256": "e1926793ea202636d28a1f6c458027bffd0229fc53a8641887a58e4d5a7df025"
+    },
+    {
+      "path": "scripts/stream_comparison_audio.py",
+      "bytes": 1169,
+      "sha256": "d5b1fc461a1136bbf0f78cc170e7e7025eba39c3ff48a25a0208204da8a15313"
+    },
+    {
+      "path": "scripts/select_development_data.py",
+      "bytes": 5642,
+      "sha256": "d71b7d51f4c64c489b269ee12a117dcab402f4613b31a64600cd0fcead122608"
+    },
+    {
+      "path": "scripts/probe_kala_interventions.py",
+      "bytes": 8217,
+      "sha256": "cd20edf41f0c07c401de9d20108dd44d694212d00cacce8bcb5aaea8de8bf573"
+    },
+    {
+      "path": "scripts/extract_proxy_windows.py",
+      "bytes": 6686,
+      "sha256": "33dc55a29acddfbd8bb1ea3cf2caa7ecd152b009de9bded20913096ea25cc6b1"
+    },
+    {
+      "path": "scripts/verify_original_human_audio.py",
+      "bytes": 13799,
+      "sha256": "01b5ee91840afb3a14d0dc2d85cbbef1f5be7da2ca9179238ff9481b6fdd8f36"
+    },
+    {
+      "path": "scripts/run_intervention_pack.py",
+      "bytes": 4342,
+      "sha256": "c881dab286cffd2965e4b280704280e652f43b5bcf179101599e9408cceb0d9d"
+    },
+    {
+      "path": "scripts/check_intervention_phonetics.py",
+      "bytes": 6962,
+      "sha256": "02a9a441d1dccc5b7a054ae20eeb5cf99fd8006c064f95faf8260f7630f471c7"
+    },
+    {
+      "path": "scripts/build_native_reference_plan.py",
+      "bytes": 4458,
+      "sha256": "b8aa44952f7f198e6016a50dec448202f35aee1d36c4a1eda7e16c81dcd709b8"
+    },
+    {
+      "path": "scripts/build_overnight_corpus.py",
+      "bytes": 10238,
+      "sha256": "cbfa349f4d81cfe79dbeba937c6b9b53dfa3dc780338c1a0e732ab292b4b37a5"
+    },
+    {
+      "path": "scripts/run_indicf5_comparison.py",
+      "bytes": 8406,
+      "sha256": "66b208983314981cfce56e27e792184f3964fa8a5b60dcf6dc633b605849d408"
+    },
+    {
+      "path": "scripts/build_schwa_reference.py",
+      "bytes": 4568,
+      "sha256": "4943c3cde2fac60fae17dfc85428b448037833d7182006b1f7bbe83e1c55e633"
+    },
+    {
+      "path": "scripts/build_human_matched_pack.py",
+      "bytes": 8400,
+      "sha256": "edccbfa0dc8bd3703cb5f2fe70f9a80c8f45699a497b82238cc60cd56e48c296"
+    },
+    {
+      "path": "scripts/train_word_heads.py",
+      "bytes": 7368,
+      "sha256": "94ccdb33c5134ae6c693fe675d5a77c2b34677f35c5e59af86f99f6f70054b5f"
+    },
+    {
+      "path": "scripts/acquire_hindi_asr.py",
+      "bytes": 3568,
+      "sha256": "3c9d9d197e2134e059a1ac477db098570c857c219f7f7de376ec337d1ffeb99b"
+    },
+    {
+      "path": "scripts/render_anchored_report.py",
+      "bytes": 8066,
+      "sha256": "fcc96d35bba68310a8ae049d2f21ceef6408f3f98d1f96cec8e4adb0707fabf0"
+    },
+    {
+      "path": "scripts/run_audio8_proxy.py",
+      "bytes": 7324,
+      "sha256": "773cc5e04c1c108b91ba1b405a77ed602ba5ad78c362df25cecc2b90cd7b4027"
+    },
+    {
+      "path": "scripts/train_intervention_heads.py",
+      "bytes": 11107,
+      "sha256": "e584dca813fdb7b11a5cc18adc391ff5531ebdd1d5d6177ae226708092a2c226"
+    },
+    {
+      "path": "scripts/run_indicf5_matrix.py",
+      "bytes": 8722,
+      "sha256": "fa82bf0ee7a94c624ab6c1b18c0d957768d35d3e6f23b226cabc965ac7c791be"
+    },
+    {
+      "path": "scripts/build_comparison_pack.py",
+      "bytes": 5229,
+      "sha256": "cbf34da84ec4dff556d36ee0416313dd1de77edc6c266bf60a6de81fc56527a6"
+    },
+    {
+      "path": "scripts/reproduce_human_staging.py",
+      "bytes": 3249,
+      "sha256": "f21b7f60efb8aa3fe58bdbfddae4a724530baf1971db99e7e5eaa3bdcfd5c2c3"
+    },
+    {
+      "path": "scripts/run_human_g2p_evidence.py",
+      "bytes": 2703,
+      "sha256": "3eecc962b82bc2ed2ecca24bc74186cfb4465b1b95f68f854d8a4af092d4f918"
+    },
+    {
+      "path": "scripts/score_word_schwa.py",
+      "bytes": 5942,
+      "sha256": "4895a4250c5b31e0177a04a3845721b53caccaa186ad4582aad0a59000865706"
+    },
+    {
+      "path": "scripts/acquire_voice_control.py",
+      "bytes": 5435,
+      "sha256": "b53afb00e8cccb9088ee4fee65a3ee9acd897d1a96a4238aa2c06d20c7417848"
+    },
+    {
+      "path": "scripts/summarize_human_g2p.py",
+      "bytes": 6013,
+      "sha256": "915aa67ba77df781fca95997f012c6415fb72569ca613566ead5255f0c4ba47f"
+    },
+    {
+      "path": "scripts/acquire_kala_controls.py",
+      "bytes": 3601,
+      "sha256": "09a8f3778e4d915cdb38d416e8026f453186de919d2f15a285621d334b3cede0"
+    },
+    {
+      "path": "scripts/build_transfer_review.py",
+      "bytes": 9104,
+      "sha256": "000c156c08e102c69e71c768989396de8c0af6fa1ffcfc3d7353be24c454ff83"
+    },
+    {
+      "path": "scripts/extract_comparison_features.py",
+      "bytes": 5812,
+      "sha256": "a7c15b71a113083d966c769e905462a1e1e9a84d92d5df3113ad98f0958d3e8f"
+    },
+    {
+      "path": "scripts/run_voice_controls.py",
+      "bytes": 10931,
+      "sha256": "6c4da1c26167acddbe4d41624aeeff5b1e767a91532d5dda473038243dce884c"
+    },
+    {
+      "path": "scripts/continue_human_matched.py",
+      "bytes": 5450,
+      "sha256": "51c2cfffe5e2e74d57db8efb7afb8a17e7b6c1fc2c32f1b38f461c4f9a68cbb3"
+    },
+    {
+      "path": "scripts/restore_audio8_runtime.py",
+      "bytes": 3358,
+      "sha256": "ed1897e41eac16f5110c1c6cb16a25f2a5c5bfcdafb448f4f7134e1d895e2dc2"
+    },
+    {
+      "path": "scripts/audit_physical_content.py",
+      "bytes": 4306,
+      "sha256": "07eccd03bd1e3e91bddda200c7e57e53abe8ce36b78915f0a51e123506380d91"
+    },
+    {
+      "path": "scripts/fetch_sources.py",
+      "bytes": 2185,
+      "sha256": "00949314ca7ae9f0893b364736185fc31b9c1776b671bdeb88e70248cccbf21e"
+    },
+    {
+      "path": "scripts/summarize_real_word_transfer.py",
+      "bytes": 11443,
+      "sha256": "acd3d637bb441d98bea7b55d576314aa3c8c04fd6bcf0f6d813c6df995617c30"
+    },
+    {
+      "path": "scripts/run_bulk_pocket.py",
+      "bytes": 11771,
+      "sha256": "0957f2d84ff5a12c9277f04d770341ff3b58986cc8a22beca943997b29622153"
+    },
+    {
+      "path": "scripts/cleanup_cancelled_audio8.py",
+      "bytes": 7592,
+      "sha256": "37c44a7435be57a848cd8b5bba0e8b28469f7d6e08b78a8f40f948085b8f56fc"
+    },
+    {
+      "path": "scripts/train_pronunciation_head.py",
+      "bytes": 8056,
+      "sha256": "90bd3b8884d68c63cc960603fc5084706376ec22484cdf13fe619110f89d7303"
+    },
+    {
+      "path": "scripts/select_human_g2p_bank.py",
+      "bytes": 14149,
+      "sha256": "4625edf88679613053e293bf1de809e9ae713d72d948424cc74cfc76f9dfe68e"
+    },
+    {
+      "path": "scripts/report_proxy_agreement.py",
+      "bytes": 3305,
+      "sha256": "c50f4c0e204f51ac4af8f3d3f49f473b07b0a70eb91c276883c65d1aecdbb207"
+    },
+    {
+      "path": "scripts/score_checkpoint_probe.py",
+      "bytes": 4351,
+      "sha256": "4b775b3829dcda951dccd2eb4113a656e42caa6aee1f29d9c9616ba7103dfd4c"
+    },
+    {
+      "path": "scripts/run_audio8_matrix.py",
+      "bytes": 9242,
+      "sha256": "28318196daea721a8230fc00a72c108833d58bcf7b027d4ef0462328a689ff9c"
+    },
+    {
+      "path": "scripts/score_schwa_references.py",
+      "bytes": 2792,
+      "sha256": "81f686eaee435eb210d3967759a9811e24bdf34176fe80ccff86f3841f976037"
+    },
+    {
+      "path": "scripts/select_native_probe.py",
+      "bytes": 4603,
+      "sha256": "04b60408ebe7f220a7930780da747926d332e2c7cabb96a65f3d3717c99ce6a5"
+    },
+    {
+      "path": "scripts/start_review.py",
+      "bytes": 2842,
+      "sha256": "27f33152818d4719b9052fb7789fc1e4a6311a6345a13568285d10c772576c48"
+    },
+    {
+      "path": "scripts/train_bulk_detector.py",
+      "bytes": 18079,
+      "sha256": "1ccece573cb84922e1fb17e04ebe1963d322016fef9343a7fa93847a83fe66f7"
+    },
+    {
+      "path": "scripts/score_source_proxy.py",
+      "bytes": 4818,
+      "sha256": "f233741a13b4b913013a4b58a227952ac4c31545309e90ba0b136525ec810670"
+    },
+    {
+      "path": "scripts/train_crossed_words.py",
+      "bytes": 8994,
+      "sha256": "fda83e5bc39dcd5427131f07b0dd2b42d28e67e5af8c975473664dfbbb221050"
+    },
+    {
+      "path": "scripts/apply_schwa_components.py",
+      "bytes": 11680,
+      "sha256": "b3b160eead4ca4a47f5dcd8b1a18b2229416a823efe0cc725d930224bf3ec3a4"
+    },
+    {
+      "path": "scripts/train_reference_words.py",
+      "bytes": 6087,
+      "sha256": "2f0fdd81579a8ed0e5dacb159d183d0024dbde0c66cb1c8347d8ef13fa427737"
+    },
+    {
+      "path": "scripts/extract_intervention_features.py",
+      "bytes": 7976,
+      "sha256": "8a06a23686a31ad729e22528056d84eb30e6a65c398a1a49de85e12921d4b870"
+    },
+    {
+      "path": "scripts/evaluate_pronunciation_head.py",
+      "bytes": 5388,
+      "sha256": "c41cff8b892c4cbadc1185486c424e0b49c0d09b4281117aa0e622d24e238e35"
+    },
+    {
+      "path": "scripts/audit_paired_candidate.py",
+      "bytes": 9163,
+      "sha256": "360a480b8996554d0f242dd6e1bc4bcd6f800e6a9f0ea24ea78a77731f121480"
+    },
+    {
+      "path": "scripts/recover_human_regions.py",
+      "bytes": 11897,
+      "sha256": "e8c40d1cda61c0aa0234904b7e8c7906712cf132080aef08871eb49ecdefe14f"
+    },
+    {
+      "path": "scripts/render_word_progress.py",
+      "bytes": 15019,
+      "sha256": "a606bd821382609878f0fe8de12740abbb3179944bb4c83268bbb0bbb947a19c"
+    },
+    {
+      "path": "scripts/continue_pocket_pipeline.py",
+      "bytes": 4431,
+      "sha256": "4c1c37cf0071fa79f4eb3eacc1bf34c6d2997dd08256d11397a3ddda7bb0c492"
+    },
+    {
+      "path": "scripts/acquire_conformer_gate.py",
+      "bytes": 3218,
+      "sha256": "aeb1f9ae9041875ef98d4afcfdd0250ee83372a8c0aefa0f2906d1e083201552"
+    },
+    {
+      "path": "scripts/extract_word_evidence.py",
+      "bytes": 5840,
+      "sha256": "a2049d7774cf0f8230c40ac498fa154b458f1510b4c7e9d1db24dd69090306f3"
+    },
+    {
+      "path": "scripts/detect_paired_words.py",
+      "bytes": 3633,
+      "sha256": "ccac5aa1fdbb3581e4c5ec8614923fe5040a3f092bc0adcdb7dadd86700e4056"
+    },
+    {
+      "path": "scripts/calibrate_asr_gate.py",
+      "bytes": 9830,
+      "sha256": "841d23a2572e4f9ad84895c89d7f4a89b43c8e150fc6817e99b569e85b2079b8"
+    },
+    {
+      "path": "scripts/train_source_proxy.py",
+      "bytes": 9292,
+      "sha256": "a1409e3cf32db53d14191db6e1953a18268c4901e1f30e70e454487e2de673ec"
+    },
+    {
+      "path": "scripts/acquire_indicf5.py",
+      "bytes": 4308,
+      "sha256": "899c15d1da190cd2f5e2deb57cdcc0097c5f9be02b3740f1cb925ea076116d23"
+    },
+    {
+      "path": "scripts/train_anchored_proxy.py",
+      "bytes": 11734,
+      "sha256": "8d1ae88ef490be3f90f0d790784961fd6630f3cd8956c15b2daf8da2faa3447e"
+    },
+    {
+      "path": "scripts/train_matched_reference.py",
+      "bytes": 18563,
+      "sha256": "9ce6539da01d27d6e11d9f909709150646c55ea041b885481905f2a29de5eb49"
+    },
+    {
+      "path": "scripts/run_pocket_matrix.py",
+      "bytes": 12538,
+      "sha256": "651082ecb02f3a086d8c93765476c91e5473c80b1fc0eb24ccb21ff051735deb"
+    },
+    {
+      "path": "scripts/render_proxy_report.py",
+      "bytes": 6820,
+      "sha256": "3d268858e90104df19ea756b16cd234b4f1656210ad5fca5e93499d611012d0c"
+    },
+    {
+      "path": "scripts/audit_human_boundaries.py",
+      "bytes": 10803,
+      "sha256": "6dca06be642f485693c84eaca2acf4bc824f1873792c79999274915a78943050"
+    },
+    {
+      "path": "scripts/build_word_matrix.py",
+      "bytes": 6462,
+      "sha256": "732504b807f1c159b78a5a284bcd9a7ca13e95c6702bf6083643c0ca51781aa8"
+    },
+    {
+      "path": "scripts/select_native_wordbank.py",
+      "bytes": 5533,
+      "sha256": "43486c3ab443a593a990cf6e1a3fc602bdde83c847c2f9a47b91605279886aee"
+    },
+    {
+      "path": "scripts/run_reference_pipeline.py",
+      "bytes": 6909,
+      "sha256": "4853f5e7edfe8974832ee59f2687341ca06480a39934bac285a488cdf4ca85e4"
+    },
+    {
+      "path": "scripts/build_human_word_review.py",
+      "bytes": 7730,
+      "sha256": "94327f62bb92a20f579e793a6d49beb5f44f4b53bd77d945aa116881df24bc88"
+    },
+    {
+      "path": "scripts/audit_g2p_source.py",
+      "bytes": 5897,
+      "sha256": "7abf619fd034accbba15e304c6c76b065e4b171eb960f036ec52e0561d633abc"
+    },
+    {
+      "path": "scripts/probe_schwa_sites.py",
+      "bytes": 7576,
+      "sha256": "2a079b085fec4944d0539849a86539bf88e9434c28f157241392c82d8b9f594b"
+    },
+    {
+      "path": "scripts/score_bulk_asr.py",
+      "bytes": 8618,
+      "sha256": "a62db87ddfa70980e94895df60722a294d00f8fea50e95ef63c962d3115c6ca6"
+    },
+    {
+      "path": "scripts/acquire_word_runtime.py",
+      "bytes": 2125,
+      "sha256": "81335b70ca85abbcb09409bed30080b0ede83ebaa7c010122d83ec54f38eb64b"
+    },
+    {
+      "path": "scripts/train_physical_detector.py",
+      "bytes": 13080,
+      "sha256": "490f890a1ad18ebd8a99cf58074d54ad8c0ccbf02a511535af13edade076d5fe"
+    },
+    {
+      "path": "hindi_detector/content_quality.py",
+      "bytes": 1833,
+      "sha256": "d49b4d9ee4dc6d7c200dd764591f0470bf3832b0154f7c57703aadefce9a6aa2"
+    },
+    {
+      "path": "hindi_detector/crossed_words.py",
+      "bytes": 5890,
+      "sha256": "0dcc5d290b0b35a5c4213a14c3d390f58efd7dca1a03f1c107a2b97dc6dd4cfe"
+    },
+    {
+      "path": "hindi_detector/prosody.py",
+      "bytes": 3498,
+      "sha256": "dfd1b5473da28f631a9a10e4c179803fbdf95be3dd6f328d50cf82786378c450"
+    },
+    {
+      "path": "hindi_detector/wordlab_server.py",
+      "bytes": 14771,
+      "sha256": "d07956a3aa59d2d0629e77d1703f757fbaabd36d971fb88cf5379072e90d9707"
+    },
+    {
+      "path": "hindi_detector/ctc.py",
+      "bytes": 2992,
+      "sha256": "0273881950020a4637615fb2a0bf16fc63916a250f82cebed78ff843f92e1c0e"
+    },
+    {
+      "path": "hindi_detector/asr_gate.py",
+      "bytes": 4859,
+      "sha256": "a2336f5765d4ce243abd693d2457cd5733a81c4dd5462e08925355e8e4cfa385"
+    },
+    {
+      "path": "hindi_detector/proxy.py",
+      "bytes": 3367,
+      "sha256": "fd3757f742bab0f5e08e1e6e13ccf470f9e19713b912eb655ae6093f2b1453fb"
+    },
+    {
+      "path": "hindi_detector/boundary_audit.py",
+      "bytes": 3400,
+      "sha256": "801bb939903e20e8d6a266ff3498a981241fafc2f4e677e0b6dea33fd1c28fc2"
+    },
+    {
+      "path": "hindi_detector/review_server.py",
+      "bytes": 11688,
+      "sha256": "a2c489a99dbc11b4ac285642f0dcee96d68decc7d16262bc5f1ffeb82a1a73f4"
+    },
+    {
+      "path": "hindi_detector/evaluation.py",
+      "bytes": 7457,
+      "sha256": "df66390370c5c789f38cf59a1e139552ccf3c70b48c09835c21e7c3421198b49"
+    },
+    {
+      "path": "hindi_detector/local_features.py",
+      "bytes": 4003,
+      "sha256": "4763df5b149f50d350fa0425fd204d9eda0d6ce05b3df1f8c3606e32d8e0519c"
+    },
+    {
+      "path": "hindi_detector/__init__.py",
+      "bytes": 79,
+      "sha256": "67ea7540e6f71f3c324cc9c007217e2cd60c8edccf429cf3014a97d21b266855"
+    },
+    {
+      "path": "hindi_detector/paired_detector.py",
+      "bytes": 4572,
+      "sha256": "bbca35bcd81285e7db4e5066d1698a6839bd503735c42e997e55b9171d1aad3c"
+    },
+    {
+      "path": "hindi_detector/acoustic.py",
+      "bytes": 1848,
+      "sha256": "d7edec613db0475bf4e47e33b65966bf37ec66f4aaeeeb282fcbcedcb2436a0c"
+    },
+    {
+      "path": "hindi_detector/reference_words.py",
+      "bytes": 3265,
+      "sha256": "cb10598ce8be1af723191256f7f1939bd54d41ee08b6d8ecbad06c1d71ede7e5"
+    },
+    {
+      "path": "hindi_detector/anchored_proxy.py",
+      "bytes": 5916,
+      "sha256": "295860fd6820b783ee780a93aa1e42491221b1d865c9a2100f7603daffb23b2a"
+    },
+    {
+      "path": "hindi_detector/kala_render.py",
+      "bytes": 4593,
+      "sha256": "442a40d794dbb936dbc3d0d12ed0855e34ba58fb901783a2b8d0745f8a67c45e"
+    },
+    {
+      "path": "hindi_detector/schwa_probe.py",
+      "bytes": 3994,
+      "sha256": "ac5cfe80b891d464f303f15c9aaf781ddf4f28d9f24d39166563712ec5d8e892"
+    },
+    {
+      "path": "hindi_detector/g2p_evidence.py",
+      "bytes": 4852,
+      "sha256": "7a4c2c36b5934bf38cd29031816717c7a86cfda94793262fb0839ead863008f2"
+    },
+    {
+      "path": "hindi_detector/real_word_transfer.py",
+      "bytes": 9736,
+      "sha256": "99427797d227727e74310bc48d147f76cb786518600af79b578d8c73e2e98586"
+    },
+    {
+      "path": "hindi_detector/voice_control.py",
+      "bytes": 3206,
+      "sha256": "f8c9c82b91fa003a4d287f40f5738e0285d6d90e3f1a050f522149c56247f185"
+    },
+    {
+      "path": "hindi_detector/supervision.py",
+      "bytes": 3823,
+      "sha256": "e073858dd444d74c5b16b592512639c4e9b2316000907ce3a829eaf761f61a0e"
+    },
+    {
+      "path": "hindi_detector/cli.py",
+      "bytes": 5462,
+      "sha256": "ca05992d648f62e3e43aa431bb3a55a2985e94e50a9746871cc5d2b63744f2b9"
+    },
+    {
+      "path": "hindi_detector/word_model.py",
+      "bytes": 8772,
+      "sha256": "796984cd7d772150ccc8cdae11e58aab79008dba7b4d658be654823a2d57cda7"
+    },
+    {
+      "path": "hindi_detector/interventions.py",
+      "bytes": 4355,
+      "sha256": "d0beac2979fc69ac2cf22442df595e621ecd808cb5874bf5506e2e0a49c91b5d"
+    },
+    {
+      "path": "hindi_detector/artifacts.py",
+      "bytes": 2180,
+      "sha256": "c1d763dbef1375fcd4e2310ee32447d353c43de462aaf51f358caf813d2304c7"
+    },
+    {
+      "path": "hindi_detector/candidates.py",
+      "bytes": 4014,
+      "sha256": "ca79e1c4012341d3848a4ed551b1cf797d12ec598df65e653b2f681cca1916f8"
+    },
+    {
+      "path": "hindi_detector/native_reference.py",
+      "bytes": 9426,
+      "sha256": "65c9cbca6fb816539e415cb91b763f9a2721f16e61b4889e57e2767c912e83c7"
+    },
+    {
+      "path": "hindi_detector/word_evidence.py",
+      "bytes": 11485,
+      "sha256": "27699434a26b68649fa4e0c544b47ee20cfce1a57f1e20d517d245a57311a05f"
+    },
+    {
+      "path": "hindi_detector/wave_identity.py",
+      "bytes": 2229,
+      "sha256": "11eeb27ad1bae4983842bb0e42fd8f9b816778db2e095b236dd30605891efa0a"
+    },
+    {
+      "path": "hindi_detector/site_reference.py",
+      "bytes": 1387,
+      "sha256": "7862de7ab18e024d9985f3dcdc3763a4a3c9044c46bf16e8ddec3e5de26b98cf"
+    },
+    {
+      "path": "tests/test_native_reference.py",
+      "bytes": 3215,
+      "sha256": "33e7e26d98387c3a830cef73e502fa19786139895f3e63b86e61514c620b2e65"
+    },
+    {
+      "path": "tests/test_crossed_words.py",
+      "bytes": 2328,
+      "sha256": "a42474e621b228950a3d48de241bdedf53a46a7deba5abc090f9002abba158eb"
+    },
+    {
+      "path": "tests/test_site_reference.py",
+      "bytes": 1046,
+      "sha256": "a965bf4ccba8c157ce22ca0cf13c432223692c61b632d4cb26a8e3cdbaa36a2a"
+    },
+    {
+      "path": "tests/test_review_packs.py",
+      "bytes": 3291,
+      "sha256": "e3599c53e13fb1bbe2a78ab9f5140e3948d7d8038413ea0330b4023602c2e3fe"
+    },
+    {
+      "path": "tests/test_transfer_summary.py",
+      "bytes": 769,
+      "sha256": "faeadbfe5000f87cd4f6dec8b00b9a4a3eb3106999d2e7753a574af6ba925de7"
+    },
+    {
+      "path": "tests/test_real_word_transfer.py",
+      "bytes": 3957,
+      "sha256": "9c21a1ecefefb93e479a6a536eafa14523eb10500f8dd27b5a7ea57d999624ac"
+    },
+    {
+      "path": "tests/test_g2p_evidence.py",
+      "bytes": 2215,
+      "sha256": "ad9985dcf0eed8f3fbc4d09baba9a75bc0102e984ed7816dfae076e9e350fffc"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 2820,
+      "sha256": "3a2bee1583e2a05f367a6c57837be7a8804a0d6f46b7700c8b5f9143bc100249"
+    },
+    {
+      "path": "tests/test_review_labels.py",
+      "bytes": 1377,
+      "sha256": "ba3ba7355733fd3e46b7513740d243ed9541fbe8e02e96c3ee76ab9b9c0f07fa"
+    },
+    {
+      "path": "tests/test_word_model.py",
+      "bytes": 924,
+      "sha256": "baa1162b4d6d5215026da8b17caeadfc1079407c56521126f227db73bd1f9549"
+    },
+    {
+      "path": "tests/test_local_features.py",
+      "bytes": 1569,
+      "sha256": "4c9ffe48ae54eefa81e9a60cadc8d2bba93fdf0a5f88d546adc29a723959ab15"
+    },
+    {
+      "path": "tests/test_evaluation.py",
+      "bytes": 2805,
+      "sha256": "169fb22c8eed1a44d2bf7c04547deb0a0c327d3e2e3f0c93b4491d0c73eaa08b"
+    },
+    {
+      "path": "tests/test_boundary_audit.py",
+      "bytes": 2509,
+      "sha256": "9825d57c67640ade731c1a2ccd0eb1610c7f86814054563ded7e8fbde3dbad51"
+    },
+    {
+      "path": "tests/test_interventions.py",
+      "bytes": 1769,
+      "sha256": "a13f5e7f17e8e3f5e305d4c74ed5e2fb56281db4a436b1a696f6b10d0a7e2357"
+    },
+    {
+      "path": "tests/test_anchored_proxy.py",
+      "bytes": 1479,
+      "sha256": "122aa38a37b65b52dd92c27e6b9b7e2a37e510386d984fe321698056f4ba5179"
+    },
+    {
+      "path": "tests/test_content_quality.py",
+      "bytes": 928,
+      "sha256": "2c9e8e4e3c524f05af26db7ea08174bc81f6fad3435cdaa055f4daba47891d67"
+    },
+    {
+      "path": "tests/test_proxy.py",
+      "bytes": 1273,
+      "sha256": "1f531b5cc6663442fd7aa047af27ad375be444bd543c3fa1287055085f285e41"
+    },
+    {
+      "path": "tests/test_paired_detector.py",
+      "bytes": 1279,
+      "sha256": "5dc57a91bb9fcd22c1dcd677a2c222676db8621f2105b307b5f4f9e17aa2121e"
+    },
+    {
+      "path": "tests/test_schwa_probe.py",
+      "bytes": 1470,
+      "sha256": "f0a2fdec3c0314a6f0498c7b8d9284e258052317f1ba41f8b56af71ec55f45ae"
+    },
+    {
+      "path": "tests/test_reference_words.py",
+      "bytes": 1298,
+      "sha256": "7754b5adcfa818622eefd4779c1608efdf6dfbfe142fad540ddd741787892380"
+    },
+    {
+      "path": "tests/test_wave_identity.py",
+      "bytes": 1512,
+      "sha256": "13b3d5c8086f87654e24cbcb870b8c2614f49cdb4c99922149d8a017bc6c573e"
+    },
+    {
+      "path": "tests/test_supervision.py",
+      "bytes": 2301,
+      "sha256": "473350aa54d7f57714cb6fba0a65bd95c075b33b77203cf80e5345d6e1280b42"
+    },
+    {
+      "path": "review/index.html",
+      "bytes": 23754,
+      "sha256": "4e5f3feecc9e6f91968fae30596ad51c57ae052f315206d868f7863725468b42"
+    },
+    {
+      "path": "review/overnight.html",
+      "bytes": 11107,
+      "sha256": "d192f1f67b6c18bf307e9606a1ba990eef12f31badc4af0d28bc4e61e1878e6c"
+    },
+    {
+      "path": "review/annotate.html",
+      "bytes": 11181,
+      "sha256": "7a57827beee8d85230b72b62974292798acd6859387a24d0f3f8bebe2c0006d7"
+    },
+    {
+      "path": "review/wordlab.html",
+      "bytes": 21975,
+      "sha256": "0e424b21a57fb43a9440538d6ef13e48f80ec4a7fa0cc78952f9c9ea97a31595"
+    },
+    {
+      "path": "review/wordlab-progress.html",
+      "bytes": 18578,
+      "sha256": "1433535464d89f385d129374540c1c0efa6afd87e591229b463aa8d5dc92f576"
+    },
+    {
+      "path": "review/results.html",
+      "bytes": 8673,
+      "sha256": "dd97b59b712ecdd2b24e89869b7636cba4f61d4f74a7a595d67bc89143678976"
+    },
+    {
+      "path": "review/pocket-progress.html",
+      "bytes": 18578,
+      "sha256": "1433535464d89f385d129374540c1c0efa6afd87e591229b463aa8d5dc92f576"
+    }
+  ]
+}

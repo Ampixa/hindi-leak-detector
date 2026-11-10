@@ -1,0 +1,140 @@
+{
+  "creator": "Codex (GPT-6), session /root",
+  "owner": "Ampixa/user",
+  "created_utc": "2026-11-08T08:50:11.675466+00:00",
+  "original_host": "Khatra-Dev-Nepals-Mac-Studio.local",
+  "original_path": "/Volumes/T9/hindi-detector/reports/corrected_training_v16",
+  "purpose": "Measured artifact review during corrected training; source/model identity and actual storage; no deletion or checkpoint mutation",
+  "status": "active",
+  "last_review_utc": "2026-11-08T08:50:11.675466+00:00",
+  "next_review": "2026-11-09",
+  "deletion_condition": "Replace with final session review after all owned consumers finish; transient logs/caches expire24h after reviewed completion",
+  "known_duplicates": "Selected model/compact source reports copied to cdjk; no new model-weight or raw-human copy on L40",
+  "hf": "No generated data or detector checkpoints uploaded to HF; source HF revisions pinned in model_pair.json",
+  "licence": "Existing source model/corpus licences, including MMS noncommercial research dependency",
+  "disk_bytes": {
+    "total": 2000189177856,
+    "used": 1762740289536,
+    "free": 237448888320
+  },
+  "groups": {
+    "data/teacher_indicf5_v14": {
+      "files": 2984,
+      "logical_bytes": 768323156,
+      "allocated_bytes": 775536640,
+      "status": "active",
+      "current_consumer": "Corrected source generation, feature preparation, fitting and private evaluation"
+    },
+    "data/native_variation_v16": {
+      "files": 142,
+      "logical_bytes": 56440907,
+      "allocated_bytes": 56754176,
+      "status": "active",
+      "current_consumer": "Corrected source generation, feature preparation, fitting and private evaluation"
+    },
+    "reports/corrected_pair_v14": {
+      "files": 21,
+      "logical_bytes": 9164417,
+      "allocated_bytes": 9666560,
+      "status": "active",
+      "current_consumer": "Corrected source generation, feature preparation, fitting and private evaluation"
+    },
+    "reports/structured_evidence_v15": {
+      "files": 7725,
+      "logical_bytes": 501829371,
+      "allocated_bytes": 520617984,
+      "status": "active",
+      "current_consumer": "Corrected source generation, feature preparation, fitting and private evaluation"
+    },
+    "reports/corrected_training_v16": {
+      "files": 48,
+      "logical_bytes": 21076803,
+      "allocated_bytes": 21204992,
+      "status": "active",
+      "current_consumer": "Corrected source generation, feature preparation, fitting and private evaluation"
+    },
+    "reports/native_variation_audit_v16": {
+      "files": 387,
+      "logical_bytes": 41256103,
+      "allocated_bytes": 42078208,
+      "status": "active",
+      "current_consumer": "Corrected source generation, feature preparation, fitting and private evaluation"
+    },
+    "data/pocket_bulk_v11": {
+      "files": 33902,
+      "logical_bytes": 11445131665,
+      "allocated_bytes": 11518783488,
+      "status": "needs-review",
+      "current_consumer": "Superseded wrong-source bulk; current training excludes this group. Dependency-check unconsumed generated WAVs before cleanup, preserve older evaluation inputs."
+    }
+  },
+  "source_files": {
+    "hindi_detector/word_evidence.py": {
+      "bytes": 15282,
+      "sha256": "875543921c2b48ea7801e26edf037d5df159c83ea866509e70d9d5787d13a88b"
+    },
+    "hindi_detector/structured_detector.py": {
+      "bytes": 4383,
+      "sha256": "4fdde9d4d5c54beec9947374e938179dc4790d823eeb497c2730a31ff81aa136"
+    },
+    "hindi_detector/wordlab_server.py": {
+      "bytes": 21719,
+      "sha256": "76ba4653a8aa73f91c3ab176ddee392c8719cce2c9d7beb3d80af6c9cebba00c"
+    },
+    "review/corrected-pair.html": {
+      "bytes": 12270,
+      "sha256": "e5fddeb439b50f95653513ae84270bcd9978b6943dbde674c2cf247e4a3f6bdf"
+    },
+    "scripts/content_gate_rpc.py": {
+      "bytes": 1140,
+      "sha256": "7a2344d8bc11ae6d889037628874b0b191513b8cfdfd4018322951f40df83151"
+    },
+    "scripts/extract_corrected_training.py": {
+      "bytes": 13336,
+      "sha256": "8683372822ff96d89927c0bb20180fdc23186cc9400c99c02fea18f8da34f4c3"
+    },
+    "scripts/train_corrected_detector.py": {
+      "bytes": 20259,
+      "sha256": "109db61deabd111e150bc634feabfd75e4119d9bbed2d4ab13e95397765bdb64"
+    },
+    "scripts/detect_structured_words.py": {
+      "bytes": 5390,
+      "sha256": "8ef59739a6f4491895bd11c6b53f0a5fc3a1923dca89a2c55bfbec8a0bd8bdb4"
+    },
+    "scripts/audit_structured_pilot.py": {
+      "bytes": 2412,
+      "sha256": "a90d3e328fe589a191f1e19d7a81433797f2ae85a7be84848cf484148facac3d"
+    },
+    "scripts/build_native_variation_plan.py": {
+      "bytes": 5217,
+      "sha256": "495345fa7f6c3dec6b01c6d2e6c9b6e844b513a0aa656679c193285cd345713d"
+    },
+    "scripts/audit_native_variation.py": {
+      "bytes": 13073,
+      "sha256": "bf8d970a74db9f5334f52afbb9e9273c47367d5209ae0506302d04a5d7d64b3f"
+    },
+    "scripts/finish_corrected_training.py": {
+      "bytes": 12292,
+      "sha256": "e237c4ecb7e210c087ecccdf488245d52194c72e162f3d22c0100131ebcaf12a"
+    },
+    "scripts/finalize_corrected_training.py": {
+      "bytes": 5519,
+      "sha256": "cd779fc36f89d68a708315586a15e78635cb9fa30b163619cf3eb57476c2075a"
+    },
+    "scripts/train_corrected_preview.py": {
+      "bytes": 2003,
+      "sha256": "deaad4e2363b6ba68039776ad33ec9d5b53a16e4e5e34176466dc2e8c21dca58"
+    },
+    "tests/test_structured_detector.py": {
+      "bytes": 2881,
+      "sha256": "630ceae2c98ec8f7e1ef1b12e99d10fd0201098361f58ab75adf9def4419253c"
+    }
+  },
+  "selected_model": {
+    "path": "reports/corrected_training_v16/preview/model.pt",
+    "bytes": 638954,
+    "sha256": "9d3caf0a1d5ffe32056b665c4cbbba4580f2ad06e533d9d9a00e75c984245146"
+  },
+  "reproduction": "Use source snapshots and exact launch commands under documented v14/v15/v16 groups; source code has no Git revision in this workspace",
+  "deletions": []
+}

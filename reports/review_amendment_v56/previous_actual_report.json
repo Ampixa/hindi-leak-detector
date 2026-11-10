@@ -1,0 +1,76 @@
+{
+  "created_utc": "2026-11-08T23:55:08.713425+00:00",
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "model_kind": "task_vowel_v30",
+  "cases_planned": 96,
+  "cases_scored": 86,
+  "user_picks_scored": 6,
+  "regressions": [
+    {
+      "id": "real_yt_yt01_005",
+      "source": "swar",
+      "word": "हैन",
+      "reported_pronunciation": "hain",
+      "label_source": "User native-listener report in this conversation",
+      "split": "development_regression",
+      "flagged": true,
+      "site_decisions": [
+        {
+          "kind": "vowel_quality",
+          "score": 0.776326596736908,
+          "decision": "strong_vowel_change",
+          "relative_margin": 0.20817223191261292
+        },
+        {
+          "kind": "vowel_deletion",
+          "score": 0.92039954662323,
+          "decision": "uncertain",
+          "relative_margin": -0.01508537121117115
+        }
+      ]
+    },
+    {
+      "id": "real_yt_yt01_008",
+      "source": "swar",
+      "word": "किनकि",
+      "reported_pronunciation": "kinki",
+      "label_source": "User native-listener report in this conversation",
+      "split": "development_regression",
+      "flagged": true,
+      "site_decisions": [
+        {
+          "kind": "vowel_deletion",
+          "score": 0.9958828687667847,
+          "decision": "strong_vowel_change",
+          "relative_margin": 0.36151665449142456
+        }
+      ]
+    }
+  ],
+  "regressions_passed": 2,
+  "promotion_checks": {
+    "known_user_regressions_passed": 2,
+    "known_user_regressions_total": 2,
+    "correct_same_word_kinaki030_unflagged": true
+  },
+  "word_decisions": {
+    "real/untested_site": 1121,
+    "real/uncertain": 65,
+    "real/no_strong_vowel_change": 182,
+    "swar/untested_site": 1121,
+    "swar/no_strong_vowel_change": 164,
+    "swar/uncertain": 63,
+    "a450/untested_site": 1121,
+    "a450/no_strong_vowel_change": 160,
+    "a450/strong_vowel_change": 11,
+    "a450/uncertain": 76,
+    "swar/strong_vowel_change": 20
+  },
+  "actual_hindi_error_accuracy": null,
+  "limits": [
+    "Two user examples are development regressions, not independent real-error accuracy.",
+    "Other flags remain candidates; same-text human references do not define all native varieties.",
+    "No flag does not prove correctness; unsupported sites and numeric transcripts abstain.",
+    "Pitch contours are diagnostic; Hindi-specific intonation accuracy is not established."
+  ]
+}

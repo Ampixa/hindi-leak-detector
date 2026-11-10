@@ -1,0 +1,84 @@
+{
+  "status": "complete_fresh_waveform_audit",
+  "created_utc": "2026-11-09T00:06:19.262530+00:00",
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "pairs": 46,
+  "word_families": 28,
+  "conditioning_groups": [
+    "S4259279700316061",
+    "S4259326600373607"
+  ],
+  "excluded_canonical_readings": 82,
+  "metrics": {
+    "release": {
+      "vowel_deletion": {
+        "n": 78,
+        "positive_labels": 39,
+        "negative_labels": 39,
+        "tp": 34,
+        "fp": 0,
+        "fn": 5,
+        "tn": 39,
+        "precision": 1.0,
+        "recall": 0.8717948717948718,
+        "false_positive_rate": 0.0,
+        "accuracy": 0.9358974358974359,
+        "balanced_accuracy": 0.9358974358974359,
+        "brier": 0.0641025641025641
+      },
+      "vowel_quality": {
+        "n": 14,
+        "positive_labels": 7,
+        "negative_labels": 7,
+        "tp": 4,
+        "fp": 0,
+        "fn": 3,
+        "tn": 7,
+        "precision": 1.0,
+        "recall": 0.5714285714285714,
+        "false_positive_rate": 0.0,
+        "accuracy": 0.7857142857142857,
+        "balanced_accuracy": 0.7857142857142857,
+        "brier": 0.21428571428571427
+      }
+    },
+    "legacy_v19": {
+      "vowel_deletion": {
+        "n": 78,
+        "positive_labels": 39,
+        "negative_labels": 39,
+        "tp": 29,
+        "fp": 0,
+        "fn": 10,
+        "tn": 39,
+        "precision": 1.0,
+        "recall": 0.7435897435897436,
+        "false_positive_rate": 0.0,
+        "accuracy": 0.8717948717948718,
+        "balanced_accuracy": 0.8717948717948718,
+        "brier": 0.1282051282051282
+      },
+      "vowel_quality": {
+        "n": 14,
+        "positive_labels": 7,
+        "negative_labels": 7,
+        "tp": 6,
+        "fp": 0,
+        "fn": 1,
+        "tn": 7,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "false_positive_rate": 0.0,
+        "accuracy": 0.9285714285714286,
+        "balanced_accuracy": 0.9285714285714286,
+        "brier": 0.07142857142857142
+      }
+    }
+  },
+  "actual_hindi_error_accuracy": null,
+  "limits": [
+    "Known waveform nucleus edits establish controlled-change truth, not real Hindi-error truth or fluent pronunciation.",
+    "Source/donor selection uses both phone probes and favors clearly observed nuclei; results do not cover weak/unrepresentable cases.",
+    "New words/conditioning groups/carrier are held out, but same-voice sham/control comparison is easier than generated-reference deployment."
+  ]
+}

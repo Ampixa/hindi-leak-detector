@@ -1,0 +1,17 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "created_utc": "2026-11-07T08:46:09.580927+00:00",
+  "owner": "Ampixa/user",
+  "status": "reference",
+  "next_review": "2026-11-14",
+  "incident": "First converter initialization failed before any audio generation: omitted transitive openvoice.transforms module",
+  "resolution": "Acquire the pinned source local-import closure with verified Git blobs; all existing model/source files reverified, no weight replacement",
+  "deleted": [
+    {
+      "path": "/Volumes/T9/hindi-detector/reports/voice_controls_v3/source_snapshot.json",
+      "bytes": 35480,
+      "sha256": "f486a81a1066a0422df62b618dd7214ee2a474bce08e86f77c088e47add1be52",
+      "reason": "Exact duplicate of current experiment source; failed before audio, retry recreates identical snapshot"
+    }
+  ]
+}

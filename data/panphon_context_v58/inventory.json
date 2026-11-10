@@ -1,0 +1,55 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "created_utc": "2026-11-09T03:21:17.838415+00:00",
+  "original_host": "cdjk",
+  "original_path": "/Users/cdjk/github/hindi-detector/data/panphon_context_v58",
+  "repository": "https://github.com/dmort27/panphon",
+  "revision": "a49c242d3307864312a2701055faefa4e548501c",
+  "purpose": "Research-only explicit unknown nonsyllabic consonant contexts; no assertion of phoneme identity/equivalence.",
+  "rows": 6367,
+  "columns": [
+    "ipa",
+    "syl",
+    "son",
+    "cons",
+    "cont",
+    "delrel",
+    "lat",
+    "nas",
+    "strid",
+    "voi",
+    "sg",
+    "cg",
+    "ant",
+    "cor",
+    "distr",
+    "lab",
+    "hi",
+    "lo",
+    "back",
+    "round",
+    "velaric",
+    "tense",
+    "long",
+    "hitone",
+    "hireg"
+  ],
+  "licence": "Upstream LICENSE.txt retained verbatim; MIT-style permission terms verified",
+  "not_on_HF": true,
+  "next_review": "2026-11-10",
+  "files": [
+    {
+      "path": "ipa_all.csv",
+      "url": "https://raw.githubusercontent.com/dmort27/panphon/a49c242d3307864312a2701055faefa4e548501c/panphon/data/ipa_all.csv",
+      "bytes": 356894,
+      "sha256": "0ec0052edf4e58c8c23eda10c0195687eb167ce9bd206cf9a85b9cce8b181f0a"
+    },
+    {
+      "path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/dmort27/panphon/a49c242d3307864312a2701055faefa4e548501c/LICENSE.txt",
+      "bytes": 1070,
+      "sha256": "3b1fb30693f359509d028738dd6d19b131256a125604e9021a6512f098445523"
+    }
+  ]
+}

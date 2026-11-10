@@ -1,0 +1,49 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "created_utc": "2026-11-06T15:37:33.341817+00:00",
+  "owner": "Ampixa/user",
+  "origin_host": "cdjk and k2",
+  "origin_path": "/Volumes/T9/hindi-detector",
+  "status": "active",
+  "purpose": "Restore requested private Tailscale access to actual native annotation forms after k2 reboot",
+  "current_consumer": "User listening and human annotation",
+  "next_review": "2026-11-13",
+  "hf_upload": false,
+  "services": [
+    {
+      "name": "development_review",
+      "backend_pid": 2734,
+      "backend": "127.0.0.1:8769",
+      "tailscale_url": "http://100.80.123.8:8769/",
+      "clips": 64
+    },
+    {
+      "name": "review_server",
+      "backend_pid": 2736,
+      "backend": "127.0.0.1:8768",
+      "tailscale_url": "http://100.80.123.8:8768/",
+      "clips": 96
+    }
+  ],
+  "verified_from": "cdjk over Tailscale IP, not SSH loopback tunnel",
+  "checks": [
+    "HTML loads",
+    "Expected API clip counts",
+    "First WAV RIFF/WAVE bytes received on each form",
+    "Same-origin empty POST refused with unknown clip ID; no synthetic human label submitted"
+  ],
+  "tailscale_config": "Private background TCP forwarders on ports 8768 and 8769. Existing unrelated Serve/Funnel handlers preserved. No Funnel enabled on either review port.",
+  "incident": "Both backends absent after k2 reboot; uptime was 22 minutes on inspection. Earlier localhost tunnels also absent.",
+  "persistence_limit": "Tailscale Serve mappings persist. Backends are detached processes and need restart after another reboot; no automatic boot job was installed.",
+  "restart": [
+    "cd /Volumes/T9/hindi-detector",
+    "PYTHONDONTWRITEBYTECODE=1 /Users/k2/madhyam/pocket-tts/.venv/bin/python -m scripts.start_review --port 8769 --pack data/development_v1 --labels annotations/development_labels.jsonl --name development_review",
+    "PYTHONDONTWRITEBYTECODE=1 /Users/k2/madhyam/pocket-tts/.venv/bin/python -m scripts.start_review --port 8768 --pack data/indicf5_audio8_v1 --labels annotations/labels.jsonl --name review_server"
+  ],
+  "restore_private_forwarders": [
+    "/opt/homebrew/opt/tailscale/bin/tailscale serve --bg --tcp=8769 tcp://127.0.0.1:8769",
+    "/opt/homebrew/opt/tailscale/bin/tailscale serve --bg --tcp=8768 tcp://127.0.0.1:8768"
+  ],
+  "deletion_condition": "When annotation ends, stop the task-owned processes after checking active use, disable only these two TCP forwarders with tailscale serve --tcp=<port> off, and delete runtime logs within 24 hours. Retain irreplaceable human labels.",
+  "local_free_bytes": 24931233792
+}

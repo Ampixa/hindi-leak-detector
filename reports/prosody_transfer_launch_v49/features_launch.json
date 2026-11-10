@@ -1,0 +1,18 @@
+{
+  "pid": 47188,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-u",
+    "-m",
+    "scripts.extract_rendered_vowels",
+    "--plan",
+    "/Volumes/T9/hindi-detector/data/prosody_transfer_v49",
+    "--controller",
+    "/Volumes/T9/hindi-detector/reports/prosody_native_donor_synthesis_v49",
+    "--namespace",
+    "prosody_transfer_v49",
+    "--out",
+    "/Volumes/T9/hindi-detector/reports/prosody_native_donor_features_v49"
+  ],
+  "created_utc": "2026-11-09T02:33:32.425260+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "observed_utc": "2026-11-07T14:40:42.063451+00:00",
+  "local_free_bytes": 50912391168,
+  "k2": {
+    "worker_pid": 54496,
+    "live_worker_command": "54496 /Volumes/T9/hindi-detector/.venv-indicf5/bin/python -m scripts.verify_original_human_audio --out /Volumes/T9/hindi-detector/data/human_original_audio_v6 --max-row-groups 400 --resume",
+    "process_returncode": 0,
+    "original_recordings_recovered": 11,
+    "byte_identical_staged_reconstructions": 11,
+    "failure_present": false,
+    "t9_free_bytes": 268507418624,
+    "retained_original_payload_bytes": 22170548
+  },
+  "gpu_task_owned_inputs_removed_bytes": 1701244656,
+  "retained_model_consumers": {
+    "indicf5": "matched TTS baseline and reproducible generation",
+    "mms_fa": "current human/TTS word alignment",
+    "phoneme_probe": "current dual-G2P acoustic measurements",
+    "pocket_hindi_parent": "matched same-architecture baseline",
+    "openvoice_v2": "limited voice-preservation controls for this detector; review by 2026-11-14"
+  },
+  "shared_corpus_and_other_workloads_untouched": true
+}

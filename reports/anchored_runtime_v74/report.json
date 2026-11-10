@@ -1,0 +1,15 @@
+{
+  "status": "complete_post_utterance_runtime_benchmark",
+  "model_sha256": "cd912af1fcf474a4aecbf2654e62185bf8d44623d48e90c72967512a3f25ef51",
+  "cold_initialization_seconds": 6.697870917007094,
+  "completed_utterances": 8,
+  "processing_seconds_median": 0.6309400415048003,
+  "processing_seconds_p95": 0.7743189420973067,
+  "real_time_factor_median": 0.08912822483806312,
+  "real_time_factor_p95": 0.13291141995777123,
+  "streaming": false,
+  "actual_hindi_error_accuracy": null,
+  "production_changed": false,
+  "includes": "Cold initialization hashes and loads all three encoders. Per-utterance timing includes alignment, both phone encoders, existing prosody extraction, G2P and local CTC/head; excludes file read/resampling. First utterance may include warmup. No network/upload time.",
+  "items_sha256": "3f40c96396cec5ae158aafc5185169c6cddf04065a021625a33553165eb03519"
+}

@@ -1,0 +1,9 @@
+{
+  "clip_id": "cf7_6d4573a167113a5bb6d463b8",
+  "audio_sha256": "c5e1e724eb2c091b24a9c117ffec1f1292ec235a8e965aab2cc1e097f3c3b18a",
+  "direct_cached_score_differences": {
+    "ctc_site": 4.85722573273506e-17,
+    "pooled_phone": 0.0
+  },
+  "actual_hindi_accuracy": null
+}

@@ -1,0 +1,8 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "model": "reports/task_vowel_release_v31",
+  "review": "http://100.80.123.8:8770/swar",
+  "status": "active_candidate_validation",
+  "larger_quality_audit_running": "reports/quality_audit_launch_v38"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "old_global_head_runtime_compatibility_failed",
+  "scope": "Old global v1 head applied in new word-analysis runtime",
+  "comparisons": [
+    {
+      "clip_id": "aa03252c11ff6089a4c2ec9e",
+      "cached_feature_score": 0.07066831617999614,
+      "new_runtime_original_score": 0.9999926119335687
+    },
+    {
+      "clip_id": "f37935a9d9b8dfb35669ccf8",
+      "cached_feature_score": 0.9536895686125116,
+      "new_runtime_original_score": 0.9999989124436448
+    },
+    {
+      "clip_id": "b174e8ae8d47d8da4f3d9349",
+      "cached_feature_score": 0.9956683571261005,
+      "new_runtime_original_score": 0.9999999988521999
+    }
+  ],
+  "decision": "Exclude old_global_model fields of voice_controls_v3/report.json from voice sensitivity conclusions. Word branches used the same word runtime for training and controls.",
+  "root_cause": "Not established; different runtime and original benchmark extractor bytes unavailable.",
+  "qualified_controls": 4,
+  "qualified_actual_voice_swaps": 2
+}

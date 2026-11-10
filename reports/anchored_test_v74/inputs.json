@@ -1,0 +1,9 @@
+{
+  "model": "/Volumes/T9/hindi-detector/reports/anchored_training_v71/model.pt",
+  "model_sha256": "cd912af1fcf474a4aecbf2654e62185bf8d44623d48e90c72967512a3f25ef51",
+  "external_freeze_sha256": "c863ee8e8621e9aecb1bd452f9669f83f6632a5816cfb9ad03239c35b9dac99d",
+  "test_items_sha256": "de158f000b164688c6788c2447e2140aabef378ba83b6ea257a030e63537541a",
+  "source_content_sha256": "579a91306f14dac37a4da1e1f56e2f701da1a7f016feef32bed7e2fa515eb60c",
+  "unfiltered_requests_sha256": "f7eba5572fd94ec59fe7bdb067713cc8880256b31b16ac09a9652a5c990d9472",
+  "script_sha256": "dbb63652220a4be045853e779432abf11d20ff232615fdb63692d0604fe6f2e1"
+}

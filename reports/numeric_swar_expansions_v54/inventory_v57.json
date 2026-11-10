@@ -1,0 +1,325 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "host": "k2",
+  "original_path": "/Volumes/T9/hindi-detector/reports/numeric_swar_expansions_v54",
+  "created_utc": "2026-11-09T03:08:21.541271+00:00",
+  "last_review_utc": "2026-11-09T03:08:21.541271+00:00",
+  "next_review": "2026-11-10",
+  "not_on_HF": true,
+  "retention": "Compact admission/rollback/source pins retained for active Hindi-detector goal. Completed raw control WAVs/redundant frames disposable24h after consumer closes; no blind deletion. Source-model rights/MMS research restrictions inherited.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2638,
+      "sha256": "eacaed8ba243f25f1add0ed39e4fcb1936deabb029e68982f9eeb5c68348b8bc",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "completed.json",
+      "bytes": 3145,
+      "sha256": "609b5991dea75afc604c6541c54427dec889e2e04625b963aa8fe3920d2bac76",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "inputs.json",
+      "bytes": 278,
+      "sha256": "63c5b1e0ad85c1cfb996284c2975ff6a7d325cbdac57b18dea3dc61e35efbb8e",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 4187,
+      "sha256": "8d7b1728a670309bc0b56ef220998c96469fae5a656f5b537fb29474371439a5",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt08_060/real/README.md",
+      "bytes": 1992,
+      "sha256": "8e619071f9f96f98b85a816f1a6be513ec332a62ff52422e579381be0614f308",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt08_060/real/result.json",
+      "bytes": 482269,
+      "sha256": "8ebe8f9de59eeca89d03f1acddd31a98455b27b654d01fb748fe0a0c7c09414a",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt08_060/real/source_snapshot.json",
+      "bytes": 36965,
+      "sha256": "d6c6db4d54cfc76eb92ad95d5f57854a35942b0c668763ba85f52063b7ce2f0b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt08_060/swar/README.md",
+      "bytes": 1992,
+      "sha256": "92617449191256ffcb575a54d3d08da36a39e6b7964c39ef1165e9a3c9753add",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt08_060/swar/result.json",
+      "bytes": 532781,
+      "sha256": "c76a90ce64038c597c71953d874588407650dcb5140f402a309993daf140679c",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt08_060/swar/source_snapshot.json",
+      "bytes": 36965,
+      "sha256": "d6c6db4d54cfc76eb92ad95d5f57854a35942b0c668763ba85f52063b7ce2f0b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt08_060_real.log",
+      "bytes": 1219,
+      "sha256": "f313770335aa53646e6259befe2432b540ed23756beddd8403fb5d0911712b90",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt08_060_swar.log",
+      "bytes": 1219,
+      "sha256": "f313770335aa53646e6259befe2432b540ed23756beddd8403fb5d0911712b90",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt09_069/a450/README.md",
+      "bytes": 1992,
+      "sha256": "f39e04b5881e16184666f39b76ceeba7801d972e9ea70769863d5c37140094c7",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt09_069/a450/result.json",
+      "bytes": 399557,
+      "sha256": "6073487aaa082dbce8cc43f49e0cfa35fce7c9f7cba6a0b2beb0df2bf80e2516",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt09_069/a450/source_snapshot.json",
+      "bytes": 36965,
+      "sha256": "d6c6db4d54cfc76eb92ad95d5f57854a35942b0c668763ba85f52063b7ce2f0b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt09_069/real/README.md",
+      "bytes": 1992,
+      "sha256": "1bafa4e48439ed0896b9c4152449442ea027a6f38f41323192600b68ad3edc7b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt09_069/real/result.json",
+      "bytes": 374499,
+      "sha256": "24179b23f3a4c144d9835c6d952f8444872ce186e64eb3d9b187bf72eda841f1",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt09_069/real/source_snapshot.json",
+      "bytes": 36965,
+      "sha256": "d6c6db4d54cfc76eb92ad95d5f57854a35942b0c668763ba85f52063b7ce2f0b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt09_069/swar/README.md",
+      "bytes": 1992,
+      "sha256": "6967f17920e6f21deeae3f8777de14e044afe6cd82cc44052a827453940bb608",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt09_069/swar/result.json",
+      "bytes": 407843,
+      "sha256": "83509e51d3beaa10106266a7be15f1c564b2ff3045b97e74916dfeb2d12321d3",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt09_069/swar/source_snapshot.json",
+      "bytes": 36965,
+      "sha256": "d6c6db4d54cfc76eb92ad95d5f57854a35942b0c668763ba85f52063b7ce2f0b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt09_069_a450.log",
+      "bytes": 1659,
+      "sha256": "1a0c9d10f158b00a1af515489fe0230c4178633ff887857ecc1906367fd5dd94",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt09_069_real.log",
+      "bytes": 1659,
+      "sha256": "1a0c9d10f158b00a1af515489fe0230c4178633ff887857ecc1906367fd5dd94",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt09_069_swar.log",
+      "bytes": 1676,
+      "sha256": "16c84eea7c61b4b7a203e0a6cb15dc5c441ede52271f2372858b473a964814d2",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt10_073/a450/README.md",
+      "bytes": 1992,
+      "sha256": "f3617099b4fc4c5f240c5fd63b5098a30c3c97f4b6bf11d7a39636decff2e71a",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt10_073/a450/result.json",
+      "bytes": 101640,
+      "sha256": "ed8d956c891b4551c7c76c7bc0544c2aefa8981e91f22814e4f7280e45a78671",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt10_073/a450/source_snapshot.json",
+      "bytes": 36965,
+      "sha256": "d6c6db4d54cfc76eb92ad95d5f57854a35942b0c668763ba85f52063b7ce2f0b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt10_073/real/README.md",
+      "bytes": 1992,
+      "sha256": "1b8134bc5d213c44b86b351335a314545e17eb70e5b98b56e6256d102d160714",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt10_073/real/result.json",
+      "bytes": 102690,
+      "sha256": "6967beecee1312dc2aeb930b0fbb5d5d819682cf699db238208cba0f7277fd1f",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt10_073/real/source_snapshot.json",
+      "bytes": 36965,
+      "sha256": "d6c6db4d54cfc76eb92ad95d5f57854a35942b0c668763ba85f52063b7ce2f0b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt10_073/swar/README.md",
+      "bytes": 1992,
+      "sha256": "49928e84981844ba85315d6843112eccfe62784aee2cc385a08c761fbefb4d79",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt10_073/swar/result.json",
+      "bytes": 115897,
+      "sha256": "f84840da2584975c9565e421cbfcdb62a2cf1f4cce4bf5b48b21323e558352bd",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt10_073/swar/source_snapshot.json",
+      "bytes": 36965,
+      "sha256": "d6c6db4d54cfc76eb92ad95d5f57854a35942b0c668763ba85f52063b7ce2f0b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt10_073_a450.log",
+      "bytes": 1215,
+      "sha256": "25d813d00bfc9c61d3ccbeb1996ff34dfaca766b9c0f16565c3f874831596524",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt10_073_real.log",
+      "bytes": 1215,
+      "sha256": "25d813d00bfc9c61d3ccbeb1996ff34dfaca766b9c0f16565c3f874831596524",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt10_073_swar.log",
+      "bytes": 1215,
+      "sha256": "25d813d00bfc9c61d3ccbeb1996ff34dfaca766b9c0f16565c3f874831596524",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt12_092/a450/README.md",
+      "bytes": 1992,
+      "sha256": "7c23fc648fe57f53660ef0d4f167c7814f56ba9853f6718161e377483e32700d",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt12_092/a450/result.json",
+      "bytes": 316505,
+      "sha256": "6eed25d81bc31ceebdc23db8bc21bd6de224c4cc061d9c13ecac51aaf5531584",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt12_092/a450/source_snapshot.json",
+      "bytes": 36965,
+      "sha256": "d6c6db4d54cfc76eb92ad95d5f57854a35942b0c668763ba85f52063b7ce2f0b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt12_092/real/README.md",
+      "bytes": 1992,
+      "sha256": "37e493390d7592048ff58a69308434bb72b696f72f5bab19d05f7564a147c383",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt12_092/real/result.json",
+      "bytes": 301224,
+      "sha256": "a62dbcda413b241b87338d5a711bafa59bc494f43da4451deca0b07e812e7e2e",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt12_092/real/source_snapshot.json",
+      "bytes": 36965,
+      "sha256": "d6c6db4d54cfc76eb92ad95d5f57854a35942b0c668763ba85f52063b7ce2f0b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt12_092/swar/README.md",
+      "bytes": 1992,
+      "sha256": "5a653a3281c764ab06048c3ec7f932608df65c436511a9259da6f50790846873",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt12_092/swar/result.json",
+      "bytes": 320151,
+      "sha256": "f300a1df83c2224fe8daf92287b70b2276c786397684e87bac48dbf049c82ff8",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt12_092/swar/source_snapshot.json",
+      "bytes": 36965,
+      "sha256": "d6c6db4d54cfc76eb92ad95d5f57854a35942b0c668763ba85f52063b7ce2f0b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt12_092_a450.log",
+      "bytes": 1259,
+      "sha256": "717f2a6f32db9e206442754610f98b910a8306594da1e90674dcff80ead12d00",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt12_092_real.log",
+      "bytes": 1259,
+      "sha256": "717f2a6f32db9e206442754610f98b910a8306594da1e90674dcff80ead12d00",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "real_yt_yt12_092_swar.log",
+      "bytes": 1259,
+      "sha256": "717f2a6f32db9e206442754610f98b910a8306594da1e90674dcff80ead12d00",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "source_snapshot.json",
+      "bytes": 7784,
+      "sha256": "96ea9c8fc1e7d45f196d9b395727b6331997087f65c9569cd331e3836d52dc25",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "status.json",
+      "bytes": 3145,
+      "sha256": "609b5991dea75afc604c6541c54427dec889e2e04625b963aa8fe3920d2bac76",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "teacher_check.log",
+      "bytes": 3676,
+      "sha256": "2b7864a05c947d8e7c80a013c7e199157c7cbeaa021f0aa63098478f46767e9e",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "teacher_check_launch.json",
+      "bytes": 894,
+      "sha256": "3c3902e2bf527dee26e914caa1803a576cfa6d52b0150f9c34b7214a711e3a0c",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    }
+  ]
+}

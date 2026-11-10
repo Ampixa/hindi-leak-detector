@@ -1,0 +1,22 @@
+{
+  "k2": {
+    "authored_sources_verified": 117,
+    "live_pid": 77637,
+    "status": {
+      "status": "applying_fixed_components_to_real_words",
+      "processed_clips": 100,
+      "planned_clips": 1928,
+      "failed_clips": 0,
+      "updated_utc": "2026-11-07T15:57:12.394096+00:00"
+    },
+    "free_bytes": 270973054976,
+    "experiment_bytes": 517852
+  },
+  "local_free_bytes": 50939740160,
+  "software_tests_passed": 81,
+  "real_word_smoke_clips": 5,
+  "real_word_smoke_word_occurrences": 3,
+  "smoke_failures": 0,
+  "cleanup": "No artifact deletion: active full-run consumer; retained compact smoke evidence.",
+  "actual_hindi_accuracy": null
+}

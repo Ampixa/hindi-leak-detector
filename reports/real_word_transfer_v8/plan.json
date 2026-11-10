@@ -1,0 +1,49 @@
+{
+  "models_sha256": "254aecc9ace68ac3ae7e25b8fdb313beb0454a0f4b0e219e829ddf968fa57c45",
+  "candidates_sha256": "21b800f37eb29b0c901063ca34dad587ae54abf3b5e0c5ecee8b6bf282945975",
+  "sources": [
+    {
+      "source": "matrix_indicf5",
+      "pack_selection_sha256": "c450d7fce0cd96c578edbf13f4e43b1bf2586c0e955b3015692f6cecd4c26942",
+      "evidence_manifest_sha256": "ec6c8538ecd4d9974acf6d3c54e78da19b4bb78acedf9813958085a0745126e8",
+      "pack": "data/wordmatrix_v3",
+      "evidence": "reports/wordlab_matrix_f5_v3",
+      "target_policy": "focus"
+    },
+    {
+      "source": "matrix_pocket",
+      "pack_selection_sha256": "c5d9749c2babde94610e2f928525f43783e54ea6d3e42b8786e7245941a05f2e",
+      "evidence_manifest_sha256": "d5a7dabcb8e738018a78c62aec7d4176db8241e468fe79ecc665a91bdde69425",
+      "pack": "data/pocket_wordmatrix_v4",
+      "evidence": "reports/wordlab_pocket_matrix_v4",
+      "target_policy": "focus"
+    },
+    {
+      "source": "regional_humans",
+      "pack_selection_sha256": "f1a1be6d2db7e27ae90b75f5cd5d90210a46b2486b7681225708585e2682794d",
+      "evidence_manifest_sha256": "6dc0a55b1a04baafc05900d0888d59e451c7a3d663e00561502e19e6221fc792",
+      "pack": "data/human_g2p_bank_v5",
+      "evidence": "reports/human_g2p_evidence_v5",
+      "target_policy": "selected_words"
+    },
+    {
+      "source": "original_benchmark",
+      "pack_selection_sha256": "b86eb9c4893ba8852d5c35513ca8a2e45c6fbb2e87eee0696457d229ff776f06",
+      "evidence_manifest_sha256": "61c01a6725585f4a8e77ce64924b5d279d5a79402b2502aa7500da196cbe9ba5",
+      "pack": "data/indicf5_audio8_v1",
+      "evidence": "reports/wordlab_test_v3",
+      "target_policy": "all_candidate_words"
+    },
+    {
+      "source": "native_challenge",
+      "pack_selection_sha256": "3fa4a293eff061bc285124bc7b74b3c46fd1d73a56f54c957a4f46951774ebeb",
+      "evidence_manifest_sha256": "4aa132ddeef20c92a0ab6f0a4b72cb9533ae9a308fb1d38c8979a9682145c178",
+      "pack": "data/pocket_native_challenge_v4",
+      "evidence": "reports/wordlab_pocket_native_v4",
+      "target_policy": "all_candidate_words"
+    }
+  ],
+  "clips": 1928,
+  "max_clips_per_source": null,
+  "candidate_word_occurrences": 1844
+}

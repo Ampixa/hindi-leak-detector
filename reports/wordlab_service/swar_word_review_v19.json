@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-11-08T21:17:12.077249+00:00",
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "old_pid": 16502,
+  "new_pid": 17597,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-m",
+    "hindi_detector.wordlab_server",
+    "--pack",
+    "data/indicf5_audio8_v1",
+    "--pack",
+    "data/pocket_architecture_probe_v3",
+    "--pack",
+    "data/human_g2p_bank_v5",
+    "--pack",
+    "data/wordmatrix_v3",
+    "--pack",
+    "data/pocket_wordmatrix_v4",
+    "--page",
+    "review/wordlab.html",
+    "--data",
+    "review/human_word_data_v8",
+    "--port",
+    "8770"
+  ],
+  "files": {
+    "hindi_detector/wordlab_server.py": "e0b6fd465854e7d255eb5bd8b0df75981432dfb8a43d42343ba315067730152a",
+    "review/swar-words.html": "65db0d087aa71d1776ab7791ebb8313a7057e73b6c9fd3a7ca28488ec9ee411a"
+  },
+  "purpose": "Private actual Swar word results, no original site or annotation edits",
+  "next_review": "2026-11-09"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "pilot_complete_two_exact_staged_reconstructions",
+  "original_recordings_recovered": 2,
+  "selected_recordings": 232,
+  "byte_identical_staged_reconstructions": 2,
+  "source_channels": 2,
+  "source_sample_rate": 48000,
+  "measured_staging_delay_samples_at_24khz": [
+    256,
+    256
+  ],
+  "historical_executed_revision_known": false,
+  "native_acceptability_accuracy": null,
+  "hindi_leakage_accuracy": null,
+  "updated_utc": "2026-11-07T14:35:32.262855+00:00",
+  "limits": [
+    "Only these two originals are verified, not the remaining 230.",
+    "Byte-identical replay establishes source-to-staging correspondence for these clips, not native acceptability.",
+    "The strict mono failure is retained as resolved setup evidence; original two-channel payloads remain unchanged."
+  ]
+}

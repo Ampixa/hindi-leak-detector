@@ -1,0 +1,26 @@
+{
+  "reviewed_utc": "2026-11-09T14:55:19.990717+00:00",
+  "scope": "Actual local compact members; original large data remains k2.",
+  "files": [
+    {
+      "path": "files.json",
+      "bytes": 511,
+      "sha256": "e0f22578398d909181b4c6349ab6013137f60023c5e0633893b5b10f8d3dd166"
+    },
+    {
+      "path": "inputs.json",
+      "bytes": 1485,
+      "sha256": "4095d5ad3a95dbb38f8e6d3d407be0231ed4c67f58ecd41c445f7ae579cc8586"
+    },
+    {
+      "path": "items.jsonl",
+      "bytes": 6653,
+      "sha256": "29a247e168b5e0b8c2c1d312cb6a880d27e4caea627ade4c677297d79f74cf52"
+    },
+    {
+      "path": "report.json",
+      "bytes": 369,
+      "sha256": "eb307777f9bb0a4b34ac40fd282de84ac6d600e83ed4f6921ecb09284a6e8685"
+    }
+  ]
+}

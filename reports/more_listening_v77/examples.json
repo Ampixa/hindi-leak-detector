@@ -1,0 +1,198 @@
+[
+  {
+    "id": "real_yt_yt04_032",
+    "word_ordinal": 14,
+    "word": "हुनलाई",
+    "text": "खाने हुन् हामीले ब्रान्डिङ गरेको यसरी गको सिमी खाने हुन् हो अब त्यहाँ इनोभेटिभ हुनलाई अब यस्तो छ नि त हजुरबुवा बाबाहरुले",
+    "status": "user_confirmed",
+    "human_error_label": 1,
+    "readings": {
+      "swar": {
+        "start": 3.8246871165644167,
+        "end": 4.185128834355828,
+        "audio_sha256": "50fecc6efa3f54a67ef93a04be8f2ceec55df0d2dc64f7a92173407b732d3f28"
+      },
+      "real": {
+        "start": 5.413533834586466,
+        "end": 5.774436090225564,
+        "audio_sha256": "a8c99afa1c713a013a9ea7a506b547dd444195476bbb26c0c940f8d6e20643a1"
+      }
+    },
+    "sites": [
+      {
+        "site": {
+          "kind": "vowel_deletion",
+          "index": 3,
+          "expected": "ʌ",
+          "alternative": null
+        },
+        "native_phones": [
+          "h",
+          "u",
+          "n",
+          "ax",
+          "l",
+          "aaj"
+        ],
+        "native_ipa_sequence": [
+          "ɦ",
+          "u",
+          "n",
+          "ʌ",
+          "l",
+          "ai̯"
+        ],
+        "teacher_reference_support": {
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2
+        },
+        "observed_human_variation": {
+          "status": "not_observed_in_limited_bank",
+          "cases": [],
+          "source_groups": 0,
+          "human_error_label": null,
+          "used_for_prediction": false,
+          "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+        }
+      }
+    ],
+    "link": "http://100.80.123.8:8770/swar#case=real_yt_yt04_032&word=14",
+    "confirmation_source": "reports/listener_confirmations_v79/feedback.json",
+    "confirmation_recorded_utc": "2026-11-09T08:45:34.148513+00:00",
+    "used_for_training": false,
+    "independent_test": false
+  },
+  {
+    "id": "real_yt_yt07_053",
+    "word_ordinal": 14,
+    "word": "चलाउनको",
+    "text": "खाकिने काम सुन्छ नि कुनै बेला घरमा कल भयो भने घर मात्र हामीले घर चलाउनको लागि मात्र चलाइर हुन्छ।",
+    "status": "user_confirmed",
+    "human_error_label": 1,
+    "readings": {
+      "swar": {
+        "start": 4.008304498269896,
+        "end": 4.449217993079585,
+        "audio_sha256": "d57ae415208597206b091b53d2202ff527bddc96ad1e107ca8601fa15a45cefb"
+      },
+      "real": {
+        "start": 3.814022140221402,
+        "end": 4.135202952029521,
+        "audio_sha256": "691e1ee665d187e2e9190dd72e320951dea2892b244aba4412a199a7ea1e95ff"
+      }
+    },
+    "sites": [
+      {
+        "site": {
+          "kind": "vowel_deletion",
+          "index": 5,
+          "expected": "ʌ",
+          "alternative": null
+        },
+        "native_phones": [
+          "ts",
+          "ax",
+          "l",
+          "aaw",
+          "n",
+          "ax",
+          "k",
+          "o"
+        ],
+        "native_ipa_sequence": [
+          "t͡s",
+          "ʌ",
+          "l",
+          "au̯",
+          "n",
+          "ʌ",
+          "k",
+          "o"
+        ],
+        "teacher_reference_support": {
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2
+        },
+        "observed_human_variation": {
+          "status": "not_observed_in_limited_bank",
+          "cases": [],
+          "source_groups": 0,
+          "human_error_label": null,
+          "used_for_prediction": false,
+          "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+        }
+      }
+    ],
+    "link": "http://100.80.123.8:8770/swar#case=real_yt_yt07_053&word=14",
+    "confirmation_source": "reports/listener_confirmations_v79/feedback.json",
+    "confirmation_recorded_utc": "2026-11-09T08:45:34.148513+00:00",
+    "used_for_training": false,
+    "independent_test": false
+  },
+  {
+    "id": "real_yt_yt12_089",
+    "word_ordinal": 7,
+    "word": "नगरौ",
+    "text": "यो र सिस्टम बाहिर र प्रणाली बाहिर नगरौ भनेर म सम्पूर्ण नया इन्टरप्रेनर र पुराना साथीहरुलाई पनि अनुरोध गर्न चाहन्छु र",
+    "status": "user_confirmed",
+    "human_error_label": 1,
+    "readings": {
+      "swar": {
+        "start": 2.3670493506493506,
+        "end": 2.627825974025974,
+        "audio_sha256": "33e33c00ce4b762fa1a1c52dc1b5a728f8824cdda8e0e391575db232aa60c06c"
+      },
+      "real": {
+        "start": 1.8643691275167784,
+        "end": 2.265308724832215,
+        "audio_sha256": "539269e7e1e51fce04ad60c24a84d1e07473ec27370c4381239af0be5290f2df"
+      }
+    },
+    "sites": [
+      {
+        "site": {
+          "kind": "vowel_deletion",
+          "index": 3,
+          "expected": "ʌ",
+          "alternative": null
+        },
+        "native_phones": [
+          "n",
+          "ax",
+          "g",
+          "ax",
+          "r",
+          "axw"
+        ],
+        "native_ipa_sequence": [
+          "n",
+          "ʌ",
+          "ɡ",
+          "ʌ",
+          "r",
+          "ʌu̯"
+        ],
+        "teacher_reference_support": {
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2
+        },
+        "observed_human_variation": {
+          "status": "not_observed_in_limited_bank",
+          "cases": [],
+          "source_groups": 0,
+          "human_error_label": null,
+          "used_for_prediction": false,
+          "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+        }
+      }
+    ],
+    "link": "http://100.80.123.8:8770/swar#case=real_yt_yt12_089&word=7",
+    "confirmation_source": "reports/listener_confirmations_v79/feedback.json",
+    "confirmation_recorded_utc": "2026-11-09T08:45:34.148513+00:00",
+    "used_for_training": false,
+    "independent_test": false
+  }
+]

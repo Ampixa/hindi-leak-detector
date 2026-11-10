@@ -1,0 +1,121 @@
+{
+  "schema": "research_preview_plan_v1",
+  "created_utc": "2026-11-09T06:18:12.318963+00:00",
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "target_date": "2026-11-10",
+  "timezone": "Asia/Kathmandu",
+  "status": "proposed_work_plan_not_executed",
+  "training_goal_status": "paused",
+  "new_training_jobs_started_in_this_planning_pass": false,
+  "release_scope": "Word-level Hindi-compatible pronunciation leakage in Nepali TTS: vowel deletion and supported vowel-quality contrasts.",
+  "main_success": "Find additional localized errors beyond the original examples and account for false flags.",
+  "steps": [
+    {
+      "order": 1,
+      "effort": "0–2 hours",
+      "title": "Freeze the release question and baseline",
+      "work": "Target localized missing vowels and supported vowel-quality changes in Nepali TTS. Preserve the current working model and all three confirmed examples as regressions. Prosody stays a diagnostic view. Keep one challenger.",
+      "deliverable": "Pinned baseline, target definitions, and separate discovery / development / new-test manifests.",
+      "pass": "Existing confirmed cases still work; every result identifies word, interval, cause, and uncertainty."
+    },
+    {
+      "order": 2,
+      "effort": "2–8 hours",
+      "title": "Fix the measurement, then test the new head",
+      "work": "Check ownership of the focal vowel between its intended consonants. A strong neighboring vowel must not count as evidence at the target. Test the frozen query-only candidate against the reference-conditioned baseline. Expand qualified training with matched same-voice edits and no-change controls.",
+      "deliverable": "Aim for at least300 qualified training pairs and a fresh test of100 full-vowel deletion / no-change pairs across new word families and conditioning voices. Targets are planned, not achieved counts.",
+      "pass": "Use the same new test for both frozen models. Challenger promotion target: at least80/100 deletions detected and at most2/100 no-change flags; report grouped uncertainty, exclusions and abstentions. Retain baseline if it fails. Physical-edit performance is not real Hindi-error accuracy."
+    },
+    {
+      "order": 3,
+      "effort": "8–14 hours",
+      "title": "Find additional real TTS cases",
+      "work": "Search new recordings or newly synthesized sentences, using Native/Hindi G2P disagreement to select sites. Compare original speech, Swar and two approved24-layer Native teacher readings. Keep transcript errors, plausible Native reductions, and weak alignment explicit.",
+      "deliverable": "Target10 additional occurrences spanning at least5 new words and3 query voices, excluding हैन / किनकि / नेकपा from this discovery target. Provide context and direct word playback.",
+      "pass": "Report user-confirmed, acoustically supported and unresolved cases separately. A second recognizer is corroboration, not a human label. The already-searched90 cases are retrospective discovery, never a new held-out test."
+    },
+    {
+      "order": 4,
+      "effort": "14–18 hours",
+      "title": "Check false flags and usable coverage",
+      "work": "Include unchanged speech and available annotated Native variation, with different voices, pitch, gain, speed and references. Measure the fraction of words that can actually be tested. ASR rejects garbled content; it does not certify pronunciation.",
+      "deliverable": "Frozen evaluation table: controlled-edit recall / no-change flags, real-label results where available, supported-word coverage, abstention rate and processing time.",
+      "pass": "No source identity labels used as pronunciation truth. Do not quote real-world precision or recall without independently labeled real errors and acceptable controls."
+    },
+    {
+      "order": 5,
+      "effort": "18–24 hours",
+      "title": "Package a research preview for10 November",
+      "work": "Version minimal code and the selected small heads; verify a clean inference run. Prepare model/data cards, dependency and audio permissions, reproducible commands, and a playable evidence page. Keep the announcement draft separate from publication.",
+      "deliverable": "Research-preview release candidate: runnable CLI, reviewed examples, measured limitations and a short announcement.",
+      "pass": "Announce only completed artifacts and measured results. If the challenger fails, the tested baseline and documented discoveries remain the release candidate. Novelty and broad prosody claims require further work."
+    }
+  ],
+  "known_confirmations": [
+    {
+      "word": "हैन",
+      "case_id": "real_yt_yt01_005",
+      "origin": "user-supplied development example",
+      "used_for_development": true
+    },
+    {
+      "word": "किनकि",
+      "case_id": "real_yt_yt01_008",
+      "origin": "user-supplied development example",
+      "used_for_development": true
+    },
+    {
+      "word": "नेकपा",
+      "case_id": "real_yt_yt03_019",
+      "word_ordinal": 4,
+      "origin": "user confirmed detector discovery in conversation",
+      "user_quote": "i saw that it caught it properly ne ka pa",
+      "recorded_utc": "2026-11-09T06:18:12.318963+00:00",
+      "original_confirmation_utc": "unknown",
+      "phonetic_boundaries_manually_verified": false,
+      "scope": "Confirmation of this occurrence; not a held-out accuracy estimate."
+    }
+  ],
+  "claims_to_avoid": [
+    "General Hindi-accent probability",
+    "Validated Hindi-specific prosody detection",
+    "Validated Nepal Bhasa/Newa detection",
+    "Synthetic edit accuracy presented as real-error accuracy",
+    "An unreviewed automatic candidate presented as confirmed human error"
+  ],
+  "baseline_model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "candidate_model_sha256": "23d19339b8cd690738f6a09e54e6add59a2e6fd2c638adcd23a00f1e84449f49",
+  "announcement_gate": "A research preview can describe verified examples and controlled metrics while broader accuracy remains unvalidated. Candidate promotion requires its fresh test.",
+  "public_release_done": false,
+  "source_inputs": [
+    {
+      "host": "k2",
+      "path": "/Volumes/T9/hindi-detector/reports/query_deletion_v66/report.json",
+      "sha256": "cf0d5beae60d4e28c07a880701a0bb8f222102e4ac980d1a3594158b2486711a"
+    },
+    {
+      "host": "k2",
+      "path": "/Volumes/T9/hindi-detector/reports/query_deletion_v66/frozen_selection.json",
+      "sha256": "9436066dc21a2f3304e751ad96758d765da94f83304a8d2273b9d1441ebe8852"
+    },
+    {
+      "host": "k2",
+      "path": "/Volumes/T9/hindi-detector/reports/additional_swar_phones_v65/report.json",
+      "sha256": "2c13ad36afecfa3d2bfe70c770ddf2013128e777debbc0a6691e1392c008e1e9"
+    },
+    {
+      "host": "k2",
+      "path": "/Volumes/T9/hindi-detector/reports/context_evaluation_v63/report.json",
+      "sha256": "36ce02a77a816ed7f43dad53cd218563a5d1a3f76087d6a13413ad1acfbd38ba"
+    },
+    {
+      "host": "k2",
+      "path": "/Volumes/T9/hindi-detector/reports/task_vowel_release_v31/review_report.json",
+      "sha256": "beb5a7c0218ce8ca99ea1dbda9cb266982478244487fbac7ce16192fbc6f0b45"
+    }
+  ],
+  "historical_snapshot": true,
+  "superseded_status_review": "reports/training_cycle_20261109_v74/index.html",
+  "annotation_utc": "2026-11-09T08:38:24.887727+00:00"
+}

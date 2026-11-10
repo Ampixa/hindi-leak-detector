@@ -1,0 +1,16 @@
+{
+  "status": "complete_corrected_audio",
+  "pid": 94371,
+  "system": "pocket_teacher_250000_24l",
+  "updated_utc": "2026-11-09T09:07:55.190023+00:00",
+  "planned_clips": 104,
+  "processed_clips": 104,
+  "counts": {
+    "ok_unreviewed": 104
+  },
+  "transport_recovery": "reports/cross_system_teacher_stream_v80",
+  "approved_teacher_unchanged": true,
+  "old_destination_guard_not_lowered": true,
+  "journal_sha256": "7ebda44bf6e3da5d4dcf2374a184161b6f94747a69018f9d2860299d34304a21",
+  "all_audio_hashes_verified": true
+}

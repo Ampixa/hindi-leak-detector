@@ -1,0 +1,2082 @@
+{
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "architecture": "Two task heads (MLP16), with two frozen phone probes",
+  "model_kind": "task_vowel_v30",
+  "control_pairs": {
+    "shared_training_corpus": 418,
+    "development": 147
+  },
+  "training_description": "Deletion head:238 training pairs. Frozen quality head:418 combined-kind training pairs. Development corpus:147 pairs; kind-specific calibration. Words हैन and किनकि excluded from fitting; their development regressions used for release rollback.",
+  "test": {
+    "vowel_deletion": {
+      "final_gated_decision": {
+        "n": 78,
+        "positive_labels": 39,
+        "negative_labels": 39,
+        "tp": 34,
+        "fp": 0,
+        "fn": 5,
+        "tn": 39,
+        "precision": 1.0,
+        "recall": 0.8717948717948718,
+        "false_positive_rate": 0.0,
+        "accuracy": 0.9358974358974359,
+        "balanced_accuracy": 0.9358974358974359,
+        "brier": 0.0641025641025641
+      },
+      "recall_interval_95": [
+        0.7329425662025455,
+        0.9439718246302862
+      ],
+      "sham_flag_interval_95": [
+        0,
+        0.08966685370757144
+      ]
+    },
+    "vowel_quality": {
+      "final_gated_decision": {
+        "n": 50,
+        "positive_labels": 25,
+        "negative_labels": 25,
+        "tp": 17,
+        "fp": 0,
+        "fn": 8,
+        "tn": 25,
+        "precision": 1.0,
+        "recall": 0.68,
+        "false_positive_rate": 0.0,
+        "accuracy": 0.84,
+        "balanced_accuracy": 0.8400000000000001,
+        "brier": 0.16
+      },
+      "recall_interval_95": [
+        0.48410269273102247,
+        0.8279480969309202
+      ],
+      "sham_flag_interval_95": [
+        1.3877787807814457e-17,
+        0.13319225093904846
+      ],
+      "word_cluster_recall_interval_95": [
+        0.48148148148148145,
+        0.8695652173913043
+      ]
+    }
+  },
+  "evaluation_description": "Full-region waveform edits across two cohorts:64 same-voice change/sham pairs and44 word families, with two held-out conditioning groups. The quality row pools7 earlier and18 follow-up pairs. Clear source/donor phone evidence was required; this is not real Hindi-error accuracy.",
+  "short_edit_diagnostic": {
+    "vowel_deletion": {
+      "n": 94,
+      "positive_labels": 47,
+      "negative_labels": 47,
+      "tp": 3,
+      "fp": 0,
+      "fn": 44,
+      "tn": 47,
+      "precision": 1.0,
+      "recall": 0.06382978723404255,
+      "false_positive_rate": 0.0,
+      "accuracy": 0.5319148936170213,
+      "balanced_accuracy": 0.5319148936170213,
+      "brier": 0.46808510638297873
+    },
+    "vowel_quality": {
+      "n": 16,
+      "positive_labels": 8,
+      "negative_labels": 8,
+      "tp": 1,
+      "fp": 0,
+      "fn": 7,
+      "tn": 8,
+      "precision": 1.0,
+      "recall": 0.125,
+      "false_positive_rate": 0.0,
+      "accuracy": 0.5625,
+      "balanced_accuracy": 0.5625,
+      "brier": 0.4375
+    }
+  },
+  "cold_checks": {
+    "passed": 8,
+    "total": 8,
+    "report": "reports/release_cold_verification_v43/report.json"
+  },
+  "voice_audit": {
+    "status": "complete_release_voice_audit",
+    "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+    "native_controls": {
+      "gain_half": {
+        "cases": 21,
+        "sites": 80,
+        "site_flags": 0,
+        "cases_with_flags": 0
+      },
+      "world_original_f0": {
+        "cases": 21,
+        "sites": 80,
+        "site_flags": 2,
+        "cases_with_flags": 2
+      },
+      "world_plus3_semitones": {
+        "cases": 21,
+        "sites": 80,
+        "site_flags": 2,
+        "cases_with_flags": 2
+      },
+      "world_minus3_semitones": {
+        "cases": 21,
+        "sites": 80,
+        "site_flags": 2,
+        "cases_with_flags": 2
+      }
+    },
+    "pitch_added_effect": {
+      "world_plus3_semitones": {
+        "added_flags_over_WORLD0": 0,
+        "median_score_shift": -3.4516138839535415e-05
+      },
+      "world_minus3_semitones": {
+        "added_flags_over_WORLD0": 0,
+        "median_score_shift": -7.327790081035346e-05
+      }
+    },
+    "known_error_checks": [
+      {
+        "id": "real_yt_yt01_005",
+        "condition": "gain_half",
+        "word": "हैन",
+        "flagged": true
+      },
+      {
+        "id": "real_yt_yt01_005",
+        "condition": "world_minus3_semitones",
+        "word": "हैन",
+        "flagged": true
+      },
+      {
+        "id": "real_yt_yt01_005",
+        "condition": "world_original_f0",
+        "word": "हैन",
+        "flagged": true
+      },
+      {
+        "id": "real_yt_yt01_005",
+        "condition": "world_plus3_semitones",
+        "word": "हैन",
+        "flagged": true
+      },
+      {
+        "id": "real_yt_yt01_008",
+        "condition": "gain_half",
+        "word": "किनकि",
+        "flagged": true
+      },
+      {
+        "id": "real_yt_yt01_008",
+        "condition": "world_minus3_semitones",
+        "word": "किनकि",
+        "flagged": true
+      },
+      {
+        "id": "real_yt_yt01_008",
+        "condition": "world_original_f0",
+        "word": "किनकि",
+        "flagged": true
+      },
+      {
+        "id": "real_yt_yt01_008",
+        "condition": "world_plus3_semitones",
+        "word": "किनकि",
+        "flagged": true
+      }
+    ],
+    "actual_hindi_error_accuracy": null,
+    "limits": "Nuisance sensitivity relative to the same recorded reference, not Native-error FPR or validated Hindi intonation. WORLD reconstruction can alter phonetic detail."
+  },
+  "retrospective_model_report": {
+    "status": "frozen_release_pending_validation",
+    "created_utc": "2026-11-08T23:52:12.868798+00:00",
+    "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+    "model_kind": "task_vowel_v30",
+    "heads": {
+      "vowel_deletion": {
+        "feature_mode": "secondary57",
+        "architecture": "mlp16",
+        "origin": "task_specific_corrected_fit",
+        "operating_points": {
+          "high": 0.5,
+          "low": 0.2,
+          "development_negatives": 87
+        }
+      },
+      "vowel_quality": {
+        "feature_mode": "primary57",
+        "architecture": "mlp16",
+        "origin": "development_regression_fallback/paired_local_detector_v27",
+        "operating_points": {
+          "high": 0.5,
+          "low": 0.2,
+          "development_negatives": 60
+        }
+      }
+    },
+    "fallbacks": [
+      {
+        "kind": "vowel_quality",
+        "reason": "Mandatory development pronunciation regression failed",
+        "regression": {
+          "id": "real_yt_yt01_005",
+          "word": "हैन",
+          "kind": "vowel_quality"
+        },
+        "fallback_model": "paired_local_detector_v27",
+        "fallback_sha256": "7a1a728a7aa0bdb949a2203fdab2d8d124fea997772c407ddc49a479a2ab4295",
+        "no_word_specific_runtime_rule": true
+      }
+    ],
+    "parent_training_counts": {
+      "vowel_deletion": {
+        "training_pairs": 238,
+        "development_pairs": 87,
+        "training_domains": [
+          "physical",
+          "natural",
+          "indic"
+        ],
+        "development_domains": [
+          "physical",
+          "natural",
+          "indic"
+        ]
+      },
+      "vowel_quality": {
+        "training_pairs": 180,
+        "development_pairs": 60,
+        "training_domains": [
+          "physical",
+          "natural"
+        ],
+        "development_domains": [
+          "physical",
+          "natural"
+        ]
+      }
+    },
+    "test": {
+      "physical": {
+        "retrospective_all_requests_or_physical": {
+          "vowel_deletion": {
+            "final_gated_decision": {
+              "n": 190,
+              "positive_labels": 95,
+              "negative_labels": 95,
+              "tp": 35,
+              "fp": 0,
+              "fn": 60,
+              "tn": 95,
+              "precision": 1.0,
+              "recall": 0.3684210526315789,
+              "false_positive_rate": 0.0,
+              "accuracy": 0.6842105263157895,
+              "balanced_accuracy": 0.6842105263157895,
+              "brier": 0.3157894736842105
+            },
+            "paired_ordering": 0.9789473684210527,
+            "uncertain_fraction": 0.30526315789473685
+          },
+          "vowel_quality": {
+            "final_gated_decision": {
+              "n": 166,
+              "positive_labels": 83,
+              "negative_labels": 83,
+              "tp": 18,
+              "fp": 0,
+              "fn": 65,
+              "tn": 83,
+              "precision": 1.0,
+              "recall": 0.21686746987951808,
+              "false_positive_rate": 0.0,
+              "accuracy": 0.608433734939759,
+              "balanced_accuracy": 0.608433734939759,
+              "brier": 0.39156626506024095
+            },
+            "paired_ordering": 0.8433734939759037,
+            "uncertain_fraction": 0.4578313253012048
+          }
+        },
+        "secondary_qualified_circular_diagnostic": {
+          "vowel_deletion": {
+            "final_gated_decision": {
+              "n": 190,
+              "positive_labels": 95,
+              "negative_labels": 95,
+              "tp": 35,
+              "fp": 0,
+              "fn": 60,
+              "tn": 95,
+              "precision": 1.0,
+              "recall": 0.3684210526315789,
+              "false_positive_rate": 0.0,
+              "accuracy": 0.6842105263157895,
+              "balanced_accuracy": 0.6842105263157895,
+              "brier": 0.3157894736842105
+            },
+            "paired_ordering": 0.9789473684210527,
+            "uncertain_fraction": 0.30526315789473685
+          },
+          "vowel_quality": {
+            "final_gated_decision": {
+              "n": 166,
+              "positive_labels": 83,
+              "negative_labels": 83,
+              "tp": 18,
+              "fp": 0,
+              "fn": 65,
+              "tn": 83,
+              "precision": 1.0,
+              "recall": 0.21686746987951808,
+              "false_positive_rate": 0.0,
+              "accuracy": 0.608433734939759,
+              "balanced_accuracy": 0.608433734939759,
+              "brier": 0.39156626506024095
+            },
+            "paired_ordering": 0.8433734939759037,
+            "uncertain_fraction": 0.4578313253012048
+          }
+        }
+      },
+      "natural": {
+        "retrospective_all_requests_or_physical": {
+          "vowel_deletion": {
+            "final_gated_decision": {
+              "n": 144,
+              "positive_labels": 72,
+              "negative_labels": 72,
+              "tp": 26,
+              "fp": 3,
+              "fn": 46,
+              "tn": 69,
+              "precision": 0.896551724137931,
+              "recall": 0.3611111111111111,
+              "false_positive_rate": 0.041666666666666664,
+              "accuracy": 0.6597222222222222,
+              "balanced_accuracy": 0.6597222222222222,
+              "brier": 0.3402777777777778
+            },
+            "paired_ordering": 0.7083333333333334,
+            "uncertain_fraction": 0.2916666666666667
+          },
+          "vowel_quality": {
+            "final_gated_decision": {
+              "n": 144,
+              "positive_labels": 72,
+              "negative_labels": 72,
+              "tp": 11,
+              "fp": 0,
+              "fn": 61,
+              "tn": 72,
+              "precision": 1.0,
+              "recall": 0.1527777777777778,
+              "false_positive_rate": 0.0,
+              "accuracy": 0.5763888888888888,
+              "balanced_accuracy": 0.5763888888888888,
+              "brier": 0.4236111111111111
+            },
+            "paired_ordering": 0.9583333333333334,
+            "uncertain_fraction": 0.4513888888888889
+          }
+        },
+        "secondary_qualified_circular_diagnostic": {
+          "vowel_deletion": {
+            "final_gated_decision": {
+              "n": 48,
+              "positive_labels": 24,
+              "negative_labels": 24,
+              "tp": 22,
+              "fp": 0,
+              "fn": 2,
+              "tn": 24,
+              "precision": 1.0,
+              "recall": 0.9166666666666666,
+              "false_positive_rate": 0.0,
+              "accuracy": 0.9583333333333334,
+              "balanced_accuracy": 0.9583333333333333,
+              "brier": 0.041666666666666664
+            },
+            "paired_ordering": 1.0,
+            "uncertain_fraction": 0.08333333333333333
+          },
+          "vowel_quality": {
+            "final_gated_decision": {
+              "n": 30,
+              "positive_labels": 15,
+              "negative_labels": 15,
+              "tp": 11,
+              "fp": 0,
+              "fn": 4,
+              "tn": 15,
+              "precision": 1.0,
+              "recall": 0.7333333333333333,
+              "false_positive_rate": 0.0,
+              "accuracy": 0.8666666666666667,
+              "balanced_accuracy": 0.8666666666666667,
+              "brier": 0.13333333333333333
+            },
+            "paired_ordering": 1.0,
+            "uncertain_fraction": 0.26666666666666666
+          }
+        }
+      },
+      "indic": {
+        "retrospective_all_requests_or_physical": {
+          "vowel_deletion": {
+            "final_gated_decision": {
+              "n": 160,
+              "positive_labels": 80,
+              "negative_labels": 80,
+              "tp": 26,
+              "fp": 3,
+              "fn": 54,
+              "tn": 77,
+              "precision": 0.896551724137931,
+              "recall": 0.325,
+              "false_positive_rate": 0.0375,
+              "accuracy": 0.64375,
+              "balanced_accuracy": 0.64375,
+              "brier": 0.35625
+            },
+            "paired_ordering": 0.7875,
+            "uncertain_fraction": 0.3375
+          },
+          "vowel_quality": {
+            "final_gated_decision": {
+              "n": 4,
+              "positive_labels": 2,
+              "negative_labels": 2,
+              "tp": 0,
+              "fp": 0,
+              "fn": 2,
+              "tn": 2,
+              "precision": null,
+              "recall": 0.0,
+              "false_positive_rate": 0.0,
+              "accuracy": 0.5,
+              "balanced_accuracy": 0.5,
+              "brier": 0.5
+            },
+            "paired_ordering": 0.5,
+            "uncertain_fraction": 0.5
+          }
+        },
+        "secondary_qualified_circular_diagnostic": {
+          "vowel_deletion": {
+            "final_gated_decision": {
+              "n": 34,
+              "positive_labels": 17,
+              "negative_labels": 17,
+              "tp": 16,
+              "fp": 1,
+              "fn": 1,
+              "tn": 16,
+              "precision": 0.9411764705882353,
+              "recall": 0.9411764705882353,
+              "false_positive_rate": 0.058823529411764705,
+              "accuracy": 0.9411764705882353,
+              "balanced_accuracy": 0.9411764705882353,
+              "brier": 0.058823529411764705
+            },
+            "paired_ordering": 1.0,
+            "uncertain_fraction": 0.08823529411764706
+          }
+        }
+      }
+    },
+    "actual_hindi_error_accuracy": null,
+    "development_regressions_used_for_release_selection": true
+  },
+  "actual_hindi_error_accuracy": null,
+  "limitations": [
+    "Only two user-confirmed real errors; other flags are candidate Hindi-compatible changes.",
+    "Observed zero sham flags in46 selected controls does not establish zero Native-error false positives.",
+    "Short nucleus edits often preserve much of the inter-consonant region and were detected less often; both audits are retained.",
+    "Reference style, G2P and shared acoustic-probe biases constrain inference; unsupported sites abstain.",
+    "Prosody is shown as relative pitch/duration evidence. Hindi-specific intonation accuracy is unvalidated.",
+    "Teacher-reference mode also flags14 human word occurrences; deployment must not equate all such disagreements with Hindi leakage.",
+    "Quality evaluation now has25 selected positive/sham pairs across21 word families; general quality-error performance and Hindi intonation remain unvalidated.",
+    "The128 new requested quality words yielded18 eligible physical pairs; requested spellings are not observed pronunciation labels.",
+    "Automatic cached/new references require content pass and per-site phonetic qualification. Two cached case texts have no content-pass teacher reference and explicitly abstain.",
+    "Optional query content checking rejects only gross mismatch. ASR quarantine is not an accent label and does not suppress valid known phonetic errors."
+  ],
+  "matched_region_audit": {
+    "model_unchanged_between_conditions": true,
+    "metrics": {
+      "vowel_deletion": {
+        "matched_pairs": 39,
+        "short_nucleus": {
+          "known_edits": 39,
+          "edits_flagged": 3,
+          "shams": 39,
+          "shams_flagged": 0
+        },
+        "full_region": {
+          "known_edits": 39,
+          "edits_flagged": 34,
+          "shams": 39,
+          "shams_flagged": 0
+        },
+        "median_cut_milliseconds": {
+          "short_nucleus": 20.1875,
+          "full_region": 101.0625
+        },
+        "median_fraction_of_full_region_cut_by_nucleus_edit": 0.20037105751391465
+      },
+      "vowel_quality": {
+        "matched_pairs": 7,
+        "short_nucleus": {
+          "known_edits": 7,
+          "edits_flagged": 0,
+          "shams": 7,
+          "shams_flagged": 0
+        },
+        "full_region": {
+          "known_edits": 7,
+          "edits_flagged": 4,
+          "shams": 7,
+          "shams_flagged": 0
+        },
+        "median_cut_milliseconds": {
+          "short_nucleus": 20.25,
+          "full_region": 121.125
+        },
+        "median_fraction_of_full_region_cut_by_nucleus_edit": 0.16666666666666666
+      }
+    },
+    "meaning": "Matched source readings, different edit extent; CTC unit peaks omit blank-labeled frames between consonant peaks. This is an edit-detection diagnostic, not human phoneme-absence gold."
+  },
+  "word_coverage": {
+    "total_word_positions": 1368,
+    "tested_word_positions": 247,
+    "untested_word_positions": 1121,
+    "meaning": "All86 scored same-text cases; supported modeled vowel contrast only, not all possible pronunciation errors."
+  },
+  "deployment_reference_audit": {
+    "cases": 86,
+    "voice_groups": 12,
+    "human_word_flags": 14,
+    "swar_word_flags": 21,
+    "reference_audio8_word_flags": 17,
+    "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+    "audit_path": "reports/release_teacher_consensus_v36/report.json",
+    "audit_sha256": "76a795d228684bb73a8057d847f43427ee40283ab68bb8d55d14fcd5a2ea6fad",
+    "native_error_false_positive_rate": null,
+    "actual_hindi_error_accuracy": null,
+    "interpretation": "Same-text teacher reference sensitivity, not human-error labels. Human variants, TTS reference mistakes and phone/G2P errors remain possible."
+  },
+  "original_full_region_test_v32": {
+    "vowel_deletion": {
+      "final_gated_decision": {
+        "n": 78,
+        "positive_labels": 39,
+        "negative_labels": 39,
+        "tp": 34,
+        "fp": 0,
+        "fn": 5,
+        "tn": 39,
+        "precision": 1.0,
+        "recall": 0.8717948717948718,
+        "false_positive_rate": 0.0,
+        "accuracy": 0.9358974358974359,
+        "balanced_accuracy": 0.9358974358974359,
+        "brier": 0.0641025641025641
+      },
+      "recall_interval_95": [
+        0.7329425662025455,
+        0.9439718246302862
+      ],
+      "sham_flag_interval_95": [
+        0,
+        0.08966685370757144
+      ]
+    },
+    "vowel_quality": {
+      "final_gated_decision": {
+        "n": 14,
+        "positive_labels": 7,
+        "negative_labels": 7,
+        "tp": 4,
+        "fp": 0,
+        "fn": 3,
+        "tn": 7,
+        "precision": 1.0,
+        "recall": 0.5714285714285714,
+        "false_positive_rate": 0.0,
+        "accuracy": 0.7857142857142857,
+        "balanced_accuracy": 0.7857142857142857,
+        "brier": 0.21428571428571427
+      },
+      "recall_interval_95": [
+        0.2504583645276572,
+        0.8417801447485302
+      ],
+      "sham_flag_interval_95": [
+        5.551115123125783e-17,
+        0.35433043506668743
+      ]
+    }
+  },
+  "quality_followup": {
+    "status": "complete_frozen_quality_followup",
+    "created_utc": "2026-11-09T01:17:46.739817+00:00",
+    "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+    "new_word_families_requested": 128,
+    "new_readings": 512,
+    "content_decisions": {
+      "pass": 508,
+      "quarantine": 4
+    },
+    "new_physical_eligible_pairs": 18,
+    "new_physical_word_families": 16,
+    "earlier_physical": {
+      "counts": {
+        "n": 14,
+        "positive_labels": 7,
+        "negative_labels": 7,
+        "tp": 4,
+        "fp": 0,
+        "fn": 3,
+        "tn": 7,
+        "precision": 1.0,
+        "recall": 0.5714285714285714,
+        "false_positive_rate": 0.0,
+        "accuracy": 0.7857142857142857,
+        "balanced_accuracy": 0.7857142857142857,
+        "brier": 0.21428571428571427
+      },
+      "recall_interval_95_wilson": [
+        0.2504583645276572,
+        0.8417801447485302
+      ],
+      "sham_flag_interval_95_wilson": [
+        5.551115123125783e-17,
+        0.35433043506668743
+      ]
+    },
+    "new_physical_all_eligible": {
+      "counts": {
+        "n": 36,
+        "positive_labels": 18,
+        "negative_labels": 18,
+        "tp": 13,
+        "fp": 0,
+        "fn": 5,
+        "tn": 18,
+        "precision": 1.0,
+        "recall": 0.7222222222222222,
+        "false_positive_rate": 0.0,
+        "accuracy": 0.8611111111111112,
+        "balanced_accuracy": 0.8611111111111112,
+        "brier": 0.1388888888888889
+      },
+      "recall_interval_95_wilson": [
+        0.4912734343970254,
+        0.8750024662044601
+      ],
+      "sham_flag_interval_95_wilson": [
+        0,
+        0.17587922364665765
+      ]
+    },
+    "new_physical_content_pass_both_source_and_donor": {
+      "counts": {
+        "n": 36,
+        "positive_labels": 18,
+        "negative_labels": 18,
+        "tp": 13,
+        "fp": 0,
+        "fn": 5,
+        "tn": 18,
+        "precision": 1.0,
+        "recall": 0.7222222222222222,
+        "false_positive_rate": 0.0,
+        "accuracy": 0.8611111111111112,
+        "balanced_accuracy": 0.8611111111111112,
+        "brier": 0.1388888888888889
+      },
+      "recall_interval_95_wilson": [
+        0.4912734343970254,
+        0.8750024662044601
+      ],
+      "sham_flag_interval_95_wilson": [
+        0,
+        0.17587922364665765
+      ]
+    },
+    "pooled_physical": {
+      "counts": {
+        "n": 50,
+        "positive_labels": 25,
+        "negative_labels": 25,
+        "tp": 17,
+        "fp": 0,
+        "fn": 8,
+        "tn": 25,
+        "precision": 1.0,
+        "recall": 0.68,
+        "false_positive_rate": 0.0,
+        "accuracy": 0.84,
+        "balanced_accuracy": 0.8400000000000001,
+        "brier": 0.16
+      },
+      "recall_interval_95_wilson": [
+        0.48410269273102247,
+        0.8279480969309202
+      ],
+      "sham_flag_interval_95_wilson": [
+        1.3877787807814457e-17,
+        0.13319225093904846
+      ]
+    },
+    "pooled_word_families": 21,
+    "pooled_recall_word_cluster_bootstrap_95": [
+      0.48148148148148145,
+      0.8695652173913043
+    ],
+    "bootstrap_recipe": "4000 resamples of word families,seed20261109; shared2 conditioning groups are not new independent speaker cohorts",
+    "actual_hindi_error_accuracy": null,
+    "model_or_threshold_updates": false,
+    "limits": [
+      "Only18 of256 new canonical readings met the full source/donor/segmentation eligibility rules;128 requested words are not128 observed-error examples.",
+      "Phone-probe qualification favors clear realizations and shares acoustic biases with the detector.",
+      "Known waveform replacements establish a local edit, not actual Hindi origin, naturalness or Hindi intonation.",
+      "The two audits use new words/carriers but share two previously heldout conditioning groups.",
+      "Zero observed sham flags does not establish zero Native-error false positives; real reference-mode variation flags remain separately reported."
+    ]
+  },
+  "guard_checks": {
+    "status": "complete_query_guard_verification",
+    "created_utc": "2026-11-09T01:33:50.472512+00:00",
+    "checks": [
+      {
+        "name": "real_yt_yt01_005",
+        "status": "scored_vowel_evidence",
+        "exit_code": 0,
+        "content_decision": "pass",
+        "word_flags": [
+          "हैन"
+        ],
+        "max_feature_difference": 0.0,
+        "passed": true,
+        "result_sha256": "2f1c361c8447728b4c5f7a7bb857bcd5962ff7d302e845376e822565e6436bce"
+      },
+      {
+        "name": "real_yt_yt01_008",
+        "status": "scored_vowel_evidence",
+        "exit_code": 0,
+        "content_decision": "quarantine",
+        "word_flags": [
+          "किनकि"
+        ],
+        "max_feature_difference": 0.0,
+        "passed": true,
+        "result_sha256": "da31afa66c8558b10e5b520fa0f78afede8769907acacf16bc9fbee03ae1aa79"
+      },
+      {
+        "name": "deliberately_mismatched_transcript",
+        "status": "unscored_content_mismatch",
+        "exit_code": 0,
+        "content_decision": "reject",
+        "word_flags": [],
+        "max_feature_difference": null,
+        "passed": true,
+        "result_sha256": "cafa2d61a120734a7316b25a61c27e5ba962cbcc85cb0a1239858278fcc2f14f"
+      },
+      {
+        "name": "real_yt_yt06_045_reference_abstention",
+        "status": "unscored_reference_quality",
+        "exit_code": 0,
+        "content_decision": null,
+        "word_flags": [],
+        "max_feature_difference": null,
+        "passed": true,
+        "result_sha256": "a0f7f81d549ed1ea39ae9c1373a743a11f5e42169aced5946a00956d8696492f"
+      },
+      {
+        "name": "real_yt_yt10_074_reference_abstention",
+        "status": "unscored_reference_quality",
+        "exit_code": 0,
+        "content_decision": null,
+        "word_flags": [],
+        "max_feature_difference": null,
+        "passed": true,
+        "result_sha256": "5a8856175d4de4987b61edb624b2640e98ede08fa183c50f3e5938b2a6ab1ef5"
+      }
+    ],
+    "passed": 5,
+    "total": 5,
+    "actual_hindi_error_accuracy": null,
+    "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85"
+  },
+  "lexical_content_audit": {
+    "status": "complete_actual_content_audit",
+    "clips": 258,
+    "decisions": {
+      "real/quarantine": 26,
+      "swar/pass": 74,
+      "a450/pass": 64,
+      "real/pass": 60,
+      "a450/quarantine": 22,
+      "swar/quarantine": 12
+    },
+    "known_development_cases": [
+      {
+        "id": "real_yt_yt01_005",
+        "kind": "real",
+        "decision": "pass"
+      },
+      {
+        "id": "real_yt_yt01_005",
+        "kind": "swar",
+        "decision": "pass"
+      },
+      {
+        "id": "real_yt_yt01_005",
+        "kind": "a450",
+        "decision": "quarantine"
+      },
+      {
+        "id": "real_yt_yt01_008",
+        "kind": "real",
+        "decision": "quarantine"
+      },
+      {
+        "id": "real_yt_yt01_008",
+        "kind": "swar",
+        "decision": "quarantine"
+      },
+      {
+        "id": "real_yt_yt01_008",
+        "kind": "a450",
+        "decision": "pass"
+      }
+    ],
+    "actual_hindi_error_accuracy": null,
+    "limits": [
+      "ASR agreement checks intended lexical content, not word-level pronunciation or Hindi influence.",
+      "English loans, transcript spelling and code switching can cause ASR quarantine even for intelligible speech."
+    ]
+  },
+  "additional_flag_evidence": {
+    "word_flags": 20,
+    "replicated_teacher_supported_words": 9,
+    "all_other_real_error_labels_unknown": true,
+    "priority_flags": [
+      {
+        "id": "real_yt_yt01_008",
+        "word": "किनकि",
+        "word_ordinal": 1,
+        "query_start": 0.8653749999999999,
+        "query_end": 1.428875,
+        "user_pick": true,
+        "user_confirmed_development_regression": true,
+        "replicated_teacher_reference_support": true,
+        "query_content_decision": "quarantine",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "native_phones": [
+              "k",
+              "i",
+              "n",
+              "ax",
+              "k",
+              "i"
+            ],
+            "native_ipa_sequence": [
+              "k",
+              "i",
+              "n",
+              "ʌ",
+              "k",
+              "i"
+            ],
+            "query_focus": {
+              "start": 1.1269999999999998,
+              "end": 1.3483749999999999,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 0.6019867549668875,
+              "end": 0.6220529801324504,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "strong_vowel_change",
+              "qualified_references": 2,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": true
+      },
+      {
+        "id": "real_yt_yt01_005",
+        "word": "हैन",
+        "word_ordinal": 1,
+        "query_start": 1.0825527272727271,
+        "query_end": 1.3231199999999999,
+        "user_pick": true,
+        "user_confirmed_development_regression": true,
+        "replicated_teacher_reference_support": false,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_quality",
+            "index": 1,
+            "native_phones": [
+              "h",
+              "axj",
+              "n",
+              "ax"
+            ],
+            "native_ipa_sequence": [
+              "ɦ",
+              "ʌi̯",
+              "n",
+              "ʌ"
+            ],
+            "query_focus": {
+              "start": 1.1827890909090908,
+              "end": 1.2028363636363635,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 0.9233745173745173,
+              "end": 0.9434478764478763,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "observed_in_other_real_recordings",
+              "cases": [
+                {
+                  "id": "real_yt_yt05_037",
+                  "word_ordinal": 10,
+                  "voice": "yt05",
+                  "word_start": 2.46839590443686,
+                  "word_end": 2.6490102389078496,
+                  "source_audio_sha256": "ea294e1036beca780f17f82c7ce713911a4c59b7e8fcfadecfb0e786850cfad2",
+                  "phone_probe_sequence": "s æ n i",
+                  "secondary_phone_probe_sequence": "ɐ æ n",
+                  "evidence_sources": [
+                    {
+                      "audit": "reports/release_teacher_consensus_v36/report.json",
+                      "qualified_teacher_references": 1
+                    }
+                  ]
+                },
+                {
+                  "id": "real_yt_yt05_039",
+                  "word_ordinal": 11,
+                  "voice": "yt05",
+                  "word_start": 4.16764081632653,
+                  "word_end": 4.287861224489796,
+                  "source_audio_sha256": "6399e78aba32b2bdbfd1a77ae3fe239ded17b08000eeef3ffa90aea110670a1f",
+                  "phone_probe_sequence": "ɛ",
+                  "secondary_phone_probe_sequence": "eɪ",
+                  "evidence_sources": [
+                    {
+                      "audit": "reports/release_teacher_consensus_v36/report.json",
+                      "qualified_teacher_references": 2
+                    }
+                  ]
+                }
+              ],
+              "source_groups": 1,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "strong_vowel_change",
+              "qualified_references": 1,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": true
+      },
+      {
+        "id": "real_yt_yt03_019",
+        "word": "नेकपा",
+        "word_ordinal": 4,
+        "query_start": 1.6627605321507761,
+        "query_end": 2.0033259423503327,
+        "user_pick": true,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": true,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "native_phones": [
+              "n",
+              "e",
+              "k",
+              "ax",
+              "p",
+              "aa"
+            ],
+            "native_ipa_sequence": [
+              "n",
+              "e",
+              "k",
+              "ʌ",
+              "p",
+              "a"
+            ],
+            "query_focus": {
+              "start": 1.8630931263858095,
+              "end": 1.903159645232816,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 2.7627655310621244,
+              "end": 2.7827855711422846,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "strong_vowel_change",
+              "qualified_references": 2,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt03_019",
+        "word": "पिढको",
+        "word_ordinal": 8,
+        "query_start": 3.2253547671840357,
+        "query_end": 3.525853658536586,
+        "user_pick": true,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": true,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "native_phones": [
+              "p",
+              "i",
+              "dxh",
+              "ax",
+              "k",
+              "o"
+            ],
+            "native_ipa_sequence": [
+              "p",
+              "i",
+              "ɖʱ",
+              "ʌ",
+              "k",
+              "o"
+            ],
+            "query_focus": {
+              "start": 3.385620842572062,
+              "end": 3.4657538802660754,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 4.924929859719439,
+              "end": 4.9449498997995995,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "strong_vowel_change",
+              "qualified_references": 2,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt03_018",
+        "word": "तलको",
+        "word_ordinal": 0,
+        "query_start": 0.46143360433604336,
+        "query_end": 0.7222439024390244,
+        "user_pick": false,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": true,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "native_phones": [
+              "t",
+              "ax",
+              "l",
+              "ax",
+              "k",
+              "o"
+            ],
+            "native_ipa_sequence": [
+              "t̪",
+              "ʌ",
+              "l",
+              "ʌ",
+              "k",
+              "o"
+            ],
+            "query_focus": {
+              "start": 0.6219322493224932,
+              "end": 0.6620569105691056,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 0.20023419203747075,
+              "end": 0.22025761124121784,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "strong_vowel_change",
+              "qualified_references": 2,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt04_032",
+        "word": "हुनलाई",
+        "word_ordinal": 14,
+        "query_start": 3.8246871165644167,
+        "query_end": 4.185128834355828,
+        "user_pick": false,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": true,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "native_phones": [
+              "h",
+              "u",
+              "n",
+              "ax",
+              "l",
+              "aaj"
+            ],
+            "native_ipa_sequence": [
+              "ɦ",
+              "u",
+              "n",
+              "ʌ",
+              "l",
+              "ai̯"
+            ],
+            "query_focus": {
+              "start": 3.9448343558282204,
+              "end": 3.9848834355828218,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 5.513784461152882,
+              "end": 5.533834586466165,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "strong_vowel_change",
+              "qualified_references": 2,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt05_036",
+        "word": "किनकि",
+        "word_ordinal": 14,
+        "query_start": 3.7110369318181817,
+        "query_end": 3.9718125,
+        "user_pick": false,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": true,
+        "query_content_decision": "quarantine",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "native_phones": [
+              "k",
+              "i",
+              "n",
+              "ax",
+              "k",
+              "i"
+            ],
+            "native_ipa_sequence": [
+              "k",
+              "i",
+              "n",
+              "ʌ",
+              "k",
+              "i"
+            ],
+            "query_focus": {
+              "start": 3.851454545454545,
+              "end": 3.9116335227272727,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 5.77030411449016,
+              "end": 5.790339892665473,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "strong_vowel_change",
+              "qualified_references": 2,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt05_040",
+        "word": "आइसके",
+        "word_ordinal": 6,
+        "query_start": 2.0072727272727273,
+        "query_end": 2.268218181818182,
+        "user_pick": false,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": true,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 2,
+            "native_phones": [
+              "aaj",
+              "s",
+              "ax",
+              "k",
+              "e"
+            ],
+            "native_ipa_sequence": [
+              "ai̯",
+              "s",
+              "ʌ",
+              "k",
+              "e"
+            ],
+            "query_focus": {
+              "start": 2.1678545454545457,
+              "end": 2.208,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 3.6039207920792085,
+              "end": 3.623942574257426,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "strong_vowel_change",
+              "qualified_references": 2,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt07_053",
+        "word": "चलाउनको",
+        "word_ordinal": 14,
+        "query_start": 4.008304498269896,
+        "query_end": 4.449217993079585,
+        "user_pick": false,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": true,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 5,
+            "native_phones": [
+              "ts",
+              "ax",
+              "l",
+              "aaw",
+              "n",
+              "ax",
+              "k",
+              "o"
+            ],
+            "native_ipa_sequence": [
+              "t͡s",
+              "ʌ",
+              "l",
+              "au̯",
+              "n",
+              "ʌ",
+              "k",
+              "o"
+            ],
+            "query_focus": {
+              "start": 4.328968858131488,
+              "end": 4.3890934256055365,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 4.034833948339483,
+              "end": 4.054907749077491,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "strong_vowel_change",
+              "qualified_references": 2,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt12_089",
+        "word": "नगरौ",
+        "word_ordinal": 7,
+        "query_start": 2.3670493506493506,
+        "query_end": 2.627825974025974,
+        "user_pick": false,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": true,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "native_phones": [
+              "n",
+              "ax",
+              "g",
+              "ax",
+              "r",
+              "axw"
+            ],
+            "native_ipa_sequence": [
+              "n",
+              "ʌ",
+              "ɡ",
+              "ʌ",
+              "r",
+              "ʌu̯"
+            ],
+            "query_focus": {
+              "start": 2.4874077922077924,
+              "end": 2.5074675324675324,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 2.0447919463087247,
+              "end": 2.0648389261744966,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "strong_vowel_change",
+              "qualified_references": 2,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt02_015",
+        "word": "राख्नुपर्ने",
+        "word_ordinal": 4,
+        "query_start": 2.9033397312859885,
+        "query_end": 3.4239385796545103,
+        "user_pick": true,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": false,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 6,
+            "native_phones": [
+              "r",
+              "aa",
+              "kh",
+              "n",
+              "u",
+              "p",
+              "ax",
+              "r",
+              "n",
+              "e"
+            ],
+            "native_ipa_sequence": [
+              "r",
+              "a",
+              "kʰ",
+              "n",
+              "u",
+              "p",
+              "ʌ",
+              "r",
+              "n",
+              "e"
+            ],
+            "query_focus": {
+              "start": 3.223708253358925,
+              "end": 3.263754318618042,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 1.4622121212121213,
+              "end": 1.4822424242424241,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "uncertain",
+              "qualified_references": 2,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt02_015",
+        "word": "ऐनमा",
+        "word_ordinal": 5,
+        "query_start": 3.443961612284069,
+        "query_end": 3.6842380038387716,
+        "user_pick": true,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": false,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_quality",
+            "index": 0,
+            "native_phones": [
+              "axj",
+              "n",
+              "m",
+              "aa"
+            ],
+            "native_ipa_sequence": [
+              "ʌi̯",
+              "n",
+              "m",
+              "a"
+            ],
+            "query_focus": {
+              "start": 3.4239385796545103,
+              "end": 3.443961612284069,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 1.7426363636363635,
+              "end": 1.7626666666666666,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "strong_vowel_change",
+              "qualified_references": 1,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt04_030",
+        "word": "आफै",
+        "word_ordinal": 21,
+        "query_start": 6.004411764705883,
+        "query_end": 6.204558823529412,
+        "user_pick": false,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": false,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_quality",
+            "index": 2,
+            "native_phones": [
+              "aa",
+              "ph",
+              "axj"
+            ],
+            "native_ipa_sequence": [
+              "a",
+              "pʰ",
+              "ʌi̯"
+            ],
+            "query_focus": {
+              "start": 6.144514705882353,
+              "end": 6.164529411764706,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 6.350225806451613,
+              "end": 6.370258064516129,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "strong_vowel_change",
+              "qualified_references": 1,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt05_036",
+        "word": "तर",
+        "word_ordinal": 2,
+        "query_start": 0.9829232954545454,
+        "query_end": 1.143400568181818,
+        "user_pick": false,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": false,
+        "query_content_decision": "quarantine",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "native_phones": [
+              "t",
+              "ax",
+              "r",
+              "ax"
+            ],
+            "native_ipa_sequence": [
+              "t̪",
+              "ʌ",
+              "r",
+              "ʌ"
+            ],
+            "query_focus": {
+              "start": 1.143400568181818,
+              "end": 1.143400568181818,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 1.2221824686940965,
+              "end": 1.2422182468694094,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "observed_in_other_real_recordings",
+              "cases": [
+                {
+                  "id": "real_yt_yt10_078",
+                  "word_ordinal": 4,
+                  "voice": "yt10",
+                  "word_start": 1.1053225806451612,
+                  "word_end": 1.2058064516129032,
+                  "source_audio_sha256": "25364ce97b8173a976eb582567e9ed2f917552499af56d29ac14c5eee253c2fc",
+                  "phone_probe_sequence": "t o r",
+                  "secondary_phone_probe_sequence": "t o r",
+                  "evidence_sources": [
+                    {
+                      "audit": "reports/release_native_variation_v37/comparisons.json",
+                      "reference_case": "real_yt_yt05_036"
+                    }
+                  ]
+                }
+              ],
+              "source_groups": 1,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "unsupported_reference",
+              "qualified_references": 0,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt05_036",
+        "word": "परहेप्स",
+        "word_ordinal": 17,
+        "query_start": 4.493363636363636,
+        "query_end": 4.954735795454545,
+        "user_pick": false,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": false,
+        "query_content_decision": "quarantine",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 8,
+            "native_phones": [
+              "p",
+              "ax",
+              "r",
+              "ax",
+              "h",
+              "e",
+              "p",
+              "s",
+              "ax"
+            ],
+            "native_ipa_sequence": [
+              "p",
+              "ʌ",
+              "r",
+              "ʌ",
+              "ɦ",
+              "e",
+              "p",
+              "s",
+              "ʌ"
+            ],
+            "query_focus": {
+              "start": 4.914616477272727,
+              "end": 4.954735795454545,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 8.174597495527728,
+              "end": 8.19463327370304,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "unsupported_reference",
+              "qualified_references": 0,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt08_063",
+        "word": "गरेर",
+        "word_ordinal": 16,
+        "query_start": 9.28075828460039,
+        "query_end": 9.581430799220273,
+        "user_pick": false,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": false,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 5,
+            "native_phones": [
+              "g",
+              "ax",
+              "r",
+              "e",
+              "r",
+              "ax"
+            ],
+            "native_ipa_sequence": [
+              "ɡ",
+              "ʌ",
+              "r",
+              "e",
+              "r",
+              "ʌ"
+            ],
+            "query_focus": {
+              "start": 9.581430799220273,
+              "end": 9.581430799220273,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 6.057609329446064,
+              "end": 6.077667638483964,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "unsupported_reference",
+              "qualified_references": 0,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt09_070",
+        "word": "समय",
+        "word_ordinal": 1,
+        "query_start": 1.9427913669064747,
+        "query_end": 2.203165467625899,
+        "user_pick": false,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": false,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 5,
+            "native_phones": [
+              "s",
+              "ax",
+              "m",
+              "ax",
+              "y",
+              "ax"
+            ],
+            "native_ipa_sequence": [
+              "s",
+              "ʌ",
+              "m",
+              "ʌ",
+              "j",
+              "ʌ"
+            ],
+            "query_focus": {
+              "start": 2.203165467625899,
+              "end": 2.203165467625899,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 0.522,
+              "end": 0.542076923076923,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "unsupported_reference",
+              "qualified_references": 0,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt09_072",
+        "word": "हेरेर",
+        "word_ordinal": 3,
+        "query_start": 2.1042463235294115,
+        "query_end": 2.3848125,
+        "user_pick": false,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": false,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 5,
+            "native_phones": [
+              "h",
+              "e",
+              "r",
+              "e",
+              "r",
+              "ax"
+            ],
+            "native_ipa_sequence": [
+              "ɦ",
+              "e",
+              "r",
+              "e",
+              "r",
+              "ʌ"
+            ],
+            "query_focus": {
+              "start": 2.3848125,
+              "end": 2.3848125,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 1.1249339207048457,
+              "end": 1.145022026431718,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "unsupported_reference",
+              "qualified_references": 0,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt12_093",
+        "word": "अनसर्टेनिटी",
+        "word_ordinal": 3,
+        "query_start": 1.6817213114754097,
+        "query_end": 2.302356557377049,
+        "user_pick": false,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": false,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 4,
+            "native_phones": [
+              "ax",
+              "n",
+              "ax",
+              "s",
+              "ax",
+              "r",
+              "tx",
+              "e",
+              "n",
+              "i",
+              "tx",
+              "i"
+            ],
+            "native_ipa_sequence": [
+              "ʌ",
+              "n",
+              "ʌ",
+              "s",
+              "ʌ",
+              "r",
+              "ʈ",
+              "e",
+              "n",
+              "i",
+              "ʈ",
+              "i"
+            ],
+            "query_focus": {
+              "start": 1.8218647540983606,
+              "end": 1.8819262295081967,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 1.4223905723905725,
+              "end": 1.4424242424242426,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "no_strong_vowel_change",
+              "qualified_references": 2,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      },
+      {
+        "id": "real_yt_yt12_094",
+        "word": "स्थापना",
+        "word_ordinal": 1,
+        "query_start": 0.8024870466321243,
+        "query_end": 1.1836683937823833,
+        "user_pick": false,
+        "user_confirmed_development_regression": false,
+        "replicated_teacher_reference_support": false,
+        "query_content_decision": "pass",
+        "sites": [
+          {
+            "kind": "vowel_deletion",
+            "index": 4,
+            "native_phones": [
+              "s",
+              "th",
+              "aa",
+              "p",
+              "ax",
+              "n",
+              "aa"
+            ],
+            "native_ipa_sequence": [
+              "s",
+              "t̪ʰ",
+              "a",
+              "p",
+              "ʌ",
+              "n",
+              "a"
+            ],
+            "query_focus": {
+              "start": 1.0432331606217615,
+              "end": 1.083357512953368,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "reference_focus": {
+              "start": 0.7010385756676558,
+              "end": 0.7210682492581603,
+              "meaning": "Estimated phone evidence interval, not a human-verified phoneme boundary"
+            },
+            "observed_human_variation": {
+              "status": "not_observed_in_limited_bank",
+              "cases": [],
+              "source_groups": 0,
+              "human_error_label": null,
+              "used_for_prediction": false,
+              "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+            },
+            "teacher_reference_support": {
+              "decision": "uncertain",
+              "qualified_references": 2,
+              "available_references": 2
+            }
+          }
+        ],
+        "actual_hindi_error_label": null
+      }
+    ]
+  },
+  "observed_human_context": {
+    "contrast_entries": 15,
+    "recorded_occurrences": 17,
+    "used_for_prediction": false
+  }
+}

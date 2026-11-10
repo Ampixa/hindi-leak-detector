@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "audio8_dpo_R2": 24,
+    "audio8_dpo_R3": 24,
+    "indicf5_stock": 24,
+    "native_recording": 24
+  },
+  "all_audio_hashes_verified": true,
+  "labels": 0,
+  "status": "audio_qc_only_no_accuracy"
+}

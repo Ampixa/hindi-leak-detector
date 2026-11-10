@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "created_by": "Codex GPT-6 /root",
+  "created_utc": "2026-11-06T10:08:32.324101+00:00",
+  "device": "mps",
+  "model_revision": "fb652a96e508091045890dae5bb99fe511facbcf",
+  "weights_sha256": "ba7f3671180fb7784e24bd1dafc96e729a38ce02e7f6d3877cdef32525a1865c",
+  "driver_sha256": "686affb69ea48e5517de0861fb4310aac1e69c8aeb32e83e037ed78634f5e0bb",
+  "torch_version": "2.6.0",
+  "nfe_step": 32,
+  "cfg_strength": 2.0,
+  "sway_sampling_coef": -1.0,
+  "speed": 1.0,
+  "target_rms": 0.1,
+  "sample_rate": 24000,
+  "seed": 0,
+  "waveform_policy": "No generated-audio silence stripping, loudness normalization or ASR reranking",
+  "reference_policy": "Exact audio8 reference file/transcript; native F5 RMS and resampling inside infer_batch_process",
+  "model_load": "Strict generator/vocoder state loading with inspected compiled-prefix removal",
+  "selection_sha256": "b86eb9c4893ba8852d5c35513ca8a2e45c6fbb2e87eee0696457d229ff776f06",
+  "status": "complete_unreviewed_audio",
+  "completed": 24
+}

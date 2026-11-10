@@ -1,0 +1,345 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "created_utc": "2026-11-06T15:58:22.848579+00:00",
+  "owner": "Ampixa/user",
+  "status": "reference",
+  "purpose": "Cleanup of verified temporary Audio8 synthesis copies after k2 feature extraction/training",
+  "next_review": "2026-11-13",
+  "replacement": "k2 /Volumes/T9/hindi-detector/data/audio8_proxy_v1; all 32 WAV hashes verified before feature extraction and during training; original reference files remain in k2 IndicVoices-R corpus",
+  "no_active_open_files": true,
+  "lsof_unrelated_namespace_warnings": "",
+  "deleted": [
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/README.md",
+      "bytes": 2188,
+      "sha256": "6ffe91f7ba5e2e1888bd16f7acaf7e85ac40621d489506d8f87b052c8dc89ce7",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/script.py",
+      "bytes": 7324,
+      "sha256": "773cc5e04c1c108b91ba1b405a77ed602ba5ad78c362df25cecc2b90cd7b4027",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/manifest.json",
+      "bytes": 27343,
+      "sha256": "c43762049b37165aae6d6fb323210d08c4e86cd23b659159c8b0e682c4813191",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/items.jsonl",
+      "bytes": 40678,
+      "sha256": "fdd7e7650ceedc714529115bb386ac7ff7a5aedefa2e15f38e85817c305c027c",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_14_1.wav",
+      "bytes": 593964,
+      "sha256": "18073e6aa07a9157f5a417ff04575597d49666958119cc0055772bdaf2a6e853",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_03_0.wav",
+      "bytes": 622636,
+      "sha256": "bd2a3234477fc36b87c3cd28ce5b1c5ca66705fa490ed8bc52f4e4d8fa706556",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_04_1.wav",
+      "bytes": 348204,
+      "sha256": "697cd72a745b9bfa547899402027413d1d78f2e7ee48a61b5240bf561c532672",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_05_0.wav",
+      "bytes": 581676,
+      "sha256": "14051e0d64b500ae12bc2d3e18b6bee9d74db0f89ec2d61af8db375d368bd64c",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_12_0.wav",
+      "bytes": 524332,
+      "sha256": "ddc2277e426d3131f5a75a42a85b0b034f3fc87fed052abed6c1202bc120d58f",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_02_1.wav",
+      "bytes": 360492,
+      "sha256": "1aa744cf5e1415bfee131d288a74a38dafa2ea1687fe5fdaf565b4e27e22c22d",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_02_0.wav",
+      "bytes": 573484,
+      "sha256": "498d15c5950ab24fcf55b10b98c6f48058f0689c59e557f313167cc5371ccad2",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_06_1.wav",
+      "bytes": 335916,
+      "sha256": "917533bcfba842a2eac3b66c389a0d4cf3ea80d71031839785fa0a684c2dd241",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_12_1.wav",
+      "bytes": 557100,
+      "sha256": "205bd3e49fe45b6cd2e3824325cdc601591fcdf854ef2b54c83ea7f9b05f4a1f",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_15_1.wav",
+      "bytes": 544812,
+      "sha256": "9905944eb8011ac0544333bab26c7f19a945f631064ff268c12badd938d3e797",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_13_1.wav",
+      "bytes": 524332,
+      "sha256": "853309718e6c3803790839d348d8cb0a924b88f1fc6b6dad294dedb522708b6d",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_05_1.wav",
+      "bytes": 708652,
+      "sha256": "3189b9e77ebe338fe2289145a4ffb80dfcce6e31d00829f94e0561e081937357",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_07_1.wav",
+      "bytes": 577580,
+      "sha256": "64aa2fdb0e11fc681c0b984f04e29cd04dece5fa214b6a0b228a277ac718cf36",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/synthesis.log",
+      "bytes": 2165,
+      "sha256": "d85def60231d33b31c52ff3888ebb7c86732640a192d95d2f1840a187a977c8b",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_01_0.wav",
+      "bytes": 671788,
+      "sha256": "d786a7a37dc5074ab0a09064b562b144453d5cc2e75a13b25abce54d71c7f0fe",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_06_0.wav",
+      "bytes": 688172,
+      "sha256": "bb5fdec6854a58c6c18fa46c2e3fa59f90287842cc53adde5759304b2778c729",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_04_0.wav",
+      "bytes": 421932,
+      "sha256": "c51b7a8312208d274392ef30e2a865485d96d3ae4f8ecfe921d988f8677770e4",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_03_1.wav",
+      "bytes": 639020,
+      "sha256": "7d6c693b845afd12958309672e3f887edc0b8b611cfcc40ff99d88a700e6f1c8",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/README.md",
+      "bytes": 2188,
+      "sha256": "6ffe91f7ba5e2e1888bd16f7acaf7e85ac40621d489506d8f87b052c8dc89ce7",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_15_0.wav",
+      "bytes": 311340,
+      "sha256": "d90cb21cc3daad0ae5593e710f8fd915c25753770db16eb5bce0020f3add8eb8",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_09_1.wav",
+      "bytes": 745516,
+      "sha256": "692da54e423180024905921baf4d667b8c076fca8ab3945a7e615c1f908cb6dc",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/run.json",
+      "bytes": 1182,
+      "sha256": "8cea7fe42c2dd781ac958b258c1836bd5c76cdb433dee9202fa400b2761a298a",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_11_0.wav",
+      "bytes": 618540,
+      "sha256": "3de78f828f98defec8d8428a0d504a69ec4a056b678c05cdcfd4f82d3919c511",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_01_1.wav",
+      "bytes": 745516,
+      "sha256": "3fe8651534ee38840621f759dad8bd54b58b6cc291706e4f1bf972845a27104a",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_08_1.wav",
+      "bytes": 548908,
+      "sha256": "537ea28dcd9632e9c94640ad88b8a2270a48addd3d220f30bf2844ce164e01e9",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_14_0.wav",
+      "bytes": 438316,
+      "sha256": "8f944b879488529221639329afa7df50930f22f8a142c7cce0b7f99f3e4d5e5e",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_00_0.wav",
+      "bytes": 679980,
+      "sha256": "06b8b7e181393ce4a4d00fa2b1e94283b8c79991080f47e5a3db9c2c6d717176",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_10_1.wav",
+      "bytes": 598060,
+      "sha256": "fcdd91da22838b5d1f5aa1cae5646be85ceb37bdc031d9c0dda31325100c12b8",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_11_1.wav",
+      "bytes": 524332,
+      "sha256": "b3f23ac65d87f4b9154862816d7fa81233b62dc21a56331ff61e4a653218eec6",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_00_1.wav",
+      "bytes": 516140,
+      "sha256": "1b450ffbdc5a09fc29f26dfd861dad1173cb3a44708ada32b4c14d19839cac24",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_13_0.wav",
+      "bytes": 688172,
+      "sha256": "37b3265af5e6b16c194053581c9dbda30bd6539bcb0eb91a81a5595617716938",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_10_0.wav",
+      "bytes": 639020,
+      "sha256": "c825f9e179a81ab9a2dfcf64377b93b56057c7effb4d1480a739f791c868745b",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_08_0.wav",
+      "bytes": 712748,
+      "sha256": "bfe880cf167b15f7cde2ed290ed269a00e9fc67ab4310a3f3eff882ddea8e63f",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_09_0.wav",
+      "bytes": 610348,
+      "sha256": "849cda442acdcd47ce40e12c2e1caf3c0511a4b5805d6b4833ee08c9238b4da6",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/outputs/dev_07_0.wav",
+      "bytes": 438316,
+      "sha256": "f9f018a6905d803a8f5ccbe935c7b4f05ebf8403599254da8ab7eb60c43fe4eb",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4259790200369285_016321.wav",
+      "bytes": 311052,
+      "sha256": "09716e1dd999ef87a83452a89f9bfc3f801c4b5936aadd6035434ce6fe74828a",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4257387500340373_011237.wav",
+      "bytes": 303148,
+      "sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4259065500397435_005809.wav",
+      "bytes": 297004,
+      "sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4259675300304689_013364.wav",
+      "bytes": 344108,
+      "sha256": "3c9cf5e6e5fa49f4cddcf3934646b1d678d856c9edd925154aa1fe39d115514e",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4258254800397423_008408.wav",
+      "bytes": 310316,
+      "sha256": "2324e89c0e9fab1255a05f15a9daa3271b1d0f74f964ca76a1e4fd4d78d3d6f1",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4256958500325615_002961.wav",
+      "bytes": 307244,
+      "sha256": "41db354a2216301901a494a354c09548ccf38fb8a6ab5ecde6b715c6a4857406",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4258716800392755_018420.wav",
+      "bytes": 297004,
+      "sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4259386800339426_016277.wav",
+      "bytes": 288812,
+      "sha256": "bb912945821309f163ccfa8d3b369b7eb40fe370bc1ec191e1e31aff744ce370",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4259477200361463_015355.wav",
+      "bytes": 313388,
+      "sha256": "b3ce03a672bcb6eaf9859682766953f05055ade8277e6c23afd1b00efa038247",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4259361500382428_025303.wav",
+      "bytes": 303884,
+      "sha256": "6993f282685e2c79be6c1657fe7178c7337629cd35a819f3486796e57f693fb6",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4257751100369637_009829.wav",
+      "bytes": 302124,
+      "sha256": "6ed10838a90596e8775880ff7a3116342079317d98b9ec29fe1737eaeebe9e6b",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4257689200333878_001003.wav",
+      "bytes": 289836,
+      "sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4256933800326415_008877.wav",
+      "bytes": 323628,
+      "sha256": "14dcc7e2d2f417d11db91bf8fae9e767af05952d1b8d17b488a1648b20aaa638",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4258147000367444_016985.wav",
+      "bytes": 297004,
+      "sha256": "15ed78181b636b5435f43f185992b43025c7684412bd030a52bf288a0ce1d28e",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4257298100347538_019650.wav",
+      "bytes": 293932,
+      "sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-proxy-v1/references/S4258453800348915_004837.wav",
+      "bytes": 298764,
+      "sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "reason": "Verified replacement/receipts retained on k2 and cdjk; temporary GPU synthesis consumer completed"
+    }
+  ],
+  "reclaimed_logical_bytes": 23053660,
+  "free_bytes_after": 15150518272
+}

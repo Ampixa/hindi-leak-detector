@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-11-09T03:13:18.810583+00:00",
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "copied_verified_files": 225,
+  "copied_source_bytes": 17421280,
+  "copy_mismatches": 0,
+  "local_free_bytes": 13803884544,
+  "browser_diagnostic_files": 30,
+  "root_screenshots": 2,
+  "files_removed": 0,
+  "space_reclaimed_bytes": 0,
+  "deadline_reliable_general_detector_achieved": false,
+  "goal_status": "active",
+  "review_url": "http://100.80.123.8:8770/swar"
+}

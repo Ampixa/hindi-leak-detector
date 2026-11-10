@@ -1,0 +1,47 @@
+[
+  {
+    "path": "hindi_detector/query_deletion.py",
+    "sha256": "9133c11aaaee1b619ff0775f6fea20a8289e104da248a8d7eaa4917795ba07f8",
+    "bytes": 3593
+  },
+  {
+    "path": "scripts/train_query_deletion.py",
+    "sha256": "f73981b68a5fb8db698be61763f32686cb8e48298bccd34d5ee298842133e971",
+    "bytes": 10076
+  },
+  {
+    "path": "hindi_detector/intrinsic_vowels.py",
+    "sha256": "3ce154a6c16e512beb0dbf1410c5831182217ad3ba4ff452513c19f3a86c8ab9",
+    "bytes": 7401
+  },
+  {
+    "path": "hindi_detector/phone_lattice.py",
+    "sha256": "d09806c5af55f10165d4ebc8a6ca642548f71dd96bc9fd9ec1062084b3bc839e",
+    "bytes": 5626
+  },
+  {
+    "path": "hindi_detector/dual_paired_vowels.py",
+    "sha256": "5074c492212587a13b22eb1fe8c8d02d848f31b1ca8d4be6b80fca4c287d84d4",
+    "bytes": 702
+  },
+  {
+    "path": "scripts/build_full_context_controls.py",
+    "sha256": "5eae014ee5e4c47a4aa3817eac85a2e45b0eb5cd06f1b6a7cf964da6460531b5",
+    "bytes": 18973
+  },
+  {
+    "path": "scripts/audit_fresh_waveforms.py",
+    "sha256": "b7daa6c749c9900818553b1471fcdbd275c364e97ae85c6a9fc67a5de4178741",
+    "bytes": 15364
+  },
+  {
+    "path": "scripts/build_minimal_vowel_plan.py",
+    "sha256": "0805f180fc4acfb716883d6dbed7a30abfbe59f5dffe941bab4b333e6a1f2d67",
+    "bytes": 15218
+  },
+  {
+    "path": "scripts/audit_additional_swar_phones.py",
+    "sha256": "e5bec7e419579f76a3f5422117408c83134e8819751c5e18b898b770c23146d8",
+    "bytes": 13655
+  }
+]

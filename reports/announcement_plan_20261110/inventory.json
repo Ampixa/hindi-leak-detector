@@ -1,0 +1,32 @@
+[
+  {
+    "path": "announcement.txt",
+    "bytes": 553,
+    "sha256": "ac5115430f8e357df8350c9d1fcf0ea7d2f78ed78bafe6a076bbea5f23020a42",
+    "role": "Native paste-ready announcement draft; contains placeholder release link, not sent."
+  },
+  {
+    "path": "confirmed_examples.json",
+    "bytes": 777,
+    "sha256": "7e98d7b1024a7d67ae7f03c7677e09a0004d6d974cd58e79526f465820ecb496",
+    "role": "Three conversational user confirmations, with unknown original confirmation time marked unknown."
+  },
+  {
+    "path": "evidence_snapshot.json",
+    "bytes": 101807,
+    "sha256": "d92c1fe84ac7d02e2eb9ba25805476fb290f88352ee23b40c1b1fa0fa142eed5",
+    "role": "Read-only copies of five verified current k2 reports with exact source path/SHA; no new evaluation."
+  },
+  {
+    "path": "index.html",
+    "bytes": 10580,
+    "sha256": "f31aef5f349feb67f3356f9f0dab4b18bfa04be8e8a231fa0727a8023a503906",
+    "role": "Readable internal review website for proposed scope, architecture, schedule, gates and announcement draft."
+  },
+  {
+    "path": "plan.json",
+    "bytes": 7356,
+    "sha256": "c741448c5ef4f916e620a06174d0860b68503008c145a9a9dae5582936b2ff64",
+    "role": "Native structured plan; targets explicitly proposed and training still paused."
+  }
+]

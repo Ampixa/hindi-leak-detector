@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-11-09T08:38:24.887727+00:00",
+  "browser": "Native Chrome, separate localhost preview tab",
+  "observations": [
+    "Page visibly contains listener distinction, rejected model result, exact physical-test table, three candidate comparisons and draft.",
+    "Clicked हुनलाई Swar word button; browser reported selected word finished. Audio scrubber4.20759s versus target end4.18513s, approximately22ms timer overshoot.",
+    "Word playback used original verified WAV range backend. No phonetic listening/acceptability judgment made by Codex."
+  ],
+  "tests": "186 unit tests passed; new experiment/render scripts completed or compiled successfully.",
+  "live_model_changed": false
+}

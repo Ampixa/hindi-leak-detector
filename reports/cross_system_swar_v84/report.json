@@ -1,0 +1,28 @@
+{
+  "status": "complete_frozen_swar_discovery",
+  "systems": {
+    "swar_podvoices_ema": {
+      "requested": 104,
+      "statuses": {
+        "scored_vowel_evidence": 104
+      },
+      "content_decisions": {
+        "pass": 100,
+        "quarantine": 4
+      },
+      "readings_with_word_flags": 41,
+      "readings_with_focal_flags": 37,
+      "focal_flags_on_content_pass_queries": 36,
+      "tested_word_positions": 126,
+      "word_positions_with_alignment": 724,
+      "word_positions_all_requested": 724,
+      "accuracy": null
+    }
+  },
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "actual_hindi_error_accuracy": null,
+  "limits": [
+    "Flags are candidates, not confirmed errors.",
+    "Swar text passes through its own frontend; sampler matched to v80 IndicF5, silence removal off."
+  ]
+}

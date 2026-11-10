@@ -1,0 +1,35 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "created_utc": "2026-11-06T10:35:44.228104+00:00",
+  "origin_host": "k2",
+  "origin_path": "/Volumes/T9/hindi-detector",
+  "owner": "Ampixa/user",
+  "status": "active",
+  "purpose": "Implementation and artifact checks; no leakage accuracy claim",
+  "next_review": "2026-11-13",
+  "tests_passed": 27,
+  "no_labels_training_refused": true,
+  "no_model_created": true,
+  "feature_checks": [
+    {
+      "group": "comparison_features_v1",
+      "verified_items": 96,
+      "splits": {
+        "reserved_evaluation": 96
+      }
+    },
+    {
+      "group": "development_features_v1",
+      "verified_items": 64,
+      "splits": {
+        "train": 48,
+        "development": 16
+      }
+    }
+  ],
+  "human_review_events": 0,
+  "independent_leakage_accuracy": null,
+  "storage": {
+    "free_bytes": 290595540992
+  }
+}

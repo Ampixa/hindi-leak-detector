@@ -1,0 +1,20 @@
+{
+  "schema": "stem_deletion_v83",
+  "epochs": 32,
+  "seed": 82,
+  "architecture": "Frozen pretrained XLSR first5convs512channels5ms/10msRF ->32x2 local temporal blocks -> dense vowel logits. Observed gap hint only pools dense.detach; nonnegative veto subtracts from phone14/contextMLP. No global pool/hint/context in dense head. Same v82 targets/timegrid.",
+  "objective": "v81 equal-group/source/class BCE +0.2matched ranking. Aux0.5, balanced50/50 retained/absent target classes; masked known-region BCE normalized per row. Only aux loss trains dense head. Dev targets never enter loss.",
+  "comparison": "Refit matched phone14/context MLP with identical word objective/splits/epochs/seed82, no acoustic input. v82 no-audio logits not reused; MPS may not be bit deterministic. Previous v81 linear/duration diagnostics reference only.",
+  "evaluation": "Same12 joint voice/group CV,32fixedepochs,train-only normalization. Fixed operating rule max(0,S0q97.5,otherretainedq95)+1e-5. No test or Swar/v80 read. Both CV/dev must pass P1/P1w>=.8,S0<=.025,otherretained<=.05,abstain<=.05 and40-60ms>=20sources10groups,minrecall>=.8,S2FPR<=.05.",
+  "attribution": "Readiness absolute task gates separate from mechanistic claim: >=.05 CV minrecall gain over matched no-audio arm and positive short-vowel gain, nonzero veto. P1w-only improvement not sufficient. Physical controlled results do not establish Hindi-error accuracy.",
+  "processing_limit": "Splice artifacts remain possible; OOF retained S0-original dense differences reported, no human phoneme-boundary gold. Auxiliary retained masks trim source boundaries, so they do not fully supervise the splice joins. No global acoustic pooling, but GroupNorm normalizes across crop time. No mechanistic attribution established by this experiment.",
+  "metadata_identity": "Old checkpoint has no direct feature-cache SHA field. Its exact bytes are pinned before unpickling; vocabulary/configurations/recipe/feature-code hash and resource hashes are verified against prepared inputs. Hint software retained separately from current fit software.",
+  "comparison_limit": "Global gradient clipping includes auxiliary and word groups in acoustic arm; auxiliary gradients can scale word updates. This is a controlled task comparison, not independent proof of acoustic causality.",
+  "sham_diagnostic_cutoffs": {
+    "absolute_median_max": 0.25,
+    "absolute_q95_max": 1.0,
+    "units": "known-region dense logit, OOF S0 minus original. Exploratory sensitivity prerequisite, insufficient proof of artifact independence."
+  },
+  "test": "Oldv71test spent; generate fresh independent data only after immutable external candidate hash copy.",
+  "actual_hindi_error_accuracy": null
+}

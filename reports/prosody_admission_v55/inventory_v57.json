@@ -1,0 +1,31 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "host": "k2",
+  "original_path": "/Volumes/T9/hindi-detector/reports/prosody_admission_v55",
+  "created_utc": "2026-11-09T03:08:21.541271+00:00",
+  "last_review_utc": "2026-11-09T03:08:21.541271+00:00",
+  "next_review": "2026-11-10",
+  "not_on_HF": true,
+  "retention": "Compact admission/rollback/source pins retained for active Hindi-detector goal. Completed raw control WAVs/redundant frames disposable24h after consumer closes; no blind deletion. Source-model rights/MMS research restrictions inherited.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1870,
+      "sha256": "a8e2f00b15647044c3e4ad90815497f7ec462117de133ad6ad530cfe6c3742c5",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "inputs.json",
+      "bytes": 624,
+      "sha256": "2a61b6d0b6fc072e3a9b5e351aeb1c4c153b7c6b7211860dc47542b463e87949",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "report.json",
+      "bytes": 4894,
+      "sha256": "1c3377bb4f317f3e811fd6f8c40a2c731f8b9548ce3c3473524074f80d94dced",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    }
+  ]
+}

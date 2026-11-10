@@ -1,0 +1,20 @@
+{
+  "status": "selected_original_audio_recovered_not_pronunciation_labels",
+  "source_repo": "ai4bharat/indicvoices_r",
+  "source_revision": "5f4495c91d500742a58d1be2ab07d77f73c0acf8",
+  "recovered_recordings": 232,
+  "planned_recordings": 232,
+  "all_selected_recovered": true,
+  "row_groups_read": 176,
+  "compressed_audio_column_bytes_read": 26637749090,
+  "retained_original_audio_bytes": 490329072,
+  "byte_identical_staging_reproductions": 232,
+  "native_acceptability_accuracy": null,
+  "hindi_leakage_accuracy": null,
+  "limits": [
+    "Only selected embedded audio payloads are retained, never full Parquet shards or unrelated recordings.",
+    "Encoded source payload SHA-256 is measured; whole source-shard hash is publisher metadata, not independently downloaded/verified.",
+    "Waveform correspondence does not establish accent, native acceptability or real-person identity.",
+    "All current verified source regions are West Bengal; Nepal-region coverage remains unverified."
+  ]
+}

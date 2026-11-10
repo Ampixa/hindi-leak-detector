@@ -1,0 +1,8 @@
+{
+  "status": "complete_word_rhythm_controls",
+  "counts": {
+    "ok_rhythm_interventions": 143,
+    "excluded_rhythm_intervention": 21
+  },
+  "actual_hindi_error_accuracy": null
+}

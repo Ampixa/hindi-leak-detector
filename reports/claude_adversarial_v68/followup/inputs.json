@@ -1,0 +1,52 @@
+[
+  {
+    "path": "hindi_detector/exact_phone_ctc.py",
+    "sha256": "f2b6f21d89c77a50c3197f07646ee57f646367dd1a768134424afcda77487905",
+    "bytes": 5777
+  },
+  {
+    "path": "tests/test_exact_phone_ctc.py",
+    "sha256": "cb0c37609077cffb72d1f2d30b0cba059626c11de0d9fd1e1d84a8988a5515a2",
+    "bytes": 2618
+  },
+  {
+    "path": "hindi_detector/anchored_vowels.py",
+    "sha256": "39f7257a50c32912626119f4bf2c3eac4bc507d5087a93074636daf0adaae5c3",
+    "bytes": 6430
+  },
+  {
+    "path": "tests/test_anchored_vowels.py",
+    "sha256": "fcf3bdee61f833c9c522b55d4f279d5c915c71d240c615170b539264dc2f9a6e",
+    "bytes": 1842
+  },
+  {
+    "path": "hindi_detector/control_measurements.py",
+    "sha256": "087eac822e753db1f8dedb905a2f87bb9e8ee23f6c6a2cc5816ee43b8e3bc5ad",
+    "bytes": 491
+  },
+  {
+    "path": "tests/test_control_measurements.py",
+    "sha256": "e510fcb8262d4eb6674d13ead552f47c972b4cd3d491f45b5155c61d83c61629",
+    "bytes": 1028
+  },
+  {
+    "path": "scripts/build_local_controls.py",
+    "sha256": "c43f0af2b04c3093e322cad5482c9b74f0281da8e00698eb3d71ae932bf648a6",
+    "bytes": 16883
+  },
+  {
+    "path": "scripts/build_minimal_vowel_plan.py",
+    "sha256": "e8732493be1a742ffbb29c23be7e09970920a4efca09b7e3424672b5de9ab189",
+    "bytes": 18845
+  },
+  {
+    "path": "hindi_detector/corrected_synthesis.py",
+    "sha256": "de9a768b37e5f7943de1e946e8f153e60164d2979113c07c8187341ba1a09754",
+    "bytes": 9546
+  },
+  {
+    "path": "hindi_detector/independent_phone.py",
+    "sha256": "e77b50daf93235587fc11333f1a9f8ffb550ef3e2c97b77f095b26cdf9ade508",
+    "bytes": 4771
+  }
+]

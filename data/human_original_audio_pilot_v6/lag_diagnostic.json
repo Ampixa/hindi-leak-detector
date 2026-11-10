@@ -1,0 +1,23 @@
+{
+  "source_utf8": "import pathlib,json,numpy as np,soundfile as sf\nfrom scipy.signal import resample_poly,correlate,correlation_lags\nroot=pathlib.Path('/Volumes/T9/hindi-detector');out=root/'data/human_original_audio_pilot_v6';ins=json.loads((out/'inspection.json').read_text());cp=json.loads((out/'waveform_correspondence.json').read_text())['records'];rows=[]\nfor row,old in zip(ins['records'],cp,strict=True):\n a,sr=sf.read(out/row['payload_path'],dtype='float32',always_2d=True);b,br=sf.read(old['staged_audio'],dtype='float32');a=resample_poly(a.mean(1),1,2)\n corr=correlate(b,a,mode='full',method='fft');lags=correlation_lags(len(b),len(a));keep=abs(lags)<=int(br*.05);lag=int(lags[keep][np.argmax(corr[keep])]);left_a=max(0,-lag);left_b=max(0,lag);n=min(len(a)-left_a,len(b)-left_b);x,y=a[left_a:left_a+n].astype(float),b[left_b:left_b+n].astype(float);gain=float(np.dot(x,y)/np.dot(x,x));rows.append({'row':row['row'],'lag_search_seconds':.05,'best_lag_staged_samples':lag,'same_signal_after_chosen_lag_correlation':float(np.corrcoef(x,y)[0,1]),'least_squares_gain':gain,'residual_rmse':float(np.sqrt(np.mean((y-x*gain)**2))),'warning':'Shift search is a diagnostic, not proof of the historical preprocessing recipe or correctness of phonetic boundaries.'})\nrecord={'source_utf8':SOURCE,'records':rows};(out/'lag_diagnostic.json').write_text(json.dumps(record,indent=2)+'\\n');print(json.dumps(rows))\n",
+  "records": [
+    {
+      "row": 28,
+      "lag_search_seconds": 0.05,
+      "best_lag_staged_samples": 256,
+      "same_signal_after_chosen_lag_correlation": 0.9999960470567812,
+      "least_squares_gain": 0.9673190453728195,
+      "residual_rmse": 0.000382462535022733,
+      "warning": "Shift search is a diagnostic, not proof of the historical preprocessing recipe or correctness of phonetic boundaries."
+    },
+    {
+      "row": 37,
+      "lag_search_seconds": 0.05,
+      "best_lag_staged_samples": 256,
+      "same_signal_after_chosen_lag_correlation": 0.9999978286110002,
+      "least_squares_gain": 0.9619422130082799,
+      "residual_rmse": 0.00024196088483023552,
+      "warning": "Shift search is a diagnostic, not proof of the historical preprocessing recipe or correctness of phonetic boundaries."
+    }
+  ]
+}

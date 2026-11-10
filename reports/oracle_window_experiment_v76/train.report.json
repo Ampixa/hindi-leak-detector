@@ -1,0 +1,111 @@
+{
+  "anchor": {
+    "0.95": {
+      "sources": 379,
+      "threshold": 1.8706016404724122,
+      "P1w_recall": 0.8258575197889182,
+      "S2_flag_rate": 0.047493403693931395,
+      "paired_S2_P1w_concordance": 0.974934036939314,
+      "paired_original_P1w_concordance": 0.978891820580475
+    },
+    "0.99": {
+      "sources": 379,
+      "threshold": 5.729717241058349,
+      "P1w_recall": 0.41160949868073876,
+      "S2_flag_rate": 0.0079155672823219,
+      "paired_S2_P1w_concordance": 0.974934036939314,
+      "paired_original_P1w_concordance": 0.978891820580475
+    }
+  },
+  "oracle": {
+    "0.95": {
+      "sources": 379,
+      "threshold": 0.05722237284298368,
+      "P1w_recall": 0.38258575197889183,
+      "S2_flag_rate": 0.047493403693931395,
+      "paired_S2_P1w_concordance": 0.9023746701846965,
+      "paired_original_P1w_concordance": 0.9287598944591029
+    },
+    "0.99": {
+      "sources": 379,
+      "threshold": 0.683329878981865,
+      "P1w_recall": 0.013192612137203167,
+      "S2_flag_rate": 0.0079155672823219,
+      "paired_S2_P1w_concordance": 0.9023746701846965,
+      "paired_original_P1w_concordance": 0.9287598944591029
+    }
+  },
+  "duration_strata": {
+    "40_to_60ms": {
+      "sources": 144,
+      "groups": 97,
+      "anchor": {
+        "sources": 144,
+        "threshold": 6.268603549728393,
+        "P1w_recall": 0.4166666666666667,
+        "S2_flag_rate": 0.006944444444444444,
+        "paired_S2_P1w_concordance": 0.96875,
+        "paired_original_P1w_concordance": 0.9930555555555556
+      },
+      "oracle": {
+        "sources": 144,
+        "threshold": 1.4522384117506326,
+        "P1w_recall": 0.0,
+        "S2_flag_rate": 0.006944444444444444,
+        "paired_S2_P1w_concordance": 0.875,
+        "paired_original_P1w_concordance": 0.9166666666666666
+      }
+    },
+    "60_to_90ms": {
+      "sources": 233,
+      "groups": 131,
+      "anchor": {
+        "sources": 233,
+        "threshold": 4.6109014911746975,
+        "P1w_recall": 0.48068669527896996,
+        "S2_flag_rate": 0.008583690987124463,
+        "paired_S2_P1w_concordance": 0.9785407725321889,
+        "paired_original_P1w_concordance": 0.9699570815450643
+      },
+      "oracle": {
+        "sources": 233,
+        "threshold": 0.12041213715762016,
+        "P1w_recall": 0.34334763948497854,
+        "S2_flag_rate": 0.008583690987124463,
+        "paired_S2_P1w_concordance": 0.9227467811158798,
+        "paired_original_P1w_concordance": 0.9399141630901288
+      }
+    },
+    "90ms_and_up": {
+      "sources": 2,
+      "groups": 1,
+      "anchor": {
+        "sources": 2,
+        "threshold": -0.580505205860138,
+        "P1w_recall": 1.0,
+        "S2_flag_rate": 0.0,
+        "paired_S2_P1w_concordance": 1.0,
+        "paired_original_P1w_concordance": 1.0
+      },
+      "oracle": {
+        "sources": 2,
+        "threshold": -0.580505196861605,
+        "P1w_recall": 0.5,
+        "S2_flag_rate": 0.0,
+        "paired_S2_P1w_concordance": 0.5,
+        "paired_original_P1w_concordance": 0.5
+      }
+    }
+  },
+  "oracle_recall_95_cluster_percentile_interval": [
+    0.0,
+    0.04806547619047617
+  ],
+  "bootstrap": {
+    "unit": "phonetic-collision group, voices kept together",
+    "seed": 760,
+    "replicates": 500
+  },
+  "top_decile_anchor_S2_sources": 38,
+  "top_decile_under_half_retained_coverage": 0.21052631578947367
+}

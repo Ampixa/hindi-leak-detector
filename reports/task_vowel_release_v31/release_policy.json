@@ -1,0 +1,31 @@
+{
+  "parent_model_sha256": "a99b88f9a9d2c38de01f750fc4faa27fecfaa308303b6b16d90333c612b03914",
+  "development_regressions": [
+    {
+      "id": "real_yt_yt01_005",
+      "word": "हैन",
+      "kind": "vowel_quality"
+    },
+    {
+      "id": "real_yt_yt01_008",
+      "word": "किनकि",
+      "kind": "vowel_deletion"
+    }
+  ],
+  "fallbacks": [
+    {
+      "kind": "vowel_quality",
+      "reason": "Mandatory development pronunciation regression failed",
+      "regression": {
+        "id": "real_yt_yt01_005",
+        "word": "हैन",
+        "kind": "vowel_quality"
+      },
+      "fallback_model": "paired_local_detector_v27",
+      "fallback_sha256": "7a1a728a7aa0bdb949a2203fdab2d8d124fea997772c407ddc49a479a2ab4295",
+      "no_word_specific_runtime_rule": true
+    }
+  ],
+  "policy": "Per-cause frozen-head rollback on mandatory development regressions; operating points recalibrated on existing qualified development data, never a word-specific threshold.",
+  "regressions_are_not_independent_accuracy": true
+}

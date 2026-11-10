@@ -1,0 +1,11 @@
+{
+  "reviewed_utc": "2026-11-09T14:55:45.420493+00:00",
+  "mac_free_bytes": 28349673472,
+  "k2_free_bytes_last_verified": 228489015296,
+  "new_largest_artifact": "k2 reports/stem_features_v83 approximately399MiB, active consumer v83 reproducibility/error comparison, review2026-11-10",
+  "deletions": [],
+  "space_reclaimed_by_this_work": 0,
+  "current_fit": "complete; PID16689 no longer running",
+  "next_data_need": "Short-vowel discrimination across held-outvoices; candidate still fails required5percent shortest-vowel false-flag gate.",
+  "live_model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85"
+}

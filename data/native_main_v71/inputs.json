@@ -1,0 +1,68 @@
+{
+  "words": 512,
+  "clips": 2404,
+  "kind_words": {
+    "vowel_deletion": 512
+  },
+  "partition_words": {
+    "train": 321,
+    "test": 89,
+    "development": 102
+  },
+  "explicit_cause_quotas": {
+    "vowel_deletion": 512,
+    "vowel_quality": 0
+  },
+  "voices_per_partition": 4,
+  "group_phone_collisions": true,
+  "allow_consonant_context": true,
+  "training_pilot": false,
+  "edited_test_only": true,
+  "internal_deletions_only": true,
+  "quality_ai_only": false,
+  "evaluation_only": false,
+  "conditioning_group_offset": 0,
+  "quality_only": false,
+  "evaluation_carrier_override": null,
+  "unknown_consonant_context": false,
+  "context_resource_inventory_sha256": "52f15313ff0274361c6b21be55586f4f277b2a418fb86e72de78648b621e3098",
+  "additional_excluded_plans": [
+    {
+      "path": "data/minimal_vowels_v23/selection.json",
+      "sha256": "f41f9ee1aa5541f54d49f765fb0bc8ef72a0de35b28182c32e7c012f11d0af41"
+    },
+    {
+      "path": "data/minimal_internal_v26/selection.json",
+      "sha256": "672a32083dce42cf287af871cfc959db1ad462d6bc007c50e4ae5108f92d89a5"
+    },
+    {
+      "path": "data/minimal_audit_v29/selection.json",
+      "sha256": "6c7f79e6df2ee0bb82cb0e0068cfc29fff3ae4aa28d3e2d73e31a990c9cc106d"
+    },
+    {
+      "path": "data/minimal_quality_audit_v38/selection.json",
+      "sha256": "93465ba52e9e2b932ba8b874c72bd3e4355ee310f1fcfa0aeacaf360e3449b17"
+    },
+    {
+      "path": "data/minimal_context_audit_v62/selection.json",
+      "sha256": "7d980003f0706ea93289d0ca7950c526b47e9ffbd8967ec94533ec64091ee11f"
+    },
+    {
+      "path": "data/native_pilot_v69/selection.json",
+      "sha256": "6efbdecf90d2419f943e974691ed0f933c801f5d40be7ec3c5f0cb59ed45f180"
+    }
+  ],
+  "excluded_canonical_and_edited_phone_strings": 2193,
+  "excluded_original_swar_word_plan_sha256": "f51ec5cf6738ce05af7a8ed94fb40248d2e081ed09753b99636d500bdea0b9bf",
+  "phonetic_validation": "Edited G2P differs only at one declared vowel site; Hindi prior predicts that contrast",
+  "word_selection_exclusions": {
+    "no_verified_single_site_edit": 11961,
+    "edit_not_predicted_by_hindi_prior": 3453,
+    "unsupported_native_acoustic_units": 580,
+    "prior_or_swar_canonical_phone_collision": 32,
+    "unsupported_hindi_acoustic_units": 4,
+    "prior_or_swar_edited_collision": 2
+  },
+  "native_source_model_sha256": "2b4636e3aed0e4f2d035630e504be95fc58f494b690a851a91bfe0dd8299516f",
+  "labels": "Requested canonical/edited pronunciation, never generator identity or automatically asserted realization gold"
+}

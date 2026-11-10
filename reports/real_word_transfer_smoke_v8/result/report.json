@@ -1,0 +1,30 @@
+{
+  "status": "real_word_components_applied_not_validated_hindi_accuracy",
+  "clips": 5,
+  "failed_clips": 0,
+  "candidate_word_occurrences": 3,
+  "sources": {
+    "matrix_indicf5": 1,
+    "matrix_pocket": 1,
+    "regional_humans": 1,
+    "original_benchmark": 1,
+    "native_challenge": 1
+  },
+  "systems": {
+    "indicf5_stock": 1,
+    "pocket_nepali_v1c": 1,
+    "human_nepali_unlabeled": 1,
+    "native_recording": 2
+  },
+  "models_sha256": "254aecc9ace68ac3ae7e25b8fdb313beb0454a0f4b0e219e829ddf968fa57c45",
+  "actual_hindi_accuracy": null,
+  "native_acceptability_accuracy": null,
+  "preferred_style_is_correctness_gold": false,
+  "limits": [
+    "Frozen component classes are synthetic phoneme requests, not reviewed real-word errors.",
+    "Each crop is independently encoded as in component training; short/impossible/unsupported crops remain unavailable.",
+    "MMS word timestamps remain automatic; seven fixed windows measure classifier sensitivity but do not prove boundaries.",
+    "Source/checkpoint ordering is descriptive evidence, not actual Hindi-leakage accuracy.",
+    "The regional human bank supplies observations, never labels inferred from geography."
+  ]
+}

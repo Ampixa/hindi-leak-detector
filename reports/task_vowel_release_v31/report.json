@@ -1,0 +1,301 @@
+{
+  "status": "frozen_release_pending_validation",
+  "created_utc": "2026-11-08T23:52:12.868798+00:00",
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "model_kind": "task_vowel_v30",
+  "heads": {
+    "vowel_deletion": {
+      "feature_mode": "secondary57",
+      "architecture": "mlp16",
+      "origin": "task_specific_corrected_fit",
+      "operating_points": {
+        "high": 0.5,
+        "low": 0.2,
+        "development_negatives": 87
+      }
+    },
+    "vowel_quality": {
+      "feature_mode": "primary57",
+      "architecture": "mlp16",
+      "origin": "development_regression_fallback/paired_local_detector_v27",
+      "operating_points": {
+        "high": 0.5,
+        "low": 0.2,
+        "development_negatives": 60
+      }
+    }
+  },
+  "fallbacks": [
+    {
+      "kind": "vowel_quality",
+      "reason": "Mandatory development pronunciation regression failed",
+      "regression": {
+        "id": "real_yt_yt01_005",
+        "word": "\u0939\u0948\u0928",
+        "kind": "vowel_quality"
+      },
+      "fallback_model": "paired_local_detector_v27",
+      "fallback_sha256": "7a1a728a7aa0bdb949a2203fdab2d8d124fea997772c407ddc49a479a2ab4295",
+      "no_word_specific_runtime_rule": true
+    }
+  ],
+  "parent_training_counts": {
+    "vowel_deletion": {
+      "training_pairs": 238,
+      "development_pairs": 87,
+      "training_domains": [
+        "physical",
+        "natural",
+        "indic"
+      ],
+      "development_domains": [
+        "physical",
+        "natural",
+        "indic"
+      ]
+    },
+    "vowel_quality": {
+      "training_pairs": 180,
+      "development_pairs": 60,
+      "training_domains": [
+        "physical",
+        "natural"
+      ],
+      "development_domains": [
+        "physical",
+        "natural"
+      ]
+    }
+  },
+  "test": {
+    "physical": {
+      "retrospective_all_requests_or_physical": {
+        "vowel_deletion": {
+          "final_gated_decision": {
+            "n": 190,
+            "positive_labels": 95,
+            "negative_labels": 95,
+            "tp": 35,
+            "fp": 0,
+            "fn": 60,
+            "tn": 95,
+            "precision": 1.0,
+            "recall": 0.3684210526315789,
+            "false_positive_rate": 0.0,
+            "accuracy": 0.6842105263157895,
+            "balanced_accuracy": 0.6842105263157895,
+            "brier": 0.3157894736842105
+          },
+          "paired_ordering": 0.9789473684210527,
+          "uncertain_fraction": 0.30526315789473685
+        },
+        "vowel_quality": {
+          "final_gated_decision": {
+            "n": 166,
+            "positive_labels": 83,
+            "negative_labels": 83,
+            "tp": 18,
+            "fp": 0,
+            "fn": 65,
+            "tn": 83,
+            "precision": 1.0,
+            "recall": 0.21686746987951808,
+            "false_positive_rate": 0.0,
+            "accuracy": 0.608433734939759,
+            "balanced_accuracy": 0.608433734939759,
+            "brier": 0.39156626506024095
+          },
+          "paired_ordering": 0.8433734939759037,
+          "uncertain_fraction": 0.4578313253012048
+        }
+      },
+      "secondary_qualified_circular_diagnostic": {
+        "vowel_deletion": {
+          "final_gated_decision": {
+            "n": 190,
+            "positive_labels": 95,
+            "negative_labels": 95,
+            "tp": 35,
+            "fp": 0,
+            "fn": 60,
+            "tn": 95,
+            "precision": 1.0,
+            "recall": 0.3684210526315789,
+            "false_positive_rate": 0.0,
+            "accuracy": 0.6842105263157895,
+            "balanced_accuracy": 0.6842105263157895,
+            "brier": 0.3157894736842105
+          },
+          "paired_ordering": 0.9789473684210527,
+          "uncertain_fraction": 0.30526315789473685
+        },
+        "vowel_quality": {
+          "final_gated_decision": {
+            "n": 166,
+            "positive_labels": 83,
+            "negative_labels": 83,
+            "tp": 18,
+            "fp": 0,
+            "fn": 65,
+            "tn": 83,
+            "precision": 1.0,
+            "recall": 0.21686746987951808,
+            "false_positive_rate": 0.0,
+            "accuracy": 0.608433734939759,
+            "balanced_accuracy": 0.608433734939759,
+            "brier": 0.39156626506024095
+          },
+          "paired_ordering": 0.8433734939759037,
+          "uncertain_fraction": 0.4578313253012048
+        }
+      }
+    },
+    "natural": {
+      "retrospective_all_requests_or_physical": {
+        "vowel_deletion": {
+          "final_gated_decision": {
+            "n": 144,
+            "positive_labels": 72,
+            "negative_labels": 72,
+            "tp": 26,
+            "fp": 3,
+            "fn": 46,
+            "tn": 69,
+            "precision": 0.896551724137931,
+            "recall": 0.3611111111111111,
+            "false_positive_rate": 0.041666666666666664,
+            "accuracy": 0.6597222222222222,
+            "balanced_accuracy": 0.6597222222222222,
+            "brier": 0.3402777777777778
+          },
+          "paired_ordering": 0.7083333333333334,
+          "uncertain_fraction": 0.2916666666666667
+        },
+        "vowel_quality": {
+          "final_gated_decision": {
+            "n": 144,
+            "positive_labels": 72,
+            "negative_labels": 72,
+            "tp": 11,
+            "fp": 0,
+            "fn": 61,
+            "tn": 72,
+            "precision": 1.0,
+            "recall": 0.1527777777777778,
+            "false_positive_rate": 0.0,
+            "accuracy": 0.5763888888888888,
+            "balanced_accuracy": 0.5763888888888888,
+            "brier": 0.4236111111111111
+          },
+          "paired_ordering": 0.9583333333333334,
+          "uncertain_fraction": 0.4513888888888889
+        }
+      },
+      "secondary_qualified_circular_diagnostic": {
+        "vowel_deletion": {
+          "final_gated_decision": {
+            "n": 48,
+            "positive_labels": 24,
+            "negative_labels": 24,
+            "tp": 22,
+            "fp": 0,
+            "fn": 2,
+            "tn": 24,
+            "precision": 1.0,
+            "recall": 0.9166666666666666,
+            "false_positive_rate": 0.0,
+            "accuracy": 0.9583333333333334,
+            "balanced_accuracy": 0.9583333333333333,
+            "brier": 0.041666666666666664
+          },
+          "paired_ordering": 1.0,
+          "uncertain_fraction": 0.08333333333333333
+        },
+        "vowel_quality": {
+          "final_gated_decision": {
+            "n": 30,
+            "positive_labels": 15,
+            "negative_labels": 15,
+            "tp": 11,
+            "fp": 0,
+            "fn": 4,
+            "tn": 15,
+            "precision": 1.0,
+            "recall": 0.7333333333333333,
+            "false_positive_rate": 0.0,
+            "accuracy": 0.8666666666666667,
+            "balanced_accuracy": 0.8666666666666667,
+            "brier": 0.13333333333333333
+          },
+          "paired_ordering": 1.0,
+          "uncertain_fraction": 0.26666666666666666
+        }
+      }
+    },
+    "indic": {
+      "retrospective_all_requests_or_physical": {
+        "vowel_deletion": {
+          "final_gated_decision": {
+            "n": 160,
+            "positive_labels": 80,
+            "negative_labels": 80,
+            "tp": 26,
+            "fp": 3,
+            "fn": 54,
+            "tn": 77,
+            "precision": 0.896551724137931,
+            "recall": 0.325,
+            "false_positive_rate": 0.0375,
+            "accuracy": 0.64375,
+            "balanced_accuracy": 0.64375,
+            "brier": 0.35625
+          },
+          "paired_ordering": 0.7875,
+          "uncertain_fraction": 0.3375
+        },
+        "vowel_quality": {
+          "final_gated_decision": {
+            "n": 4,
+            "positive_labels": 2,
+            "negative_labels": 2,
+            "tp": 0,
+            "fp": 0,
+            "fn": 2,
+            "tn": 2,
+            "precision": null,
+            "recall": 0.0,
+            "false_positive_rate": 0.0,
+            "accuracy": 0.5,
+            "balanced_accuracy": 0.5,
+            "brier": 0.5
+          },
+          "paired_ordering": 0.5,
+          "uncertain_fraction": 0.5
+        }
+      },
+      "secondary_qualified_circular_diagnostic": {
+        "vowel_deletion": {
+          "final_gated_decision": {
+            "n": 34,
+            "positive_labels": 17,
+            "negative_labels": 17,
+            "tp": 16,
+            "fp": 1,
+            "fn": 1,
+            "tn": 16,
+            "precision": 0.9411764705882353,
+            "recall": 0.9411764705882353,
+            "false_positive_rate": 0.058823529411764705,
+            "accuracy": 0.9411764705882353,
+            "balanced_accuracy": 0.9411764705882353,
+            "brier": 0.058823529411764705
+          },
+          "paired_ordering": 1.0,
+          "uncertain_fraction": 0.08823529411764706
+        }
+      }
+    }
+  },
+  "actual_hindi_error_accuracy": null,
+  "development_regressions_used_for_release_selection": true
+}

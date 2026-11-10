@@ -1,0 +1,147 @@
+{
+  "status": "complete_no_prosody_candidate_admitted",
+  "created_utc": "2026-11-09T02:57:51.199691+00:00",
+  "legacy_actual_audit": {
+    "decisions": {
+      "a450/no_source_shift": 849,
+      "a450/source_shift": 275,
+      "real/no_source_shift": 803,
+      "real/source_shift": 332,
+      "swar/source_shift": 263,
+      "swar/no_source_shift": 886,
+      "a450/reference_sensitive": 222,
+      "real/reference_sensitive": 211,
+      "swar/reference_sensitive": 197
+    },
+    "swar_minus_real_median_source_score": -0.03614126890897751
+  },
+  "new_verified24_native_donors": 164,
+  "new_native_content_pass": 160,
+  "pitch_reserved": {
+    "positive_count": 37,
+    "negative_count": 74,
+    "true_positive": 2,
+    "false_positive": 1,
+    "recall": 0.05405405405405406,
+    "specificity": 0.9864864864864865,
+    "balanced_accuracy": 0.5202702702702703,
+    "actual_hindi_error_accuracy": null
+  },
+  "pitch_nuisance": {
+    "sham_pitch_plus3": {
+      "contexts": 37,
+      "added_flags_over_sham": 0,
+      "max_absolute_score_difference": 0.28676772117614746
+    },
+    "sham_pitch_minus3": {
+      "contexts": 37,
+      "added_flags_over_sham": 1,
+      "max_absolute_score_difference": 0.3458695411682129
+    },
+    "sham_gain": {
+      "contexts": 37,
+      "added_flags_over_sham": 0,
+      "max_absolute_score_difference": 5.960464477539063e-08
+    }
+  },
+  "same_word_direction_development": {
+    "positive_count": 24,
+    "negative_count": 48,
+    "true_positive": 0,
+    "false_positive": 0,
+    "recall": 0.0,
+    "specificity": 1.0,
+    "balanced_accuracy": 0.5,
+    "actual_hindi_error_accuracy": null
+  },
+  "same_word_direction_development_point5": {
+    "positive_count": 24,
+    "negative_count": 48,
+    "true_positive": 11,
+    "false_positive": 28,
+    "recall": 0.4583333333333333,
+    "specificity": 0.4166666666666667,
+    "balanced_accuracy": 0.4375,
+    "actual_hindi_error_accuracy": null
+  },
+  "rhythm_reserved": {
+    "positive_count": 34,
+    "negative_count": 68,
+    "true_positive": 2,
+    "false_positive": 0,
+    "recall": 0.058823529411764705,
+    "specificity": 1.0,
+    "balanced_accuracy": 0.5294117647058824,
+    "actual_hindi_error_accuracy": null
+  },
+  "rhythm_nuisance": {
+    "sham_pitch_plus3": {
+      "contexts": 34,
+      "added_flags_over_sham": 0,
+      "max_absolute_score_difference": 0.4079345762729645
+    },
+    "sham_pitch_minus3": {
+      "contexts": 34,
+      "added_flags_over_sham": 0,
+      "max_absolute_score_difference": 0.24044257402420044
+    },
+    "sham_gain": {
+      "contexts": 34,
+      "added_flags_over_sham": 0,
+      "max_absolute_score_difference": 0.0
+    }
+  },
+  "rhythm_phone_stability": {
+    "qualified_contexts": 14,
+    "total_contexts": 34,
+    "criterion": "Neither donor condition adds free-phone edits versus the original carrier beyond WORLD sham.",
+    "interpretation": "Probe stability diagnostic, not independent human phone truth.",
+    "stable_subset_metrics": {
+      "positive_count": 14,
+      "negative_count": 28,
+      "true_positive": 1,
+      "false_positive": 0,
+      "recall": 0.07142857142857142,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.5357142857142857,
+      "actual_hindi_error_accuracy": null
+    }
+  },
+  "frozen_score_diagnostics": {
+    "pitch": {
+      "fixed_point5_tp": 16,
+      "fixed_point5_fp": 27,
+      "positive_count": 37,
+      "negative_count": 74,
+      "rank_auc": 0.5372534696859022,
+      "policy": "Post-freeze description only; no threshold/model changes and no real Hindi-error labels."
+    },
+    "rhythm": {
+      "fixed_point5_tp": 24,
+      "fixed_point5_fp": 30,
+      "positive_count": 34,
+      "negative_count": 68,
+      "rank_auc": 0.6825259515570934,
+      "policy": "Post-freeze description only; no threshold/model changes and no real Hindi-error labels."
+    }
+  },
+  "v51_recovery": "Failed before fitting with58/13/21 eligible contexts below60/15/25 preset quotas. v52 explicitly revised function-word minimum80->30ms and allowed exact end-of-utterance alignment; no v51 model existed.",
+  "new_contexts": {
+    "pitch": {
+      "train": 92,
+      "development": 24,
+      "reserved_evaluation": 37
+    },
+    "rhythm": {
+      "train": 87,
+      "development": 22,
+      "reserved_evaluation": 34
+    }
+  },
+  "served_vowel_model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "production_prosody_head_added": false,
+  "actual_hindi_error_accuracy": null,
+  "hindi_specific_intonation_accuracy": null,
+  "conclusion": "Known source pitch/rhythm transfers do not provide a reliable local Hindi-error score under these recipes. Do not combine failed heads into live word flags.",
+  "next_work": "Learn phone-conditioned duration/stress and sentence/discourse context with broader native reference support, preserving localized vowel detector; real error calibration still required."
+}

@@ -1,0 +1,40 @@
+{
+  "partition": "train only",
+  "model_sha256": "cd912af1fcf474a4aecbf2654e62185bf8d44623d48e90c72967512a3f25ef51",
+  "control_items_sha256": "17ba6a3e065a4c836683cd304d7347b8f437cce8b8b75e07d2376ac56ba9b471",
+  "selected_sources": [
+    "main71_5a7dbb0013fdb0e125d5_v1_c0",
+    "main71_2d95a6585a0d862a13c7_v0_c0",
+    "main71_321f38111911bf56b986_v3_c0",
+    "main71_27baa7037f4730122795_v1_c0",
+    "main71_552bb07eccf515b5d8d9_v0_c0",
+    "main71_5562318a77b2d3a41be5_v0_c0",
+    "main71_4ab06e610d5bad2893c2_v0_c0",
+    "main71_3b6d04edea897466be10_v1_c0",
+    "main71_34a45ac3cd2004b5db86_v2_c0",
+    "main71_525937904fc98f18fd40_v1_c0",
+    "main71_328fe94a89a7956486cb_v3_c0",
+    "main71_50e81e410d5788e9c0aa_v3_c0",
+    "main71_24a64f481beda8b634f7_v0_c0",
+    "main71_44eb927608d088cc4347_v2_c0",
+    "main71_5bf4bac9054cd225dee3_v0_c0",
+    "main71_20214e51a631a044b340_v2_c0",
+    "main71_52a38842c6d72570bf7c_v3_c0",
+    "main71_3e8b8ba01b0c93fcf788_v0_c0",
+    "main71_2e0495ad75530d1df4fa_v0_c0",
+    "main71_1d288e930f98958ec33c_v0_c0",
+    "main71_47135b9a2a0347f0bdcb_v1_c0",
+    "main71_2c9709936570c001d278_v0_c0",
+    "main71_5422e8a0e24a0ced4737_v3_c0",
+    "main71_212461887bacb5c4ddbc_v1_c0"
+  ],
+  "selection": "12 highest-scoring S2 cases from distinct collision groups, then12 additional distinct groups with seed750. Hard-case diagnostic, not generalization accuracy.",
+  "comparison": "Matched WORLD original and shortened-but-retained vowel. Oracle interval is the actual documented edit geometry, for diagnosis only; never an inference feature.",
+  "frame_geometry": "Audio-duration/frame-count bins, as in the frozen feature runtime; bins intersecting the actual retained interval. Not exact receptive-field localization.",
+  "interpretation_thresholds": {
+    "encoder_recovers_vowel_in_oracle": 0.6,
+    "low_inferred_gap_peak": 0.1,
+    "low_oracle_peak": 0.2
+  },
+  "go_no_go": "If low inferred-gap peak with oracle vowel peak>=.6, inspect localization. If shortened oracle peak<.2 while matched WORLD original>=.6, inspect encoder short-vowel sensitivity. These are diagnostic hypotheses, not human phonetic labels."
+}

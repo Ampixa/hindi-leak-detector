@@ -1,0 +1,479 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-11-06T15:41:12.776105+00:00",
+  "creator": "Codex GPT-6 /root",
+  "purpose": "User-authorized weak source-label baseline with matched IndicF5/Audio8 development examples; reserved evaluation untouched",
+  "label_assumption": {
+    "indicf5_stock": 1,
+    "audio8_r3": 0
+  },
+  "label_source": "User instruction: consider original IndicF5 Indian-accent proxy and Audio8 best-Nepali proxy; NOT per-clip human labels",
+  "references": [
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259065500397435_005809.wav",
+      "name": "S4259065500397435_005809.wav",
+      "sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4257751100369637_009829.wav",
+      "name": "S4257751100369637_009829.wav",
+      "sha256": "6ed10838a90596e8775880ff7a3116342079317d98b9ec29fe1737eaeebe9e6b"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4258453800348915_004837.wav",
+      "name": "S4258453800348915_004837.wav",
+      "sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4257298100347538_019650.wav",
+      "name": "S4257298100347538_019650.wav",
+      "sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4258716800392755_018420.wav",
+      "name": "S4258716800392755_018420.wav",
+      "sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259477200361463_015355.wav",
+      "name": "S4259477200361463_015355.wav",
+      "sha256": "b3ce03a672bcb6eaf9859682766953f05055ade8277e6c23afd1b00efa038247"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4257387500340373_011237.wav",
+      "name": "S4257387500340373_011237.wav",
+      "sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4257689200333878_001003.wav",
+      "name": "S4257689200333878_001003.wav",
+      "sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259675300304689_013364.wav",
+      "name": "S4259675300304689_013364.wav",
+      "sha256": "3c9cf5e6e5fa49f4cddcf3934646b1d678d856c9edd925154aa1fe39d115514e"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4256958500325615_002961.wav",
+      "name": "S4256958500325615_002961.wav",
+      "sha256": "41db354a2216301901a494a354c09548ccf38fb8a6ab5ecde6b715c6a4857406"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259386800339426_016277.wav",
+      "name": "S4259386800339426_016277.wav",
+      "sha256": "bb912945821309f163ccfa8d3b369b7eb40fe370bc1ec191e1e31aff744ce370"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259361500382428_025303.wav",
+      "name": "S4259361500382428_025303.wav",
+      "sha256": "6993f282685e2c79be6c1657fe7178c7337629cd35a819f3486796e57f693fb6"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4258254800397423_008408.wav",
+      "name": "S4258254800397423_008408.wav",
+      "sha256": "2324e89c0e9fab1255a05f15a9daa3271b1d0f74f964ca76a1e4fd4d78d3d6f1"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4256933800326415_008877.wav",
+      "name": "S4256933800326415_008877.wav",
+      "sha256": "14dcc7e2d2f417d11db91bf8fae9e767af05952d1b8d17b488a1648b20aaa638"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259790200369285_016321.wav",
+      "name": "S4259790200369285_016321.wav",
+      "sha256": "09716e1dd999ef87a83452a89f9bfc3f801c4b5936aadd6035434ce6fe74828a"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4258147000367444_016985.wav",
+      "name": "S4258147000367444_016985.wav",
+      "sha256": "15ed78181b636b5435f43f185992b43025c7684412bd030a52bf288a0ce1d28e"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "dev_00_0",
+      "text": "त्यस पश्चात् त मेरो मूलवासी चाहिँ म दार्जिलङको हो होइन दार्जिलिङकोमा गए पछि चाहिँ",
+      "speaker_id": "S4259065500397435",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4259065500397435_005809.wav",
+        "sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949",
+        "text": "मेरो पेटिएम वालेट सक्रिय गर्न कृपया मेरो प्यान कार्ड विवरणहरू भर्नुहोस्"
+      }
+    },
+    {
+      "id": "dev_00_1",
+      "text": "चौधको दिउँसो के छ ताकि म दुई बर्से जम्ल्याहाहरूसित जान सकूँ",
+      "speaker_id": "S4259065500397435",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4259065500397435_005809.wav",
+        "sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949",
+        "text": "मेरो पेटिएम वालेट सक्रिय गर्न कृपया मेरो प्यान कार्ड विवरणहरू भर्नुहोस्"
+      }
+    },
+    {
+      "id": "dev_01_0",
+      "text": "हाम्रो समुदायमा अभ्यासमा रहेका परम्परागत कृषि अभ्यासहरूको बारेमा बताउनु पर्दा",
+      "speaker_id": "S4257751100369637",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4257751100369637_009829.wav",
+        "sha256": "6ed10838a90596e8775880ff7a3116342079317d98b9ec29fe1737eaeebe9e6b",
+        "text": "जन्मसिद्ध अधिकारको निम्ति चाहिँ झुक्दै नझुक्नु भन्ने खालको"
+      }
+    },
+    {
+      "id": "dev_01_1",
+      "text": "जस्तै अब दौरा सुरुवालहरू ल लगाउँछन् हैन खुकुरी भिर्छन् खुकुरी भिर्ने चलन छ",
+      "speaker_id": "S4257751100369637",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4257751100369637_009829.wav",
+        "sha256": "6ed10838a90596e8775880ff7a3116342079317d98b9ec29fe1737eaeebe9e6b",
+        "text": "जन्मसिद्ध अधिकारको निम्ति चाहिँ झुक्दै नझुक्नु भन्ने खालको"
+      }
+    },
+    {
+      "id": "dev_02_0",
+      "text": "जुम्बा भन्ने एउटा डान्स छ त्यो हेरेर पनि हामीलाई राम्रो लाग्छ मतलब हाम्रो",
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4258453800348915_004837.wav",
+        "sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+        "text": "नेपाल भुटान बङलादेश श्रीलङ्का भारत"
+      }
+    },
+    {
+      "id": "dev_02_1",
+      "text": "दार्जिलिङ कालिम्पोङ मालदा जलपाइगुडी अलिपुरद्वार",
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4258453800348915_004837.wav",
+        "sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+        "text": "नेपाल भुटान बङलादेश श्रीलङ्का भारत"
+      }
+    },
+    {
+      "id": "dev_03_0",
+      "text": "यी सेवा संस्थानहरू स्वस्थ मुद्धाबारे अनि समाजको उत्थानबारे काम गर्ने गर्दछ",
+      "speaker_id": "S4257298100347538",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4257298100347538_019650.wav",
+        "sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+        "text": "म सङ्गीत सुन्न रुचाउँछु मलाई आधुनिक प्रकारको सङ्गीत मन पर्छ"
+      }
+    },
+    {
+      "id": "dev_03_1",
+      "text": "बेला भिटा अर्ग्यानिक आइलिफ्ट अन्डर आई क्रिम जेलमा यस अफरका लागि नियम र सर्तहरू के हुन्",
+      "speaker_id": "S4257298100347538",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4257298100347538_019650.wav",
+        "sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+        "text": "म सङ्गीत सुन्न रुचाउँछु मलाई आधुनिक प्रकारको सङ्गीत मन पर्छ"
+      }
+    },
+    {
+      "id": "dev_04_0",
+      "text": "बाँकुरा बिरभुम कुचबिहार दक्षिण दिनाजपुर मुर्सिदाबाद",
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4258716800392755_018420.wav",
+        "sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+        "text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक गरेको थिएँ अनि"
+      }
+    },
+    {
+      "id": "dev_04_1",
+      "text": "मलाई चाहिँ पौडी खेल्नु क्रिकेट खेल्नु ट्रेकिङ",
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4258716800392755_018420.wav",
+        "sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+        "text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक गरेको थिएँ अनि"
+      }
+    },
+    {
+      "id": "dev_05_0",
+      "text": "हुँदा हुँदै धेरै परिवर्तन आउँदै गए र अहिले पनि म तपाईँको यो",
+      "speaker_id": "S4259477200361463",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4259477200361463_015355.wav",
+        "sha256": "b3ce03a672bcb6eaf9859682766953f05055ade8277e6c23afd1b00efa038247",
+        "text": "बाल्यकालमा हामी सबै मिली स्कुलको कुना काप्चामा गइ"
+      }
+    },
+    {
+      "id": "dev_05_1",
+      "text": "जीवन धान्न त मैले स्वयम् मेरो बिचारमा त त्यति गाह्रो छैन जस्तो मलाई लाग्दछ धन्यवाद",
+      "speaker_id": "S4259477200361463",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4259477200361463_015355.wav",
+        "sha256": "b3ce03a672bcb6eaf9859682766953f05055ade8277e6c23afd1b00efa038247",
+        "text": "बाल्यकालमा हामी सबै मिली स्कुलको कुना काप्चामा गइ"
+      }
+    },
+    {
+      "id": "dev_06_0",
+      "text": "वाहकको रूमा पनि हेर्ने गरिन्छ र विशेष गरेर मलाई मनपर्ने ए चरामा चाहिँ काग पनि रहेको छ",
+      "speaker_id": "S4257387500340373",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4257387500340373_011237.wav",
+        "sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+        "text": "ब यसको व्याकरण छुट्टै एउटा मौलिकतामा नेपाली भाषा आजको समय स्थितिसम्म आइपुगेको छ"
+      }
+    },
+    {
+      "id": "dev_06_1",
+      "text": "परेवा लाहाँचे अनि डाँफे मुनाल हुकुस",
+      "speaker_id": "S4257387500340373",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4257387500340373_011237.wav",
+        "sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+        "text": "ब यसको व्याकरण छुट्टै एउटा मौलिकतामा नेपाली भाषा आजको समय स्थितिसम्म आइपुगेको छ"
+      }
+    },
+    {
+      "id": "dev_07_0",
+      "text": "दार्जिलिङ जिल्लामा मुख्य प्राकृतिक स्रोत वन जङ्गल चिया उद्योग",
+      "speaker_id": "S4257689200333878",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4257689200333878_001003.wav",
+        "sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+        "text": "मेरो वस्तु सूचीबाट नेचर ल्यान्ड अर्गानिक्स कसुरी मेथी हटाउनु होस्"
+      }
+    },
+    {
+      "id": "dev_07_1",
+      "text": "मलाई धेरै थरीका कार्डहरू थाहा छ जस्तै डेबिट कार्ड क्रेडिट कार्ड",
+      "speaker_id": "S4257689200333878",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4257689200333878_001003.wav",
+        "sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+        "text": "मेरो वस्तु सूचीबाट नेचर ल्यान्ड अर्गानिक्स कसुरी मेथी हटाउनु होस्"
+      }
+    },
+    {
+      "id": "dev_08_0",
+      "text": "यस उदाहरणका लागि यो शुल्कमा सात सौ पचास डलर अतिरिक्त लागत दाबी गर्दछ",
+      "speaker_id": "S4259675300304689",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4259675300304689_013364.wav",
+        "sha256": "3c9cf5e6e5fa49f4cddcf3934646b1d678d856c9edd925154aa1fe39d115514e",
+        "text": "हुनसकेन त्यसले गर्दाखेरि त्यसमा पनि दुःख लागेको थियो लडाइँभन्दा पनि"
+      }
+    },
+    {
+      "id": "dev_08_1",
+      "text": "चोलामण्डलम फाइनेन्सबाट सम्पत्ति विरुद्ध ऋणका लागि रिमाइन्डर मेटाउनुहोस्",
+      "speaker_id": "S4259675300304689",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4259675300304689_013364.wav",
+        "sha256": "3c9cf5e6e5fa49f4cddcf3934646b1d678d856c9edd925154aa1fe39d115514e",
+        "text": "हुनसकेन त्यसले गर्दाखेरि त्यसमा पनि दुःख लागेको थियो लडाइँभन्दा पनि"
+      }
+    },
+    {
+      "id": "dev_09_0",
+      "text": "अनि राम्रो कम्पनीको सामान लिनुहोस् अनि तपाईँहरूले चलाउनुहोस् तपाईँलाई धेरै लाभदायक हुनेछ",
+      "speaker_id": "S4256958500325615",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4256958500325615_002961.wav",
+        "sha256": "41db354a2216301901a494a354c09548ccf38fb8a6ab5ecde6b715c6a4857406",
+        "text": "साथै विशेष गरी सेवा चालक सेवा क्या कार्यलयलाई म अनुरोध गर्दछु"
+      }
+    },
+    {
+      "id": "dev_09_1",
+      "text": "आज किनभने आफ्नो भाषा बाँच्यो भने चाहिँ आज सबै कुरो बाँच्ने छ आफ्नो भाषा बाँच्यो भने हाम्रो संस्कृति बाँच्छ",
+      "speaker_id": "S4256958500325615",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4256958500325615_002961.wav",
+        "sha256": "41db354a2216301901a494a354c09548ccf38fb8a6ab5ecde6b715c6a4857406",
+        "text": "साथै विशेष गरी सेवा चालक सेवा क्या कार्यलयलाई म अनुरोध गर्दछु"
+      }
+    },
+    {
+      "id": "dev_10_0",
+      "text": "मजाले त्यसलाई सुप बनाएर खान सकिन्छ गुन्द्रुकको झोल भन्छ त्यो एकदमै सबैले मनपराउने कुरा हो",
+      "speaker_id": "S4259386800339426",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4259386800339426_016277.wav",
+        "sha256": "bb912945821309f163ccfa8d3b369b7eb40fe370bc1ec191e1e31aff744ce370",
+        "text": "त्यसमा दबाईहरू युज गरेको हुँदैन आफै है मजाले अब अर्ग्यानिक कुराहरू हामीले खान सकिन्छ"
+      }
+    },
+    {
+      "id": "dev_10_1",
+      "text": "अघि म चढेको ट्याक्सीमा मेरो वलेट छुट्टिएको छ त्यो चालकलाई फिर्ता बोलाइदिनु होस्",
+      "speaker_id": "S4259386800339426",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4259386800339426_016277.wav",
+        "sha256": "bb912945821309f163ccfa8d3b369b7eb40fe370bc1ec191e1e31aff744ce370",
+        "text": "त्यसमा दबाईहरू युज गरेको हुँदैन आफै है मजाले अब अर्ग्यानिक कुराहरू हामीले खान सकिन्छ"
+      }
+    },
+    {
+      "id": "dev_11_0",
+      "text": "उहाँ उहाँहरू बिचरा खेतिमा खटिखाने श्रमिकहरू हुनुहुन्छ जो दार्जिलिङ डिस्ट्रिक्टमा बसेर",
+      "speaker_id": "S4259361500382428",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4259361500382428_025303.wav",
+        "sha256": "6993f282685e2c79be6c1657fe7178c7337629cd35a819f3486796e57f693fb6",
+        "text": "सोह्र बिस निन्नानब्बे एक सौ दस एक सौ बिस"
+      }
+    },
+    {
+      "id": "dev_11_1",
+      "text": "टिकट किनेर टिकट चाहिँ लाई चाहिँ चिठी टालेर टिकटको व्यवहार गरिएको थियो त्यति बेला",
+      "speaker_id": "S4259361500382428",
+      "split": "train",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4259361500382428_025303.wav",
+        "sha256": "6993f282685e2c79be6c1657fe7178c7337629cd35a819f3486796e57f693fb6",
+        "text": "सोह्र बिस निन्नानब्बे एक सौ दस एक सौ बिस"
+      }
+    },
+    {
+      "id": "dev_12_0",
+      "text": "प्लिज टेल द पोजिटिभ एक्सपिरियन्स यु ह्याड विथ युअर फर्स्ट प्रोडक्ट",
+      "speaker_id": "S4258254800397423",
+      "split": "development",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4258254800397423_008408.wav",
+        "sha256": "2324e89c0e9fab1255a05f15a9daa3271b1d0f74f964ca76a1e4fd4d78d3d6f1",
+        "text": "जीवनमा म आफ्नो परिवार अनि आफ्नो नानीहरूलाई नै बेसी महत्त्व दिन्छु"
+      }
+    },
+    {
+      "id": "dev_12_1",
+      "text": "मसँग भन्नपर्दा धार्मिक रीति रिवाजसँग सम्बन्धित गीत सङ्गिनी गीत हो",
+      "speaker_id": "S4258254800397423",
+      "split": "development",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4258254800397423_008408.wav",
+        "sha256": "2324e89c0e9fab1255a05f15a9daa3271b1d0f74f964ca76a1e4fd4d78d3d6f1",
+        "text": "जीवनमा म आफ्नो परिवार अनि आफ्नो नानीहरूलाई नै बेसी महत्त्व दिन्छु"
+      }
+    },
+    {
+      "id": "dev_13_0",
+      "text": "के तपाईँ मेरो हिमाचल प्रदेश ग्रामीण ब्याङ्क भिसालाई मोबिक्विकबाट हटाउन सक्नुहुन्छ",
+      "speaker_id": "S4256933800326415",
+      "split": "development",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4256933800326415_008877.wav",
+        "sha256": "14dcc7e2d2f417d11db91bf8fae9e767af05952d1b8d17b488a1648b20aaa638",
+        "text": "मैले गत हप्तादेखि डियोड्रेन्टस प्राप्त गरेको छैन अनुमानित प्राप्ति मिति कहिले हो"
+      }
+    },
+    {
+      "id": "dev_13_1",
+      "text": "यदि तिनीहरूमध्ये धेरै छन् भने ती सबैलाई भर्नका लागि तालिका बनाउनुहोस्",
+      "speaker_id": "S4256933800326415",
+      "split": "development",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4256933800326415_008877.wav",
+        "sha256": "14dcc7e2d2f417d11db91bf8fae9e767af05952d1b8d17b488a1648b20aaa638",
+        "text": "मैले गत हप्तादेखि डियोड्रेन्टस प्राप्त गरेको छैन अनुमानित प्राप्ति मिति कहिले हो"
+      }
+    },
+    {
+      "id": "dev_14_0",
+      "text": "एलिसा अनु नम्रता सेलेस्टिना एनेस्थेसिया पुकार",
+      "speaker_id": "S4259790200369285",
+      "split": "development",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4259790200369285_016321.wav",
+        "sha256": "09716e1dd999ef87a83452a89f9bfc3f801c4b5936aadd6035434ce6fe74828a",
+        "text": "जम्मू कश्मीर आसाम मेघालय पश्चिम बङ्गाल अनि सिक्किम"
+      }
+    },
+    {
+      "id": "dev_14_1",
+      "text": "कृपया अमेरिकामा आप्रवासन कानुनबारे यस हप्ताको समाचार फेला पार्नुहोस्",
+      "speaker_id": "S4259790200369285",
+      "split": "development",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4259790200369285_016321.wav",
+        "sha256": "09716e1dd999ef87a83452a89f9bfc3f801c4b5936aadd6035434ce6fe74828a",
+        "text": "जम्मू कश्मीर आसाम मेघालय पश्चिम बङ्गाल अनि सिक्किम"
+      }
+    },
+    {
+      "id": "dev_15_0",
+      "text": "त्यस्तै तरिकाले ओडोनिल राखेर त्यहाँ",
+      "speaker_id": "S4258147000367444",
+      "split": "development",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4258147000367444_016985.wav",
+        "sha256": "15ed78181b636b5435f43f185992b43025c7684412bd030a52bf288a0ce1d28e",
+        "text": "कति मूर्ख छ कति ज्ञानी छ र कस्ता कस्ता बिमारहरूले पीडित छन्"
+      }
+    },
+    {
+      "id": "dev_15_1",
+      "text": "सय वर्ष वा सो भन्दा पुराना रुखलाई सम्पदाको दर्जा दिइएको छ",
+      "speaker_id": "S4258147000367444",
+      "split": "development",
+      "seed": 0,
+      "reference": {
+        "audio": "/home/ampixa/hindi-detector-proxy-v1/references/S4258147000367444_016985.wav",
+        "sha256": "15ed78181b636b5435f43f185992b43025c7684412bd030a52bf288a0ce1d28e",
+        "text": "कति मूर्ख छ कति ज्ञानी छ र कस्ता कस्ता बिमारहरूले पीडित छन्"
+      }
+    }
+  ]
+}

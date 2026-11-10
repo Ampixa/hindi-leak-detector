@@ -1,0 +1,236 @@
+[
+  {
+    "id": "cross80_s00",
+    "text": "यो बाटो पुरानो हैन, नयाँ पुलतिर जानुपर्छ।",
+    "target_word": "हैन",
+    "category": "confirmed_word_new_context",
+    "case_sha256": "22a1d89a03e66f5decb6dff70c7e43f18cda7f03fab9195c0cbe3692102fdcb1",
+    "readings": 8,
+    "flagged_readings": 5
+  },
+  {
+    "id": "cross80_s01",
+    "text": "आज बिदा हैन, कार्यालय खुलै छ।",
+    "target_word": "हैन",
+    "category": "confirmed_word_new_context",
+    "case_sha256": "842939df911161100efca9071d2e5f1592770480270f8f4e52ec73f447068fb4",
+    "readings": 8,
+    "flagged_readings": 5
+  },
+  {
+    "id": "cross80_s02",
+    "text": "म चाँडै फर्किन्छु किनकि भोलि बिहान काम छ।",
+    "target_word": "किनकि",
+    "category": "confirmed_word_new_context",
+    "case_sha256": "ed87633344f9e3ecba0d62ed667b54734cbb053eb2d730cc67868027ad0edbe6",
+    "readings": 8,
+    "flagged_readings": 4
+  },
+  {
+    "id": "cross80_s03",
+    "text": "ऊ हिँडेर आयो किनकि बस छुटिसकेको थियो।",
+    "target_word": "किनकि",
+    "category": "confirmed_word_new_context",
+    "case_sha256": "bdf7956495478ccc9010a0fb63e8e4b9afef861cf0897a41b56986f744549a78",
+    "readings": 8,
+    "flagged_readings": 4
+  },
+  {
+    "id": "cross80_s04",
+    "text": "आज नेकपा र अरू दलका प्रतिनिधि बैठकमा आए।",
+    "target_word": "नेकपा",
+    "category": "confirmed_word_new_context",
+    "case_sha256": "9b18e1f266e2bf7afa86d71c7dfa9772c5e9ea7b29f81b5f047dc6b9e351211a",
+    "readings": 8,
+    "flagged_readings": 4
+  },
+  {
+    "id": "cross80_s05",
+    "text": "उनले नेकपा भन्ने नाम स्पष्टसँग उच्चारण गरे।",
+    "target_word": "नेकपा",
+    "category": "confirmed_word_new_context",
+    "case_sha256": "5214b05ae19af864bb3994b515a1dfeec454753d70624523173237bf22ed1543",
+    "readings": 8,
+    "flagged_readings": 4
+  },
+  {
+    "id": "cross80_s06",
+    "text": "तलको कोठामा आज पढाइ भइरहेको छ।",
+    "target_word": "तलको",
+    "category": "confirmed_word_new_context",
+    "case_sha256": "c5d49ea7ad0757f3311bc8a6df80cac5a32bf2d69da1d8e92f34fe7d866c15b5",
+    "readings": 8,
+    "flagged_readings": 4
+  },
+  {
+    "id": "cross80_s07",
+    "text": "कृपया तलको सूची एकपटक ध्यान दिएर हेर्नुहोस्।",
+    "target_word": "तलको",
+    "category": "confirmed_word_new_context",
+    "case_sha256": "1e0247f4b01a2779dea6c5d9548f5d3f6b3220a33a5981edf4ea0abceff9eb9f",
+    "readings": 8,
+    "flagged_readings": 5
+  },
+  {
+    "id": "cross80_s08",
+    "text": "राम्रो शिक्षक हुनलाई धैर्य र अभ्यास चाहिन्छ।",
+    "target_word": "हुनलाई",
+    "category": "confirmed_word_new_context",
+    "case_sha256": "68054664a6699935e13dcdb013d04ed757ef9a8e376b9b96693acabdb4285265",
+    "readings": 8,
+    "flagged_readings": 4
+  },
+  {
+    "id": "cross80_s09",
+    "text": "यो काम सफल हुनलाई सबैको सहयोग चाहिन्छ।",
+    "target_word": "हुनलाई",
+    "category": "confirmed_word_new_context",
+    "case_sha256": "989654203526313ad76639781c7aeb92132bcd4e6c65fc11a00e8cc5663464f6",
+    "readings": 8,
+    "flagged_readings": 5
+  },
+  {
+    "id": "cross80_s10",
+    "text": "मेसिन चलाउनको लागि पहिले सुरक्षा नियम पढ्नुहोस्।",
+    "target_word": "चलाउनको",
+    "category": "confirmed_word_new_context",
+    "case_sha256": "04bc8b75a7fac9ddcf37c0aa3723b0f379d3db9693ccc0684d9aafced9d0fd57",
+    "readings": 8,
+    "flagged_readings": 4
+  },
+  {
+    "id": "cross80_s11",
+    "text": "घर चलाउनको खर्च महिनैपिच्छे बढिरहेको छ।",
+    "target_word": "चलाउनको",
+    "category": "confirmed_word_new_context",
+    "case_sha256": "f2c1d596579f93c6788a0a36df6cf9d81a4edc25f9d0abed9e2075c91af92366",
+    "readings": 8,
+    "flagged_readings": 4
+  },
+  {
+    "id": "cross80_s12",
+    "text": "सानो कुरामा झगडा नगरौ, पहिले शान्त भएर कुरा गरौ।",
+    "target_word": "नगरौ",
+    "category": "confirmed_word_new_context",
+    "case_sha256": "c262a005540b0ea0fccb592c3a4641aaab44d99041e246fb65d3c32805ce5ee2",
+    "readings": 8,
+    "flagged_readings": 5
+  },
+  {
+    "id": "cross80_s13",
+    "text": "अरूको गल्तीमा हतार गरेर निर्णय नगरौ।",
+    "target_word": "नगरौ",
+    "category": "confirmed_word_new_context",
+    "case_sha256": "e150656b511dead18838366cc243020fdd7d1ff2648b65d08bb424b9b70fddb8",
+    "readings": 8,
+    "flagged_readings": 5
+  },
+  {
+    "id": "cross80_s14",
+    "text": "यो पिढको अनुभव नयाँ पुस्ताका लागि उपयोगी छ।",
+    "target_word": "पिढको",
+    "category": "listener_similar_word_new_context",
+    "case_sha256": "e9e99b081f39721c6474d7ffc2e1f339e46c815f858a4ae9e455709ac8d209a1",
+    "readings": 8,
+    "flagged_readings": 4
+  },
+  {
+    "id": "cross80_s15",
+    "text": "हरेक पिढको सोच र बोल्ने शैली फरक हुन सक्छ।",
+    "target_word": "पिढको",
+    "category": "listener_similar_word_new_context",
+    "case_sha256": "a429674ec5d5f1b3531842fec922bb11e6e4904366197a88d6326a227abcbf81",
+    "readings": 8,
+    "flagged_readings": 3
+  },
+  {
+    "id": "cross80_s16",
+    "text": "सानो छँदादेखि उसको सपना शिक्षक बन्ने थियो।",
+    "target_word": "सपना",
+    "category": "new_focal_word",
+    "case_sha256": "a3d4a2e1ca2972142c7bb32c4c2ec722a7f930459125e2084f29c93632a30781",
+    "readings": 8,
+    "flagged_readings": 4
+  },
+  {
+    "id": "cross80_s17",
+    "text": "यो नगरमा नयाँ पुस्तकालय खोलिएको छ।",
+    "target_word": "नगरमा",
+    "category": "new_focal_word",
+    "case_sha256": "c0e33c06f02be450200a032cf4ea5356a9378ba60210807d38ee7e13eab12941",
+    "readings": 8,
+    "flagged_readings": 3
+  },
+  {
+    "id": "cross80_s18",
+    "text": "बजारबाट ल्याएको तरकारी राम्रोसँग पखाल्नुहोस्।",
+    "target_word": "तरकारी",
+    "category": "new_focal_word",
+    "case_sha256": "1f4f0cfbdbb6e706c4aef23f2d98e625d39faba9aa7b4334512516cb61afdbab",
+    "readings": 8,
+    "flagged_readings": 0
+  },
+  {
+    "id": "cross80_s19",
+    "text": "लामो छलफलपछि सबै पक्षबीच सहमति भयो।",
+    "target_word": "सहमति",
+    "category": "new_focal_word",
+    "case_sha256": "550730c66bb791dab88a8d2af6d4854a72e1fd903c2f3e87a1bdd234cb36a8a5",
+    "readings": 8,
+    "flagged_readings": 4
+  },
+  {
+    "id": "cross80_s20",
+    "text": "हामीले खेतमा पाकेको मकै घरमा ल्यायौँ।",
+    "target_word": "मकै",
+    "category": "new_focal_word",
+    "case_sha256": "c4117d3302e942f1dbac1646ea41026ad4365b509342ed5629baef2dff71e2f7",
+    "readings": 8,
+    "flagged_readings": 0
+  },
+  {
+    "id": "cross80_s21",
+    "text": "यो निर्णय गर्दा नैतिक पक्ष पनि विचार गर्नुपर्छ।",
+    "target_word": "नैतिक",
+    "category": "new_focal_word",
+    "case_sha256": "ddd0b1634d463baedfa89ec89cfa22f23a0a144c7ae9e0be4460617d6945e4a1",
+    "readings": 8,
+    "flagged_readings": 4
+  },
+  {
+    "id": "cross80_s22",
+    "text": "गाउँमा बनेको पुल सबैका लागि नौलो अनुभव भयो।",
+    "target_word": "नौलो",
+    "category": "new_focal_word",
+    "case_sha256": "38833003af08f84fec2f37e6ea15d40452a9d7041c1997360a64c44447c7e733",
+    "readings": 8,
+    "flagged_readings": 0
+  },
+  {
+    "id": "cross80_s23",
+    "text": "भोलिको बैठक बिहान ठीक दस बजे सुरु हुन्छ।",
+    "target_word": "बैठक",
+    "category": "new_focal_word",
+    "case_sha256": "f4b5467e0de79008aebd8f94a6bcf7170869e80c0de7749392b2a21761bfce3e",
+    "readings": 8,
+    "flagged_readings": 3
+  },
+  {
+    "id": "cross80_s24",
+    "text": "यो जानकारी सबैलाई समयमै पुर्‍याउनुपर्छ।",
+    "target_word": "सबैलाई",
+    "category": "new_focal_word",
+    "case_sha256": "c4da9be441857da127f105d7beb9f809bb3a5f4b59ef774a2780396124ef6505",
+    "readings": 8,
+    "flagged_readings": 6
+  },
+  {
+    "id": "cross80_s25",
+    "text": "पैसाले मात्र सबै समस्या समाधान गर्न सकिँदैन।",
+    "target_word": "पैसाले",
+    "category": "new_focal_word",
+    "case_sha256": "2367f54ab7770a310896648281ec6f116e9d8bb4732a1d2602aa6ca6e79d7313",
+    "readings": 8,
+    "flagged_readings": 1
+  }
+]

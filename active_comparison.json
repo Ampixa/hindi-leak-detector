@@ -1,0 +1,13 @@
+{
+  "schema": "active_comparison_v1",
+  "created_utc": "2026-11-08T05:27:30.568368+00:00",
+  "requested_by_user": true,
+  "plan": "data/teacher_indicf5_v14",
+  "controller": "reports/corrected_pair_v14/controller_launch.json",
+  "systems": [
+    "pocket_teacher_250000_24l",
+    "indicf5_stock"
+  ],
+  "legacy_results": "superseded; old k2 step1309 / Pocket Hindi benchmark does not evaluate current pair",
+  "actual_hindi_accuracy": null
+}

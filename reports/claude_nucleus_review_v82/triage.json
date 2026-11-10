@@ -1,0 +1,19 @@
+{
+  "verdict": "Required prefit fixes implemented, 199 tests pass on k2. Physical proof only, no claim of Hindi accuracy.",
+  "changes": {
+    "1": "Dense head reads only64mel channels, neither hint channels nor phone/context embedding. Fallback counts in report.",
+    "2": "dense.detach() before local pooling; no shared dense/context weights, word loss cannot train temporal/nucleus head. Learned veto per-fold and final reported. Gradient and hint-invariance tests pass.",
+    "3": "Actual WAV SHA and exact observed crop/word durations verified against immutable v81 index before all2689train775dev targets.",
+    "4": "Coordinates P1/P1w/S2/S0/WORLD equal source; sham/WORLDreplacement length unchanged; emitted S0/WORLD length exactly equals original.",
+    "5": "OOF known-region S0-original dense difference reported. No mechanistic superiority from WORLD-only gain. Splice/boundary confounds retained.",
+    "6": "Aux target classes weighted50/50 over same source-balanced weights, normalize per-row known region.",
+    "7": "Dev target arrays prepared for diagnostics but never loaded by trainer. Onlytrain arrays sliced by same12CV."
+  },
+  "strict_pool": "Exactzero focus excluded with -inf; no outsidehint logepsilon escape.",
+  "code_sha256": {
+    "hindi_detector/nucleus_deletion.py": "1d6316deb80af13fe38711512780fddafe3d7d86afa6329ca4f2afb68e584d9c",
+    "scripts/prepare_nucleus_supervision.py": "28f13cd9e9727c5e691ccc8e63d7e518adb8e99a7d00b74e13a5f7cb12556512",
+    "scripts/train_nucleus_deletion.py": "c2e5f6604af4248f038cf8d076ffb13a6588eb29a6b19c7f6692831d74d1a76a",
+    "tests/test_nucleus_deletion.py": "4cbe9eeffe53a0e90352607fc470c4589bb664d88397a473ea477136fa9c33b0"
+  }
+}

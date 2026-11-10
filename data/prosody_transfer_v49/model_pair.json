@@ -1,0 +1,42 @@
+{
+  "schema": "teacher_indicf5_pair_v14",
+  "systems": {
+    "pocket_teacher_250000_24l": {
+      "host": "khalti-gpu",
+      "weights": "/home/ampixa/pocket_tts_stage/teacher_run_20261002/model.safetensors",
+      "sha256": "2b4636e3aed0e4f2d035630e504be95fc58f494b690a851a91bfe0dd8299516f",
+      "step": 250000,
+      "layers": 24,
+      "source": "/home/ampixa/pocket_tts_stage/pocket-tts",
+      "source_revision": "2f0e24033bf49e8aedcfeb9da2be4fcf2e4cc2c2",
+      "config": "/home/ampixa/pocket_tts_stage/pocket-tts/pocket_tts/config/english_2026-04_24l.yaml",
+      "tokenizer": "/home/ampixa/pocket_tts_stage/model/tokenizer_clean.model",
+      "tokenizer_sha256": "d59424239dac0eeed522a28dabd48e17f523464afbfc50c5ccafa6be79f43122",
+      "inference": {
+        "temperature": 0.3,
+        "n_steps": 1,
+        "cfg_coef": 2.0,
+        "eos_threshold": -1.0,
+        "max_frames": 220,
+        "device": "cuda",
+        "dtype": "float32"
+      }
+    },
+    "indicf5_stock": {
+      "host": "k2",
+      "repo": "ai4bharat/IndicF5",
+      "revision": "fb652a96e508091045890dae5bb99fe511facbcf",
+      "sha256": "ba7f3671180fb7784e24bd1dafc96e729a38ce02e7f6d3877cdef32525a1865c",
+      "model_root": "/Volumes/T9/hindi-detector/models/indicf5",
+      "inference": {
+        "nfe_step": 32,
+        "cfg_strength": 2.0,
+        "sway_sampling_coef": -1.0,
+        "speed": 1.0,
+        "device": "mps"
+      }
+    }
+  },
+  "supersedes": "k2 nepali_v1c step1309 and Pocket Hindi parent roles; old results are historical only",
+  "automatic_pronunciation_labels": null
+}

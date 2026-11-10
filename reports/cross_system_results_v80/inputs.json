@@ -1,0 +1,12 @@
+{
+  "selection_sha256": "cd90935e170085268d830eba78b75374936ba0fe92b580babd2b6c5a0ab71165",
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "script_sha256": "00fd06304d59c95addee0e9ab95681af894cdb3699168b788bb63709deb6fddf",
+  "same_model_as_live": true,
+  "labels": null,
+  "query_sources": [
+    "pocket_teacher_250000_24l",
+    "indicf5_stock"
+  ],
+  "reference_conditioning_excludes_query": true
+}

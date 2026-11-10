@@ -1,0 +1,1177 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "host": "k2",
+  "original_path": "/Volumes/T9/hindi-detector/data/prosody_transfer_v49",
+  "created_utc": "2026-11-09T03:08:21.541271+00:00",
+  "last_review_utc": "2026-11-09T03:08:21.541271+00:00",
+  "next_review": "2026-11-10",
+  "not_on_HF": true,
+  "retention": "Compact admission/rollback/source pins retained for active Hindi-detector goal. Completed raw control WAVs/redundant frames disposable24h after consumer closes; no blind deletion. Source-model rights/MMS research restrictions inherited.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2560,
+      "sha256": "ab868572e0f33463f79259d3166558aedb24ac9903af376b0fd19d72a15feb5d",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "model_pair.json",
+      "bytes": 1575,
+      "sha256": "06b469ad88fff6ea655c3c39ba7b70082ed9bb30c607afe61141b61c16b370e6",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "protocol.json",
+      "bytes": 1782,
+      "sha256": "5c4c0dab0697e82d9378d7c4f8b7278df9ec126577373a49cb841e05594e02cd",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "reference_inventory.json",
+      "bytes": 4275,
+      "sha256": "c118fa567ce107f7119527d3019d4913adfb75a5e91e70d4d4785decdcc934a3",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "references/09716e1dd999ef87a834.wav",
+      "bytes": 236906,
+      "sha256": "6b30eea0001bbc1d4590f9f365b2dd6d9c02d57e8cc8a252986456ed9145c392",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "references/14dcc7e2d2f417d11db9.wav",
+      "bytes": 233096,
+      "sha256": "164b174fa28e1f14f9e9763c6abc86d3e7ffcf5ea118b2d445f8fa6144ef7af5",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "references/159e1e624ed7cb903c96.wav",
+      "bytes": 230090,
+      "sha256": "e5ee397a2a8160ca6c1ae4a14d80d83bb305d48c223a96db242aa9d079adc059",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "references/15ed78181b636b5435f4.wav",
+      "bytes": 210508,
+      "sha256": "8be634d9fe6147d1bffdd2815c6dff1019590560e9441aea3fc43f4ccfff3721",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "references/1b6bbab00edeae707ea0.wav",
+      "bytes": 222620,
+      "sha256": "d4d56b3a3fe9776df4bd70d84f68b6c3223f7538bf431d31df2bdc8b93d1061f",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "references/1e15d89ce82208962c53.wav",
+      "bytes": 219550,
+      "sha256": "b9fd0d72cade8dd69a7d7abcf15cb4d6c969e09bb8d2d3aa23c95a32360dcd8e",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "references/2324e89c0e9fab1255a0.wav",
+      "bytes": 232258,
+      "sha256": "399622766949265b9da61ca93036fa60a3369a275e7c10ea43313793470b88ea",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "references/68c1e148215f30f0a62f.wav",
+      "bytes": 218466,
+      "sha256": "1d1f5a71937070ac54c890438d53f955773a7108d42ff6e3ae9a8dcb0aaf57e0",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "references/6ed10838a90596e87758.wav",
+      "bytes": 229968,
+      "sha256": "107a7e84affa1ff219e75013472aaa0230d54269c25eb14fd1cfd64033886bbb",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "references/b3ce03a672bcb6eaf985.wav",
+      "bytes": 238412,
+      "sha256": "483e173339e7a6658d61602271a5efed0c381c41138be6d84e0821c35b9ed35c",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "references/b4dbd4e331d85f74be88.wav",
+      "bytes": 216274,
+      "sha256": "d7f317a293d1f49e09db014a3995db4b9dcb571d91b9c90eec71be5d801934d3",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "references/c4a074963f46e1c48534.wav",
+      "bytes": 197320,
+      "sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "references/cefd966a49f8f9f10ce7.wav",
+      "bytes": 239248,
+      "sha256": "0450c9ded02ed5c9e34fc13ebd652e195f0e051052819951b65a747c0fad45b7",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "references/cfdd0df3fe8e3c5760b4.wav",
+      "bytes": 191796,
+      "sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "references/f52796252bd27627d20a.wav",
+      "bytes": 211708,
+      "sha256": "54fade88c78bfc28c9a2eedbd7fdfb2f61833bcdcba1baac51eee2162f12052e",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "references/f8e07c2a2204536aa7ea.wav",
+      "bytes": 224924,
+      "sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "selection.json",
+      "bytes": 165239,
+      "sha256": "764feaa6e6362851755c45c830286524c4fcc20eb2bbdc420457dbec69ec03d1",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "source_snapshot.json",
+      "bytes": 10499,
+      "sha256": "5656b6b980563208601ca4fc13f8677593c1b32da96718d5b08633c770a302bf",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "teacher/README.md",
+      "bytes": 2517,
+      "sha256": "bc2e3f0f134134c02a3ce1cd93156373db7b5d3a95722fb7a1c2129091ad09e6",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "teacher/audio/proso49_0078c32912abfc406dd0.wav",
+      "bytes": 119084,
+      "sha256": "63607f993a719985c6f5908bf107b09bdcd49120cb5b16535c532c3487144d58",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_0084df7cdabc64fcc7c7.wav",
+      "bytes": 145964,
+      "sha256": "3ce8d237d05d6622d33f3ed3d434eb5caa0a7a5e700c942660c2e12235d23d59",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_032334655bc23fcd5be5.wav",
+      "bytes": 161324,
+      "sha256": "29b9a588b6a9c9cd6b06c82f43d4d5ed0555ac05303826eb5b3a7255e5734943",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_059df9598a64cc1ca6b8.wav",
+      "bytes": 119084,
+      "sha256": "d44cbeb4fb20381a00f825078778f72fb829f7002f6a27c307ab23fd736197ae",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_05ae49edb13a722e1990.wav",
+      "bytes": 272684,
+      "sha256": "fc751540f2ed9d6265dd7478de778cd940f4dfc6019ab5576b19ddc97b0cf775",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_0801e1f3d34c9fba07c0.wav",
+      "bytes": 460844,
+      "sha256": "f3f3682353b381cb31f94c2c9123fa9a0b4d10596e2e154646bb84b399c50d56",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_0903482f72e00d67d6fc.wav",
+      "bytes": 142124,
+      "sha256": "c8f12bd32b2e276dff2fb24f6677324652f0a8a14d5c04f0d921f94cd07ff29a",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_09d0de3f5cdaf82787ef.wav",
+      "bytes": 165164,
+      "sha256": "b1952451da74dac5bb7bc62f4c94f4396b8413db4b1c6b77449462ee0f0d5655",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_0ffdde8503a778dc4146.wav",
+      "bytes": 149804,
+      "sha256": "e2efb5efac700a5d7c7650aceeecef2eff38532afa8fe85bbfc6d74bc03a30b0",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_13282d41c200d1db85ca.wav",
+      "bytes": 115244,
+      "sha256": "51684cebb91bad14a2e25c6a59957c1610c317acb3778016e8df26f7bf4b07e8",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_141660bac39fc9e6cb16.wav",
+      "bytes": 134444,
+      "sha256": "ae1431fe97079ac473522e0527e91a65f18f2ace5592551071f336ddf0c5d315",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_194d4b4bc9d1e8533789.wav",
+      "bytes": 311084,
+      "sha256": "b49468685a230ee9d5cdc250487db9c56e195aa4f263ace26be5eb5fa37d7bfa",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_1962c9ef947875518187.wav",
+      "bytes": 145964,
+      "sha256": "b8fa06bd38c13b9af904daa9f7455408ce154b698c8cd90b800ac3ee4515e84e",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_1bef55c83663f62a5625.wav",
+      "bytes": 291884,
+      "sha256": "e5c788c805876d0d12e6a4eb46bd50da3778036aaaa3277a5653e68cb64cf671",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_1cdd988062dc9ddc6f70.wav",
+      "bytes": 153644,
+      "sha256": "58b2bf158151a799685076ef66c92bd02ecf2cc82b4073c7acbbbe71a0dec767",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_1e3dfeab4bbcee0a247d.wav",
+      "bytes": 122924,
+      "sha256": "91c99a72c585b26db5127de0271c0edce3aa1ab40756990e12ac5251ee3a255c",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_1f9f0649f4a430f37350.wav",
+      "bytes": 142124,
+      "sha256": "fc044525751fd690e2d0e85cba2bcfed8ad14473a94db5df55951f8125f2e2b8",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_22c3bf325d16850ba676.wav",
+      "bytes": 322604,
+      "sha256": "f6a38a9d86d72ee8d4152cf7aa98c15bba935ba04c0ea701a402d4564112dfd5",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_2522ad6c270e97cdab7d.wav",
+      "bytes": 165164,
+      "sha256": "370aa823a1f0850296124cecb639d15af0bc29cefcb65e1fa6ad2c4f6bc28a99",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_25d82ea97871bc9dbe9e.wav",
+      "bytes": 130604,
+      "sha256": "2318e43059f0316b42edf075f2290619613035fd4fe6acb36d8e374c9012ab09",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_27d6832338f769d95f01.wav",
+      "bytes": 88364,
+      "sha256": "8b120b46d51f6a4c33928744192fa7e684fc5565875e9a4742704007827a8eb1",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_294c70f7b537140e6d7e.wav",
+      "bytes": 103724,
+      "sha256": "8de9c2ff9de7e4a7ac41361d5cecb95abf68c393a8ea61b181db3eaadb1511f4",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_2af077c199ebcc91e7e1.wav",
+      "bytes": 119084,
+      "sha256": "8d351da2699560c84c6d596adf47c43cd10d9f152daad2033efd3519661aa17d",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_2c2fb2ffc40657499d2f.wav",
+      "bytes": 126764,
+      "sha256": "07ae787db4f715fe183ab6bf41b93e62491a2a3fe0e73ea086c5686b74a38da6",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_2ceec7620c8029f07c21.wav",
+      "bytes": 130604,
+      "sha256": "97badae5451bda1be66e5e548bfb97e2887046f0b6a8fd6cd295e7c3be961f0a",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_2db6c0f11e0ce071c52a.wav",
+      "bytes": 192044,
+      "sha256": "7bce82aa04c5a2a0061cbbf58d4aa22f410378e3d9838413b937a000b9054c06",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_301174e31c2ab034ab63.wav",
+      "bytes": 165164,
+      "sha256": "38f8a7e8154bc5f48c5c7e1f879a8d5c869379735e942cf896fe2b04c67ed0b2",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_31649e86e3beb40f5107.wav",
+      "bytes": 84524,
+      "sha256": "497ee0df7fb58c95adfcf801267c04cc19b73326a7510f45ceb836c5b361865d",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_31fae9b4daa28dd89523.wav",
+      "bytes": 111404,
+      "sha256": "2c1cd8a535e301810673475398d003499c62dc864186a4f9ad29561ed7f313b9",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_32f9deb72682ac8ae538.wav",
+      "bytes": 126764,
+      "sha256": "6b6e38a63c7f84337752700868baf96d02690728d171a993660d14bea5927bd5",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_347742f23ba0ee33892f.wav",
+      "bytes": 119084,
+      "sha256": "a6cecfd591ef68894a9eb4bdffbd2d47095f305ccd76240f4132bd779b8204c4",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_3528376b68b6e77a0a25.wav",
+      "bytes": 96044,
+      "sha256": "c67909cc8e6b73445aeb9331b0e01aeb824c6896e5e522e5679bb30fe193dc42",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_367c445f47c9d1daaddc.wav",
+      "bytes": 99884,
+      "sha256": "5b68438502cb11d550bda09141625f296081ae33e7f2103522b23389476d2aa4",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_3bab12171d9b9c29a1f8.wav",
+      "bytes": 134444,
+      "sha256": "6b50415753c4cfe42e5cefb0b7760b93715fff41f8d853c7b4cad656d0bd0528",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_3d16ac64846f9cb159cd.wav",
+      "bytes": 122924,
+      "sha256": "a910a5b562587ec49326df38ea8e67ec0c3e1320f697ba504646020ee9d8e14a",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_3df991580a47985f71b7.wav",
+      "bytes": 99884,
+      "sha256": "7aa0898ed0de9a9bfb2adafc5aee81f8ac82266c35e470c40d6ad86b7fb70053",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_42e3e3b10da123adf03c.wav",
+      "bytes": 126764,
+      "sha256": "2499b82c65f998755dcdf310d036edaaea60e4b3df0314be8754bd525f764e93",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_45496bc8ee651bc68d34.wav",
+      "bytes": 92204,
+      "sha256": "aaad5c7e2ec0f0d8af5c45630fe1a67b20e8699d54657f8103b15633253818dd",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_4846dbfaf106d7f38fbd.wav",
+      "bytes": 99884,
+      "sha256": "9781928d9605b254d62d52baa67e9ef3de77b358d6357fd68ba3f37cbf8b7774",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_4910fe5018a84063a4ce.wav",
+      "bytes": 99884,
+      "sha256": "ec6cd3de514a715087e6ad52d7e21746b29ffc7f5443539b50ae782db5d2236b",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_497f7047409774e8f0e4.wav",
+      "bytes": 130604,
+      "sha256": "7a289e9074a01e4a8aa37f279100d97faf3c54105d801e2895a70a8e645b3ec7",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_4adcf51d3bfaac631030.wav",
+      "bytes": 88364,
+      "sha256": "9155ffa6ae5390f5dafd8a97af889d8a0d0ac255d104ad35f329afbeb7f8d6fa",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_4ddc4506af34e60cb3e3.wav",
+      "bytes": 134444,
+      "sha256": "5f9f051cb7b0e2b523d7b27c34fd5c8300123ed318598b338fd5444e507d78d2",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_4f268ff4c4e09f8a18e7.wav",
+      "bytes": 119084,
+      "sha256": "755ad713b9045998a7de7384656d422d633d80715f63867e1fdb44950363a588",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_4f6375da99082b358dcc.wav",
+      "bytes": 149804,
+      "sha256": "b91a9bca85e798640b5b9fd3d1b2904fb62b3fc600b90cd65aacd3810689b42d",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_50513d8f0bdd86551c33.wav",
+      "bytes": 122924,
+      "sha256": "09f54bf7c4212d56650db3d72e85dcef82cbaa13a735371a56c7143565d9a606",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_50b033ec6cbb49289806.wav",
+      "bytes": 126764,
+      "sha256": "4a39f1b9f4b98bf5482308f2dd47f74b24aca1b25b405871d65de0cdf7169c0f",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_54457c725ca0b9df0279.wav",
+      "bytes": 119084,
+      "sha256": "abb63fe17b8f3c833403bb6549c19373a3ca82c17e7e75a3bf547b284431258d",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_54824584431903fc11da.wav",
+      "bytes": 142124,
+      "sha256": "d46ad0a5b943f419d92eb2ad85a35c8ff3a9ab3bc28852e70e32ea53b5e56432",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_559792ff70b145b93e1a.wav",
+      "bytes": 111404,
+      "sha256": "223cad8914e1945dc07e69492a496779e084aae3affb1465d203a96130b60552",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_56742ed3e2cb9659629b.wav",
+      "bytes": 119084,
+      "sha256": "01c29e9c42e2bcebac57aded08455e1d3a8e23c6a50e0c106ea57ba787dff188",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_5703efcfc5836c07a2a0.wav",
+      "bytes": 99884,
+      "sha256": "5c0115876633ff17e098450c5aef6fff02c085ceb06de89a91c5a0c500030b29",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_5709167eb9d125991009.wav",
+      "bytes": 122924,
+      "sha256": "2224f62339cd6d4efa2baa9daa2a59aee246588ca97b05150be6c77e9341771f",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_594b474fa0d1b22fb925.wav",
+      "bytes": 99884,
+      "sha256": "b5c8896634d71a3dcd6de77d679c655f2a8b79f8f20fca6ff0a50dcb0b9cf483",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_59d9e21f5b08394afefd.wav",
+      "bytes": 103724,
+      "sha256": "1bad14d6dc0ecffc04fc2e6feb8035c32dd0ace84364d153ade010c8c71ac488",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_5b2e0d49bff14b493763.wav",
+      "bytes": 99884,
+      "sha256": "ddcf07b99c674704f5d3287db203e196bf6090bed15063dc886624078f9e869a",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_5c8244762d34c4d79081.wav",
+      "bytes": 134444,
+      "sha256": "c46424de6e85ec51aed28aa9e8864319f91b70a510ea6a0cddd1c55fe62fb05d",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_5dd671b98d8ca20b19a8.wav",
+      "bytes": 134444,
+      "sha256": "6d8882b71f59fbc4f055524e1451292c16268c0c4de52bd86a1c0925bd7c7a41",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_603aa1ffbec61fb52c0e.wav",
+      "bytes": 126764,
+      "sha256": "92ba223225e53363fbd91c7344f112689d170ce57bed977c936c8d5d1f9d3b00",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_612c235db09e2c4d4ea8.wav",
+      "bytes": 192044,
+      "sha256": "7a051c58a74d908d509e25f6980bee4c1c8457787f345c72bb1c9ab07a32b51f",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_62e8fa4379eebcdb94a7.wav",
+      "bytes": 138284,
+      "sha256": "65b5641a2a67b3077c943c5836c8647b795b30d2cdffa757c8dd03a1ebd45415",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_64bd54d957de21575e2f.wav",
+      "bytes": 115244,
+      "sha256": "641db2f5354f69f0a82a76283142684079282407a4a3248f8cb3626f18a164b9",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_68415b5f275e79774b4e.wav",
+      "bytes": 142124,
+      "sha256": "b936e7b5db4bcd675c73550466c878c5e0d43d9468a1c9097e4b742b0ee43528",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_68ddd6561bd1b65e15d3.wav",
+      "bytes": 149804,
+      "sha256": "0ccb605ebdc9d855f49f67b6b8a8eaa2295055f74da1139cb0d68f896c5f1fb1",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_6989b0f710d406acf5b4.wav",
+      "bytes": 115244,
+      "sha256": "591e95dc18fc11f31d51375fccb38e74522e05b2fc796fe11056b9bf5dea244e",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_6a6551bca5c079d084fe.wav",
+      "bytes": 96044,
+      "sha256": "3a4feb8f11aff91a8bea5d979c04b5c783a3623131b181509759896978eaa30b",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_6bd7630e69132034babf.wav",
+      "bytes": 103724,
+      "sha256": "0bbd4d95d97ca90fb825461d06910933f981d5b3ec580948c582793fc7653803",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_6c2f3b1ce8ca4d972544.wav",
+      "bytes": 103724,
+      "sha256": "ef88a353aee43fcc8159e56240767d17de09cbcf16a023538427033bc164f10b",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_6c6476823d0cf1d9150e.wav",
+      "bytes": 157484,
+      "sha256": "5e6ad3f98021f125fa5a5dcecf173191fdf7d4b911443268c667e83d51caa889",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_6e863b3dee7211d29c94.wav",
+      "bytes": 134444,
+      "sha256": "49d7926d55410601000c5d09c4193f6cedf0c760022f17434eef1e17573aca96",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_701db0ca8a33f52e51ef.wav",
+      "bytes": 126764,
+      "sha256": "a84b670dce9828ba27156eb0a50ee271423640bb9fdd376a20d81979b4bae101",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_70f076333c26b09bafac.wav",
+      "bytes": 99884,
+      "sha256": "85d34ea48f45b24115261f4a93a7e37b400bfa9a8b94ddf5c05d2f914609894f",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_70f9c3bf994491316139.wav",
+      "bytes": 149804,
+      "sha256": "b5688e4654456c40a46efc2e9c506e43d925ca2deb006b7349535d0fc10d1a13",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_71532eaf2935cd5a0c93.wav",
+      "bytes": 138284,
+      "sha256": "95f51d1a8040f776c158c952fe07d34d39281d3aed099afe6b858f22715866cb",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_745712e93f82a31cdeda.wav",
+      "bytes": 314924,
+      "sha256": "613a4d0574fec49b71dd94691c69f54c993dbd78035af53fe0ce3a56a6a2d85d",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_747ffeeacc967ae38799.wav",
+      "bytes": 99884,
+      "sha256": "8ba690db538240cda69e68c4eeae4f72a39a67560759cfaabd82e3ac81a06ab7",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_74b4f04e359a7013e340.wav",
+      "bytes": 130604,
+      "sha256": "9eb130eab142571c667f6aa9e9aa6b0ec39c1e3f7a25ae809ad18ae703b55ee6",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_760c1006e783f1fde8d5.wav",
+      "bytes": 92204,
+      "sha256": "7a3fe728fc38491f1eb0aff69812fb44c56aa983eb242ad6b050f1062e6df60d",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_76488f3650cd6479ac15.wav",
+      "bytes": 107564,
+      "sha256": "a67a1823675c433922b5d56883249fcaa7e1e348eb21de0d054b769ab5145dfc",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_76d20cd8cb83dfd3faee.wav",
+      "bytes": 161324,
+      "sha256": "8c8b24ad07f0cfb37441dcc79f1c525cd2e5949228ab186d55287bd64a18dbe4",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_76dc14af41ee892cc26d.wav",
+      "bytes": 111404,
+      "sha256": "255948ad2d818e437f4510f104c54ad0a9235150c8859496143b3fae58cfa34a",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_7aa4c1de412e0b7cc2a4.wav",
+      "bytes": 130604,
+      "sha256": "cd0485ab1abec8bdc4bfdfeb96dbda5c54e838106a4c5a7607bcba49aa72f4cf",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_7ddf7831367a4b656557.wav",
+      "bytes": 145964,
+      "sha256": "52ad4a9bfe7d73f074974a72c684edfb17e2a1e8ffc27a699fcd1583f04f3157",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_80254ee6eabf86c43543.wav",
+      "bytes": 145964,
+      "sha256": "c04ca1eae3cdbe2271e9a2244203bb56a235c2cb0f7e6484c482eb873e730433",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_81d769178a78d5992822.wav",
+      "bytes": 142124,
+      "sha256": "5ba97f6cd26c6bf4dc99ab0685cde5226302744d109ab674d99cfdbab2eddf3e",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_82713e05b89197900c2b.wav",
+      "bytes": 119084,
+      "sha256": "44ae13a4c0c4ae16e0a292ff26849ed2e71495957b3eadf76c9d7558031ef351",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_82dd8cc99351cb795753.wav",
+      "bytes": 491564,
+      "sha256": "a28ff4979b63d249d9bbbefcb06343221573159c85b2c70d2272bf4881cc5f4b",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_859c965fc43338c8d5e2.wav",
+      "bytes": 103724,
+      "sha256": "964aaf17b8f0c148bd5342cc9391619e2d076fd6a8dd85e998dfce5b54a4ece9",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_8bb4877ccd88d87319ac.wav",
+      "bytes": 99884,
+      "sha256": "b73e9331ae6334fa6b19ae7f21691b34c30a3d76643b4304ddb613b2d037dc48",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_8bf09ffd1eb3fa0704a3.wav",
+      "bytes": 99884,
+      "sha256": "51401a771f113c2c487768c8acf4baf09a2e73b002b9260eb38fb5c3ca96896b",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_8c539ca499a09bebc432.wav",
+      "bytes": 295724,
+      "sha256": "343e74d61663a53e4a5c002a9e7511a7b60f1fbcaa7ab4a9cdb23cc3c8211d84",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_8d42e19c1f353709032e.wav",
+      "bytes": 103724,
+      "sha256": "faa44996749ab73a483f66022916ee0b6b11e48327912e1f2d09f1cb6e112e0a",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_8e85ff29655a3f7d1549.wav",
+      "bytes": 157484,
+      "sha256": "05d093730c112ce7d89ab103409f6a76258ad615f1e3bf7a18cdd81d79a88e43",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_92c097c4e24a1155c32f.wav",
+      "bytes": 122924,
+      "sha256": "d4d9cc42e3451adf1edf1a2cd84a24275da40c0433f5932e4c4a6baa45ec279f",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_934058661be036310eea.wav",
+      "bytes": 115244,
+      "sha256": "6dedad1cc157eae7f17ae66f29f8884be7208b28e3389c03f08c1369433e5559",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_9386422e98a64914945c.wav",
+      "bytes": 115244,
+      "sha256": "85caca198e744299b0aadca9c04407abe5326b49617f3423c101aba0c64e19a7",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_976eeff59f9cb9466477.wav",
+      "bytes": 84524,
+      "sha256": "586213da6e0fc0eec47f47d57619a9abad443446ac9b6472c9801a657077dcde",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_997b4a4c9f2df101c7df.wav",
+      "bytes": 142124,
+      "sha256": "5dfc8ff7afc9c455a0c790be87cf2bcea3db7b1fd8e65b075aaa3382cb262c8a",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_9c894fbd1243c1c9de2f.wav",
+      "bytes": 165164,
+      "sha256": "9c7e90b98e98f25bff2138bb495e710ebd66fe00078b424a61646209ba935376",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_9cd82f465f205da996a5.wav",
+      "bytes": 119084,
+      "sha256": "09fffbd4b644236354992bf6d9a49f189d673d32c28c556a3e1640b7bd7be564",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_9d6a62116daaacb02af3.wav",
+      "bytes": 122924,
+      "sha256": "4884c32d81d7cd8101dcb944929fb922592d3924441298c8303f77af6644e2cb",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_9dce95ccd6256f27cd3d.wav",
+      "bytes": 122924,
+      "sha256": "a3af0712a767d7e931bb763bbb051713943161844a7dc9a62e18bf7c15fe1146",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_a0df2a6548b5e31ca4c4.wav",
+      "bytes": 119084,
+      "sha256": "ff24069cd94c74dfa271cf1ff96b6631d715551ff3df03f64ef84586331ef42f",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_a19ce206d6de92a1f600.wav",
+      "bytes": 115244,
+      "sha256": "71e3e9b931e62279b09dda4e39903aff6b9c5c12d848a3053ce26cb5c3c43759",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_a22d53a6793fc3c29c18.wav",
+      "bytes": 238124,
+      "sha256": "1a5a067b7ae6228e9ca96f5240ddf27321aa95d60e10ee9ca7c78f8642a7d6a9",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_a64b36da4daba5d2e361.wav",
+      "bytes": 99884,
+      "sha256": "9ef0354ac196f83071514b5fd5d3a06fcef40a7a8c6fbfa2e68b9b3d3157dd3c",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_a6fa6add12a7e9247b3c.wav",
+      "bytes": 134444,
+      "sha256": "38e2313248e8d60c089499bbc8b7bcbaa216e4bdc18f33e689c754351fae70c3",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_ac5a2cab91a738a80261.wav",
+      "bytes": 126764,
+      "sha256": "2e99bf920fcd49a02a1b9e461fae7275854352d109f4e63a459eb356ad993691",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_aed5a1d70035b90d0570.wav",
+      "bytes": 157484,
+      "sha256": "3f9aea310d79b63797e71d323d3a403fa1dfd4444dc014379c424f771c676033",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_aed7acabb4a282f0cafa.wav",
+      "bytes": 157484,
+      "sha256": "030a966792a13490a66295e7111bbec150dbefc4cff75428d9d0777af75303fc",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_b350d2c1d83b9c4628d9.wav",
+      "bytes": 107564,
+      "sha256": "70f93169d6b3b4b03b83a9d3e3d373333e28500d0be3496a290736d91f0a44aa",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_b356682305d0330f370d.wav",
+      "bytes": 84524,
+      "sha256": "607c486599059c37f3eb97cceffc6919e21e30bcb52017a3f844475365c2c31f",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_b47a63877b462a358174.wav",
+      "bytes": 96044,
+      "sha256": "71f1174bfd69088f7b5280123d05dc5eac7d27b83f7426e7d31d79bd1d9d9aac",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_b55dbc15cfe8c2759937.wav",
+      "bytes": 122924,
+      "sha256": "803d1809d27831693b79b94beae1980b87bb7a5e9144d8f72293a2ed58501262",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_b59b73f80c4555373ed7.wav",
+      "bytes": 134444,
+      "sha256": "a48bc50449777aef884bc20062948a95e999e80cd76ecf280146dd49645cf8d9",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_b76a7d8d37bd49c56db1.wav",
+      "bytes": 218924,
+      "sha256": "0816bf79ec2f2d3c992299299d34e671f8fc7d9431cad32b26dc4d66ac8ab231",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_ba38192e5635d25bd21d.wav",
+      "bytes": 122924,
+      "sha256": "0cfa49442e6aab99e7e198b6d289bda3413fd00c70d9d55d10ebfbb6475e5adf",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_bb0873795d9136bf90be.wav",
+      "bytes": 153644,
+      "sha256": "6d0772b31b93c4fa06fac47ba016e646215dba61483de4ef29336370b0466945",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_bb5a23cc8c39b4754f2c.wav",
+      "bytes": 134444,
+      "sha256": "a664158f2f1cda043ee428926c0be47f6e05b676ea64a2a098e7fad9f491e5f2",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_bb7dd4bdd0c6f2ea103e.wav",
+      "bytes": 172844,
+      "sha256": "ced97fd08005d2d07fa84c0985343dbb93d6e21748e646f1ee6c982a76bbf607",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_bc6a396a44b22668f4d8.wav",
+      "bytes": 122924,
+      "sha256": "5cdc8a0e163cb04aaebecfe3f570afb309eae8bceb3fe85eb97f604162474f40",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_bccec279935f3935216b.wav",
+      "bytes": 99884,
+      "sha256": "7af6016e822678add287bbf64d5d8108c02217848451ea84b897519c05749f46",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_bd55bb80e1d6402d5f8c.wav",
+      "bytes": 149804,
+      "sha256": "24ebfc412ce04664237cc22c2f3a0a6c10e2dc351056d57c84571da9947532f5",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_bef3749f60fd30b59a83.wav",
+      "bytes": 119084,
+      "sha256": "60a90a0a6b07d5e866b21ed5ba40a7315609c519c8780eca032a37d7c62e7acf",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_bfd7953eea97e4c115ec.wav",
+      "bytes": 184364,
+      "sha256": "0b936b914626874af5e146c047f9261cef3aa11758873239b976e8148359c177",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_c19b07720d72d0af903b.wav",
+      "bytes": 169004,
+      "sha256": "275d58b954eb28d14b9278b29e9591f508b17120302f20209403eb1764ced067",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_c32bd9b9de261713e30e.wav",
+      "bytes": 126764,
+      "sha256": "9b320a8efa8b6692505b6790342cfd5b0e94aa694982d16bb43a600383cb9bde",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_c361942ef0f6711ab8c2.wav",
+      "bytes": 145964,
+      "sha256": "4791798a1b304d6dbc6c14d301c29fd6c6186f3504d67f81dd6c41dfc38ffc35",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_c8192e89811ef9945a7e.wav",
+      "bytes": 111404,
+      "sha256": "ba2a79700b752de7989d6b50181fa17225c4f53bf950e5cc38d83d30b45866b5",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_c847f9324e19156df71f.wav",
+      "bytes": 149804,
+      "sha256": "ba9ff88dba5f5e6e3c4ea044d1bad11723e27b983aebe49fb4c34bb4f56a8238",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_c9f37cd8bef76985bd9a.wav",
+      "bytes": 149804,
+      "sha256": "de229588bec10c26000913121a8f255249a3211fa81873cf4eca73904b49531b",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_cad33c57bdd2cea041ae.wav",
+      "bytes": 303404,
+      "sha256": "f28f0e6c07280bb1ec9a445b6964b746c2a2a050a16d5f9deef3665b82ba24ae",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_cbeb33cb998b612d4ad6.wav",
+      "bytes": 84524,
+      "sha256": "84556bc4daa03c7daa8e9e4350c28f6535918f52bf42460154af9bbc673a2a8a",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_cd43197deec208cd578e.wav",
+      "bytes": 122924,
+      "sha256": "41e45526bc474ececfc0804cb243af67b8a285c72621bd9c784655ca519d926b",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_ce83744f641b373a2e57.wav",
+      "bytes": 119084,
+      "sha256": "2e64384842045cea843b77aff765213b0ae7e92229294b3abadfa24df41ba7ca",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_ce8cd6eb0f3f877e4526.wav",
+      "bytes": 138284,
+      "sha256": "25f2db61e6a49f22a322f6f0d6718a91cf71da5d2071318969cb84f5b9dc395f",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_cf97de8da70dee5d80bc.wav",
+      "bytes": 372524,
+      "sha256": "1fcff1376bcf298c17e953b26cd8ff7a65ecd3ef74d96c3e836f4020a6d976c1",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_d2b082e597304b0b50d1.wav",
+      "bytes": 149804,
+      "sha256": "71183231646065b18a7d4195e32d2edf4f175576844b65fffd3c7e1356e401c0",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_d39bd0b4c892bc40a7c1.wav",
+      "bytes": 130604,
+      "sha256": "05019a4283bfedf6b0134312a501b5a8e63b94938cd5e8e799718aa226ba2f10",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_d4daa3c4a5b1e78662bc.wav",
+      "bytes": 134444,
+      "sha256": "eac1b84ae1cddfc4c684d356f4cb02997598272a1431ca0604e8822eb4ef8935",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_d4e95913dc5fd9c889d4.wav",
+      "bytes": 119084,
+      "sha256": "78697afd657be63f8dd09120fad14ddddc7be6314ce264a9b57599ea9b412f21",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_d8db04b4cc6ccce4d66e.wav",
+      "bytes": 149804,
+      "sha256": "46f2d0540b4d70c2ed8f7e821cf1b1ef12ba716fd982e1e8889edd9f8a8f3030",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_d93f0a18735f1e678a10.wav",
+      "bytes": 99884,
+      "sha256": "0b8b357c65b444265fe82848cf351d572aaf1e8a7454199a3d9838c9b4f84eff",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_db690ee5331fdfb52cb9.wav",
+      "bytes": 111404,
+      "sha256": "079f6566ecc31d48c3eb87de0ea264789c37cf39d497a7a9408be5f9e626c105",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_dfa18a64706cbffe9f49.wav",
+      "bytes": 96044,
+      "sha256": "ea2dd0ddb2ccfbbaddbb01c42462a1e93616fe530ad0ed0a4cc816293abdd221",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_e3b136f26fdb61c32af8.wav",
+      "bytes": 111404,
+      "sha256": "abb0b839194c9f245e6f5c39ca4bb072b0ed138f4b523f79647ec0f41687c4cc",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_e4364d442feab215807e.wav",
+      "bytes": 153644,
+      "sha256": "eece0e1272c70862c987894af2dde60dab43bc5af20e7016b2f57b6e24fe375e",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_e51a587cad3829cd0339.wav",
+      "bytes": 115244,
+      "sha256": "a034c33f4b54207f07ba98cfc5f36b1392c12cddbf29262a7f25e182723e1fd8",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_e86155a1f76211cc2dc2.wav",
+      "bytes": 145964,
+      "sha256": "d52eb1f8eda3b54d94501d947fb08d3bf2a660a7b7a2545fa6cfe56a84a82b52",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_ea29145886ce37b544c1.wav",
+      "bytes": 119084,
+      "sha256": "073426de742afd1ff4647fb81209d6ad86efb863e719a7154949afeffe2ad974",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_eb397850a4c20c52447b.wav",
+      "bytes": 130604,
+      "sha256": "f4c63a5e3fa0c00200a8f6f88cbe013829cace58d9d6377ba4e052bab5866b45",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_ed143b67ed906dea872e.wav",
+      "bytes": 119084,
+      "sha256": "ec44986f21fc0427a1c2388c2f427fa1ebf22944f763a15cc01e4bdc20f087fc",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_f003368a967b367fb7f2.wav",
+      "bytes": 84524,
+      "sha256": "12b933593037ad3e4efd145954f3e5f5e72b25ef334700bee0525e5dda27ea93",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_f1a2ce0abf940209d65e.wav",
+      "bytes": 119084,
+      "sha256": "cf67c5d908ed4d45a4f0e023045018a9f79dc1a9a88b4668fd1988ebc9e3738b",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_f266218b49b8862de962.wav",
+      "bytes": 145964,
+      "sha256": "a5df64ae7f913808d1a003408ce674e79a048b25d544a415884840878d848dac",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_f3928267a44ff2414fbe.wav",
+      "bytes": 122924,
+      "sha256": "fa09ec3b8a0e6d621e50f0d71dbe6a0d6aee4b20ea2c521872a82a51939a4ae1",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_f392995d709b544526c5.wav",
+      "bytes": 92204,
+      "sha256": "d0dc0cfafd5d93b534e7893024249a7c37749af01cd079ae0127328bb482815b",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_f57542b6265febc23c36.wav",
+      "bytes": 138284,
+      "sha256": "b07dd0ad4bb0fd2a53e4d29df4ac83a6c881cae39491b2091a986d99af9f3a33",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_f5a24ecb797e9fda8209.wav",
+      "bytes": 122924,
+      "sha256": "977cbc3c008017f3cb66189d8817eca75bf757a0aa44d925d3a364ee0b592792",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_f602f712a79c3727c96f.wav",
+      "bytes": 130604,
+      "sha256": "39d2bbcfe3728bc0daef221c048784bd6a8c254ae18fb738653f28b3512055f4",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_f651584d47fb1605fd04.wav",
+      "bytes": 322604,
+      "sha256": "f895d9c6117d0a1f3e73295289c458cbc1a3c9b35be60616c1a2ccce84cc9893",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_fdeb85d3ca536461a989.wav",
+      "bytes": 107564,
+      "sha256": "38c977bbca903c489f02390f9571045adf92898f41958abb9049b1df17bbd6b6",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_fe735604d0bec9e0c157.wav",
+      "bytes": 119084,
+      "sha256": "6c6ceee425d535d003cf22f6fffbeef8c99b823bd06995db0e1d61e427b58d7a",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/audio/proso49_ff5472d2fdc0fbb67f7b.wav",
+      "bytes": 138284,
+      "sha256": "2049d20ffb1a96849f8c7c30bbb55633a1f4a31dcf72f13e4013f2cebb35c06b",
+      "role": "Generated control/source waveform, disposable after its completed experiment consumer; review by2026-11-10"
+    },
+    {
+      "path": "teacher/items.jsonl",
+      "bytes": 157772,
+      "sha256": "c1a1868c70bf4b8577a174ec3587ea9746fd7387ff352ef5f5e50ae1dabb011c",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "teacher/lock.json",
+      "bytes": 399,
+      "sha256": "da931392925acbf2470082b7b0ee0f5a217ec8d8de17a8c7feb0c2688891670a",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "teacher/run.json",
+      "bytes": 249,
+      "sha256": "c9b102bb5d733e343500cea4cd666c3a315c1a9d32af2fecb68802debafe3d99",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "teacher/runtime.json",
+      "bytes": 36156,
+      "sha256": "a2fdc63ca3a2888961e068e7198c9eeafe979261cd169bd763deaebbdf797569",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "teacher/selection.json",
+      "bytes": 371195,
+      "sha256": "11524a0f2714a17d82b6a3374a8a98bd0f07f8b2e1fa2ac4af39ded0d82e8634",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "teacher/source_snapshot.json",
+      "bytes": 17475,
+      "sha256": "bfd975c38e275118e72a329ad5ed4d4841ad66ea63da43dc2e3c73b208a6b06b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "transfer_plan.json",
+      "bytes": 1964228,
+      "sha256": "24839c0f72c51fbb214845c630b99a23f418fe06e92b5c665182b5cbb1618a14",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    }
+  ]
+}

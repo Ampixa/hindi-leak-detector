@@ -1,0 +1,555 @@
+/Volumes/T9/hindi-detector/.venv-indicf5/lib/python3.12/site-packages/pyworld/__init__.py:13: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+ERROR:root:Explicit rhythm-control exclusion proso49_5b2e0d49bff14b493763
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_f1a2ce0abf940209d65e
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_fdeb85d3ca536461a989
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_82dd8cc99351cb795753
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_13282d41c200d1db85ca
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_8d42e19c1f353709032e
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 110, in main
+    raise ValueError('Invalid emitted duration-control waveform')
+ValueError: Invalid emitted duration-control waveform
+ERROR:root:Explicit rhythm-control exclusion proso49_997b4a4c9f2df101c7df
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_27d6832338f769d95f01
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_8bf09ffd1eb3fa0704a3
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_a19ce206d6de92a1f600
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_745712e93f82a31cdeda
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_fe735604d0bec9e0c157
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 18, in duration_map
+    raise ValueError('Need full carrier duration including trailing samples')
+ValueError: Need full carrier duration including trailing samples
+ERROR:root:Explicit rhythm-control exclusion proso49_cad33c57bdd2cea041ae
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_747ffeeacc967ae38799
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 18, in duration_map
+    raise ValueError('Need full carrier duration including trailing samples')
+ValueError: Need full carrier duration including trailing samples
+ERROR:root:Explicit rhythm-control exclusion proso49_f003368a967b367fb7f2
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_22c3bf325d16850ba676
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_cbeb33cb998b612d4ad6
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_50b033ec6cbb49289806
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 110, in main
+    raise ValueError('Invalid emitted duration-control waveform')
+ValueError: Invalid emitted duration-control waveform
+ERROR:root:Explicit rhythm-control exclusion proso49_4846dbfaf106d7f38fbd
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_594b474fa0d1b22fb925
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_4adcf51d3bfaac631030
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_059df9598a64cc1ca6b8
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_859c965fc43338c8d5e2
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_76488f3650cd6479ac15
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_31649e86e3beb40f5107
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_612c235db09e2c4d4ea8
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_c32bd9b9de261713e30e
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 110, in main
+    raise ValueError('Invalid emitted duration-control waveform')
+ValueError: Invalid emitted duration-control waveform
+ERROR:root:Explicit rhythm-control exclusion proso49_45496bc8ee651bc68d34
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 18, in duration_map
+    raise ValueError('Need full carrier duration including trailing samples')
+ValueError: Need full carrier duration including trailing samples
+ERROR:root:Explicit rhythm-control exclusion proso49_f57542b6265febc23c36
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_c8192e89811ef9945a7e
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_81d769178a78d5992822
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_4910fe5018a84063a4ce
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 110, in main
+    raise ValueError('Invalid emitted duration-control waveform')
+ValueError: Invalid emitted duration-control waveform
+ERROR:root:Explicit rhythm-control exclusion proso49_1bef55c83663f62a5625
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_b356682305d0330f370d
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 86, in main
+    raise ValueError('Third Native donor failed content/feature qualification')
+ValueError: Third Native donor failed content/feature qualification
+ERROR:root:Explicit rhythm-control exclusion proso49_347742f23ba0ee33892f
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_0801e1f3d34c9fba07c0
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_976eeff59f9cb9466477
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_25d82ea97871bc9dbe9e
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 86, in main
+    raise ValueError('Third Native donor failed content/feature qualification')
+ValueError: Third Native donor failed content/feature qualification
+ERROR:root:Explicit rhythm-control exclusion proso49_d93f0a18735f1e678a10
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_54824584431903fc11da
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_ba38192e5635d25bd21d
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_0ffdde8503a778dc4146
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_31fae9b4daa28dd89523
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_ce8cd6eb0f3f877e4526
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_1962c9ef947875518187
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_a6fa6add12a7e9247b3c
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_ff5472d2fdc0fbb67f7b
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 18, in duration_map
+    raise ValueError('Need full carrier duration including trailing samples')
+ValueError: Need full carrier duration including trailing samples
+ERROR:root:Explicit rhythm-control exclusion proso49_bb0873795d9136bf90be
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 18, in duration_map
+    raise ValueError('Need full carrier duration including trailing samples')
+ValueError: Need full carrier duration including trailing samples
+ERROR:root:Explicit rhythm-control exclusion proso49_c9f37cd8bef76985bd9a
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_3df991580a47985f71b7
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_6c6476823d0cf1d9150e
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_4f6375da99082b358dcc
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_8bb4877ccd88d87319ac
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_a0df2a6548b5e31ca4c4
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_760c1006e783f1fde8d5
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_05ae49edb13a722e1990
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_bfd7953eea97e4c115ec
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 18, in duration_map
+    raise ValueError('Need full carrier duration including trailing samples')
+ValueError: Need full carrier duration including trailing samples
+ERROR:root:Explicit rhythm-control exclusion proso49_f602f712a79c3727c96f
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 18, in duration_map
+    raise ValueError('Need full carrier duration including trailing samples')
+ValueError: Need full carrier duration including trailing samples
+ERROR:root:Explicit rhythm-control exclusion proso49_d39bd0b4c892bc40a7c1
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_f392995d709b544526c5
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 86, in main
+    raise ValueError('Third Native donor failed content/feature qualification')
+ValueError: Third Native donor failed content/feature qualification
+ERROR:root:Explicit rhythm-control exclusion proso49_70f076333c26b09bafac
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_dfa18a64706cbffe9f49
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_367c445f47c9d1daaddc
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 86, in main
+    raise ValueError('Third Native donor failed content/feature qualification')
+ValueError: Third Native donor failed content/feature qualification
+ERROR:root:Explicit rhythm-control exclusion proso49_8c539ca499a09bebc432
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_56742ed3e2cb9659629b
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 18, in duration_map
+    raise ValueError('Need full carrier duration including trailing samples')
+ValueError: Need full carrier duration including trailing samples
+ERROR:root:Explicit rhythm-control exclusion proso49_2c2fb2ffc40657499d2f
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_2522ad6c270e97cdab7d
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_cf97de8da70dee5d80bc
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_68415b5f275e79774b4e
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_70f9c3bf994491316139
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_92c097c4e24a1155c32f
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+ERROR:root:Explicit rhythm-control exclusion proso49_6989b0f710d406acf5b4
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 106, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 23, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below80ms')
+ValueError: Local word stretch outside frozen.4..2.5 or word below80ms
+{"status": "complete_word_rhythm_controls", "counts": {"ok_rhythm_interventions": 92, "excluded_rhythm_intervention": 72}, "actual_hindi_error_accuracy": null}

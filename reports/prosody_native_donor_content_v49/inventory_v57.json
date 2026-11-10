@@ -1,0 +1,31 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "host": "k2",
+  "original_path": "/Volumes/T9/hindi-detector/reports/prosody_native_donor_content_v49",
+  "created_utc": "2026-11-09T03:08:21.541271+00:00",
+  "last_review_utc": "2026-11-09T03:08:21.541271+00:00",
+  "next_review": "2026-11-10",
+  "not_on_HF": true,
+  "retention": "Compact admission/rollback/source pins retained for active Hindi-detector goal. Completed raw control WAVs/redundant frames disposable24h after consumer closes; no blind deletion. Source-model rights/MMS research restrictions inherited.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1880,
+      "sha256": "7cbf0cdbd3ada789ac7606c4a77ed4554774cfa4ba4cd18f4a3d97b00e372bf2",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "result.json",
+      "bytes": 299458,
+      "sha256": "8bc1165ef43942e2c072c7ab5cbc6eb8533ff8c0b5f73a08fe82465b6426d145",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "source_snapshot.json",
+      "bytes": 7808,
+      "sha256": "0d5fb22c2431a62e963949139cb3dbb700f32485b1341bd0ded61c3dd9e437ef",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Nucleus-supervision delta review
+
+Codex GPT-6 /root, owner Ampixa/user; created 2026-11-09T14:15:43.141677+00:00 UTC, original host cdjks-MacBook-Pro-2.local, original path /Users/cdjk/github/hindi-detector/reports/claude_nucleus_review_v82. Actual Claude CLI read-only/no-tools/noMCP/no-session review, never pretended run/listen. prompt.txt exactsource/design,inputs.json sizes/SHA,launch.json PID/command/time,stdout.json structuredreview/modelusage,stderr.log errors,result.json parsedreview andtriage.json verifiedfixes aftercompletion. No audio/model downloads/HFupload; inherited rights. Active consumer one localized training fit, nextreview2026-11-10; raw prompt/logs disposable24h afterconsumercloses, compactconclusionsretained.

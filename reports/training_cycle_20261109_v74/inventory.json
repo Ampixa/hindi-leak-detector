@@ -1,0 +1,50 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 3600,
+    "sha256": "9649ce7c9a826225af8f316385c11e550bbc4a864acd4a89d7bb7071af07baf6",
+    "status": "active"
+  },
+  {
+    "path": "announcement.txt",
+    "bytes": 546,
+    "sha256": "eea9e531f90f9010340b54bc1b3b50d231d89a74e8391913d3664c558c4ee1b5",
+    "status": "active"
+  },
+  {
+    "path": "evidence.json",
+    "bytes": 30200,
+    "sha256": "21aa4173cf439bc2d8e9c0dfa610918749a847e2ad77c0a40d6fc74d410304c8",
+    "status": "active"
+  },
+  {
+    "path": "index.html",
+    "bytes": 13770,
+    "sha256": "6212be2efba89cad388f1880073ec1c587717f60cae04671c4d1f8f9d0608a1d",
+    "status": "active"
+  },
+  {
+    "path": "plan.json",
+    "bytes": 1305,
+    "sha256": "f6529fa31ecba34e9dc5532b9574fdfcc5fd485cf470ff32570a1568c9781d36",
+    "status": "active"
+  },
+  {
+    "path": "preview.launch.json",
+    "bytes": 441,
+    "sha256": "26e320ad73f0445acae1774ee0a47fab96f4a17be743246a42bf25b960932fb0",
+    "status": "active"
+  },
+  {
+    "path": "preview.log",
+    "bytes": 407,
+    "sha256": null,
+    "status": "mutable disposable log"
+  },
+  {
+    "path": "qa.json",
+    "bytes": 717,
+    "sha256": "7a89bf1e280f45530b6b1eb21c8a3e32d747c961ed13df9f40bfd82797b21310",
+    "status": "active"
+  }
+]

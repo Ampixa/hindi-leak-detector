@@ -1,0 +1,97 @@
+{
+  "created_by": "Codex GPT-6 /root",
+  "created_utc": "2026-11-06T07:57:42.840321+00:00",
+  "host": "cdjks-MacBook-Pro-2.local",
+  "origin_path": "/Users/cdjk/github/hindi-detector",
+  "purpose": "Exact authored source inventory for completed k2 pilot",
+  "status": "active",
+  "owner": "Ampixa/user",
+  "next_review": "2026-11-13",
+  "files": [
+    {
+      "path": "pyproject.toml",
+      "bytes": 528,
+      "sha256": "dfac08890874688737f9f05c360697c5d80b2e7d45dd1cd2f9f94df4824fb24a"
+    },
+    {
+      "path": "sources.lock.json",
+      "bytes": 4978,
+      "sha256": "63182ee7080838d7526f33ddf6b0ec1cf53ae728a6aedc511f23a89580a69d98"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 168,
+      "sha256": "6fd82056e3104df30ce6188e37250fa8d1f4a1fd68e0488c45b923c6427bf5d5"
+    },
+    {
+      "path": "hindi_detector/prosody.py",
+      "bytes": 3498,
+      "sha256": "dfd1b5473da28f631a9a10e4c179803fbdf95be3dd6f328d50cf82786378c450"
+    },
+    {
+      "path": "hindi_detector/ctc.py",
+      "bytes": 2992,
+      "sha256": "0273881950020a4637615fb2a0bf16fc63916a250f82cebed78ff843f92e1c0e"
+    },
+    {
+      "path": "hindi_detector/__init__.py",
+      "bytes": 79,
+      "sha256": "67ea7540e6f71f3c324cc9c007217e2cd60c8edccf429cf3014a97d21b266855"
+    },
+    {
+      "path": "hindi_detector/acoustic.py",
+      "bytes": 1848,
+      "sha256": "d7edec613db0475bf4e47e33b65966bf37ec66f4aaeeeb282fcbcedcb2436a0c"
+    },
+    {
+      "path": "hindi_detector/cli.py",
+      "bytes": 5462,
+      "sha256": "ca05992d648f62e3e43aa431bb3a55a2985e94e50a9746871cc5d2b63744f2b9"
+    },
+    {
+      "path": "hindi_detector/artifacts.py",
+      "bytes": 2180,
+      "sha256": "c1d763dbef1375fcd4e2310ee32447d353c43de462aaf51f358caf813d2304c7"
+    },
+    {
+      "path": "hindi_detector/candidates.py",
+      "bytes": 4014,
+      "sha256": "ca79e1c4012341d3848a4ed551b1cf797d12ec598df65e653b2f681cca1916f8"
+    },
+    {
+      "path": "scripts/run_pocket_pilot.py",
+      "bytes": 8175,
+      "sha256": "4ea08141577670c564686fae61f9534947bfe2aac1ba2f8a5122dd1fc06dc31a"
+    },
+    {
+      "path": "scripts/fetch_acoustic_model.py",
+      "bytes": 1736,
+      "sha256": "891b2ab6b5ff0640024105f482c6e9e1832049dca69035d3d98cd178be0f502b"
+    },
+    {
+      "path": "scripts/fetch_sources.py",
+      "bytes": 2185,
+      "sha256": "00949314ca7ae9f0893b364736185fc31b9c1776b671bdeb88e70248cccbf21e"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 2820,
+      "sha256": "3a2bee1583e2a05f367a6c57837be7a8804a0d6f46b7700c8b5f9143bc100249"
+    },
+    {
+      "path": "review/index.html",
+      "bytes": 22328,
+      "sha256": "98a98bad4666459d45d60127f46a1db9b2551fcc883be5ee1a9d94f2b744f8c0"
+    },
+    {
+      "path": "review/candidates.js",
+      "bytes": 160988,
+      "sha256": "04b971b1ae1c62a25e401fef049eed4d2a850fbdec1c854c1a77dc1e17169c0e"
+    },
+    {
+      "path": "review/pilot.js",
+      "bytes": 4333,
+      "sha256": "0ed33fa1cc97490cb49e4158d17b223238a56c2a67ce57b1a7b23a1818eb9c12"
+    }
+  ]
+}

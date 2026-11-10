@@ -1,0 +1,67 @@
+{
+  "created_utc": "2026-11-09T02:04:36.064854+00:00",
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "status": "active",
+  "next_review": "2026-11-10",
+  "model_sha256_unchanged": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "service": {
+    "pid": 44652,
+    "url": "http://100.80.123.8:8770/swar",
+    "html_sha256": "c1469e67d9660ff56a738311e578e85c253cbcadfd977b93bb0305b0ea77ba76",
+    "source_sha256": "5d6369e09b4d4a28d27e29b0b12ca4c41cdff0160359493ecef552685387a1b1",
+    "transition": "reports/wordlab_service/range_v47_transition.json"
+  },
+  "unit_tests_passed": 151,
+  "cold_cli_checks": [
+    8,
+    8
+  ],
+  "content_reference_guard_checks": [
+    5,
+    5
+  ],
+  "browser": {
+    "six_picks": true,
+    "three_readings": true,
+    "all96_cases_available": true,
+    "numeric_abstention_verified": "real_yt_yt04_027",
+    "desktop": [
+      1440,
+      1100
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "overflow": false,
+    "application_errors": 0,
+    "application_warnings": 0,
+    "first_play_word_seek": {
+      "case": "real_yt_yt01_005",
+      "word": "हैन",
+      "expected_start": 1.052552727272727,
+      "actual_start": 1.052552,
+      "expected_stop": 1.3631199999999999,
+      "actual_stop": 1.363833,
+      "stopped": true
+    },
+    "fix": "Loaded/seeked playback,20ms boundary scheduling, expected cancellation handling and HTTP byte ranges. Model/predictions unchanged."
+  },
+  "http": {
+    "root_progress_swar": 200,
+    "legacy_index_cases": 110,
+    "model_download_bytes": 22824,
+    "unknown_case": 404,
+    "first_last10byte_ranges": 206,
+    "range_bytes_match_source": true,
+    "unsatisfiable_range": 416
+  },
+  "space": {
+    "k2_free_bytes": 231087869952,
+    "files_removed": 0,
+    "space_reclaimed_bytes": 0,
+    "automatic_review_block": "Destructive removal requires human approval.30928 unused old-source WAVs remain needs-review;10,599,895,232 logical bytes. All2940 current historical benchmark/playback sources preserved."
+  },
+  "retention": "Compact verification active while release consumed. Screenshots/logs expire24h after consumer closes; next review2026-11-10. NOT on HF; inherited source rights."
+}

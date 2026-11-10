@@ -1,0 +1,14 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "created_utc": "2026-11-07T07:57:46.735864+00:00",
+  "owner": "Ampixa/user",
+  "status": "active",
+  "next_review": "2026-11-14",
+  "purpose": "Private read-only word/prosody listening lab",
+  "pid": 16877,
+  "port": 8770,
+  "url": "http://100.80.123.8:8770/",
+  "sentences": 1,
+  "public_funnel": false,
+  "persistence": "Detached process; restart backend after reboot, private Serve mapping persists"
+}

@@ -1,0 +1,25 @@
+{
+  "model_sha256": "cd912af1fcf474a4aecbf2654e62185bf8d44623d48e90c72967512a3f25ef51",
+  "selection_sha256": "c76a989dcc79fa9a85d1bfea1e528f48fd02417f54a7aef130c8442d767d3a25",
+  "asset_inventory_sha256": "dd86c698b12609d9d9351446c74d169d821c7799ee632c8310652904df20a72f",
+  "cases": {
+    "real_yt_yt01_008": [
+      "किनकि",
+      "user-confirmed occurrence"
+    ],
+    "real_yt_yt03_019": [
+      "नेकपा",
+      "user-confirmed occurrence; पिढको listener-similar diagnostic"
+    ],
+    "real_yt_yt03_018": [
+      "तलको",
+      "user-confirmed occurrence"
+    ],
+    "real_yt_yt05_040": [
+      "आइसके",
+      "alignment-sensitive unconfirmed diagnostic"
+    ]
+  },
+  "script_sha256": "8ba0854404757b29996131bf3e24714ae1beb346184c82972e308edc7cd78d7d",
+  "scope": "Development regressions and timing only; no independent accuracy, no streaming, no production switch."
+}

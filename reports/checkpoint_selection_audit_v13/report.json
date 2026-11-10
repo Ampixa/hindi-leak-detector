@@ -1,0 +1,37 @@
+{
+  "used": {
+    "host": "k2",
+    "path": "/Users/k2/madhyam/runs/nepali_v1c/model.safetensors",
+    "recorded_step": 1309,
+    "export_date": "2026-09-11",
+    "sha256": "515c22c63f2ae4e1d7ea76f239f6310692f84e58532fdd56fa997bea3f01a7eb"
+  },
+  "l40_verified_exports": [
+    {
+      "path": "/home/ampixa/pocket_tts_stage/teacher_run_20261002/model.safetensors",
+      "step": 250000,
+      "layers": 24,
+      "sha256": "2b4636e3aed0e4f2d035630e504be95fc58f494b690a851a91bfe0dd8299516f"
+    },
+    {
+      "path": "/home/ampixa/pocket_tts_stage/student_distill_1455_20261005/run/model.safetensors",
+      "step": 115000,
+      "layers": 6,
+      "sha256": "b734fbf6226a3ce440167d28bd8e801ab57a0266306099372a410300260a22c0"
+    }
+  ],
+  "later_registered_l40_benchmark_exports": [
+    "/home/ampixa/ml_flowlm_v1/exports/step24000_raw.safetensors",
+    "/home/ampixa/ml_flowlm_v1/runs/ml17_v1/model.safetensors",
+    "/home/ampixa/nepal31_v1/exports/step23914_raw.safetensors"
+  ],
+  "best_checkpoint_established_by_this_audit": false,
+  "failure": "Reused pilot manifest checkpoint selection without auditing preferred L40 model before scaled synthesis. Hash verification only established the selected bytes.",
+  "scope_correction": "v11/v12 detector results apply to the old k2 v1c comparator; not the preferred L40 Nepali system. No claim that correcting the checkpoint alone fixes detector reliability.",
+  "inputs": [
+    "k2 reports/pocket_pilot_v1/manifest.json and bulk worker plan/source",
+    "L40 teacher/student args.yaml and final progress.jsonl",
+    "L40 hf_backup_20261005/MANIFEST.json; current weight SHA-256 computed directly",
+    "L40 tts_bench_picks/adapters.json; entries are execution registrations, not best-model evidence"
+  ]
+}

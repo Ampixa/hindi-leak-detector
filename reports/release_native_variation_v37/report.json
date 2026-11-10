@@ -1,0 +1,180 @@
+{
+  "status": "complete_release_native_variation",
+  "created_utc": "2026-11-09T00:55:23.743461+00:00",
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "fixed_pair_plan_sha256": "a6faa0233de41d0e6dab6982a23c60176402150ca8d473a1e4ff04d7ef4e0b17",
+  "word_pairs": 102,
+  "word_families": 18,
+  "decisions": {
+    "uncertain": 39,
+    "no_strong_vowel_change": 58,
+    "strong_vowel_change": 5
+  },
+  "site_comparisons": 113,
+  "site_flags": 5,
+  "by_word": {
+    "अब": {
+      "comparison_pairs": 19,
+      "decisions": {
+        "no_strong_vowel_change": 14,
+        "uncertain": 5
+      },
+      "query_voice_groups": 2,
+      "reference_voice_groups": 7
+    },
+    "अहिले": {
+      "comparison_pairs": 3,
+      "decisions": {
+        "no_strong_vowel_change": 3
+      },
+      "query_voice_groups": 1,
+      "reference_voice_groups": 3
+    },
+    "कसरी": {
+      "comparison_pairs": 2,
+      "decisions": {
+        "no_strong_vowel_change": 2
+      },
+      "query_voice_groups": 1,
+      "reference_voice_groups": 1
+    },
+    "कसैले": {
+      "comparison_pairs": 2,
+      "decisions": {
+        "no_strong_vowel_change": 2
+      },
+      "query_voice_groups": 1,
+      "reference_voice_groups": 2
+    },
+    "किनकि": {
+      "comparison_pairs": 2,
+      "decisions": {
+        "no_strong_vowel_change": 2
+      },
+      "query_voice_groups": 1,
+      "reference_voice_groups": 2
+    },
+    "गर्न": {
+      "comparison_pairs": 12,
+      "decisions": {
+        "uncertain": 3,
+        "no_strong_vowel_change": 8,
+        "strong_vowel_change": 1
+      },
+      "query_voice_groups": 2,
+      "reference_voice_groups": 5
+    },
+    "छैन": {
+      "comparison_pairs": 2,
+      "decisions": {
+        "strong_vowel_change": 2
+      },
+      "query_voice_groups": 1,
+      "reference_voice_groups": 2
+    },
+    "तर": {
+      "comparison_pairs": 12,
+      "decisions": {
+        "uncertain": 3,
+        "no_strong_vowel_change": 8,
+        "strong_vowel_change": 1
+      },
+      "query_voice_groups": 3,
+      "reference_voice_groups": 6
+    },
+    "त्यसपछि": {
+      "comparison_pairs": 3,
+      "decisions": {
+        "no_strong_vowel_change": 3
+      },
+      "query_voice_groups": 1,
+      "reference_voice_groups": 3
+    },
+    "धेरै": {
+      "comparison_pairs": 6,
+      "decisions": {
+        "no_strong_vowel_change": 4,
+        "uncertain": 2
+      },
+      "query_voice_groups": 2,
+      "reference_voice_groups": 3
+    },
+    "नै": {
+      "comparison_pairs": 3,
+      "decisions": {
+        "uncertain": 3
+      },
+      "query_voice_groups": 1,
+      "reference_voice_groups": 3
+    },
+    "भएर": {
+      "comparison_pairs": 3,
+      "decisions": {
+        "uncertain": 3
+      },
+      "query_voice_groups": 1,
+      "reference_voice_groups": 3
+    },
+    "भनेर": {
+      "comparison_pairs": 6,
+      "decisions": {
+        "no_strong_vowel_change": 3,
+        "uncertain": 2,
+        "strong_vowel_change": 1
+      },
+      "query_voice_groups": 2,
+      "reference_voice_groups": 3
+    },
+    "मैले": {
+      "comparison_pairs": 9,
+      "decisions": {
+        "no_strong_vowel_change": 5,
+        "uncertain": 4
+      },
+      "query_voice_groups": 2,
+      "reference_voice_groups": 5
+    },
+    "रुपमा": {
+      "comparison_pairs": 1,
+      "decisions": {
+        "uncertain": 1
+      },
+      "query_voice_groups": 1,
+      "reference_voice_groups": 1
+    },
+    "सबै": {
+      "comparison_pairs": 6,
+      "decisions": {
+        "uncertain": 5,
+        "no_strong_vowel_change": 1
+      },
+      "query_voice_groups": 2,
+      "reference_voice_groups": 4
+    },
+    "हुन": {
+      "comparison_pairs": 2,
+      "decisions": {
+        "uncertain": 2
+      },
+      "query_voice_groups": 1,
+      "reference_voice_groups": 2
+    },
+    "हैन": {
+      "comparison_pairs": 9,
+      "decisions": {
+        "uncertain": 6,
+        "no_strong_vowel_change": 3
+      },
+      "query_voice_groups": 1,
+      "reference_voice_groups": 4
+    }
+  },
+  "native_error_false_positive_rate": null,
+  "actual_hindi_error_accuracy": null,
+  "limits": [
+    "Same word spoken in different contexts by different source voice groups. Legitimate pronunciation/prosody variation is possible.",
+    "The metadata-only pair plan was fixed for the earlier model and is replayed without score-based pair selection.",
+    "These paired disagreement counts are not a human-error false-positive rate.",
+    "No new training, threshold tuning, source-label gold or voice embedding feature."
+  ]
+}

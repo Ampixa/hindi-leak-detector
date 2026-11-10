@@ -1,0 +1,7 @@
+{
+  "input_receipts_sha256": "6ba67bf157b46ac87196d47737116a1961dfd2f361e7a878261e4157f156cbe5",
+  "clips": 258,
+  "selection": "All258 already scored actual recordings, no score-based filtering",
+  "model_changes": false,
+  "content_decision": "Original frozen Native Zipformer/IndicConformer recipe; Hindi Conformer retained as additional audit, never accent gold"
+}

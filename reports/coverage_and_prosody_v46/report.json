@@ -1,0 +1,59 @@
+{
+  "word_positions": 1368,
+  "coverage": {
+    "no_selected_vowel_contrast": 878,
+    "measured_vowel_contrast": 247,
+    "explicit_unavailable": 243
+  },
+  "unavailable_reasons": {
+    "No declared acoustic representation for 'd̪'": 77,
+    "No declared acoustic representation for 'ʌ̃'": 5,
+    "No declared acoustic representation for 'ã'": 18,
+    "No declared acoustic representation for 'eu̯'": 9,
+    "No declared acoustic representation for 'ãu̯'": 5,
+    "No declared acoustic representation for 'ĩ'": 34,
+    "No declared acoustic representation for 'd͡z'": 72,
+    "No declared acoustic representation for ''": 10,
+    "No lexical IPA for project phone 'm:'": 1,
+    "No declared acoustic representation for 'nʰχ'": 2,
+    "No declared acoustic representation for 'ʌ̃u̯'": 2,
+    "No lexical IPA for project phone 'l:'": 1,
+    "No declared acoustic representation for '(en)'": 1,
+    "No declared acoustic representation for 'd͡zʱ'": 4,
+    "No lexical IPA for project phone 'n:'": 1,
+    "No declared acoustic representation for 'ɪʰχ'": 1
+  },
+  "meaning": "878 positions have no selected modeled vowel contrast, rather than a failed measurement.243 have an explicit unsupported representation/context. Neither group is assessed for other pronunciation errors.",
+  "model_changed": false,
+  "head_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "input_cases_sha256": "3ed729f2888194c85fdf209cb1e26557fe663713f89cfe336ef5fb9755b51bfa",
+  "canonical_unicode_probe": {
+    "mapping_candidates": {
+      "ĩ": "ĩ",
+      "ẽ": "ẽ",
+      "ã": "ã"
+    },
+    "compiled_word_families_before": 639,
+    "after": 649,
+    "new_word_families": 10,
+    "new_word_families_with_modeled_vowel_contrasts": 0,
+    "applied_to_release": false,
+    "method": "Observed exact NFD equivalence in both392-token inventories; no approximate consonant substitutions attempted."
+  },
+  "primary_phonetics_source": {
+    "author": "Rajesh Khatiwada",
+    "year": 2009,
+    "title": "Nepali",
+    "url": "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/nepali/A887820E3B1293EFD43FBD3259D41F73",
+    "doi": "10.1017/S0025100309990181",
+    "read_utc": "2026-11-09",
+    "paraphrase": "Khatiwada reports contextual/speaker variation in the vowel often called schwa, alveolar Nepali affricates, and phonation/F0 effects after aspirated consonants. This supports phone-conditioned prosody analysis and explicit native-variation modeling; it does not validate this detector or provide Hindi-error labels."
+  },
+  "next_implementation_requirements": [
+    "Calibrate missing dental/affricate contexts on actual regional recordings; do not equate different IPA symbols merely to increase apparent coverage.",
+    "Condition local pitch/phonation comparisons on phone class, word/phrase position and intended reference style.",
+    "Keep broad observed native variation and preferred TTS style separate from Hindi-counterfactual evidence.",
+    "Evaluate prospective independent real word errors and intonation labels; model-source or G2P-request labels remain weak supervision."
+  ],
+  "actual_hindi_error_accuracy": null
+}

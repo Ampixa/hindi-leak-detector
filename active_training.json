@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-09T14:51:44.902632+00:00",
+  "creator": "Codex /root",
+  "owner": "Ampixa/user",
+  "current": "reports/stem_training_v83",
+  "model": "reports/stem_training_v83/model.pt",
+  "model_sha256": "ae98b0048e0103e8f5c136b07d3bd68d842bb0efe2eb3a9ab2d3c64abe3d858a",
+  "summary": "reports/stem_training_v83/report.json",
+  "status": "complete_research_candidate_short_vowel_gate_failed",
+  "actual_hindi_error_accuracy": null,
+  "next_review": "2026-11-10",
+  "production_changed": false,
+  "live_pointer": "active_vowel_model.json"
+}

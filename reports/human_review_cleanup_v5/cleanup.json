@@ -1,0 +1,274 @@
+{
+  "files": [
+    {
+      "path": ".playwright-mcp/console-2026-11-07T12-14-40-979Z.log",
+      "bytes": 141,
+      "sha256": "a8188b137ca4569a70622a5cc16374706ce5a12a2f1de9a78b10949cce8c8a5a",
+      "reason": "Completed owned desktop/mobile/audio/private-page QA; compact outcomes retained instead of browser transcripts."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T11-02-30-944Z.yml",
+      "bytes": 4233,
+      "sha256": "4e7516088b1fc87fe634af8bb66513e6ff828d8e3ee61aef46ad301d8cc99f8e",
+      "reason": "Completed owned desktop/mobile/audio/private-page QA; compact outcomes retained instead of browser transcripts."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T12-12-53-127Z.yml",
+      "bytes": 7071,
+      "sha256": "61328c26db6cd39f91382b577d72868fa6b8fa090b4242bd64934053ba3e91f2",
+      "reason": "Completed owned desktop/mobile/audio/private-page QA; compact outcomes retained instead of browser transcripts."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T12-13-56-025Z.yml",
+      "bytes": 5407,
+      "sha256": "4a8115121647b7b26522f9d6eb7151bb561f4c703227603bd1a2aa545c8e1d20",
+      "reason": "Completed owned desktop/mobile/audio/private-page QA; compact outcomes retained instead of browser transcripts."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T12-14-41-235Z.yml",
+      "bytes": 2910,
+      "sha256": "4dccfbffd31e20380e8aac25c76c9f86d60029096a95cadd98e0faf650450ca6",
+      "reason": "Completed owned desktop/mobile/audio/private-page QA; compact outcomes retained instead of browser transcripts."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T12-23-47-253Z.yml",
+      "bytes": 19177,
+      "sha256": "02924047a194a86fc4a6855b88037e455f6c72f579b31b78973d36deb59660b9",
+      "reason": "Completed owned desktop/mobile/audio/private-page QA; compact outcomes retained instead of browser transcripts."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T14-19-32-486Z.yml",
+      "bytes": 2910,
+      "sha256": "4c0db77b740c1cc4e50de096a4cefb5705e40d6a92837d4a4e64f511291dba01",
+      "reason": "Completed owned desktop/mobile/audio/private-page QA; compact outcomes retained instead of browser transcripts."
+    }
+  ],
+  "bytes_planned": 41849,
+  "open_files": false,
+  "free_bytes_before": 50618503168,
+  "reproduction": "Open private / and /progress with Tailscale; browser QA output is disposable and not required for source/data recovery.",
+  "deleted": true,
+  "free_bytes_after": 50618499072,
+  "final_cleanup_files": [
+    {
+      "path": ".playwright-mcp/page-2026-11-07T14-39-16-171Z.yml",
+      "bytes": 5536,
+      "sha256": "7f3b1d54f598d6ef318ddecdff9a5db4761673194dc724a669039dbc6fb84cea",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/anchored_proxy.cpython-314.pyc",
+      "bytes": 12442,
+      "sha256": "fea8dcd41fa55c7638806f0b030d7f982bae1f2a2d485833af13d9659f060fd9",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/word_model.cpython-314.pyc",
+      "bytes": 17761,
+      "sha256": "2ce77d097da76ae0fdeff0ebe53e37a03998dea83d375b5261d74b77b18de826",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/wave_identity.cpython-314.pyc",
+      "bytes": 4338,
+      "sha256": "8204329e7d657d0467da54ef7104129ac13982b56c3d0e2dbe99de35feed11f5",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/candidates.cpython-314.pyc",
+      "bytes": 6774,
+      "sha256": "1937696d7781e8f7424f4f80a781f71c310505b2c7bec9fca1b020c9c6a243a7",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/evaluation.cpython-314.pyc",
+      "bytes": 15077,
+      "sha256": "396e96b556754c25c7b0319bebb498b932801545cd1b9afb53f3f7ffce232669",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/site_reference.cpython-314.pyc",
+      "bytes": 3035,
+      "sha256": "6241c0dd2ef18679ed440d3064c92e8e310e7eaa37fb4a57a41d7336d63fd8e2",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/schwa_probe.cpython-314.pyc",
+      "bytes": 5786,
+      "sha256": "d4ab6c40f06490b50a50cfdd3fd5540b42ec46cba096247ed9a0b4313b1baf1b",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/proxy.cpython-314.pyc",
+      "bytes": 6174,
+      "sha256": "268eaba882ce20a19d6ff7b662feab6dded9c973d713a3cdf19674d401823ebd",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/reference_words.cpython-314.pyc",
+      "bytes": 5227,
+      "sha256": "6c125856a79ad4ba867a604085aebbbc967da3af91ad05b77cd7f7e69b835876",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/supervision.cpython-314.pyc",
+      "bytes": 7024,
+      "sha256": "59956126846280d6a5ee9c17dcd9d45ee3d0508e8cadabd3a86045cf4087a9a1",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/g2p_evidence.cpython-314.pyc",
+      "bytes": 6770,
+      "sha256": "eb07eb5754244131ad991dcd06d63442706611f7065b614a4a755fffc521ab6b",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/crossed_words.cpython-314.pyc",
+      "bytes": 11625,
+      "sha256": "db873096a7285fe3b2cc858127317730bcfcb643d73f25d09d3a66bc1eab31d3",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/prosody.cpython-314.pyc",
+      "bytes": 6203,
+      "sha256": "e482c1a01dfac97909ece37ee99b437ea0e87b95cf864dae09037db511405167",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/ctc.cpython-314.pyc",
+      "bytes": 6427,
+      "sha256": "2985ab3363f8b634ff7496147378681173066067f1c617b206a03e4b36c1d78f",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/review_server.cpython-314.pyc",
+      "bytes": 20595,
+      "sha256": "b14dbc73364998a717620e84df347b886820e64e20b63fe163b69509eb0b5566",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/__init__.cpython-314.pyc",
+      "bytes": 246,
+      "sha256": "dfa601ae1f98bc6c8ce0878e96f11894d9f19f5fb16413b055a17eebb507312b",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/__init__.cpython-315.pyc",
+      "bytes": 247,
+      "sha256": "2cd1ab9c999d0dc486e1815354ba1f7f55b9226cd8a274ce7aefe5fbd35dde20",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/artifacts.cpython-315.pyc",
+      "bytes": 3974,
+      "sha256": "08080eb56b32164858d95a7957fc3d1eb43c226633949e61b8b34596123d91f9",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "hindi_detector/__pycache__/local_features.cpython-314.pyc",
+      "bytes": 7685,
+      "sha256": "fd74b6c9db89c90b5135786c701b4e03ee3ea5a02d14b371f44bcf74c0aa85cf",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "scripts/__pycache__/render_proxy_report.cpython-315.pyc",
+      "bytes": 9655,
+      "sha256": "9344a08612f617befefd404f42576275319d2fe9a83b11f6a450ae0646367fa4",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "tests/__pycache__/test_evaluation.cpython-314.pyc",
+      "bytes": 5885,
+      "sha256": "f081a7066996f9c3c117ba2446c0f4d3c17ebc7c65adab5e2bd30842aa4112a2",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "tests/__pycache__/test_g2p_evidence.cpython-314.pyc",
+      "bytes": 4415,
+      "sha256": "d4f712a74af55084681c1f033ee01080fe5a88c933f93940f0cbe4aac3e58314",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "tests/__pycache__/test_word_model.cpython-314.pyc",
+      "bytes": 2452,
+      "sha256": "24b6abad933da06c915823198254e3350697af69a85808afdd5b93a7d6418f05",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "tests/__pycache__/test_site_reference.cpython-314.pyc",
+      "bytes": 2447,
+      "sha256": "4e58baa8ac10929a17b52f41043b71e4cf393f9685d0757c9f3026dceeb7dd9d",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "tests/__pycache__/test_reference_words.cpython-314.pyc",
+      "bytes": 3100,
+      "sha256": "b9b948ef569467ef2778efdafbb1f94076e6a11071dcb13d585ae0b9c9a8a8fe",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "tests/__pycache__/test_proxy.cpython-314.pyc",
+      "bytes": 2783,
+      "sha256": "cdc5f4fc6b16dce958ec187ed8bf911bc37437c4e15ecf8688e841acce4ed986",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "tests/__pycache__/test_crossed_words.cpython-314.pyc",
+      "bytes": 5678,
+      "sha256": "97fa965d6483dd80eed0d8bdb191394f6cb16915c6ff1e0ce340e65869c29555",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "tests/__pycache__/test_anchored_proxy.cpython-314.pyc",
+      "bytes": 3995,
+      "sha256": "922cc77f9bfd91489a60517bb61f79bc911b494084f6e9a581ecce77527bedd4",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "tests/__pycache__/test_supervision.cpython-314.pyc",
+      "bytes": 5111,
+      "sha256": "af321166025370a9e3bc62eff602b2b59041b5bba15acb411a657b89199aafcf",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "tests/__pycache__/test_schwa_probe.cpython-314.pyc",
+      "bytes": 2745,
+      "sha256": "0da4afeba955a7609afcde2ab8aa76b46e281bbbe868c4d8babbbc9e21df15ae",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "tests/__pycache__/test_core.cpython-314.pyc",
+      "bytes": 8042,
+      "sha256": "af7c1169559f4207cd8cf3c32bbabc467030450c71a7e5b28801f0ed8c69157c",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "tests/__pycache__/test_wave_identity.cpython-314.pyc",
+      "bytes": 3752,
+      "sha256": "80f6839595187e45b4f4c894d81cb64b650a471dbb854c86463768b3216465ab",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "tests/__pycache__/test_local_features.cpython-314.pyc",
+      "bytes": 3935,
+      "sha256": "1edaa709deb2dc0139a6a1c8c0b10cae04bf17c3fad278329a7a3bc41963ed08",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "tests/__pycache__/test_review_labels.cpython-314.pyc",
+      "bytes": 3158,
+      "sha256": "e23d7061005d816d2086e2bb9ffc57ef2784c5c78a3914b2a822525ea382b730",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    },
+    {
+      "path": "tests/__pycache__/test_review_packs.cpython-314.pyc",
+      "bytes": 6485,
+      "sha256": "7d50efda0ec5f7f6fe089021119a39beb3ebf731db8948542440e2fac5f6315d",
+      "reason": "Completed final readonly page QA or regenerable Python bytecode after tests; no active file handles."
+    }
+  ],
+  "final_cleanup_planned_utc": "2026-11-07T14:40:08.223261+00:00",
+  "final_cleanup_deleted": true,
+  "final_cleanup_bytes": 226584,
+  "final_free_bytes": 50903334912
+}

@@ -1,0 +1,28 @@
+{
+  "cases": 110,
+  "matched_cases": 48,
+  "human_families": 32,
+  "earlier_cases": 30,
+  "default_focus_word": "गमला",
+  "default_tts_audio_loaded": 3,
+  "human_word": "अब",
+  "human_audio_loaded": 8,
+  "human_audio_errors": 0,
+  "human_transfer_panels": 8,
+  "human_phrase_view_disabled": true,
+  "human_no_matched_pocket_warning": true,
+  "word_playback_status": "Playing अब from Human 1 · Alipurduar with250ms context",
+  "console_errors": 0,
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "mobile_horizontal_overflow": false,
+  "progress_has_complete_1928_status": true,
+  "progress_pairs": {
+    "indicf5_above_pocket": 25,
+    "pocket_hindi_above_pocket": 43,
+    "supported_pairs_each": 64
+  },
+  "actual_hindi_accuracy": null
+}

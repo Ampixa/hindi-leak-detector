@@ -1,0 +1,37 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "host": "k2",
+  "original_path": "/Volumes/T9/hindi-detector/reports/review_delivery_v57",
+  "created_utc": "2026-11-09T03:08:21.541271+00:00",
+  "last_review_utc": "2026-11-09T03:08:21.541271+00:00",
+  "next_review": "2026-11-10",
+  "not_on_HF": true,
+  "retention": "Compact admission/rollback/source pins retained for active Hindi-detector goal. Completed raw control WAVs/redundant frames disposable24h after consumer closes; no blind deletion. Source-model rights/MMS research restrictions inherited.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1849,
+      "sha256": "927b7402d73e82a6b93a78b79682e56d13c495e70f9d30ccfd352122e1049f49",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "applied.json",
+      "bytes": 321,
+      "sha256": "6199ad972643b0d950c8f7f89f075d423566b067b56665d4a50144533fcbd848",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "review_search_patch.json",
+      "bytes": 2944,
+      "sha256": "eeb3884ed784d8f23c3b012be6d80f568d55b915acb049978d80679086bdd420",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "source_snapshot.json",
+      "bytes": 25171,
+      "sha256": "ee03cb02bde5f00ddd935f1789315f65e70034fa285a6acd9c58dd46581a8b54",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    }
+  ]
+}

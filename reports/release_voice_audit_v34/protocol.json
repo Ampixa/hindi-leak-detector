@@ -1,0 +1,16 @@
+{
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "source_null_items_sha256": "f6a93e54f0e899f10778bdc2ce77c238aaf75fbf6e6be694b1a47a3e01c07220",
+  "conditions": [
+    "gain_half",
+    "world_original_f0",
+    "world_plus3_semitones",
+    "world_minus3_semitones"
+  ],
+  "native_controls": "Reuse21 preselected held-out source cases/3voice groups, exact old waveform hashes",
+  "actual_error_checks": [
+    "real_yt_yt01_005/हैन",
+    "real_yt_yt01_008/किनकि"
+  ],
+  "interpretation": "Pitch shifts preserve estimated envelope/aperiodicity and relative F0 shape; compare added flags against WORLD0. Reconstruction is not a perfect voice-only intervention. No refit."
+}

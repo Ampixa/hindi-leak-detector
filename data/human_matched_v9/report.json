@@ -1,0 +1,37 @@
+{
+  "status": "verified_human_context_tts_plan_frozen_before_generation",
+  "word_families": 32,
+  "contexts": 63,
+  "reference_groups": 2,
+  "jobs_per_tts": 126,
+  "intended_tts_systems": [
+    "indicf5_stock",
+    "pocket_nepali_v1c"
+  ],
+  "planned_generated_clips": 252,
+  "channel_review_exclusions": [
+    {
+      "word": "खान",
+      "clip_id": "human_g2p_v5_183f164b0d0929619f9e",
+      "reason": "Stereo-channel review flag; excluded from this prosody-anchor plan, not a pronunciation label."
+    },
+    {
+      "word": "गर",
+      "clip_id": "human_g2p_v5_d6afed992902f3217845",
+      "reason": "Stereo-channel review flag; excluded from this prosody-anchor plan, not a pronunciation label."
+    },
+    {
+      "word": "पर",
+      "clip_id": "human_g2p_v5_89d37e75ac84d6a5e73a",
+      "reason": "Stereo-channel review flag; excluded from this prosody-anchor plan, not a pronunciation label."
+    }
+  ],
+  "selection_policy": "First two distinct-speaker/district examples per word in the fixed bank order, with byte-identical original correspondence and no stereo review flag; deduplicate contexts; use first development and reserved reference groups from the old matrix.",
+  "limits": [
+    "No word-error/native-acceptability labels are supplied by speakers, region or TTS checkpoint.",
+    "All resulting data are exploratory development evidence; the human bank has already been inspected.",
+    "Identical text permits physical contour comparison, but human delivery and discourse intent remain unreviewed.",
+    "Two TTS reference groups are nuisance controls, not proof of voice invariance.",
+    "Pocket is the preferred style comparator; disagreement with that style is not necessarily a Hindi error."
+  ]
+}

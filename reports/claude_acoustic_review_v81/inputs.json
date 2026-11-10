@@ -1,0 +1,27 @@
+[
+  {
+    "path": "hindi_detector/acoustic_deletion.py",
+    "sha256": "b5870dffcfb4ef6b2a61f20016a9907ec658b3b01eff1755d7762b3e79ce2323",
+    "bytes": 7694
+  },
+  {
+    "path": "scripts/prepare_acoustic_deletion.py",
+    "sha256": "f5af0277dcaa27601311b2acbe27c570704986106959a0622156952f359363c1",
+    "bytes": 6863
+  },
+  {
+    "path": "tests/test_acoustic_deletion.py",
+    "sha256": "15c2e409348055c622615ee6effa22711081566ede941a8751219c043bbebf5a",
+    "bytes": 2755
+  },
+  {
+    "path": "hindi_detector/anchored_detector.py",
+    "sha256": "ad34cea863c657c1e672d6ee00d5aa1c1ac79d073a3050c49dc9e2993b121202",
+    "bytes": 6146
+  },
+  {
+    "path": "reports/oracle_window_experiment_v76/report.json",
+    "sha256": "2c8f1a241d4f11e084f31284d177e5d7a20ba6418ea256a952d40d9bcdfe9891",
+    "bytes": 7991
+  }
+]

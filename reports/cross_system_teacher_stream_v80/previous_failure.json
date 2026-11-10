@@ -1,0 +1,12 @@
+{
+  "status": "failed_explicitly",
+  "pid": 1932744,
+  "system": "pocket_teacher_250000_24l",
+  "updated_utc": "2026-11-09T09:01:34.065206+00:00",
+  "planned_clips": 104,
+  "processed_clips": 74,
+  "counts": {
+    "ok_unreviewed": 74
+  },
+  "error": "Traceback (most recent call last):\n  File \"/home/ampixa/hindi-detector-teacher-f5-v14/scripts/run_corrected_synthesis.py\", line 78, in main\n    if shutil.disk_usage(args.out).free<20*1024**3:raise RuntimeError('Preserve20GiB free; no cleanup of another workload')\n                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Preserve20GiB free; no cleanup of another workload\n"
+}

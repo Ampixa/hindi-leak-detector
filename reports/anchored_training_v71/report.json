@@ -1,0 +1,32 @@
+{
+  "status": "complete_reviewed_anchored_fit_before_test",
+  "model_sha256": "cd912af1fcf474a4aecbf2654e62185bf8d44623d48e90c72967512a3f25ef51",
+  "selected": {
+    "mode": "gap_mass4",
+    "ridge": 0.001,
+    "cv_bce": 0.1279566165072559,
+    "feature_count": 4
+  },
+  "threshold": 0.9869572887528136,
+  "calibration_quantiles": {
+    "S0": 0.20758685532645665,
+    "S2": 0.9869472887528137
+  },
+  "training_sources": 385,
+  "training_lexemes": 184,
+  "training_measured_rows": 2689,
+  "training_attempted_rows": 2689,
+  "calibration_sources": 111,
+  "training_post_edit_abstentions": {},
+  "calibration_post_edit_abstentions": {},
+  "within_source_label_permutation_cv_auc": 0.5255791368610545,
+  "actual_hindi_error_accuracy": null,
+  "test_scores_opened": false,
+  "production_changed": false,
+  "coefficients": {
+    "primary_gap_vowel_mass_mean": 0.13958927870033652,
+    "primary_gap_vowel_peak_mean": -1.750725044446242,
+    "secondary_gap_vowel_mass_mean": 0.23620144624247041,
+    "secondary_gap_vowel_peak_mean": -2.4845865896411716
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "pid": 47636,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-u",
+    "-m",
+    "scripts.build_prosody_interventions"
+  ],
+  "created_utc": "2026-11-09T02:37:51.017298+00:00"
+}

@@ -1,0 +1,646 @@
+Follow-up review of your B1-B4 before v83 gradient fitting. Only code-read review, no tools. Give GO or concrete remaining must-fix blockers. Scope is the below full actual v83 trainer and new checks, not previous v82 placeholder. Changes and rejected invalid proposed invariant:
+{
+  "B1": "Actual torch.stft plus F.interpolate grid equivalence test now covers utterance start/end and real float-boundary fixture, numeric tolerance1e-8samples. Requested mel-energy vs stem-L2 correlation rejected as an invalid alignment invariant: LayerNorm/GELU norm is not mel energy. Independent convolution-clock test and actual outputframe check retained.",
+  "B2": "Actual standalone v83 trainer supplied in follow-up review. Loads512stem+exactcachedhints64:66 for bothparts; validates sourceidentity/cacheindex/arrays/code. Saves new explicit pretrained recipe, module/code/cache/checkpoint pins and software.",
+  "B3": "Explicit test base PhoneContextNetwork unchanged by arbitrary66vs514channel audio inputs.",
+  "B4": "Protocol declares refit no-audio arm with same seed/objective/epochs/splits; no reusedlogits or claim of bit-deterministic MPS.",
+  "sample_rate": "Verified loader scripts.calibrate_asr_gate.audio resamples to16k; v82targetprep verified rawsamehash WAV actually16kmono.",
+  "upstream": "Published pinned XLSR checkpoint, not trained by this experiment. Whether upstream espeak fine-tuning froze convolution layers is unknown; not asserted.",
+  "sham": "Fixed OOF center-dense shamcutoffs absmedian<=.25,absq95<=1logit before newfit. Retained central mask missesexactjoins; no mechanistic attribution established. GroupNorm wholecrop normalization caveat explicit."
+}
+
+FILE scripts/train_stem_deletion.py
+"""Pretrained5ms acoustic experiment, fixed matched no-audio comparison."""
+from __future__ import annotations
+
+from collections import Counter
+from datetime import datetime, timezone
+import json
+import importlib.metadata
+import logging
+import os
+from pathlib import Path
+import time
+import traceback
+
+import numpy as np
+import torch
+import torch.nn.functional as F
+
+from hindi_detector.acoustic_deletion import pair_indices
+from hindi_detector.anchored_detector import cells
+from hindi_detector.artifacts import write_group
+from hindi_detector.corrected_synthesis import sha
+from hindi_detector.nucleus_deletion import PhoneContextNetwork
+from hindi_detector.stem_deletion import StemVowelNetwork, SCHEMA
+from scripts.train_acoustic_deletion import assess, normalize, operating_point, predict_cnn, read_cache, source_weights, rank_loss
+from scripts.train_anchored_detector import read_partition
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / 'reports/stem_training_v83'
+EPOCHS = 32
+
+
+def fit(data, rows, selected, vocabulary_size, acoustic, progress):
+    torch.manual_seed(82)
+    rng = np.random.default_rng(82)
+    if not torch.backends.mps.is_available():
+        raise RuntimeError('Required k2 MPS unavailable; no device substitution')
+    device = 'mps'
+    network = (StemVowelNetwork if acoustic else PhoneContextNetwork)(vocabulary_size).to(device)
+    phone, scaler = normalize(data['phone'], selected)
+    keys = ('mel', 'context', 'labels') + (('targets', 'masks') if acoustic else ())
+    arrays = {k: torch.from_numpy(data[k]).to(device) for k in keys}
+    arrays['phone'] = torch.from_numpy(phone).to(device)
+    current = [rows[i] for i in selected]
+    weights = source_weights(current)
+    lookup = {int(i): float(w) for i, w in zip(selected, weights, strict=True)}
+    # Each auxiliary target class has exactly half the total source-weighted
+    # mass. Normalize per row so short nuclei are not downweighted by length.
+    classes = np.array([float(data['targets'][i, 0]) for i in selected]) if acoustic else None
+    aux_lookup = {}
+    if acoustic:
+        for c in (0., 1.):
+            mass = float(weights[classes == c].sum())
+            if mass <= 0:
+                raise ValueError('Missing auxiliary target class')
+            for i, w, label in zip(selected, weights, classes, strict=True):
+                if label == c:
+                    aux_lookup[int(i)] = float(w * len(selected) / (2 * mass))
+    groups, sources = {}, {}
+    for i in selected:
+        groups.setdefault(rows[i]['phone_collision_group'], set()).add(rows[i]['pair_id'])
+        sources.setdefault(rows[i]['pair_id'], []).append(int(i))
+    normalizer = float(np.mean([1 / len(groups[current[a]['phone_collision_group']]) for a, _ in pair_indices(current)]))
+    rank = {int(i): 1 / len(groups[rows[i]['phone_collision_group']]) / normalizer for i in selected}
+    identities = sorted(sources)
+    optimizer = torch.optim.AdamW(network.parameters(), lr=.001, weight_decay=.01, foreach=False)
+    history, started = [], time.monotonic()
+    for epoch in range(EPOCHS):
+        network.train()
+        order, losses, auxiliaries = rng.permutation(len(identities)), [], []
+        for start in range(0, len(order), 14):
+            at = [i for n in order[start:start + 14] for i in sources[identities[n]]]
+            ids = torch.tensor(at, device=device)
+            optimizer.zero_grad(set_to_none=True)
+            inputs = [arrays[k][ids] for k in ('mel', 'context', 'phone')]
+            if acoustic:
+                logits, dense = network(*inputs, auxiliary=True)
+                frame = F.binary_cross_entropy_with_logits(dense, arrays['targets'][ids], reduction='none')
+                masked = (frame * arrays['masks'][ids]).sum(1) / arrays['masks'][ids].sum(1)
+                aux = (masked * torch.tensor([aux_lookup[i] for i in at], device=device)).mean()
+            else:
+                logits = network(*inputs)
+                aux = torch.tensor(0., device=device)
+            w = torch.tensor([lookup[i] for i in at], device=device)
+            loss = (F.binary_cross_entropy_with_logits(logits, arrays['labels'][ids], reduction='none') * w).mean()
+            loss = loss + .2 * rank_loss(logits, [rows[i] for i in at], [rank[i] for i in at]) + .5 * aux
+            if not torch.isfinite(loss):
+                raise ValueError('Nonfinite localized acoustic objective')
+            loss.backward()
+            torch.nn.utils.clip_grad_norm_(network.parameters(), 5., error_if_nonfinite=True)
+            optimizer.step()
+            losses.append(float(loss.detach().cpu())); auxiliaries.append(float(aux.detach().cpu()))
+        item = {'epoch': epoch + 1, 'loss': float(np.mean(losses)), 'auxiliary_loss': float(np.mean(auxiliaries)),
+                'elapsed_seconds': time.monotonic() - started}
+        if acoustic:
+            item['vowel_veto_strength'] = float(F.softplus(network.vowel_veto).detach().cpu())
+        history.append(item); progress(item)
+    return network.eval().cpu(), scaler, history
+
+
+def load_targets(data, part, cache, targets):
+    report = json.loads((targets / 'report.json').read_text())['partitions'][part]
+    if sha(targets / (part + '.npz')) != report['sha256'] or sha(cache / (part + '.index.json')) != report['input_index_sha256']:
+        raise ValueError('Loss target/input identity changed')
+    with np.load(targets / (part + '.npz'), allow_pickle=False) as z:
+        data.update({k: z[k].copy() for k in ('targets', 'masks')})
+    if data['targets'].shape != (len(data['labels']), 128) or data['masks'].shape != data['targets'].shape:
+        raise ValueError('Loss target/input dimensions differ')
+    if not np.isin(data['targets'], [0., 1.]).all() or not np.isfinite(data['masks']).all() or np.any(data['masks'] < 0) or np.any(data['masks'] > 1) or np.any(data['masks'].sum(1) <= 0):
+        raise ValueError('Invalid loss-only targets')
+
+
+def dense_diagnostic(network, scaler, data, indices):
+    """OOF only: known-region vowel scores; not an inference input."""
+    values, pooled = [], []
+    phone = np.clip((data['phone'] - scaler['mean']) / scaler['scale'], -8, 8).astype(np.float32)
+    with torch.inference_mode():
+        for start in range(0, len(indices), 128):
+            at = indices[start:start + 128]
+            _, dense = network(torch.from_numpy(data['mel'][at]), torch.from_numpy(data['context'][at]), torch.from_numpy(phone[at]), auxiliary=True)
+            mask = torch.from_numpy(data['masks'][at])
+            values.extend(((dense * mask).sum(1) / mask.sum(1)).tolist())
+            focus = torch.from_numpy(data['mel'][at, 512])
+            focus = torch.where(focus >= .25, focus, torch.zeros_like(focus))
+            local = (dense + torch.log(focus.clamp_min(1e-30))).masked_fill(focus == 0, -torch.inf)
+            pooled.extend((torch.logsumexp(local, 1) - torch.log(focus.sum(1))).tolist())
+    return np.array(values), np.array(pooled)
+
+
+def load_stem(data, rows, part, cache):
+    directory = ROOT / 'reports/stem_features_v83'
+    report = json.loads((directory / 'report.json').read_text())
+    protocol = json.loads((directory / 'protocol.json').read_text())
+    receipt = report['partitions'][part]
+    if protocol['input_cache_report_sha256'] != sha(cache / 'report.json'):
+        raise ValueError('Early frontend and observable input cache differ')
+    if report['status'] != 'complete_pretrained_stem_cache' or sha(ROOT / 'hindi_detector/stem_deletion.py') != protocol['code_sha256']:
+        raise ValueError('Early frontend recipe incomplete/changed')
+    if sha(directory / (part + '.npz')) != receipt['sha256'] or sha(cache / (part + '.index.json')) != receipt['input_index_sha256']:
+        raise ValueError('Early frontend source/index changed')
+    originals, _, _ = read_partition(part)
+    lookup = {(r['pair_id'], r['family']): r for r in originals}
+    for index, row in enumerate(rows):
+        source = lookup[row['pair_id'], row['family']]
+        if row['array_index'] != index or source['audio_sha256'] != row['audio_sha256']:
+            raise ValueError('Pretrained source/family/checksum row alignment differs')
+    with np.load(directory / (part + '.npz'), allow_pickle=False) as z:
+        values = z['acoustic'].astype(np.float32)
+    if values.shape != (len(data['labels']), 512, 128) or not np.isfinite(values).all():
+        raise ValueError('Incorrect early acoustic feature dimensions')
+    data['mel'] = np.concatenate([values, data['mel'][:, 64:66]], axis=1)
+    return {'protocol_sha256': sha(directory / 'protocol.json'), 'report_sha256': sha(directory / 'report.json'),
+            'depth': 5, 'stride_samples': 80, 'receptive_field_samples': 160, 'checkpoint_inventory': protocol['checkpoint_inventory']}
+
+
+def main():
+    cache = ROOT / 'reports/acoustic_features_v81_reviewed'
+    targets = ROOT / 'reports/nucleus_targets_v82_reviewed'
+    if OUT.exists():
+        raise FileExistsError(OUT)
+    cache_report = json.loads((cache / 'report.json').read_text())
+    protocol = json.loads((cache / 'protocol.json').read_text())
+    aux_protocol = json.loads((targets / 'protocol.json').read_text())
+    if sha(ROOT / 'hindi_detector/acoustic_deletion.py') != protocol['feature_code_sha256'] or sha(ROOT / 'hindi_detector/nucleus_deletion.py') != aux_protocol['target_builder_sha256']:
+        raise ValueError('Feature/target source differs from prepared bytes')
+    all_train, rows, data = read_cache(cache, 'train', cache_report)
+    all_dev, dev, devdata = read_cache(cache, 'development', cache_report)
+    for key in ('word_id', 'voice', 'phone_collision_group'):
+        if {r[key] for r in rows} & {r[key] for r in dev}:
+            raise ValueError('Train/development leakage: ' + key)
+    load_targets(data, 'train', cache, targets)
+    stem_receipt = load_stem(data, rows, 'train', cache)
+    load_stem(devdata, dev, 'development', cache)
+    # Development targets are never loaded into fitting arrays or a loss.
+    write_group(OUT, {'protocol.json': {
+        'schema': SCHEMA, 'epochs': EPOCHS, 'seed': 82,
+        'architecture': 'Frozen pretrained XLSR first5convs512channels5ms/10msRF ->32x2 local temporal blocks -> dense vowel logits. Observed gap hint only pools dense.detach; nonnegative veto subtracts from phone14/contextMLP. No global pool/hint/context in dense head. Same v82 targets/timegrid.',
+        'objective': 'v81 equal-group/source/class BCE +0.2matched ranking. Aux0.5, balanced50/50 retained/absent target classes; masked known-region BCE normalized per row. Only aux loss trains dense head. Dev targets never enter loss.',
+        'comparison': 'Refit matched phone14/context MLP with identical word objective/splits/epochs/seed82, no acoustic input. v82 no-audio logits not reused; MPS may not be bit deterministic. Previous v81 linear/duration diagnostics reference only.',
+        'evaluation': 'Same12 joint voice/group CV,32fixedepochs,train-only normalization. Fixed operating rule max(0,S0q97.5,otherretainedq95)+1e-5. No test or Swar/v80 read. Both CV/dev must pass P1/P1w>=.8,S0<=.025,otherretained<=.05,abstain<=.05 and40-60ms>=20sources10groups,minrecall>=.8,S2FPR<=.05.',
+        'attribution': 'Readiness absolute task gates separate from mechanistic claim: >=.05 CV minrecall gain over matched no-audio arm and positive short-vowel gain, nonzero veto. P1w-only improvement not sufficient. Physical controlled results do not establish Hindi-error accuracy.',
+        'processing_limit': 'Splice artifacts remain possible; OOF retained S0-original dense differences reported, no human phoneme-boundary gold. Auxiliary retained masks trim source boundaries, so they do not fully supervise the splice joins. No global acoustic pooling, but GroupNorm normalizes across crop time. No mechanistic attribution established by this experiment.',
+        'sham_diagnostic_cutoffs': {'absolute_median_max': .25, 'absolute_q95_max': 1., 'units': 'known-region dense logit, OOF S0 minus original. Exploratory sensitivity prerequisite, insufficient proof of artifact independence.'},
+        'test': 'Oldv71test spent; generate fresh independent data only after immutable external candidate hash copy.',
+        'actual_hindi_error_accuracy': None},
+        'inputs.json': {'cache_report_sha256': sha(cache / 'report.json'), 'target_report_sha256': sha(targets / 'report.json'),
+            'trainer_sha256': sha(Path(__file__)), 'nucleus_code_sha256': sha(ROOT / 'hindi_detector/nucleus_deletion.py'),
+            'v81_helper_sha256': sha(ROOT / 'scripts/train_acoustic_deletion.py'), 'stem_receipt': stem_receipt, 'stem_code_sha256': sha(ROOT / 'hindi_detector/stem_deletion.py')}},
+        'Pretrained5ms localized vowel supervision experiment. protocol/inputs fixed fit rules and pins; status.json atomic live fold/epoch/PID; history.json scalar losses/veto strengths; cv_predictions.json heldout rows/logits/dense known-region diagnostic; report.json absolute gates and ablation; development_predictions.json calibration only; model.pt and no_audio.pt final reproducible heads; frozen_selection.json immutable candidate hashes. No fold/epoch checkpoints. '
+        'Owner Ampixa/user; active consumer v83 admission and regression work. Review2026-11-10. NOT on HF; inherited research rights. Keep compact configs/results/final selected and explicit ablation heads; diagnostic arrays disposable24h after consumer closes. No new audio or encoders.',
+        ['.venv-indicf5/bin/python -m scripts.train_stem_deletion'])
+    torch.set_num_threads(2)
+    def status(phase, **extra):
+        path = OUT / 'status.partial'
+        path.write_text(json.dumps({'phase': phase, 'pid': os.getpid(), 'updated_utc': datetime.now(timezone.utc).isoformat(), **extra}) + '\n')
+        path.replace(OUT / 'status.json')
+    size = len(protocol['phone_vocabulary'])
+    outputs = {k: np.full(len(rows), np.nan) for k in ('acoustic', 'no_audio', 'dense', 'present')}
+    history, folds = {}, []
+    for number, (train, valid) in enumerate(cells(rows), 1):
+        selected, validation = np.flatnonzero(train), np.flatnonzero(valid)
+        entry = {'fold': number, 'validation': validation.tolist()}
+        for acoustic, arm in ((True, 'acoustic'), (False, 'no_audio')):
+            network, scaler, losses = fit(data, rows, selected, size, acoustic,
+                lambda item: status('joint_cv', fold=number, arm=arm, **item))
+            history[f'{number}_{arm}'] = losses
+            outputs[arm][validation] = predict_cnn(network, scaler, data, validation)
+            if acoustic:
+                outputs['dense'][validation], outputs['present'][validation] = dense_diagnostic(network, scaler, data, validation)
+                entry['vowel_veto_strength'] = losses[-1]['vowel_veto_strength']
+        folds.append(entry)
+        print(json.dumps({'fold': number, 'status': 'completed_both_arms'}), flush=True)
+    if not all(np.isfinite(v).all() for v in outputs.values()):
+        raise ValueError('OOF coverage incomplete/nonfinite')
+    cv = {}
+    for arm in ('acoustic', 'no_audio'):
+        threshold, _ = operating_point(rows, outputs[arm])
+        cv[arm] = assess(all_train, rows, outputs[arm], threshold)
+    development, final, dzs = {}, {}, {}
+    for acoustic, arm in ((True, 'acoustic'), (False, 'no_audio')):
+        network, scaler, losses = fit(data, rows, np.arange(len(rows)), size, acoustic,
+            lambda item: status('final_train_only', arm=arm, **item))
+        history['final_' + arm] = losses
+        dz = predict_cnn(network, scaler, devdata, np.arange(len(dev)))
+        threshold, quantiles = operating_point(dev, dz)
+        development[arm] = assess(all_dev, dev, dz, threshold)
+        final[arm] = (network, scaler, threshold, quantiles)
+        dzs[arm] = dz.tolist()
+    ready = bool(cv['acoustic']['passed'] and development['acoustic']['passed'])
+    benefit = cv['acoustic']['minimum_positive_recall'] - cv['no_audio']['minimum_positive_recall']
+    short_gain = cv['acoustic']['duration_strata']['40_to_60ms']['minimum_positive_recall'] - cv['no_audio']['duration_strata']['40_to_60ms']['minimum_positive_recall']
+    network, scaler, threshold, quantiles = final['acoustic']
+    old = torch.load(ROOT / 'reports/acoustic_training_v81_recovery/model.pt', map_location='cpu', weights_only=False)
+    state = {k: old[k] for k in ('recipe', 'phone_vocabulary', 'phone_configurations', 'code_sha256', 'resource_files', 'phone_inventory', 'secondary_phone_inventory', 'aligner_inventory', 'software')}
+    state['code_sha256'] = {**state['code_sha256'], 'hindi_detector/nucleus_deletion.py': sha(ROOT / 'hindi_detector/nucleus_deletion.py'), 'hindi_detector/stem_deletion.py': sha(ROOT / 'hindi_detector/stem_deletion.py')}
+    state['recipe'] = {'acoustic_input': 'Pinned XLSR first5frozen convolutions;512channels,80sample stride,160sample RF; whole-query pretrained normalization; float16 cache quantization then float32 model input',
+        'observed_hint_channels': [512, 513], 'hint_generation_recipe': old['recipe'],
+        'grid': 'Same actual centered512FFT/hop80 crop/interpolate128 time grid; valid conv centers79.5+80k sampled by linear interpolation. No mel bands reach the dense head.'}
+    state['software'] = {'torch': torch.__version__, 'numpy': np.__version__, 'transformers': importlib.metadata.version('transformers')}
+    state.update(schema=SCHEMA, weights=network.state_dict(), scaler=scaler, logit_threshold=threshold,
+                 actual_hindi_error_accuracy=None, cause='internal_vowel_deletion', target_report_sha256=sha(targets / 'report.json'), stem_recipe=stem_receipt)
+    torch.save(state, OUT / 'model.pt')
+    bnet, bscale, bthreshold, _ = final['no_audio']
+    torch.save({'weights': bnet.state_dict(), 'scaler': bscale, 'logit_threshold': bthreshold, 'purpose': 'Matched no-audio ablation, not deployed'}, OUT / 'no_audio.pt')
+    pairs = {(r['pair_id'], r['family']): i for i, r in enumerate(rows)}
+    sham = [float(outputs['dense'][i] - outputs['dense'][pairs[r['pair_id'], 'S_original']]) for i, r in enumerate(rows) if r['family'] == 'S0']
+    result = {'status': 'complete_pretrained5ms_supervision_fit', 'parameters': sum(p.numel() for p in network.parameters()),
+        'training_sources': len({r['pair_id'] for r in rows}), 'training_lexemes': len({r['word_id'] for r in rows}),
+        'training_rows': len(rows), 'development_sources': len({r['pair_id'] for r in dev}),
+        'cv': cv, 'development_calibration': development, 'ready_for_new_independent_test': ready,
+        'cv_minimum_recall_gain_over_no_audio': benefit, 'short_vowel_cv_gain_over_no_audio': short_gain,
+        'mechanistic_gain_criterion_met': bool(benefit >= .05 and short_gain > 0 and abs(float(np.median(sham))) <= .25 and float(np.quantile(np.abs(sham), .95)) <= 1.),
+        'mechanistic_attribution_established': False,
+        'vowel_veto_strength': history['final_acoustic'][-1]['vowel_veto_strength'],
+        'oof_sham_minus_original_known_region_dense_logit': {'sources': len(sham), 'median': float(np.median(sham)), 'absolute_q95': float(np.quantile(np.abs(sham), .95))},
+        'hint_fallback_rows_by_family': dict(Counter(r['family'] for r in rows if r.get('diagnostic_query_hints', {}).get('native_hint_fallback_windows', 0))),
+        'model_sha256': sha(OUT / 'model.pt'), 'logit_threshold': threshold, 'calibration_quantiles': quantiles,
+        'actual_hindi_error_accuracy': None, 'production_changed': False, 'new_test_opened': False}
+    artifacts = {'history.json': history, 'report.json': result, 'cv_predictions.json': {'rows': rows, 'logits': {k: v.tolist() for k, v in outputs.items()}, 'folds': folds},
+        'development_predictions.json': {'rows': dev, 'logits': dzs},
+        'frozen_selection.json': {'created_utc': datetime.now(timezone.utc).isoformat(), 'model_sha256': sha(OUT / 'model.pt'), 'protocol_sha256': sha(OUT / 'protocol.json'), 'ready_for_new_test': ready, 'new_test_opened': False}}
+    for name, value in artifacts.items():
+        (OUT / name).write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + '\n')
+    status('complete', ready_for_new_independent_test=ready)
+    print(json.dumps(result), flush=True)
+
+
+if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO)
+    try:
+        main()
+    except Exception:
+        logging.exception('Pretrained5ms acoustic fit failed explicitly; production unchanged')
+        if OUT.exists():
+            (OUT / 'failure.json').write_text(json.dumps({'created_utc': datetime.now(timezone.utc).isoformat(), 'traceback': traceback.format_exc()}) + '\n')
+        raise
+
+FILE tests/test_stem_deletion.py
+import unittest
+import math
+
+import numpy as np
+import torch
+import torch.nn.functional as F
+
+from hindi_detector.stem_deletion import StemVowelNetwork, interpolate_stem, query_grid
+from hindi_detector.nucleus_deletion import PhoneContextNetwork
+
+
+class StemClockTests(unittest.TestCase):
+    def test_grid_matches_actual_centered_stft_and_pytorch_resampling(self):
+        for bounds, samples in [((0., .2), 16000), ((.8, 1.), 16000), ((.6687942708333334, 1.1349236111111112), 23347)]:
+            left = max(0, math.floor((bounds[0] - .04) * 16000))
+            right = min(samples, math.ceil((bounds[1] + .04) * 16000))
+            spectrum = torch.stft(torch.zeros(right - left), n_fft=512, hop_length=80,
+                win_length=400, window=torch.hann_window(400), center=True, return_complex=True)
+            centers = left + torch.arange(spectrum.shape[1], dtype=torch.float64) * 80
+            actual = F.interpolate(centers[None, None], size=128, mode='linear', align_corners=False)[0, 0].numpy()
+            np.testing.assert_allclose(query_grid(bounds, samples), actual, atol=1e-8, rtol=0)
+
+    def test_phone_context_arm_never_reads_any_audio_channels(self):
+        net = PhoneContextNetwork(10).eval()
+        context, phone = torch.zeros(2, 2, dtype=torch.long), torch.zeros(2, 14)
+        before = net(torch.randn(2, 66, 128), context, phone)
+        after = net(torch.randn(2, 514, 128) * 100, context, phone)
+        torch.testing.assert_close(before, after)
+
+    def test_actual_conv_centers_resample_to_existing_target_clock(self):
+        samples = 24000
+        frames = (samples - 160) // 80 + 1
+        centers = 79.5 + np.arange(frames, dtype=np.float32) * 80
+        raw = np.broadcast_to(centers, (512, frames))
+        bounds = (.3, 1.1)
+        actual = interpolate_stem(raw, bounds, samples)
+        np.testing.assert_allclose(actual[0], query_grid(bounds, samples), atol=.002)
+        with self.assertRaises(ValueError):
+            interpolate_stem(raw[:, ::4], bounds, samples)
+
+    def test_dense_branch_has_no_word_loss_gradient_or_hint_input(self):
+        net = StemVowelNetwork(10).eval()
+        values = torch.randn(2, 514, 128)
+        values[:, 512:] = .5
+        context, phone = torch.zeros(2, 2, dtype=torch.long), torch.zeros(2, 14)
+        logits, dense = net(values, context, phone, auxiliary=True)
+        logits.sum().backward()
+        self.assertTrue(all(p.grad is None for p in net.temporal.parameters()))
+        self.assertTrue(all(p.grad is None for p in net.nucleus.parameters()))
+        values[:, 512:] = .8
+        _, changed = net(values, context, phone, auxiliary=True)
+        torch.testing.assert_close(dense, changed)
+
+FILE hindi_detector/nucleus_deletion.py
+"""Localized vowel-region supervision; intervention geometry is target-only."""
+from __future__ import annotations
+
+import numpy as np
+import torch
+from torch import nn
+import torch.nn.functional as F
+
+SCHEMA = 'nucleus_deletion_v82'
+
+
+def supervision(row, samples):
+    """Known manipulation coordinates create LOSS targets, never model inputs."""
+    start, end = row['production_word']['start'], row['production_word']['end']
+    left = max(0, int(np.floor((start - .04) * 16000)))
+    right = min(samples, int(np.ceil((end + .04) * 16000)))
+    raw_frames = (right - left) // 80 + 1  # Verified centered512 FFT, hop80.
+    at = np.clip((np.arange(128) + .5) * raw_frames / 128 - .5, 0, raw_frames - 1)
+    times = left / 16000 + at * 80 / 16000
+    half = np.maximum(np.gradient(times) / 2, .0025)
+    a, b = row['source_region']['start_sample'], row['source_region']['end_sample']
+    edit = row['edit']
+    if row['family'] in {'P1', 'P1w', 'S2', 'S0', 'S_world'}:
+        if (edit['start_sample'], edit['end_sample']) != (a, b):
+            raise ValueError('Physical edit and source nucleus coordinates disagree')
+    if row['family'] in {'S0', 'S_world'} and edit['replacement_samples'] != b - a:
+        raise ValueError('Retained control unexpectedly changes nucleus duration')
+    if row['family'] in {'P1', 'P1w'}:
+        if edit['replacement_samples'] != 0:
+            raise ValueError('Deletion target has retained replacement samples')
+        lo, hi, value = edit['start_sample'] / 16000 - .02, edit['start_sample'] / 16000 + .02, 0.
+    else:
+        value = 1.
+        if row['family'] == 'S2':
+            a, b = edit['start_sample'], edit['start_sample'] + edit['replacement_samples']
+        elif row['family'] == 'S1':
+            if edit['end_sample'] <= a:
+                shift = edit['replacement_samples'] - (edit['end_sample'] - edit['start_sample'])
+                a, b = a + shift, b + shift
+            elif edit['start_sample'] < b:
+                raise ValueError('Off-target control overlaps the target nucleus')
+        elif row['family'] not in {'S_original', 'S0', 'S_world'}:
+            raise ValueError('Unregistered auxiliary target family')
+        lo, hi = a / 16000, b / 16000
+        trim = min(.0125, (hi - lo) / 4)
+        lo, hi = lo + trim, hi - trim
+    if not 0 <= lo < hi <= samples / 16000:
+        raise ValueError('Known physical target outside emitted waveform')
+    mask = np.maximum(0., np.minimum(times + half, hi) - np.maximum(times - half, lo)) / (2 * half)
+    if mask.sum() <= 0:
+        raise ValueError('Auxiliary target has no overlap with observed production word crop')
+    return np.full(128, value, np.float32), mask.astype(np.float32)
+
+
+class PhoneContextNetwork(nn.Module):
+    def __init__(self, vocabulary_size):
+        super().__init__()
+        self.context = nn.Embedding(vocabulary_size, 4)
+        self.head = nn.Sequential(nn.Linear(22, 16), nn.SiLU(), nn.Dropout(.1), nn.Linear(16, 1))
+
+    def forward(self, mel, context, phone):
+        return self.head(torch.cat([phone, self.context(context).flatten(1)], dim=1)).squeeze(1)
+
+
+class NucleusDeletionNetwork(PhoneContextNetwork):
+    def __init__(self, vocabulary_size):
+        super().__init__(vocabulary_size)
+        self.temporal = nn.Sequential(nn.Conv1d(64, 24, 5, padding=2), nn.GroupNorm(6, 24), nn.SiLU(),
+            nn.Conv1d(24, 24, 3, padding=1), nn.GroupNorm(6, 24), nn.SiLU(),
+            nn.Conv1d(24, 24, 3, dilation=2, padding=2), nn.GroupNorm(6, 24), nn.SiLU())
+        self.nucleus = nn.Sequential(nn.Conv1d(24, 16, 3, padding=1), nn.GroupNorm(4, 16), nn.SiLU(), nn.Conv1d(16, 1, 1))
+        self.vowel_veto = nn.Parameter(torch.tensor(0.))
+
+    def forward(self, mel, context, phone, *, auxiliary=False):
+        embedded = self.context(context).flatten(1)
+        values = self.temporal(mel[:, :64])
+        dense = self.nucleus(values).squeeze(1)
+        # Only the observed deletion-anchor neighborhood can supply the acoustic
+        # veto. No global acoustic pool and no known edit-location input.
+        focus = mel[:, 64]
+        focus = torch.where(focus >= .25, focus, torch.zeros_like(focus))
+        if torch.any(focus.sum(1) <= 0):
+            raise ValueError('No observed local focus support')
+        # Mechanistic arm: the word-label loss cannot train the vowel head to
+        # become a second deletion classifier. Only local auxiliary labels do.
+        local = (dense.detach() + torch.log(focus.clamp_min(1e-30))).masked_fill(focus == 0, -torch.inf)
+        present = torch.logsumexp(local, dim=1) - torch.log(focus.sum(1))
+        logits = self.head(torch.cat([phone, embedded], dim=1)).squeeze(1) - F.softplus(self.vowel_veto) * present
+        return (logits, dense) if auxiliary else logits
+
+FILE hindi_detector/stem_deletion.py
+"""Five-millisecond frozen XLSR frontend; local vowel presence veto."""
+from __future__ import annotations
+
+import numpy as np
+import torch
+from torch import nn
+import torch.nn.functional as F
+
+from hindi_detector.nucleus_deletion import PhoneContextNetwork
+
+SCHEMA = 'stem_deletion_v83'
+
+
+def query_grid(bounds, samples):
+    start, end = bounds
+    left = max(0, int(np.floor((start - .04) * 16000)))
+    right = min(samples, int(np.ceil((end + .04) * 16000)))
+    count = (right - left) // 80 + 1
+    return left + np.clip((np.arange(128) + .5) * count / 128 - .5, 0, count - 1) * 80
+
+
+def interpolate_stem(features, bounds, samples):
+    """Sample actual conv centers onto the immutable mel/target time grid."""
+    if features.ndim != 2 or features.shape[0] != 512:
+        raise ValueError('Need verified512-channel fifth convolution output')
+    # Kernels10,3,3,3,3 and strides5,2,2,2,2: RF160, stride80.
+    expected = (samples - 160) // 80 + 1
+    if features.shape[1] != expected:
+        raise ValueError('Actual early frontend clock differs from pinned convolution recipe')
+    at = (query_grid(bounds, samples) - 79.5) / 80
+    # Only waveform-edge padding may clamp: the first valid convolution center
+    # is4.96875ms into the utterance. No oracle/edit/source location is accepted.
+    at = np.clip(at, 0, features.shape[1] - 1)
+    lo = np.floor(at).astype(np.int64)
+    hi = np.minimum(lo + 1, features.shape[1] - 1)
+    fraction = (at - lo).astype(np.float32)
+    return features[:, lo] * (1 - fraction) + features[:, hi] * fraction
+
+
+class StemVowelNetwork(PhoneContextNetwork):
+    def __init__(self, vocabulary_size):
+        super().__init__(vocabulary_size)
+        self.temporal = nn.Sequential(nn.Conv1d(512, 32, 3, padding=1), nn.GroupNorm(8, 32), nn.SiLU(),
+            nn.Conv1d(32, 32, 3, padding=1), nn.GroupNorm(8, 32), nn.SiLU())
+        self.nucleus = nn.Sequential(nn.Conv1d(32, 16, 3, padding=1), nn.GroupNorm(4, 16), nn.SiLU(), nn.Conv1d(16, 1, 1))
+        self.vowel_veto = nn.Parameter(torch.tensor(0.))
+
+    def forward(self, mel, context, phone, *, auxiliary=False):
+        # Name retained for the generic fitting adapter; these512channels are
+        # pretrained convolution features, not mel bands. Hints excluded.
+        dense = self.nucleus(self.temporal(mel[:, :512])).squeeze(1)
+        focus = mel[:, 512]
+        focus = torch.where(focus >= .25, focus, torch.zeros_like(focus))
+        if torch.any(focus.sum(1) <= 0):
+            raise ValueError('No observed acoustic focus support')
+        values = (dense.detach() + torch.log(focus.clamp_min(1e-30))).masked_fill(focus == 0, -torch.inf)
+        present = torch.logsumexp(values, dim=1) - torch.log(focus.sum(1))
+        logit = super().forward(mel, context, phone) - F.softplus(self.vowel_veto) * present
+        return (logit, dense) if auxiliary else logit
+
+FILE scripts/calibrate_asr_gate.py
+"""Training-only actual paired-TTS ASR calibration with explicit model identities."""
+from __future__ import annotations
+
+import argparse
+import ast
+from datetime import datetime, timezone
+import hashlib
+import json
+import logging
+from pathlib import Path
+import time
+
+import numpy as np
+from scipy.signal import resample_poly
+import soundfile as sf
+
+from hindi_detector.artifacts import write_group
+from hindi_detector.content_quality import transcript_metrics
+
+ROOT = Path(__file__).resolve().parents[1]
+LOG = logging.getLogger(__name__)
+ZIP_SOURCE = Path('/Users/k2/kura_hat/multiuser_v1/source/kura_hat/asr.py')
+ZIP_MODEL = Path('/Volumes/T9/asr_a2/exports/long1c_step95000_full')
+
+
+def sha(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def audio(pack: Path, row: dict) -> np.ndarray:
+    path = (pack / row['audio']).resolve(strict=True)
+    if not path.is_relative_to(pack.resolve()) or sha(path) != row['sha256']:
+        raise ValueError('ASR input path/checksum differs from paired generation')
+    wave, rate = sf.read(path, dtype='float32', always_2d=True)
+    if wave.shape[1] != 1 or not np.isfinite(wave).all() or not .2 <= len(wave) / rate <= 30:
+        raise ValueError('Need actual finite .2–30s mono TTS for ASR calibration')
+    divisor = int(np.gcd(rate, 16000))
+    return resample_poly(wave[:, 0], 16000 // divisor, rate // divisor).astype('float32') if rate != 16000 else wave[:, 0]
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--pack', type=Path, required=True)
+    parser.add_argument('--engine', choices=['zipformer', 'whisper', 'conformer'], required=True)
+    parser.add_argument('--out', type=Path, required=True)
+    args = parser.parse_args()
+    rows = [json.loads(s) for s in (args.pack / 'items.jsonl').read_text().splitlines()]
+    if not rows or any(r['split'] != 'train' or r['status'] != 'ok_unreviewed' for r in rows):
+        raise ValueError('ASR calibration must use actual successful training-only generated clips')
+    source = Path(__file__)
+    write_group(args.out, {'inputs.json': {'pack': str(args.pack.resolve()), 'receipt_sha256': sha(args.pack / 'items.jsonl'), 'engine': args.engine, 'clips': len(rows)},
+                          'source_snapshot.json': [{'path': str(p.relative_to(ROOT)), 'sha256': sha(p), 'source_utf8': p.read_text()} for p in (source, ROOT / 'hindi_detector/content_quality.py')]},
+                'Measure actual Hindi/Nepali paired training clips with the user Zipformer or public Hindi-capable Whisper, before bulk filtering. hypotheses.jsonl holds per-clip decoder/WER/CER/timing; runtime.json exact runtime/model recipe; result/ has final metrics. ASR output is content evidence, never accent gold.',
+                [str(args.pack.resolve()), 'Run same source with --engine zipformer in deployed hat runtime or --engine whisper in task word runtime; --out NEW'])
+    if args.engine == 'zipformer':
+        import sherpa_onnx
+        pins = None
+        for node in ast.parse(ZIP_SOURCE.read_text()).body:
+            if isinstance(node, ast.Assign) and any(isinstance(t, ast.Name) and t.id == 'FULL_CONTEXT_SHA256' for t in node.targets):
+                pins = ast.literal_eval(node.value)
+        expected_names = {'encoder.int8.onnx', 'decoder.int8.onnx', 'joiner.int8.onnx', 'tokens.txt'}
+        if not isinstance(pins, dict) or set(pins) != expected_names:
+            raise ValueError('Deployed Zipformer pin schema differs')
+        for name, digest in pins.items():
+            if sha(ZIP_MODEL / name) != digest:
+                raise ValueError('Deployed Zipformer model bytes changed')
+        recognizer = sherpa_onnx.OfflineRecognizer.from_transducer(
+            encoder=str(ZIP_MODEL / 'encoder.int8.onnx'), decoder=str(ZIP_MODEL / 'decoder.int8.onnx'),
+            joiner=str(ZIP_MODEL / 'joiner.int8.onnx'), tokens=str(ZIP_MODEL / 'tokens.txt'),
+            num_threads=2, sample_rate=16000, feature_dim=80, decoding_method='modified_beam_search', max_active_paths=4)
+        runtime = {'engine': args.engine, 'model_path': str(ZIP_MODEL), 'pins': pins, 'original_source_sha256': sha(ZIP_SOURCE),
+                   'decoder': 'offline full-context modified_beam_search4, no VAD for already isolated TTS', 'threads': 2}
+
+        def decode(samples):
+            stream = recognizer.create_stream(); stream.accept_waveform(16000, samples); recognizer.decode_stream(stream)
+            return {'ne': stream.result.text.strip()}
+    elif args.engine == 'conformer':
+        import sherpa_onnx
+        directory = ROOT / 'models/indicconformer_gate'
+        inventory = json.loads((directory / 'inventory.json').read_text())
+        for member in inventory['files']:
+            if sha(directory / member['path']) != member['sha256']:
+                raise ValueError('Hindi/Nepali Conformer export identity changed')
+        recognizers = {lang: sherpa_onnx.OfflineRecognizer.from_nemo_ctc(model=str(directory / lang / 'model.int8.onnx'),
+                       tokens=str(directory / 'tokens.txt'), num_threads=2, decoding_method='greedy_search') for lang in ('hi', 'ne')}
+        runtime = {'engine': args.engine, 'repo': inventory['repo'], 'revision': inventory['revision'],
+                   'inventory_sha256': sha(directory / 'inventory.json'), 'device': 'cpu', 'threads': 2, 'decoder': 'nemo_ctc_greedy',
+                   'languages_tested': ['hi', 'ne']}
+
+        def decode(samples):
+            output = {}
+            for lang, recognizer in recognizers.items():
+                stream = recognizer.create_stream(); stream.accept_waveform(16000, samples); recognizer.decode_stream(stream)
+                output[lang] = stream.result.text.strip()
+            return output
+    else:
+        import torch
+        from transformers import WhisperForConditionalGeneration, WhisperProcessor
+        torch.set_num_threads(2)
+        model_path = ROOT / 'models/hindi_asr_whisper_turbo'
+        inventory = json.loads((model_path / 'inventory.json').read_text())
+        for member in inventory['files']:
+            if sha(model_path / member['path']) != member['sha256']:
+                raise ValueError('Hindi-capable ASR bytes changed')
+        if not torch.backends.mps.is_available():
+            raise RuntimeError('Expected available k2 MPS for Hindi ASR calibration')
+        processor = WhisperProcessor.from_pretrained(model_path, local_files_only=True)
+        model = WhisperForConditionalGeneration.from_pretrained(model_path, local_files_only=True, torch_dtype=torch.float16, attn_implementation='sdpa').eval().to('mps')
+        runtime = {'engine': args.engine, 'repo': inventory['repo'], 'revision': inventory['revision'],
+                   'inventory_sha256': sha(model_path / 'inventory.json'), 'device': 'mps', 'dtype': 'float16',
+                   'languages_tested': ['hi', 'ne'], 'task': 'transcribe', 'max_new_tokens': 256, 'reference_text_prompt': False}
+
+        def decode(samples):
+            batch = processor(samples, sampling_rate=16000, return_tensors='pt', return_attention_mask=True)
+            values = batch.input_features.to('mps', dtype=torch.float16); mask = batch.attention_mask.to('mps')
+            output = {}
+            with torch.inference_mode():
+                for language in ('hi', 'ne'):
+                    tokens = model.generate(values, attention_mask=mask, language=language, task='transcribe', do_sample=False, max_new_tokens=256, return_timestamps=False)
+                    output[language] = processor.batch_decode(tokens, skip_special_tokens=True)[0].strip()
+            return output
+    (args.out / 'runtime.json').write_text(json.dumps(runtime, indent=2) + '\n')
+    results = []
+    for row in rows:
+        samples = audio(args.pack, row); start = time.monotonic(); hypotheses = decode(samples)
+        record = {'clip_id': row['clip_id'], 'system': row['system'], 'audio_sha256': row['sha256'], 'text': row['text'],
+                  'hypotheses': {lang: {'text': text, **transcript_metrics(row['text'], text)} for lang, text in hypotheses.items()},
+                  'wall_seconds': time.monotonic() - start, 'seconds': len(samples) / 16000,
+                  'actual_hindi_error_label': None, 'observed_utc': datetime.now(timezone.utc).isoformat()}
+        with (args.out / 'hypotheses.jsonl').open('a') as handle:
+            handle.write(json.dumps(record, ensure_ascii=False, allow_nan=False) + '\n')
+        results.append(record); LOG.info('ASR calibration %s/%s %s', len(results), len(rows), row['system'])
+    groups = {}
+    for system in sorted({r['system'] for r in results}):
+        group = [r for r in results if r['system'] == system]
+        groups[system] = {lang: {'clips': len(group), 'corpus_wer': sum(r['hypotheses'][lang]['word_errors'] for r in group) / sum(r['hypotheses'][lang]['reference_words'] for r in group),
+                               'corpus_cer': sum(r['hypotheses'][lang]['character_errors'] for r in group) / sum(r['hypotheses'][lang]['reference_characters'] for r in group)} for lang in results[0]['hypotheses']}
+    write_group(args.out / 'result', {'report.json': {'engine': args.engine, 'clips': len(results), 'groups': groups,
+                   'wall_seconds': sum(r['wall_seconds'] for r in results), 'audio_seconds': sum(r['seconds'] for r in results), 'actual_hindi_accuracy': None}},
+                'Training-only ASR content-filter calibration; preserves language/source-specific transcript errors and runtime.', ['Parent hypotheses.jsonl and runtime.json'])
+    print(json.dumps(groups))
+
+
+if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO)
+    try:
+        main()
+    except Exception:
+        LOG.exception('Training-only ASR calibration failed; no guessed transcripts or false success')
+        raise
+

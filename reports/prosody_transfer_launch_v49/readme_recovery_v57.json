@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-11-09T03:05:03.192200+00:00",
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "event": "SCP staging accidentally overwrote this run README with updated project README. No audio/model/result affected.",
+  "project_doc_delivered_to": "/Volumes/T9/hindi-detector/README.md",
+  "project_doc_sha256": "bdb43a5f081eefd064d396432aa2501b7f7bdf8baed125708f5a882b5868fba7",
+  "recovery": "This directory README reconstructed from actual launch receipts and existing artifact inventory. Exact prior README bytes are not retained and cannot be restored.",
+  "readme_source": "Actual *_launch.json receipts plus file inventory; creation/controller time read from controller_launch.json.",
+  "staged_html": "swar-words.html duplicate of delivered private review source; retain only through delivery verification, review2026-11-10."
+}

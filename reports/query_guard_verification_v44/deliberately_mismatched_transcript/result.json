@@ -1,0 +1,95 @@
+{
+  "status": "unscored_content_mismatch",
+  "text": "स्ट्रंगर किनकि अब मल्टिकल्चर वर्ल्ड छ।",
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "reference_mode": "not_evaluated_query_content_mismatch",
+  "inputs": [
+    {
+      "role": "query",
+      "path": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/swar/real_yt_yt01_005.wav",
+      "sha256": "2d3224ef7a5110979e199081c111fc5e004090c1c15ca2764cc3196961626964",
+      "bytes": 264668
+    }
+  ],
+  "words": [],
+  "per_reference": [],
+  "word_flags": [],
+  "query_content_check": {
+    "query": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/swar/real_yt_yt01_005.wav",
+    "sha256": "2d3224ef7a5110979e199081c111fc5e004090c1c15ca2764cc3196961626964",
+    "text": "स्ट्रंगर किनकि अब मल्टिकल्चर वर्ल्ड छ।",
+    "runtime": {
+      "zipformer_path": "/Volumes/T9/asr_a2/exports/long1c_step95000_full",
+      "zipformer_pins": {
+        "encoder.int8.onnx": "36b8437ba3475c2d21b8fafcb0153f8d5ca4f34bea6af631c7ffaf102b170b1d",
+        "decoder.int8.onnx": "88dfafa84ee7d5b744e35cd5a219ce252ff6d53e5b309df89579cbdcb9055e19",
+        "joiner.int8.onnx": "6bd6cb808b4998c3c8bc36a8174a5ec987713c12dea9d2e47ee3e27c1ecc79e9",
+        "tokens.txt": "424bddc0b38d961991b7717b9c5424918cd2d4c58f2810db182675b1a49d2105"
+      },
+      "zipformer_source_sha256": "98c052c836be9724447b63bebbc79233faeddb420435555d53ec86c3ad422215",
+      "conformer_repo": "parismitaglobalsolutions/indicconformer-sherpa-onnx",
+      "conformer_revision": "9721eb71eea141fae0982cfcdb9dd2e3d4953c4a",
+      "conformer_inventory_sha256": "027b2aa9a33c21d23aa70dd702e9f2e89d0c768ef7f358e0ada63d8ef0464376",
+      "threads_per_recognizer": 2,
+      "recipe": {
+        "version": "content_gate_v11",
+        "conformer_cer": 0.15,
+        "conformer_wer": 0.5,
+        "tight_cer": 0.08,
+        "agreed_roman_cer": 0.18,
+        "roman_wer": 0.7,
+        "reject_cer": 0.35,
+        "reject_roman_cer": 0.3,
+        "reject_wer": 0.8
+      },
+      "language_policy": "All planned text is Nepali, even for Hindi-checkpoint speech. Nepali ASR decoders check intended lexical content; Hindi decoder is retained for Hindi-source audit."
+    },
+    "hypotheses": {
+      "zipformer_ne": {
+        "normalized_reference": "स्ट्रंगर किनकि अब मल्टिकल्चर वर्ल्ड छ",
+        "normalized_hypothesis": "अब hand कामदारहरुलाई मात्रै थियो भने चाहिँ अहिले student हरुलाई पनि भएको छ",
+        "reference_words": 6,
+        "word_errors": 12,
+        "wer": 2.0,
+        "reference_characters": 32,
+        "character_errors": 52,
+        "cer": 1.625,
+        "actual_hindi_error_label": null,
+        "text": "अब hand कामदारहरुलाई मात्रै थियो भने चाहिँ अहिले student हरुलाई पनि भएको छ",
+        "roman_cer": 1.5897435897435896
+      },
+      "conformer_ne": {
+        "normalized_reference": "स्ट्रंगर किनकि अब मल्टिकल्चर वर्ल्ड छ",
+        "normalized_hypothesis": "अब द हेइन कामदारहरूलाई मात्रै थियो भने चाहिँ अहिले स्टुन्टहरूलाई पनि भएको छ",
+        "reference_words": 6,
+        "word_errors": 12,
+        "wer": 2.0,
+        "reference_characters": 32,
+        "character_errors": 52,
+        "cer": 1.625,
+        "actual_hindi_error_label": null,
+        "text": "अब द हेइन कामदारहरूलाई मात्रै थियो भने चाहिँ अहिले स्टुन्टहरूलाई पनि भएको छ",
+        "roman_cer": 1.6923076923076923
+      },
+      "conformer_hi_audit": {
+        "normalized_reference": "स्ट्रंगर किनकि अब मल्टिकल्चर वर्ल्ड छ",
+        "normalized_hypothesis": "अब हन कामदार अरुलाई मात्र ही थी बने चाह अल स्टूंट अरुलाई पर ही भाकोछ",
+        "reference_words": 6,
+        "word_errors": 15,
+        "wer": 2.5,
+        "reference_characters": 32,
+        "character_errors": 45,
+        "cer": 1.40625,
+        "actual_hindi_error_label": null,
+        "text": "अब हन कामदार अरुलाई मात्र ही थी बने चाह अल स्टूंट अरुलाई पर ही भाकोछ",
+        "roman_cer": 1.435897435897436
+      }
+    },
+    "decision": "reject",
+    "actual_hindi_error_label": null,
+    "policy": "Nepali decoders check intended Nepali lexical content; Hindi decoder is an additional audit. Reject is only both-Nepali-decoders gross mismatch. Quarantine remains explicit. ASR never supplies a Hindi pronunciation label."
+  },
+  "content_checked_with_asr": true,
+  "actual_hindi_error_accuracy": null,
+  "scope": "No pronunciation judgment: both Nepali recognizers grossly disagree with the intended transcript. Hindi transcript audit is retained; ASR does not supply accent labels."
+}

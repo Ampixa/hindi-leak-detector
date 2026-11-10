@@ -1,0 +1,574 @@
+{
+  "schema": "observed_real_variation_v1",
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "created_utc": "2026-11-09T01:09:58.822910+00:00",
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "status": "active",
+  "next_review": "2026-11-10",
+  "scope_real_recordings": 86,
+  "scope_source_groups": 12,
+  "entries": [
+    {
+      "word": "अब",
+      "site": {
+        "kind": "vowel_deletion",
+        "index": 2,
+        "alternative": null
+      },
+      "native_phones": [
+        "ax",
+        "b",
+        "ax"
+      ],
+      "recordings": [
+        {
+          "id": "real_yt_yt04_030",
+          "word_ordinal": 11,
+          "voice": "yt04",
+          "word_start": 2.9848064516129034,
+          "word_end": 3.064935483870968,
+          "source_audio_sha256": "6d6043036924b8f0ff6e80bc9c5f85700858a7b876a1778da1bf1d45811fb8a6",
+          "phone_probe_sequence": "ʌ",
+          "secondary_phone_probe_sequence": "ɑ v",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_teacher_consensus_v36/report.json",
+              "qualified_teacher_references": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "एकै",
+      "site": {
+        "kind": "vowel_quality",
+        "index": 2,
+        "alternative": "ɛː"
+      },
+      "native_phones": [
+        "e",
+        "k",
+        "axj"
+      ],
+      "recordings": [
+        {
+          "id": "real_yt_yt07_054",
+          "word_ordinal": 1,
+          "voice": "yt07",
+          "word_start": 0.5211685393258427,
+          "word_end": 0.6815280898876405,
+          "source_audio_sha256": "190f1afb25fbc9bad0a359e3f4a44c48ecb9a088f4f415fb8faa556e6764a15d",
+          "phone_probe_sequence": "e k e",
+          "secondary_phone_probe_sequence": "i k i",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_teacher_consensus_v36/report.json",
+              "qualified_teacher_references": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "कसैले",
+      "site": {
+        "kind": "vowel_quality",
+        "index": 3,
+        "alternative": "ˈɛː"
+      },
+      "native_phones": [
+        "k",
+        "ax",
+        "s",
+        "axj",
+        "l",
+        "e"
+      ],
+      "recordings": [
+        {
+          "id": "real_yt_yt08_061",
+          "word_ordinal": 7,
+          "voice": "yt08",
+          "word_start": 2.3270608695652175,
+          "word_end": 2.668095652173913,
+          "source_audio_sha256": "56f868cc9ee41e6b9b42bdc3f11b737fdfbf1d630af3cd52dc3dec456830bcb4",
+          "phone_probe_sequence": "k o s e l i",
+          "secondary_phone_probe_sequence": "k o s e l i",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_teacher_consensus_v36/report.json",
+              "qualified_teacher_references": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "कुनै",
+      "site": {
+        "kind": "vowel_quality",
+        "index": 3,
+        "alternative": "ɛː"
+      },
+      "native_phones": [
+        "k",
+        "u",
+        "n",
+        "axj"
+      ],
+      "recordings": [
+        {
+          "id": "real_yt_yt07_053",
+          "word_ordinal": 4,
+          "voice": "yt07",
+          "word_start": 0.9033210332103321,
+          "word_end": 1.1040590405904058,
+          "source_audio_sha256": "691e1ee665d187e2e9190dd72e320951dea2892b244aba4412a199a7ea1e95ff",
+          "phone_probe_sequence": "k u n e",
+          "secondary_phone_probe_sequence": "k u n e",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_teacher_consensus_v36/report.json",
+              "qualified_teacher_references": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "गर्न",
+      "site": {
+        "kind": "vowel_deletion",
+        "index": 4,
+        "alternative": null
+      },
+      "native_phones": [
+        "g",
+        "ax",
+        "r",
+        "n",
+        "ax"
+      ],
+      "recordings": [
+        {
+          "id": "real_yt_yt01_003",
+          "word_ordinal": 13,
+          "voice": "yt01",
+          "word_start": 5.788005540166205,
+          "word_end": 5.948227146814404,
+          "source_audio_sha256": "0bf916a6c9f94cf850d9181e62a428f11ce2bd89ca4c30dc4dbb4d1785e89d67",
+          "phone_probe_sequence": "ɔ n u",
+          "secondary_phone_probe_sequence": "o n o",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_teacher_consensus_v36/report.json",
+              "qualified_teacher_references": 2
+            }
+          ]
+        },
+        {
+          "id": "real_yt_yt12_091",
+          "word_ordinal": 0,
+          "voice": "yt12",
+          "word_start": 0.0,
+          "word_end": 0.20106951871657755,
+          "source_audio_sha256": "c67e3187834a807f6a7fb952ecdde1f84c32da343bc1776587b454b22928a15f",
+          "phone_probe_sequence": "o r n",
+          "secondary_phone_probe_sequence": "ɑ r n u",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_teacher_consensus_v36/report.json",
+              "qualified_teacher_references": 2
+            },
+            {
+              "audit": "reports/release_native_variation_v37/comparisons.json",
+              "reference_case": "real_yt_yt04_028"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "छैन",
+      "site": {
+        "kind": "vowel_quality",
+        "index": 1,
+        "alternative": "ˈɛː"
+      },
+      "native_phones": [
+        "tsh",
+        "axj",
+        "n",
+        "ax"
+      ],
+      "recordings": [
+        {
+          "id": "real_yt_yt10_075",
+          "word_ordinal": 3,
+          "voice": "yt10",
+          "word_start": 1.127304347826087,
+          "word_end": 1.2883478260869565,
+          "source_audio_sha256": "7eda351d2d16742a5b4f4f34cb463621a02bd74a2d3a85bbcc9e12e940dd73fa",
+          "phone_probe_sequence": "t ts e n",
+          "secondary_phone_probe_sequence": "t i n",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_native_variation_v37/comparisons.json",
+              "reference_case": "real_yt_yt04_030"
+            },
+            {
+              "audit": "reports/release_native_variation_v37/comparisons.json",
+              "reference_case": "real_yt_yt09_065"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ट्राइमेस्टरको",
+      "site": {
+        "kind": "vowel_deletion",
+        "index": 9,
+        "alternative": null
+      },
+      "native_phones": [
+        "tx",
+        "r",
+        "aaj",
+        "m",
+        "e",
+        "s",
+        "tx",
+        "ax",
+        "r",
+        "ax",
+        "k",
+        "o"
+      ],
+      "recordings": [
+        {
+          "id": "real_yt_yt08_057",
+          "word_ordinal": 13,
+          "voice": "yt08",
+          "word_start": 4.507432432432433,
+          "word_end": 5.068357357357358,
+          "source_audio_sha256": "5739c724c4d6b746c0cd035a8bb2399bccaf272f017fbb4cd60ed6eb913c36be",
+          "phone_probe_sequence": "t ɹ aɪ m ɪ s t ə ɡ ʊ",
+          "secondary_phone_probe_sequence": "tʃ aɪ m ɪ s t ə r k ʊ",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_teacher_consensus_v36/report.json",
+              "qualified_teacher_references": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "तर",
+      "site": {
+        "kind": "vowel_deletion",
+        "index": 3,
+        "alternative": null
+      },
+      "native_phones": [
+        "t",
+        "ax",
+        "r",
+        "ax"
+      ],
+      "recordings": [
+        {
+          "id": "real_yt_yt10_078",
+          "word_ordinal": 4,
+          "voice": "yt10",
+          "word_start": 1.1053225806451612,
+          "word_end": 1.2058064516129032,
+          "source_audio_sha256": "25364ce97b8173a976eb582567e9ed2f917552499af56d29ac14c5eee253c2fc",
+          "phone_probe_sequence": "t o r",
+          "secondary_phone_probe_sequence": "t o r",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_native_variation_v37/comparisons.json",
+              "reference_case": "real_yt_yt05_036"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "धेरै",
+      "site": {
+        "kind": "vowel_quality",
+        "index": 3,
+        "alternative": "ɛː"
+      },
+      "native_phones": [
+        "dh",
+        "e",
+        "r",
+        "axj"
+      ],
+      "recordings": [
+        {
+          "id": "real_yt_yt12_096",
+          "word_ordinal": 13,
+          "voice": "yt12",
+          "word_start": 5.66742782152231,
+          "word_end": 5.987847769028871,
+          "source_audio_sha256": "80f081d1a993d93ad45a9a37e6f04d762615858411dee9ea80724caa31cbbc69",
+          "phone_probe_sequence": "d e r e",
+          "secondary_phone_probe_sequence": "d i r e",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_teacher_consensus_v36/report.json",
+              "qualified_teacher_references": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "परहेप्स",
+      "site": {
+        "kind": "vowel_deletion",
+        "index": 3,
+        "alternative": null
+      },
+      "native_phones": [
+        "p",
+        "ax",
+        "r",
+        "ax",
+        "h",
+        "e",
+        "p",
+        "s",
+        "ax"
+      ],
+      "recordings": [
+        {
+          "id": "real_yt_yt05_036",
+          "word_ordinal": 17,
+          "voice": "yt05",
+          "word_start": 7.613595706618962,
+          "word_end": 8.234704830053666,
+          "source_audio_sha256": "e238507a9e0da41c708ebb585e704b1c219ca910cba9bb20878feda8582d6337",
+          "phone_probe_sequence": "p ə h a p s w i",
+          "secondary_phone_probe_sequence": "p ɚ h æ p s w iː",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_teacher_consensus_v36/report.json",
+              "qualified_teacher_references": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "भइसकेपछि",
+      "site": {
+        "kind": "vowel_deletion",
+        "index": 3,
+        "alternative": null
+      },
+      "native_phones": [
+        "bh",
+        "axj",
+        "s",
+        "ax",
+        "k",
+        "e",
+        "p",
+        "ax",
+        "tsh",
+        "i"
+      ],
+      "recordings": [
+        {
+          "id": "real_yt_yt01_002",
+          "word_ordinal": 4,
+          "voice": "yt01",
+          "word_start": 1.4041297935103245,
+          "word_end": 1.9256637168141593,
+          "source_audio_sha256": "4fe1e9c5ac178c64a4e8c5432d2ddcf024fa8f23c87e757e6eb39274399e8298",
+          "phone_probe_sequence": "b aɪ s eɪ v ɪ s ɪ",
+          "secondary_phone_probe_sequence": "b aɪ s eː h b i s i",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_teacher_consensus_v36/report.json",
+              "qualified_teacher_references": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "भनेर",
+      "site": {
+        "kind": "vowel_deletion",
+        "index": 5,
+        "alternative": null
+      },
+      "native_phones": [
+        "bh",
+        "ax",
+        "n",
+        "e",
+        "r",
+        "ax"
+      ],
+      "recordings": [
+        {
+          "id": "real_yt_yt12_089",
+          "word_ordinal": 8,
+          "voice": "yt12",
+          "word_start": 2.6061073825503356,
+          "word_end": 2.866718120805369,
+          "source_audio_sha256": "539269e7e1e51fce04ad60c24a84d1e07473ec27370c4381239af0be5290f2df",
+          "phone_probe_sequence": "v a n d r",
+          "secondary_phone_probe_sequence": "w a n r",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_native_variation_v37/comparisons.json",
+              "reference_case": "real_yt_yt08_061"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "मैले",
+      "site": {
+        "kind": "vowel_quality",
+        "index": 1,
+        "alternative": "ˈɛː"
+      },
+      "native_phones": [
+        "m",
+        "axj",
+        "l",
+        "e"
+      ],
+      "recordings": [
+        {
+          "id": "real_yt_yt07_055",
+          "word_ordinal": 5,
+          "voice": "yt07",
+          "word_start": 1.544313725490196,
+          "word_end": 1.6646498599439776,
+          "source_audio_sha256": "784a822e7f84860c4a4c8521354a0b859a9f088ee640c98e902228db8a8e8020",
+          "phone_probe_sequence": "m e l",
+          "secondary_phone_probe_sequence": "m i l",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_teacher_consensus_v36/report.json",
+              "qualified_teacher_references": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "समय",
+      "site": {
+        "kind": "vowel_quality",
+        "index": 3,
+        "alternative": "ˌɛ"
+      },
+      "native_phones": [
+        "s",
+        "ax",
+        "m",
+        "ax",
+        "y",
+        "ax"
+      ],
+      "recordings": [
+        {
+          "id": "real_yt_yt09_070",
+          "word_ordinal": 1,
+          "voice": "yt09",
+          "word_start": 0.3814615384615384,
+          "word_end": 0.5822307692307692,
+          "source_audio_sha256": "6b74eb04ffb156e60936a9f8e5f8aa60f09f74d5f89511aecb2bc8bfe11419c1",
+          "phone_probe_sequence": "s a m ɛ",
+          "secondary_phone_probe_sequence": "s a m e",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_teacher_consensus_v36/report.json",
+              "qualified_teacher_references": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "हैन",
+      "site": {
+        "kind": "vowel_quality",
+        "index": 1,
+        "alternative": "ˈɛː"
+      },
+      "native_phones": [
+        "h",
+        "axj",
+        "n",
+        "ax"
+      ],
+      "recordings": [
+        {
+          "id": "real_yt_yt05_037",
+          "word_ordinal": 10,
+          "voice": "yt05",
+          "word_start": 2.46839590443686,
+          "word_end": 2.6490102389078496,
+          "source_audio_sha256": "ea294e1036beca780f17f82c7ce713911a4c59b7e8fcfadecfb0e786850cfad2",
+          "phone_probe_sequence": "s æ n i",
+          "secondary_phone_probe_sequence": "ɐ æ n",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_teacher_consensus_v36/report.json",
+              "qualified_teacher_references": 1
+            }
+          ]
+        },
+        {
+          "id": "real_yt_yt05_039",
+          "word_ordinal": 11,
+          "voice": "yt05",
+          "word_start": 4.16764081632653,
+          "word_end": 4.287861224489796,
+          "source_audio_sha256": "6399e78aba32b2bdbfd1a77ae3fe239ded17b08000eeef3ffa90aea110670a1f",
+          "phone_probe_sequence": "ɛ",
+          "secondary_phone_probe_sequence": "eɪ",
+          "evidence_sources": [
+            {
+              "audit": "reports/release_teacher_consensus_v36/report.json",
+              "qualified_teacher_references": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "used_for_training_or_prediction": false,
+  "human_error_labels": null,
+  "inputs": [
+    {
+      "path": "reports/release_teacher_consensus_v36/report.json",
+      "sha256": "76a795d228684bb73a8057d847f43427ee40283ab68bb8d55d14fcd5a2ea6fad"
+    },
+    {
+      "path": "reports/release_native_variation_v37/comparisons.json",
+      "sha256": "b0c377399ed84f36085f1b67670842e43d98b5c529ecbbc06c215d99310232a9"
+    }
+  ],
+  "limits": [
+    "Observed changes may be legitimate variants or acoustic/reference errors; Native acceptability and Hindi influence are not inferred.",
+    "Video/source groups do not prove independent people or geography. Missing observations are not evidence of unnativeness.",
+    "This word-indexed bank is descriptive context only; all numeric scores/thresholds/decisions remain unchanged."
+  ]
+}

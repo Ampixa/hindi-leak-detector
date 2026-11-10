@@ -1,0 +1,25 @@
+{
+  "preferred_source": "pocket_nepali_v1c",
+  "checkpoint_sha256": "515c22c63f2ae4e1d7ea76f239f6310692f84e58532fdd56fa997bea3f01a7eb",
+  "same_architecture_control": "pocket_hindi_parent",
+  "pocket_outputs_planned": 1024,
+  "reused_indicf5_outputs": 512,
+  "native_challenge_source_groups": 32,
+  "cpu_host": "k2",
+  "next_candidate_estimate": "1–2 hours from Pocket switch; subject to runtime/failures",
+  "validated_reliability_eta": null,
+  "reliable_automatic_detector": false,
+  "acceptance_evidence_needed": [
+    "Focal pronunciation and intonation errors with independent correctness evidence",
+    "Held-out words and source voice groups, including reference voices",
+    "Low native false-alarm rates with adequate sample size",
+    "Sensitivity to local pronunciation/prosody rather than voice identity"
+  ],
+  "current_candidate_tests": [
+    "Crossed focal source separation on three branches",
+    "Same-architecture parent/fine-tune control with measured identical decoder parameters",
+    "32-group native challenge with different preferred reference voices"
+  ],
+  "human_review_required_to_fit": false,
+  "source_labels_are_word_gold": false
+}

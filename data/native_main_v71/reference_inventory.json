@@ -1,0 +1,74 @@
+[
+  {
+    "path": "references/1b6bbab00edeae707ea0.wav",
+    "source": "/Volumes/T9/hindi-detector/data/teacher_indicf5_v14/references/1b6bbab00edeae707ea0.wav",
+    "bytes": 222620,
+    "sha256": "d4d56b3a3fe9776df4bd70d84f68b6c3223f7538bf431d31df2bdc8b93d1061f"
+  },
+  {
+    "path": "references/68c1e148215f30f0a62f.wav",
+    "source": "/Volumes/T9/hindi-detector/data/teacher_indicf5_v14/references/68c1e148215f30f0a62f.wav",
+    "bytes": 218466,
+    "sha256": "1d1f5a71937070ac54c890438d53f955773a7108d42ff6e3ae9a8dcb0aaf57e0"
+  },
+  {
+    "path": "references/1e15d89ce82208962c53.wav",
+    "source": "/Volumes/T9/hindi-detector/data/teacher_indicf5_v14/references/1e15d89ce82208962c53.wav",
+    "bytes": 219550,
+    "sha256": "b9fd0d72cade8dd69a7d7abcf15cb4d6c969e09bb8d2d3aa23c95a32360dcd8e"
+  },
+  {
+    "path": "references/6ed10838a90596e87758.wav",
+    "source": "/Volumes/T9/hindi-detector/data/teacher_indicf5_v14/references/6ed10838a90596e87758.wav",
+    "bytes": 229968,
+    "sha256": "107a7e84affa1ff219e75013472aaa0230d54269c25eb14fd1cfd64033886bbb"
+  },
+  {
+    "path": "references/cefd966a49f8f9f10ce7.wav",
+    "source": "/Volumes/T9/hindi-detector/data/teacher_indicf5_v14/references/cefd966a49f8f9f10ce7.wav",
+    "bytes": 239248,
+    "sha256": "0450c9ded02ed5c9e34fc13ebd652e195f0e051052819951b65a747c0fad45b7"
+  },
+  {
+    "path": "references/159e1e624ed7cb903c96.wav",
+    "source": "/Volumes/T9/hindi-detector/data/teacher_indicf5_v14/references/159e1e624ed7cb903c96.wav",
+    "bytes": 230090,
+    "sha256": "e5ee397a2a8160ca6c1ae4a14d80d83bb305d48c223a96db242aa9d079adc059"
+  },
+  {
+    "path": "references/f52796252bd27627d20a.wav",
+    "source": "/Volumes/T9/hindi-detector/data/teacher_indicf5_v14/references/f52796252bd27627d20a.wav",
+    "bytes": 211708,
+    "sha256": "54fade88c78bfc28c9a2eedbd7fdfb2f61833bcdcba1baac51eee2162f12052e"
+  },
+  {
+    "path": "references/c4a074963f46e1c48534.wav",
+    "source": "/Volumes/T9/hindi-detector/data/teacher_indicf5_v14/references/c4a074963f46e1c48534.wav",
+    "bytes": 197320,
+    "sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8"
+  },
+  {
+    "path": "references/14dcc7e2d2f417d11db9.wav",
+    "source": "/Volumes/T9/hindi-detector/data/teacher_indicf5_v14/references/14dcc7e2d2f417d11db9.wav",
+    "bytes": 233096,
+    "sha256": "164b174fa28e1f14f9e9763c6abc86d3e7ffcf5ea118b2d445f8fa6144ef7af5"
+  },
+  {
+    "path": "references/15ed78181b636b5435f4.wav",
+    "source": "/Volumes/T9/hindi-detector/data/teacher_indicf5_v14/references/15ed78181b636b5435f4.wav",
+    "bytes": 210508,
+    "sha256": "8be634d9fe6147d1bffdd2815c6dff1019590560e9441aea3fc43f4ccfff3721"
+  },
+  {
+    "path": "references/2324e89c0e9fab1255a0.wav",
+    "source": "/Volumes/T9/hindi-detector/data/teacher_indicf5_v14/references/2324e89c0e9fab1255a0.wav",
+    "bytes": 232258,
+    "sha256": "399622766949265b9da61ca93036fa60a3369a275e7c10ea43313793470b88ea"
+  },
+  {
+    "path": "references/09716e1dd999ef87a834.wav",
+    "source": "/Volumes/T9/hindi-detector/data/teacher_indicf5_v14/references/09716e1dd999ef87a834.wav",
+    "bytes": 236906,
+    "sha256": "6b30eea0001bbc1d4590f9f365b2dd6d9c02d57e8cc8a252986456ed9145c392"
+  }
+]

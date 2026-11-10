@@ -1,0 +1,13 @@
+# Acoustic evidence on the real-human dual-G2P bank
+
+Created by Codex GPT-6 /root, 2026-11-07 UTC, owner Ampixa/user. Active consumer: empirical word realizations for broad native support versus preferred-TTS style. Original k2 /Volumes/T9/hindi-detector/reports/human_g2p_evidence_v5; source/small metadata on cdjk. Review by 2026-11-14. Internal only, no HF/public uploads. Source data/voice restrictions apply; MMS alignment is noncommercial research code/model.
+
+Inventory: README covers manifest.json/items.jsonl, which inventory all <clip_id>.json word/contour/G2P-path evidence and <clip_id>.npz compact phone/prosody arrays by size/SHA, parent waveform SHA and failures. source_snapshot.json retains exact extractor/engine/feature/G2P/CTC code. job.json records child commands and lifecycle; pid, extract.log and summary.log are owned runtime files. Delete logs within 24h after result/failure review, retain compact counts/configs and selected evidence. No duplicate source WAVs, speaker-state vectors or full posterior tensors. G2P bank input is data/human_g2p_bank_v5/word_bank.json, pinned in the manifest.
+
+Both G2P predictions are priors, not ground truth. Projection only removes explicit syllable/stress annotations and resolves equivalent tie-bar notation; it never erases dental, retroflex, aspiration or vowel-quality distinctions to force probe support. Unsupported units and impossible alignments remain explicit. Both full paths can fit poorly, so greedy-sequence-relative likelihoods are also retained without a calibrated cutoff. Actual realization/error labels remain absent. Geography is not a label.
+
+Native variation support, preferred-style distance and Hindi-phone evidence stay separate. Outputs can uncover a G2P/probe problem or legitimate native variant. This does not establish Hindi-error accuracy. Current source coverage is reported West Bengal, not verified Nepal residence/first-language data. Prosody needs original utterance context; local one-utterance matches are metadata candidates, not raw-audio checksum proof.
+
+Reproduce extractor command with --g2p-bank in job.json, then scripts/summarize_human_g2p.py to a new immutable reports/human_g2p_summary_v5 group. Keep compact observations/reference distributions for current human-bank learning. Delete superseded dense caches after this consumer ends, preserve source revisions and any genuine judgments.
+
+setup_incident.json retains the exact failed pre-extraction controller/job bytes and diagnostic. worker.log contains explicit controller failures and the corrected run. The original controller produced no audio or features. The replacement scripts/run_human_g2p_evidence.py uses pinned Python3.12 and atomic JSON.

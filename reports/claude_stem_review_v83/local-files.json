@@ -1,0 +1,71 @@
+{
+  "reviewed_utc": "2026-11-09T14:55:19.994496+00:00",
+  "scope": "Actual local compact members; original large data remains k2.",
+  "files": [
+    {
+      "path": "followup.launch.json",
+      "bytes": 895,
+      "sha256": "decad72296b495a6b08f8902867e5edb171a045371a2de16959ea1c89a55391d"
+    },
+    {
+      "path": "followup.prompt.txt",
+      "bytes": 42674,
+      "sha256": "a23bdc9bd65b81df410d677d19d3d865752ab93e90e8668a18024fd901c80202"
+    },
+    {
+      "path": "followup.result.json",
+      "bytes": 5280,
+      "sha256": "f687203eb87e80b3a70342009a81fa6a5c52daece9869474c05ab5ee61d481d7"
+    },
+    {
+      "path": "followup.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "followup.stdout.json",
+      "bytes": 6526,
+      "sha256": "df596ef6252bcd21dd63a04cef7cc2a932286c1b6c15d9d80b5f5f6a19fe45a8"
+    },
+    {
+      "path": "followup.triage.json",
+      "bytes": 1478,
+      "sha256": "5930ce2b6c36ca32cae30e74e0770cf4c9910dbe8c85ad337d4ab1e10ebac092"
+    },
+    {
+      "path": "inputs.json",
+      "bytes": 579,
+      "sha256": "8f70e5268f0bf7ba6dd85793ca06ad550043d55a271d5d4a6c921ce55fa6864b"
+    },
+    {
+      "path": "launch.json",
+      "bytes": 337,
+      "sha256": "01be86e58d75c3cebac100d342ffc16ac73200669da247e46f2851bcca34acd9"
+    },
+    {
+      "path": "prompt.txt",
+      "bytes": 29069,
+      "sha256": "0cce30856995b270e17af19f7cd4406b221e31652717d6527c4924656f3d2600"
+    },
+    {
+      "path": "result.json",
+      "bytes": 7484,
+      "sha256": "77d23d6d2ed3de0c4ba3f49a6fac34fd13e663a44445e009918091201c397ef4"
+    },
+    {
+      "path": "stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "stdout.json",
+      "bytes": 9017,
+      "sha256": "e91251dc1be9e8d6f57f864a375b2892af636cf160cab39b49cca1b6f34dde17"
+    },
+    {
+      "path": "triage.json",
+      "bytes": 1400,
+      "sha256": "1393dde731ff5e8750c1403e0c017e1ec916fb9a7ff2be926fc2ffe00a102ce4"
+    }
+  ]
+}

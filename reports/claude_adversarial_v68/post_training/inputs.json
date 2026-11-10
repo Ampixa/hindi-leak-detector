@@ -1,0 +1,47 @@
+[
+  {
+    "path": "hindi_detector/anchored_vowels.py",
+    "sha256": "e07b1d83b3b87d45a9ea2232c76215e8badc58f2f3c89762190b351b0bf2543f",
+    "bytes": 6507
+  },
+  {
+    "path": "hindi_detector/anchored_detector.py",
+    "sha256": "ad34cea863c657c1e672d6ee00d5aa1c1ac79d073a3050c49dc9e2993b121202",
+    "bytes": 6146
+  },
+  {
+    "path": "hindi_detector/anchored_inference.py",
+    "sha256": "93e4e1a9eac016a494f03765833fa289587b0e82b10d894541f75393580102f1",
+    "bytes": 5979
+  },
+  {
+    "path": "scripts/build_local_controls.py",
+    "sha256": "4ead04eda5a99d6ea42e9b9e984131d2f7022a55d22052433b815a6901c80b52",
+    "bytes": 18424
+  },
+  {
+    "path": "scripts/train_anchored_detector.py",
+    "sha256": "6ee2ed8ebfc0dad02b9d3077c97d17127f69c72441a9cbfc407966c65f47267a",
+    "bytes": 14190
+  },
+  {
+    "path": "reports/anchored_training_v71/report.json",
+    "sha256": "00db8710baf3d7f1e2f5701c1f2d609441f7e7adf6d6fc224ea58c6b36f11e80",
+    "bytes": 1051
+  },
+  {
+    "path": "reports/anchored_test_v74/report.json",
+    "sha256": "94306736ef617edfe49b9a9231e949edf75fe7c19fa5616c986cac6ac17674f6",
+    "bytes": 6763
+  },
+  {
+    "path": "reports/anchored_test_v74/simple_baselines.json",
+    "sha256": "a13ed74560c8bb5a3e5e0eefc986c0bf6cbb3f28f9e5e8a4c58b5645210d9879",
+    "bytes": 4373
+  },
+  {
+    "path": "reports/anchored_runtime_v74/report.json",
+    "sha256": "68faa2ce61fe8488acfecde3616a815bea68d9d4c5f57863c38b771751c9241d",
+    "bytes": 881
+  }
+]

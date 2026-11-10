@@ -1,0 +1,116 @@
+{
+  "created_utc": "2026-11-08T05:27:30.568368+00:00",
+  "models": {
+    "pocket_teacher_250000_24l": {
+      "host": "khalti-gpu",
+      "weights": "/home/ampixa/pocket_tts_stage/teacher_run_20261002/model.safetensors",
+      "sha256": "2b4636e3aed0e4f2d035630e504be95fc58f494b690a851a91bfe0dd8299516f",
+      "step": 250000,
+      "layers": 24,
+      "source": "/home/ampixa/pocket_tts_stage/pocket-tts",
+      "source_revision": "2f0e24033bf49e8aedcfeb9da2be4fcf2e4cc2c2",
+      "config": "/home/ampixa/pocket_tts_stage/pocket-tts/pocket_tts/config/english_2026-04_24l.yaml",
+      "tokenizer": "/home/ampixa/pocket_tts_stage/model/tokenizer_clean.model",
+      "tokenizer_sha256": "d59424239dac0eeed522a28dabd48e17f523464afbfc50c5ccafa6be79f43122",
+      "inference": {
+        "temperature": 0.3,
+        "n_steps": 1,
+        "cfg_coef": 2.0,
+        "eos_threshold": -1.0,
+        "max_frames": 220,
+        "device": "cuda",
+        "dtype": "float32"
+      }
+    },
+    "indicf5_stock": {
+      "host": "k2",
+      "repo": "ai4bharat/IndicF5",
+      "revision": "fb652a96e508091045890dae5bb99fe511facbcf",
+      "sha256": "ba7f3671180fb7784e24bd1dafc96e729a38ce02e7f6d3877cdef32525a1865c",
+      "model_root": "/Volumes/T9/hindi-detector/models/indicf5",
+      "inference": {
+        "nfe_step": 32,
+        "cfg_strength": 2.0,
+        "sway_sampling_coef": -1.0,
+        "speed": 1.0,
+        "device": "mps"
+      }
+    }
+  },
+  "smoke": {
+    "status": "actual_model_pair_smoke_complete",
+    "clip_counts": {
+      "pocket_teacher_250000_24l": 8,
+      "indicf5_stock": 8
+    },
+    "content_decisions": {
+      "pocket_teacher_250000_24l": {
+        "pass": 8
+      },
+      "indicf5_stock": {
+        "pass": 8
+      }
+    },
+    "recipe": {
+      "version": "content_gate_v11",
+      "conformer_cer": 0.15,
+      "conformer_wer": 0.5,
+      "tight_cer": 0.08,
+      "agreed_roman_cer": 0.18,
+      "roman_wer": 0.7,
+      "reject_cer": 0.35,
+      "reject_roman_cer": 0.3,
+      "reject_wer": 0.8
+    },
+    "automatic_hindi_accuracy": null,
+    "model_pair_sha256": "06b469ad88fff6ea655c3c39ba7b70082ed9bb30c607afe61141b61c16b370e6"
+  },
+  "state": {
+    "phase": "generating_and_screening_corrected_pair",
+    "pid": 66222,
+    "updated_utc": "2026-11-08T05:27:21.375841+00:00",
+    "systems": [
+      "pocket_teacher_250000_24l",
+      "indicf5_stock"
+    ],
+    "generation": {
+      "pocket_teacher_250000_24l": {
+        "status": "generating_corrected_pair",
+        "pid": 4041779,
+        "system": "pocket_teacher_250000_24l",
+        "updated_utc": "2026-11-08T05:27:09.003483+00:00",
+        "planned_clips": 1536,
+        "processed_clips": 175,
+        "counts": {
+          "ok_unreviewed": 175
+        },
+        "current_job": "night11_05b29c9c98f499a4274c_v1"
+      },
+      "indicf5_stock": {
+        "status": "generating_corrected_pair",
+        "pid": 66275,
+        "system": "indicf5_stock",
+        "updated_utc": "2026-11-08T05:27:05.788131+00:00",
+        "planned_clips": 1536,
+        "processed_clips": 43,
+        "counts": {
+          "ok_unreviewed": 43
+        },
+        "current_job": "night11_013d5ce516c5ccc1a92b_v1"
+      }
+    },
+    "content_decisions": {
+      "pocket_teacher_250000_24l": {
+        "pass": 174,
+        "quarantine": 1
+      },
+      "indicf5_stock": {
+        "pass": 44,
+        "quarantine": 1
+      }
+    }
+  },
+  "tests_passed": 102,
+  "review_url": "http://100.80.123.8:8770/comparison",
+  "new_detector_trained": false
+}

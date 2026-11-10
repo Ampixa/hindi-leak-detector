@@ -1,0 +1,22 @@
+{
+  "pid": 71444,
+  "command": [
+    "ssh",
+    "-4",
+    "-N",
+    "-o",
+    "BatchMode=yes",
+    "-o",
+    "ConnectTimeout=8",
+    "-o",
+    "ExitOnForwardFailure=yes",
+    "-o",
+    "ServerAliveInterval=30",
+    "-o",
+    "ServerAliveCountMax=3",
+    "-L",
+    "100.115.106.117:8782:127.0.0.1:8782",
+    "k2"
+  ],
+  "created_utc": "2026-11-09T09:15:08.387393+00:00"
+}

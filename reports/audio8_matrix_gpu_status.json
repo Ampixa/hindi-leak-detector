@@ -1,0 +1,11 @@
+{
+  "status": "waiting_for_spare_gpu",
+  "free_gpu_mib": 21697,
+  "gpu_utilization_percent": 99,
+  "free_disk_bytes": 23959527424,
+  "idle_samples": 0,
+  "required_samples": 3,
+  "policy": "15-second observations; wait for low utilization, sufficient memory/disk; never stop another job",
+  "pid": 1774689,
+  "updated_utc": "2026-11-07T09:23:48.523855+00:00"
+}

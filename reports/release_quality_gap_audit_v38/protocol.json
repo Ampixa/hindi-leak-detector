@@ -1,0 +1,10 @@
+{
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "source_plan_sha256": "93465ba52e9e2b932ba8b874c72bd3e4355ee310f1fcfa0aeacaf360e3449b17",
+  "source_intrinsic_items_sha256": "b3ae9eb0defa2a6024bc6a2197684b641c8176786a638189e885951d1bb5aa95",
+  "labels": "Known actual observed-nucleus removal/replacement versus matched sham reinsertion; not Hindi-error truth",
+  "eligibility": "Both probes favor/observe canonical native vowel; measured region fully inside word and40..300ms; quality donor alternative observed/favored by both, duration ratio0.5..2",
+  "geometry": "Exact piecewise coordinate mapping through the actual cut/replacement;2ms matched join fades",
+  "region": "Full interval between neighboring consonant peak spans, capped at owned word bounds; includes blank-labeled vowel frames. Follows the short-nucleus audit; models remain frozen.",
+  "selection": "No classifier probability used for input selection; all new words/conditioning groups excluded from fit; no threshold/model changes after audit"
+}

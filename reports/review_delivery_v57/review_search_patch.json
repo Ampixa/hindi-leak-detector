@@ -1,0 +1,46 @@
+{
+  "previous_review_sha256": "74c1d1869166eed81fdd0bb78ccf13b9e3fcedc5cf568617363f743a86a1d8db",
+  "previous_expansions": null,
+  "new_expansions": [
+    {
+      "id": "real_yt_yt08_060",
+      "original_text": "१३ हप्ता छ दिन भित्र गर्न मिल्ने जाहाच हो त्यो प्रेग्नेन्सीमा अनि दिउसो गर्न आउनु भा थियो रिपोर्ट नर्मल थियो हैन गरेर",
+      "analysis_text": "तेह्र हप्ता छ दिन भित्र गर्न मिल्ने जाहाच हो त्यो प्रेग्नेन्सीमा अनि दिउसो गर्न आउनु भा थियो रिपोर्ट नर्मल थियो हैन गरेर",
+      "qualified_sources": [
+        "real",
+        "swar"
+      ]
+    },
+    {
+      "id": "real_yt_yt09_069",
+      "original_text": "मैले ३ हजार रुपैया तिरेर ट्रेनिङ लिएको थिए। ३ हजार रुपैया त्यतिखेर एउटा पैसा थियो।",
+      "analysis_text": "मैले तीन हजार रुपैया तिरेर ट्रेनिङ लिएको थिए। तीन हजार रुपैया त्यतिखेर एउटा पैसा थियो।",
+      "qualified_sources": [
+        "real",
+        "swar",
+        "a450"
+      ]
+    },
+    {
+      "id": "real_yt_yt10_073",
+      "original_text": "अनि १२ हजार माग्छु कि १५ हजार माग्छु म दिन रेडी छु।",
+      "analysis_text": "अनि बाह्र हजार माग्छु कि पन्ध्र हजार माग्छु म दिन रेडी छु।",
+      "qualified_sources": [
+        "real",
+        "swar",
+        "a450"
+      ]
+    },
+    {
+      "id": "real_yt_yt12_092",
+      "original_text": "हुनुभयो। दोस्रो नम्बरमा यहाँको व्यवसायले १५ करोड सम्मको को कारोबार गरेको छ त्यो त्यसमा एलिजिबल हुनुभयो।",
+      "analysis_text": "हुनुभयो। दोस्रो नम्बरमा यहाँको व्यवसायले पन्ध्र करोड सम्मको को कारोबार गरेको छ त्यो त्यसमा एलिजिबल हुनुभयो।",
+      "qualified_sources": [
+        "real",
+        "swar",
+        "a450"
+      ]
+    }
+  ],
+  "reason": "Allow search by original numeric transcript as well as analysis expansion, and disclose original transcript in collapsed detail."
+}

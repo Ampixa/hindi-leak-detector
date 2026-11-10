@@ -1,0 +1,41 @@
+{
+  "reviewed_utc": "2026-11-09T09:24:11.828474+00:00",
+  "http_index_sentences": 26,
+  "complete_readings": 208,
+  "audio_range_checks": {
+    "cases": [
+      "cross80_s19_v0",
+      "cross80_s21_v1",
+      "cross80_s23_v2"
+    ],
+    "status": 206,
+    "bytes": 64,
+    "format_magic": "RIFF"
+  },
+  "unknown_routes": [
+    {
+      "route": "/api/case/not_in_frozen_index",
+      "status": 404
+    },
+    {
+      "route": "/audio/indicf5_stock/not_in_plan",
+      "status": 404
+    }
+  ],
+  "javascript_syntax": "node --check passed",
+  "unit_tests": 186,
+  "production_cli_parity": [
+    "quality: हैन exact word/site decisions and reference qualifications",
+    "additional-word deletion: सहमति exact word/site decisions and reference qualifications"
+  ],
+  "browser": "Native Chrome showed the new review at its private Tailscale URL. Later AX showed all three audio players, candidate/qualification/content labels, full word-decision table and completed-word status on selected पैसाले case. Two intermediate CUA requests timed out; tool recovered. No phonetic judgment or new user error label inferred from UI state. No screenshot saved.",
+  "model_training": false,
+  "page_and_results_changed_by_qa": false,
+  "mac_disk": {
+    "total": 494384795648,
+    "used": 490145710080,
+    "free": 4239085568
+  },
+  "deleted_paths": [],
+  "reclaimed_bytes": 0
+}

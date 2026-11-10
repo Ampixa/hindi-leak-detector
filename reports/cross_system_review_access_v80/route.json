@@ -1,0 +1,7 @@
+{
+  "public": false,
+  "url": "http://100.115.106.117:8782/",
+  "source": "k2 localhost8782",
+  "bind": "Mac verified Tailscale interface100.115.106.117 only",
+  "consumer": "User fresh-sentence listening"
+}

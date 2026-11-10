@@ -1,0 +1,1332 @@
+Follow-up adversarial review before fitting. Same user requested an actual Claude review; your previous review is supplied. No tools/execution/changes. Review the NEW actual code and proposed fit recipe. Return only still-blocking defects, minimal corrections, and go/no-go separately for pilot, bulk raw generation, fit, test/promotion. Target1200 words.
+
+Triage: v66 stays untested/shadow. Existing gather validates0/1 pair order upstream; next fit will build explicit identity indices. New head will use ONLY24 anchored local phonetic features (12/probe), no Allosaurus availability, no word duration/lexical-position constants or reference inputs. Existing teacher require_pair DOES assert the approved SHA at lines29-30; previous P0-8 claim about missing SHA was incorrect. Existing independent-phone adapter pads3 zero-probability columns and shifts all real phones1..229 to4..232, so real phones1..3 were NOT dropped; source now supplied. We did NOT simply forbid skipping for overlapping sets, which incorrectly rejects different actual tokens: NEW exact CTC enumerates allowed token states, token identity is fixed within a phone, and skip is allowed iff actual token changes. Tested against exhaustive concrete CTC likelihood marginal and exhaustive Viterbi, including overlapping/repeated sets. New local gap comparison freezes both deletion-path consonant anchors, then compares exactly the same gap frames under any-vowel versus blank-only hypotheses. Full-native focal ownership is a feature, not a posthoc exclusion of edited positives. Quality/adjacent-vowel sites rejected by text-level rule.
+
+Pilot:256 raw approved24-layer teacher renders complete,64 lexemes (48 deletion/16 quality), two TRAIN voices only, no fit. Source/protocol snapshots retained. New source-eligible control builder in progress; after-edit failures are explicit abstention rows retained in denominator. Controls include untouched source, sham, full deletion, same-duration off-target cut, WORLD0 and half-duration retained vowel (>=40ms), and production MMS realignment of EVERY emitted waveform. Eligibility reads unedited source only; source ASR separately before fitting; no query-waveform ASR filtering. Old live model unchanged.
+
+Proposed bulk:384 new deletion lexemes plus96 optional quality lexemes,4 Native conditioning voices per partition, canonical/edited requests=3840WAV. Exclude all90 scored/6 other Swar words via original word plan plus all five prior minimal plans and this pilot. Train/dev/test disjoint exact canonical/edited phonetic-collision groups and conditioning IDs, different carrier templates. This is NOT a claim of morphological root-disjointness.4dev/4test conditioning IDs exist;4train selected from8 available. Test groups are excluded from fitting though some voices appeared in previous diagnostic audits. All generator outputs are requests, not realized-error gold. The pilot yield determines whether this bulk is adequately sized; no full bulk launch yet.
+
+Proposed fit: local24, primary12 and secondary12 linear heads only; ridge weights selected by train-only joint3lexeme-fold x4voice-fold CV: validation cell has (lexeme_fold=k AND voice=v), training excludes (lexeme_fold=k OR voice=v). Explicit per-source/family indices, equal-lexeme/class-balanced BCE; each source's negative families share unit weight, deletion family has equal positive weight. Fit final train-only normalization/weights; dev voices/lexemes are held out for threshold calibration only (predeclared99th percentile non-deletion score, floor0.5); dev metrics explicitly calibration, not accuracy. New test opens once after code/data/head/threshold hashes freeze on k2 and copy to cdjk. Both complete-case and all-attempted outcomes reported; every positive abstain counts as miss. Test-only tempo/gain controls and requested natural deletion renders reported separately as requests, not accuracy. No broad Hindi probability/prosody claim. All feature code, both encoders, aligner inventory, mappings and preprocessing pinned/verified on load.
+
+Assess actual defects: does the source ownership/union region create incorrect physical labels or outcome selection; does matched WORLD/compression create a confound; is local CTC implementation mathematically valid; what minimal tests must precede fitting; are the proposed grouped-CV/denominators valid? Do not require nonexistent broad human labels before controlled engineering, only before real-error precision.
+
+--- PREVIOUS REVIEW ---
+# Adversarial review: Nepali vowel-deletion detector, query-only v66, and the next run
+
+**Bottom line:** Do not generate the full dataset or fit anything yet. About 8 code defects must be fixed first; several of them invalidate the meaning of the current numbers rather than just the code. v66's "0/19 dev shams" is guaranteed by how the threshold was chosen, so it is not evidence. The current sham does not control for "audio was removed", so the detector may only be learning that something was cut out.
+
+I did not consult the advisor tool or run anything, since you asked for no tools. Everything below comes from reading the source you pasted.
+
+**E** marks something read directly from that source. **I** marks my inference, which needs a test before you rely on it. Source/teacher agreement is never treated as Hindi-error truth. Only हैन, किनकि (development) and नेकपा (found by the detector, then confirmed by you) carry human labels. Since all three were found or selected through the detector, they cannot measure accuracy.
+
+---
+
+## 1. Must fix before any generation or fitting (P0)
+
+**P0-1. v66's development numbers are not evidence.** (E, `train_query_deletion.py`)
+- The dev set is used three times: for early stopping (best dev BCE per epoch), for choosing among the 6 candidates (lowest dev BCE), and for the threshold (`high = max(.5, max dev-sham score + 1e-5)`).
+- Because of that threshold rule, dev sham flags are 0 by definition. 19/19 detections is then a separation score measured after optimising on the same data.
+- Fix: treat v66 as untested. From now on, choose the model family and early-stopping epoch with grouped cross-validation over train+dev (leaving out whole lexemes and voices). Set the threshold from those held-out folds, then open a new test once.
+
+**P0-2. The pairing in the ranking loss is assumed, never checked.** (E)
+- `logits[1::2] - logits[::2]` and `wt[::2]` only make sense if the rows strictly alternate sham/edit for the same `pair_id` and `mode`.
+- `records` comes from `gather()`, then a `kind` filter, then a `split` filter. Nothing asserts the order, and an odd count would misalign or broadcast silently.
+- Fix: build explicit index tensors and assert that both rows share `pair_id` and `mode` and have labels `(0, 1)`.
+- Test: shuffle the rows and confirm the loss is unchanged.
+
+**P0-3. Positives are dropped after editing, depending on the outcome.** (E, `build_full_context_controls.py`)
+- The `try/except ValueError` covers the label loop. If `measure()` or `context_template` fails on the edited audio (for example "Neither declared pronunciation can fit" or a failed trace), the whole pair is excluded. Its WAVs are relabelled `disposable_uncommitted_pair_diagnostic`.
+- That is exactly the post-hoc removal of physically edited positives you want to forbid.
+- Fix: split the exception paths.
+  - Pre-edit eligibility failures (text, source, reference) → exclusion.
+  - Post-edit measurement failures → recorded as `abstain`, kept in the denominator. Count them as misses for positives and non-flags for shams, and report them by label.
+- Test: inject a failing `measure` on label 1 and confirm the pair is still in the report.
+
+**P0-4. Allosaurus availability can differ within a pair, and the flag is an input.** (E)
+- `third.get((group, job_id, label))` is looked up per label, so a sham can have third-encoder features while its edit does not.
+- `independent_available` is a model input. If Allosaurus fails more often on deleted audio, the flag becomes a label shortcut.
+- Fix: decide availability per pair (both rows or neither). Report availability by label, and run an ablation with the flag removed.
+
+**P0-5. Nothing stops v66 from scoring a quality site.** (E, `query_deletion.score`)
+- `is_vowel_deletion` and `is_vowel_quality` are constant in deletion-only training, so their scale is clamped to 0.05.
+- Fed a quality site, the input becomes about (1 − mean)/0.05 ≈ 20, clipped to 8: a large out-of-distribution value.
+- Fix: raise an error in `score()` unless every row is a deletion contrast, and drop the constant columns.
+
+**P0-6. Checkpoint pinning doesn't cover the feature code.** (E, `query_deletion.load`)
+- It pins only `query_deletion.py`. `intrinsic_vowels.py`, `phone_lattice.py`, `paired_local_vowels.py`, the independent-phone runtime and the encoder weights can all change while the checkpoint still loads.
+- `third_runtime_sha256` is stored but never checked against the live runtime.
+- Fix: pin every file in the feature path plus the encoder checkpoint hashes, and verify the runtime hash on load.
+
+**P0-7. The CTC skip rule lets overlapping phone sets share frames.** (E, `phone_lattice.path_score`)
+- `skip` is allowed whenever `states[i] != states[i-2]`, comparing sets.
+- In true CTC, the same token emitted twice without a blank collapses to one token. If two adjacent sets share a token, one continuous run can therefore "satisfy" both units.
+- This applies to `any_vowel` next to a vowel, and to diphthong sets: `ʌi̯` contains a/ɑ/ɐ, which are also in the ə set.
+- Fix: forbid the skip when `states[i] & states[i-2]` is non-empty. Ship this as a new versioned function, because changing it silently would alter the features of the live v31 model.
+- Training controls are mostly protected, because `full_gap` rejects sites next to another vowel. Live Swar sites (for example आइसके) are not.
+
+**P0-8. The plan builder cannot produce the run you described.** (E, `build_minimal_vowel_plan.py`)
+- `--per-kind` is capped at 256.
+- Deletion and quality quotas must balance exactly, or the build raises "Could not verify balanced word plan".
+- The checkpoint SHA is checked only through `require_pair`, never against `2b4636e3…` explicitly.
+- Fix: add `--deletion-only` with an independent quota and an explicit SHA assert.
+- Exclude by lexeme stem as well as surface form (for example तलको vs तल), and across splits as well as from prior plans.
+
+**P0-9 (verify; this one is inference).** `conditional_mass`, `free` decoding and `represent()` assume ids 0–3 are special tokens (`p[:, 4:]`, `t > 3`). That is the wav2vec2 tokenizer convention. If Allosaurus's 230-phone inventory has real phones at ids 1–3, they are silently excluded from features.
+- Test: assert, for each vocabulary, which ids are blank and which are special.
+
+**P1 (fix before the fit, not before generation):**
+- **Reference-invariance test for the "query-only" columns.** The guard only checks names (`'reference'`, `'delta_'`). `positive_margin_fraction` has no `query_` prefix, so whether it depends on the reference is unknown. Recompute `vector()` with a random reference and assert all 23 selected columns are bit-identical.
+- **Live word boundaries.** Controls use oracle boundaries from `map_word`, but live clips are cut by the aligner. Test features must be extracted through the production alignment of the edited audio. Mapped boundaries are for auditing only.
+- **Magic indices.** `dual_paired_vowels.supported` uses numeric feature positions (`a[:,30]`, `a[:,44]`, …). Index by feature name and add a schema test.
+- **`audit_additional_swar_phones` support rule has no query-side ownership check.** It uses whole-path `query[1] > 0` only. Add `query native_site_log_emission < τ` and low `gap_vowel_mass`, and report the result as a new versioned audit, not by rewriting v65.
+
+---
+
+## 2. Is query-only 79 a sound next baseline?
+
+**As a candidate architecture: yes.** It removes reference confidence, the mechanism that caused the two sham false flags in the rejected extension, and the reference-generation latency.
+
+**As a measured baseline: not yet.**
+- Its only numbers come from data it was optimised on (P0-1).
+- **Scope limit (I):** without a reference or norm, query-only features cannot separate Hindi-like schwa deletion from normal Nepali casual or fast-speech reduction. The physical-edit task does not test this at all.
+
+**Specific confounds in the 79 columns (E/I):**
+- **Duration shortcut.** `log_word_frames`, `native_site_frame_fraction`, `gap_word_fraction` (and their paired-query equivalents) all shrink on positives by exactly the removed duration. The sham never changes duration, and the 0.25 ranking term rewards this difference directly.
+- **Lexical structure.** `native_unit_count`, `site_position`, `site_initial/final`, `native_vowel_fraction` and `background_reductions` are identical within a pair. They can only shift the threshold by word shape, which is a word-ID proxy that may not transfer to new words.
+- **Whole-path margins.** The `margin_*` family is normalised over the padded crop, so evidence from elsewhere in the word dilutes or dominates it. This is consistent with the आइसके diagnostic (I).
+
+**Pre-registered checks that would refute it**, each reported with confidence intervals over base pairs:
+
+| Audit / ablation | Refuted if |
+|---|---|
+| Remove the duration family | Detection drops more than ~15 points, or the off-target duration-matched removal control (S1, §4) flags at more than half the positive rate |
+| Remove the margin family (keep local emission, gap mass, anchors) | Local-only is much worse and whole-path features carry the model (detection depends on non-local evidence) |
+| Coefficient audit | The `native_site_log_emission` coefficient is ≥ 0 or negligible compared with margins |
+| Remove lexical/position columns | Test performance improves (they were overfitting word shape) |
+| Remove the availability flag; score third-unavailable rows separately | The flag is significant, or availability is unbalanced between labels |
+| `dual46` vs `third33` vs `combined79`, compared against single-feature thresholds (focal emission alone, gap vowel mass alone) | `combined79` doesn't beat the best single local feature on the fresh test |
+| Shuffle labels within pairs | Anything above chance (indicates a pipeline leak) |
+| Grouped CV by lexeme and voice, 5+ seeds | Large variance between seeds; one seed and 19 pairs can't rank 6 candidates |
+| Per-voice and per-mode results; whether the live context mode matches the mode that set the threshold | Threshold set by a mode the live path doesn't use |
+
+---
+
+## 3. Enforcing focal-vowel ownership without filtering away real deletions
+
+**Principle: eligibility may depend on text and pre-edit audio only.** The criteria are:
+- the canonical G2P structure: non-vowel neighbours on both sides, a site the representation supports, no set overlap after the P0-7 fix;
+- source/reference qualification on the unedited audio.
+
+**Nothing that reads the query audio may exclude a positive.** Every query-side gate (ASR content, measurement failure, third-encoder availability) becomes an abstain outcome counted in the denominator. Report coverage as positions eligible out of positions requested, by context class.
+
+**Make the evidence local:**
+1. **Anchored-window comparison.** Compute the native Viterbi alignment once, freeze both anchor consonants, and score both hypotheses only on the frames from the left-anchor start to the right-anchor end. Differences elsewhere in the word then cancel. Use this local margin instead of whole-crop margins.
+2. **Ownership statistic.** From forward-backward over the native path, measure how much of the focal state's posterior occupancy falls on frames whose best path belongs to a neighbouring unit. High borrowing means low ownership. Strong focal emission sitting on a neighbour's frames is not evidence that the focal vowel is present, which is the आइसके trap in either direction.
+3. **Adjacent vowels.** Abstain by text-level rule and report it as a coverage gap. Do not exclude by measured outcome.
+4. **Break the boundary circularity.** `full_gap` defines the removed region from the same primary encoder that later scores the features. Add a positive family whose boundaries are jittered by ±1–2 frames inside the owned interval, and ideally one whose boundaries come from the third encoder. Detection should be stable across them.
+
+---
+
+## 4. Smallest useful run
+
+**Stage A: pilot (cheap, after P0 fixes).** Use about 48 new deletion lexemes × 2 train voices, rendering both canonical and G2P-verified edited text. Measure:
+- the qualification yield, with exclusions by reason;
+- the ownership-eligibility rate;
+- the post-edit abstain rate by label.
+
+Then size the main run with words = target pairs ÷ (voices × yield).
+
+I only infer the current yield (~30%, from 50 train pairs against plan size). If that holds, "several hundred" pairs needs roughly 300+ train lexemes, which is impossible under the 256 cap.
+
+**Stage B: main run, frozen before generation.**
+- **Targets:**
+  - about 200 train base pairs (≥120 lexemes), 50 dev, and ≥80 test pairs;
+  - ≥60 test lexemes, test voices and carrier never used in any fit, and no Swar or prior-plan lexemes or stems;
+  - with 0 flags out of 80 shams, the 95% upper bound on the false-flag rate is about 3.7%. 19 shams can't bound it below about 15%.
+- **Voices:** the plan offers only 2 voices per split. With 2 test voices, "voice generalisation" has n = 2, so report per voice and say so.
+- **Freeze:** write the plan, code and model hashes somewhere outside the work directory (a commit, or a message to you) before the test audio exists. The workspace is not a git repository, so `frozen_selection.json` is only self-attested.
+
+**Controls, built per base pair from the same source:**
+
+| Family | Label | Purpose | Train? |
+|---|---|---|---|
+| P1 full focal removal (pre-registered boundaries) | 1 | Physical deletion | yes |
+| P1j jittered or third-encoder boundaries | 1 | Boundary circularity | test only |
+| S0 matched 2 ms reinsertion sham | 0 | Splice-fade artifact | yes |
+| S1 duration-matched removal off the focal vowel (inside a consonant closure, or in another word) | 0 | Detects "something was removed" | yes |
+| S2 focal vowel time-compressed to 50% (WSOLA), still present | 0 | Duration vs presence; Nepali reduction | yes |
+| S3 global tempo 0.9/1.1 of the unchanged clip | 0 | Speaking rate | test only |
+| S4 gain −12/+6 dB, plus the live codec/resampler | 0 | Channel | test only |
+| S5 the other voice's unchanged reading | 0 | Voice | test only |
+| R natural render of the edited text (no splice) | requested | Splice-free transfer | eval only; report as a "requested-deletion detection rate", never accuracy |
+
+Keeping S3–S5 and R out of training is what makes the test a generalisation test.
+
+**Fit:**
+- Freeze the candidate list in advance: `local-only`, `dual46`, `third33`, `combined79`, linear models only.
+- Choose by grouped CV (lexeme and voice).
+- Set the threshold at the CV sham-score 99th percentile plus a fixed margin, not at the observed maximum.
+- Open the test once. If it fails, record that and run a new test; don't tune and re-score.
+- v62 stays diagnostic only.
+
+**Promotion gate (proposed defaults, adjust before the freeze):**
+- S0 at most 1/80;
+- each of S1–S5 at or below 5% (Wilson upper bound reported);
+- P1 detection ≥ 80%, with the lower confidence bound above the current baseline on the same test;
+- P1j within 10 points of P1;
+- no regression on हैन, किनकि or नेकपा (these are regression checks, not accuracy);
+- every change to the Swar review flag set listed for listening.
+
+**What can improve automatically vs what needs human labels:**
+- **Automatic is valid** for artifact robustness, the controlled false-flag rate, locality, invariance, synthetic detection rate and latency.
+- **Independent real labels are needed** for any precision or recall on real Swar output, for any claim that a flag means "Hindi-like" rather than normal Nepali reduction, and for any calibrated probability.
+- The smallest useful labelling step is a blind, randomised, stratified listening set: about 40 flagged and 40 unflagged testable positions, judged by 2 native Nepali listeners. That is needed only before precision claims, not before engineering steps.
+
+---
+
+## 5. Realtime and score scope; tomorrow's release
+
+**Latency:**
+- Report separately: Swar synthesis; each encoder pass (XLSR, LV60, Allosaurus); feature extraction and the head; cached-reference lookup; cold Native reference generation.
+- For each, give p50/p95 and real-time factor, warm and cold, on the deployment hardware, using the length distribution of the 90 review clips.
+- The encoders are bidirectional, so the honest claim is a post-utterance result in X s at p95 for Y s of audio. Do not call it streaming or "realtime".
+- The reference-free path's latency only counts if that model is promoted.
+
+**Score:**
+- Call the 0–100 value an "uncalibrated vowel-deletion evidence score".
+- Show categories such as "candidate" and "strong candidate" at the frozen operating points.
+- Never call it a Hindi probability or accent accuracy.
+- The 0.2 low operating point is unvalidated, so drop it or label it exploratory.
+- State coverage: 260 of 1433 word positions are testable.
+
+**Tomorrow (research preview):**
+- **Go:** current baseline live, labelled with its scope; playable cases with only the 3 human-labelled ones marked confirmed (provenance shown); the four Allosaurus-supported words shown as unconfirmed; latency table.
+- **No-go:** v66 in live decisions (shadow logging only); any accuracy or "Hindi %" wording; prosody.
+- **Allosaurus licensing:** the checkpoint has no stated terms, so confirm them before any external preview depends on it.
+
+## Go/no-go by stage
+
+| Stage | Decision |
+|---|---|
+| 0. P0-1…P0-8 fixes plus tests (P0-9 verified) | **Required first** |
+| A. Pilot generation | **Go** once stage 0 is done |
+| B. Full generation | **Go** after the pilot yield and control builders are verified and the plan hash is frozen externally |
+| Fit | **Go** after the test plan is frozen and the P1 reference-invariance test passes |
+| Test open | **Once** |
+| Promotion of v66 | **No-go** until the §4 gates pass on the fresh test |
+| Tomorrow's preview | **Go** with the baseline, honest scope and v66 in shadow mode only |
+--- ACTUAL FILE hindi_detector/exact_phone_ctc.py ---
+"""Exact CTC marginal over explicit sets of allowed labels at each phone.
+
+Unlike the legacy category-state relaxation, the chosen token stays fixed
+inside one phone state. Adjacent phones may skip a blank only when their
+actual emitted token IDs differ, including when the allowed sets overlap.
+This is versioned separately so existing checkpoints retain their features.
+"""
+from __future__ import annotations
+
+import math
+
+import numpy as np
+
+from hindi_detector.ctc import validate_log_probs
+
+
+def _without_each(values):
+    left = np.r_[-np.inf, np.logaddexp.accumulate(values)[:-1]]
+    right = np.r_[np.logaddexp.accumulate(values[::-1])[::-1][1:], -np.inf]
+    return np.logaddexp(left, right)
+
+
+def path_score(log_probs, units, *, trace=False):
+    values = validate_log_probs(log_probs, 0)
+    labels, positions, blanks = [], [], [0]
+    state_labels = [0]
+    for unit in units:
+        if not unit or 0 in unit or min(unit) < 0 or max(unit) >= values.shape[1]:
+            raise ValueError('Phone alternatives must be nonempty in-vocabulary nonblank IDs')
+        ids = np.array(sorted(unit), np.int64)
+        at = np.arange(len(state_labels), len(state_labels) + len(ids))
+        labels.append(ids)
+        positions.append(at)
+        state_labels.extend(ids.tolist())
+        blanks.append(len(state_labels))
+        state_labels.append(0)
+    if not units:
+        value = float(values[:, 0].sum())
+        return {'log_score': value, 'viterbi_score': value, 'spans': []} if trace else value
+    matches = []
+    for i, ids in enumerate(labels):
+        lookup = {} if i == 0 else {token: j for j, token in enumerate(labels[i - 1])}
+        matches.append(np.array([lookup.get(token, -1) for token in ids], np.int64))
+    alpha = np.full(len(state_labels), -np.inf)
+    alpha[0] = values[0, 0]
+    alpha[positions[0]] = values[0, labels[0]]
+    best = alpha.copy()
+    pointers = np.zeros((len(values), len(state_labels)), np.int32) if trace else None
+    for frame in range(1, len(values)):
+        nxt = np.full_like(alpha, -np.inf)
+        next_best = np.full_like(alpha, -np.inf) if trace else None
+        nxt[0] = alpha[0] + values[frame, 0]
+        if trace:
+            next_best[0] = best[0] + values[frame, 0]
+        for i, (ids, states) in enumerate(zip(labels, positions, strict=True)):
+            previous_blank, following_blank = blanks[i], blanks[i + 1]
+            skip = np.full(len(ids), -np.inf)
+            if i:
+                preceding = alpha[positions[i - 1]]
+                skip[:] = np.logaddexp.reduce(preceding)
+                same = matches[i] >= 0
+                skip[same] = _without_each(preceding)[matches[i][same]]
+            nxt[states] = np.logaddexp(np.logaddexp(alpha[states], alpha[previous_blank]), skip) + values[frame, ids]
+            nxt[following_blank] = np.logaddexp(alpha[following_blank], np.logaddexp.reduce(alpha[states])) + values[frame, 0]
+            if trace:
+                skip_best = np.full(len(ids), -np.inf)
+                skip_parent = np.zeros(len(ids), np.int32)
+                if i:
+                    prev_states = positions[i - 1]
+                    prev_scores = best[prev_states]
+                    top = int(np.argmax(prev_scores))
+                    second_scores = prev_scores.copy()
+                    second_scores[top] = -np.inf
+                    second = int(np.argmax(second_scores))
+                    index = np.where(matches[i] == top, second, top)
+                    skip_best = prev_scores[index].copy()
+                    if len(prev_states) == 1:
+                        skip_best[matches[i] == top] = -np.inf
+                    skip_parent = prev_states[index]
+                choices = np.stack([best[states], np.full(len(ids), best[previous_blank]), skip_best])
+                choice = choices.argmax(0)
+                next_best[states] = choices.max(0) + values[frame, ids]
+                parents = np.stack([states, np.full(len(ids), previous_blank), skip_parent])
+                pointers[frame, states] = parents[choice, np.arange(len(ids))]
+                top_state = states[int(np.argmax(best[states]))]
+                parent = following_blank if best[following_blank] >= best[top_state] else top_state
+                next_best[following_blank] = best[parent] + values[frame, 0]
+                pointers[frame, following_blank] = parent
+        alpha = nxt
+        if trace:
+            best = next_best
+    endings = np.r_[positions[-1], blanks[-1]]
+    likelihood = float(np.logaddexp.reduce(alpha[endings]))
+    if not trace:
+        return likelihood
+    if not math.isfinite(likelihood):
+        raise ValueError('No feasible exact CTC path for the declared phone alternatives')
+    state = int(endings[np.argmax(best[endings])])
+    maximum = float(best[state])
+    route = np.zeros(len(values), np.int32)
+    for frame in range(len(values) - 1, -1, -1):
+        route[frame] = state
+        if frame:
+            state = int(pointers[frame, state])
+    spans = []
+    for i, states in enumerate(positions):
+        frames = np.flatnonzero(np.isin(route, states))
+        if not len(frames):
+            raise ValueError('Exact maximum path omitted a required phone')
+        emitted = {state_labels[int(route[frame])] for frame in frames}
+        if len(emitted) != 1:
+            raise AssertionError('One exact CTC phone changed token identity without a phone transition')
+        token = emitted.pop()
+        spans.append({'unit_index': i, 'start_frame': int(frames[0]), 'end_frame': int(frames[-1] + 1),
+                      'frames': len(frames), 'token_id': token,
+                      'mean_log_emission': float(values[frames, token].mean())})
+    return {'log_score': likelihood, 'viterbi_score': maximum, 'spans': spans}
+
+--- ACTUAL FILE tests/test_exact_phone_ctc.py ---
+from __future__ import annotations
+
+from itertools import product
+import unittest
+
+import numpy as np
+
+from hindi_detector.ctc import log_likelihood
+from hindi_detector.exact_phone_ctc import path_score
+
+
+class ExactAllowedPhoneCTC(unittest.TestCase):
+    def test_marginal_equals_enumeration_of_concrete_ctc_sequences(self):
+        rng = np.random.default_rng(69)
+        for units in [[{1, 2}, {2, 3}], [{1, 2}, {1, 2}], [{1}, {2, 3}, {3}], []]:
+            for frames in (2, 3, 5):
+                probabilities = rng.dirichlet(np.ones(4), size=frames)
+                values = np.log(probabilities)
+                terms = [log_likelihood(values, list(sequence)) for sequence in product(*units)]
+                expected = float(np.logaddexp.reduce(terms))
+                self.assertAlmostEqual(path_score(values, units), expected, places=11)
+
+    def test_shared_token_requires_blank_but_different_tokens_can_skip(self):
+        same = np.log(np.array([[.001, .001, .997, .001], [.001, .001, .997, .001]]))
+        self.assertLess(path_score(same, [{1, 2}, {2, 3}]), -5)
+        distinct = np.log(np.array([[.001, .997, .001, .001], [.001, .001, .001, .997]]))
+        self.assertGreater(path_score(distinct, [{1, 2}, {2, 3}]), -.02)
+
+    def test_one_phone_cannot_change_token_mid_state(self):
+        values = np.log(np.array([[.001, .998, .001], [.001, .001, .998]]))
+        self.assertLess(path_score(values, [{1, 2}]), -5)
+
+    def test_trace_matches_exhaustive_viterbi(self):
+        rng = np.random.default_rng(70)
+        values = np.log(rng.dirichlet(np.ones(4), size=5))
+        units = [{1, 2}, {2, 3}]
+        candidates = []
+        for route in product(range(4), repeat=5):
+            decoded = [x for i, x in enumerate(route) if x and (i == 0 or x != route[i - 1])]
+            if len(decoded) == len(units) and all(x in u for x, u in zip(decoded, units, strict=True)):
+                candidates.append(sum(values[i, token] for i, token in enumerate(route)))
+        trace = path_score(values, units, trace=True)
+        self.assertAlmostEqual(trace['viterbi_score'], max(candidates), places=11)
+        self.assertEqual(len(trace['spans']), 2)
+        self.assertLessEqual(trace['spans'][0]['end_frame'], trace['spans'][1]['start_frame'])
+
+    def test_impossible_trace_explicit_and_blank_only_supported(self):
+        values = np.log(np.array([[.1, .9]]))
+        self.assertTrue(np.isneginf(path_score(values, [{1}, {1}])))
+        with self.assertRaises(ValueError):
+            path_score(values, [{1}, {1}], trace=True)
+        self.assertAlmostEqual(path_score(values, []), np.log(.1))
+
+--- ACTUAL FILE hindi_detector/anchored_vowels.py ---
+"""Reference-free internal-vowel evidence inside fixed consonant anchors.
+
+The deletion path locates both anchors once per boundary recipe. Vowel and
+blank-only hypotheses then use the IDENTICAL intervening frames; unrelated
+vowels cannot improve that local likelihood. No word length, lexical identity,
+speaker identity, source identity or reference-derived feature is emitted.
+"""
+from __future__ import annotations
+
+import math
+
+import numpy as np
+
+from hindi_detector.exact_phone_ctc import path_score
+
+FEATURE_NAMES = ['gap_deletion_margin_mean', 'gap_deletion_margin_min', 'gap_deletion_margin_max',
+    'gap_vowel_mass_mean', 'gap_vowel_peak_mean', 'focal_vowel_log_emission_mean',
+    'focal_ownership_mean', 'left_anchor_log_emission_mean', 'right_anchor_log_emission_mean',
+    'gap_native_fit_mean', 'gap_blank_fit_mean', 'gap_available_fraction']
+FLOOR = -30.
+
+
+def _paths(compiled, variant, contrast, retained):
+    at = retained.index(contrast['index'])
+    native = [variant['units'][i] for i in retained]
+    native[at] = compiled['any_vowel']
+    return native, native[:at] + native[at + 1:], at
+
+
+def measure(compiled, variant, contrast, crops):
+    if contrast['kind'] != 'vowel_deletion' or len(crops) != 3:
+        raise ValueError('Anchored evidence is only for deletion at three fixed word bounds')
+    index, units, vowels = contrast['index'], variant['units'], compiled['any_vowel']
+    if not 0 < index < len(units) - 1 or units[index - 1] & vowels or units[index + 1] & vowels:
+        raise ValueError('Internal focal vowel requires two nonsyllabic text-level neighbors')
+    retained = list(range(len(units)))
+    removable = {i for i, phone in enumerate(variant['phones']) if i != index and phone in {'ax', 'h'}}
+    def fit(indices):
+        a, b, _ = _paths(compiled, variant, contrast, indices)
+        return max(path_score(crops[1][2], a), path_score(crops[1][2], b))
+    current = fit(retained)
+    while removable:
+        trials = []
+        for at in sorted(removable):
+            proposal = [i for i in retained if i != at]
+            # Never remove either immediate consonant anchor around the focal
+            # site, even when it happens to be optional /h/ in other positions.
+            focal = proposal.index(index)
+            if not 0 < focal < len(proposal) - 1 or proposal[focal - 1] != index - 1 or proposal[focal + 1] != index + 1:
+                continue
+            trials.append((fit(proposal), at, proposal))
+        if not trials:
+            break
+        value, at, proposal = max(trials, key=lambda row: row[0])
+        if value <= current + .01:
+            break
+        retained, current = proposal, value
+        removable.remove(at)
+    native, alternate, focal = _paths(compiled, variant, contrast, retained)
+    measurements = []
+    for padding, start_frame, values in crops:
+        deletion = path_score(values, alternate, trace=True)
+        left, right = deletion['spans'][focal - 1], deletion['spans'][focal]
+        start, end = left['end_frame'], right['start_frame']
+        if not 0 <= start <= end <= len(values):
+            raise ValueError('Consonant anchors do not define an ordered local gap')
+        gap = values[start:end]
+        mass = peak = 0.
+        if len(gap):
+            native_score = path_score(gap, [vowels])
+            blank_score = path_score(gap, [])
+            if not math.isfinite(blank_score):
+                raise ValueError('Nonfinite blank-only local hypothesis')
+            if not math.isfinite(native_score):
+                native_score = FLOOR * len(gap)
+            p = np.exp(gap)
+            vowel = p[:, sorted(vowels)].sum(1)
+            nonblank = p[:, 4:].sum()
+            mass = float(vowel.sum() / max(1e-12, nonblank))
+            peak = float(vowel.max())
+            native_fit, blank_fit = native_score / len(gap), blank_score / len(gap)
+        else:
+            # A zero-frame observed gap is evidence, not a measurement failure:
+            # the two consonant peaks are adjacent. Represent the impossible
+            # intervening-vowel hypothesis explicitly with the fixed censor.
+            native_fit, blank_fit = FLOOR, 0.
+        focal_log, ownership, span = FLOOR, 0., None
+        try:
+            intact = path_score(values, native, trace=True)
+            span = intact['spans'][focal]
+            focal_log = span['mean_log_emission']
+            overlap = max(0, min(end, span['end_frame']) - max(start, span['start_frame']))
+            ownership = overlap / max(1, span['end_frame'] - span['start_frame'])
+        except ValueError as error:
+            # No intact path is an explicit observed hypothesis outcome, not an
+            # omitted positive. The deletion path above must still be feasible.
+            if 'No feasible exact CTC path' not in str(error):
+                raise
+        measurements.append({'padding_seconds': padding, 'start_frame': start_frame,
+            'gap_start_frame': start_frame + start, 'gap_end_frame': start_frame + end,
+            'gap_deletion_margin': blank_fit - native_fit, 'gap_vowel_mass': mass, 'gap_vowel_peak': peak,
+            'native_focal_log_emission': focal_log, 'focal_ownership': ownership,
+            'left_anchor': left, 'right_anchor': right, 'native_focal_span': span,
+            'gap_native_fit': native_fit, 'gap_blank_fit': blank_fit, 'gap_available': bool(len(gap))})
+    def mean(name):
+        return float(np.mean([row[name] for row in measurements]))
+    margins = [row['gap_deletion_margin'] for row in measurements]
+    features = np.array([np.mean(margins), min(margins), max(margins), mean('gap_vowel_mass'), mean('gap_vowel_peak'),
+        mean('native_focal_log_emission'), mean('focal_ownership'),
+        np.mean([row['left_anchor']['mean_log_emission'] for row in measurements]),
+        np.mean([row['right_anchor']['mean_log_emission'] for row in measurements]),
+        mean('gap_native_fit'), mean('gap_blank_fit'), mean('gap_available')], np.float32)
+    if features.shape != (len(FEATURE_NAMES),) or not np.isfinite(features).all():
+        raise ValueError('Invalid anchored-vowel evidence features')
+    return features, {'windows': measurements, 'retained_native_indices': retained,
+                      'native_target_phones': variant['phones'], 'no_reference_audio_used': True,
+                      'likelihood': 'Exact allowed-token CTC inside identical fixed deletion-anchor gaps'}
+
+--- ACTUAL FILE tests/test_anchored_vowels.py ---
+from __future__ import annotations
+
+import unittest
+
+import numpy as np
+
+from hindi_detector.anchored_vowels import FEATURE_NAMES, measure
+
+
+class AnchoredVowelEvidence(unittest.TestCase):
+    def evidence(self, tokens):
+        p = np.full((len(tokens), 9), .0001)
+        for i, token in enumerate(tokens):
+            p[i, token] = 1 - .0001 * 8
+        values = np.log(p)
+        compiled = {'any_vowel': frozenset({7, 8})}
+        variant = {'phones': ['k', 'ax', 'p', 'i', 't'],
+                   'units': [{4}, {7}, {5}, {8}, {6}]}
+        contrast = {'kind': 'vowel_deletion', 'index': 1}
+        return measure(compiled, variant, contrast, [(pad, 0, values) for pad in (0., .03, .06)])
+
+    def test_missing_vowel_at_equal_duration_changes_local_evidence(self):
+        intact, detail = self.evidence([0, 4, 0, 7, 7, 0, 5, 0, 8, 0, 6, 0])
+        missing, _ = self.evidence([0, 4, 0, 0, 0, 0, 5, 0, 8, 0, 6, 0])
+        self.assertLess(intact[0], 0)
+        self.assertGreater(missing[0], 0)
+        self.assertGreater(intact[3], missing[3])
+        self.assertGreater(intact[6], .9)
+        self.assertTrue(detail['no_reference_audio_used'])
+
+    def test_neighbor_vowel_does_not_fill_the_focal_gap(self):
+        a, _ = self.evidence([0, 4, 0, 0, 0, 0, 5, 0, 8, 0, 6, 0])
+        b, _ = self.evidence([0, 4, 0, 0, 0, 0, 5, 8, 8, 8, 6, 0])
+        np.testing.assert_allclose(a[:5], b[:5], atol=1e-6)
+
+    def test_schema_has_no_word_duration_or_lexical_identity(self):
+        self.assertEqual(len(FEATURE_NAMES), 12)
+        self.assertFalse(any(any(part in name for part in ('word_frames', 'unit_count', 'site_position', 'speaker', 'reference')) for name in FEATURE_NAMES))
+
+    def test_quality_is_rejected_explicitly(self):
+        with self.assertRaises(ValueError):
+            measure({}, {}, {'kind': 'vowel_quality'}, [])
+
+--- ACTUAL FILE hindi_detector/control_measurements.py ---
+"""Retain every attempted post-edit outcome, including explicit abstentions."""
+from __future__ import annotations
+
+import logging
+
+
+def attempt(record, measurement):
+    try:
+        result = measurement()
+    except ValueError as error:
+        logging.warning('Retained post-edit abstention %s/%s: %s', record['pair_id'], record['family'], error)
+        return {**record, 'status': 'abstain', 'features': None, 'reason': str(error)}
+    return {**record, 'status': 'measured', **result}
+
+--- ACTUAL FILE tests/test_control_measurements.py ---
+from __future__ import annotations
+
+import unittest
+
+from hindi_detector.control_measurements import attempt
+
+
+class PostEditDenominator(unittest.TestCase):
+    def test_positive_failure_stays_in_denominator_with_label(self):
+        def failure():
+            raise ValueError('Neither pronunciation fits edited frames')
+        records = [attempt({'pair_id': 'a', 'family': 'P1', 'label': 1}, failure),
+                   attempt({'pair_id': 'a', 'family': 'S0', 'label': 0}, lambda: {'features': [1.]})]
+        self.assertEqual(len(records), 2)
+        self.assertEqual(records[0]['label'], 1)
+        self.assertEqual(records[0]['status'], 'abstain')
+        self.assertIsNone(records[0]['features'])
+        self.assertEqual(records[1]['status'], 'measured')
+
+    def test_unexpected_system_failure_propagates(self):
+        def failure():
+            raise RuntimeError('Encoder allocation failure')
+        with self.assertRaises(RuntimeError):
+            attempt({'pair_id': 'a', 'family': 'P1', 'label': 1}, failure)
+
+--- ACTUAL FILE scripts/build_local_controls.py ---
+"""Reviewed local-vowel controls with live alignment and retained abstentions."""
+from __future__ import annotations
+
+import argparse
+from collections import Counter
+from datetime import datetime, timezone
+import hashlib
+import json
+import logging
+from pathlib import Path
+import os
+import traceback
+
+import numpy as np
+import pyworld
+from scipy.interpolate import interp1d
+import soundfile as sf
+
+from hindi_detector.anchored_vowels import FEATURE_NAMES, measure
+from hindi_detector.artifacts import write_group
+from hindi_detector.aspirate_context import AspirateContextTable
+from hindi_detector.context_templates import template
+from hindi_detector.control_measurements import attempt
+from hindi_detector.corrected_synthesis import sha
+from hindi_detector.dual_runtime import PhonePair
+from hindi_detector.edit_geometry import map_word
+from hindi_detector.pronunciation_sites import windows
+from hindi_detector.task_vowel_detector import load
+from hindi_detector.teacher_reference_cache import verified_paths
+from hindi_detector.word_evidence import WordEvidenceEngine
+from scripts.build_vowel_controls import splice
+from scripts.calibrate_asr_gate import audio
+from scripts.extract_corrected_training import read_rows
+from scripts.score_swar_sites import load_item
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def world_versions(samples, start, end):
+    """Matched WORLD reconstruction and half-duration focal vowel, pitch held."""
+    signal = np.asarray(samples, np.float64)
+    f0, times = pyworld.dio(signal, 16000, f0_floor=50., f0_ceil=650., frame_period=5.)
+    f0 = pyworld.stonemask(signal, f0, times, 16000)
+    spectrum = pyworld.cheaptrick(signal, f0, times, 16000)
+    noise = pyworld.d4c(signal, f0, times, 16000)
+    original = pyworld.synthesize(f0, spectrum, noise, 16000, frame_period=5.)
+    if len(original) < len(samples):
+        raise ValueError('WORLD reconstruction shorter than declared input')
+    replacement = (end - start) // 2
+    target_samples = len(samples) - (end - start) + replacement
+    source_knots = np.array([0., start / 16000, end / 16000, len(samples) / 16000])
+    target_knots = np.array([0., start / 16000, (start + replacement) / 16000, target_samples / 16000])
+    target_times = np.minimum(np.arange(int(np.ceil(target_samples / 80)) + 1) * .005, target_samples / 16000)
+    query = np.interp(target_times, target_knots, source_knots)
+    query = np.clip(query, times[0], times[-1])
+    nearest = np.clip(np.searchsorted(times, query), 1, len(times) - 1)
+    nearest -= np.abs(times[nearest - 1] - query) < np.abs(times[nearest] - query)
+    sp = np.ascontiguousarray(interp1d(times, spectrum, axis=0)(query))
+    ap = np.ascontiguousarray(interp1d(times, noise, axis=0)(query))
+    compressed = pyworld.synthesize(np.ascontiguousarray(f0[nearest]), sp, ap, 16000, frame_period=5.)
+    if len(compressed) < target_samples:
+        raise ValueError('WORLD compression shorter than declared time map')
+    return original[:len(samples)].astype(np.float32), compressed[:target_samples].astype(np.float32), replacement
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--plan', type=Path, required=True)
+    parser.add_argument('--frames', type=Path, required=True)
+    parser.add_argument('--out', type=Path, required=True)
+    parser.add_argument('--partition', action='append', choices=['train', 'development', 'test'])
+    args = parser.parse_args()
+    if args.out.exists():
+        raise FileExistsError(args.out)
+    selection = json.loads((args.plan / 'selection.json').read_text())
+    jobs = {job['id']: job for job in selection['jobs']}
+    words = {word['word_id']: word for word in selection['words']}
+    receipts = {row['id']: row for row in read_rows(args.frames / 'items.jsonl')}
+    verified_paths(args.plan, list(jobs.values()))
+    parts = set(args.partition or ['train', 'development', 'test'])
+    canonical = [job for job in jobs.values() if job['requested_vowel_change_class'] == 0 and job['split'] in parts]
+    write_group(args.out, {'protocol.json': {
+        'plan_sha256': sha(args.plan / 'selection.json'), 'frame_items_sha256': sha(args.frames / 'items.jsonl'),
+        'feature_names': ['primary_' + n for n in FEATURE_NAMES] + ['secondary_' + n for n in FEATURE_NAMES],
+        'partitions': sorted(parts), 'source_eligibility': 'Deletion only; internal consonant neighbors; both exact local phone probes favor a present vowel, focal emission>-1.5, ownership>=0.5; two boundary estimates agree within40ms; observed full region40..300ms inside source word.',
+        'boundary': 'Union of both unedited-source anchor gaps and focal spans; never choose boundaries or exclude by edited outcome.',
+        'families': {'S_original': 'Untouched source', 'S0': 'Matched2ms focal reinsertion sham', 'P1': 'Full observed focal vowel removal',
+            'S1': 'Identical-duration removal outside target word, with50ms separation', 'S_world': 'WORLD reconstruction with original duration/pitch',
+            'S2': 'WORLD half-duration vowel with source pitch and spectral envelope; source region>=80ms so at least40ms retained'},
+        'production_alignment': 'Every emitted waveform is re-aligned with the actual MMS path; exact mapped boundaries retained only for diagnosis.',
+        'post_edit_policy': 'Every attempted family retained. Measurement failure is an abstain, counted as a positive miss at evaluation; no edited outcome filtering.',
+        'source_content_gate': 'Source content receipts must pass separately before fitting; no edited-waveform ASR filtering.',
+        'labels': 'Known physical presence/removal interventions only; not real Hindi-error gold.', 'classifier_scores_used': False},
+        'source_snapshot.json': [{'path': str(p.relative_to(ROOT)), 'sha256': sha(p), 'source_utf8': p.read_text()} for p in
+            (Path(__file__), ROOT / 'hindi_detector/exact_phone_ctc.py', ROOT / 'hindi_detector/anchored_vowels.py', ROOT / 'hindi_detector/control_measurements.py')]},
+        'Reviewed local deletion controls. controls/*.wav actual same-source original/sham/deletion/off-target/World/compression audio; '
+        'items.jsonl every attempted row, label, audio SHA, source geometry, production alignment and24 local features or retained abstention. '
+        'exclusions.json pre-edit/source-only exclusions; report.json independent source/lexeme counts and family outcome denominators; '
+        'source_job_ids.json canonical source IDs requiring content screening; runtime.json exact encoders/aligner. No source/voice/reference IDs '
+        'are model features. Owner Ampixa/user, review2026-11-10; active consumer reviewed training/pilot-yield/fresh-test. Raw controls/frames '
+        'disposable24h after these consumers close; retain compact metrics/configs/pins. Known duplicate raw teacher renders on L40/k2, no new '
+        'checkpoint copy or HF upload. Inherited source/MMS/PanPhon rights apply; internal research. All after-edit failures remain visible.',
+        ['python -m scripts.build_local_controls --plan PLAN --frames FRAMES --out NEW [--partition train]'])
+    (args.out / 'controls').mkdir()
+    def status(phase, **extra):
+        p = args.out / 'status.json'
+        temporary = p.with_suffix('.partial')
+        temporary.write_text(json.dumps({'phase': phase, 'pid': os.getpid(), 'updated_utc': datetime.now(timezone.utc).isoformat(), **extra}, indent=2) + '\n')
+        temporary.replace(p)
+    try:
+        status('loading_verified_production_runtime')
+        _, state = load(ROOT / 'reports/task_vowel_release_v31/model.pt')
+        engine = WordEvidenceEngine(ROOT, device='mps', pitch_method='dio', retain_frame_evidence=True)
+        runtime = PhonePair(ROOT, state, primary_engine=engine)
+        table = AspirateContextTable(ROOT / 'data/panphon_context_v58')
+        ipa = json.loads((ROOT / 'data/swar_phone_plan_v18/ipa_map.json').read_text())
+        (args.out / 'runtime.json').write_text(json.dumps({'phone_inventories': [state['phone_inventory'], state['secondary_phone_inventory']],
+            'aligner_inventory': engine.aligner_inventory, 'world_version': pyworld.__version__, 'raw_teacher_runtime_sha256': sha(args.plan / 'teacher/runtime.json')}, indent=2) + '\n')
+        records, excluded, source_ids = [], [], []
+        for number, job in enumerate(canonical):
+            word = words[job['word_id']]
+            # All eligibility exceptions end before a changed waveform exists.
+            try:
+                if word['kind'] != 'vowel_deletion':
+                    raise ValueError('Separate quality head; not a deletion control')
+                receipt = receipts[job['id']]
+                item = load_item(args.frames, receipt)
+                ordinals = [i for i, value in enumerate(item['detail']['words']) if value['word'] == word['word']]
+                if len(ordinals) != 1:
+                    raise ValueError('Canonical target is not uniquely aligned')
+                ordinal = ordinals[0]
+                original_word = item['detail']['words'][ordinal]
+                with np.load(args.frames / receipt['features'], allow_pickle=False) as arrays:
+                    raw = [arrays['phone_log_probs'].astype(float), arrays['secondary_phone_log_probs'].astype(float)]
+                templates = [template(word, ipa, vocabulary, table) for vocabulary in runtime.vocabularies]
+                gaps, peaks = [], []
+                for probe in (0, 1):
+                    dt = item['detail']['phone_frame_seconds' if probe == 0 else 'secondary_phone_frame_seconds']
+                    measurement = {'detail': {'words': [original_word], 'phone_frame_seconds': dt}, 'phone_log_probs': raw[probe]}
+                    features, evidence = measure(*templates[probe], windows(measurement, 0))
+                    if features[2] >= 0 or features[5] <= -1.5 or features[6] < .5:
+                        raise ValueError('Source focal vowel not locally favored/owned by both exact phone probes')
+                    central = evidence['windows'][1]
+                    span = central['native_focal_span']
+                    gaps.append((int(central['gap_start_frame'] * dt * 16000), int(central['gap_end_frame'] * dt * 16000)))
+                    peaks.append((int((central['start_frame'] + span['start_frame']) * dt * 16000), int((central['start_frame'] + span['end_frame']) * dt * 16000)))
+                if max(abs(gaps[0][i] - gaps[1][i]) for i in (0, 1)) > 640:
+                    raise ValueError('Unedited-source anchor boundaries disagree by more than40ms')
+                start, end = min(g[0] for g in gaps + peaks), max(g[1] for g in gaps + peaks)
+                if not original_word['start'] * 16000 <= start < end <= original_word['end'] * 16000 or not .04 <= (end - start) / 16000 <= .3:
+                    raise ValueError('Full owned source vowel outside40..300ms or source word')
+                samples = audio(args.plan / 'teacher', receipt)
+            except ValueError as error:
+                excluded.append({'job_id': job['id'], 'word': word['word'], 'phase': 'pre_edit_source_eligibility', 'reason': str(error)})
+                status('building_local_controls', sources=number + 1, total=len(canonical), eligible=len(source_ids), rows=len(records))
+                continue
+            source_ids.append(job['id'])
+            length = end - start
+            off_end = int(original_word['start'] * 16000) - 800
+            off_start = off_end - length
+            families = ['S_original', 'S0', 'P1']
+            if 0 < off_start < off_end < len(samples):
+                families.append('S1')
+            families.append('S_world')
+            if length >= 1280:
+                families.append('S2')
+            world_cache = None
+            for family in families:
+                record = {'pair_id': job['id'], 'job_id': job['id'], 'word_id': word['word_id'], 'word': word['word'],
+                    'phone_collision_group': word.get('phone_collision_group', word['word_id']), 'voice': job['speaker_id'],
+                    'split': job['split'], 'family': family, 'label': int(family == 'P1'), 'source_audio_sha256': receipt['sha256'],
+                    'source_region': {'start_sample': start, 'end_sample': end}, 'actual_hindi_error_label': None}
+                def evaluate():
+                    nonlocal world_cache
+                    a, b, replacement = start, end, length
+                    if family == 'S_original':
+                        emitted = samples.copy()
+                    elif family == 'S0':
+                        emitted = splice(samples, a, b, samples[a:b])
+                    elif family == 'P1':
+                        emitted, replacement = splice(samples, a, b, np.empty(0, np.float32)), 0
+                    elif family == 'S1':
+                        a, b, replacement = off_start, off_end, 0
+                        emitted = splice(samples, a, b, np.empty(0, np.float32))
+                    else:
+                        if world_cache is None:
+                            world_cache = world_versions(samples, start, end)
+                        emitted = world_cache[0] if family == 'S_world' else world_cache[1]
+                        replacement = length if family == 'S_world' else world_cache[2]
+                    identity = hashlib.sha256((job['id'] + ':local69:' + family).encode()).hexdigest()[:24]
+                    path = args.out / 'controls' / (identity + '.wav')
+                    sf.write(path, emitted, 16000, subtype='PCM_16')
+                    wave, rate = sf.read(path, dtype='float32')
+                    if rate != 16000 or wave.ndim != 1:
+                        raise ValueError('Actual local-control waveform format differs')
+                    record.update(audio=str(path.relative_to(args.out)), audio_sha256=sha(path), audio_bytes=path.stat().st_size,
+                        mapped_word=map_word(original_word, a, b, replacement),
+                        edit={'start_sample': a, 'end_sample': b, 'replacement_samples': replacement})
+                    detail, arrays = engine.analyze(wave, job['text'])
+                    aligned = detail['words'][ordinal]
+                    if aligned['word'] != word['word']:
+                        raise ValueError('Production-aligned target identity differs')
+                    log_probs = [arrays['phone_log_probs'], runtime.encode_one(wave, 1)]
+                    features, evidence = [], []
+                    for probe in (0, 1):
+                        query = {'detail': {'words': [aligned], 'phone_frame_seconds': len(wave) / 16000 / len(log_probs[probe])}, 'phone_log_probs': log_probs[probe]}
+                        vector, local = measure(*templates[probe], windows(query, 0))
+                        features.extend(vector.tolist())
+                        evidence.append(local)
+                    return {'features': features, 'evidence': evidence,
+                            'production_word': {key: aligned[key] for key in ('start', 'end', 'alignment_score')}}
+                outcome = attempt(record, evaluate)
+                records.append(outcome)
+                with (args.out / 'items.jsonl').open('a') as stream:
+                    stream.write(json.dumps(outcome, ensure_ascii=False, allow_nan=False) + '\n')
+            status('building_local_controls', sources=number + 1, total=len(canonical), eligible=len(source_ids), rows=len(records))
+        (args.out / 'exclusions.json').write_text(json.dumps(excluded, ensure_ascii=False, indent=2) + '\n')
+        (args.out / 'source_job_ids.json').write_text(json.dumps(source_ids, indent=2) + '\n')
+        report = {'status': 'complete_reviewed_local_controls', 'canonical_requests': len(canonical), 'eligible_sources': len(source_ids),
+            'eligible_lexemes': len({row['word'] for row in records}), 'pre_edit_exclusions': len(excluded),
+            'family_outcomes': dict(Counter(row['family'] + '/' + row['status'] for row in records)),
+            'label_outcomes': dict(Counter(str(row['label']) + '/' + row['status'] for row in records)),
+            'items_sha256': sha(args.out / 'items.jsonl') if records else None,
+            'post_edit_abstentions_retained': True, 'fitted': False, 'actual_hindi_error_accuracy': None}
+        (args.out / 'report.json').write_text(json.dumps(report, indent=2) + '\n')
+        status(report['status'], eligible=report['eligible_sources'], rows=len(records))
+        print(json.dumps(report), flush=True)
+    except Exception:
+        status('failed_explicitly', error=traceback.format_exc())
+        raise
+
+
+if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO)
+    try:
+        main()
+    except Exception:
+        logging.exception('Reviewed local-control construction failed explicitly; retain attempted outcomes, do not fit')
+        raise
+
+--- ACTUAL FILE scripts/build_minimal_vowel_plan.py ---
+"""Verify orthographic minimal pairs, then freeze natural same-engine requests."""
+from __future__ import annotations
+
+import argparse
+from collections import Counter
+import hashlib
+import importlib
+import json
+import logging
+from pathlib import Path
+import shutil
+import subprocess
+import sys
+import unicodedata
+
+from hindi_detector.artifacts import write_group
+from hindi_detector.consonant_context import NonSyllabicTable, compile_context_word
+from hindi_detector.corrected_synthesis import require_pair, sha
+from hindi_detector.dual_g2p import DualG2P
+from hindi_detector.phone_lattice import represent, units_for_project
+from hindi_detector.pronunciation_sites import align_units
+
+ROOT=Path(__file__).resolve().parents[1]
+
+
+def rank(text):
+    return hashlib.sha256(('minimal-vowel-v23:'+text).encode()).hexdigest()
+
+
+def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--out',type=Path,default=ROOT/'data/minimal_vowels_v23')
+    parser.add_argument('--per-kind',type=int,default=128)
+    parser.add_argument('--internal-only',action='store_true')
+    parser.add_argument('--quality-ai-only',action='store_true')
+    parser.add_argument('--exclude-plan',type=Path,action='append',default=[])
+    parser.add_argument('--prefix',default='min23')
+    parser.add_argument('--evaluation-only',action='store_true')
+    parser.add_argument('--reference-offset',type=int,default=0)
+    parser.add_argument('--quality-only',action='store_true',help='Evaluation-only larger quality audit; no deletion quota')
+    parser.add_argument('--evaluation-carrier',help='Explicit fresh evaluation template containing exactly one {word}')
+    parser.add_argument('--unknown-consonant-context', action='store_true', help='Fresh evaluation only; explicitly unknown Native consonants rather than phoneme substitutions')
+    parser.add_argument('--allow-consonant-context', action='store_true', help='Explicit research corpus with supported and unknown nonsyllabic contexts; no consonant-identity claim')
+    parser.add_argument('--deletion-quota', type=int, help='Explicit per-cause lexeme quota;0 disables this cause')
+    parser.add_argument('--quality-quota', type=int, help='Explicit per-cause lexeme quota;0 disables this cause')
+    parser.add_argument('--voices-per-partition', type=int, default=2)
+    parser.add_argument('--group-phone-collisions', action='store_true', help='Keep overlapping canonical/edited project-phone strings in one split; not a morphological-family claim')
+    parser.add_argument('--training-pilot', action='store_true', help='Pre-fit yield pilot using training conditioning voices only; no reserved evaluation claim')
+    args=parser.parse_args();out=args.out;quota=args.per_kind
+    if not 8<=quota<=512 or not args.prefix.isascii() or not args.prefix.isalnum():raise ValueError('Unsafe size/prefix')
+    quotas={'vowel_deletion':args.deletion_quota if args.deletion_quota is not None else quota,
+            'vowel_quality':args.quality_quota if args.quality_quota is not None else quota}
+    if any(n!=0 and not 8<=n<=512 for n in quotas.values()) or not any(quotas.values()):raise ValueError('Explicit cause quotas require0 or8..512 lexemes and at least one enabled cause')
+    if not 2<=args.voices_per_partition<=4:raise ValueError('Verified source has2..4 independent conditioning voices per partition')
+    if args.training_pilot and args.evaluation_only:raise ValueError('Training pilot and reserved evaluation are mutually exclusive')
+    if args.reference_offset<0 or args.reference_offset and not args.evaluation_only:
+        raise ValueError('Different reference offset is restricted to the explicit fresh evaluation plan')
+    if (args.quality_only or args.evaluation_carrier) and not args.evaluation_only:
+        raise ValueError('Quality-only/custom-carrier plans are restricted to frozen-model evaluation')
+    if args.unknown_consonant_context and not args.evaluation_only:
+        raise ValueError('New unknown-consonant words are restricted to held-out evaluation, never implicit fitting')
+    if args.evaluation_carrier and (args.evaluation_carrier.count('{word}')!=1 or any(c in args.evaluation_carrier.replace('{word}','') for c in '{}')):
+        raise ValueError('Evaluation carrier needs exactly one word placeholder and no other format fields')
+    if out.exists():raise FileExistsError(out)
+    frontend=DualG2P(ROOT)
+    ak=importlib.import_module('nepali_frontend.g2p.akshara')
+    vocabulary=json.loads((ROOT/'models/phoneme_probe/vocab.json').read_text())
+    table=NonSyllabicTable(ROOT/'data/panphon_context_v58') if args.unknown_consonant_context or args.allow_consonant_context else None
+    def project_units(phones):
+        if table is None:return units_for_project(phones,frontend.ipa,vocabulary)
+        units=[];projections=[]
+        for phone in phones:
+            if phone=='.':continue
+            if phone not in frontend.ipa or not frontend.ipa[phone]:raise ValueError('Missing project-phone IPA for '+repr(phone))
+            unit,_,projection=table.representation(frontend.ipa[phone],vocabulary)
+            units.append(unit);projections.append(projection)
+        return units,projections
+    excluded={r['word'] for r in json.loads((ROOT/'data/swar_phone_plan_v18/words.json').read_text())}
+    if table is not None:
+        cases=json.loads((ROOT/'reports/task_vowel_release_v31/actual_swar/cases.json').read_text())
+        excluded.update(word['word'] for case in cases for word in case['analysis'].get('real',{}).get('words',[]))
+    for path in args.exclude_plan:
+        content=json.loads(path.read_text())
+        excluded.update(r['word'] for r in (content['words'] if isinstance(content,dict) else content))
+    lexicon=frontend.ph.data.lexicon_variants()
+    pool=sorted([w for w in lexicon if w not in excluded and 2<=len(w)<=16 and
+        all('\u0900'<=c<='\u097f' and unicodedata.category(c)[0] in {'L','M'} for c in w)],key=rank)
+    selected=[];counts=Counter();exclusions=Counter();seen=set()
+    if args.quality_only:quotas['vowel_deletion']=0
+    required=[kind for kind in ('vowel_deletion','vowel_quality') if quotas[kind]]
+    for word in pool:
+        if all(counts[k]>=quotas[k] for k in required):break
+        result=frontend.ph.phonemize_word(word);target=[p for p in result.phones if p!='.']
+        try:target_units,target_projection=project_units(target)
+        except ValueError:
+            exclusions['unsupported_native_acoustic_units']+=1;continue
+        if args.unknown_consonant_context and not any(p['representation_mode']=='unknown_non_syllabic_context' for p in target_projection):
+            exclusions['no_unknown_native_consonant_context']+=1;continue
+        edits=[]
+        if counts['vowel_quality']<quotas['vowel_quality']:
+            for i,char in enumerate(word):
+                if char not in {'ै','ौ'}:continue
+                if args.quality_ai_only and char!='ै':continue
+                edited=word[:i]+('े' if char=='ै' else 'ो')+word[i+1:]
+                alternative=[p for p in frontend.ph.phonemize_word(edited).phones if p!='.']
+                differences=[j for j,(a,b) in enumerate(zip(target,alternative)) if a!=b]
+                if len(target)==len(alternative) and len(differences)==1:
+                    j=differences[0]
+                    if (target[j],alternative[j]) in {('axj','e'),('axw','o'),('aaj','e'),('aaw','o')}:
+                        edits.append(('vowel_quality',edited,alternative,j))
+        if counts['vowel_deletion']<quotas['vowel_deletion']:
+            for syllable in ak.parse(word):
+                if syllable.type!='syllable' or not syllable.components.get('inherent_vowel') or syllable.components.get('modifiers'):
+                    continue
+                point=syllable.span[1]
+                edited=word[:point]+'्'+word[point:]
+                alternative=[p for p in frontend.ph.phonemize_word(edited).phones if p!='.']
+                indices=[i for i,p in enumerate(target) if p=='ax' and target[:i]+target[i+1:]==alternative]
+                if len(indices)==1 and (not args.internal_only or 0<indices[0]<len(target)-1):
+                    edits.append(('vowel_deletion',edited,alternative,indices[0]))
+        if not edits:exclusions['no_verified_single_site_edit']+=1;continue
+        row=frontend.word(word)
+        try:
+            if table is not None:
+                context=compile_context_word(row,frontend.ipa,vocabulary,table)
+                matching=[v for v in context['variants'] if v['phones']==target]
+                if not matching:raise ValueError('Actual default Native target not represented by lexical variants')
+                predicted=[s for variant in matching for s in variant['contrasts']]
+                hindi=None
+            else:hindi=[represent(t,vocabulary) for t in row['hindi_units']]
+        except ValueError:
+            exclusions['unsupported_hindi_acoustic_units']+=1;continue
+        alignment=align_units(target_units,hindi) if hindi is not None else None
+        accepted=[]
+        for kind,edited,alternative,index in edits:
+            try:alternative_units,_=project_units(alternative)
+            except ValueError:
+                exclusions['unsupported_edited_acoustic_units']+=1;continue
+            if table is not None:
+                compatible=any(s['kind']==kind and s['index']==index and
+                    (kind=='vowel_deletion' or s['alternative_unit']&alternative_units[index]) for s in predicted)
+            elif kind=='vowel_deletion':
+                compatible=(index,None) in alignment
+            else:
+                match=[j for i,j in alignment if i==index and j is not None]
+                compatible=bool(match and hindi[match[0]]&alternative_units[index] and not target_units[index]&hindi[match[0]])
+            if compatible:accepted.append((kind,edited,alternative,index))
+        if not accepted:exclusions['edit_not_predicted_by_hindi_prior']+=1;continue
+        # Balance causes before choosing any generated audio or outcome.
+        accepted.sort(key=lambda e:(counts[e[0]],rank(e[1])))
+        kind,edited,alternative,index=accepted[0]
+        if word in seen:raise ValueError('Duplicate minimal-pair lexeme')
+        ordinal=counts[kind];cause_quota=quotas[kind];part='train' if ordinal<int(cause_quota*.625) else 'development' if ordinal<int(cause_quota*.8125) else 'test'
+        if args.evaluation_only:part='test'
+        if args.training_pilot:part='train'
+        selected.append({'word_id':rank(word)[:20],'word':word,'edited_word':edited,'kind':kind,
+            'site_index':index,'native_project_phones':target,'edited_project_phones':alternative,
+            'hindi_units':row['hindi_units'],'partition':part,'requested_labels_not_realization_gold':True,
+            'nepali_g2p_source':result.source})
+        counts[kind]+=1;seen.add(word)
+    if {k:v for k,v in counts.items() if v}!={k:quotas[k] for k in required}:
+        raise ValueError('Could not verify balanced word plan: '+str(dict(counts)))
+    if args.group_phone_collisions:
+        # Link exact canonical/edited phonetic collisions before assigning a
+        # split. This prevents an edit target from reappearing as a canonical
+        # pronunciation in another fold. It does not infer morphological roots.
+        parents=list(range(len(selected)))
+        def find(i):
+            while parents[i]!=i:
+                parents[i]=parents[parents[i]];i=parents[i]
+            return i
+        phone_owner={}
+        for i,entry in enumerate(selected):
+            for phones in (entry['native_project_phones'],entry['edited_project_phones']):
+                key=tuple(phones)
+                if key in phone_owner:parents[find(i)]=find(phone_owner[key])
+                else:phone_owner[key]=i
+        clusters={}
+        for i,entry in enumerate(selected):clusters.setdefault(find(i),[]).append(entry)
+        for entries in clusters.values():
+            identity=hashlib.sha256(('phone-collision-v69:'+':'.join(sorted(e['word_id'] for e in entries))).encode()).hexdigest()
+            fraction=int(identity[:12],16)/16**12
+            part='train' if fraction<.625 else 'development' if fraction<.8125 else 'test'
+            for entry in entries:
+                entry['phone_collision_group']=identity
+                entry['partition']='test' if args.evaluation_only else 'train' if args.training_pilot else part
+        for kind in required:
+            if not args.evaluation_only and not args.training_pilot and any(sum(e['kind']==kind and e['partition']==part for e in selected)<8 for part in ('train','development','test')):
+                raise ValueError('Frozen phone-collision grouping leaves insufficient lexemes in one cause/fold')
+    base=ROOT/'data/teacher_indicf5_v14';pair=json.loads((base/'model_pair.json').read_text());require_pair(pair)
+    old=json.loads((base/'selection.json').read_text());by_part={}
+    for part,oldpart in [('train','train'),('development','development'),('test','reserved_evaluation')]:
+        refs={j['speaker_id']:j for j in old['jobs'] if j['split']==oldpart}
+        if len(refs)<args.voices_per_partition+args.reference_offset:raise ValueError('Missing independent conditioning groups')
+        by_part[part]=[refs[k] for k in sorted(refs)[args.reference_offset:args.reference_offset+args.voices_per_partition]]
+    groups=[{r['speaker_id'] for r in v} for v in by_part.values()]
+    if any(a&b for i,a in enumerate(groups) for b in groups[i+1:]):raise ValueError('Conditioning group split overlap')
+    carriers={'train':'यो शब्द {word} हो।','development':'मैले {word} भन्ने शब्द सुनेँ।','test':'उहाँले {word} भनेर भन्नुभयो।'}
+    if args.evaluation_only:carriers['test']='यस पटक {word} भन्नुहोस्।'
+    if args.evaluation_carrier:carriers['test']=args.evaluation_carrier
+    jobs=[];sources={}
+    for entry in selected:
+        part=entry['partition']
+        for voice,reference in enumerate(by_part[part]):
+            path=base/reference['reference_audio']
+            if sha(path)!=reference['reference_sha256']:raise ValueError('Frozen conditioning prompt changed')
+            sources[path.name]=path
+            for label in (0,1):
+                text=carriers[part].format(word=entry['edited_word'] if label else entry['word'])
+                jobs.append({'id':args.prefix+'_'+entry['word_id']+'_v'+str(voice)+'_c'+str(label),
+                    'text_id':args.prefix+'_'+entry['word_id'],'text':text,'canonical_text':carriers[part].format(word=entry['word']),
+                    'text_kind':'same_teacher_minimal_vowel_request','target_words':[entry['word']],
+                    'speaker_id':reference['speaker_id'],'voice_ordinal':voice,'split':part,
+                    'reference_audio':'references/'+path.name,'reference_sha256':reference['reference_sha256'],
+                    'source_reference_sha256':reference['source_reference_sha256'],'reference_text':reference['reference_text'],
+                    'seed':0,'automatic_leakage_label':None,'requested_vowel_change_class':label,'word_id':entry['word_id']})
+    jobs.sort(key=lambda j:(0 if j['split']=='train' else 1 if j['split']=='development' else 2,j['word_id'],j['voice_ordinal'],j['requested_vowel_change_class']))
+    write_group(out,{'model_pair.json':pair,'selection.json':{'experiment_id':'teacher_indicf5_v14','role':'same_engine_phonetic_requests',
+        'jobs':jobs,'words':selected,'carriers':carriers},'inputs.json':{'words':len(selected),'clips':len(jobs),
+        'kind_words':dict(counts),'partition_words':dict(Counter(e['partition'] for e in selected)),
+        'explicit_cause_quotas':quotas,'voices_per_partition':args.voices_per_partition,
+        'group_phone_collisions':args.group_phone_collisions,'allow_consonant_context':args.allow_consonant_context,
+        'training_pilot':args.training_pilot,
+        'internal_deletions_only':args.internal_only,'quality_ai_only':args.quality_ai_only,
+        'evaluation_only':args.evaluation_only,'conditioning_group_offset':args.reference_offset,
+        'quality_only':args.quality_only,'evaluation_carrier_override':args.evaluation_carrier,
+            'unknown_consonant_context':args.unknown_consonant_context,
+            'context_resource_inventory_sha256':sha(ROOT/'data/panphon_context_v58/inventory.json') if table is not None else None,
+        'additional_excluded_plans':[{'path':str(p),'sha256':sha(p)} for p in args.exclude_plan],
+        'excluded_original_swar_word_plan_sha256':sha(ROOT/'data/swar_phone_plan_v18/words.json'),
+        'phonetic_validation':'Edited G2P differs only at one declared vowel site; Hindi prior predicts that contrast',
+        'word_selection_exclusions':dict(exclusions),'native_source_model_sha256':pair['systems']['pocket_teacher_250000_24l']['sha256'],
+        'labels':'Requested canonical/edited pronunciation, never generator identity or automatically asserted realization gold'},
+        'source_snapshot.json':{'sha256':sha(Path(__file__)),'source_utf8':Path(__file__).read_text()}},
+        'Natural same-teacher minimal vowel requests: see inputs.json for actual word/clip counts, two voices per partition, '
+        'canonical/edited readings from the same24-layer checkpoint/conditioning/seed. No splice artifacts. '
+        'Train/dev/test words, conditioning groups and carrier templates are disjoint; all actual Swar '
+        'vocabulary excluded. Requested phonetic changes are verified through actual frontend/Hindi outputs '
+        'but realized audio remains unreviewed until acoustic audit. references/*.wav are exact six copied '
+        'prompts, reference_inventory.json pins sources/SHA. teacher/ later stores the planned generated outputs. '
+        'Current consumer improved vowel-head training and fresh request-class evaluation; review2026-11-09, '
+        'delete redundant generated copies after consumer closes. No HF upload; source licences apply.',
+        ['.venv-indicf5/bin/python -m scripts.build_minimal_vowel_plan'])
+    (out/'references').mkdir();inventory=[]
+    for name,path in sources.items():
+        target=out/'references'/name;shutil.copyfile(path,target)
+        inventory.append({'path':str(target.relative_to(out)),'source':str(path),'bytes':target.stat().st_size,'sha256':sha(target)})
+    (out/'reference_inventory.json').write_text(json.dumps(inventory,indent=2)+'\n')
+    print(json.dumps({'words':len(selected),'jobs':len(jobs),'kinds':dict(counts),'partitions':dict(Counter(e['partition'] for e in selected))}))
+
+
+if __name__=='__main__':
+    logging.basicConfig(level=logging.INFO)
+    try:main()
+    except Exception:
+        logging.exception('Verified minimal-pair plan creation failed explicitly');raise
+
+--- ACTUAL FILE hindi_detector/corrected_synthesis.py ---
+"""Strict adapters for the explicitly requested24-layer teacher/IndicF5 pair."""
+from __future__ import annotations
+
+import hashlib
+import json
+from pathlib import Path
+import subprocess
+import sys
+
+import numpy as np
+
+SYSTEMS = ('pocket_teacher_250000_24l', 'indicf5_stock')
+
+
+def sha(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open('rb') as handle:
+        for block in iter(lambda: handle.read(8 * 1024**2), b''):
+            digest.update(block)
+    return digest.hexdigest()
+
+
+def require_pair(pair: dict) -> None:
+    if pair.get('schema') != 'teacher_indicf5_pair_v14' or set(pair.get('systems', {})) != set(SYSTEMS):
+        raise ValueError('Only the user-requested teacher/IndicF5 pair is accepted; no legacy fallback')
+    teacher, f5 = (pair['systems'][s] for s in SYSTEMS)
+    if teacher['layers'] != 24 or teacher['step'] != 250000 or f5['repo'] != 'ai4bharat/IndicF5':
+        raise ValueError('Wrong teacher architecture/step or IndicF5 source')
+    if teacher['sha256'] != '2b4636e3aed0e4f2d035630e504be95fc58f494b690a851a91bfe0dd8299516f' or f5['sha256'] != 'ba7f3671180fb7784e24bd1dafc96e729a38ce02e7f6d3877cdef32525a1865c':
+        raise ValueError('Unapproved checkpoint bytes')
+
+
+class QualityError(ValueError):
+    pass
+
+
+def validate_wave(wave, rate):
+    if rate != 24000 or wave.ndim != 1 or not np.isfinite(wave).all() or not .2 <= len(wave)/rate <= 30 or np.max(np.abs(wave)) < 1e-5:
+        raise QualityError('Invalid generated waveform; no substitute or trimming')
+
+
+class TeacherEngine:
+    def __init__(self, spec):
+        import torch
+        import yaml
+        self.torch = torch
+        source=Path(spec['source']); config=Path(spec['config']); weights=Path(spec['weights']); tokenizer=Path(spec['tokenizer'])
+        if subprocess.check_output(['git','-C',str(source),'rev-parse','HEAD'],text=True).strip()!=spec['source_revision']:
+            raise ValueError('Teacher source revision differs')
+        subprocess.run(['git','-C',str(source),'diff','--quiet','HEAD','--','pocket_tts','training/modules','training/args.py'],check=True)
+        if sha(weights)!=spec['sha256'] or sha(tokenizer)!=spec['tokenizer_sha256']:
+            raise ValueError('Teacher weights/tokenizer identity differs')
+        cfg=yaml.safe_load(config.read_text())
+        if cfg['flow_lm']['transformer']['num_layers']!=24 or cfg['mimi']['sample_rate']!=24000:
+            raise ValueError('Teacher config is not the inspected24-layer24k model')
+        if not torch.cuda.is_available():
+            raise RuntimeError('Explicit L40 CUDA teacher placement unavailable')
+        free,total=torch.cuda.mem_get_info()
+        if free<10*1024**3:
+            raise RuntimeError('Insufficient free GPU memory; do not disrupt other workloads')
+        sys.path.insert(0,str(source))
+        from training.args import TrainArgs
+        from training.modules.builders import build_models
+        from pocket_tts.modules.stateful_module import init_states
+        args=TrainArgs(model_config=str(config),model_overrides={'weights_path':str(weights),
+            'flow_lm.lookup_table.tokenizer_path':str(tokenizer)},start_from_pretrained=True,
+            reset_text_embedding=False,compile=False)
+        torch.set_num_threads(4)
+        model,mimi,resolved=build_models(args)
+        if resolved.flow_lm.transformer.num_layers!=24 or len(model.flow_lm.transformer.layers)!=24:
+            raise ValueError('Loaded teacher does not contain24 transformer layers')
+        self.model=model.eval().to('cuda');self.mimi=mimi.eval().to('cuda')
+        self.model.requires_grad_(False);self.mimi.requires_grad_(False)
+        self.spec=spec;self.prompts={};self.init_states=init_states
+        self.ratio=round(mimi.encoder_frame_rate/mimi.frame_rate)
+        paths=[source/'training/modules/builders.py',source/'training/modules/model.py',source/'training/args.py',
+            source/'pocket_tts/modules/stateful_module.py',config]
+        self.runtime={'system':SYSTEMS[0],'weights_sha256':sha(weights),'tokenizer_sha256':sha(tokenizer),
+            'loaded_layers':24,'settings':spec['inference'],'torch':torch.__version__,'gpu':torch.cuda.get_device_name(),
+            'source_revision':spec['source_revision'],'inference_source':[{'path':str(p),'sha256':sha(p),'source_utf8':p.read_text()} for p in paths]}
+
+    def generate(self, job):
+        import soundfile as sf
+        from scipy.signal import resample_poly
+        torch=self.torch;key=job['reference_sha256'];settings=self.spec['inference']
+        if key not in self.prompts:
+            wave,rate=sf.read(job['reference_audio'],dtype='float32',always_2d=True)
+            if wave.shape[1]!=1 or not np.isfinite(wave).all() or not 1<=len(wave)/rate<=5.01:
+                raise ValueError('Teacher requires the verified shared <=5s mono prompt')
+            divisor=int(np.gcd(rate,24000));wave=resample_poly(wave[:,0],24000//divisor,rate//divisor).astype('float32')
+            with torch.inference_mode():
+                self.prompts[key]=self.mimi.encode_to_latent(torch.from_numpy(wave.copy())[None,None].to('cuda'))[0]
+        torch.manual_seed(job['seed']);torch.cuda.manual_seed_all(job['seed'])
+        tokenize=self.model.flow_lm.conditioner.tokenizer.sp.encode
+        tokens=torch.tensor(tokenize(job['text']),dtype=torch.long)
+        with torch.inference_mode():
+            latents=self.model.generate([tokens],[self.prompts[key]],max_frames=settings['max_frames'],
+                temp=settings['temperature'],n_steps=settings['n_steps'],cfg_coef=settings['cfg_coef'],eos_threshold=settings['eos_threshold'])[0]
+            if len(latents)<8 or len(latents)>=settings['max_frames']:
+                raise QualityError('Teacher emitted too few frames or reached frame cap')
+            states=self.init_states(self.mimi,1,(len(latents)+8)*self.ratio)
+            wave=self.mimi.decode_from_latent(latents[None],states)[0,0].float().cpu().numpy()
+        return wave,24000,{'frames':len(latents),'frame_cap':False}
+
+
+class IndicF5Engine:
+    def __init__(self,spec):
+        import torch
+        from safetensors.torch import load_file
+        from vocos import Vocos
+        self.torch=torch;self.spec=spec;root=Path(spec['model_root'])
+        inventory=json.loads((root/'inventory.json').read_text())
+        if inventory['repo']!=spec['repo'] or inventory['revision']!=spec['revision']:
+            raise ValueError('IndicF5 bundle source differs')
+        for row in inventory['files']:
+            p=root/row['path']
+            if p.stat().st_size!=row['size_bytes'] or sha(p)!=row['sha256']:
+                raise ValueError('IndicF5 bundle file differs: '+row['path'])
+        vocos_inventory=json.loads((root/'vocos/inventory.json').read_text())
+        for row in vocos_inventory['files']:
+            if sha(root/'vocos'/row['path'])!=row['sha256']:
+                raise ValueError('Vocos recipe differs')
+        if sha(root/'model.safetensors')!=spec['sha256'] or not torch.backends.mps.is_available():
+            raise ValueError('Wrong IndicF5 checkpoint or explicit MPS unavailable')
+        sys.path.insert(0,str(root))
+        from f5_tts.model import CFM, DiT
+        from f5_tts.model.utils import get_tokenizer, seed_everything
+        from f5_tts.infer.utils_infer import infer_batch_process
+        torch.set_num_threads(2);vocab,size=get_tokenizer(str(root/'checkpoints/vocab.txt'),'custom')
+        model=CFM(transformer=DiT(dim=1024,depth=22,heads=16,ff_mult=2,text_dim=512,conv_layers=4,text_num_embeds=size,mel_dim=100),
+            mel_spec_kwargs={'n_fft':1024,'hop_length':256,'win_length':1024,'n_mel_channels':100,'target_sample_rate':24000,'mel_spec_type':'vocos'},
+            odeint_kwargs={'method':'euler'},vocab_char_map=vocab)
+        vocoder=Vocos.from_hparams(str(root/'vocos/config.yaml'));state=load_file(str(root/'model.safetensors'),device='cpu')
+        a,b='ema_model._orig_mod.','vocoder._orig_mod.'
+        if any(not k.startswith((a,b)) for k in state):
+            raise ValueError('Unexpected IndicF5 state prefixes')
+        model.load_state_dict({k.removeprefix(a):v for k,v in state.items() if k.startswith(a)},strict=True)
+        vocoder.load_state_dict({k.removeprefix(b):v for k,v in state.items() if k.startswith(b)},strict=True)
+        self.model=model.eval().to('mps');self.vocoder=vocoder.eval().to('mps');self.seed=seed_everything;self.infer=infer_batch_process
+        self.runtime={'system':SYSTEMS[1],'repo':spec['repo'],'revision':spec['revision'],'weights_sha256':sha(root/'model.safetensors'),
+            'settings':spec['inference'],'torch':torch.__version__,'inventory_sha256':sha(root/'inventory.json'),
+            'vocos_inventory_sha256':sha(root/'vocos/inventory.json'),'strict_state_loading':True}
+
+    def generate(self,job):
+        import soundfile as sf
+        wave,rate=sf.read(job['reference_audio'],dtype='float32',always_2d=True)
+        if wave.shape[1]!=1 or not np.isfinite(wave).all():
+            raise ValueError('Invalid shared IndicF5 prompt')
+        self.seed(job['seed']);settings=self.spec['inference']
+        audio,rate,_=self.infer((self.torch.from_numpy(wave.T),rate),job['reference_text'],[job['text']],
+            self.model,self.vocoder,mel_spec_type='vocos',target_rms=.1,cross_fade_duration=.15,
+            nfe_step=settings['nfe_step'],cfg_strength=settings['cfg_strength'],sway_sampling_coef=settings['sway_sampling_coef'],
+            speed=settings['speed'],fix_duration=None,device='mps')
+        return audio,rate,{}
+
+--- ACTUAL FILE hindi_detector/independent_phone.py ---
+"""Pinned research-only Allosaurus encoder; never a native-pronunciation oracle."""
+from __future__ import annotations
+
+from argparse import Namespace
+import importlib
+import json
+from pathlib import Path
+import sys
+
+import numpy as np
+import torch
+
+from hindi_detector.corrected_synthesis import sha
+from hindi_detector.ctc import validate_log_probs
+
+
+class IndependentPhone:
+    def __init__(self, root: Path):
+        directory = root / 'runtime/independent_phone_v64'
+        inventory = json.loads((directory / 'inventory.json').read_text())
+        protected = [row for row in inventory if row['path'].startswith(('source/', 'models/'))]
+        for row in protected:
+            path = (directory / row['path']).resolve(strict=True)
+            if not path.is_relative_to(directory.resolve()) or sha(path) != row['sha256']:
+                raise ValueError('Pinned independent encoder source/model bytes changed: ' + row['path'])
+        sources = [p for p in (directory / 'source').iterdir() if (p / 'allosaurus').is_dir()]
+        if len(sources) != 1:
+            raise ValueError('Independent encoder source root is ambiguous')
+        sys.dont_write_bytecode = True
+        sys.path[:0] = [str(directory / 'deps'), str(sources[0])]
+        package = importlib.import_module('allosaurus')
+        if not Path(package.__file__).resolve().is_relative_to(sources[0].resolve()):
+            raise ValueError('Unexpected globally installed Allosaurus package')
+        pm_module = importlib.import_module('allosaurus.pm.factory')
+        am_module = importlib.import_module('allosaurus.am.factory')
+        self.Audio = importlib.import_module('allosaurus.audio').Audio
+        read_unit = importlib.import_module('allosaurus.lm.unit').read_unit
+        model = directory / 'models/uni2005'
+        config = Namespace(model='uni2005', device_id=-1, lang='ipa', approximate=False, prior=None)
+        self.pm = pm_module.read_pm(model, config)
+        self.am = am_module.read_am(model, config).eval()
+        units = read_unit(model / 'phone.txt').unit_to_id
+        self.original_vocabulary = units
+        if sorted(units.values()) != list(range(self.am.phone_size)) or units['<blk>'] != 0:
+            raise ValueError('Observed independent phone inventory/model output mismatch')
+        # Project measurement code reserves IDs1..3. Add exactly zero-probability
+        # columns, preserving every original phone/blank probability and ID map.
+        self.vocabulary = {'<blk>': 0, '<audit_reserved1>': 1, '<audit_reserved2>': 2, '<audit_reserved3>': 3,
+                           **{token: index + 3 for token, index in units.items() if index}}
+        self.frame_seconds = self.pm.config.window_shift * self.pm.config.feature_window
+        self.metadata = {'encoder': 'Allosaurus uni2005', 'source_revision': 'd9f1adaf47d3b3765b41f4177da62a051516d636',
+                         'model_sha256': sha(model / 'model.pt'), 'vocabulary': self.vocabulary,
+                         'frame_seconds': self.frame_seconds, 'dither_seed': 6400,
+                         'language_inventory_mask': None, 'native_phone_accuracy': None,
+                         'licence': 'Source GPL-3.0; checkpoint-specific licence not supplied in release; no redistribution.'}
+
+    def encode(self, samples, rate=16000):
+        x = np.asarray(samples)
+        if x.ndim != 1 or len(x) < rate * .1 or not np.isfinite(x).all() or rate <= 0:
+            raise ValueError('Independent phone encoder requires finite mono audio of at least100ms')
+        if np.max(np.abs(x)) > 1.001:
+            raise ValueError('Expected normalized floating-point audio, not int16 magnitudes')
+        np.random.seed(6400)
+        signal = np.round(np.clip(x, -1, 1) * 32767).astype(np.int16)
+        features = self.pm.compute(self.Audio(signal, rate))
+        if features.ndim != 2 or not np.isfinite(features).all():
+            raise ValueError('Independent encoder feature extraction failed')
+        with torch.inference_mode():
+            logits = self.am(torch.from_numpy(features[None]), torch.tensor([len(features)]))[0]
+            values = logits.log_softmax(-1).cpu().numpy().astype(np.float64)
+        padded = np.full((len(values), values.shape[1] + 3), -np.inf, np.float64)
+        padded[:, 0] = values[:, 0]
+        padded[:, 4:] = values[:, 1:]
+        return validate_log_probs(padded, 0)
+
+    def decode(self, values):
+        inverse = {index: token for token, index in self.vocabulary.items()}
+        ids = values.argmax(1)
+        return [{'phone': inverse[int(index)], 'start': frame * self.frame_seconds,
+                 'model_window_seconds': .045}
+                for frame, index in enumerate(ids)
+                if index > 3 and (frame == 0 or index != ids[frame - 1])]

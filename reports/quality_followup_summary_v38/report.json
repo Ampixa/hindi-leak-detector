@@ -1,0 +1,128 @@
+{
+  "status": "complete_frozen_quality_followup",
+  "created_utc": "2026-11-09T01:17:46.739817+00:00",
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "new_word_families_requested": 128,
+  "new_readings": 512,
+  "content_decisions": {
+    "pass": 508,
+    "quarantine": 4
+  },
+  "new_physical_eligible_pairs": 18,
+  "new_physical_word_families": 16,
+  "earlier_physical": {
+    "counts": {
+      "n": 14,
+      "positive_labels": 7,
+      "negative_labels": 7,
+      "tp": 4,
+      "fp": 0,
+      "fn": 3,
+      "tn": 7,
+      "precision": 1.0,
+      "recall": 0.5714285714285714,
+      "false_positive_rate": 0.0,
+      "accuracy": 0.7857142857142857,
+      "balanced_accuracy": 0.7857142857142857,
+      "brier": 0.21428571428571427
+    },
+    "recall_interval_95_wilson": [
+      0.2504583645276572,
+      0.8417801447485302
+    ],
+    "sham_flag_interval_95_wilson": [
+      5.551115123125783e-17,
+      0.35433043506668743
+    ]
+  },
+  "new_physical_all_eligible": {
+    "counts": {
+      "n": 36,
+      "positive_labels": 18,
+      "negative_labels": 18,
+      "tp": 13,
+      "fp": 0,
+      "fn": 5,
+      "tn": 18,
+      "precision": 1.0,
+      "recall": 0.7222222222222222,
+      "false_positive_rate": 0.0,
+      "accuracy": 0.8611111111111112,
+      "balanced_accuracy": 0.8611111111111112,
+      "brier": 0.1388888888888889
+    },
+    "recall_interval_95_wilson": [
+      0.4912734343970254,
+      0.8750024662044601
+    ],
+    "sham_flag_interval_95_wilson": [
+      0,
+      0.17587922364665765
+    ]
+  },
+  "new_physical_content_pass_both_source_and_donor": {
+    "counts": {
+      "n": 36,
+      "positive_labels": 18,
+      "negative_labels": 18,
+      "tp": 13,
+      "fp": 0,
+      "fn": 5,
+      "tn": 18,
+      "precision": 1.0,
+      "recall": 0.7222222222222222,
+      "false_positive_rate": 0.0,
+      "accuracy": 0.8611111111111112,
+      "balanced_accuracy": 0.8611111111111112,
+      "brier": 0.1388888888888889
+    },
+    "recall_interval_95_wilson": [
+      0.4912734343970254,
+      0.8750024662044601
+    ],
+    "sham_flag_interval_95_wilson": [
+      0,
+      0.17587922364665765
+    ]
+  },
+  "pooled_physical": {
+    "counts": {
+      "n": 50,
+      "positive_labels": 25,
+      "negative_labels": 25,
+      "tp": 17,
+      "fp": 0,
+      "fn": 8,
+      "tn": 25,
+      "precision": 1.0,
+      "recall": 0.68,
+      "false_positive_rate": 0.0,
+      "accuracy": 0.84,
+      "balanced_accuracy": 0.8400000000000001,
+      "brier": 0.16
+    },
+    "recall_interval_95_wilson": [
+      0.48410269273102247,
+      0.8279480969309202
+    ],
+    "sham_flag_interval_95_wilson": [
+      1.3877787807814457e-17,
+      0.13319225093904846
+    ]
+  },
+  "pooled_word_families": 21,
+  "pooled_recall_word_cluster_bootstrap_95": [
+    0.48148148148148145,
+    0.8695652173913043
+  ],
+  "bootstrap_recipe": "4000 resamples of word families,seed20261109; shared2 conditioning groups are not new independent speaker cohorts",
+  "actual_hindi_error_accuracy": null,
+  "model_or_threshold_updates": false,
+  "limits": [
+    "Only18 of256 new canonical readings met the full source/donor/segmentation eligibility rules;128 requested words are not128 observed-error examples.",
+    "Phone-probe qualification favors clear realizations and shares acoustic biases with the detector.",
+    "Known waveform replacements establish a local edit, not actual Hindi origin, naturalness or Hindi intonation.",
+    "The two audits use new words/carriers but share two previously heldout conditioning groups.",
+    "Zero observed sham flags does not establish zero Native-error false positives; real reference-mode variation flags remain separately reported."
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "status": "completed_frozen_held_out_physical_test",
+  "model_sha256": "cd912af1fcf474a4aecbf2654e62185bf8d44623d48e90c72967512a3f25ef51",
+  "threshold": 0.9869572887528136,
+  "families": {
+    "P1": {
+      "attempted": 93,
+      "measured": 93,
+      "abstained": 0,
+      "flagged": 1,
+      "flag_rate": 0.010752688172043012,
+      "abstention_rate": 0.0,
+      "correct_decision_rate": 0.010752688172043012,
+      "recall": 0.010752688172043012,
+      "false_flag_rate": null,
+      "cluster_interval": {
+        "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+        "groups": 50,
+        "seed": 7101,
+        "replicates": 1000,
+        "flag_rate_95_percentile_interval": [
+          0.0,
+          0.034482758620689655
+        ]
+      }
+    },
+    "P1u": {
+      "attempted": 93,
+      "measured": 93,
+      "abstained": 0,
+      "flagged": 1,
+      "flag_rate": 0.010752688172043012,
+      "abstention_rate": 0.0,
+      "correct_decision_rate": 0.010752688172043012,
+      "recall": 0.010752688172043012,
+      "false_flag_rate": null,
+      "cluster_interval": {
+        "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+        "groups": 50,
+        "seed": 7101,
+        "replicates": 1000,
+        "flag_rate_95_percentile_interval": [
+          0.0,
+          0.034482758620689655
+        ]
+      }
+    },
+    "P1w": {
+      "attempted": 93,
+      "measured": 93,
+      "abstained": 0,
+      "flagged": 6,
+      "flag_rate": 0.06451612903225806,
+      "abstention_rate": 0.0,
+      "correct_decision_rate": 0.06451612903225806,
+      "recall": 0.06451612903225806,
+      "false_flag_rate": null,
+      "cluster_interval": {
+        "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+        "groups": 50,
+        "seed": 7101,
+        "replicates": 1000,
+        "flag_rate_95_percentile_interval": [
+          0.010869565217391304,
+          0.125
+        ]
+      }
+    },
+    "S0": {
+      "attempted": 93,
+      "measured": 93,
+      "abstained": 0,
+      "flagged": 0,
+      "flag_rate": 0.0,
+      "abstention_rate": 0.0,
+      "correct_decision_rate": 1.0,
+      "recall": null,
+      "false_flag_rate": 0.0,
+      "cluster_interval": {
+        "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+        "groups": 50,
+        "seed": 7101,
+        "replicates": 1000,
+        "flag_rate_95_percentile_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "S1": {
+      "attempted": 93,
+      "measured": 93,
+      "abstained": 0,
+      "flagged": 0,
+      "flag_rate": 0.0,
+      "abstention_rate": 0.0,
+      "correct_decision_rate": 1.0,
+      "recall": null,
+      "false_flag_rate": 0.0,
+      "cluster_interval": {
+        "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+        "groups": 50,
+        "seed": 7101,
+        "replicates": 1000,
+        "flag_rate_95_percentile_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "S2": {
+      "attempted": 88,
+      "measured": 88,
+      "abstained": 0,
+      "flagged": 0,
+      "flag_rate": 0.0,
+      "abstention_rate": 0.0,
+      "correct_decision_rate": 1.0,
+      "recall": null,
+      "false_flag_rate": 0.0,
+      "cluster_interval": {
+        "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+        "groups": 48,
+        "seed": 7101,
+        "replicates": 1000,
+        "flag_rate_95_percentile_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "S_original": {
+      "attempted": 93,
+      "measured": 93,
+      "abstained": 0,
+      "flagged": 0,
+      "flag_rate": 0.0,
+      "abstention_rate": 0.0,
+      "correct_decision_rate": 1.0,
+      "recall": null,
+      "false_flag_rate": 0.0,
+      "cluster_interval": {
+        "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+        "groups": 50,
+        "seed": 7101,
+        "replicates": 1000,
+        "flag_rate_95_percentile_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "S_world": {
+      "attempted": 93,
+      "measured": 93,
+      "abstained": 0,
+      "flagged": 0,
+      "flag_rate": 0.0,
+      "abstention_rate": 0.0,
+      "correct_decision_rate": 1.0,
+      "recall": null,
+      "false_flag_rate": 0.0,
+      "cluster_interval": {
+        "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+        "groups": 50,
+        "seed": 7101,
+        "replicates": 1000,
+        "flag_rate_95_percentile_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "admission_gates": {
+    "minimum_test_P1_sources": true,
+    "minimum_test_lexemes": true,
+    "minimum_test_conditioning_groups": true,
+    "P1_recall": false,
+    "P1w_recall": false,
+    "S0_false_flag_rate": true,
+    "other_retained_vowel_controls": true,
+    "abstentions": true,
+    "P1u_boundary_robustness": true
+  },
+  "physical_control_admission_passed": false,
+  "production_changed": false,
+  "test_sources": 93,
+  "test_lexemes": 50,
+  "conditioning_groups": 4,
+  "matched_shortened_vs_removed": {
+    "S2": {
+      "attempted": 88,
+      "measured": 88,
+      "abstained": 0,
+      "flagged": 0,
+      "flag_rate": 0.0,
+      "abstention_rate": 0.0,
+      "correct_decision_rate": 1.0,
+      "recall": null,
+      "false_flag_rate": 0.0
+    },
+    "P1w": {
+      "attempted": 88,
+      "measured": 88,
+      "abstained": 0,
+      "flagged": 6,
+      "flag_rate": 0.06818181818181818,
+      "abstention_rate": 0.0,
+      "correct_decision_rate": 0.06818181818181818,
+      "recall": 0.06818181818181818,
+      "false_flag_rate": null
+    }
+  },
+  "unfiltered_requested_readings": {
+    "0": {
+      "requests": 356,
+      "measured": 348,
+      "flagged": 2,
+      "accuracy": null
+    },
+    "1": {
+      "requests": 356,
+      "measured": 348,
+      "flagged": 20,
+      "accuracy": null
+    }
+  },
+  "actual_hindi_error_accuracy": null,
+  "limits": [
+    "Physical edits are not real Hindi leakage annotations.",
+    "All conditioning groups come from one approved Native TTS teacher; no human speaker-generalization claim.",
+    "Source eligibility conditions on audible vowel evidence, so selected-control specificity is not unfiltered Native specificity.",
+    "Phonetic collision groups are disjoint; morphological root independence was not established.",
+    "Natural requested edits have null realized-error labels; source/text request identity is never pronunciation gold."
+  ]
+}

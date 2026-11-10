@@ -1,0 +1,125 @@
+{
+  "summary": {
+    "phonetics": {
+      "focal": {
+        "n": 128,
+        "positive_labels": 64,
+        "negative_labels": 64,
+        "tp": 42,
+        "fp": 22,
+        "fn": 22,
+        "tn": 42,
+        "precision": 0.65625,
+        "recall": 0.65625,
+        "false_positive_rate": 0.34375,
+        "accuracy": 0.65625,
+        "balanced_accuracy": 0.65625,
+        "brier": 0.26405209723138934
+      },
+      "threshold": 0.35999999999999993,
+      "conservative": {
+        "n": 128,
+        "positive_labels": 64,
+        "negative_labels": 64,
+        "tp": 14,
+        "fp": 4,
+        "fn": 50,
+        "tn": 60,
+        "precision": 0.7777777777777778,
+        "recall": 0.21875,
+        "false_positive_rate": 0.0625,
+        "accuracy": 0.578125,
+        "balanced_accuracy": 0.578125,
+        "brier": 0.26405209723138934
+      },
+      "conservative_threshold": 0.9241003394126892,
+      "unchanged_neighbor_flag_rate": 0.06418918918918919
+    },
+    "prosody": {
+      "focal": {
+        "n": 128,
+        "positive_labels": 64,
+        "negative_labels": 64,
+        "tp": 12,
+        "fp": 5,
+        "fn": 52,
+        "tn": 59,
+        "precision": 0.7058823529411765,
+        "recall": 0.1875,
+        "false_positive_rate": 0.078125,
+        "accuracy": 0.5546875,
+        "balanced_accuracy": 0.5546875,
+        "brier": 0.2347940520396235
+      },
+      "threshold": 0.59,
+      "conservative": {
+        "n": 128,
+        "positive_labels": 64,
+        "negative_labels": 64,
+        "tp": 2,
+        "fp": 1,
+        "fn": 62,
+        "tn": 63,
+        "precision": 0.6666666666666666,
+        "recall": 0.03125,
+        "false_positive_rate": 0.015625,
+        "accuracy": 0.5078125,
+        "balanced_accuracy": 0.5078125,
+        "brier": 0.2347940520396235
+      },
+      "conservative_threshold": 0.7115882635116577,
+      "unchanged_neighbor_flag_rate": 0.10810810810810811
+    },
+    "combined": {
+      "focal": {
+        "n": 128,
+        "positive_labels": 64,
+        "negative_labels": 64,
+        "tp": 37,
+        "fp": 18,
+        "fn": 27,
+        "tn": 46,
+        "precision": 0.6727272727272727,
+        "recall": 0.578125,
+        "false_positive_rate": 0.28125,
+        "accuracy": 0.6484375,
+        "balanced_accuracy": 0.6484375,
+        "brier": 0.2621059815527975
+      },
+      "threshold": 0.4599999999999999,
+      "conservative": {
+        "n": 128,
+        "positive_labels": 64,
+        "negative_labels": 64,
+        "tp": 15,
+        "fp": 3,
+        "fn": 49,
+        "tn": 61,
+        "precision": 0.8333333333333334,
+        "recall": 0.234375,
+        "false_positive_rate": 0.046875,
+        "accuracy": 0.59375,
+        "balanced_accuracy": 0.59375,
+        "brier": 0.2621059815527975
+      },
+      "conservative_threshold": 0.8934924006462097,
+      "unchanged_neighbor_flag_rate": 0.033783783783783786
+    }
+  },
+  "partition_texts": {
+    "train": 192,
+    "development": 32,
+    "reserved_evaluation": 64
+  },
+  "waveforms": 576,
+  "model_sha256": "91afe3a42be5ac977acbb1f9dbaac7bff7f9e0455957970e6c21d540d58b7c05",
+  "best_epoch": 3,
+  "actual_hindi_error_accuracy": null,
+  "actual_prosody_error_accuracy": null,
+  "limits": [
+    "Follow-up internal experiment motivated by failure of feature-only test; no untouched external benchmark.",
+    "First20 earlier physical audit texts excluded; focal lexeme and conditioning partitions inherited and remain disjoint.",
+    "Physical edits have known source provenance, not known pronunciation errors. Fade seams and channel mismatch remain possible cues.",
+    "One conditioning query/text; only192 training texts. Same architecture/optimizer; epoch and thresholds selected only on32 development texts."
+  ]
+}

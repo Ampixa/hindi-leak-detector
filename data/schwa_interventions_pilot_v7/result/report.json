@@ -1,0 +1,16 @@
+{
+  "status": "phoneme_intervention_pilot_rendered_not_validated_error_labels",
+  "clips": 8,
+  "paired_word_voice_contrasts": 4,
+  "same_voices_and_decoder_across_conditions": true,
+  "noise_scales_zero_for_determinism": true,
+  "model_inventory_sha256": "cacaeb6999c8d697959af45a9bac1f4f59ddf443db0ab7fe30585557d790b95f",
+  "created_utc": "2026-11-07T15:02:31.344888+00:00",
+  "limits": [
+    "Both sides use the same voice/model and differ only in the requested one-site phone count.",
+    "Requested phonemes do not prove what the renderer acoustically realized.",
+    "The alternate is a candidate site control, not automatically a Hindi error or native-invalid word.",
+    "Duration output is inventoried as observed, not yet treated as human-verified phone alignment.",
+    "Zero-noise intervention controls are auxiliary data; Pocket remains the preferred TTS comparison."
+  ]
+}

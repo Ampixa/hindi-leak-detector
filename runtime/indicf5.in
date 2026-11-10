@@ -1,0 +1,25 @@
+# Isolated compatibility environment for the inspected, pinned 2025 IndicF5 code.
+torch==2.6.0
+torchaudio==2.6.0
+numpy==1.26.4
+pyarrow==19.0.1
+transformers==4.49.0
+accelerate>=0.33.0
+cached_path
+click
+datasets
+ema_pytorch>=0.5.2
+hydra-core>=1.3.0
+jieba
+librosa
+matplotlib
+pydub
+pypinyin
+safetensors
+soundfile
+tomli
+torchdiffeq
+tqdm>=4.65.0
+vocos
+wandb
+x_transformers>=1.31.14

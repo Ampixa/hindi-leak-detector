@@ -1,0 +1,11 @@
+{
+  "pid": 48710,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-u",
+    "-m",
+    "scripts.build_rhythm_interventions",
+    "--recovery-v52"
+  ],
+  "created_utc": "2026-11-09T02:51:29.926291+00:00"
+}

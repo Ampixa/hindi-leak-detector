@@ -1,0 +1,15 @@
+ERROR:root:Physical prosody training/evaluation failed explicitly; retain frozen state and do not retune reserved scores
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/train_prosody_transfer.py", line 203, in <module>
+    main()
+  File "/Volumes/T9/hindi-detector/scripts/train_prosody_transfer.py", line 79, in main
+    raise ValueError('Insufficient qualified independent word contexts; do not silently weaken quotas')
+ValueError: Insufficient qualified independent word contexts; do not silently weaken quotas
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Volumes/T9/hindi-detector/scripts/train_prosody_transfer.py", line 203, in <module>
+    main()
+  File "/Volumes/T9/hindi-detector/scripts/train_prosody_transfer.py", line 79, in main
+    raise ValueError('Insufficient qualified independent word contexts; do not silently weaken quotas')
+ValueError: Insufficient qualified independent word contexts; do not silently weaken quotas

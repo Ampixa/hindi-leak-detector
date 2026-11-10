@@ -1,0 +1,41 @@
+{
+  "source_partitions": [
+    "train",
+    "development"
+  ],
+  "families": [
+    "S2",
+    "P1w",
+    "S_world"
+  ],
+  "script_sha256": "8426fd1198b8a30b8700aa49680115736661728599c82a39d928a1c0b65b5894",
+  "input_sha256": {
+    "reports/native_main_controls_train_v71/items.jsonl": "17ba6a3e065a4c836683cd304d7347b8f437cce8b8b75e07d2376ac56ba9b471",
+    "reports/native_main_content_train_v71/result.json": "ea22ac41ef91400082b8e42af020f0482fbe79f951cce538153fe5dd7cab3e6e",
+    "reports/native_main_controls_development_v71/items.jsonl": "71dd9d182c8f69e2fa00c9bb0c3b72bcf63e799dc976b44e3ddbdb358914df2d",
+    "reports/native_main_content_development_v71/result.json": "c395e73e79ebb41fa209da018370305e2e27edac8518e841d5d281f1622d5a8f"
+  },
+  "statistic": "Mean over two probes of exact blank-minus-any-vowel CTC per frame, clipped[-10,10] per probe.",
+  "anchor_window": "Existing production-realigned deletion-anchor gap, frozen24feature columns0/12.",
+  "oracle_window": "Same S2 retained duration for all matched families. S2 centered on known retained region; P1w on actual splice point; S_world on original focal region center. Diagnostic only; never inference input.",
+  "threshold": "Within each diagnostic partition, S2 quantile95/99 with higher order statistic plus1e-5; not a deployment threshold or new classifier.",
+  "strata_ms": [
+    [
+      40,
+      60
+    ],
+    [
+      60,
+      90
+    ],
+    [
+      90,
+      151
+    ]
+  ],
+  "bootstrap": "500 draws of phonetic-collision groups, recompute99th-percentile diagnostic threshold each draw; seed760.",
+  "go_on_anchor_redesign": "Both train and dev:oracle recall>=.80, cluster lower bound>=.65, oracle-minus-anchor recall>=.25, >=.60 of top-decile anchor S2 examples cover<half the retained interval.",
+  "resolution_no_go": "Oracle recall<.60 in either partition, or shortest-bin paired concordance<.80 while longest>=.95 (interpret bins only with>=20sources,>=10groups).",
+  "positive_control_warning": "Matched P1w versus original oracle concordance<.95 requires checking positives and representation; it does not prove phonetic labels or a generator defect.",
+  "scope": "No held-out test reads, fitting, threshold retuning or live changes; this experiment chooses measurement work only."
+}

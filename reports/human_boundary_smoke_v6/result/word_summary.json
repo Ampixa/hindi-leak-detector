@@ -1,0 +1,22 @@
+[
+  {
+    "word": "अर्थ",
+    "occurrences": 1,
+    "source_groups": 1,
+    "statuses": {
+      "unavailable_g2p_projection": 1
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "नष्ट",
+    "occurrences": 1,
+    "source_groups": 1,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 1
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  }
+]

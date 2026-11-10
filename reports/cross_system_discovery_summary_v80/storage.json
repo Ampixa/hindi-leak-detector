@@ -1,0 +1,18 @@
+{
+  "measured_utc": "2026-11-09T09:22:40.550920+00:00",
+  "k2_disk": {
+    "total": 2000189177856,
+    "used": 1771122950144,
+    "free": 229066227712
+  },
+  "new_group_allocated_bytes": {
+    "data/cross_system_sentences_v80": 38182912,
+    "reports/cross_system_results_v80": 1593344,
+    "reports/cross_system_content_v80": 548864,
+    "reports/cross_system_teacher_stream_v80": 61440
+  },
+  "deleted_paths": [],
+  "reclaimed_bytes": 0,
+  "retention": "Raw208wave corpus remains active for requested outside-Swar listening; next review2026-11-10. L40 partial74outputs are verified duplicates of k2; remaining30 output WAVs exist only in verified k2 corpus. Retire unused partial mirror after consumer/recovery review within24h; no unreviewed deletion or lowering of20GiB guards.",
+  "source_checksums": "Each generated WAV in data/cross_system_sentences_v80/{teacher,indicf5}/items.jsonl; plan/ref/model identity manifests retained. NOT on HF."
+}

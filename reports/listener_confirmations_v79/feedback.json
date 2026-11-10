@@ -1,0 +1,43 @@
+{
+  "recorded_utc": "2026-11-09T08:45:34.148513+00:00",
+  "source": "user conversation",
+  "quote": "they are conformed for hunalai , chalaunako, nagarau",
+  "confirmations": [
+    {
+      "case_id": "real_yt_yt04_032",
+      "word_ordinal": 14,
+      "word": "हुनलाई",
+      "reading": "swar",
+      "audio_sha256": "50fecc6efa3f54a67ef93a04be8f2ceec55df0d2dc64f7a92173407b732d3f28",
+      "status": "user_confirmed_pronunciation_anomaly",
+      "human_error_label": 1,
+      "phonetic_boundary_manually_verified": false
+    },
+    {
+      "case_id": "real_yt_yt07_053",
+      "word_ordinal": 14,
+      "word": "चलाउनको",
+      "reading": "swar",
+      "audio_sha256": "d57ae415208597206b091b53d2202ff527bddc96ad1e107ca8601fa15a45cefb",
+      "status": "user_confirmed_pronunciation_anomaly",
+      "human_error_label": 1,
+      "phonetic_boundary_manually_verified": false
+    },
+    {
+      "case_id": "real_yt_yt12_089",
+      "word_ordinal": 7,
+      "word": "नगरौ",
+      "reading": "swar",
+      "audio_sha256": "33e33c00ce4b762fa1a1c52dc1b5a728f8824cdda8e0e391575db232aa60c06c",
+      "status": "user_confirmed_pronunciation_anomaly",
+      "human_error_label": 1,
+      "phonetic_boundary_manually_verified": false
+    }
+  ],
+  "scope": "User confirms these three previously flagged occurrences. One listener, detector-selected development discoveries; no independent precision/recall estimate, exact phone-boundary verification or general Hindi causality claim.",
+  "total_confirmed_occurrences": 7,
+  "used_for_training": false,
+  "independent_test": false,
+  "pidh_status": "listener_similar; error label remains null",
+  "prediction_changes": false
+}

@@ -1,0 +1,51 @@
+{
+  "status": "complete_frozen_cross_system_discovery",
+  "systems": {
+    "pocket_teacher_250000_24l": {
+      "requested": 104,
+      "statuses": {
+        "scored_vowel_evidence": 104
+      },
+      "content_decisions": {
+        "pass": 104
+      },
+      "readings_with_word_flags": 15,
+      "readings_with_focal_flags": 4,
+      "focal_flags_on_content_pass_queries": 4,
+      "tested_word_positions": 126,
+      "word_positions_with_alignment": 724,
+      "word_positions_all_requested": 724,
+      "accuracy": null
+    },
+    "indicf5_stock": {
+      "requested": 104,
+      "statuses": {
+        "scored_vowel_evidence": 104
+      },
+      "content_decisions": {
+        "pass": 93,
+        "quarantine": 11
+      },
+      "readings_with_word_flags": 79,
+      "readings_with_focal_flags": 70,
+      "focal_flags_on_content_pass_queries": 60,
+      "tested_word_positions": 126,
+      "word_positions_with_alignment": 724,
+      "word_positions_all_requested": 724,
+      "accuracy": null
+    }
+  },
+  "contexts": 26,
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "index_sha256": "4968140eb4edfa6f27d25ff606927b4f06c5932e8dc0efe6fce5135c3bab2c30",
+  "actual_hindi_error_accuracy": null,
+  "new_human_confirmations": 0,
+  "production_changed": false,
+  "training": false,
+  "limits": [
+    "Flags are candidates, never automatic human-confirmed errors.",
+    "Native teacher queries are also unlabeled realizations, not guaranteed correct controls.",
+    "These source model families appeared in earlier work; fresh text does not establish unseen-engine accuracy.",
+    "The speech detector has no admitted prosody head; intonation remains diagnostic."
+  ]
+}

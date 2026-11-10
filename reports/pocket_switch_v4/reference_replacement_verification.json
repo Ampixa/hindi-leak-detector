@@ -1,0 +1,69 @@
+{
+  "verified_reference_files": 16,
+  "references": [
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259065500397435_005809.wav",
+      "sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4257751100369637_009829.wav",
+      "sha256": "6ed10838a90596e8775880ff7a3116342079317d98b9ec29fe1737eaeebe9e6b"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4258453800348915_004837.wav",
+      "sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4257298100347538_019650.wav",
+      "sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4258716800392755_018420.wav",
+      "sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259477200361463_015355.wav",
+      "sha256": "b3ce03a672bcb6eaf9859682766953f05055ade8277e6c23afd1b00efa038247"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4257387500340373_011237.wav",
+      "sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4257689200333878_001003.wav",
+      "sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4258254800397423_008408.wav",
+      "sha256": "2324e89c0e9fab1255a05f15a9daa3271b1d0f74f964ca76a1e4fd4d78d3d6f1"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4256933800326415_008877.wav",
+      "sha256": "14dcc7e2d2f417d11db91bf8fae9e767af05952d1b8d17b488a1648b20aaa638"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259790200369285_016321.wav",
+      "sha256": "09716e1dd999ef87a83452a89f9bfc3f801c4b5936aadd6035434ce6fe74828a"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4258147000367444_016985.wav",
+      "sha256": "15ed78181b636b5435f43f185992b43025c7684412bd030a52bf288a0ce1d28e"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259085700325035_000321.wav",
+      "sha256": "159e1e624ed7cb903c96e40b8da88b7d713a3dad977162f8be666a2fb3fc9a51"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4257018100398290_024741.wav",
+      "sha256": "cefd966a49f8f9f10ce7230ce9ddfa902a44b09ea269537250525d8c54e44c65"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259279700316061_013003.wav",
+      "sha256": "f52796252bd27627d20a4a011fc8c82e5cf36669dcd779c58c7ab43ef10cbcf4"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259326600373607_015369.wav",
+      "sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662"
+    }
+  ]
+}

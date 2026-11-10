@@ -1,0 +1,10 @@
+{
+  "selection_sha256": "cd90935e170085268d830eba78b75374936ba0fe92b580babd2b6c5a0ab71165",
+  "previous_journal_sha256": "90effade82e8a818381f4afe272fb53418ba60c23398e04cb9bada30e6ed216c",
+  "previous_outputs": 74,
+  "remaining_outputs": 30,
+  "destination_free_bytes": 229062963200,
+  "remaining_worst_case_bytes": 59977216,
+  "receiver_sha256": "675e818610373d8acd4fcf35eb6dab68948c48cb87cb9f763e415fd7124d837a",
+  "worker_sha256": "ce1fd5ba5c5e66d4b998c6cb429e4d80518f23458536f852b21baba6fbb996e9"
+}

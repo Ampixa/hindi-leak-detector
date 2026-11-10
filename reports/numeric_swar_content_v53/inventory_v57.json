@@ -1,0 +1,49 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "host": "k2",
+  "original_path": "/Volumes/T9/hindi-detector/reports/numeric_swar_content_v53",
+  "created_utc": "2026-11-09T03:08:21.541271+00:00",
+  "last_review_utc": "2026-11-09T03:08:21.541271+00:00",
+  "next_review": "2026-11-10",
+  "not_on_HF": true,
+  "retention": "Compact admission/rollback/source pins retained for active Hindi-detector goal. Completed raw control WAVs/redundant frames disposable24h after consumer closes; no blind deletion. Source-model rights/MMS research restrictions inherited.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2030,
+      "sha256": "92cbbe34a808e79fb1c31943a1f0b0c3edbf8f178204dfd092dfef980d140468",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "inputs.json",
+      "bytes": 10716,
+      "sha256": "1308925d748d208cf15083cfa577a258fa1de7964064208fda30df3d15ec722b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "items.jsonl",
+      "bytes": 116401,
+      "sha256": "5661b6af02cf896ce195f34e7fa134b5f964b3c0d218e558c67a63399488a87c",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "report.json",
+      "bytes": 150,
+      "sha256": "2d3a3a2c7b1c27fb27d46a00b1c5239c4994c22b27d7dbc539ea01e7b7aa979e",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "runtime.json",
+      "bytes": 1281,
+      "sha256": "a4f36892add535c5b3f14a7a074c3710ce7ecf993c6a0ed0f90c848ba043f8eb",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "source_snapshot.json",
+      "bytes": 3316,
+      "sha256": "a22621b8bb1e1ce251a4393ea8e55f47809f7f0d62e7922ee60d2126bd911c69",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    }
+  ]
+}

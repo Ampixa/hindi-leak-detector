@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-11-09T07:37:53.184081+00:00",
+  "source": "user conversation",
+  "quote": "yes talko is nice. pidh is more or less similar.",
+  "interpretations": [
+    {
+      "word": "तलको",
+      "case_id": "real_yt_yt03_018",
+      "status": "user_confirmed_useful_detection",
+      "phonetic_boundary_verified": false
+    },
+    {
+      "word": "पिढको",
+      "case_id": "real_yt_yt03_019",
+      "status": "listener_reports_similar_readings",
+      "error_label": null,
+      "use": "Development false-flag/acceptability check; not silently labeled a true positive or a definitive phoneme negative."
+    }
+  ],
+  "used_for_training": false,
+  "independent_test": false
+}

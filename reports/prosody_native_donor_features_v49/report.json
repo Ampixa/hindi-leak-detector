@@ -1,0 +1,8 @@
+{
+  "status": "complete_rendered_phone_frames",
+  "planned": 164,
+  "counts": {
+    "ok_rendered_phone_frames": 164
+  },
+  "actual_pronunciation_gold": null
+}

@@ -1,0 +1,38 @@
+{
+  "reviewed_utc": "2026-11-09T08:39:32.151274+00:00",
+  "mac_disk": {
+    "total": 494384795648,
+    "used": 490398957568,
+    "free": 3985838080
+  },
+  "workspace_allocated_approx_bytes": 299892736,
+  "k2": {
+    "measured_utc": "2026-11-09T08:37:05.244157+00:00",
+    "disk": {
+      "total": 2000189177856,
+      "used": 1771092840448,
+      "free": 229096337408
+    },
+    "group_allocated_bytes": {
+      "data/native_pilot_v69": 21172224,
+      "data/native_main_v71": 237617152,
+      "reports/native_pilot_features_v69": 59674624,
+      "reports/native_pilot_controls_v69": 20262912,
+      "reports/native_pilot_controls_v70": 11485184,
+      "reports/native_main_features_v71": 680529920,
+      "reports/native_main_controls_train_v71": 175136768,
+      "reports/native_main_controls_development_v71": 67338240,
+      "reports/native_main_controls_test_v71": 60391424,
+      "reports/anchored_training_v71": 2486272,
+      "reports/anchored_test_v74": 638976,
+      "reports/oracle_window_experiment_v76": 2129920
+    },
+    "deleted_paths": [],
+    "reclaimed_bytes": 0
+  },
+  "l40_df_h_free": "24G; measured2026-11-09T08:37UTC",
+  "deleted_paths": [],
+  "reclaimed_bytes": 0,
+  "largest_new_group": "reports/native_main_features_v71,680529920 allocated bytes on k2; not copied to Mac",
+  "decision": "No deletion this pass. New raw teacher outputs, frames and controls have a named near-term consumer: short-vowel representation/intervention validity review on2026-11-10. Compact failed-model/evaluation evidence retained; no epoch checkpoints. Existing cleanup rejection not retried or bypassed."
+}

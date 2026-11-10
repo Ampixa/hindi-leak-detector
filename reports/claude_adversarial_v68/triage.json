@@ -1,0 +1,25 @@
+{
+  "reviewer": "Claude Opus5.5 (actual CLI model metadata)",
+  "user_request": "Adversarial review before new training",
+  "first_review": "result.json",
+  "followup": "followup/result.json",
+  "resolved": [
+    "Exact token-state CTC; enumeration/Viterbi tests pass.",
+    "Post-edit ValueError outcomes retained, not excluded.",
+    "New local-only head rejects quality contrasts and has no reference/availability/word-duration inputs.",
+    "Generator quotas and four conditioning voices supported.",
+    "WORLD-balanced positive added; conservative source-intersection core pilot running."
+  ],
+  "verified_reviewer_corrections": [
+    "Approved teacher/IndicF5 hashes were already asserted in require_pair.",
+    "Allosaurus real IDs1..3 already preserved by zero-probability padding/ID shift.",
+    "Simply forbidding transitions between overlapping sets would be incorrect; exact per-token recurrence implemented."
+  ],
+  "remaining_before_fit": [
+    "Check pilot production/source feature consistency and family anchor/gap distributions.",
+    "Reserve unfiltered canonical and edited requests as unlabeled diagnostics, not automatic Native-correct/error gold.",
+    "Train-only grouped CV and explicit source/family pairing; dev calibration only.",
+    "Pin all feature/encoder/aligner dependencies; freeze/copy test protocol outside k2 before opening scores."
+  ],
+  "release_claim": "Research preview; no real-error accuracy, Hindi probability or validated prosody claim."
+}

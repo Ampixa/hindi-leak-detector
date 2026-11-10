@@ -1,0 +1,52 @@
+{
+  "source_utf8": "import pathlib,json,hashlib,numpy as np,soundfile as sf\nfrom hindi_detector.wave_identity import comparison\nroot=pathlib.Path('/Volumes/T9/hindi-detector');out=root/'data/human_original_audio_pilot_v6'\ninspection=json.loads((out/'inspection.json').read_text()); candidates=json.loads((root/'data/human_regions_v5/single_utterance_candidates.json').read_text()); pairs=[]\nfor row in inspection['records']:\n matches=[x for x in candidates if x['source_shard']==inspection['shard'] and x['source_row']==row['row']]\n if len(matches)!=1: raise ValueError('Original row needs exactly one staged candidate')\n p=out/row['payload_path']\n if hashlib.sha256(p.read_bytes()).hexdigest()!=row['payload_sha256']: raise ValueError('Original payload checksum changed')\n a,sr=sf.read(p,dtype='float32',always_2d=True); b,br=sf.read(matches[0]['audio'],dtype='float32')\n pairs.append({'original_row':row['row'],'original_payload_sha256':row['payload_sha256'],'staged_audio':matches[0]['audio'],'staged_sha256':hashlib.sha256(pathlib.Path(matches[0]['audio']).read_bytes()).hexdigest(),'explicit_original_channel_operation':'arithmetic mean of the two inspected highly correlated channels, matching the inspected staging recipe; no channel/voice identity label follows','comparison':comparison(a.mean(axis=1),sr,b,br)})\nrecord={'source_utf8':SOURCE,'source_inventory_sha256':hashlib.sha256((out/'inspection.json').read_bytes()).hexdigest(),'records':pairs}\n(out/'waveform_correspondence.json').write_text(json.dumps(record,indent=2)+'\\n');print(json.dumps(pairs))\n",
+  "source_inventory_sha256": "967199193fdca228e881e0123288c124f23930c59efddbf006820a6add4308ab",
+  "records": [
+    {
+      "original_row": 28,
+      "original_payload_sha256": "a54fb1e567d41c26db780ed6b3657742d06cbb933a447ad1fc3f424b040ccfd2",
+      "staged_audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258804100339766_000033.wav",
+      "staged_sha256": "c2dbde98b568869177b9a2d9dd4ba7b2990a4226ce2e0f0e9a59924b4f5dae57",
+      "explicit_original_channel_operation": "arithmetic mean of the two inspected highly correlated channels, matching the inspected staging recipe; no channel/voice identity label follows",
+      "comparison": {
+        "source_sample_rate": 48000,
+        "source_frames": 344064,
+        "staged_sample_rate": 24000,
+        "staged_frames": 172032,
+        "comparison_resampling": "scipy.signal.resample_poly",
+        "comparison_frames": 172032,
+        "resampled_frame_count_difference": 0,
+        "comparison_shift_samples": 0,
+        "least_squares_gain": -0.06953516703599816,
+        "pearson_correlation": -0.0718895181483635,
+        "gain_adjusted_rmse": 0.13546261507491833,
+        "gain_adjusted_max_error": 0.9577497277085227,
+        "same_rate_length_and_gain_adjusted_samples_within_1e_minus4": false,
+        "meaning": "Waveform correspondence under an explicit gain/resampling comparison. This is not an accent, speaker-identity or native-acceptability label."
+      }
+    },
+    {
+      "original_row": 37,
+      "original_payload_sha256": "fc631d30d31cc40455f47e11ef57fb7b2c748a8d60797219d5987ba9f6f3a927",
+      "staged_audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257061600351107_000038.wav",
+      "staged_sha256": "7441094e28f2e286c00fe024af82bc81d5a11f964e220f363652e376c85bf81e",
+      "explicit_original_channel_operation": "arithmetic mean of the two inspected highly correlated channels, matching the inspected staging recipe; no channel/voice identity label follows",
+      "comparison": {
+        "source_sample_rate": 48000,
+        "source_frames": 296593,
+        "staged_sample_rate": 24000,
+        "staged_frames": 148480,
+        "comparison_resampling": "scipy.signal.resample_poly",
+        "comparison_frames": 148297,
+        "resampled_frame_count_difference": 183,
+        "comparison_shift_samples": 0,
+        "least_squares_gain": 0.04330858331300882,
+        "pearson_correlation": 0.04502190167459707,
+        "gain_adjusted_rmse": 0.11573143362093695,
+        "gain_adjusted_max_error": 0.9543702390722775,
+        "same_rate_length_and_gain_adjusted_samples_within_1e_minus4": false,
+        "meaning": "Waveform correspondence under an explicit gain/resampling comparison. This is not an accent, speaker-identity or native-acceptability label."
+      }
+    }
+  ]
+}

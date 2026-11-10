@@ -1,0 +1,87 @@
+[
+  {
+    "path": "README.md",
+    "size_bytes": 2126,
+    "sha256": "a6424f80856e6ec32c08af4ff7440523811002e73ce879d807241a429b6348dc"
+  },
+  {
+    "path": "manifest.json",
+    "size_bytes": 5361,
+    "sha256": "565e01a86934762ead938294b21e85fd780c909253b68f28f663787f750ee997"
+  },
+  {
+    "path": "nepali_v1c.greeting.s29.wav",
+    "size_bytes": 130604,
+    "sha256": "14fb316379da084aee9dbb29b77c694ba39f46cd8ba3e38b007a97ea38b17e22"
+  },
+  {
+    "path": "nepali_v1c.greeting.s7.wav",
+    "size_bytes": 153644,
+    "sha256": "84ba169c16a0fc841d5171fbd82f56ef14d73423eccf85b1357a933744d973b8"
+  },
+  {
+    "path": "nepali_v1c.historical.s29.wav",
+    "size_bytes": 142124,
+    "sha256": "ea0b07d605961a2b039e4fd8c355bc137e4d3ba991e0b1ab7ddf65bb6c7f6f2c"
+  },
+  {
+    "path": "nepali_v1c.historical.s7.wav",
+    "size_bytes": 145964,
+    "sha256": "bb95d77d8a1c3f9f9337fbd79747ca44b6d32f0fe160394b19962642ea5509cd"
+  },
+  {
+    "path": "nepali_v1c.schwa_draft.s29.wav",
+    "size_bytes": 176684,
+    "sha256": "f06c2187dd44a892d5786cc059e9945f28ae27a0b101c5d2e40ee8869aa13d83"
+  },
+  {
+    "path": "nepali_v1c.schwa_draft.s7.wav",
+    "size_bytes": 180524,
+    "sha256": "24ecf40d5a5b2ce88fb07c0af6b994e9a26ede5b3f042218e2709706093f4f6a"
+  },
+  {
+    "path": "nepali_v1c.yaml",
+    "size_bytes": 1195,
+    "sha256": "c2ac4dfa0f365ac1be0d447e35ecb9cb1f1a5cf2aa057ff21d8faffffc7ccd50"
+  },
+  {
+    "path": "parent.greeting.s29.wav",
+    "size_bytes": 268844,
+    "sha256": "1f4da44b143997460329a81c5f56f1108f10cda91133410e1a2e0680abdeb5b0"
+  },
+  {
+    "path": "parent.greeting.s7.wav",
+    "size_bytes": 238124,
+    "sha256": "38a46ee3f2c90aeca7e9300fab01de76d50d562fbc49a15e8195cc5d22bd080d"
+  },
+  {
+    "path": "parent.historical.s29.wav",
+    "size_bytes": 226604,
+    "sha256": "1df569fa046c9df36ed8e18725206c90062556d87125e0fde190ab0ac0112eff"
+  },
+  {
+    "path": "parent.historical.s7.wav",
+    "size_bytes": 211244,
+    "sha256": "ae1a78454b1494247e0688ea9fb6faad2838d90ff11ff102365e9132da4e22d9"
+  },
+  {
+    "path": "parent.schwa_draft.s29.wav",
+    "size_bytes": 268844,
+    "sha256": "f36c617199dbfe65680aa3975a207991a0b98c8cf567fbb26d599525700e3399"
+  },
+  {
+    "path": "parent.schwa_draft.s7.wav",
+    "size_bytes": 268844,
+    "sha256": "39c899c8e8735a588febf5f7bb1ea40cecbba3b7b944addfc5ec33d865ddff9f"
+  },
+  {
+    "path": "parent.yaml",
+    "size_bytes": 1235,
+    "sha256": "244f32ee185afb867441dcf50bbf4990af6b3b04c132380452fffd3cf29727e4"
+  },
+  {
+    "path": "reference.wav",
+    "size_bytes": 153424,
+    "sha256": "1f4058da031004edaefb79f29eee5573ede8a2cbb81b637791298d8c94444cdc"
+  }
+]

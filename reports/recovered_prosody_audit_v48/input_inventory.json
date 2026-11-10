@@ -1,0 +1,18 @@
+[
+  {
+    "path": "reports/corrected_training_v16/final/model.pt",
+    "sha256": "cf46b138ad009c5b133160859a8316d91c7b93784043ea814e327e638341d567"
+  },
+  {
+    "path": "reports/swar_corpus_features_v18/items.jsonl",
+    "sha256": "6ba67bf157b46ac87196d47737116a1961dfd2f361e7a878261e4157f156cbe5"
+  },
+  {
+    "path": "reports/swar_teacher_features_v21/items.jsonl",
+    "sha256": "a33e2fe8a7b9ae90c1c71d0344d809dc728e35ac3d2f4f17e95642e6a60c8a17"
+  },
+  {
+    "path": "reports/swar_teacher_content_v21/items.jsonl",
+    "sha256": "658975599569fed6c8ac14e3f1fb67206546c99f4e2b74e43d999a22777242be"
+  }
+]

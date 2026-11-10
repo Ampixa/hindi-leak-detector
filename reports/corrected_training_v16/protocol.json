@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-11-08T07:47:37.130116+00:00",
+  "models": [
+    "pocket_teacher_250000_24l",
+    "indicf5_stock"
+  ],
+  "features": "reports/structured_evidence_v15",
+  "loss": "Equal matched-focal BCE,0.25 total background-control weight per text,0.5 same-word source-ranking loss. No global positive-class weighting.",
+  "motivation": "Development-only v15 pilot exposed a focal-versus-background shortcut. Original pilot preserved as diagnostic; no reserved scores opened.",
+  "stages": [
+    "fit available corrected physical pairs on train/development only",
+    "wait for complete generation/content/feature stream",
+    "refit using all accepted training/development pairs; freeze before reserved physical and original-TTS transfer tests"
+  ],
+  "architecture": "Separate temporal phone/G2P-site and contextual relative-prosody branches; no hidden voice embeddings",
+  "actual_hindi_error_accuracy": null
+}

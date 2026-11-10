@@ -1,0 +1,477 @@
+[
+  {
+    "word": "कमला",
+    "speaker": "kala",
+    "condition": "lexicon_path",
+    "audio": "schwa-00029_kala_lexicon_path.wav",
+    "audio_sha256": "f4dbf7ea338498ce765561b8dfd108af3b090cf9e5544d091be6f429898ea5ed",
+    "probe_greedy_sequence": [
+      "k",
+      "a",
+      "m",
+      "b",
+      "a",
+      "l",
+      "a"
+    ],
+    "site_evidence": {
+      "gap_index": 2,
+      "lexicon_schwa_count": 1,
+      "alternative_schwa_count": 0,
+      "lexicon_project_phones": [
+        "k",
+        "ax",
+        "m",
+        "ax",
+        "l",
+        "aa"
+      ],
+      "alternative_project_phones": [
+        "k",
+        "ax",
+        "m",
+        "l",
+        "aa"
+      ],
+      "vowel_conditioned_results": [
+        {
+          "central_vowel": "ʌ",
+          "lexicon_log_likelihood": -15.058626949630698,
+          "alternative_log_likelihood": -14.20663684193639,
+          "alternative_minus_lexicon": 0.8519901076943075
+        },
+        {
+          "central_vowel": "ə",
+          "lexicon_log_likelihood": -16.984680494675086,
+          "alternative_log_likelihood": -14.916343305454337,
+          "alternative_minus_lexicon": 2.068337189220749
+        },
+        {
+          "central_vowel": "ɐ",
+          "lexicon_log_likelihood": -18.174207620034203,
+          "alternative_log_likelihood": -15.483589634645446,
+          "alternative_minus_lexicon": 2.690617985388757
+        }
+      ],
+      "marginal_alternative_minus_lexicon": 1.249334335029781,
+      "status": "unreviewed_site_counterfactual_not_hindi_label",
+      "meaning": "Raw exact CTC evidence for a site-count alternative versus the lexicon path, marginalized equally over three central-vowel qualities. Not a correctness probability."
+    },
+    "ceil_duration_steps": 55,
+    "inferred_samples_per_step": 256,
+    "probe_revision": "2c733782da5604684829819a5eb744c193fe9398",
+    "actual_hindi_leakage_label": null,
+    "human_pronunciation_gold": false
+  },
+  {
+    "word": "कमला",
+    "speaker": "kala",
+    "condition": "site_count_alternative",
+    "audio": "schwa-00029_kala_site_count_alternative.wav",
+    "audio_sha256": "675de6f7b82c308e0c25a56418905b3211e242197dc0f5954ca9ced40b9ff149",
+    "probe_greedy_sequence": [
+      "a",
+      "n",
+      "a"
+    ],
+    "site_evidence": {
+      "gap_index": 2,
+      "lexicon_schwa_count": 1,
+      "alternative_schwa_count": 0,
+      "lexicon_project_phones": [
+        "k",
+        "ax",
+        "m",
+        "ax",
+        "l",
+        "aa"
+      ],
+      "alternative_project_phones": [
+        "k",
+        "ax",
+        "m",
+        "l",
+        "aa"
+      ],
+      "vowel_conditioned_results": [
+        {
+          "central_vowel": "ʌ",
+          "lexicon_log_likelihood": -31.139685406003608,
+          "alternative_log_likelihood": -20.911875515305006,
+          "alternative_minus_lexicon": 10.227809890698602
+        },
+        {
+          "central_vowel": "ə",
+          "lexicon_log_likelihood": -28.976039114658878,
+          "alternative_log_likelihood": -20.486653049251572,
+          "alternative_minus_lexicon": 8.489386065407306
+        },
+        {
+          "central_vowel": "ɐ",
+          "lexicon_log_likelihood": -30.658897074303095,
+          "alternative_log_likelihood": -20.87757344342041,
+          "alternative_minus_lexicon": 9.781323630882685
+        }
+      ],
+      "marginal_alternative_minus_lexicon": 9.072340308363525,
+      "status": "unreviewed_site_counterfactual_not_hindi_label",
+      "meaning": "Raw exact CTC evidence for a site-count alternative versus the lexicon path, marginalized equally over three central-vowel qualities. Not a correctness probability."
+    },
+    "ceil_duration_steps": 46,
+    "inferred_samples_per_step": 256,
+    "probe_revision": "2c733782da5604684829819a5eb744c193fe9398",
+    "actual_hindi_leakage_label": null,
+    "human_pronunciation_gold": false
+  },
+  {
+    "word": "कमला",
+    "speaker": "barsha",
+    "condition": "lexicon_path",
+    "audio": "schwa-00029_barsha_lexicon_path.wav",
+    "audio_sha256": "1b06280f3ee44a89b42efae9fcc0a421d0daa1812d582b0c635c24ff9490d544",
+    "probe_greedy_sequence": [
+      "k",
+      "a",
+      "m",
+      "m",
+      "a",
+      "l",
+      "a"
+    ],
+    "site_evidence": {
+      "gap_index": 2,
+      "lexicon_schwa_count": 1,
+      "alternative_schwa_count": 0,
+      "lexicon_project_phones": [
+        "k",
+        "ax",
+        "m",
+        "ax",
+        "l",
+        "aa"
+      ],
+      "alternative_project_phones": [
+        "k",
+        "ax",
+        "m",
+        "l",
+        "aa"
+      ],
+      "vowel_conditioned_results": [
+        {
+          "central_vowel": "ʌ",
+          "lexicon_log_likelihood": -10.773993049168729,
+          "alternative_log_likelihood": -10.505969475847515,
+          "alternative_minus_lexicon": 0.26802357332121396
+        },
+        {
+          "central_vowel": "ə",
+          "lexicon_log_likelihood": -13.08724033943077,
+          "alternative_log_likelihood": -11.600650774893301,
+          "alternative_minus_lexicon": 1.4865895645374678
+        },
+        {
+          "central_vowel": "ɐ",
+          "lexicon_log_likelihood": -14.917021920431273,
+          "alternative_log_likelihood": -12.731040977367684,
+          "alternative_minus_lexicon": 2.185980943063589
+        }
+      ],
+      "marginal_alternative_minus_lexicon": 0.52585634353653,
+      "status": "unreviewed_site_counterfactual_not_hindi_label",
+      "meaning": "Raw exact CTC evidence for a site-count alternative versus the lexicon path, marginalized equally over three central-vowel qualities. Not a correctness probability."
+    },
+    "ceil_duration_steps": 65,
+    "inferred_samples_per_step": 256,
+    "probe_revision": "2c733782da5604684829819a5eb744c193fe9398",
+    "actual_hindi_leakage_label": null,
+    "human_pronunciation_gold": false
+  },
+  {
+    "word": "कमला",
+    "speaker": "barsha",
+    "condition": "site_count_alternative",
+    "audio": "schwa-00029_barsha_site_count_alternative.wav",
+    "audio_sha256": "95438e5235ffbd1932acea7ef79b22b4fd9eccc3750527c6c12ad131bc78a91b",
+    "probe_greedy_sequence": [
+      "t",
+      "a",
+      "m"
+    ],
+    "site_evidence": {
+      "gap_index": 2,
+      "lexicon_schwa_count": 1,
+      "alternative_schwa_count": 0,
+      "lexicon_project_phones": [
+        "k",
+        "ax",
+        "m",
+        "ax",
+        "l",
+        "aa"
+      ],
+      "alternative_project_phones": [
+        "k",
+        "ax",
+        "m",
+        "l",
+        "aa"
+      ],
+      "vowel_conditioned_results": [
+        {
+          "central_vowel": "ʌ",
+          "lexicon_log_likelihood": -24.684747899456937,
+          "alternative_log_likelihood": -16.764689607608403,
+          "alternative_minus_lexicon": 7.920058291848534
+        },
+        {
+          "central_vowel": "ə",
+          "lexicon_log_likelihood": -23.772010331642235,
+          "alternative_log_likelihood": -17.450998744435847,
+          "alternative_minus_lexicon": 6.321011587206389
+        },
+        {
+          "central_vowel": "ɐ",
+          "lexicon_log_likelihood": -25.52467336951178,
+          "alternative_log_likelihood": -17.8486806734816,
+          "alternative_minus_lexicon": 7.675992696030182
+        }
+      ],
+      "marginal_alternative_minus_lexicon": 7.16390808026917,
+      "status": "unreviewed_site_counterfactual_not_hindi_label",
+      "meaning": "Raw exact CTC evidence for a site-count alternative versus the lexicon path, marginalized equally over three central-vowel qualities. Not a correctness probability."
+    },
+    "ceil_duration_steps": 68,
+    "inferred_samples_per_step": 256,
+    "probe_revision": "2c733782da5604684829819a5eb744c193fe9398",
+    "actual_hindi_leakage_label": null,
+    "human_pronunciation_gold": false
+  },
+  {
+    "word": "कर्म",
+    "speaker": "kala",
+    "condition": "lexicon_path",
+    "audio": "schwa-00030_kala_lexicon_path.wav",
+    "audio_sha256": "491ce421eff2f2fcc22940912c0456670a5f8bff5137cc53bc0e806d3457965c",
+    "probe_greedy_sequence": [
+      "a",
+      "l"
+    ],
+    "site_evidence": {
+      "gap_index": 3,
+      "lexicon_schwa_count": 1,
+      "alternative_schwa_count": 0,
+      "lexicon_project_phones": [
+        "k",
+        "ax",
+        "r",
+        "m",
+        "ax"
+      ],
+      "alternative_project_phones": [
+        "k",
+        "ax",
+        "r",
+        "m"
+      ],
+      "vowel_conditioned_results": [
+        {
+          "central_vowel": "ʌ",
+          "lexicon_log_likelihood": -23.365237614257993,
+          "alternative_log_likelihood": -16.061599053484258,
+          "alternative_minus_lexicon": 7.303638560773734
+        },
+        {
+          "central_vowel": "ə",
+          "lexicon_log_likelihood": -22.343586564746133,
+          "alternative_log_likelihood": -15.920918902332994,
+          "alternative_minus_lexicon": 6.422667662413138
+        },
+        {
+          "central_vowel": "ɐ",
+          "lexicon_log_likelihood": -25.356781857653363,
+          "alternative_log_likelihood": -17.978250293961317,
+          "alternative_minus_lexicon": 7.3785315636920465
+        }
+      ],
+      "marginal_alternative_minus_lexicon": 6.77111852250248,
+      "status": "unreviewed_site_counterfactual_not_hindi_label",
+      "meaning": "Raw exact CTC evidence for a site-count alternative versus the lexicon path, marginalized equally over three central-vowel qualities. Not a correctness probability."
+    },
+    "ceil_duration_steps": 45,
+    "inferred_samples_per_step": 256,
+    "probe_revision": "2c733782da5604684829819a5eb744c193fe9398",
+    "actual_hindi_leakage_label": null,
+    "human_pronunciation_gold": false
+  },
+  {
+    "word": "कर्म",
+    "speaker": "kala",
+    "condition": "site_count_alternative",
+    "audio": "schwa-00030_kala_site_count_alternative.wav",
+    "audio_sha256": "b2da7680ef06627b204eab718b1b23eef638a0ac46b39c4e8b44a8c2acf41271",
+    "probe_greedy_sequence": [
+      "p",
+      "a"
+    ],
+    "site_evidence": {
+      "gap_index": 3,
+      "lexicon_schwa_count": 1,
+      "alternative_schwa_count": 0,
+      "lexicon_project_phones": [
+        "k",
+        "ax",
+        "r",
+        "m",
+        "ax"
+      ],
+      "alternative_project_phones": [
+        "k",
+        "ax",
+        "r",
+        "m"
+      ],
+      "vowel_conditioned_results": [
+        {
+          "central_vowel": "ʌ",
+          "lexicon_log_likelihood": -29.214678969221865,
+          "alternative_log_likelihood": -18.910791929504136,
+          "alternative_minus_lexicon": 10.30388703971773
+        },
+        {
+          "central_vowel": "ə",
+          "lexicon_log_likelihood": -26.43440305209846,
+          "alternative_log_likelihood": -18.577264055210264,
+          "alternative_minus_lexicon": 7.857138996888196
+        },
+        {
+          "central_vowel": "ɐ",
+          "lexicon_log_likelihood": -29.1507598192044,
+          "alternative_log_likelihood": -19.711468300681013,
+          "alternative_minus_lexicon": 9.439291518523387
+        }
+      ],
+      "marginal_alternative_minus_lexicon": 8.44857501342716,
+      "status": "unreviewed_site_counterfactual_not_hindi_label",
+      "meaning": "Raw exact CTC evidence for a site-count alternative versus the lexicon path, marginalized equally over three central-vowel qualities. Not a correctness probability."
+    },
+    "ceil_duration_steps": 38,
+    "inferred_samples_per_step": 256,
+    "probe_revision": "2c733782da5604684829819a5eb744c193fe9398",
+    "actual_hindi_leakage_label": null,
+    "human_pronunciation_gold": false
+  },
+  {
+    "word": "कर्म",
+    "speaker": "barsha",
+    "condition": "lexicon_path",
+    "audio": "schwa-00030_barsha_lexicon_path.wav",
+    "audio_sha256": "10782a569bb663e6c398e9e858ac4c0edef0f4df53750c7db4a08c3d03fc11bc",
+    "probe_greedy_sequence": [
+      "t",
+      "m"
+    ],
+    "site_evidence": {
+      "gap_index": 3,
+      "lexicon_schwa_count": 1,
+      "alternative_schwa_count": 0,
+      "lexicon_project_phones": [
+        "k",
+        "ax",
+        "r",
+        "m",
+        "ax"
+      ],
+      "alternative_project_phones": [
+        "k",
+        "ax",
+        "r",
+        "m"
+      ],
+      "vowel_conditioned_results": [
+        {
+          "central_vowel": "ʌ",
+          "lexicon_log_likelihood": -25.41253847814266,
+          "alternative_log_likelihood": -18.02245562256405,
+          "alternative_minus_lexicon": 7.390082855578612
+        },
+        {
+          "central_vowel": "ə",
+          "lexicon_log_likelihood": -24.307320807164665,
+          "alternative_log_likelihood": -17.75998008113047,
+          "alternative_minus_lexicon": 6.547340726034193
+        },
+        {
+          "central_vowel": "ɐ",
+          "lexicon_log_likelihood": -25.870776688980154,
+          "alternative_log_likelihood": -18.553611455799658,
+          "alternative_minus_lexicon": 7.317165233180496
+        }
+      ],
+      "marginal_alternative_minus_lexicon": 6.913314100382223,
+      "status": "unreviewed_site_counterfactual_not_hindi_label",
+      "meaning": "Raw exact CTC evidence for a site-count alternative versus the lexicon path, marginalized equally over three central-vowel qualities. Not a correctness probability."
+    },
+    "ceil_duration_steps": 56,
+    "inferred_samples_per_step": 256,
+    "probe_revision": "2c733782da5604684829819a5eb744c193fe9398",
+    "actual_hindi_leakage_label": null,
+    "human_pronunciation_gold": false
+  },
+  {
+    "word": "कर्म",
+    "speaker": "barsha",
+    "condition": "site_count_alternative",
+    "audio": "schwa-00030_barsha_site_count_alternative.wav",
+    "audio_sha256": "9082423d6d76412931f4f96cbebe9c72a09e59c4dd93da7656377e4abeecb952",
+    "probe_greedy_sequence": [
+      "t"
+    ],
+    "site_evidence": {
+      "gap_index": 3,
+      "lexicon_schwa_count": 1,
+      "alternative_schwa_count": 0,
+      "lexicon_project_phones": [
+        "k",
+        "ax",
+        "r",
+        "m",
+        "ax"
+      ],
+      "alternative_project_phones": [
+        "k",
+        "ax",
+        "r",
+        "m"
+      ],
+      "vowel_conditioned_results": [
+        {
+          "central_vowel": "ʌ",
+          "lexicon_log_likelihood": -31.058764556639538,
+          "alternative_log_likelihood": -20.321532797102947,
+          "alternative_minus_lexicon": 10.737231759536591
+        },
+        {
+          "central_vowel": "ə",
+          "lexicon_log_likelihood": -29.359657120969477,
+          "alternative_log_likelihood": -20.779541185831338,
+          "alternative_minus_lexicon": 8.580115935138139
+        },
+        {
+          "central_vowel": "ɐ",
+          "lexicon_log_likelihood": -31.457248953732755,
+          "alternative_log_likelihood": -21.674722554730597,
+          "alternative_minus_lexicon": 9.782526399002158
+        }
+      ],
+      "marginal_alternative_minus_lexicon": 9.40854585815724,
+      "status": "unreviewed_site_counterfactual_not_hindi_label",
+      "meaning": "Raw exact CTC evidence for a site-count alternative versus the lexicon path, marginalized equally over three central-vowel qualities. Not a correctness probability."
+    },
+    "ceil_duration_steps": 44,
+    "inferred_samples_per_step": 256,
+    "probe_revision": "2c733782da5604684829819a5eb744c193fe9398",
+    "actual_hindi_leakage_label": null,
+    "human_pronunciation_gold": false
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "parity_tolerance_features": 1e-05,
+  "parity_tolerance_word_seconds": 1e-06,
+  "known_cases": "Development regressions, not independent error accuracy",
+  "unknown_cases": "API/dynamic-G2P execution only; requested phonetic changes, not real Hindi-error gold"
+}

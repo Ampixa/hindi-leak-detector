@@ -1,0 +1,30 @@
+{
+  "recipe": "signed_and_absolute_query_minus_preferred_word_v1",
+  "branches": [
+    "phonetics",
+    "prosody",
+    "combined"
+  ],
+  "l2_grid": [
+    0.01,
+    0.1,
+    1.0
+  ],
+  "folds": 3,
+  "fold_unit": "training source speaker group",
+  "source_positive": "indicf5_stock",
+  "preferred_sources": [
+    "native_recording",
+    "audio8_r3"
+  ],
+  "pairings": [
+    "f5 vs native",
+    "f5 vs audio8",
+    "native vs audio8",
+    "audio8 vs native"
+  ],
+  "negative_self_pairs": false,
+  "word_gold_labels": 0,
+  "test_status": "previously inspected exploratory benchmark",
+  "next_data": "wordmatrix_v3 crossed reference voices, 1024 planned clips"
+}

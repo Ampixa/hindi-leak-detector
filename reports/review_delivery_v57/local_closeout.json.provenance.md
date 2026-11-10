@@ -1,0 +1,5 @@
+# Metadata provenance
+
+Created Codex (GPT-6), session /root, owner Ampixa/user, UTC 2026-11-09T03:14:28.219961+00:00. Original host cdjk/path /Users/cdjk/github/hindi-detector/reports/review_delivery_v57/local_closeout.json. Status active; review2026-11-10.
+
+Local head/copy/browser/storage observation and explicit general-detector goal not achieved; no model or audio changes. Bytes 511; SHA256 3498f28829a0a040f1f8e42d0b19005eccbb2355e8e1c979dfebd484dab8438a. Inputs: actual file bytes, reports/review_delivery_v57/verification.json and documented SSH/rsync source inventory. Current consumer auditable private review delivery and model/source reproducibility. Reproduce using the same documented rsync filters and compare SHA256 against live k2 files; later source changes require a new dated observation. No HF upload, inherited source rights, no secrets. Keep compact evidence while release/goal consumes it; obsolete logs expire24h after consumer closes. No backup copy or data deletion. This document describes its own provenance.

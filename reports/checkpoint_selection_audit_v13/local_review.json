@@ -1,0 +1,18 @@
+{
+  "files": [
+    {
+      "path": "report.json",
+      "bytes": 1756,
+      "sha256": "a535a9a8fbe27dd1add9c8618d0e66e64c47007b6c1f1296040fae658fb467a3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1633,
+      "sha256": "c3f26d33cc6f743648728ac72c0b97369913b0b1e18baf24bccff245ccd07a4e"
+    }
+  ],
+  "disk_free_bytes": 44833341440,
+  "deleted_bytes": 0,
+  "current_consumer": "checkpoint selection correction; website copied to k2",
+  "extra_file_role": "local_review.json records measured storage and inventory"
+}

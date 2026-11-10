@@ -1,0 +1,21 @@
+{
+  "previous_failure": {
+    "type": "RuntimeError",
+    "message": "Native staging reproduction failed: Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/Volumes/T9/hindi-detector/scripts/reproduce_human_staging.py\", line 56, in <module>\n    main()\n  File \"/Volumes/T9/hindi-detector/scripts/reproduce_human_staging.py\", line 28, in main\n    raise ValueError('Stereo channels need separate review before applying the mean-channel staging recipe')\nValueError: Stereo channels need separate review before applying the mean-channel staging recipe\n",
+    "frames": [
+      {
+        "file": "/Volumes/T9/hindi-detector/scripts/verify_original_human_audio.py",
+        "line": 190,
+        "function": "<module>"
+      },
+      {
+        "file": "/Volumes/T9/hindi-detector/scripts/verify_original_human_audio.py",
+        "line": 147,
+        "function": "main"
+      }
+    ],
+    "updated_utc": "2026-11-07T14:36:21.222637+00:00"
+  },
+  "resume_reason": "Actual fourth source payload has two channels correlated at 0.995913. Channel agreement is a review flag for future prosody use, not a reason to block forensic replay of the inspected historical mean-channel recipe. Preserve originals and flags; no native or Hindi label inferred.",
+  "status": "inspected_before_resume"
+}

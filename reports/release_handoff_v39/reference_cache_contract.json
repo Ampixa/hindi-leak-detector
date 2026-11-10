@@ -1,0 +1,436 @@
+{
+  "cases": [
+    {
+      "id": "real_yt_yt01_005",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt01_008",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt04_030",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt01_001",
+      "status": "content_qualified_cache",
+      "references": 1
+    },
+    {
+      "id": "real_yt_yt01_002",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt01_003",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt01_004",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt01_006",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt01_007",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt02_009",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt02_010",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt02_011",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt02_012",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt02_013",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt02_014",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt02_015",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt02_016",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt03_017",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt03_018",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt03_019",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt03_020",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt03_021",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt03_022",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt03_023",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt03_024",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt04_025",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt04_026",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt04_028",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt04_029",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt04_031",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt04_032",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt05_033",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt05_034",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt05_035",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt05_036",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt05_037",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt05_038",
+      "status": "content_qualified_cache",
+      "references": 1
+    },
+    {
+      "id": "real_yt_yt05_039",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt05_040",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt06_041",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt06_042",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt06_043",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt06_044",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt06_045",
+      "status": "unscored_reference_quality",
+      "reason": "Neither cached teacher reference passed lexical-content checks; no pronunciation judgment is supported"
+    },
+    {
+      "id": "real_yt_yt06_046",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt06_047",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt06_048",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt07_049",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt07_050",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt07_051",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt07_052",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt07_053",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt07_054",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt07_055",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt07_056",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt08_057",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt08_058",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt08_061",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt08_062",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt08_063",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt09_065",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt09_066",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt09_067",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt09_070",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt09_071",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt09_072",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt10_074",
+      "status": "unscored_reference_quality",
+      "reason": "Neither cached teacher reference passed lexical-content checks; no pronunciation judgment is supported"
+    },
+    {
+      "id": "real_yt_yt10_075",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt10_076",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt10_077",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt10_078",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt10_079",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt10_080",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt11_081",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt11_082",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt11_083",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt11_086",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt11_087",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt11_088",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt12_089",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt12_090",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt12_091",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt12_093",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt12_094",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt12_095",
+      "status": "content_qualified_cache",
+      "references": 2
+    },
+    {
+      "id": "real_yt_yt12_096",
+      "status": "content_qualified_cache",
+      "references": 2
+    }
+  ],
+  "available_texts": 84,
+  "unavailable_texts": 2
+}

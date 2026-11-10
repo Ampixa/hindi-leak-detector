@@ -1,0 +1,46 @@
+{
+  "reviewed_utc": "2026-11-09T14:55:19.989892+00:00",
+  "scope": "Actual local compact members; original large data remains k2.",
+  "files": [
+    {
+      "path": "files.json",
+      "bytes": 1577,
+      "sha256": "506101a585d541e5c152acb96437b3efc7984b9e2ac6f46744129907494d9209"
+    },
+    {
+      "path": "frozen_selection.json",
+      "bytes": 290,
+      "sha256": "5f5d9bb9f4f9a1ad76026deba99782c7e7ed55f1ba68edef6c2860a932fd1a86"
+    },
+    {
+      "path": "history.json",
+      "bytes": 143448,
+      "sha256": "27a65a1b8cec852fff6feb899e1433f8ca2992452f60a237aae2bf4ef443e538"
+    },
+    {
+      "path": "inputs.json",
+      "bytes": 3549,
+      "sha256": "94f06a1e770c1c7fb9d8af4c7f3460de16de49a31cafd7e4a6898881f5fc4c6e"
+    },
+    {
+      "path": "model.pt",
+      "bytes": 241578,
+      "sha256": "ae98b0048e0103e8f5c136b07d3bd68d842bb0efe2eb3a9ab2d3c64abe3d858a"
+    },
+    {
+      "path": "no_audio.pt",
+      "bytes": 5461,
+      "sha256": "c403ae1165f29a1d978414ebe6bfe4f67edac4b67c6b9a698a88999b91418daf"
+    },
+    {
+      "path": "protocol.json",
+      "bytes": 2719,
+      "sha256": "6dd3558e28c70624efee2cf073dcc0101dde58babcd117a754520318ac611b7d"
+    },
+    {
+      "path": "report.json",
+      "bytes": 30077,
+      "sha256": "58d9cde3d98c375c9bf4e2a40a28d74d8be141223bc3c6d1bf4e53db118d0736"
+    }
+  ]
+}

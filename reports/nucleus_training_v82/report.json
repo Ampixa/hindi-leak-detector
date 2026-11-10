@@ -1,0 +1,1075 @@
+{
+  "status": "complete_localized_supervision_fit",
+  "parameters": 13207,
+  "training_sources": 385,
+  "training_lexemes": 184,
+  "training_rows": 2689,
+  "development_sources": 111,
+  "cv": {
+    "acoustic": {
+      "families": {
+        "S_original": {
+          "attempted": 385,
+          "measured": 385,
+          "flagged": 0,
+          "flag_rate": 0.0,
+          "abstention_rate": 0.0
+        },
+        "S0": {
+          "attempted": 385,
+          "measured": 385,
+          "flagged": 2,
+          "flag_rate": 0.005194805194805195,
+          "abstention_rate": 0.0
+        },
+        "S1": {
+          "attempted": 385,
+          "measured": 385,
+          "flagged": 0,
+          "flag_rate": 0.0,
+          "abstention_rate": 0.0
+        },
+        "S_world": {
+          "attempted": 385,
+          "measured": 385,
+          "flagged": 4,
+          "flag_rate": 0.01038961038961039,
+          "abstention_rate": 0.0
+        },
+        "S2": {
+          "attempted": 379,
+          "measured": 379,
+          "flagged": 18,
+          "flag_rate": 0.047493403693931395,
+          "abstention_rate": 0.0
+        },
+        "P1": {
+          "attempted": 385,
+          "measured": 385,
+          "flagged": 300,
+          "flag_rate": 0.7792207792207793,
+          "abstention_rate": 0.0
+        },
+        "P1w": {
+          "attempted": 385,
+          "measured": 385,
+          "flagged": 311,
+          "flag_rate": 0.8077922077922078,
+          "abstention_rate": 0.0
+        }
+      },
+      "duration_strata": {
+        "40_to_60ms": {
+          "families": {
+            "S_original": {
+              "attempted": 144,
+              "measured": 144,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S0": {
+              "attempted": 144,
+              "measured": 144,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S1": {
+              "attempted": 144,
+              "measured": 144,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S_world": {
+              "attempted": 144,
+              "measured": 144,
+              "flagged": 3,
+              "flag_rate": 0.020833333333333332,
+              "abstention_rate": 0.0
+            },
+            "S2": {
+              "attempted": 144,
+              "measured": 144,
+              "flagged": 15,
+              "flag_rate": 0.10416666666666667,
+              "abstention_rate": 0.0
+            },
+            "P1": {
+              "attempted": 144,
+              "measured": 144,
+              "flagged": 109,
+              "flag_rate": 0.7569444444444444,
+              "abstention_rate": 0.0
+            },
+            "P1w": {
+              "attempted": 144,
+              "measured": 144,
+              "flagged": 113,
+              "flag_rate": 0.7847222222222222,
+              "abstention_rate": 0.0
+            }
+          },
+          "duration_strata": {},
+          "minimum_positive_recall": 0.7569444444444444,
+          "gates": {
+            "P1_recall": false,
+            "P1w_recall": false,
+            "S0_false_flag_target": true,
+            "other_retained_false_flag_targets": false,
+            "abstentions": true
+          },
+          "passed": false,
+          "sources": 144,
+          "groups": 97
+        },
+        "60_to_90ms": {
+          "families": {
+            "S_original": {
+              "attempted": 233,
+              "measured": 233,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S0": {
+              "attempted": 233,
+              "measured": 233,
+              "flagged": 2,
+              "flag_rate": 0.008583690987124463,
+              "abstention_rate": 0.0
+            },
+            "S1": {
+              "attempted": 233,
+              "measured": 233,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S_world": {
+              "attempted": 233,
+              "measured": 233,
+              "flagged": 1,
+              "flag_rate": 0.004291845493562232,
+              "abstention_rate": 0.0
+            },
+            "S2": {
+              "attempted": 233,
+              "measured": 233,
+              "flagged": 3,
+              "flag_rate": 0.012875536480686695,
+              "abstention_rate": 0.0
+            },
+            "P1": {
+              "attempted": 233,
+              "measured": 233,
+              "flagged": 183,
+              "flag_rate": 0.7854077253218884,
+              "abstention_rate": 0.0
+            },
+            "P1w": {
+              "attempted": 233,
+              "measured": 233,
+              "flagged": 190,
+              "flag_rate": 0.8154506437768241,
+              "abstention_rate": 0.0
+            }
+          },
+          "duration_strata": {},
+          "minimum_positive_recall": 0.7854077253218884,
+          "gates": {
+            "P1_recall": false,
+            "P1w_recall": true,
+            "S0_false_flag_target": true,
+            "other_retained_false_flag_targets": true,
+            "abstentions": true
+          },
+          "passed": false,
+          "sources": 233,
+          "groups": 131
+        },
+        "90ms_and_up": {
+          "families": {
+            "S_original": {
+              "attempted": 2,
+              "measured": 2,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S0": {
+              "attempted": 2,
+              "measured": 2,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S1": {
+              "attempted": 2,
+              "measured": 2,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S_world": {
+              "attempted": 2,
+              "measured": 2,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S2": {
+              "attempted": 2,
+              "measured": 2,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "P1": {
+              "attempted": 2,
+              "measured": 2,
+              "flagged": 2,
+              "flag_rate": 1.0,
+              "abstention_rate": 0.0
+            },
+            "P1w": {
+              "attempted": 2,
+              "measured": 2,
+              "flagged": 2,
+              "flag_rate": 1.0,
+              "abstention_rate": 0.0
+            }
+          },
+          "duration_strata": {},
+          "minimum_positive_recall": 1.0,
+          "gates": {
+            "P1_recall": true,
+            "P1w_recall": true,
+            "S0_false_flag_target": true,
+            "other_retained_false_flag_targets": true,
+            "abstentions": true
+          },
+          "passed": true,
+          "sources": 2,
+          "groups": 1
+        }
+      },
+      "minimum_positive_recall": 0.7792207792207793,
+      "gates": {
+        "P1_recall": false,
+        "P1w_recall": true,
+        "S0_false_flag_target": true,
+        "other_retained_false_flag_targets": true,
+        "abstentions": true,
+        "short_vowel_40_to_60ms": false
+      },
+      "passed": false
+    },
+    "no_audio": {
+      "families": {
+        "S_original": {
+          "attempted": 385,
+          "measured": 385,
+          "flagged": 0,
+          "flag_rate": 0.0,
+          "abstention_rate": 0.0
+        },
+        "S0": {
+          "attempted": 385,
+          "measured": 385,
+          "flagged": 0,
+          "flag_rate": 0.0,
+          "abstention_rate": 0.0
+        },
+        "S1": {
+          "attempted": 385,
+          "measured": 385,
+          "flagged": 1,
+          "flag_rate": 0.0025974025974025974,
+          "abstention_rate": 0.0
+        },
+        "S_world": {
+          "attempted": 385,
+          "measured": 385,
+          "flagged": 6,
+          "flag_rate": 0.015584415584415584,
+          "abstention_rate": 0.0
+        },
+        "S2": {
+          "attempted": 379,
+          "measured": 379,
+          "flagged": 18,
+          "flag_rate": 0.047493403693931395,
+          "abstention_rate": 0.0
+        },
+        "P1": {
+          "attempted": 385,
+          "measured": 385,
+          "flagged": 313,
+          "flag_rate": 0.812987012987013,
+          "abstention_rate": 0.0
+        },
+        "P1w": {
+          "attempted": 385,
+          "measured": 385,
+          "flagged": 323,
+          "flag_rate": 0.8389610389610389,
+          "abstention_rate": 0.0
+        }
+      },
+      "duration_strata": {
+        "40_to_60ms": {
+          "families": {
+            "S_original": {
+              "attempted": 144,
+              "measured": 144,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S0": {
+              "attempted": 144,
+              "measured": 144,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S1": {
+              "attempted": 144,
+              "measured": 144,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S_world": {
+              "attempted": 144,
+              "measured": 144,
+              "flagged": 3,
+              "flag_rate": 0.020833333333333332,
+              "abstention_rate": 0.0
+            },
+            "S2": {
+              "attempted": 144,
+              "measured": 144,
+              "flagged": 13,
+              "flag_rate": 0.09027777777777778,
+              "abstention_rate": 0.0
+            },
+            "P1": {
+              "attempted": 144,
+              "measured": 144,
+              "flagged": 115,
+              "flag_rate": 0.7986111111111112,
+              "abstention_rate": 0.0
+            },
+            "P1w": {
+              "attempted": 144,
+              "measured": 144,
+              "flagged": 120,
+              "flag_rate": 0.8333333333333334,
+              "abstention_rate": 0.0
+            }
+          },
+          "duration_strata": {},
+          "minimum_positive_recall": 0.7986111111111112,
+          "gates": {
+            "P1_recall": false,
+            "P1w_recall": true,
+            "S0_false_flag_target": true,
+            "other_retained_false_flag_targets": false,
+            "abstentions": true
+          },
+          "passed": false,
+          "sources": 144,
+          "groups": 97
+        },
+        "60_to_90ms": {
+          "families": {
+            "S_original": {
+              "attempted": 233,
+              "measured": 233,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S0": {
+              "attempted": 233,
+              "measured": 233,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S1": {
+              "attempted": 233,
+              "measured": 233,
+              "flagged": 1,
+              "flag_rate": 0.004291845493562232,
+              "abstention_rate": 0.0
+            },
+            "S_world": {
+              "attempted": 233,
+              "measured": 233,
+              "flagged": 3,
+              "flag_rate": 0.012875536480686695,
+              "abstention_rate": 0.0
+            },
+            "S2": {
+              "attempted": 233,
+              "measured": 233,
+              "flagged": 5,
+              "flag_rate": 0.02145922746781116,
+              "abstention_rate": 0.0
+            },
+            "P1": {
+              "attempted": 233,
+              "measured": 233,
+              "flagged": 190,
+              "flag_rate": 0.8154506437768241,
+              "abstention_rate": 0.0
+            },
+            "P1w": {
+              "attempted": 233,
+              "measured": 233,
+              "flagged": 195,
+              "flag_rate": 0.8369098712446352,
+              "abstention_rate": 0.0
+            }
+          },
+          "duration_strata": {},
+          "minimum_positive_recall": 0.8154506437768241,
+          "gates": {
+            "P1_recall": true,
+            "P1w_recall": true,
+            "S0_false_flag_target": true,
+            "other_retained_false_flag_targets": true,
+            "abstentions": true
+          },
+          "passed": true,
+          "sources": 233,
+          "groups": 131
+        },
+        "90ms_and_up": {
+          "families": {
+            "S_original": {
+              "attempted": 2,
+              "measured": 2,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S0": {
+              "attempted": 2,
+              "measured": 2,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S1": {
+              "attempted": 2,
+              "measured": 2,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S_world": {
+              "attempted": 2,
+              "measured": 2,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S2": {
+              "attempted": 2,
+              "measured": 2,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "P1": {
+              "attempted": 2,
+              "measured": 2,
+              "flagged": 2,
+              "flag_rate": 1.0,
+              "abstention_rate": 0.0
+            },
+            "P1w": {
+              "attempted": 2,
+              "measured": 2,
+              "flagged": 2,
+              "flag_rate": 1.0,
+              "abstention_rate": 0.0
+            }
+          },
+          "duration_strata": {},
+          "minimum_positive_recall": 1.0,
+          "gates": {
+            "P1_recall": true,
+            "P1w_recall": true,
+            "S0_false_flag_target": true,
+            "other_retained_false_flag_targets": true,
+            "abstentions": true
+          },
+          "passed": true,
+          "sources": 2,
+          "groups": 1
+        }
+      },
+      "minimum_positive_recall": 0.812987012987013,
+      "gates": {
+        "P1_recall": true,
+        "P1w_recall": true,
+        "S0_false_flag_target": true,
+        "other_retained_false_flag_targets": true,
+        "abstentions": true,
+        "short_vowel_40_to_60ms": false
+      },
+      "passed": false
+    }
+  },
+  "development_calibration": {
+    "acoustic": {
+      "families": {
+        "S_original": {
+          "attempted": 111,
+          "measured": 111,
+          "flagged": 0,
+          "flag_rate": 0.0,
+          "abstention_rate": 0.0
+        },
+        "S0": {
+          "attempted": 111,
+          "measured": 111,
+          "flagged": 0,
+          "flag_rate": 0.0,
+          "abstention_rate": 0.0
+        },
+        "S1": {
+          "attempted": 111,
+          "measured": 111,
+          "flagged": 0,
+          "flag_rate": 0.0,
+          "abstention_rate": 0.0
+        },
+        "S_world": {
+          "attempted": 111,
+          "measured": 111,
+          "flagged": 0,
+          "flag_rate": 0.0,
+          "abstention_rate": 0.0
+        },
+        "S2": {
+          "attempted": 109,
+          "measured": 109,
+          "flagged": 5,
+          "flag_rate": 0.045871559633027525,
+          "abstention_rate": 0.0
+        },
+        "P1": {
+          "attempted": 111,
+          "measured": 111,
+          "flagged": 94,
+          "flag_rate": 0.8468468468468469,
+          "abstention_rate": 0.0
+        },
+        "P1w": {
+          "attempted": 111,
+          "measured": 111,
+          "flagged": 93,
+          "flag_rate": 0.8378378378378378,
+          "abstention_rate": 0.0
+        }
+      },
+      "duration_strata": {
+        "40_to_60ms": {
+          "families": {
+            "S_original": {
+              "attempted": 61,
+              "measured": 61,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S0": {
+              "attempted": 61,
+              "measured": 61,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S1": {
+              "attempted": 61,
+              "measured": 61,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S_world": {
+              "attempted": 61,
+              "measured": 61,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S2": {
+              "attempted": 61,
+              "measured": 61,
+              "flagged": 5,
+              "flag_rate": 0.08196721311475409,
+              "abstention_rate": 0.0
+            },
+            "P1": {
+              "attempted": 61,
+              "measured": 61,
+              "flagged": 47,
+              "flag_rate": 0.7704918032786885,
+              "abstention_rate": 0.0
+            },
+            "P1w": {
+              "attempted": 61,
+              "measured": 61,
+              "flagged": 44,
+              "flag_rate": 0.7213114754098361,
+              "abstention_rate": 0.0
+            }
+          },
+          "duration_strata": {},
+          "minimum_positive_recall": 0.7213114754098361,
+          "gates": {
+            "P1_recall": false,
+            "P1w_recall": false,
+            "S0_false_flag_target": true,
+            "other_retained_false_flag_targets": false,
+            "abstentions": true
+          },
+          "passed": false,
+          "sources": 61,
+          "groups": 39
+        },
+        "60_to_90ms": {
+          "families": {
+            "S_original": {
+              "attempted": 47,
+              "measured": 47,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S0": {
+              "attempted": 47,
+              "measured": 47,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S1": {
+              "attempted": 47,
+              "measured": 47,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S_world": {
+              "attempted": 47,
+              "measured": 47,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S2": {
+              "attempted": 47,
+              "measured": 47,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "P1": {
+              "attempted": 47,
+              "measured": 47,
+              "flagged": 45,
+              "flag_rate": 0.9574468085106383,
+              "abstention_rate": 0.0
+            },
+            "P1w": {
+              "attempted": 47,
+              "measured": 47,
+              "flagged": 46,
+              "flag_rate": 0.9787234042553191,
+              "abstention_rate": 0.0
+            }
+          },
+          "duration_strata": {},
+          "minimum_positive_recall": 0.9574468085106383,
+          "gates": {
+            "P1_recall": true,
+            "P1w_recall": true,
+            "S0_false_flag_target": true,
+            "other_retained_false_flag_targets": true,
+            "abstentions": true
+          },
+          "passed": true,
+          "sources": 47,
+          "groups": 33
+        },
+        "90ms_and_up": {
+          "families": {
+            "S_original": {
+              "attempted": 1,
+              "measured": 1,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S0": {
+              "attempted": 1,
+              "measured": 1,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S1": {
+              "attempted": 1,
+              "measured": 1,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S_world": {
+              "attempted": 1,
+              "measured": 1,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S2": {
+              "attempted": 1,
+              "measured": 1,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "P1": {
+              "attempted": 1,
+              "measured": 1,
+              "flagged": 1,
+              "flag_rate": 1.0,
+              "abstention_rate": 0.0
+            },
+            "P1w": {
+              "attempted": 1,
+              "measured": 1,
+              "flagged": 1,
+              "flag_rate": 1.0,
+              "abstention_rate": 0.0
+            }
+          },
+          "duration_strata": {},
+          "minimum_positive_recall": 1.0,
+          "gates": {
+            "P1_recall": true,
+            "P1w_recall": true,
+            "S0_false_flag_target": true,
+            "other_retained_false_flag_targets": true,
+            "abstentions": true
+          },
+          "passed": true,
+          "sources": 1,
+          "groups": 1
+        }
+      },
+      "minimum_positive_recall": 0.8378378378378378,
+      "gates": {
+        "P1_recall": true,
+        "P1w_recall": true,
+        "S0_false_flag_target": true,
+        "other_retained_false_flag_targets": true,
+        "abstentions": true,
+        "short_vowel_40_to_60ms": false
+      },
+      "passed": false
+    },
+    "no_audio": {
+      "families": {
+        "S_original": {
+          "attempted": 111,
+          "measured": 111,
+          "flagged": 0,
+          "flag_rate": 0.0,
+          "abstention_rate": 0.0
+        },
+        "S0": {
+          "attempted": 111,
+          "measured": 111,
+          "flagged": 0,
+          "flag_rate": 0.0,
+          "abstention_rate": 0.0
+        },
+        "S1": {
+          "attempted": 111,
+          "measured": 111,
+          "flagged": 0,
+          "flag_rate": 0.0,
+          "abstention_rate": 0.0
+        },
+        "S_world": {
+          "attempted": 111,
+          "measured": 111,
+          "flagged": 0,
+          "flag_rate": 0.0,
+          "abstention_rate": 0.0
+        },
+        "S2": {
+          "attempted": 109,
+          "measured": 109,
+          "flagged": 5,
+          "flag_rate": 0.045871559633027525,
+          "abstention_rate": 0.0
+        },
+        "P1": {
+          "attempted": 111,
+          "measured": 111,
+          "flagged": 98,
+          "flag_rate": 0.8828828828828829,
+          "abstention_rate": 0.0
+        },
+        "P1w": {
+          "attempted": 111,
+          "measured": 111,
+          "flagged": 94,
+          "flag_rate": 0.8468468468468469,
+          "abstention_rate": 0.0
+        }
+      },
+      "duration_strata": {
+        "40_to_60ms": {
+          "families": {
+            "S_original": {
+              "attempted": 61,
+              "measured": 61,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S0": {
+              "attempted": 61,
+              "measured": 61,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S1": {
+              "attempted": 61,
+              "measured": 61,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S_world": {
+              "attempted": 61,
+              "measured": 61,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S2": {
+              "attempted": 61,
+              "measured": 61,
+              "flagged": 5,
+              "flag_rate": 0.08196721311475409,
+              "abstention_rate": 0.0
+            },
+            "P1": {
+              "attempted": 61,
+              "measured": 61,
+              "flagged": 49,
+              "flag_rate": 0.8032786885245902,
+              "abstention_rate": 0.0
+            },
+            "P1w": {
+              "attempted": 61,
+              "measured": 61,
+              "flagged": 46,
+              "flag_rate": 0.7540983606557377,
+              "abstention_rate": 0.0
+            }
+          },
+          "duration_strata": {},
+          "minimum_positive_recall": 0.7540983606557377,
+          "gates": {
+            "P1_recall": true,
+            "P1w_recall": false,
+            "S0_false_flag_target": true,
+            "other_retained_false_flag_targets": false,
+            "abstentions": true
+          },
+          "passed": false,
+          "sources": 61,
+          "groups": 39
+        },
+        "60_to_90ms": {
+          "families": {
+            "S_original": {
+              "attempted": 47,
+              "measured": 47,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S0": {
+              "attempted": 47,
+              "measured": 47,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S1": {
+              "attempted": 47,
+              "measured": 47,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S_world": {
+              "attempted": 47,
+              "measured": 47,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S2": {
+              "attempted": 47,
+              "measured": 47,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "P1": {
+              "attempted": 47,
+              "measured": 47,
+              "flagged": 47,
+              "flag_rate": 1.0,
+              "abstention_rate": 0.0
+            },
+            "P1w": {
+              "attempted": 47,
+              "measured": 47,
+              "flagged": 45,
+              "flag_rate": 0.9574468085106383,
+              "abstention_rate": 0.0
+            }
+          },
+          "duration_strata": {},
+          "minimum_positive_recall": 0.9574468085106383,
+          "gates": {
+            "P1_recall": true,
+            "P1w_recall": true,
+            "S0_false_flag_target": true,
+            "other_retained_false_flag_targets": true,
+            "abstentions": true
+          },
+          "passed": true,
+          "sources": 47,
+          "groups": 33
+        },
+        "90ms_and_up": {
+          "families": {
+            "S_original": {
+              "attempted": 1,
+              "measured": 1,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S0": {
+              "attempted": 1,
+              "measured": 1,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S1": {
+              "attempted": 1,
+              "measured": 1,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S_world": {
+              "attempted": 1,
+              "measured": 1,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "S2": {
+              "attempted": 1,
+              "measured": 1,
+              "flagged": 0,
+              "flag_rate": 0.0,
+              "abstention_rate": 0.0
+            },
+            "P1": {
+              "attempted": 1,
+              "measured": 1,
+              "flagged": 1,
+              "flag_rate": 1.0,
+              "abstention_rate": 0.0
+            },
+            "P1w": {
+              "attempted": 1,
+              "measured": 1,
+              "flagged": 1,
+              "flag_rate": 1.0,
+              "abstention_rate": 0.0
+            }
+          },
+          "duration_strata": {},
+          "minimum_positive_recall": 1.0,
+          "gates": {
+            "P1_recall": true,
+            "P1w_recall": true,
+            "S0_false_flag_target": true,
+            "other_retained_false_flag_targets": true,
+            "abstentions": true
+          },
+          "passed": true,
+          "sources": 1,
+          "groups": 1
+        }
+      },
+      "minimum_positive_recall": 0.8468468468468469,
+      "gates": {
+        "P1_recall": true,
+        "P1w_recall": true,
+        "S0_false_flag_target": true,
+        "other_retained_false_flag_targets": true,
+        "abstentions": true,
+        "short_vowel_40_to_60ms": false
+      },
+      "passed": false
+    }
+  },
+  "ready_for_new_independent_test": false,
+  "cv_minimum_recall_gain_over_no_audio": -0.03376623376623378,
+  "short_vowel_cv_gain_over_no_audio": -0.04166666666666674,
+  "mechanistic_gain_criterion_met": false,
+  "vowel_veto_strength": 0.6649879217147827,
+  "oof_sham_minus_original_known_region_dense_logit": {
+    "sources": 385,
+    "median": 0.004174470901489258,
+    "absolute_q95": 0.26935825347900383
+  },
+  "hint_fallback_rows_by_family": {},
+  "model_sha256": "3f1840867759d3ebfee31bd4875450e27c5ba4774d7dc1d49250380204b42883",
+  "logit_threshold": 1.8980853421783448,
+  "calibration_quantiles": {
+    "S_original": -1.5104485750198364,
+    "S0": 0.2268662452697754,
+    "S1": -1.225898027420044,
+    "S_world": -1.3929888010025024,
+    "S2": 1.8980753421783447
+  },
+  "actual_hindi_error_accuracy": null,
+  "production_changed": false,
+  "new_test_opened": false
+}

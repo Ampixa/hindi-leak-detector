@@ -1,0 +1,19 @@
+{
+  "mode": "relative_word_duration_only",
+  "partitions": {
+    "train": 100,
+    "development": 24,
+    "reserved_evaluation": 40
+  },
+  "inputs": "Same frozen164-word/conditioning-group partitions as pitch experiment; no rhythm model fitted or reserved rhythm scores inspected before this protocol.",
+  "prior_exposure": "The word sets previously appeared in v49 pitch-only evaluation. They remain held out from rhythm fitting, not globally untouched data.",
+  "intervention": "Redistribute Native word durations proportional to donor word lengths; preserve Native absolute pauses, total utterance length and all Native spectral/F0/aperiodicity values under monotone time warp.",
+  "admissibility": "Local duration ratio.4..2.5, explicit minimum word30ms; finite outputs; lexical Native donor ASR pass; identical aligned words.",
+  "protocol_recovery": "v51 failed before any model fitting:58train/13dev/21reserved below preset60/15/25 quotas. Metadata audit identified natural short function words such as म/यो/र below80ms. New30ms floor retains six WORLD frames, same stretch bounds; exact last-word-at-duration boundary fixed. No v51 checkpoint or reserved rhythm scores existed.",
+  "measurement": "MMS_FA re-aligns emitted WAV; only measured duration_relative,pause_before_relative,pause_after_relative with+/-2 word context feed model, not intended warp landmarks.",
+  "phone_audit": "Free phone edit distance relative to original Native compared to sham baseline; exact-stability subset reported separately, never called human gold.",
+  "labels": "Physical Hindi-checkpoint versus Native-donor word rhythm, not unacceptable Hindi-error gold.",
+  "model": "40->8->1 MLP with training-only normalization; minimum dev BCE of300 epochs; high=max(.5,max dev native+.00001), frozen before reserved scoring.",
+  "nuisance": "Reserved sham +/-3 semitones and gain.4, same duration intent. Extra flags over WORLD sham explicitly reported.",
+  "source_plan_sha256": "24839c0f72c51fbb214845c630b99a23f418fe06e92b5c665182b5cbb1618a14"
+}

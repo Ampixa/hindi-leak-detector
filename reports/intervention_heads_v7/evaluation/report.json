@@ -1,0 +1,152 @@
+{
+  "status": "intervention_components_trained_evaluated_not_validated_hindi_detector",
+  "training_clips": 288,
+  "development_clips": 48,
+  "test_clips": 48,
+  "training_words": 24,
+  "development_words": 12,
+  "test_words": 12,
+  "test_voice_ids": [
+    5
+  ],
+  "raw_ctc_zero_threshold_request_metrics": {
+    "n": 48,
+    "positive_labels": 24,
+    "negative_labels": 24,
+    "tp": 24,
+    "fp": 24,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "false_positive_rate": 1.0,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5,
+    "brier": 0.5
+  },
+  "branches": {
+    "ctc_site": {
+      "request_class_metrics": {
+        "n": 48,
+        "positive_labels": 24,
+        "negative_labels": 24,
+        "tp": 16,
+        "fp": 3,
+        "fn": 8,
+        "tn": 21,
+        "precision": 0.8421052631578947,
+        "recall": 0.6666666666666666,
+        "false_positive_rate": 0.125,
+        "accuracy": 0.7708333333333334,
+        "balanced_accuracy": 0.7708333333333333,
+        "brier": 0.15201466323749205
+      },
+      "paired_ordering": {
+        "pairs": 24,
+        "ordered_as_requested": 21,
+        "ties": 0,
+        "median_difference": 0.508349887889946
+      },
+      "site_kind_metrics": {
+        "internal": {
+          "n": 24,
+          "positive_labels": 12,
+          "negative_labels": 12,
+          "tp": 9,
+          "fp": 1,
+          "fn": 3,
+          "tn": 11,
+          "precision": 0.9,
+          "recall": 0.75,
+          "false_positive_rate": 0.08333333333333333,
+          "accuracy": 0.8333333333333334,
+          "balanced_accuracy": 0.8333333333333333,
+          "brier": 0.12446682144028565
+        },
+        "final": {
+          "n": 24,
+          "positive_labels": 12,
+          "negative_labels": 12,
+          "tp": 7,
+          "fp": 2,
+          "fn": 5,
+          "tn": 10,
+          "precision": 0.7777777777777778,
+          "recall": 0.5833333333333334,
+          "false_positive_rate": 0.16666666666666666,
+          "accuracy": 0.7083333333333334,
+          "balanced_accuracy": 0.7083333333333334,
+          "brier": 0.17956250503469848
+        }
+      }
+    },
+    "pooled_phone": {
+      "request_class_metrics": {
+        "n": 48,
+        "positive_labels": 24,
+        "negative_labels": 24,
+        "tp": 19,
+        "fp": 14,
+        "fn": 5,
+        "tn": 10,
+        "precision": 0.5757575757575758,
+        "recall": 0.7916666666666666,
+        "false_positive_rate": 0.5833333333333334,
+        "accuracy": 0.6041666666666666,
+        "balanced_accuracy": 0.6041666666666666,
+        "brier": 0.2848153410333482
+      },
+      "paired_ordering": {
+        "pairs": 24,
+        "ordered_as_requested": 11,
+        "ties": 0,
+        "median_difference": -0.017169626123570703
+      },
+      "site_kind_metrics": {
+        "internal": {
+          "n": 24,
+          "positive_labels": 12,
+          "negative_labels": 12,
+          "tp": 7,
+          "fp": 5,
+          "fn": 5,
+          "tn": 7,
+          "precision": 0.5833333333333334,
+          "recall": 0.5833333333333334,
+          "false_positive_rate": 0.4166666666666667,
+          "accuracy": 0.5833333333333334,
+          "balanced_accuracy": 0.5833333333333334,
+          "brier": 0.27625642913179926
+        },
+        "final": {
+          "n": 24,
+          "positive_labels": 12,
+          "negative_labels": 12,
+          "tp": 12,
+          "fp": 9,
+          "fn": 0,
+          "tn": 3,
+          "precision": 0.5714285714285714,
+          "recall": 1.0,
+          "false_positive_rate": 0.75,
+          "accuracy": 0.625,
+          "balanced_accuracy": 0.625,
+          "brier": 0.2933742529348971
+        }
+      }
+    }
+  },
+  "test_feature_reads_after_selection_artifact": true,
+  "feature_manifest_sha256": "b66851033ba778f885a6e1887cc5d06f1268186c6f64503296ad82de84c28aa6",
+  "actual_hindi_leakage_accuracy": null,
+  "actual_native_acceptability_accuracy": null,
+  "overall_goal_achieved": false,
+  "limits": [
+    "All target classes describe known renderer phone requests; acoustic adherence and human acceptability are not gold.",
+    "Test jointly holds out12 lexemes and one voice ID; it cannot establish generalization across real people, vocoders or natural speech.",
+    "Two rates and two conditions per word are dependent observations;48 test clips are not48 independent native speakers.",
+    "Current human-bank words and original IndicF5/Pocket focus lexemes were excluded from the entire intervention corpus.",
+    "Source voice, condition, decoder timing and realized duration are not model inputs. No prosody error classifier is established.",
+    "These are auxiliary schwa-realization components; Pocket remains the preferred TTS reference and actual Hindi leakage remains unvalidated."
+  ]
+}

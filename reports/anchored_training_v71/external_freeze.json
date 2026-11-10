@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-11-09T08:17:32.747151+00:00",
+  "external_host": "cdjks-MacBook-Pro-2.local",
+  "external_path": "/Users/cdjk/github/hindi-detector/reports/anchored_training_v71",
+  "files_sha256": {
+    "model.pt": "cd912af1fcf474a4aecbf2654e62185bf8d44623d48e90c72967512a3f25ef51",
+    "protocol.json": "0dfb01c0f29e0ad42d97462f7066ea70fd0177edc77e8b37d596d3137c22eeac",
+    "frozen_selection.json": "78cc99c4131dc3e7fba5a4f991bc11e46107b1dbe5f5a018298d1f34d87ee70f"
+  },
+  "verified": true,
+  "test_opened": false
+}

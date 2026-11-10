@@ -1,0 +1,30 @@
+{
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "inputs": [
+    {
+      "path": "reports/swar_corpus_features_v18/items.jsonl",
+      "sha256": "6ba67bf157b46ac87196d47737116a1961dfd2f361e7a878261e4157f156cbe5"
+    },
+    {
+      "path": "reports/swar_phone_crosscheck_v20/items.jsonl",
+      "sha256": "dc09e090839d557f47ec3aa301423c0de3fcaf8591a02d05d8e9ba801880549c"
+    },
+    {
+      "path": "reports/swar_teacher_features_v21/items.jsonl",
+      "sha256": "a33e2fe8a7b9ae90c1c71d0344d809dc728e35ac3d2f4f17e95642e6a60c8a17"
+    },
+    {
+      "path": "reports/swar_teacher_secondary_v36/items.jsonl",
+      "sha256": "3652eea54915b50ae96a2f747d95ba2b57c73692376a1a0a3b505c22ba682d01"
+    },
+    {
+      "path": "reports/swar_teacher_content_v21/items.jsonl",
+      "sha256": "658975599569fed6c8ac14e3f1fb67206546c99f4e2b74e43d999a22777242be"
+    }
+  ],
+  "selection": "All86 available same-text cases; two original cached teacher conditioning groups; all3 recording sources",
+  "reference_policy": "Global ASR content pass plus both-probe site qualification; ignore unqualified; conflict abstains. Report reference-count support.",
+  "interpretation": "Real human disagreement with teacher is observed pronunciation variation, not automatically an error or false-positive label.",
+  "frozen_model": true,
+  "training_or_threshold_updates": false
+}

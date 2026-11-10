@@ -1,0 +1,16 @@
+{
+  "pid": 38525,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-u",
+    "-m",
+    "scripts.detect_nepali_leakage",
+    "--query",
+    "/Volumes/T9/hindi-detector/data/minimal_audit_v29/teacher/audio/audit29_14d2f6e0a3cd602d0d37_v0_c1.wav",
+    "--text",
+    "\u092f\u0938 \u092a\u091f\u0915 \u0928\u0938\u0915\u093f\u092f\u094b\u0938\u094d \u092d\u0928\u094d\u0928\u0941\u0939\u094b\u0938\u094d\u0964",
+    "--out",
+    "/Volumes/T9/hindi-detector/reports/new_text_inference_v35/deletion_result"
+  ],
+  "created_utc": "2026-11-09T00:43:47.519213+00:00"
+}

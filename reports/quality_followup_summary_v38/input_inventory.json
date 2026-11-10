@@ -1,0 +1,32 @@
+[
+  {
+    "path": "reports/fresh_gap_audit_v32/items.jsonl",
+    "sha256": "b444c98f253912de04c81de0823d986d9b212a2e0efcf796704a4959bc2fd5e3",
+    "bytes": 686766
+  },
+  {
+    "path": "reports/release_quality_gap_audit_v38/items.jsonl",
+    "sha256": "d3b0acc9e65b41ae51e9b3d023d6c944b604cc0937291ade43c4e5fe187bf92c",
+    "bytes": 277679
+  },
+  {
+    "path": "reports/minimal_quality_content_v38/result.json",
+    "sha256": "9be3b2dbb861d97c00e926de84da8d43c4bc19dcb6a3b621432790e8105ad49b",
+    "bytes": 904824
+  },
+  {
+    "path": "data/minimal_quality_audit_v38/selection.json",
+    "sha256": "93465ba52e9e2b932ba8b874c72bd3e4355ee310f1fcfa0aeacaf360e3449b17",
+    "bytes": 642455
+  },
+  {
+    "path": "reports/intrinsic_quality_audit_v38/report.json",
+    "sha256": "4ebae32726a898e159166685352c2cb9b195beba3ec35c61401b64be6bdb2b10",
+    "bytes": 25587
+  },
+  {
+    "path": "reports/quality_audit_launch_v38/protocol.json",
+    "sha256": "37144c532b6fef9d348f71438d2625c7dfcfd0fd5974f863d3f630ef4af66395",
+    "bytes": 887
+  }
+]

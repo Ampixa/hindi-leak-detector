@@ -1,0 +1,2472 @@
+{
+  "status": "real_word_transfer_measured_unvalidated_error_detection",
+  "clips": 1928,
+  "candidate_word_occurrences": 1844,
+  "source_clip_counts": {
+    "matrix_indicf5": 512,
+    "matrix_pocket": 1024,
+    "regional_humans": 232,
+    "original_benchmark": 96,
+    "native_challenge": 64
+  },
+  "overall": {
+    "candidate_word_occurrences": 1844,
+    "branches": {
+      "ctc_site": {
+        "baseline_supported": 1157,
+        "all_seven_windows_supported": 1104,
+        "request_class_changes_across_windows": 293,
+        "baseline_score_at_least_half": 528,
+        "baseline_request_scores": {
+          "n": 1157,
+          "median": 0.150978516488292,
+          "p10": 6.048024879226232e-05,
+          "p90": 0.9999734899523577,
+          "minimum": 1.933392563621788e-07,
+          "maximum": 0.999999999999934
+        },
+        "descriptive_human_rank_available": 222
+      },
+      "pooled_phone": {
+        "baseline_supported": 1157,
+        "all_seven_windows_supported": 1104,
+        "request_class_changes_across_windows": 435,
+        "baseline_score_at_least_half": 383,
+        "baseline_request_scores": {
+          "n": 1157,
+          "median": 0.45035455582327943,
+          "p10": 0.2766208013400104,
+          "p90": 0.6497551339564078,
+          "minimum": 0.021339670036518182,
+          "maximum": 0.9956475897910835
+        },
+        "descriptive_human_rank_available": 222
+      }
+    }
+  },
+  "systems": {
+    "audio8_dpo_R2": {
+      "candidate_word_occurrences": 1,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "audio8_dpo_R3": {
+      "candidate_word_occurrences": 1,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "human_nepali_unlabeled": {
+      "candidate_word_occurrences": 264,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 144,
+          "all_seven_windows_supported": 102,
+          "request_class_changes_across_windows": 66,
+          "baseline_score_at_least_half": 84,
+          "baseline_request_scores": {
+            "n": 144,
+            "median": 0.9780460967071753,
+            "p10": 0.00038300268288172303,
+            "p90": 0.9999999543909468,
+            "minimum": 1.1388911097597427e-06,
+            "maximum": 0.999999999999934
+          },
+          "descriptive_human_rank_available": 77
+        },
+        "pooled_phone": {
+          "baseline_supported": 144,
+          "all_seven_windows_supported": 102,
+          "request_class_changes_across_windows": 71,
+          "baseline_score_at_least_half": 54,
+          "baseline_request_scores": {
+            "n": 144,
+            "median": 0.46884652096483903,
+            "p10": 0.2795358740311431,
+            "p90": 0.6096086927984203,
+            "minimum": 0.021339670036518182,
+            "maximum": 0.9956475897910835
+          },
+          "descriptive_human_rank_available": 77
+        }
+      }
+    },
+    "indicf5_stock": {
+      "candidate_word_occurrences": 513,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 336,
+          "all_seven_windows_supported": 330,
+          "request_class_changes_across_windows": 57,
+          "baseline_score_at_least_half": 146,
+          "baseline_request_scores": {
+            "n": 336,
+            "median": 0.060790233951749525,
+            "p10": 2.1361751744400735e-05,
+            "p90": 0.999967838421199,
+            "minimum": 2.833092519365156e-07,
+            "maximum": 0.999999995343164
+          },
+          "descriptive_human_rank_available": 47
+        },
+        "pooled_phone": {
+          "baseline_supported": 336,
+          "all_seven_windows_supported": 330,
+          "request_class_changes_across_windows": 126,
+          "baseline_score_at_least_half": 114,
+          "baseline_request_scores": {
+            "n": 336,
+            "median": 0.4511647197296814,
+            "p10": 0.28399932969425506,
+            "p90": 0.6564556606412413,
+            "minimum": 0.10106343655041937,
+            "maximum": 0.8915347700787803
+          },
+          "descriptive_human_rank_available": 47
+        }
+      }
+    },
+    "native_recording": {
+      "candidate_word_occurrences": 21,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 3,
+          "all_seven_windows_supported": 1,
+          "request_class_changes_across_windows": 3,
+          "baseline_score_at_least_half": 2,
+          "baseline_request_scores": {
+            "n": 3,
+            "median": 0.9600511805909068,
+            "p10": 0.22098678507437758,
+            "p90": 0.9896769630198923,
+            "minimum": 0.03622068619524526,
+            "maximum": 0.9970834086271386
+          },
+          "descriptive_human_rank_available": 1
+        },
+        "pooled_phone": {
+          "baseline_supported": 3,
+          "all_seven_windows_supported": 1,
+          "request_class_changes_across_windows": 1,
+          "baseline_score_at_least_half": 2,
+          "baseline_request_scores": {
+            "n": 3,
+            "median": 0.5387419854106735,
+            "p10": 0.47532786013869865,
+            "p90": 0.5408788766389451,
+            "minimum": 0.45947432882070494,
+            "maximum": 0.541413099446013
+          },
+          "descriptive_human_rank_available": 1
+        }
+      }
+    },
+    "pocket_hindi_parent": {
+      "candidate_word_occurrences": 512,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 336,
+          "all_seven_windows_supported": 335,
+          "request_class_changes_across_windows": 75,
+          "baseline_score_at_least_half": 150,
+          "baseline_request_scores": {
+            "n": 336,
+            "median": 0.11307820711710265,
+            "p10": 0.0001750887723849889,
+            "p90": 0.9999217247818601,
+            "minimum": 2.4959404544664445e-07,
+            "maximum": 0.9999987393015595
+          },
+          "descriptive_human_rank_available": 48
+        },
+        "pooled_phone": {
+          "baseline_supported": 336,
+          "all_seven_windows_supported": 335,
+          "request_class_changes_across_windows": 109,
+          "baseline_score_at_least_half": 112,
+          "baseline_request_scores": {
+            "n": 336,
+            "median": 0.4469652268352273,
+            "p10": 0.25895845279790763,
+            "p90": 0.6707678327015081,
+            "minimum": 0.092620620660438,
+            "maximum": 0.9145161671782636
+          },
+          "descriptive_human_rank_available": 48
+        }
+      }
+    },
+    "pocket_nepali_v1c": {
+      "candidate_word_occurrences": 532,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 338,
+          "all_seven_windows_supported": 336,
+          "request_class_changes_across_windows": 92,
+          "baseline_score_at_least_half": 146,
+          "baseline_request_scores": {
+            "n": 338,
+            "median": 0.13195112417419078,
+            "p10": 5.085451190293103e-05,
+            "p90": 0.9999632771216183,
+            "minimum": 1.933392563621788e-07,
+            "maximum": 0.9999999798959838
+          },
+          "descriptive_human_rank_available": 49
+        },
+        "pooled_phone": {
+          "baseline_supported": 338,
+          "all_seven_windows_supported": 336,
+          "request_class_changes_across_windows": 128,
+          "baseline_score_at_least_half": 101,
+          "baseline_request_scores": {
+            "n": 338,
+            "median": 0.44617047066600635,
+            "p10": 0.3093672322743539,
+            "p90": 0.623950089397657,
+            "minimum": 0.07434984564009493,
+            "maximum": 0.9105635867811687
+          },
+          "descriptive_human_rank_available": 49
+        }
+      }
+    }
+  },
+  "words": {
+    "अब": {
+      "candidate_word_occurrences": 37,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "अमन": {
+      "candidate_word_occurrences": 48,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 48,
+          "all_seven_windows_supported": 45,
+          "request_class_changes_across_windows": 12,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 48,
+            "median": 0.0001831568197146007,
+            "p10": 4.472261520874486e-06,
+            "p90": 0.030418075215517957,
+            "minimum": 8.741397136819496e-07,
+            "maximum": 0.47870448496488466
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 48,
+          "all_seven_windows_supported": 45,
+          "request_class_changes_across_windows": 29,
+          "baseline_score_at_least_half": 8,
+          "baseline_request_scores": {
+            "n": 48,
+            "median": 0.446651083958445,
+            "p10": 0.3555505498022475,
+            "p90": 0.54868728692086,
+            "minimum": 0.2396392900342711,
+            "maximum": 0.5867304103213482
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "अमर": {
+      "candidate_word_occurrences": 96,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 96,
+          "all_seven_windows_supported": 92,
+          "request_class_changes_across_windows": 40,
+          "baseline_score_at_least_half": 11,
+          "baseline_request_scores": {
+            "n": 96,
+            "median": 0.005937948352787792,
+            "p10": 2.6157507110983238e-05,
+            "p90": 0.5338872851432548,
+            "minimum": 1.3437968132238286e-06,
+            "maximum": 0.9967497070424053
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 96,
+          "all_seven_windows_supported": 92,
+          "request_class_changes_across_windows": 61,
+          "baseline_score_at_least_half": 12,
+          "baseline_request_scores": {
+            "n": 96,
+            "median": 0.44798762260090563,
+            "p10": 0.3680265906452638,
+            "p90": 0.5061436049505241,
+            "minimum": 0.2730147708732506,
+            "maximum": 0.6239638027263325
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "अर्थ": {
+      "candidate_word_occurrences": 102,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "असल": {
+      "candidate_word_occurrences": 54,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 54,
+          "all_seven_windows_supported": 53,
+          "request_class_changes_across_windows": 23,
+          "baseline_score_at_least_half": 8,
+          "baseline_request_scores": {
+            "n": 54,
+            "median": 0.0013559687612855068,
+            "p10": 1.6183388678390597e-06,
+            "p90": 0.8851363332140796,
+            "minimum": 1.933392563621788e-07,
+            "maximum": 0.9832063880523997
+          },
+          "descriptive_human_rank_available": 47
+        },
+        "pooled_phone": {
+          "baseline_supported": 54,
+          "all_seven_windows_supported": 53,
+          "request_class_changes_across_windows": 30,
+          "baseline_score_at_least_half": 36,
+          "baseline_request_scores": {
+            "n": 54,
+            "median": 0.5308653683754905,
+            "p10": 0.3763175813727611,
+            "p90": 0.714049628485616,
+            "minimum": 0.2377602478131327,
+            "maximum": 0.8547603573126609
+          },
+          "descriptive_human_rank_available": 47
+        }
+      }
+    },
+    "आज": {
+      "candidate_word_occurrences": 13,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "उच्च": {
+      "candidate_word_occurrences": 8,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 8,
+          "all_seven_windows_supported": 8,
+          "request_class_changes_across_windows": 5,
+          "baseline_score_at_least_half": 6,
+          "baseline_request_scores": {
+            "n": 8,
+            "median": 0.9812076580183337,
+            "p10": 0.32101234105665155,
+            "p90": 0.9994033481912656,
+            "minimum": 0.21594346608504328,
+            "maximum": 0.9998888873117321
+          },
+          "descriptive_human_rank_available": 8
+        },
+        "pooled_phone": {
+          "baseline_supported": 8,
+          "all_seven_windows_supported": 8,
+          "request_class_changes_across_windows": 7,
+          "baseline_score_at_least_half": 2,
+          "baseline_request_scores": {
+            "n": 8,
+            "median": 0.41969586509456713,
+            "p10": 0.24734301693445968,
+            "p90": 0.5491599609186162,
+            "minimum": 0.17337945683856204,
+            "maximum": 0.6062488549441603
+          },
+          "descriptive_human_rank_available": 8
+        }
+      }
+    },
+    "उधार": {
+      "candidate_word_occurrences": 48,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "उपाय": {
+      "candidate_word_occurrences": 48,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 48,
+          "all_seven_windows_supported": 48,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 48,
+          "baseline_request_scores": {
+            "n": 48,
+            "median": 0.9999763782385882,
+            "p10": 0.9998416524618051,
+            "p90": 0.9999985561940843,
+            "minimum": 0.9988462319123848,
+            "maximum": 0.9999997496123373
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 48,
+          "all_seven_windows_supported": 48,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 48,
+          "baseline_request_scores": {
+            "n": 48,
+            "median": 0.6836913194352281,
+            "p10": 0.568663701859153,
+            "p90": 0.8079358416961469,
+            "minimum": 0.5361688956347255,
+            "maximum": 0.8508133881847968
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "कमला": {
+      "candidate_word_occurrences": 48,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 48,
+          "all_seven_windows_supported": 48,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 48,
+          "baseline_request_scores": {
+            "n": 48,
+            "median": 0.9999016890940278,
+            "p10": 0.9959496087574169,
+            "p90": 0.9999882640624124,
+            "minimum": 0.9838093671409947,
+            "maximum": 0.9999986633707196
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 48,
+          "all_seven_windows_supported": 48,
+          "request_class_changes_across_windows": 16,
+          "baseline_score_at_least_half": 2,
+          "baseline_request_scores": {
+            "n": 48,
+            "median": 0.4382927138627961,
+            "p10": 0.38949215988073776,
+            "p90": 0.48886419128499387,
+            "minimum": 0.3611502365901758,
+            "maximum": 0.5106779320497785
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "कर्म": {
+      "candidate_word_occurrences": 96,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 96,
+          "all_seven_windows_supported": 96,
+          "request_class_changes_across_windows": 54,
+          "baseline_score_at_least_half": 61,
+          "baseline_request_scores": {
+            "n": 96,
+            "median": 0.9953251163405825,
+            "p10": 0.0001491518976531374,
+            "p90": 0.999955058652693,
+            "minimum": 6.13732994790732e-06,
+            "maximum": 0.9999999473729014
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 96,
+          "all_seven_windows_supported": 96,
+          "request_class_changes_across_windows": 28,
+          "baseline_score_at_least_half": 13,
+          "baseline_request_scores": {
+            "n": 96,
+            "median": 0.41691268186413116,
+            "p10": 0.305374525961831,
+            "p90": 0.5120299533099697,
+            "minimum": 0.1544139516982933,
+            "maximum": 0.6791251619621214
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "कर्मचारी": {
+      "candidate_word_occurrences": 48,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 48,
+          "all_seven_windows_supported": 48,
+          "request_class_changes_across_windows": 7,
+          "baseline_score_at_least_half": 30,
+          "baseline_request_scores": {
+            "n": 48,
+            "median": 0.9882334784696052,
+            "p10": 0.004570522121302704,
+            "p90": 0.9994866875402083,
+            "minimum": 0.002355738249681839,
+            "maximum": 0.9999576930161118
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 48,
+          "all_seven_windows_supported": 48,
+          "request_class_changes_across_windows": 4,
+          "baseline_score_at_least_half": 2,
+          "baseline_request_scores": {
+            "n": 48,
+            "median": 0.3030118185980256,
+            "p10": 0.17427585866557485,
+            "p90": 0.41537417765499335,
+            "minimum": 0.1478461268379743,
+            "maximum": 0.6918516287353725
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "कलह": {
+      "candidate_word_occurrences": 48,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "कष्ट": {
+      "candidate_word_occurrences": 48,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 48,
+          "all_seven_windows_supported": 48,
+          "request_class_changes_across_windows": 8,
+          "baseline_score_at_least_half": 1,
+          "baseline_request_scores": {
+            "n": 48,
+            "median": 0.00032750036768687,
+            "p10": 3.88903774464614e-05,
+            "p90": 0.03698700172342155,
+            "minimum": 3.013996980112201e-06,
+            "maximum": 0.9989858319738992
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 48,
+          "all_seven_windows_supported": 48,
+          "request_class_changes_across_windows": 18,
+          "baseline_score_at_least_half": 29,
+          "baseline_request_scores": {
+            "n": 48,
+            "median": 0.5427636812199015,
+            "p10": 0.40256225715063726,
+            "p90": 0.6829266245500566,
+            "minimum": 0.2331165524284405,
+            "maximum": 0.8915347700787803
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "कसरत": {
+      "candidate_word_occurrences": 48,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 48,
+          "all_seven_windows_supported": 48,
+          "request_class_changes_across_windows": 9,
+          "baseline_score_at_least_half": 17,
+          "baseline_request_scores": {
+            "n": 48,
+            "median": 0.06116268916861904,
+            "p10": 0.0016217286686055817,
+            "p90": 0.9939634936771927,
+            "minimum": 0.00013540724614267253,
+            "maximum": 0.999614716634564
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 48,
+          "all_seven_windows_supported": 48,
+          "request_class_changes_across_windows": 12,
+          "baseline_score_at_least_half": 11,
+          "baseline_request_scores": {
+            "n": 48,
+            "median": 0.4363155920407641,
+            "p10": 0.32573318148260927,
+            "p90": 0.5388772247482072,
+            "minimum": 0.21097675054575837,
+            "maximum": 0.6005615868640906
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "किन": {
+      "candidate_word_occurrences": 9,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 7,
+          "all_seven_windows_supported": 2,
+          "request_class_changes_across_windows": 1,
+          "baseline_score_at_least_half": 7,
+          "baseline_request_scores": {
+            "n": 7,
+            "median": 0.9999996510296693,
+            "p10": 0.9999718119331553,
+            "p90": 0.9999999995423121,
+            "minimum": 0.9999699383955333,
+            "maximum": 0.9999999997570752
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 7,
+          "all_seven_windows_supported": 2,
+          "request_class_changes_across_windows": 5,
+          "baseline_score_at_least_half": 7,
+          "baseline_request_scores": {
+            "n": 7,
+            "median": 0.5474305097649597,
+            "p10": 0.5166751788149898,
+            "p90": 0.5998979427279473,
+            "minimum": 0.5139584131967369,
+            "maximum": 0.6375070877310607
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "कृष्ण": {
+      "candidate_word_occurrences": 96,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 96,
+          "all_seven_windows_supported": 96,
+          "request_class_changes_across_windows": 33,
+          "baseline_score_at_least_half": 10,
+          "baseline_request_scores": {
+            "n": 96,
+            "median": 0.0020923490974356753,
+            "p10": 0.0001235676088852687,
+            "p90": 0.48297943035742874,
+            "minimum": 4.0984106988198365e-06,
+            "maximum": 0.9964032225372077
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 96,
+          "all_seven_windows_supported": 96,
+          "request_class_changes_across_windows": 46,
+          "baseline_score_at_least_half": 76,
+          "baseline_request_scores": {
+            "n": 96,
+            "median": 0.581662130590243,
+            "p10": 0.4352675567783424,
+            "p90": 0.7060096213481617,
+            "minimum": 0.2239142967097431,
+            "maximum": 0.9105635867811687
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "खान": {
+      "candidate_word_occurrences": 10,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 10,
+          "all_seven_windows_supported": 4,
+          "request_class_changes_across_windows": 5,
+          "baseline_score_at_least_half": 10,
+          "baseline_request_scores": {
+            "n": 10,
+            "median": 0.999997105656688,
+            "p10": 0.9995785798168032,
+            "p90": 0.9999999915789263,
+            "minimum": 0.9970834086271386,
+            "maximum": 0.9999999998156279
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 10,
+          "all_seven_windows_supported": 4,
+          "request_class_changes_across_windows": 6,
+          "baseline_score_at_least_half": 9,
+          "baseline_request_scores": {
+            "n": 10,
+            "median": 0.5254157179311678,
+            "p10": 0.5024742658847214,
+            "p90": 0.573237628456981,
+            "minimum": 0.48918307156906393,
+            "maximum": 0.59415718856052
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "गमला": {
+      "candidate_word_occurrences": 96,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 96,
+          "all_seven_windows_supported": 96,
+          "request_class_changes_across_windows": 1,
+          "baseline_score_at_least_half": 95,
+          "baseline_request_scores": {
+            "n": 96,
+            "median": 0.9998989736576231,
+            "p10": 0.9989275442497523,
+            "p90": 0.9999931579364381,
+            "minimum": 0.1953672222858566,
+            "maximum": 0.9999989529361389
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 96,
+          "all_seven_windows_supported": 96,
+          "request_class_changes_across_windows": 12,
+          "baseline_score_at_least_half": 4,
+          "baseline_request_scores": {
+            "n": 96,
+            "median": 0.4001389760669837,
+            "p10": 0.35516989449481434,
+            "p90": 0.4688227196562451,
+            "minimum": 0.28922883479227396,
+            "maximum": 0.6960270342119772
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "गर": {
+      "candidate_word_occurrences": 9,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 8,
+          "all_seven_windows_supported": 2,
+          "request_class_changes_across_windows": 4,
+          "baseline_score_at_least_half": 7,
+          "baseline_request_scores": {
+            "n": 8,
+            "median": 0.9995934363116185,
+            "p10": 0.6325571734845147,
+            "p90": 0.9999963760788336,
+            "minimum": 0.19731771110315258,
+            "maximum": 0.9999999641141559
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 8,
+          "all_seven_windows_supported": 2,
+          "request_class_changes_across_windows": 3,
+          "baseline_score_at_least_half": 2,
+          "baseline_request_scores": {
+            "n": 8,
+            "median": 0.3929432862306301,
+            "p10": 0.2518534971209318,
+            "p90": 0.8292210011586485,
+            "minimum": 0.23248552017386465,
+            "maximum": 0.9956475897910835
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "गरम": {
+      "candidate_word_occurrences": 104,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 104,
+          "all_seven_windows_supported": 104,
+          "request_class_changes_across_windows": 12,
+          "baseline_score_at_least_half": 1,
+          "baseline_request_scores": {
+            "n": 104,
+            "median": 0.00013506528249671528,
+            "p10": 4.685098238294355e-06,
+            "p90": 0.013607111831978443,
+            "minimum": 1.1388911097597427e-06,
+            "maximum": 0.626064229566499
+          },
+          "descriptive_human_rank_available": 104
+        },
+        "pooled_phone": {
+          "baseline_supported": 104,
+          "all_seven_windows_supported": 104,
+          "request_class_changes_across_windows": 8,
+          "baseline_score_at_least_half": 1,
+          "baseline_request_scores": {
+            "n": 104,
+            "median": 0.2363689497412202,
+            "p10": 0.11468221631204782,
+            "p90": 0.39242302022894154,
+            "minimum": 0.021339670036518182,
+            "maximum": 0.6824425069702177
+          },
+          "descriptive_human_rank_available": 104
+        }
+      }
+    },
+    "गहना": {
+      "candidate_word_occurrences": 48,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "गृह": {
+      "candidate_word_occurrences": 48,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "ग्रह": {
+      "candidate_word_occurrences": 48,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "घटना": {
+      "candidate_word_occurrences": 55,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "चितवन": {
+      "candidate_word_occurrences": 96,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 96,
+          "all_seven_windows_supported": 96,
+          "request_class_changes_across_windows": 19,
+          "baseline_score_at_least_half": 46,
+          "baseline_request_scores": {
+            "n": 96,
+            "median": 0.43140425844407115,
+            "p10": 0.0014478759684612738,
+            "p90": 0.999345272970497,
+            "minimum": 3.0807552271984795e-05,
+            "maximum": 0.9999950372824441
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 96,
+          "all_seven_windows_supported": 96,
+          "request_class_changes_across_windows": 45,
+          "baseline_score_at_least_half": 12,
+          "baseline_request_scores": {
+            "n": 96,
+            "median": 0.42785411869841317,
+            "p10": 0.3291511757629898,
+            "p90": 0.5020794677370513,
+            "minimum": 0.20402765571305595,
+            "maximum": 0.7367033775967803
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "चिन्ह": {
+      "candidate_word_occurrences": 48,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "चेतना": {
+      "candidate_word_occurrences": 96,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 96,
+          "all_seven_windows_supported": 96,
+          "request_class_changes_across_windows": 5,
+          "baseline_score_at_least_half": 64,
+          "baseline_request_scores": {
+            "n": 96,
+            "median": 0.9936624732787398,
+            "p10": 0.0031186780008363056,
+            "p90": 0.9998144130087625,
+            "minimum": 0.00013967531977100215,
+            "maximum": 0.999999995343164
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 96,
+          "all_seven_windows_supported": 96,
+          "request_class_changes_across_windows": 56,
+          "baseline_score_at_least_half": 72,
+          "baseline_request_scores": {
+            "n": 96,
+            "median": 0.5647243247785413,
+            "p10": 0.4277425409100477,
+            "p90": 0.7370535937017288,
+            "minimum": 0.28676999866318864,
+            "maximum": 0.9145161671782636
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "जन्म": {
+      "candidate_word_occurrences": 56,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "जब": {
+      "candidate_word_occurrences": 10,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "ज्येष्ठ": {
+      "candidate_word_occurrences": 48,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "तब": {
+      "candidate_word_occurrences": 10,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 9,
+          "all_seven_windows_supported": 2,
+          "request_class_changes_across_windows": 6,
+          "baseline_score_at_least_half": 8,
+          "baseline_request_scores": {
+            "n": 9,
+            "median": 0.9999992115878374,
+            "p10": 0.7943404479489877,
+            "p90": 0.9999999999527022,
+            "minimum": 0.017734849852495432,
+            "maximum": 0.999999999999934
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 9,
+          "all_seven_windows_supported": 2,
+          "request_class_changes_across_windows": 8,
+          "baseline_score_at_least_half": 8,
+          "baseline_request_scores": {
+            "n": 9,
+            "median": 0.5646867906243261,
+            "p10": 0.4646749613489158,
+            "p90": 0.5977927728292286,
+            "minimum": 0.2965297715091863,
+            "maximum": 0.6202686805892874
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "तर": {
+      "candidate_word_occurrences": 9,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 6,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 8,
+          "baseline_score_at_least_half": 5,
+          "baseline_request_scores": {
+            "n": 6,
+            "median": 0.98982200750414,
+            "p10": 0.48538055070917757,
+            "p90": 0.9998423107004144,
+            "minimum": 0.010709920827448404,
+            "maximum": 0.9999983870430976
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 6,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 3,
+          "baseline_score_at_least_half": 2,
+          "baseline_request_scores": {
+            "n": 6,
+            "median": 0.4422197235604848,
+            "p10": 0.3458265645952389,
+            "p90": 0.5709852001334057,
+            "minimum": 0.32204912384246936,
+            "maximum": 0.6005573008207984
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "तल": {
+      "candidate_word_occurrences": 10,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 10,
+          "all_seven_windows_supported": 3,
+          "request_class_changes_across_windows": 8,
+          "baseline_score_at_least_half": 10,
+          "baseline_request_scores": {
+            "n": 10,
+            "median": 0.9993811660979497,
+            "p10": 0.9958290100342698,
+            "p90": 0.9999999756437428,
+            "minimum": 0.993856030662629,
+            "maximum": 0.9999999841895746
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 10,
+          "all_seven_windows_supported": 3,
+          "request_class_changes_across_windows": 6,
+          "baseline_score_at_least_half": 5,
+          "baseline_request_scores": {
+            "n": 10,
+            "median": 0.4992297425810861,
+            "p10": 0.4660370208373239,
+            "p90": 0.6346697652337933,
+            "minimum": 0.40624741852653184,
+            "maximum": 0.7381099603737714
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "धर्म": {
+      "candidate_word_occurrences": 9,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "नष्ट": {
+      "candidate_word_occurrences": 7,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 7,
+          "all_seven_windows_supported": 7,
+          "request_class_changes_across_windows": 5,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 7,
+            "median": 0.0007693452966528601,
+            "p10": 0.00013194768679585715,
+            "p90": 0.0021256490923955472,
+            "minimum": 0.00012579030229893182,
+            "maximum": 0.0036730033988701073
+          },
+          "descriptive_human_rank_available": 7
+        },
+        "pooled_phone": {
+          "baseline_supported": 7,
+          "all_seven_windows_supported": 7,
+          "request_class_changes_across_windows": 4,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 7,
+            "median": 0.4088560832111502,
+            "p10": 0.25675560109403944,
+            "p90": 0.4536464348399558,
+            "minimum": 0.143006184236573,
+            "maximum": 0.4779526577252991
+          },
+          "descriptive_human_rank_available": 7
+        }
+      }
+    },
+    "पर": {
+      "candidate_word_occurrences": 6,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 6,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 4,
+          "baseline_score_at_least_half": 6,
+          "baseline_request_scores": {
+            "n": 6,
+            "median": 0.9999254033883078,
+            "p10": 0.9970986258479473,
+            "p90": 0.9999999974730841,
+            "minimum": 0.9970002391841196,
+            "maximum": 0.9999999993485607
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 6,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 3,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 6,
+            "median": 0.3622532016467629,
+            "p10": 0.24785554507375976,
+            "p90": 0.46391388726764626,
+            "minimum": 0.2320090031272113,
+            "maximum": 0.4730651117705217
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "पूर्ण": {
+      "candidate_word_occurrences": 7,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 7,
+          "all_seven_windows_supported": 7,
+          "request_class_changes_across_windows": 2,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 7,
+            "median": 0.001068409177712482,
+            "p10": 5.8868498693471134e-05,
+            "p90": 0.02124208101831935,
+            "minimum": 1.1463025277721613e-06,
+            "maximum": 0.040697169929021566
+          },
+          "descriptive_human_rank_available": 7
+        },
+        "pooled_phone": {
+          "baseline_supported": 7,
+          "all_seven_windows_supported": 7,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 7,
+            "median": 0.3710626100007301,
+            "p10": 0.29217044918215407,
+            "p90": 0.4358902067788921,
+            "minimum": 0.20792515012912308,
+            "maximum": 0.4677996634177469
+          },
+          "descriptive_human_rank_available": 7
+        }
+      }
+    },
+    "प्रश्न": {
+      "candidate_word_occurrences": 7,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 7,
+          "all_seven_windows_supported": 7,
+          "request_class_changes_across_windows": 3,
+          "baseline_score_at_least_half": 1,
+          "baseline_request_scores": {
+            "n": 7,
+            "median": 0.0032444629626390237,
+            "p10": 0.0009107011891093342,
+            "p90": 0.39999971682007507,
+            "minimum": 2.3596370578167232e-05,
+            "maximum": 0.5106647544235073
+          },
+          "descriptive_human_rank_available": 7
+        },
+        "pooled_phone": {
+          "baseline_supported": 7,
+          "all_seven_windows_supported": 7,
+          "request_class_changes_across_windows": 3,
+          "baseline_score_at_least_half": 4,
+          "baseline_request_scores": {
+            "n": 7,
+            "median": 0.5045483453593992,
+            "p10": 0.460314588725577,
+            "p90": 0.721174873453689,
+            "minimum": 0.45409378008157614,
+            "maximum": 0.8018326712050635
+          },
+          "descriptive_human_rank_available": 7
+        }
+      }
+    },
+    "प्राप्त": {
+      "candidate_word_occurrences": 10,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 10,
+          "all_seven_windows_supported": 10,
+          "request_class_changes_across_windows": 6,
+          "baseline_score_at_least_half": 2,
+          "baseline_request_scores": {
+            "n": 10,
+            "median": 0.018703291614006277,
+            "p10": 0.0003439147084672231,
+            "p90": 0.7695224113880088,
+            "minimum": 4.679614848162429e-05,
+            "maximum": 0.9055907058369609
+          },
+          "descriptive_human_rank_available": 10
+        },
+        "pooled_phone": {
+          "baseline_supported": 10,
+          "all_seven_windows_supported": 10,
+          "request_class_changes_across_windows": 5,
+          "baseline_score_at_least_half": 4,
+          "baseline_request_scores": {
+            "n": 10,
+            "median": 0.4682176126588219,
+            "p10": 0.4171089944914547,
+            "p90": 0.6675481170320336,
+            "minimum": 0.39779600259726083,
+            "maximum": 0.8438564779093592
+          },
+          "descriptive_human_rank_available": 10
+        }
+      }
+    },
+    "बार": {
+      "candidate_word_occurrences": 10,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 10,
+          "all_seven_windows_supported": 8,
+          "request_class_changes_across_windows": 1,
+          "baseline_score_at_least_half": 10,
+          "baseline_request_scores": {
+            "n": 10,
+            "median": 0.9999988431994149,
+            "p10": 0.9985793726070721,
+            "p90": 0.999999999528074,
+            "minimum": 0.9981963837928672,
+            "maximum": 0.9999999999998608
+          },
+          "descriptive_human_rank_available": 8
+        },
+        "pooled_phone": {
+          "baseline_supported": 10,
+          "all_seven_windows_supported": 8,
+          "request_class_changes_across_windows": 3,
+          "baseline_score_at_least_half": 9,
+          "baseline_request_scores": {
+            "n": 10,
+            "median": 0.5994131557148763,
+            "p10": 0.510647327945059,
+            "p90": 0.6700058419575399,
+            "minimum": 0.480643819429606,
+            "maximum": 0.7075795365183006
+          },
+          "descriptive_human_rank_available": 8
+        }
+      }
+    },
+    "बिहान": {
+      "candidate_word_occurrences": 12,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "बुद्ध": {
+      "candidate_word_occurrences": 9,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "मसला": {
+      "candidate_word_occurrences": 7,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 7,
+          "all_seven_windows_supported": 7,
+          "request_class_changes_across_windows": 4,
+          "baseline_score_at_least_half": 3,
+          "baseline_request_scores": {
+            "n": 7,
+            "median": 0.3062074018124375,
+            "p10": 0.006018135853553728,
+            "p90": 0.9057973448187997,
+            "minimum": 0.004299695099806911,
+            "maximum": 0.9816647726477054
+          },
+          "descriptive_human_rank_available": 7
+        },
+        "pooled_phone": {
+          "baseline_supported": 7,
+          "all_seven_windows_supported": 7,
+          "request_class_changes_across_windows": 3,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 7,
+            "median": 0.43083572204591714,
+            "p10": 0.30245753827492866,
+            "p90": 0.475697460168545,
+            "minimum": 0.28580775230537264,
+            "maximum": 0.49459185505165115
+          },
+          "descriptive_human_rank_available": 7
+        }
+      }
+    },
+    "शब्द": {
+      "candidate_word_occurrences": 9,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "शुद्ध": {
+      "candidate_word_occurrences": 10,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "शुल्क": {
+      "candidate_word_occurrences": 8,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 8,
+          "all_seven_windows_supported": 8,
+          "request_class_changes_across_windows": 2,
+          "baseline_score_at_least_half": 2,
+          "baseline_request_scores": {
+            "n": 8,
+            "median": 0.0013385373033641844,
+            "p10": 4.963072062752713e-05,
+            "p90": 0.9999368897689949,
+            "minimum": 4.41685652950759e-05,
+            "maximum": 0.9999962586417094
+          },
+          "descriptive_human_rank_available": 8
+        },
+        "pooled_phone": {
+          "baseline_supported": 8,
+          "all_seven_windows_supported": 8,
+          "request_class_changes_across_windows": 3,
+          "baseline_score_at_least_half": 2,
+          "baseline_request_scores": {
+            "n": 8,
+            "median": 0.415481573784173,
+            "p10": 0.2815618821501293,
+            "p90": 0.5613505983588554,
+            "minimum": 0.28068898049417357,
+            "maximum": 0.7040991304075661
+          },
+          "descriptive_human_rank_available": 8
+        }
+      }
+    },
+    "सहर": {
+      "candidate_word_occurrences": 13,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "सामना": {
+      "candidate_word_occurrences": 9,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 9,
+          "all_seven_windows_supported": 9,
+          "request_class_changes_across_windows": 1,
+          "baseline_score_at_least_half": 6,
+          "baseline_request_scores": {
+            "n": 9,
+            "median": 0.9997292207406665,
+            "p10": 0.007329052127382899,
+            "p90": 0.9999805719226972,
+            "minimum": 0.005529421880360206,
+            "maximum": 0.9999985518691451
+          },
+          "descriptive_human_rank_available": 9
+        },
+        "pooled_phone": {
+          "baseline_supported": 9,
+          "all_seven_windows_supported": 9,
+          "request_class_changes_across_windows": 5,
+          "baseline_score_at_least_half": 2,
+          "baseline_request_scores": {
+            "n": 9,
+            "median": 0.4518222305928023,
+            "p10": 0.3527107904876723,
+            "p90": 0.5132886337490864,
+            "minimum": 0.30352793186064203,
+            "maximum": 0.5155179975739539
+          },
+          "descriptive_human_rank_available": 9
+        }
+      }
+    },
+    "सुन्न": {
+      "candidate_word_occurrences": 6,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 6,
+          "all_seven_windows_supported": 6,
+          "request_class_changes_across_windows": 5,
+          "baseline_score_at_least_half": 5,
+          "baseline_request_scores": {
+            "n": 6,
+            "median": 0.9585012753659847,
+            "p10": 0.3881079394081427,
+            "p90": 0.9948067327239012,
+            "minimum": 0.07484597921579049,
+            "maximum": 0.9983855882254626
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 6,
+          "all_seven_windows_supported": 6,
+          "request_class_changes_across_windows": 3,
+          "baseline_score_at_least_half": 1,
+          "baseline_request_scores": {
+            "n": 6,
+            "median": 0.4597795636818229,
+            "p10": 0.4263740812746123,
+            "p90": 0.5357571531054064,
+            "minimum": 0.42260495476346477,
+            "maximum": 0.5956425412837841
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "सृजना": {
+      "candidate_word_occurrences": 2,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    },
+    "हुन": {
+      "candidate_word_occurrences": 7,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        },
+        "pooled_phone": {
+          "baseline_supported": 0,
+          "all_seven_windows_supported": 0,
+          "request_class_changes_across_windows": 0,
+          "baseline_score_at_least_half": 0,
+          "baseline_request_scores": {
+            "n": 0,
+            "median": null,
+            "p10": null,
+            "p90": null,
+            "minimum": null,
+            "maximum": null
+          },
+          "descriptive_human_rank_available": 0
+        }
+      }
+    }
+  },
+  "matched_pocket_ordering": [
+    {
+      "system": "indicf5_stock",
+      "split": "all_splits",
+      "branch": "ctc_site",
+      "available_pairs": 336,
+      "query_request_score_above_pocket": 141,
+      "ties": 0,
+      "score_deltas": {
+        "n": 336,
+        "median": -5.716520842244103e-05,
+        "p10": -0.47655745057104837,
+        "p90": 0.5808360789603148,
+        "minimum": -0.9976640180359448,
+        "maximum": 0.9997866041990789
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "indicf5_stock",
+      "split": "all_splits",
+      "branch": "pooled_phone",
+      "available_pairs": 336,
+      "query_request_score_above_pocket": 170,
+      "ties": 0,
+      "score_deltas": {
+        "n": 336,
+        "median": 0.00214813941335415,
+        "p10": -0.1502300458462884,
+        "p90": 0.17426572640488158,
+        "minimum": -0.3879581331404653,
+        "maximum": 0.47851428145958375
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "indicf5_stock",
+      "split": "development",
+      "branch": "ctc_site",
+      "available_pairs": 48,
+      "query_request_score_above_pocket": 18,
+      "ties": 0,
+      "score_deltas": {
+        "n": 48,
+        "median": -1.6315052380477812e-05,
+        "p10": -0.1265299667975387,
+        "p90": 0.0009418428190791642,
+        "minimum": -0.9716217776571794,
+        "maximum": 0.7298402259270078
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "indicf5_stock",
+      "split": "development",
+      "branch": "pooled_phone",
+      "available_pairs": 48,
+      "query_request_score_above_pocket": 19,
+      "ties": 0,
+      "score_deltas": {
+        "n": 48,
+        "median": -0.029135103341032115,
+        "p10": -0.18194567712599347,
+        "p90": 0.08859156936097283,
+        "minimum": -0.2780580028643822,
+        "maximum": 0.2301592059797864
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "indicf5_stock",
+      "split": "reserved_evaluation",
+      "branch": "ctc_site",
+      "available_pairs": 64,
+      "query_request_score_above_pocket": 25,
+      "ties": 0,
+      "score_deltas": {
+        "n": 64,
+        "median": -0.00011005516587679397,
+        "p10": -0.4316788550417562,
+        "p90": 0.1639536353995119,
+        "minimum": -0.9892185688726631,
+        "maximum": 0.9264079085943593
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "indicf5_stock",
+      "split": "reserved_evaluation",
+      "branch": "pooled_phone",
+      "available_pairs": 64,
+      "query_request_score_above_pocket": 34,
+      "ties": 0,
+      "score_deltas": {
+        "n": 64,
+        "median": 0.01468783578215127,
+        "p10": -0.19099505863176622,
+        "p90": 0.14320306008920117,
+        "minimum": -0.3879581331404653,
+        "maximum": 0.47851428145958375
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "indicf5_stock",
+      "split": "train",
+      "branch": "ctc_site",
+      "available_pairs": 224,
+      "query_request_score_above_pocket": 98,
+      "ties": 0,
+      "score_deltas": {
+        "n": 224,
+        "median": -6.289656254460096e-05,
+        "p10": -0.7111731651775489,
+        "p90": 0.8700793188722084,
+        "minimum": -0.9976640180359448,
+        "maximum": 0.9997866041990789
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "indicf5_stock",
+      "split": "train",
+      "branch": "pooled_phone",
+      "available_pairs": 224,
+      "query_request_score_above_pocket": 117,
+      "ties": 0,
+      "score_deltas": {
+        "n": 224,
+        "median": 0.002780582579093527,
+        "p10": -0.121001701629018,
+        "p90": 0.20121633133091973,
+        "minimum": -0.2748232673356079,
+        "maximum": 0.3839357496651169
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "native_recording",
+      "split": "all_splits",
+      "branch": "ctc_site",
+      "available_pairs": 2,
+      "query_request_score_above_pocket": 0,
+      "ties": 0,
+      "score_deltas": {
+        "n": 2,
+        "median": -0.4361432954552804,
+        "p10": -0.7827246748044286,
+        "p90": -0.08956191610613218,
+        "minimum": -0.8693700196417157,
+        "maximum": -0.0029165712688451473
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "native_recording",
+      "split": "all_splits",
+      "branch": "pooled_phone",
+      "available_pairs": 2,
+      "query_request_score_above_pocket": 1,
+      "ties": 0,
+      "score_deltas": {
+        "n": 2,
+        "median": -0.18068171797198196,
+        "p10": -0.34364206286531984,
+        "p90": -0.01772137307864407,
+        "minimum": -0.3843821490886543,
+        "maximum": 0.023018713144690395
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "native_recording",
+      "split": "reserved_evaluation",
+      "branch": "ctc_site",
+      "available_pairs": 2,
+      "query_request_score_above_pocket": 0,
+      "ties": 0,
+      "score_deltas": {
+        "n": 2,
+        "median": -0.4361432954552804,
+        "p10": -0.7827246748044286,
+        "p90": -0.08956191610613218,
+        "minimum": -0.8693700196417157,
+        "maximum": -0.0029165712688451473
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "native_recording",
+      "split": "reserved_evaluation",
+      "branch": "pooled_phone",
+      "available_pairs": 2,
+      "query_request_score_above_pocket": 1,
+      "ties": 0,
+      "score_deltas": {
+        "n": 2,
+        "median": -0.18068171797198196,
+        "p10": -0.34364206286531984,
+        "p90": -0.01772137307864407,
+        "minimum": -0.3843821490886543,
+        "maximum": 0.023018713144690395
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "pocket_hindi_parent",
+      "split": "all_splits",
+      "branch": "ctc_site",
+      "available_pairs": 336,
+      "query_request_score_above_pocket": 155,
+      "ties": 0,
+      "score_deltas": {
+        "n": 336,
+        "median": -2.0473368399887004e-05,
+        "p10": -0.5452534553595071,
+        "p90": 0.6607814103835261,
+        "minimum": -0.9997108969724553,
+        "maximum": 0.9999744037532304
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "pocket_hindi_parent",
+      "split": "all_splits",
+      "branch": "pooled_phone",
+      "available_pairs": 336,
+      "query_request_score_above_pocket": 166,
+      "ties": 0,
+      "score_deltas": {
+        "n": 336,
+        "median": -0.00218237161342405,
+        "p10": -0.1485470430724604,
+        "p90": 0.16625590098506124,
+        "minimum": -0.4057749500368058,
+        "maximum": 0.44805682711576666
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "pocket_hindi_parent",
+      "split": "development",
+      "branch": "ctc_site",
+      "available_pairs": 48,
+      "query_request_score_above_pocket": 14,
+      "ties": 0,
+      "score_deltas": {
+        "n": 48,
+        "median": -5.0183498617517586e-05,
+        "p10": -0.8909733213968752,
+        "p90": 0.0014950262443675258,
+        "minimum": -0.993761918737241,
+        "maximum": 0.9644830972726763
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "pocket_hindi_parent",
+      "split": "development",
+      "branch": "pooled_phone",
+      "available_pairs": 48,
+      "query_request_score_above_pocket": 18,
+      "ties": 0,
+      "score_deltas": {
+        "n": 48,
+        "median": -0.02272358643357092,
+        "p10": -0.19357265528542866,
+        "p90": 0.04192810272452356,
+        "minimum": -0.26760013733471755,
+        "maximum": 0.17438602800456066
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "pocket_hindi_parent",
+      "split": "reserved_evaluation",
+      "branch": "ctc_site",
+      "available_pairs": 64,
+      "query_request_score_above_pocket": 43,
+      "ties": 0,
+      "score_deltas": {
+        "n": 64,
+        "median": 0.0005484054534330934,
+        "p10": -0.020692560644175434,
+        "p90": 0.890646611584755,
+        "minimum": -0.8159227054490934,
+        "maximum": 0.9988503573188957
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "pocket_hindi_parent",
+      "split": "reserved_evaluation",
+      "branch": "pooled_phone",
+      "available_pairs": 64,
+      "query_request_score_above_pocket": 33,
+      "ties": 0,
+      "score_deltas": {
+        "n": 64,
+        "median": 0.0227967390748538,
+        "p10": -0.20383862332378572,
+        "p90": 0.2112464644153443,
+        "minimum": -0.4057749500368058,
+        "maximum": 0.44805682711576666
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "pocket_hindi_parent",
+      "split": "train",
+      "branch": "ctc_site",
+      "available_pairs": 224,
+      "query_request_score_above_pocket": 98,
+      "ties": 0,
+      "score_deltas": {
+        "n": 224,
+        "median": -4.6589582837771946e-05,
+        "p10": -0.7854986504510093,
+        "p90": 0.5364623784328111,
+        "minimum": -0.9997108969724553,
+        "maximum": 0.9999744037532304
+      },
+      "is_actual_hindi_accuracy": false
+    },
+    {
+      "system": "pocket_hindi_parent",
+      "split": "train",
+      "branch": "pooled_phone",
+      "available_pairs": 224,
+      "query_request_score_above_pocket": 115,
+      "ties": 0,
+      "score_deltas": {
+        "n": 224,
+        "median": 0.0034054395187044506,
+        "p10": -0.11977787979006425,
+        "p90": 0.17261071099313463,
+        "minimum": -0.38644797525202784,
+        "maximum": 0.361555691682214
+      },
+      "is_actual_hindi_accuracy": false
+    }
+  ],
+  "application_items_sha256": "bc92ad35bf12291d0a67a0ccc6dae43376d64ad9bfd783df726cc98b9d6710c1",
+  "application_plan_sha256": "80b02aef0574468a497818d3fee4541e1ec5647b114958d5a957684dcc479a85",
+  "models_sha256": "254aecc9ace68ac3ae7e25b8fdb313beb0454a0f4b0e219e829ddf968fa57c45",
+  "actual_hindi_accuracy": null,
+  "actual_prosody_accuracy": null,
+  "limits": [
+    "All scores remain synthetic request-class evidence; none is a calibrated Hindi error probability.",
+    "System roles are user-specified comparators, not gold for individual words.",
+    "Human source groups exclude the query group; repeated occurrences do not increase speaker support.",
+    "Human bank covers West Bengal districts, not verified Nepal regions, and has no acceptability/error labels.",
+    "Cross-voice style distances require identical full text; register centering is not proof of voice invariance.",
+    "Repeated words, conditions and source reference groups are dependent observations; no confidence interval assumes clip independence.",
+    "All splits were inspected descriptively; this application is not pristine held-out real-error validation."
+  ]
+}

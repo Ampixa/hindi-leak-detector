@@ -1,0 +1,124 @@
+{
+  "created_utc": "2026-11-08T04:59:20.983869+00:00",
+  "creator": "Codex /root",
+  "host": "k2",
+  "training_completed_utc": "2026-11-08T01:59:07.210012+00:00",
+  "delivery_cutoff_missed": true,
+  "generated_clips": 33868,
+  "unique_texts": 8467,
+  "content_scored": 10427,
+  "content_pass": 9784,
+  "word_feature_clips": 2940,
+  "source_candidate_train_texts": 512,
+  "physical_candidate_train_texts": 192,
+  "physical_test_text_pairs": 64,
+  "physical_both_content_pass_pairs": 63,
+  "physical_content_filtered_metrics": {
+    "phonetics": {
+      "development_threshold": {
+        "n": 126,
+        "positive_labels": 63,
+        "negative_labels": 63,
+        "tp": 41,
+        "fp": 22,
+        "fn": 22,
+        "tn": 41,
+        "precision": 0.6507936507936508,
+        "recall": 0.6507936507936508,
+        "false_positive_rate": 0.3492063492063492,
+        "accuracy": 0.6507936507936508,
+        "balanced_accuracy": 0.6507936507936508,
+        "brier": 0.26823485067197644
+      },
+      "conservative_threshold": {
+        "n": 126,
+        "positive_labels": 63,
+        "negative_labels": 63,
+        "tp": 13,
+        "fp": 4,
+        "fn": 50,
+        "tn": 59,
+        "precision": 0.7647058823529411,
+        "recall": 0.20634920634920634,
+        "false_positive_rate": 0.06349206349206349,
+        "accuracy": 0.5714285714285714,
+        "balanced_accuracy": 0.5714285714285714,
+        "brier": 0.26823485067197644
+      }
+    },
+    "prosody": {
+      "development_threshold": {
+        "n": 126,
+        "positive_labels": 63,
+        "negative_labels": 63,
+        "tp": 12,
+        "fp": 5,
+        "fn": 51,
+        "tn": 58,
+        "precision": 0.7058823529411765,
+        "recall": 0.19047619047619047,
+        "false_positive_rate": 0.07936507936507936,
+        "accuracy": 0.5555555555555556,
+        "balanced_accuracy": 0.5555555555555556,
+        "brier": 0.23495644220473275
+      },
+      "conservative_threshold": {
+        "n": 126,
+        "positive_labels": 63,
+        "negative_labels": 63,
+        "tp": 2,
+        "fp": 1,
+        "fn": 61,
+        "tn": 62,
+        "precision": 0.6666666666666666,
+        "recall": 0.031746031746031744,
+        "false_positive_rate": 0.015873015873015872,
+        "accuracy": 0.5079365079365079,
+        "balanced_accuracy": 0.5079365079365079,
+        "brier": 0.23495644220473275
+      }
+    },
+    "combined": {
+      "development_threshold": {
+        "n": 126,
+        "positive_labels": 63,
+        "negative_labels": 63,
+        "tp": 36,
+        "fp": 18,
+        "fn": 27,
+        "tn": 45,
+        "precision": 0.6666666666666666,
+        "recall": 0.5714285714285714,
+        "false_positive_rate": 0.2857142857142857,
+        "accuracy": 0.6428571428571429,
+        "balanced_accuracy": 0.6428571428571428,
+        "brier": 0.2662443748874599
+      },
+      "conservative_threshold": {
+        "n": 126,
+        "positive_labels": 63,
+        "negative_labels": 63,
+        "tp": 14,
+        "fp": 3,
+        "fn": 49,
+        "tn": 60,
+        "precision": 0.8235294117647058,
+        "recall": 0.2222222222222222,
+        "false_positive_rate": 0.047619047619047616,
+        "accuracy": 0.5873015873015873,
+        "balanced_accuracy": 0.5873015873015872,
+        "brier": 0.2662443748874599
+      }
+    }
+  },
+  "actual_hindi_error_accuracy": null,
+  "inference": ".venv-indicf5/bin/python -m scripts.detect_paired_words --model reports/physical_detector_v12/model.pt --query WAV --reference TRUSTED_SAME_TEXT_NEPALI_WAV --text TEXT --out NEW",
+  "review_url": "http://100.80.123.8:8770/overnight",
+  "tests_passed": 99,
+  "limitations": [
+    "Inserted-source controls are not verified Hindi-error labels",
+    "Prosody remains weak",
+    "Paired same-text Nepali reference required",
+    "Follow-up internal evaluation, not untouched external validation"
+  ]
+}

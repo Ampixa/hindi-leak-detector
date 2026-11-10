@@ -1,0 +1,450 @@
+[
+  {
+    "word": "अब",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 11,
+    "source_groups": 8,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 11
+    },
+    "supported_source_groups": 8,
+    "source_groups_favoring_hindi_g2p_path": 5,
+    "source_groups_favoring_nepali_g2p_path": 3,
+    "median_hindi_minus_nepali_log_likelihood": 0.23991976155844252,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "अर्थ",
+    "planned_recordings": 6,
+    "observed_word_occurrences": 6,
+    "source_groups": 6,
+    "statuses": {
+      "unsupported_g2p_projection": 6
+    },
+    "supported_source_groups": 0,
+    "source_groups_favoring_hindi_g2p_path": 0,
+    "source_groups_favoring_nepali_g2p_path": 0,
+    "median_hindi_minus_nepali_log_likelihood": null,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "असल",
+    "planned_recordings": 6,
+    "observed_word_occurrences": 6,
+    "source_groups": 6,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 6
+    },
+    "supported_source_groups": 6,
+    "source_groups_favoring_hindi_g2p_path": 1,
+    "source_groups_favoring_nepali_g2p_path": 5,
+    "median_hindi_minus_nepali_log_likelihood": -1.094941238257518,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "आज",
+    "planned_recordings": 7,
+    "observed_word_occurrences": 7,
+    "source_groups": 7,
+    "statuses": {
+      "unsupported_g2p_projection": 7
+    },
+    "supported_source_groups": 0,
+    "source_groups_favoring_hindi_g2p_path": 0,
+    "source_groups_favoring_nepali_g2p_path": 0,
+    "median_hindi_minus_nepali_log_likelihood": null,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "उच्च",
+    "planned_recordings": 7,
+    "observed_word_occurrences": 8,
+    "source_groups": 7,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 8
+    },
+    "supported_source_groups": 7,
+    "source_groups_favoring_hindi_g2p_path": 2,
+    "source_groups_favoring_nepali_g2p_path": 5,
+    "median_hindi_minus_nepali_log_likelihood": -4.165909019015704,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "किन",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 9,
+    "source_groups": 8,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 9
+    },
+    "supported_source_groups": 8,
+    "source_groups_favoring_hindi_g2p_path": 4,
+    "source_groups_favoring_nepali_g2p_path": 4,
+    "median_hindi_minus_nepali_log_likelihood": -0.5963737891641776,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "खान",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 8,
+    "source_groups": 8,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 8
+    },
+    "supported_source_groups": 8,
+    "source_groups_favoring_hindi_g2p_path": 5,
+    "source_groups_favoring_nepali_g2p_path": 3,
+    "median_hindi_minus_nepali_log_likelihood": 6.152522379634692,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "गर",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 9,
+    "source_groups": 8,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 9
+    },
+    "supported_source_groups": 8,
+    "source_groups_favoring_hindi_g2p_path": 6,
+    "source_groups_favoring_nepali_g2p_path": 2,
+    "median_hindi_minus_nepali_log_likelihood": 5.0700491126867675,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "गरम",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 8,
+    "source_groups": 8,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 8
+    },
+    "supported_source_groups": 8,
+    "source_groups_favoring_hindi_g2p_path": 0,
+    "source_groups_favoring_nepali_g2p_path": 8,
+    "median_hindi_minus_nepali_log_likelihood": -1.7240113064085238,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "घटना",
+    "planned_recordings": 6,
+    "observed_word_occurrences": 7,
+    "source_groups": 6,
+    "statuses": {
+      "unsupported_g2p_projection": 7
+    },
+    "supported_source_groups": 0,
+    "source_groups_favoring_hindi_g2p_path": 0,
+    "source_groups_favoring_nepali_g2p_path": 0,
+    "median_hindi_minus_nepali_log_likelihood": null,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "जन्म",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 8,
+    "source_groups": 8,
+    "statuses": {
+      "unsupported_g2p_projection": 8
+    },
+    "supported_source_groups": 0,
+    "source_groups_favoring_hindi_g2p_path": 0,
+    "source_groups_favoring_nepali_g2p_path": 0,
+    "median_hindi_minus_nepali_log_likelihood": null,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "जब",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 8,
+    "source_groups": 8,
+    "statuses": {
+      "unsupported_g2p_projection": 8
+    },
+    "supported_source_groups": 0,
+    "source_groups_favoring_hindi_g2p_path": 0,
+    "source_groups_favoring_nepali_g2p_path": 0,
+    "median_hindi_minus_nepali_log_likelihood": null,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "तब",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 10,
+    "source_groups": 8,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 10
+    },
+    "supported_source_groups": 8,
+    "source_groups_favoring_hindi_g2p_path": 8,
+    "source_groups_favoring_nepali_g2p_path": 0,
+    "median_hindi_minus_nepali_log_likelihood": 15.415558435351468,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "तर",
+    "planned_recordings": 7,
+    "observed_word_occurrences": 7,
+    "source_groups": 7,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 7
+    },
+    "supported_source_groups": 7,
+    "source_groups_favoring_hindi_g2p_path": 7,
+    "source_groups_favoring_nepali_g2p_path": 0,
+    "median_hindi_minus_nepali_log_likelihood": 7.599398879929359,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "तल",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 10,
+    "source_groups": 8,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 10
+    },
+    "supported_source_groups": 8,
+    "source_groups_favoring_hindi_g2p_path": 8,
+    "source_groups_favoring_nepali_g2p_path": 0,
+    "median_hindi_minus_nepali_log_likelihood": 15.852626025701264,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "धर्म",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 9,
+    "source_groups": 8,
+    "statuses": {
+      "unsupported_g2p_projection": 9
+    },
+    "supported_source_groups": 0,
+    "source_groups_favoring_hindi_g2p_path": 0,
+    "source_groups_favoring_nepali_g2p_path": 0,
+    "median_hindi_minus_nepali_log_likelihood": null,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "नष्ट",
+    "planned_recordings": 7,
+    "observed_word_occurrences": 7,
+    "source_groups": 7,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 7
+    },
+    "supported_source_groups": 7,
+    "source_groups_favoring_hindi_g2p_path": 0,
+    "source_groups_favoring_nepali_g2p_path": 7,
+    "median_hindi_minus_nepali_log_likelihood": -8.645227190619128,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "पर",
+    "planned_recordings": 6,
+    "observed_word_occurrences": 6,
+    "source_groups": 6,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 6
+    },
+    "supported_source_groups": 6,
+    "source_groups_favoring_hindi_g2p_path": 4,
+    "source_groups_favoring_nepali_g2p_path": 2,
+    "median_hindi_minus_nepali_log_likelihood": 3.0635513080490995,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "पूर्ण",
+    "planned_recordings": 7,
+    "observed_word_occurrences": 7,
+    "source_groups": 7,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 7
+    },
+    "supported_source_groups": 7,
+    "source_groups_favoring_hindi_g2p_path": 0,
+    "source_groups_favoring_nepali_g2p_path": 7,
+    "median_hindi_minus_nepali_log_likelihood": -11.463060898653376,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "प्रश्न",
+    "planned_recordings": 7,
+    "observed_word_occurrences": 7,
+    "source_groups": 7,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 7
+    },
+    "supported_source_groups": 7,
+    "source_groups_favoring_hindi_g2p_path": 1,
+    "source_groups_favoring_nepali_g2p_path": 6,
+    "median_hindi_minus_nepali_log_likelihood": -6.510949897364744,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "प्राप्त",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 8,
+    "source_groups": 8,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 8
+    },
+    "supported_source_groups": 8,
+    "source_groups_favoring_hindi_g2p_path": 5,
+    "source_groups_favoring_nepali_g2p_path": 3,
+    "median_hindi_minus_nepali_log_likelihood": 1.0668768833936655,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "बार",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 10,
+    "source_groups": 8,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 10
+    },
+    "supported_source_groups": 8,
+    "source_groups_favoring_hindi_g2p_path": 7,
+    "source_groups_favoring_nepali_g2p_path": 1,
+    "median_hindi_minus_nepali_log_likelihood": 4.894014256395063,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "बिहान",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 10,
+    "source_groups": 8,
+    "statuses": {
+      "unsupported_g2p_projection": 10
+    },
+    "supported_source_groups": 0,
+    "source_groups_favoring_hindi_g2p_path": 0,
+    "source_groups_favoring_nepali_g2p_path": 0,
+    "median_hindi_minus_nepali_log_likelihood": null,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "बुद्ध",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 9,
+    "source_groups": 8,
+    "statuses": {
+      "unsupported_g2p_projection": 9
+    },
+    "supported_source_groups": 0,
+    "source_groups_favoring_hindi_g2p_path": 0,
+    "source_groups_favoring_nepali_g2p_path": 0,
+    "median_hindi_minus_nepali_log_likelihood": null,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "मसला",
+    "planned_recordings": 7,
+    "observed_word_occurrences": 7,
+    "source_groups": 7,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 7
+    },
+    "supported_source_groups": 7,
+    "source_groups_favoring_hindi_g2p_path": 1,
+    "source_groups_favoring_nepali_g2p_path": 6,
+    "median_hindi_minus_nepali_log_likelihood": -1.7826725073019958,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "शब्द",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 9,
+    "source_groups": 8,
+    "statuses": {
+      "unsupported_g2p_projection": 9
+    },
+    "supported_source_groups": 0,
+    "source_groups_favoring_hindi_g2p_path": 0,
+    "source_groups_favoring_nepali_g2p_path": 0,
+    "median_hindi_minus_nepali_log_likelihood": null,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "शुद्ध",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 10,
+    "source_groups": 8,
+    "statuses": {
+      "unsupported_g2p_projection": 10
+    },
+    "supported_source_groups": 0,
+    "source_groups_favoring_hindi_g2p_path": 0,
+    "source_groups_favoring_nepali_g2p_path": 0,
+    "median_hindi_minus_nepali_log_likelihood": null,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "शुल्क",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 8,
+    "source_groups": 8,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 8
+    },
+    "supported_source_groups": 8,
+    "source_groups_favoring_hindi_g2p_path": 2,
+    "source_groups_favoring_nepali_g2p_path": 6,
+    "median_hindi_minus_nepali_log_likelihood": -9.46648207948353,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "सहर",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 13,
+    "source_groups": 8,
+    "statuses": {
+      "unsupported_g2p_projection": 13
+    },
+    "supported_source_groups": 0,
+    "source_groups_favoring_hindi_g2p_path": 0,
+    "source_groups_favoring_nepali_g2p_path": 0,
+    "median_hindi_minus_nepali_log_likelihood": null,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "सामना",
+    "planned_recordings": 8,
+    "observed_word_occurrences": 9,
+    "source_groups": 8,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 9
+    },
+    "supported_source_groups": 8,
+    "source_groups_favoring_hindi_g2p_path": 5,
+    "source_groups_favoring_nepali_g2p_path": 3,
+    "median_hindi_minus_nepali_log_likelihood": 1.509484236262495,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "सुन्न",
+    "planned_recordings": 6,
+    "observed_word_occurrences": 6,
+    "source_groups": 6,
+    "statuses": {
+      "unreviewed_two_g2p_acoustic_evidence": 6
+    },
+    "supported_source_groups": 6,
+    "source_groups_favoring_hindi_g2p_path": 1,
+    "source_groups_favoring_nepali_g2p_path": 5,
+    "median_hindi_minus_nepali_log_likelihood": -4.155861075090499,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  },
+  {
+    "word": "हुन",
+    "planned_recordings": 7,
+    "observed_word_occurrences": 7,
+    "source_groups": 7,
+    "statuses": {
+      "unsupported_g2p_projection": 7
+    },
+    "supported_source_groups": 0,
+    "source_groups_favoring_hindi_g2p_path": 0,
+    "source_groups_favoring_nepali_g2p_path": 0,
+    "median_hindi_minus_nepali_log_likelihood": null,
+    "interpretation": "Within-speaker median prevents repeated words inflating independent evidence. Path preference can reflect valid variation, G2P error, or probe error; it is not a Hindi-leakage label."
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "observed_utc": "2026-11-07T16:21:55.562602+00:00",
+  "real_word_transfer_status": {
+    "status": "real_word_application_complete_with_explicit_coverage",
+    "processed_clips": 1928,
+    "planned_clips": 1928,
+    "failed_clips": 0,
+    "updated_utc": "2026-11-07T16:13:11.948722+00:00"
+  },
+  "new_context_f5": {
+    "processed": 45,
+    "planned": 126,
+    "failed": 0
+  },
+  "new_context_pocket": {
+    "processed": 126,
+    "planned": 126,
+    "failed": 0
+  },
+  "real_word_summary": {
+    "clips": 1928,
+    "word_occurrences": 1844,
+    "overall": {
+      "candidate_word_occurrences": 1844,
+      "branches": {
+        "ctc_site": {
+          "baseline_supported": 1157,
+          "all_seven_windows_supported": 1104,
+          "request_class_changes_across_windows": 293,
+          "baseline_score_at_least_half": 528,
+          "baseline_request_scores": {
+            "n": 1157,
+            "median": 0.150978516488292,
+            "p10": 6.048024879226232e-05,
+            "p90": 0.9999734899523577,
+            "minimum": 1.933392563621788e-07,
+            "maximum": 0.999999999999934
+          },
+          "descriptive_human_rank_available": 222
+        },
+        "pooled_phone": {
+          "baseline_supported": 1157,
+          "all_seven_windows_supported": 1104,
+          "request_class_changes_across_windows": 435,
+          "baseline_score_at_least_half": 383,
+          "baseline_request_scores": {
+            "n": 1157,
+            "median": 0.45035455582327943,
+            "p10": 0.2766208013400104,
+            "p90": 0.6497551339564078,
+            "minimum": 0.021339670036518182,
+            "maximum": 0.9956475897910835
+          },
+          "descriptive_human_rank_available": 222
+        }
+      }
+    }
+  }
+}

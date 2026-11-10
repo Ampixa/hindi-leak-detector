@@ -1,0 +1,8 @@
+{
+  "status": "original_audio_recovery_complete_with_explicit_coverage",
+  "updated_utc": "2026-11-07T15:43:49.777617+00:00",
+  "original_recordings_recovered": 232,
+  "selected_recordings": 232,
+  "audio_row_groups_read": 176,
+  "row_group_limit": 400
+}

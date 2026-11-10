@@ -1,0 +1,8 @@
+{
+  "original_smoke_analysis": "../intervention_direct_smoke_v7/analysis.json",
+  "score_differences": {
+    "ctc_site": 0.0,
+    "pooled_phone": 0.0
+  },
+  "purpose": "Verify latest exception classification change preserves valid WAV scores."
+}

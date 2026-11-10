@@ -1,0 +1,11 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "new_listener_pid": 33133,
+  "superseded_page": {
+    "sha256": "7b210eb50b521a41836b0a5da3810ff7e1e701660dcb88bc323ff0c730b006c0",
+    "bytes": 7433,
+    "reason": "Superseded by live Pocket status; original metrics/configs remain in immutable JSON reports."
+  },
+  "current_status_endpoint": "/api/current-run",
+  "current_progress_page": "/progress"
+}

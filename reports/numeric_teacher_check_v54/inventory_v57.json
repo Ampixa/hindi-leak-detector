@@ -1,0 +1,31 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "host": "k2",
+  "original_path": "/Volumes/T9/hindi-detector/reports/numeric_teacher_check_v54",
+  "created_utc": "2026-11-09T03:08:21.541271+00:00",
+  "last_review_utc": "2026-11-09T03:08:21.541271+00:00",
+  "next_review": "2026-11-10",
+  "not_on_HF": true,
+  "retention": "Compact admission/rollback/source pins retained for active Hindi-detector goal. Completed raw control WAVs/redundant frames disposable24h after consumer closes; no blind deletion. Source-model rights/MMS research restrictions inherited.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2035,
+      "sha256": "22eec3d3db58570c945a6dffbc9f4950a485c3d67a7348d367e7b88b21fe32e8",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "result.json",
+      "bytes": 694718,
+      "sha256": "babc329253d4057c093dbc542821b6edda2c70a2e0f61e76cfba634e123e7d03",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "source_snapshot.json",
+      "bytes": 36965,
+      "sha256": "d6c6db4d54cfc76eb92ad95d5f57854a35942b0c668763ba85f52063b7ce2f0b",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    }
+  ]
+}

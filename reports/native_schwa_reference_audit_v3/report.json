@@ -1,0 +1,9 @@
+{
+  "status": "native_relative_schwa_evidence_not_validated_hindi_detector",
+  "site_comparisons": 155,
+  "supported": 154,
+  "unsupported": 1,
+  "validated_schwa_accuracy": null,
+  "binary_threshold": null,
+  "self_reference_policy": "Both query source speaker and exact audio excluded before ranking; each remaining speaker contributes once."
+}

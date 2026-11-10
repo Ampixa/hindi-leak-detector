@@ -1,0 +1,92 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.211450163523356,
+    "development_focal_bce": 0.6674726009368896
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.9399120370546977,
+    "development_focal_bce": 0.637909471988678
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.6651908119519552,
+    "development_focal_bce": 0.6360955238342285
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.4802806437015533,
+    "development_focal_bce": 0.7742860317230225
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.4134721577167511,
+    "development_focal_bce": 0.828591525554657
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.382936155796051,
+    "development_focal_bce": 0.9493823051452637
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.3738975008328756,
+    "development_focal_bce": 1.010728359222412
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.34783300161361697,
+    "development_focal_bce": 0.9415225386619568
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.3324261943499247,
+    "development_focal_bce": 0.9298388361930847
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.3178180932998657,
+    "development_focal_bce": 0.9998863339424133
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.30541872680187226,
+    "development_focal_bce": 1.0100380182266235
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.29557908376057945,
+    "development_focal_bce": 1.0170681476593018
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.2704741835594177,
+    "development_focal_bce": 1.0838629007339478
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.2685227195421855,
+    "development_focal_bce": 1.1391010284423828
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.2590602179368337,
+    "development_focal_bce": 1.061444640159607
+  },
+  {
+    "epoch": 16,
+    "train_loss": 0.25985072553157806,
+    "development_focal_bce": 1.1411044597625732
+  },
+  {
+    "epoch": 17,
+    "train_loss": 0.24135641753673553,
+    "development_focal_bce": 1.1695847511291504
+  },
+  {
+    "epoch": 18,
+    "train_loss": 0.23751724064350127,
+    "development_focal_bce": 1.1951543092727661
+  }
+]

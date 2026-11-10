@@ -1,0 +1,6266 @@
+[
+  {
+    "id": "proso49_bd55bb80e1d6402d5f8c",
+    "word": "बहन",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "6b8db6f76a3c2ec0cb274b7d37225e0c2a9c13d13a1f1869b78d1ca206272859",
+    "features": [
+      1.2420529127120972,
+      3.70793080329895,
+      -2.4658780097961426,
+      0.1590491682291031,
+      0.5417739152908325,
+      4.230842113494873,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.4560670852661133
+  },
+  {
+    "id": "proso49_bd55bb80e1d6402d5f8c",
+    "word": "बहन",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "6b8db6f76a3c2ec0cb274b7d37225e0c2a9c13d13a1f1869b78d1ca206272859",
+    "features": [
+      2.030118703842163,
+      5.829442977905273,
+      -3.7993242740631104,
+      -0.3341057300567627,
+      -0.6962885856628418,
+      4.230842113494873,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.3881613612174988
+  },
+  {
+    "id": "proso49_bd55bb80e1d6402d5f8c",
+    "word": "बहन",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "6b8db6f76a3c2ec0cb274b7d37225e0c2a9c13d13a1f1869b78d1ca206272859",
+    "features": [
+      1.949975609779358,
+      3.6139729022979736,
+      -1.6639971733093262,
+      0.24138596653938293,
+      0.5237326622009277,
+      4.230842113494873,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.49364858865737915
+  },
+  {
+    "id": "proso49_5b2e0d49bff14b493763",
+    "word": "मल्ल",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "0b7aa0b84a3640f6867a7530613a09f845e7cc2505e57207af4e4454d6846380",
+    "features": [
+      2.322834014892578,
+      2.4552290439605713,
+      -0.13239511847496033,
+      -0.4613448977470398,
+      -0.11392390727996826,
+      0.5735976099967957,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.4563939869403839
+  },
+  {
+    "id": "proso49_5b2e0d49bff14b493763",
+    "word": "मल्ल",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "0b7aa0b84a3640f6867a7530613a09f845e7cc2505e57207af4e4454d6846380",
+    "features": [
+      1.9356940984725952,
+      2.065910577774048,
+      -0.1302165538072586,
+      -0.29187339544296265,
+      -0.08648983389139175,
+      0.5735976099967957,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4302144944667816
+  },
+  {
+    "id": "proso49_5b2e0d49bff14b493763",
+    "word": "मल्ल",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "0b7aa0b84a3640f6867a7530613a09f845e7cc2505e57207af4e4454d6846380",
+    "features": [
+      1.3993393182754517,
+      1.4094946384429932,
+      -0.010155322030186653,
+      0.45665138959884644,
+      0.187184140086174,
+      0.5735976099967957,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4610501229763031
+  },
+  {
+    "id": "proso49_f1a2ce0abf940209d65e",
+    "word": "गहना",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "86e4db074545bfe108a99aa1b6943216c97d163abcace37b989a69f94ccdbeca",
+    "features": [
+      1.7513056993484497,
+      2.862853765487671,
+      -1.1115481853485107,
+      0.2103637307882309,
+      0.3574191927909851,
+      2.9755618572235107,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.4549543857574463
+  },
+  {
+    "id": "proso49_f1a2ce0abf940209d65e",
+    "word": "गहना",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "86e4db074545bfe108a99aa1b6943216c97d163abcace37b989a69f94ccdbeca",
+    "features": [
+      1.8530666828155518,
+      2.7498745918273926,
+      -0.8968077898025513,
+      0.26688680052757263,
+      0.4285534620285034,
+      2.9755618572235107,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.4994998276233673
+  },
+  {
+    "id": "proso49_f1a2ce0abf940209d65e",
+    "word": "गहना",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "86e4db074545bfe108a99aa1b6943216c97d163abcace37b989a69f94ccdbeca",
+    "features": [
+      2.138583183288574,
+      2.63110613822937,
+      -0.49252283573150635,
+      0.3673374056816101,
+      0.5111024379730225,
+      2.9755618572235107,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5376533269882202
+  },
+  {
+    "id": "proso49_fdeb85d3ca536461a989",
+    "word": "सिद्ध",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "18b8a05e6776722b4e9913b4295c0397698a6a8745ec039fcbdcf36fc71ccc5d",
+    "features": [
+      1.7033032178878784,
+      2.111358165740967,
+      -0.40805482864379883,
+      0.4305289387702942,
+      0.8460201621055603,
+      3.3471124172210693,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5511117577552795
+  },
+  {
+    "id": "proso49_fdeb85d3ca536461a989",
+    "word": "सिद्ध",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "18b8a05e6776722b4e9913b4295c0397698a6a8745ec039fcbdcf36fc71ccc5d",
+    "features": [
+      2.429494857788086,
+      2.4449222087860107,
+      -0.0154271787032485,
+      0.49664387106895447,
+      0.6842257380485535,
+      3.3471124172210693,
+      0.692307710647583
+    ],
+    "source_style_score": 0.5683954358100891
+  },
+  {
+    "id": "proso49_fdeb85d3ca536461a989",
+    "word": "सिद्ध",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "18b8a05e6776722b4e9913b4295c0397698a6a8745ec039fcbdcf36fc71ccc5d",
+    "features": [
+      2.5646464824676514,
+      3.3635752201080322,
+      -0.7989287376403809,
+      0.2886209785938263,
+      0.37667837738990784,
+      3.3471124172210693,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.4992363154888153
+  },
+  {
+    "id": "proso49_5c8244762d34c4d79081",
+    "word": "केर",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "08357308c36a1f7ab35558ed8906f166e4c5e0a954ab75572813deb0b423bde3",
+    "features": [
+      1.7332653999328613,
+      2.827216148376465,
+      -1.0939507484436035,
+      -0.0435362346470356,
+      -0.05380972847342491,
+      2.1422739028930664,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.44407981634140015
+  },
+  {
+    "id": "proso49_5c8244762d34c4d79081",
+    "word": "केर",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "08357308c36a1f7ab35558ed8906f166e4c5e0a954ab75572813deb0b423bde3",
+    "features": [
+      1.771383285522461,
+      2.4844136238098145,
+      -0.7130303978919983,
+      0.1693953424692154,
+      0.20486319065093994,
+      2.1422739028930664,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4570722281932831
+  },
+  {
+    "id": "proso49_5c8244762d34c4d79081",
+    "word": "केर",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "08357308c36a1f7ab35558ed8906f166e4c5e0a954ab75572813deb0b423bde3",
+    "features": [
+      3.0379579067230225,
+      2.0970423221588135,
+      0.9409154653549194,
+      1.026394248008728,
+      0.723781406879425,
+      2.1422739028930664,
+      0.8461538553237915
+    ],
+    "source_style_score": 0.6276143193244934
+  },
+  {
+    "id": "proso49_a22d53a6793fc3c29c18",
+    "word": "किन",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "de146556283e92c8e2a3384b6dfc1d67ad866cb90513cc6112486cca914659c1",
+    "features": [
+      2.375102996826172,
+      9.93762493133545,
+      -7.562521934509277,
+      -0.2520849406719208,
+      -0.8350768685340881,
+      7.867957592010498,
+      0.0
+    ],
+    "source_style_score": 0.3475198447704315
+  },
+  {
+    "id": "proso49_a22d53a6793fc3c29c18",
+    "word": "किन",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "de146556283e92c8e2a3384b6dfc1d67ad866cb90513cc6112486cca914659c1",
+    "features": [
+      2.417884588241577,
+      8.267152786254883,
+      -5.849268436431885,
+      -0.004804941359907389,
+      -0.015635600313544273,
+      7.867957592010498,
+      0.07692307978868484
+    ],
+    "source_style_score": 0.4151798188686371
+  },
+  {
+    "id": "proso49_a22d53a6793fc3c29c18",
+    "word": "किन",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "de146556283e92c8e2a3384b6dfc1d67ad866cb90513cc6112486cca914659c1",
+    "features": [
+      8.568119049072266,
+      6.464214324951172,
+      2.1039044857025146,
+      0.7554455995559692,
+      0.6937128305435181,
+      7.867957592010498,
+      0.692307710647583
+    ],
+    "source_style_score": 0.6810572743415833
+  },
+  {
+    "id": "proso49_82dd8cc99351cb795753",
+    "word": "अर्थ",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "88bb104cad1e6a14eba0730950b220ec94c77dc5dac1032a8af5112e5922f791",
+    "features": [
+      6.274723052978516,
+      4.87607479095459,
+      1.3986480236053467,
+      1.1217516660690308,
+      0.6331197619438171,
+      3.541471004486084,
+      0.7692307829856873
+    ],
+    "source_style_score": 0.6773051619529724
+  },
+  {
+    "id": "proso49_82dd8cc99351cb795753",
+    "word": "अर्थ",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "88bb104cad1e6a14eba0730950b220ec94c77dc5dac1032a8af5112e5922f791",
+    "features": [
+      5.453104496002197,
+      3.5939347743988037,
+      1.8591699600219727,
+      1.1705453395843506,
+      0.7602004408836365,
+      3.541471004486084,
+      0.692307710647583
+    ],
+    "source_style_score": 0.654575765132904
+  },
+  {
+    "id": "proso49_82dd8cc99351cb795753",
+    "word": "अर्थ",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "88bb104cad1e6a14eba0730950b220ec94c77dc5dac1032a8af5112e5922f791",
+    "features": [
+      5.09247350692749,
+      4.900362491607666,
+      0.1921107918024063,
+      0.5765320062637329,
+      0.40093904733657837,
+      3.541471004486084,
+      0.692307710647583
+    ],
+    "source_style_score": 0.6137207746505737
+  },
+  {
+    "id": "proso49_13282d41c200d1db85ca",
+    "word": "पुर",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "2a2a43980101a0435484b13936d1c2cb1ac2a9811784f7387e641a036b3b38b4",
+    "features": [
+      8.659811019897461,
+      6.731553077697754,
+      1.9282574653625488,
+      1.1919612884521484,
+      0.637410044670105,
+      4.630897521972656,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.6812976598739624
+  },
+  {
+    "id": "proso49_13282d41c200d1db85ca",
+    "word": "पुर",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "2a2a43980101a0435484b13936d1c2cb1ac2a9811784f7387e641a036b3b38b4",
+    "features": [
+      3.7349276542663574,
+      2.7276527881622314,
+      1.0072747468948364,
+      0.651772677898407,
+      0.8081260919570923,
+      4.630897521972656,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5876045823097229
+  },
+  {
+    "id": "proso49_13282d41c200d1db85ca",
+    "word": "पुर",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "2a2a43980101a0435484b13936d1c2cb1ac2a9811784f7387e641a036b3b38b4",
+    "features": [
+      3.165006160736084,
+      2.1672773361206055,
+      0.9977288246154785,
+      0.6240410208702087,
+      0.9130693674087524,
+      4.630897521972656,
+      0.7692307829856873
+    ],
+    "source_style_score": 0.6036721467971802
+  },
+  {
+    "id": "proso49_bc6a396a44b22668f4d8",
+    "word": "स्वर्ण",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "8b3bed11b5ddb56488dc94df2abdca8bc16fc58d1df7a87204028fb5af8b6cd9",
+    "features": [
+      4.416472911834717,
+      3.4599573612213135,
+      0.9565158486366272,
+      1.0991356372833252,
+      0.6240350008010864,
+      2.507455348968506,
+      0.692307710647583
+    ],
+    "source_style_score": 0.6310176849365234
+  },
+  {
+    "id": "proso49_bc6a396a44b22668f4d8",
+    "word": "स्वर्ण",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "8b3bed11b5ddb56488dc94df2abdca8bc16fc58d1df7a87204028fb5af8b6cd9",
+    "features": [
+      3.944887638092041,
+      3.3873956203460693,
+      0.5574920177459717,
+      0.8250734210014343,
+      0.5244343876838684,
+      2.507455348968506,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5948871374130249
+  },
+  {
+    "id": "proso49_bc6a396a44b22668f4d8",
+    "word": "स्वर्ण",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "8b3bed11b5ddb56488dc94df2abdca8bc16fc58d1df7a87204028fb5af8b6cd9",
+    "features": [
+      3.801645040512085,
+      2.7697794437408447,
+      1.0318655967712402,
+      1.0392451286315918,
+      0.6854560971260071,
+      2.507455348968506,
+      0.7692307829856873
+    ],
+    "source_style_score": 0.6294364929199219
+  },
+  {
+    "id": "proso49_d4e95913dc5fd9c889d4",
+    "word": "छान",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "194dff26792e52511bb4e4b7b3fb48eafd93f601dc070711087d04a9c7e535be",
+    "features": [
+      6.429041385650635,
+      5.322140216827393,
+      1.1069014072418213,
+      0.6379014253616333,
+      0.6814017295837402,
+      6.867455959320068,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5944005846977234
+  },
+  {
+    "id": "proso49_d4e95913dc5fd9c889d4",
+    "word": "छान",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "194dff26792e52511bb4e4b7b3fb48eafd93f601dc070711087d04a9c7e535be",
+    "features": [
+      6.016222953796387,
+      4.288696765899658,
+      1.7275261878967285,
+      0.6887328624725342,
+      0.7861813902854919,
+      6.867455959320068,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.6005203127861023
+  },
+  {
+    "id": "proso49_d4e95913dc5fd9c889d4",
+    "word": "छान",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "194dff26792e52511bb4e4b7b3fb48eafd93f601dc070711087d04a9c7e535be",
+    "features": [
+      5.424495220184326,
+      4.703996181488037,
+      0.7204992175102234,
+      0.5773671269416809,
+      0.7309516072273254,
+      6.867455959320068,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5737219452857971
+  },
+  {
+    "id": "proso49_b55dbc15cfe8c2759937",
+    "word": "मेहरा",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "66b9cd17d7e55c05036628fa991135bd23a8b7f8badc1bf0f1d9dd135d1df691",
+    "features": [
+      1.503943681716919,
+      6.182281970977783,
+      -4.678338527679443,
+      -0.02290078066289425,
+      -0.08928868919610977,
+      5.863780975341797,
+      0.0
+    ],
+    "source_style_score": 0.37951698899269104
+  },
+  {
+    "id": "proso49_b55dbc15cfe8c2759937",
+    "word": "मेहरा",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "66b9cd17d7e55c05036628fa991135bd23a8b7f8badc1bf0f1d9dd135d1df691",
+    "features": [
+      1.251528024673462,
+      5.951838970184326,
+      -4.700310707092285,
+      0.007646956946700811,
+      0.03582826629281044,
+      5.863780975341797,
+      0.0
+    ],
+    "source_style_score": 0.3836246132850647
+  },
+  {
+    "id": "proso49_b55dbc15cfe8c2759937",
+    "word": "मेहरा",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "66b9cd17d7e55c05036628fa991135bd23a8b7f8badc1bf0f1d9dd135d1df691",
+    "features": [
+      2.132124662399292,
+      5.3696184158325195,
+      -3.2374939918518066,
+      0.14682847261428833,
+      0.40380847454071045,
+      5.863780975341797,
+      0.07692307978868484
+    ],
+    "source_style_score": 0.43863874673843384
+  },
+  {
+    "id": "proso49_997b4a4c9f2df101c7df",
+    "word": "सिवाय",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "7440a234141e51802c1609ee4e8021efd2aa028a00b3b874b4f576493d84b374",
+    "features": [
+      4.24585485458374,
+      4.30356502532959,
+      -0.05771021172404289,
+      0.41763097047805786,
+      0.17022572457790375,
+      1.730603814125061,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.5246580243110657
+  },
+  {
+    "id": "proso49_997b4a4c9f2df101c7df",
+    "word": "सिवाय",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "7440a234141e51802c1609ee4e8021efd2aa028a00b3b874b4f576493d84b374",
+    "features": [
+      1.9742872714996338,
+      3.439699172973633,
+      -1.4654117822647095,
+      -0.82449871301651,
+      -0.7227320075035095,
+      1.730603814125061,
+      0.0
+    ],
+    "source_style_score": 0.325183629989624
+  },
+  {
+    "id": "proso49_997b4a4c9f2df101c7df",
+    "word": "सिवाय",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "7440a234141e51802c1609ee4e8021efd2aa028a00b3b874b4f576493d84b374",
+    "features": [
+      1.4857795238494873,
+      2.333709716796875,
+      -0.8479302525520325,
+      -0.040679749101400375,
+      -0.047382891178131104,
+      1.730603814125061,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.42739781737327576
+  },
+  {
+    "id": "proso49_ea29145886ce37b544c1",
+    "word": "समेट",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "8d3d43d4bf36167fd54d8defe9273516ad43b4be56e7f766b3677afc239f2774",
+    "features": [
+      5.21767520904541,
+      2.162022590637207,
+      3.055652379989624,
+      1.2738909721374512,
+      0.9319049119949341,
+      3.816948890686035,
+      0.9230769276618958
+    ],
+    "source_style_score": 0.6861138939857483
+  },
+  {
+    "id": "proso49_ea29145886ce37b544c1",
+    "word": "समेट",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "8d3d43d4bf36167fd54d8defe9273516ad43b4be56e7f766b3677afc239f2774",
+    "features": [
+      2.641000747680664,
+      4.744734287261963,
+      -2.103733777999878,
+      -0.03323889523744583,
+      -0.04803905263543129,
+      3.816948890686035,
+      0.7692307829856873
+    ],
+    "source_style_score": 0.524807870388031
+  },
+  {
+    "id": "proso49_ea29145886ce37b544c1",
+    "word": "समेट",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "8d3d43d4bf36167fd54d8defe9273516ad43b4be56e7f766b3677afc239f2774",
+    "features": [
+      2.3742990493774414,
+      3.2576918601989746,
+      -0.8833928108215332,
+      0.3292529881000519,
+      0.5293107032775879,
+      3.816948890686035,
+      0.692307710647583
+    ],
+    "source_style_score": 0.5530426502227783
+  },
+  {
+    "id": "proso49_27d6832338f769d95f01",
+    "word": "बोहरा",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "982ccab697caffb262e9c070782e2bf873288bf3ae67f5e62cd8e4e302d0cbe7",
+    "features": [
+      2.161043405532837,
+      1.4670605659484863,
+      0.6939828395843506,
+      0.7349118590354919,
+      0.7872605919837952,
+      2.3149771690368652,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5669820308685303
+  },
+  {
+    "id": "proso49_27d6832338f769d95f01",
+    "word": "बोहरा",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "982ccab697caffb262e9c070782e2bf873288bf3ae67f5e62cd8e4e302d0cbe7",
+    "features": [
+      2.0515403747558594,
+      1.5070921182632446,
+      0.5444481372833252,
+      0.6807658076286316,
+      0.7681824564933777,
+      2.3149771690368652,
+      0.7692307829856873
+    ],
+    "source_style_score": 0.5857537388801575
+  },
+  {
+    "id": "proso49_27d6832338f769d95f01",
+    "word": "बोहरा",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "982ccab697caffb262e9c070782e2bf873288bf3ae67f5e62cd8e4e302d0cbe7",
+    "features": [
+      2.8224363327026367,
+      1.5722333192825317,
+      1.2502028942108154,
+      1.0126055479049683,
+      0.8305444717407227,
+      2.3149771690368652,
+      0.692307710647583
+    ],
+    "source_style_score": 0.603421688079834
+  },
+  {
+    "id": "proso49_8bf09ffd1eb3fa0704a3",
+    "word": "गुप्त",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "ba10708d4453d285bfa81efa2ea13f5e9578a32e4947bb9a56d4d9adf7ea034b",
+    "features": [
+      1.1533149480819702,
+      3.2647690773010254,
+      -2.1114542484283447,
+      0.1607552170753479,
+      0.5168367624282837,
+      3.707970142364502,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.4528133273124695
+  },
+  {
+    "id": "proso49_8bf09ffd1eb3fa0704a3",
+    "word": "गुप्त",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "ba10708d4453d285bfa81efa2ea13f5e9578a32e4947bb9a56d4d9adf7ea034b",
+    "features": [
+      1.946187973022461,
+      2.7717134952545166,
+      -0.8255254626274109,
+      0.35836294293403625,
+      0.6827701330184937,
+      3.707970142364502,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5431232452392578
+  },
+  {
+    "id": "proso49_8bf09ffd1eb3fa0704a3",
+    "word": "गुप्त",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "ba10708d4453d285bfa81efa2ea13f5e9578a32e4947bb9a56d4d9adf7ea034b",
+    "features": [
+      2.3153305053710938,
+      5.509884357452393,
+      -3.194553852081299,
+      -0.4090840518474579,
+      -0.6551425457000732,
+      3.707970142364502,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.37206053733825684
+  },
+  {
+    "id": "proso49_8e85ff29655a3f7d1549",
+    "word": "रक्त",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "365caf2ffbe4946ed41727c1ac457b04dd610df5ad343b5c2dd4870982775ed3",
+    "features": [
+      2.8220527172088623,
+      5.949475288391113,
+      -3.127422571182251,
+      0.05935540795326233,
+      0.11734561622142792,
+      5.579196929931641,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.45652785897254944
+  },
+  {
+    "id": "proso49_8e85ff29655a3f7d1549",
+    "word": "रक्त",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "365caf2ffbe4946ed41727c1ac457b04dd610df5ad343b5c2dd4870982775ed3",
+    "features": [
+      3.502220869064331,
+      5.6786909103393555,
+      -2.1764700412750244,
+      0.17902952432632446,
+      0.28520214557647705,
+      5.579196929931641,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.48375245928764343
+  },
+  {
+    "id": "proso49_8e85ff29655a3f7d1549",
+    "word": "रक्त",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "365caf2ffbe4946ed41727c1ac457b04dd610df5ad343b5c2dd4870982775ed3",
+    "features": [
+      2.8380613327026367,
+      5.681947231292725,
+      -2.843885898590088,
+      0.11079466342926025,
+      0.21780546009540558,
+      5.579196929931641,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.47626274824142456
+  },
+  {
+    "id": "proso49_b59b73f80c4555373ed7",
+    "word": "कन",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "97613c470a1edcb9bcacdcdf7fb6c0d0e404417703a24e42e80df6ab79c3da79",
+    "features": [
+      6.227212905883789,
+      1.9295083284378052,
+      4.297704219818115,
+      1.3289422988891602,
+      0.9813215732574463,
+      4.5983171463012695,
+      0.8461538553237915
+    ],
+    "source_style_score": 0.6901465058326721
+  },
+  {
+    "id": "proso49_b59b73f80c4555373ed7",
+    "word": "कन",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "97613c470a1edcb9bcacdcdf7fb6c0d0e404417703a24e42e80df6ab79c3da79",
+    "features": [
+      6.825066089630127,
+      4.546343803405762,
+      2.2787222862243652,
+      1.112742304801941,
+      0.7496985793113708,
+      4.5983171463012695,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.6637342572212219
+  },
+  {
+    "id": "proso49_b59b73f80c4555373ed7",
+    "word": "कन",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "97613c470a1edcb9bcacdcdf7fb6c0d0e404417703a24e42e80df6ab79c3da79",
+    "features": [
+      8.134305953979492,
+      4.420330047607422,
+      3.7139763832092285,
+      1.6025935411453247,
+      0.9059448838233948,
+      4.5983171463012695,
+      0.692307710647583
+    ],
+    "source_style_score": 0.7177924513816833
+  },
+  {
+    "id": "proso49_b76a7d8d37bd49c56db1",
+    "word": "गरम",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "52999fca4bd4f1b34eb402fcdb613b6cc95c669382f4178c1841b062b3c8852a",
+    "features": [
+      2.3050434589385986,
+      2.128767251968384,
+      0.17627640068531036,
+      0.5799815058708191,
+      0.5561742186546326,
+      2.2104251384735107,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.552582859992981
+  },
+  {
+    "id": "proso49_b76a7d8d37bd49c56db1",
+    "word": "गरम",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "52999fca4bd4f1b34eb402fcdb613b6cc95c669382f4178c1841b062b3c8852a",
+    "features": [
+      2.3895671367645264,
+      2.1236071586608887,
+      0.26595982909202576,
+      0.6228334307670593,
+      0.5761406421661377,
+      2.2104251384735107,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5570048093795776
+  },
+  {
+    "id": "proso49_b76a7d8d37bd49c56db1",
+    "word": "गरम",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "52999fca4bd4f1b34eb402fcdb613b6cc95c669382f4178c1841b062b3c8852a",
+    "features": [
+      2.4565157890319824,
+      2.112352132797241,
+      0.3441636264324188,
+      0.6609132885932922,
+      0.5947038531303406,
+      2.2104251384735107,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5607917308807373
+  },
+  {
+    "id": "proso49_a19ce206d6de92a1f600",
+    "word": "बुद्ध",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "27c6c754b0cc1004ec0530ca9d4945eb58beec00f529934a2c41816a2fabebde",
+    "features": [
+      2.6860296726226807,
+      2.483034133911133,
+      0.20299555361270905,
+      0.6159364581108093,
+      0.4878084361553192,
+      2.1272778511047363,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5346953272819519
+  },
+  {
+    "id": "proso49_a19ce206d6de92a1f600",
+    "word": "बुद्ध",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "27c6c754b0cc1004ec0530ca9d4945eb58beec00f529934a2c41816a2fabebde",
+    "features": [
+      3.2799532413482666,
+      2.8939828872680664,
+      0.3859703838825226,
+      0.7632920145988464,
+      0.4950479567050934,
+      2.1272778511047363,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5540178418159485
+  },
+  {
+    "id": "proso49_a19ce206d6de92a1f600",
+    "word": "बुद्ध",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "27c6c754b0cc1004ec0530ca9d4945eb58beec00f529934a2c41816a2fabebde",
+    "features": [
+      3.252540349960327,
+      2.8898568153381348,
+      0.36268359422683716,
+      0.7461429238319397,
+      0.488004207611084,
+      2.1272778511047363,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5523878931999207
+  },
+  {
+    "id": "proso49_032334655bc23fcd5be5",
+    "word": "कल्प",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "d9cef6636b0de3f78a4875ba99b36b982786bb0efd8aa9722c89f772b9b4f69c",
+    "features": [
+      4.46259880065918,
+      5.10996675491333,
+      -0.6473680138587952,
+      0.03620198741555214,
+      0.02096790075302124,
+      2.5847012996673584,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.5046541690826416
+  },
+  {
+    "id": "proso49_032334655bc23fcd5be5",
+    "word": "कल्प",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "d9cef6636b0de3f78a4875ba99b36b982786bb0efd8aa9722c89f772b9b4f69c",
+    "features": [
+      1.95542573928833,
+      2.4155194759368896,
+      -0.4600938558578491,
+      0.3494879901409149,
+      0.4619567394256592,
+      2.5847012996673584,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.49475210905075073
+  },
+  {
+    "id": "proso49_032334655bc23fcd5be5",
+    "word": "कल्प",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "d9cef6636b0de3f78a4875ba99b36b982786bb0efd8aa9722c89f772b9b4f69c",
+    "features": [
+      2.269291639328003,
+      2.038762092590332,
+      0.23052948713302612,
+      0.5743287801742554,
+      0.654154896736145,
+      2.5847012996673584,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.5078599452972412
+  },
+  {
+    "id": "proso49_745712e93f82a31cdeda",
+    "word": "मसला",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "6742cdca420b0c4b400e25008d7b8aed267675ffded24b6fef31ceaf0c57c36c",
+    "features": [
+      1.6579973697662354,
+      6.2384443283081055,
+      -4.580447196960449,
+      -0.1748795062303543,
+      -0.5460049510002136,
+      5.176563262939453,
+      0.07692307978868484
+    ],
+    "source_style_score": 0.36048558354377747
+  },
+  {
+    "id": "proso49_745712e93f82a31cdeda",
+    "word": "मसला",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "6742cdca420b0c4b400e25008d7b8aed267675ffded24b6fef31ceaf0c57c36c",
+    "features": [
+      2.175154447555542,
+      6.594419956207275,
+      -4.419265270233154,
+      -0.223128542304039,
+      -0.5310146808624268,
+      5.176563262939453,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.39426389336586
+  },
+  {
+    "id": "proso49_745712e93f82a31cdeda",
+    "word": "मसला",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "6742cdca420b0c4b400e25008d7b8aed267675ffded24b6fef31ceaf0c57c36c",
+    "features": [
+      4.517884254455566,
+      7.615922927856445,
+      -3.098038673400879,
+      -0.2014082372188568,
+      -0.23077228665351868,
+      5.176563262939453,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.49159860610961914
+  },
+  {
+    "id": "proso49_aed5a1d70035b90d0570",
+    "word": "ज्येष्ठ",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "23c4dd2554f5738a619315c701784cb257cfda5dfddcf8c77d60462d82f346bd",
+    "features": [
+      2.3229172229766846,
+      2.1502044200897217,
+      0.17271269857883453,
+      0.5407150983810425,
+      0.7169840335845947,
+      3.080169916152954,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5581154227256775
+  },
+  {
+    "id": "proso49_aed5a1d70035b90d0570",
+    "word": "ज्येष्ठ",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "23c4dd2554f5738a619315c701784cb257cfda5dfddcf8c77d60462d82f346bd",
+    "features": [
+      3.9705920219421387,
+      3.1576969623565674,
+      0.8128950595855713,
+      0.8053798675537109,
+      0.6247700452804565,
+      3.080169916152954,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5966379046440125
+  },
+  {
+    "id": "proso49_aed5a1d70035b90d0570",
+    "word": "ज्येष्ठ",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "23c4dd2554f5738a619315c701784cb257cfda5dfddcf8c77d60462d82f346bd",
+    "features": [
+      3.5323429107666016,
+      2.157036066055298,
+      1.3753069639205933,
+      0.9123681783676147,
+      0.7955765128135681,
+      3.080169916152954,
+      0.7692307829856873
+    ],
+    "source_style_score": 0.6206857562065125
+  },
+  {
+    "id": "proso49_4f268ff4c4e09f8a18e7",
+    "word": "युद्ध",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "0293f1e6447be91dea21224cba95f3c9001508af252890bcfb1129b9fb0d3099",
+    "features": [
+      4.6062469482421875,
+      4.2967987060546875,
+      0.3094483017921448,
+      0.6398282647132874,
+      0.43598052859306335,
+      3.1387081146240234,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5848155617713928
+  },
+  {
+    "id": "proso49_4f268ff4c4e09f8a18e7",
+    "word": "युद्ध",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "0293f1e6447be91dea21224cba95f3c9001508af252890bcfb1129b9fb0d3099",
+    "features": [
+      5.114177703857422,
+      4.553948879241943,
+      0.5602285861968994,
+      0.7749006152153015,
+      0.47557732462882996,
+      3.1387081146240234,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.6029734015464783
+  },
+  {
+    "id": "proso49_4f268ff4c4e09f8a18e7",
+    "word": "युद्ध",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "0293f1e6447be91dea21224cba95f3c9001508af252890bcfb1129b9fb0d3099",
+    "features": [
+      4.884979724884033,
+      4.387908935546875,
+      0.4970710575580597,
+      0.733938455581665,
+      0.47157177329063416,
+      3.1387081146240234,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5961146354675293
+  },
+  {
+    "id": "proso49_fe735604d0bec9e0c157",
+    "word": "लट्ठ",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "b2660665040e26e6263e968b8a2804ad99c088f3fadd2f70ab450f13654f67d5",
+    "features": [
+      4.485333442687988,
+      1.5628468990325928,
+      2.9224863052368164,
+      1.0292764902114868,
+      0.9377123713493347,
+      4.086319446563721,
+      0.7692307829856873
+    ],
+    "source_style_score": 0.6399151682853699
+  },
+  {
+    "id": "proso49_fe735604d0bec9e0c157",
+    "word": "लट्ठ",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "b2660665040e26e6263e968b8a2804ad99c088f3fadd2f70ab450f13654f67d5",
+    "features": [
+      3.556575298309326,
+      1.5428476333618164,
+      2.0137276649475098,
+      0.8074872493743896,
+      0.9277607202529907,
+      4.086319446563721,
+      0.692307710647583
+    ],
+    "source_style_score": 0.6048540472984314
+  },
+  {
+    "id": "proso49_fe735604d0bec9e0c157",
+    "word": "लट्ठ",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "b2660665040e26e6263e968b8a2804ad99c088f3fadd2f70ab450f13654f67d5",
+    "features": [
+      4.161867618560791,
+      1.4263355731964111,
+      2.735531806945801,
+      0.9577404856681824,
+      0.9403551816940308,
+      4.086319446563721,
+      0.692307710647583
+    ],
+    "source_style_score": 0.6201322674751282
+  },
+  {
+    "id": "proso49_cad33c57bdd2cea041ae",
+    "word": "खान",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "ec5d6e5116458ed0f32a26c441f261d54f82cc4cce3f5272046df9ad432955e2",
+    "features": [
+      2.7610373497009277,
+      5.321527004241943,
+      -2.5604896545410156,
+      -0.13477356731891632,
+      -0.19708071649074554,
+      4.037491798400879,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.4546496570110321
+  },
+  {
+    "id": "proso49_cad33c57bdd2cea041ae",
+    "word": "खान",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "ec5d6e5116458ed0f32a26c441f261d54f82cc4cce3f5272046df9ad432955e2",
+    "features": [
+      1.8679431676864624,
+      3.341658115386963,
+      -1.47371506690979,
+      0.2645142376422882,
+      0.5717380046844482,
+      4.037491798400879,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5200694799423218
+  },
+  {
+    "id": "proso49_cad33c57bdd2cea041ae",
+    "word": "खान",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "ec5d6e5116458ed0f32a26c441f261d54f82cc4cce3f5272046df9ad432955e2",
+    "features": [
+      2.8535985946655273,
+      2.3896291255950928,
+      0.4639694094657898,
+      0.5746164917945862,
+      0.8130118250846863,
+      4.037491798400879,
+      0.7692307829856873
+    ],
+    "source_style_score": 0.5948253870010376
+  },
+  {
+    "id": "proso49_b350d2c1d83b9c4628d9",
+    "word": "पुतला",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "ed38fae619b7e34ff38f08f4ed26a5b289d368765d750cf5989ec69f5f74161c",
+    "features": [
+      3.567922353744507,
+      4.499807357788086,
+      -0.9318848252296448,
+      0.3272384703159332,
+      0.42782601714134216,
+      4.664641380310059,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5344298481941223
+  },
+  {
+    "id": "proso49_b350d2c1d83b9c4628d9",
+    "word": "पुतला",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "ed38fae619b7e34ff38f08f4ed26a5b289d368765d750cf5989ec69f5f74161c",
+    "features": [
+      2.3760392665863037,
+      5.2928690910339355,
+      -2.916830062866211,
+      -0.014017824083566666,
+      -0.027519799768924713,
+      4.664641380310059,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4481677711009979
+  },
+  {
+    "id": "proso49_b350d2c1d83b9c4628d9",
+    "word": "पुतला",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "ed38fae619b7e34ff38f08f4ed26a5b289d368765d750cf5989ec69f5f74161c",
+    "features": [
+      2.8303773403167725,
+      5.596194744110107,
+      -2.765817642211914,
+      -0.03555982932448387,
+      -0.058604855090379715,
+      4.664641380310059,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4556125998497009
+  },
+  {
+    "id": "proso49_194d4b4bc9d1e8533789",
+    "word": "बिहान",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "b5853ba38d7d17c680cb5255f584ce4eb1f9fb7a4b854f5c4000f37f97b5aff5",
+    "features": [
+      1.160351276397705,
+      2.7300872802734375,
+      -1.5697358846664429,
+      0.024315401911735535,
+      0.0530921071767807,
+      2.533599853515625,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.45269593596458435
+  },
+  {
+    "id": "proso49_194d4b4bc9d1e8533789",
+    "word": "बिहान",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "b5853ba38d7d17c680cb5255f584ce4eb1f9fb7a4b854f5c4000f37f97b5aff5",
+    "features": [
+      2.0683085918426514,
+      2.185575485229492,
+      -0.11726686358451843,
+      0.4611442983150482,
+      0.5648843050003052,
+      2.533599853515625,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5312380790710449
+  },
+  {
+    "id": "proso49_194d4b4bc9d1e8533789",
+    "word": "बिहान",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "b5853ba38d7d17c680cb5255f584ce4eb1f9fb7a4b854f5c4000f37f97b5aff5",
+    "features": [
+      2.0045785903930664,
+      1.9833613634109497,
+      0.02121737413108349,
+      0.506590723991394,
+      0.6402832865715027,
+      2.533599853515625,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5478636622428894
+  },
+  {
+    "id": "proso49_9c894fbd1243c1c9de2f",
+    "word": "पय",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "d707dc9bf7e125c7a953c110727fff07112abebba93bfd753d28bbe45c241275",
+    "features": [
+      3.14566707611084,
+      5.368770122528076,
+      -2.2231032848358154,
+      -0.1181911751627922,
+      -0.14701230823993683,
+      3.9127438068389893,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.46727651357650757
+  },
+  {
+    "id": "proso49_9c894fbd1243c1c9de2f",
+    "word": "पय",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "d707dc9bf7e125c7a953c110727fff07112abebba93bfd753d28bbe45c241275",
+    "features": [
+      2.1771223545074463,
+      4.832122802734375,
+      -2.6550004482269287,
+      -0.10777530074119568,
+      -0.19369472563266754,
+      3.9127438068389893,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.44235697388648987
+  },
+  {
+    "id": "proso49_9c894fbd1243c1c9de2f",
+    "word": "पय",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "d707dc9bf7e125c7a953c110727fff07112abebba93bfd753d28bbe45c241275",
+    "features": [
+      1.9929537773132324,
+      3.0979044437408447,
+      -1.1049507856369019,
+      0.31628647446632385,
+      0.6209616661071777,
+      3.9127438068389893,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4906054735183716
+  },
+  {
+    "id": "proso49_747ffeeacc967ae38799",
+    "word": "जय",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "aa9f7dd504c32b5aa2430d5932db0626d2301749209c4e6462be8faa3a291b46",
+    "features": [
+      1.2472469806671143,
+      2.2995920181274414,
+      -1.0523451566696167,
+      0.2493603229522705,
+      0.5455502867698669,
+      2.7287259101867676,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.4590124189853668
+  },
+  {
+    "id": "proso49_747ffeeacc967ae38799",
+    "word": "जय",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "aa9f7dd504c32b5aa2430d5932db0626d2301749209c4e6462be8faa3a291b46",
+    "features": [
+      1.1106960773468018,
+      2.8293731212615967,
+      -1.7186769247055054,
+      0.045275598764419556,
+      0.11123178154230118,
+      2.7287259101867676,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.4089226722717285
+  },
+  {
+    "id": "proso49_747ffeeacc967ae38799",
+    "word": "जय",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "aa9f7dd504c32b5aa2430d5932db0626d2301749209c4e6462be8faa3a291b46",
+    "features": [
+      2.197258472442627,
+      1.5983073711395264,
+      0.5989512205123901,
+      0.6526575088500977,
+      0.8105206489562988,
+      2.7287259101867676,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5648809671401978
+  },
+  {
+    "id": "proso49_71532eaf2935cd5a0c93",
+    "word": "दोस्त",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "378fb8b5cbc93eb954ca991477915163ae516fc0ed8fa987d695ee1823bd4245",
+    "features": [
+      5.3025383949279785,
+      5.3088884353637695,
+      -0.006349862087517977,
+      0.49882251024246216,
+      0.5031978487968445,
+      5.349049091339111,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.578514039516449
+  },
+  {
+    "id": "proso49_71532eaf2935cd5a0c93",
+    "word": "दोस्त",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "378fb8b5cbc93eb954ca991477915163ae516fc0ed8fa987d695ee1823bd4245",
+    "features": [
+      4.3959245681762695,
+      3.7904233932495117,
+      0.6055013537406921,
+      0.5866208076477051,
+      0.7138119339942932,
+      5.349049091339111,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.58147794008255
+  },
+  {
+    "id": "proso49_71532eaf2935cd5a0c93",
+    "word": "दोस्त",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "378fb8b5cbc93eb954ca991477915163ae516fc0ed8fa987d695ee1823bd4245",
+    "features": [
+      6.187158107757568,
+      6.32595157623291,
+      -0.13879366219043732,
+      0.4696504771709442,
+      0.40603187680244446,
+      5.349049091339111,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5935744047164917
+  },
+  {
+    "id": "proso49_f003368a967b367fb7f2",
+    "word": "नगर",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "5b21741df21ba73d1476698bff261aef280f35e6de366258f9179e68c571dd74",
+    "features": [
+      0.8523042798042297,
+      2.7885193824768066,
+      -1.9362151622772217,
+      -0.3249874711036682,
+      -0.7881518602371216,
+      2.066987991333008,
+      0.0
+    ],
+    "source_style_score": 0.31093189120292664
+  },
+  {
+    "id": "proso49_f003368a967b367fb7f2",
+    "word": "नगर",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "5b21741df21ba73d1476698bff261aef280f35e6de366258f9179e68c571dd74",
+    "features": [
+      0.8908527493476868,
+      2.5489230155944824,
+      -1.65807044506073,
+      -0.1674630343914032,
+      -0.388553649187088,
+      2.066987991333008,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.37519049644470215
+  },
+  {
+    "id": "proso49_f003368a967b367fb7f2",
+    "word": "नगर",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "5b21741df21ba73d1476698bff261aef280f35e6de366258f9179e68c571dd74",
+    "features": [
+      0.764885425567627,
+      2.5011446475982666,
+      -1.7362592220306396,
+      -0.1636343151330948,
+      -0.44219717383384705,
+      2.066987991333008,
+      0.07692307978868484
+    ],
+    "source_style_score": 0.34668728709220886
+  },
+  {
+    "id": "proso49_22c3bf325d16850ba676",
+    "word": "स्वच्छ",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "0b104e5a8a4866d7766cfed9a57571a5d0fca3c72fd1336fd575bc83d796a52d",
+    "features": [
+      3.933837413787842,
+      3.87577223777771,
+      0.05806538462638855,
+      0.5075978636741638,
+      0.704881489276886,
+      5.462767601013184,
+      0.692307710647583
+    ],
+    "source_style_score": 0.5934116244316101
+  },
+  {
+    "id": "proso49_22c3bf325d16850ba676",
+    "word": "स्वच्छ",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "0b104e5a8a4866d7766cfed9a57571a5d0fca3c72fd1336fd575bc83d796a52d",
+    "features": [
+      2.7937746047973633,
+      4.567100524902344,
+      -1.7733259201049805,
+      0.2812930643558502,
+      0.5500224232673645,
+      5.462767601013184,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5111759901046753
+  },
+  {
+    "id": "proso49_22c3bf325d16850ba676",
+    "word": "स्वच्छ",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "0b104e5a8a4866d7766cfed9a57571a5d0fca3c72fd1336fd575bc83d796a52d",
+    "features": [
+      3.185971736907959,
+      4.782848358154297,
+      -1.5968767404556274,
+      0.28678882122039795,
+      0.4917371869087219,
+      5.462767601013184,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.5035629272460938
+  },
+  {
+    "id": "proso49_ed143b67ed906dea872e",
+    "word": "पदार्थ",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "64caa9d8180713c2cc9d7642c28d5608b10cf8956f265c472b31056913f71af4",
+    "features": [
+      3.2329092025756836,
+      2.9481923580169678,
+      0.2847166955471039,
+      0.5901808738708496,
+      0.5702415704727173,
+      3.123685121536255,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.534763753414154
+  },
+  {
+    "id": "proso49_ed143b67ed906dea872e",
+    "word": "पदार्थ",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "64caa9d8180713c2cc9d7642c28d5608b10cf8956f265c472b31056913f71af4",
+    "features": [
+      2.737539529800415,
+      2.1894469261169434,
+      0.5480924844741821,
+      0.6383791565895081,
+      0.7284262180328369,
+      3.123685121536255,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.5216803550720215
+  },
+  {
+    "id": "proso49_ed143b67ed906dea872e",
+    "word": "पदार्थ",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "64caa9d8180713c2cc9d7642c28d5608b10cf8956f265c472b31056913f71af4",
+    "features": [
+      3.066258668899536,
+      2.00102162361145,
+      1.0652369260787964,
+      0.7766028642654419,
+      0.7911474704742432,
+      3.123685121536255,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5714749097824097
+  },
+  {
+    "id": "proso49_cbeb33cb998b612d4ad6",
+    "word": "अल्लाह",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "ddc2a71a90ebeefe78fa683e900e332b2748462260b5fa7f3a123d425fac6d2c",
+    "features": [
+      1.1315468549728394,
+      2.873816728591919,
+      -1.7422699928283691,
+      0.05651436373591423,
+      0.14009100198745728,
+      2.8049423694610596,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.4116417169570923
+  },
+  {
+    "id": "proso49_cbeb33cb998b612d4ad6",
+    "word": "अल्लाह",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "ddc2a71a90ebeefe78fa683e900e332b2748462260b5fa7f3a123d425fac6d2c",
+    "features": [
+      0.511447012424469,
+      2.525963306427002,
+      -2.0145161151885986,
+      0.11113721877336502,
+      0.6095127463340759,
+      2.8049423694610596,
+      0.0
+    ],
+    "source_style_score": 0.4117729365825653
+  },
+  {
+    "id": "proso49_cbeb33cb998b612d4ad6",
+    "word": "अल्लाह",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "ddc2a71a90ebeefe78fa683e900e332b2748462260b5fa7f3a123d425fac6d2c",
+    "features": [
+      1.0602325201034546,
+      2.5638630390167236,
+      -1.5036303997039795,
+      0.15369169414043427,
+      0.40660545229911804,
+      2.8049423694610596,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.4432917833328247
+  },
+  {
+    "id": "proso49_c847f9324e19156df71f",
+    "word": "कर्मचारी",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "ca0da2188b435e618a65cb007b93eb9a30b4e32e8f5f6dae2647ffaf5321b0bd",
+    "features": [
+      1.638920783996582,
+      3.2119100093841553,
+      -1.5729891061782837,
+      0.1574316769838333,
+      0.32056528329849243,
+      3.33720064163208,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5088058710098267
+  },
+  {
+    "id": "proso49_c847f9324e19156df71f",
+    "word": "कर्मचारी",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "ca0da2188b435e618a65cb007b93eb9a30b4e32e8f5f6dae2647ffaf5321b0bd",
+    "features": [
+      1.3818585872650146,
+      3.116276741027832,
+      -1.7344181537628174,
+      0.1497391015291214,
+      0.36162129044532776,
+      3.33720064163208,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.4942200779914856
+  },
+  {
+    "id": "proso49_c847f9324e19156df71f",
+    "word": "कर्मचारी",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "ca0da2188b435e618a65cb007b93eb9a30b4e32e8f5f6dae2647ffaf5321b0bd",
+    "features": [
+      1.467064380645752,
+      3.916111946105957,
+      -2.449047565460205,
+      -0.09189022332429886,
+      -0.2090270221233368,
+      3.33720064163208,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.40247130393981934
+  },
+  {
+    "id": "proso49_3bab12171d9b9c29a1f8",
+    "word": "युक्त",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "597ea53a43e0616447fba7e1c3ff431f2be3e119855da486d6c3d2ca252dbff8",
+    "features": [
+      3.3446507453918457,
+      2.8603763580322266,
+      0.48427432775497437,
+      0.753223717212677,
+      0.548559308052063,
+      2.435849189758301,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5802994966506958
+  },
+  {
+    "id": "proso49_3bab12171d9b9c29a1f8",
+    "word": "युक्त",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "597ea53a43e0616447fba7e1c3ff431f2be3e119855da486d6c3d2ca252dbff8",
+    "features": [
+      1.4897295236587524,
+      2.7986178398132324,
+      -1.3088884353637695,
+      0.026999283581972122,
+      0.04414639249444008,
+      2.435849189758301,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4353503882884979
+  },
+  {
+    "id": "proso49_3bab12171d9b9c29a1f8",
+    "word": "युक्त",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "597ea53a43e0616447fba7e1c3ff431f2be3e119855da486d6c3d2ca252dbff8",
+    "features": [
+      2.1436283588409424,
+      2.2090206146240234,
+      -0.06539224088191986,
+      0.47601449489593506,
+      0.5409051179885864,
+      2.435849189758301,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5200433135032654
+  },
+  {
+    "id": "proso49_bccec279935f3935216b",
+    "word": "पस",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "8206e34ead2065a7d387a0fc4d22740e56f1571f237e0da012ec4b15760be36b",
+    "features": [
+      4.713172912597656,
+      3.8850386142730713,
+      0.828134298324585,
+      0.5697919726371765,
+      0.8634548783302307,
+      7.142276763916016,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5863608717918396
+  },
+  {
+    "id": "proso49_bccec279935f3935216b",
+    "word": "पस",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "8206e34ead2065a7d387a0fc4d22740e56f1571f237e0da012ec4b15760be36b",
+    "features": [
+      4.168625831604004,
+      3.6125011444091797,
+      0.5561248064041138,
+      0.5424141883850098,
+      0.9293404221534729,
+      7.142276763916016,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5787409543991089
+  },
+  {
+    "id": "proso49_bccec279935f3935216b",
+    "word": "पस",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "8206e34ead2065a7d387a0fc4d22740e56f1571f237e0da012ec4b15760be36b",
+    "features": [
+      4.1079607009887695,
+      5.146089553833008,
+      -1.0381288528442383,
+      0.40583711862564087,
+      0.7056057453155518,
+      7.142276763916016,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.543988049030304
+  },
+  {
+    "id": "proso49_bb5a23cc8c39b4754f2c",
+    "word": "कलह",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "d9c03075aa440d2ae0606525e2c30ac86a7ce53a13cb91f93862d99703350488",
+    "features": [
+      4.857466697692871,
+      4.350184440612793,
+      0.5072820782661438,
+      0.548821747303009,
+      0.781446099281311,
+      6.916358947753906,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5987733602523804
+  },
+  {
+    "id": "proso49_bb5a23cc8c39b4754f2c",
+    "word": "कलह",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "d9c03075aa440d2ae0606525e2c30ac86a7ce53a13cb91f93862d99703350488",
+    "features": [
+      4.693384647369385,
+      4.1712260246276855,
+      0.5221583247184753,
+      0.5483812093734741,
+      0.8081164956092834,
+      6.916358947753906,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5965374708175659
+  },
+  {
+    "id": "proso49_bb5a23cc8c39b4754f2c",
+    "word": "कलह",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "d9c03075aa440d2ae0606525e2c30ac86a7ce53a13cb91f93862d99703350488",
+    "features": [
+      4.754453659057617,
+      5.061193466186523,
+      -0.3067401349544525,
+      0.46852943301200867,
+      0.6815752387046814,
+      6.916358947753906,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5805084705352783
+  },
+  {
+    "id": "proso49_4846dbfaf106d7f38fbd",
+    "word": "साध",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "066eb33bed044c2fc2220c05c3e0fbc4943cea5faf1cc1fb447ac64b32a8f306",
+    "features": [
+      1.815389633178711,
+      5.573524475097656,
+      -3.758134603500366,
+      -0.015692709013819695,
+      -0.04485326260328293,
+      5.188788414001465,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.45913392305374146
+  },
+  {
+    "id": "proso49_4846dbfaf106d7f38fbd",
+    "word": "साध",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "066eb33bed044c2fc2220c05c3e0fbc4943cea5faf1cc1fb447ac64b32a8f306",
+    "features": [
+      3.426461935043335,
+      3.7077884674072266,
+      -0.28132644295692444,
+      0.46272677183151245,
+      0.7007203102111816,
+      5.188788414001465,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5476450324058533
+  },
+  {
+    "id": "proso49_4846dbfaf106d7f38fbd",
+    "word": "साध",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "066eb33bed044c2fc2220c05c3e0fbc4943cea5faf1cc1fb447ac64b32a8f306",
+    "features": [
+      1.5992469787597656,
+      4.996806621551514,
+      -3.397559881210327,
+      0.08381220698356628,
+      0.27193036675453186,
+      5.188788414001465,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.47857585549354553
+  },
+  {
+    "id": "proso49_ac5a2cab91a738a80261",
+    "word": "कष्ट",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "876d261b17f9a9218926f7d89fdaf672415f7f66d94d47306d0f5e87f48d3122",
+    "features": [
+      2.8212180137634277,
+      3.3480145931243896,
+      -0.5267966985702515,
+      0.280118465423584,
+      0.2699185907840729,
+      2.7184898853302,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.4996175169944763
+  },
+  {
+    "id": "proso49_ac5a2cab91a738a80261",
+    "word": "कष्ट",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "876d261b17f9a9218926f7d89fdaf672415f7f66d94d47306d0f5e87f48d3122",
+    "features": [
+      3.5712947845458984,
+      2.9499971866607666,
+      0.6212976574897766,
+      0.7741245627403259,
+      0.5892680287361145,
+      2.7184898853302,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5750440359115601
+  },
+  {
+    "id": "proso49_ac5a2cab91a738a80261",
+    "word": "कष्ट",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "876d261b17f9a9218926f7d89fdaf672415f7f66d94d47306d0f5e87f48d3122",
+    "features": [
+      5.2069010734558105,
+      5.475320339202881,
+      -0.26841893792152405,
+      0.3060055375099182,
+      0.15976352989673615,
+      2.7184898853302,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5637174248695374
+  },
+  {
+    "id": "proso49_6c2f3b1ce8ca4d972544",
+    "word": "दशहरा",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "7b366a700b805b4ffe7fb5c82f1c247a37866dbdc96d18004bee521985cc8940",
+    "features": [
+      2.5529062747955322,
+      3.8837804794311523,
+      -1.3308744430541992,
+      0.006988661829382181,
+      0.00806892104446888,
+      2.947516679763794,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.45587605237960815
+  },
+  {
+    "id": "proso49_6c2f3b1ce8ca4d972544",
+    "word": "दशहरा",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "7b366a700b805b4ffe7fb5c82f1c247a37866dbdc96d18004bee521985cc8940",
+    "features": [
+      2.140796422958374,
+      2.879091501235962,
+      -0.7382951974868774,
+      0.2867045998573303,
+      0.39474403858184814,
+      2.947516679763794,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.47979944944381714
+  },
+  {
+    "id": "proso49_6c2f3b1ce8ca4d972544",
+    "word": "दशहरा",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "7b366a700b805b4ffe7fb5c82f1c247a37866dbdc96d18004bee521985cc8940",
+    "features": [
+      4.323702812194824,
+      5.27369499206543,
+      -0.9499918222427368,
+      -0.024723848327994347,
+      -0.01685452274978161,
+      2.947516679763794,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5079787969589233
+  },
+  {
+    "id": "proso49_594b474fa0d1b22fb925",
+    "word": "नलिन",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "757330e9dc60d9ccb05a66a3d9ef3bc865b7a654e2aec866f708554e9f7453d2",
+    "features": [
+      2.7504613399505615,
+      2.2059688568115234,
+      0.5444924235343933,
+      0.6470106244087219,
+      0.712683916091919,
+      3.0296404361724854,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5338214635848999
+  },
+  {
+    "id": "proso49_594b474fa0d1b22fb925",
+    "word": "नलिन",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "757330e9dc60d9ccb05a66a3d9ef3bc865b7a654e2aec866f708554e9f7453d2",
+    "features": [
+      1.769551157951355,
+      2.2916903495788574,
+      -0.5221391916275024,
+      0.38448643684387207,
+      0.6582774519920349,
+      3.0296404361724854,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.467477023601532
+  },
+  {
+    "id": "proso49_594b474fa0d1b22fb925",
+    "word": "नलिन",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "757330e9dc60d9ccb05a66a3d9ef3bc865b7a654e2aec866f708554e9f7453d2",
+    "features": [
+      3.2723677158355713,
+      1.9762135744094849,
+      1.296154260635376,
+      0.8705837726593018,
+      0.8060083985328674,
+      3.0296404361724854,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5915166735649109
+  },
+  {
+    "id": "proso49_4adcf51d3bfaac631030",
+    "word": "कमला",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "51a4e278f63e17326ee4411905b6936e041c869764e1d46f1a6dace39a92a762",
+    "features": [
+      1.329699158668518,
+      1.2663792371749878,
+      0.06331988424062729,
+      0.557839572429657,
+      0.5001006126403809,
+      1.192069172859192,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.4940454959869385
+  },
+  {
+    "id": "proso49_4adcf51d3bfaac631030",
+    "word": "कमला",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "51a4e278f63e17326ee4411905b6936e041c869764e1d46f1a6dace39a92a762",
+    "features": [
+      1.3818989992141724,
+      1.319988489151001,
+      0.06191044673323631,
+      0.5588570237159729,
+      0.48208752274513245,
+      1.192069172859192,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5061400532722473
+  },
+  {
+    "id": "proso49_4adcf51d3bfaac631030",
+    "word": "कमला",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "51a4e278f63e17326ee4411905b6936e041c869764e1d46f1a6dace39a92a762",
+    "features": [
+      1.6742534637451172,
+      1.7649627923965454,
+      -0.09070932120084763,
+      0.39023131132125854,
+      0.2778448760509491,
+      1.192069172859192,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5055460333824158
+  },
+  {
+    "id": "proso49_301174e31c2ab034ab63",
+    "word": "गुजरात",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "4941aa1ef42cc1372a2004709ad3962e6a58abce3cace066cf003515d6bcc5a2",
+    "features": [
+      4.057823181152344,
+      4.580751895904541,
+      -0.5229288339614868,
+      0.45924389362335205,
+      0.8425219058990479,
+      7.444421291351318,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5608834028244019
+  },
+  {
+    "id": "proso49_301174e31c2ab034ab63",
+    "word": "गुजरात",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "4941aa1ef42cc1372a2004709ad3962e6a58abce3cace066cf003515d6bcc5a2",
+    "features": [
+      3.8984172344207764,
+      4.765505790710449,
+      -0.8670886158943176,
+      0.4322223961353302,
+      0.8253722786903381,
+      7.444421291351318,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.5332496762275696
+  },
+  {
+    "id": "proso49_301174e31c2ab034ab63",
+    "word": "गुजरात",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "4941aa1ef42cc1372a2004709ad3962e6a58abce3cace066cf003515d6bcc5a2",
+    "features": [
+      3.6190078258514404,
+      4.548415660858154,
+      -0.92940753698349,
+      0.4315143823623657,
+      0.8876396417617798,
+      7.444421291351318,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5552959442138672
+  },
+  {
+    "id": "proso49_059df9598a64cc1ca6b8",
+    "word": "दायर",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "3182aa920899660cbdde049c4b8dfd959311810ab5657278c8d34f9ef688b55d",
+    "features": [
+      2.0461747646331787,
+      3.8638994693756104,
+      -1.8177248239517212,
+      0.1344737559556961,
+      0.25193068385124207,
+      3.833418607711792,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.46341344714164734
+  },
+  {
+    "id": "proso49_059df9598a64cc1ca6b8",
+    "word": "दायर",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "3182aa920899660cbdde049c4b8dfd959311810ab5657278c8d34f9ef688b55d",
+    "features": [
+      2.3576321601867676,
+      3.7795262336730957,
+      -1.4218940734863281,
+      0.2030850499868393,
+      0.330208420753479,
+      3.833418607711792,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.488834023475647
+  },
+  {
+    "id": "proso49_059df9598a64cc1ca6b8",
+    "word": "दायर",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "3182aa920899660cbdde049c4b8dfd959311810ab5657278c8d34f9ef688b55d",
+    "features": [
+      3.1284589767456055,
+      3.873063325881958,
+      -0.7446042895317078,
+      0.3226155638694763,
+      0.39531299471855164,
+      3.833418607711792,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5247222185134888
+  },
+  {
+    "id": "proso49_1e3dfeab4bbcee0a247d",
+    "word": "शुल्क",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "bb967c78416be61dec730060ead8236b240c4c5201dec62627579187f52ebf87",
+    "features": [
+      3.7002217769622803,
+      6.743810653686523,
+      -3.043588876724243,
+      0.22392162680625916,
+      0.4591601490974426,
+      7.587450981140137,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5328104496002197
+  },
+  {
+    "id": "proso49_1e3dfeab4bbcee0a247d",
+    "word": "शुल्क",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "bb967c78416be61dec730060ead8236b240c4c5201dec62627579187f52ebf87",
+    "features": [
+      1.8537787199020386,
+      6.2430925369262695,
+      -4.389313697814941,
+      0.19133169949054718,
+      0.7831138968467712,
+      7.587450981140137,
+      0.0
+    ],
+    "source_style_score": 0.44704708456993103
+  },
+  {
+    "id": "proso49_1e3dfeab4bbcee0a247d",
+    "word": "शुल्क",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "bb967c78416be61dec730060ead8236b240c4c5201dec62627579187f52ebf87",
+    "features": [
+      4.126850605010986,
+      5.809846878051758,
+      -1.6829962730407715,
+      0.3547542691230774,
+      0.6522360444068909,
+      7.587450981140137,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5644673109054565
+  },
+  {
+    "id": "proso49_a64b36da4daba5d2e361",
+    "word": "खरब",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "5206060de0ed2f9288d8c8b7c2d7f495ca43da7c4020a16f2c829c47ee3a0316",
+    "features": [
+      2.4629623889923096,
+      2.9153783321380615,
+      -0.45241579413414,
+      0.21410149335861206,
+      0.17932218313217163,
+      2.062871217727661,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.4850841760635376
+  },
+  {
+    "id": "proso49_a64b36da4daba5d2e361",
+    "word": "खरब",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "5206060de0ed2f9288d8c8b7c2d7f495ca43da7c4020a16f2c829c47ee3a0316",
+    "features": [
+      2.199300527572632,
+      2.3736538887023926,
+      -0.17435334622859955,
+      0.40631869435310364,
+      0.3811134994029999,
+      2.062871217727661,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5223024487495422
+  },
+  {
+    "id": "proso49_a64b36da4daba5d2e361",
+    "word": "खरब",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "5206060de0ed2f9288d8c8b7c2d7f495ca43da7c4020a16f2c829c47ee3a0316",
+    "features": [
+      3.32901930809021,
+      2.6472434997558594,
+      0.6817756295204163,
+      0.978736937046051,
+      0.6064873933792114,
+      2.062871217727661,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.5451583862304688
+  },
+  {
+    "id": "proso49_aed7acabb4a282f0cafa",
+    "word": "तरह",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "e885e1d8d13a55716b5597e76010c990b16abc53be1a0951f9221dbf6676ab81",
+    "features": [
+      10.737525939941406,
+      3.674708604812622,
+      7.062817096710205,
+      0.778562605381012,
+      0.9800935983657837,
+      13.516935348510742,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.6608244180679321
+  },
+  {
+    "id": "proso49_aed7acabb4a282f0cafa",
+    "word": "तरह",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "e885e1d8d13a55716b5597e76010c990b16abc53be1a0951f9221dbf6676ab81",
+    "features": [
+      11.572854042053223,
+      2.842827558517456,
+      8.730026245117188,
+      0.8444008827209473,
+      0.9862487316131592,
+      13.516935348510742,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.6815811991691589
+  },
+  {
+    "id": "proso49_aed7acabb4a282f0cafa",
+    "word": "तरह",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "e885e1d8d13a55716b5597e76010c990b16abc53be1a0951f9221dbf6676ab81",
+    "features": [
+      12.129783630371094,
+      2.8874945640563965,
+      9.242288589477539,
+      0.8798256516456604,
+      0.9804417490959167,
+      13.516935348510742,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.6808295249938965
+  },
+  {
+    "id": "proso49_934058661be036310eea",
+    "word": "सपना",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "17b1bc94ab746ed70f0882af1380a24699bdc3457e8699411fc0611e0a779def",
+    "features": [
+      1.0920058488845825,
+      3.4482338428497314,
+      -2.3562281131744385,
+      -0.09899201989173889,
+      -0.2708929777145386,
+      2.988288640975952,
+      0.07692307978868484
+    ],
+    "source_style_score": 0.36719706654548645
+  },
+  {
+    "id": "proso49_934058661be036310eea",
+    "word": "सपना",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "17b1bc94ab746ed70f0882af1380a24699bdc3457e8699411fc0611e0a779def",
+    "features": [
+      3.77664852142334,
+      5.266080856323242,
+      -1.489432454109192,
+      -0.2541283667087555,
+      -0.2010801136493683,
+      2.988288640975952,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4636858403682709
+  },
+  {
+    "id": "proso49_934058661be036310eea",
+    "word": "सपना",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "17b1bc94ab746ed70f0882af1380a24699bdc3457e8699411fc0611e0a779def",
+    "features": [
+      1.919884443283081,
+      2.0844807624816895,
+      -0.16459625959396362,
+      0.4630955755710602,
+      0.7208054661750793,
+      2.988288640975952,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5126015543937683
+  },
+  {
+    "id": "proso49_09d0de3f5cdaf82787ef",
+    "word": "जिरह",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "3ca3cef279428bb9f6c61a9b340c1ab432d4a6348a438805a0277fbc0fac0da8",
+    "features": [
+      1.5238341093063354,
+      2.270686626434326,
+      -0.7468526363372803,
+      0.31821760535240173,
+      0.5830308794975281,
+      2.791933298110962,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.46853742003440857
+  },
+  {
+    "id": "proso49_09d0de3f5cdaf82787ef",
+    "word": "जिरह",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "3ca3cef279428bb9f6c61a9b340c1ab432d4a6348a438805a0277fbc0fac0da8",
+    "features": [
+      1.3858859539031982,
+      3.7237887382507324,
+      -2.337902784347534,
+      -0.2662661671638489,
+      -0.5364059209823608,
+      2.791933298110962,
+      0.07692307978868484
+    ],
+    "source_style_score": 0.3512488007545471
+  },
+  {
+    "id": "proso49_09d0de3f5cdaf82787ef",
+    "word": "जिरह",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "3ca3cef279428bb9f6c61a9b340c1ab432d4a6348a438805a0277fbc0fac0da8",
+    "features": [
+      1.7863667011260986,
+      2.149648427963257,
+      -0.3632817268371582,
+      0.40828078985214233,
+      0.6381067633628845,
+      2.791933298110962,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.47962507605552673
+  },
+  {
+    "id": "proso49_eb397850a4c20c52447b",
+    "word": "सराहना",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "9cab0523672869eb35e66c22a25b5c40c11b0fa02e0ec5d1b8ae5b64922fc682",
+    "features": [
+      2.3264341354370117,
+      4.540219783782959,
+      -2.213785409927368,
+      -0.09198184311389923,
+      -0.14167149364948273,
+      3.5832009315490723,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.44960838556289673
+  },
+  {
+    "id": "proso49_eb397850a4c20c52447b",
+    "word": "सराहना",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "9cab0523672869eb35e66c22a25b5c40c11b0fa02e0ec5d1b8ae5b64922fc682",
+    "features": [
+      1.3220821619033813,
+      4.1205973625183105,
+      -2.7985150814056396,
+      -0.09315486997365952,
+      -0.25247493386268616,
+      3.5832009315490723,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.38500291109085083
+  },
+  {
+    "id": "proso49_eb397850a4c20c52447b",
+    "word": "सराहना",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "9cab0523672869eb35e66c22a25b5c40c11b0fa02e0ec5d1b8ae5b64922fc682",
+    "features": [
+      4.5554304122924805,
+      4.239709377288818,
+      0.3157210946083069,
+      0.6081369519233704,
+      0.4783470630645752,
+      3.5832009315490723,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5708257555961609
+  },
+  {
+    "id": "proso49_859c965fc43338c8d5e2",
+    "word": "सायर",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "e98f91da8b6c8414e06e07be19fb1fedd2fbc0889679203e0a4a0712488c68f8",
+    "features": [
+      1.7131489515304565,
+      2.1374905109405518,
+      -0.4243415594100952,
+      0.4197024405002594,
+      0.7814557552337646,
+      3.189760208129883,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5111114382743835
+  },
+  {
+    "id": "proso49_859c965fc43338c8d5e2",
+    "word": "सायर",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "e98f91da8b6c8414e06e07be19fb1fedd2fbc0889679203e0a4a0712488c68f8",
+    "features": [
+      2.5557007789611816,
+      3.285067558288574,
+      -0.7293668985366821,
+      0.29065144062042236,
+      0.3627609610557556,
+      3.189760208129883,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.4743855893611908
+  },
+  {
+    "id": "proso49_859c965fc43338c8d5e2",
+    "word": "सायर",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "e98f91da8b6c8414e06e07be19fb1fedd2fbc0889679203e0a4a0712488c68f8",
+    "features": [
+      2.641662120819092,
+      1.7650346755981445,
+      0.8766274452209473,
+      0.6898375749588013,
+      0.8329666256904602,
+      3.189760208129883,
+      0.7692307829856873
+    ],
+    "source_style_score": 0.5973254442214966
+  },
+  {
+    "id": "proso49_1cdd988062dc9ddc6f70",
+    "word": "साह",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "dc1a95ddaf736aeb26b06f25bd4a77c78b5b4561f4276bb40d373effbad9d978",
+    "features": [
+      1.328235149383545,
+      4.680605888366699,
+      -3.3523707389831543,
+      0.13565132021903992,
+      0.53696608543396,
+      5.257724285125732,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.4448678493499756
+  },
+  {
+    "id": "proso49_1cdd988062dc9ddc6f70",
+    "word": "साह",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "dc1a95ddaf736aeb26b06f25bd4a77c78b5b4561f4276bb40d373effbad9d978",
+    "features": [
+      2.872412919998169,
+      3.1808478832244873,
+      -0.30843499302864075,
+      0.46623027324676514,
+      0.8533975481987,
+      5.257724285125732,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5569432377815247
+  },
+  {
+    "id": "proso49_1cdd988062dc9ddc6f70",
+    "word": "साह",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "dc1a95ddaf736aeb26b06f25bd4a77c78b5b4561f4276bb40d373effbad9d978",
+    "features": [
+      5.123098373413086,
+      4.245514869689941,
+      0.8775835037231445,
+      0.6487092971801758,
+      0.6657562255859375,
+      5.257724285125732,
+      0.692307710647583
+    ],
+    "source_style_score": 0.6197887659072876
+  },
+  {
+    "id": "proso49_9cd82f465f205da996a5",
+    "word": "सकल",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "b7b10cc5f023ad1e3b86b64e2ac6092d4601aad1f72aa5296acba6236d2967cf",
+    "features": [
+      4.892691612243652,
+      4.433004379272461,
+      0.4596874415874481,
+      0.6818916201591492,
+      0.4784297049045563,
+      3.432816743850708,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.5580172538757324
+  },
+  {
+    "id": "proso49_9cd82f465f205da996a5",
+    "word": "सकल",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "b7b10cc5f023ad1e3b86b64e2ac6092d4601aad1f72aa5296acba6236d2967cf",
+    "features": [
+      1.8942360877990723,
+      2.91056752204895,
+      -1.016331434249878,
+      0.2928047776222229,
+      0.5306335091590881,
+      3.432816743850708,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4829135239124298
+  },
+  {
+    "id": "proso49_9cd82f465f205da996a5",
+    "word": "सकल",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "b7b10cc5f023ad1e3b86b64e2ac6092d4601aad1f72aa5296acba6236d2967cf",
+    "features": [
+      4.271185398101807,
+      2.193331480026245,
+      2.0778541564941406,
+      1.0699278116226196,
+      0.8599172830581665,
+      3.432816743850708,
+      0.692307710647583
+    ],
+    "source_style_score": 0.6295153498649597
+  },
+  {
+    "id": "proso49_bef3749f60fd30b59a83",
+    "word": "नहर",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "1ce3bfe74dc8e5ff58c4b0bf5a4ec8b9f206ac627b8113c4029fe94c0d22c54d",
+    "features": [
+      0.7693121433258057,
+      0.7992550134658813,
+      -0.029942892491817474,
+      -0.012201371602714062,
+      -0.003396011423319578,
+      0.21412287652492523,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.44134262204170227
+  },
+  {
+    "id": "proso49_bef3749f60fd30b59a83",
+    "word": "नहर",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "1ce3bfe74dc8e5ff58c4b0bf5a4ec8b9f206ac627b8113c4029fe94c0d22c54d",
+    "features": [
+      2.006284475326538,
+      1.9619542360305786,
+      0.044330231845378876,
+      2.4184110164642334,
+      0.2581075131893158,
+      0.21412287652492523,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5965502858161926
+  },
+  {
+    "id": "proso49_bef3749f60fd30b59a83",
+    "word": "नहर",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "1ce3bfe74dc8e5ff58c4b0bf5a4ec8b9f206ac627b8113c4029fe94c0d22c54d",
+    "features": [
+      1.4169739484786987,
+      1.4255785942077637,
+      -0.008604610338807106,
+      0.2332627922296524,
+      0.03524898737668991,
+      0.21412287652492523,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.4810042977333069
+  },
+  {
+    "id": "proso49_76488f3650cd6479ac15",
+    "word": "ढाक",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "0a89ee2f47fab7adcbffa7db8ce3e8bc5d19ec74c577c1774ad4ed38e695cf13",
+    "features": [
+      2.154289484024048,
+      2.8820836544036865,
+      -0.7277941107749939,
+      -0.5228571891784668,
+      -0.3248775899410248,
+      1.338568925857544,
+      0.07692307978868484
+    ],
+    "source_style_score": 0.37494605779647827
+  },
+  {
+    "id": "proso49_76488f3650cd6479ac15",
+    "word": "ढाक",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "0a89ee2f47fab7adcbffa7db8ce3e8bc5d19ec74c577c1774ad4ed38e695cf13",
+    "features": [
+      3.6753499507904053,
+      3.7762744426727295,
+      -0.10092443227767944,
+      0.29013702273368835,
+      0.10566841810941696,
+      1.338568925857544,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.4915779232978821
+  },
+  {
+    "id": "proso49_76488f3650cd6479ac15",
+    "word": "ढाक",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "0a89ee2f47fab7adcbffa7db8ce3e8bc5d19ec74c577c1774ad4ed38e695cf13",
+    "features": [
+      2.33554744720459,
+      3.0082216262817383,
+      -0.6726740598678589,
+      -0.503092348575592,
+      -0.2883365750312805,
+      1.338568925857544,
+      0.07692307978868484
+    ],
+    "source_style_score": 0.3822733461856842
+  },
+  {
+    "id": "proso49_31649e86e3beb40f5107",
+    "word": "लाद",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "e10b81c4c63b1882a9d3d9d5feff813f536d0adb7e99c32e8d23976d39807bfb",
+    "features": [
+      1.5403481721878052,
+      2.4010424613952637,
+      -0.8606942296028137,
+      -0.3898800313472748,
+      -0.3494463860988617,
+      1.3806018829345703,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.38573646545410156
+  },
+  {
+    "id": "proso49_31649e86e3beb40f5107",
+    "word": "लाद",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "e10b81c4c63b1882a9d3d9d5feff813f536d0adb7e99c32e8d23976d39807bfb",
+    "features": [
+      0.946549117565155,
+      1.1990721225738525,
+      -0.2525230348110199,
+      0.35786953568458557,
+      0.5219754576683044,
+      1.3806018829345703,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4682328999042511
+  },
+  {
+    "id": "proso49_31649e86e3beb40f5107",
+    "word": "लाद",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "e10b81c4c63b1882a9d3d9d5feff813f536d0adb7e99c32e8d23976d39807bfb",
+    "features": [
+      1.526633858680725,
+      1.9021508693695068,
+      -0.37551695108413696,
+      0.16224420070648193,
+      0.14672453701496124,
+      1.3806018829345703,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4487367272377014
+  },
+  {
+    "id": "proso49_64bd54d957de21575e2f",
+    "word": "मर्म",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "cd94800af9282113135ff17a07840f900ffeeca749c0730f3c2fc6a62d728294",
+    "features": [
+      2.015462636947632,
+      1.4805858135223389,
+      0.5348767042160034,
+      0.6233304142951965,
+      0.85154789686203,
+      2.753376007080078,
+      0.8461538553237915
+    ],
+    "source_style_score": 0.5980591773986816
+  },
+  {
+    "id": "proso49_64bd54d957de21575e2f",
+    "word": "मर्म",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "cd94800af9282113135ff17a07840f900ffeeca749c0730f3c2fc6a62d728294",
+    "features": [
+      1.9751168489456177,
+      1.4043880701065063,
+      0.5707287192344666,
+      0.6272101402282715,
+      0.8743509650230408,
+      2.753376007080078,
+      0.8461538553237915
+    ],
+    "source_style_score": 0.5986112952232361
+  },
+  {
+    "id": "proso49_64bd54d957de21575e2f",
+    "word": "मर्म",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "cd94800af9282113135ff17a07840f900ffeeca749c0730f3c2fc6a62d728294",
+    "features": [
+      1.350569486618042,
+      2.0075862407684326,
+      -0.6570166349411011,
+      0.35448217391967773,
+      0.7226749062538147,
+      2.753376007080078,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5239850282669067
+  },
+  {
+    "id": "proso49_32f9deb72682ac8ae538",
+    "word": "हर्ष",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "4ffba05eb8be324a70473b11d93be3ce12c48c21abdf6044ec745c251ce9ed02",
+    "features": [
+      2.7305891513824463,
+      5.27202033996582,
+      -2.541431188583374,
+      -0.2479201853275299,
+      -0.33478647470474243,
+      3.687333106994629,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.41813117265701294
+  },
+  {
+    "id": "proso49_32f9deb72682ac8ae538",
+    "word": "हर्ष",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "4ffba05eb8be324a70473b11d93be3ce12c48c21abdf6044ec745c251ce9ed02",
+    "features": [
+      2.686142683029175,
+      3.6705644130706787,
+      -0.9844217300415039,
+      0.26987773180007935,
+      0.3704676926136017,
+      3.687333106994629,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.48825696110725403
+  },
+  {
+    "id": "proso49_32f9deb72682ac8ae538",
+    "word": "हर्ष",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "4ffba05eb8be324a70473b11d93be3ce12c48c21abdf6044ec745c251ce9ed02",
+    "features": [
+      2.745360851287842,
+      3.659827947616577,
+      -0.9144670367240906,
+      0.28460022807121277,
+      0.3822506070137024,
+      3.687333106994629,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.49065741896629333
+  },
+  {
+    "id": "proso49_612c235db09e2c4d4ea8",
+    "word": "साधना",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "a428567385537590c4162118efedf94a44cf250454b16e93ae80e6a3ac049c73",
+    "features": [
+      1.3977527618408203,
+      1.2619179487228394,
+      0.13583478331565857,
+      0.6186602711677551,
+      0.5461018681526184,
+      1.2338199615478516,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4884626269340515
+  },
+  {
+    "id": "proso49_612c235db09e2c4d4ea8",
+    "word": "साधना",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "a428567385537590c4162118efedf94a44cf250454b16e93ae80e6a3ac049c73",
+    "features": [
+      1.218536138534546,
+      1.3933196067810059,
+      -0.174783393740654,
+      0.3500605821609497,
+      0.3544512987136841,
+      1.2338199615478516,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.4986790716648102
+  },
+  {
+    "id": "proso49_612c235db09e2c4d4ea8",
+    "word": "साधना",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "a428567385537590c4162118efedf94a44cf250454b16e93ae80e6a3ac049c73",
+    "features": [
+      1.5676072835922241,
+      0.8538252711296082,
+      0.713782012462616,
+      1.067681074142456,
+      0.8403419852256775,
+      1.2338199615478516,
+      0.7692307829856873
+    ],
+    "source_style_score": 0.5974635481834412
+  },
+  {
+    "id": "proso49_76d20cd8cb83dfd3faee",
+    "word": "रुग्ण",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "22f4a9e2a950f86485ea0729d17cb652180694c0f4367362276eca40b739935b",
+    "features": [
+      3.7944095134735107,
+      5.438873291015625,
+      -1.6444635391235352,
+      -0.43205690383911133,
+      -0.3249755799770355,
+      2.8540000915527344,
+      0.07692307978868484
+    ],
+    "source_style_score": 0.41523852944374084
+  },
+  {
+    "id": "proso49_76d20cd8cb83dfd3faee",
+    "word": "रुग्ण",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "22f4a9e2a950f86485ea0729d17cb652180694c0f4367362276eca40b739935b",
+    "features": [
+      2.882012128829956,
+      4.2338786125183105,
+      -1.3518667221069336,
+      -0.09050719439983368,
+      -0.08962749689817429,
+      2.8540000915527344,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.4305739998817444
+  },
+  {
+    "id": "proso49_76d20cd8cb83dfd3faee",
+    "word": "रुग्ण",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "22f4a9e2a950f86485ea0729d17cb652180694c0f4367362276eca40b739935b",
+    "features": [
+      4.05386209487915,
+      3.758150815963745,
+      0.2957112491130829,
+      0.6418054103851318,
+      0.45184388756752014,
+      2.8540000915527344,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5741243958473206
+  },
+  {
+    "id": "proso49_45496bc8ee651bc68d34",
+    "word": "रहन",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "6c078995a167da071fc5100cad63bbd4a3f224dcabbf5d0c33bb1473c7c45fae",
+    "features": [
+      1.054254174232483,
+      2.0892696380615234,
+      -1.0350154638290405,
+      0.27210524678230286,
+      0.6895903944969177,
+      2.6717734336853027,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.4903152883052826
+  },
+  {
+    "id": "proso49_45496bc8ee651bc68d34",
+    "word": "रहन",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "6c078995a167da071fc5100cad63bbd4a3f224dcabbf5d0c33bb1473c7c45fae",
+    "features": [
+      0.9820501208305359,
+      2.1525020599365234,
+      -1.1704518795013428,
+      0.2430196851491928,
+      0.6611613035202026,
+      2.6717734336853027,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.48631608486175537
+  },
+  {
+    "id": "proso49_45496bc8ee651bc68d34",
+    "word": "रहन",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "6c078995a167da071fc5100cad63bbd4a3f224dcabbf5d0c33bb1473c7c45fae",
+    "features": [
+      2.5357813835144043,
+      2.5401690006256104,
+      -0.004387489054352045,
+      0.49844008684158325,
+      0.5251710414886475,
+      2.6717734336853027,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5396572351455688
+  },
+  {
+    "id": "proso49_62e8fa4379eebcdb94a7",
+    "word": "मुडेर",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "6c66fc2cd2bd5dc1bfbff57964af63c8f57cc302e67f387ea36e3bb8d650e648",
+    "features": [
+      2.761613368988037,
+      3.6874706745147705,
+      -0.9258571863174438,
+      0.08072944730520248,
+      0.07800599187612534,
+      2.6684486865997314,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5041673183441162
+  },
+  {
+    "id": "proso49_62e8fa4379eebcdb94a7",
+    "word": "मुडेर",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "6c66fc2cd2bd5dc1bfbff57964af63c8f57cc302e67f387ea36e3bb8d650e648",
+    "features": [
+      2.4981298446655273,
+      3.447481632232666,
+      -0.9493516683578491,
+      0.10365265607833862,
+      0.11071953922510147,
+      2.6684486865997314,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5007994771003723
+  },
+  {
+    "id": "proso49_62e8fa4379eebcdb94a7",
+    "word": "मुडेर",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "6c66fc2cd2bd5dc1bfbff57964af63c8f57cc302e67f387ea36e3bb8d650e648",
+    "features": [
+      1.645072340965271,
+      3.6787655353546143,
+      -2.0336930751800537,
+      -0.2602607309818268,
+      -0.42216524481773376,
+      2.6684486865997314,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.4103016257286072
+  },
+  {
+    "id": "proso49_74b4f04e359a7013e340",
+    "word": "प्रश्न",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "17f502d854c3cac5a406b35b09433317328243b5f45c5a482588ef601ffa67e6",
+    "features": [
+      10.653131484985352,
+      11.967647552490234,
+      -1.3145164251327515,
+      -0.5376900434494019,
+      -0.19104808568954468,
+      3.7851924896240234,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.6356008648872375
+  },
+  {
+    "id": "proso49_74b4f04e359a7013e340",
+    "word": "प्रश्न",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "17f502d854c3cac5a406b35b09433317328243b5f45c5a482588ef601ffa67e6",
+    "features": [
+      7.369143962860107,
+      8.967455863952637,
+      -1.5983121395111084,
+      -0.4112076163291931,
+      -0.21121856570243835,
+      3.7851924896240234,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5581916570663452
+  },
+  {
+    "id": "proso49_74b4f04e359a7013e340",
+    "word": "प्रश्न",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "17f502d854c3cac5a406b35b09433317328243b5f45c5a482588ef601ffa67e6",
+    "features": [
+      8.571349143981934,
+      9.986303329467773,
+      -1.4149547815322876,
+      -0.4163464307785034,
+      -0.18386270105838776,
+      3.7851924896240234,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5893033742904663
+  },
+  {
+    "id": "proso49_f57542b6265febc23c36",
+    "word": "पोखरा",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "21636b7a4c4114a4977485c10077a1e4fccf254f39f12ef55dcd37d81f25446c",
+    "features": [
+      4.600221157073975,
+      10.573087692260742,
+      -5.972867012023926,
+      -0.26723620295524597,
+      -0.4464457035064697,
+      7.685144424438477,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.4434969425201416
+  },
+  {
+    "id": "proso49_f57542b6265febc23c36",
+    "word": "पोखरा",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "21636b7a4c4114a4977485c10077a1e4fccf254f39f12ef55dcd37d81f25446c",
+    "features": [
+      3.8480210304260254,
+      10.001334190368652,
+      -6.153313636779785,
+      -0.2214471995830536,
+      -0.4422672688961029,
+      7.685144424438477,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4512709379196167
+  },
+  {
+    "id": "proso49_f57542b6265febc23c36",
+    "word": "पोखरा",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "21636b7a4c4114a4977485c10077a1e4fccf254f39f12ef55dcd37d81f25446c",
+    "features": [
+      6.223029136657715,
+      12.040485382080078,
+      -5.817455768585205,
+      -0.39946314692497253,
+      -0.49331793189048767,
+      7.685144424438477,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.5004309415817261
+  },
+  {
+    "id": "proso49_3d16ac64846f9cb159cd",
+    "word": "छिन्न",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "f87d639a342c5cee50e3b28b351d7c4e1453134b66e92ffbacbbb3b87d385be6",
+    "features": [
+      5.840447902679443,
+      3.172177314758301,
+      2.6682703495025635,
+      0.9349744319915771,
+      0.8416805863380432,
+      5.257674694061279,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.6232931017875671
+  },
+  {
+    "id": "proso49_3d16ac64846f9cb159cd",
+    "word": "छिन्न",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "f87d639a342c5cee50e3b28b351d7c4e1453134b66e92ffbacbbb3b87d385be6",
+    "features": [
+      4.987551689147949,
+      2.0517220497131348,
+      2.9358296394348145,
+      0.8738017082214355,
+      0.9211263060569763,
+      5.257674694061279,
+      0.692307710647583
+    ],
+    "source_style_score": 0.6271054744720459
+  },
+  {
+    "id": "proso49_3d16ac64846f9cb159cd",
+    "word": "छिन्न",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "f87d639a342c5cee50e3b28b351d7c4e1453134b66e92ffbacbbb3b87d385be6",
+    "features": [
+      4.668907642364502,
+      2.478224515914917,
+      2.190683126449585,
+      0.7832004427909851,
+      0.8819650411605835,
+      5.257674694061279,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.6076075434684753
+  },
+  {
+    "id": "proso49_7ddf7831367a4b656557",
+    "word": "सतह",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "f6446d00d77cbc753f754c152f20b3b217e7a0a8aae94a861af7b66b1cb8e574",
+    "features": [
+      3.775723695755005,
+      5.366500377655029,
+      -1.590776801109314,
+      -0.701082170009613,
+      -0.4568755328655243,
+      2.4605329036712646,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.41016867756843567
+  },
+  {
+    "id": "proso49_7ddf7831367a4b656557",
+    "word": "सतह",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "f6446d00d77cbc753f754c152f20b3b217e7a0a8aae94a861af7b66b1cb8e574",
+    "features": [
+      2.5821709632873535,
+      3.0323829650878906,
+      -0.4502120912075043,
+      0.2912415862083435,
+      0.27752211689949036,
+      2.4605329036712646,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.47141554951667786
+  },
+  {
+    "id": "proso49_7ddf7831367a4b656557",
+    "word": "सतह",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "f6446d00d77cbc753f754c152f20b3b217e7a0a8aae94a861af7b66b1cb8e574",
+    "features": [
+      4.528242111206055,
+      5.522036552429199,
+      -0.9937947392463684,
+      -0.324871689081192,
+      -0.17652712762355804,
+      2.4605329036712646,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.4705333709716797
+  },
+  {
+    "id": "proso49_559792ff70b145b93e1a",
+    "word": "काष्ठ",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "20bc8fb8a7692e06f39f6a3a74ed14b6f41922f84c593f62a81ff2086a97f737",
+    "features": [
+      5.597052574157715,
+      6.677341938018799,
+      -1.0802894830703735,
+      0.15977045893669128,
+      0.12601034343242645,
+      4.414373874664307,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5845272541046143
+  },
+  {
+    "id": "proso49_559792ff70b145b93e1a",
+    "word": "काष्ठ",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "20bc8fb8a7692e06f39f6a3a74ed14b6f41922f84c593f62a81ff2086a97f737",
+    "features": [
+      3.975358486175537,
+      4.40524959564209,
+      -0.4298913776874542,
+      0.40755870938301086,
+      0.45256710052490234,
+      4.414373874664307,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5712246894836426
+  },
+  {
+    "id": "proso49_559792ff70b145b93e1a",
+    "word": "काष्ठ",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "20bc8fb8a7692e06f39f6a3a74ed14b6f41922f84c593f62a81ff2086a97f737",
+    "features": [
+      4.136829853057861,
+      3.5160083770751953,
+      0.6208212971687317,
+      0.6219048500061035,
+      0.6636290550231934,
+      4.414373874664307,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.590267539024353
+  },
+  {
+    "id": "proso49_4ddc4506af34e60cb3e3",
+    "word": "डाह",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "0abe4850e42a74fe61c7d5b973b80e9677aca9954f2d50e832e49e981cab1cdc",
+    "features": [
+      1.7261465787887573,
+      4.905242919921875,
+      -3.1790964603424072,
+      0.06674280017614365,
+      0.19071857631206512,
+      4.932490348815918,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.43910038471221924
+  },
+  {
+    "id": "proso49_4ddc4506af34e60cb3e3",
+    "word": "डाह",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "0abe4850e42a74fe61c7d5b973b80e9677aca9954f2d50e832e49e981cab1cdc",
+    "features": [
+      2.186410427093506,
+      5.188797473907471,
+      -3.0023868083953857,
+      0.04492974281311035,
+      0.10136043280363083,
+      4.932490348815918,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.44198405742645264
+  },
+  {
+    "id": "proso49_4ddc4506af34e60cb3e3",
+    "word": "डाह",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "0abe4850e42a74fe61c7d5b973b80e9677aca9954f2d50e832e49e981cab1cdc",
+    "features": [
+      2.318326711654663,
+      4.964358806610107,
+      -2.6460320949554443,
+      0.10397353768348694,
+      0.2212149202823639,
+      4.932490348815918,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.4899485409259796
+  },
+  {
+    "id": "proso49_9d6a62116daaacb02af3",
+    "word": "कनिष्ठ",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "98ff2daed836aec078bb3eb316dc79e3c3bc44139dd252740af25923a9607bad",
+    "features": [
+      4.95837926864624,
+      5.571596145629883,
+      -0.6132170557975769,
+      -0.6733531355857849,
+      -0.22526544332504272,
+      1.6587899923324585,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.4932034909725189
+  },
+  {
+    "id": "proso49_9d6a62116daaacb02af3",
+    "word": "कनिष्ठ",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "98ff2daed836aec078bb3eb316dc79e3c3bc44139dd252740af25923a9607bad",
+    "features": [
+      2.660465955734253,
+      2.605753183364868,
+      0.054712776094675064,
+      0.552357017993927,
+      0.34439244866371155,
+      1.6587899923324585,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.501072108745575
+  },
+  {
+    "id": "proso49_9d6a62116daaacb02af3",
+    "word": "कनिष्ठ",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "98ff2daed836aec078bb3eb316dc79e3c3bc44139dd252740af25923a9607bad",
+    "features": [
+      3.301159143447876,
+      3.331129789352417,
+      -0.02997056022286415,
+      0.46388018131256104,
+      0.23309382796287537,
+      1.6587899923324585,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5188940167427063
+  },
+  {
+    "id": "proso49_c8192e89811ef9945a7e",
+    "word": "मलमास",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "85b93dd964a2a1f753bdf557d5d72807caa11d78408698817894af449982f58d",
+    "features": [
+      3.3452956676483154,
+      4.032815456390381,
+      -0.6875196695327759,
+      -0.3240744173526764,
+      -0.1699523627758026,
+      1.7543528079986572,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.4430765211582184
+  },
+  {
+    "id": "proso49_c8192e89811ef9945a7e",
+    "word": "मलमास",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "85b93dd964a2a1f753bdf557d5d72807caa11d78408698817894af449982f58d",
+    "features": [
+      3.109306573867798,
+      4.1663103103637695,
+      -1.0570034980773926,
+      -0.7493450045585632,
+      -0.422800213098526,
+      1.7543528079986572,
+      0.07692307978868484
+    ],
+    "source_style_score": 0.38376766443252563
+  },
+  {
+    "id": "proso49_c8192e89811ef9945a7e",
+    "word": "मलमास",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "85b93dd964a2a1f753bdf557d5d72807caa11d78408698817894af449982f58d",
+    "features": [
+      4.364317417144775,
+      4.804233074188232,
+      -0.4399157762527466,
+      -0.1552489697933197,
+      -0.062406428158283234,
+      1.7543528079986572,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.4813918471336365
+  },
+  {
+    "id": "proso49_81d769178a78d5992822",
+    "word": "स्थापना",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "c48c7ebee48d9e8c599c0acf11fd906e4a02a0ce4bab6ffb9809d1cb61a79b90",
+    "features": [
+      7.642106533050537,
+      9.257554054260254,
+      -1.6154474020004272,
+      -2.740828514099121,
+      -0.7360565066337585,
+      2.052307367324829,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.43596652150154114
+  },
+  {
+    "id": "proso49_81d769178a78d5992822",
+    "word": "स्थापना",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "c48c7ebee48d9e8c599c0acf11fd906e4a02a0ce4bab6ffb9809d1cb61a79b90",
+    "features": [
+      1.929893136024475,
+      3.6899640560150146,
+      -1.7600709199905396,
+      -0.6741962432861328,
+      -0.7169608473777771,
+      2.052307367324829,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.3730142116546631
+  },
+  {
+    "id": "proso49_81d769178a78d5992822",
+    "word": "स्थापना",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "c48c7ebee48d9e8c599c0acf11fd906e4a02a0ce4bab6ffb9809d1cb61a79b90",
+    "features": [
+      7.2263898849487305,
+      8.706039428710938,
+      -1.4796499013900757,
+      -2.298506021499634,
+      -0.6527796983718872,
+      2.052307367324829,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.45707929134368896
+  },
+  {
+    "id": "proso49_54457c725ca0b9df0279",
+    "word": "सदर",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "86087f186019e2d1c775d02bcd953ba364351694f2ccceea9e27c52d259d58a5",
+    "features": [
+      2.815412759780884,
+      3.254974365234375,
+      -0.439561665058136,
+      0.37923845648765564,
+      0.4477226138114929,
+      3.3238296508789062,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.49956706166267395
+  },
+  {
+    "id": "proso49_54457c725ca0b9df0279",
+    "word": "सदर",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "86087f186019e2d1c775d02bcd953ba364351694f2ccceea9e27c52d259d58a5",
+    "features": [
+      2.6553120613098145,
+      2.4223711490631104,
+      0.23294085264205933,
+      0.5535308122634888,
+      0.6928911209106445,
+      3.3238296508789062,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.5150196552276611
+  },
+  {
+    "id": "proso49_54457c725ca0b9df0279",
+    "word": "सदर",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "86087f186019e2d1c775d02bcd953ba364351694f2ccceea9e27c52d259d58a5",
+    "features": [
+      3.627380847930908,
+      3.4901978969573975,
+      0.1371830850839615,
+      0.5441901087760925,
+      0.4986504912376404,
+      3.3238296508789062,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5496619939804077
+  },
+  {
+    "id": "proso49_50513d8f0bdd86551c33",
+    "word": "याचना",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "9e9a58b9905056fe68b8997a604e1691673e870c74bad6627d8f2129bef7280c",
+    "features": [
+      3.7141613960266113,
+      3.2216835021972656,
+      0.49247798323631287,
+      1.9359837770462036,
+      0.5684525966644287,
+      1.0905694961547852,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.6371398568153381
+  },
+  {
+    "id": "proso49_50513d8f0bdd86551c33",
+    "word": "याचना",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "9e9a58b9905056fe68b8997a604e1691673e870c74bad6627d8f2129bef7280c",
+    "features": [
+      3.3604557514190674,
+      2.8535091876983643,
+      0.5069465637207031,
+      1.8243242502212524,
+      0.5920483469963074,
+      1.0905694961547852,
+      0.692307710647583
+    ],
+    "source_style_score": 0.6379836201667786
+  },
+  {
+    "id": "proso49_50513d8f0bdd86551c33",
+    "word": "याचना",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "9e9a58b9905056fe68b8997a604e1691673e870c74bad6627d8f2129bef7280c",
+    "features": [
+      4.519986152648926,
+      3.9155704975128174,
+      0.6044154167175293,
+      2.643446445465088,
+      0.6378032565116882,
+      1.0905694961547852,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.6810803413391113
+  },
+  {
+    "id": "proso49_d2b082e597304b0b50d1",
+    "word": "मातहत",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "22fe972bac6e6ea963e73fb1cc6c3e459c4256d0923b19211d80d761ed8aecce",
+    "features": [
+      3.6245594024658203,
+      11.099726676940918,
+      -7.4751667976379395,
+      -0.15801593661308289,
+      -0.39869430661201477,
+      9.145224571228027,
+      0.07692307978868484
+    ],
+    "source_style_score": 0.41537195444107056
+  },
+  {
+    "id": "proso49_d2b082e597304b0b50d1",
+    "word": "मातहत",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "22fe972bac6e6ea963e73fb1cc6c3e459c4256d0923b19211d80d761ed8aecce",
+    "features": [
+      4.745682239532471,
+      12.160247802734375,
+      -7.414565086364746,
+      -0.24938680231571198,
+      -0.4805838167667389,
+      9.145224571228027,
+      0.07692307978868484
+    ],
+    "source_style_score": 0.434233695268631
+  },
+  {
+    "id": "proso49_d2b082e597304b0b50d1",
+    "word": "मातहत",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "22fe972bac6e6ea963e73fb1cc6c3e459c4256d0923b19211d80d761ed8aecce",
+    "features": [
+      4.218576908111572,
+      9.221700668334961,
+      -5.0031232833862305,
+      0.09799569100141525,
+      0.21243955194950104,
+      9.145224571228027,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.47892266511917114
+  },
+  {
+    "id": "proso49_1bef55c83663f62a5625",
+    "word": "पुस्त",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "9927b2c78c984e4d5dbbcfe46cf90a6fa801c43f7fe10d7c4f2303734ddc85ca",
+    "features": [
+      3.1168580055236816,
+      1.1909868717193604,
+      1.9258711338043213,
+      0.8954911231994629,
+      0.9304746389389038,
+      3.238621950149536,
+      0.8461538553237915
+    ],
+    "source_style_score": 0.6261557340621948
+  },
+  {
+    "id": "proso49_1bef55c83663f62a5625",
+    "word": "पुस्त",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "9927b2c78c984e4d5dbbcfe46cf90a6fa801c43f7fe10d7c4f2303734ddc85ca",
+    "features": [
+      5.281722545623779,
+      2.8129589557647705,
+      2.468763589859009,
+      1.4526398181915283,
+      0.890722930431366,
+      3.238621950149536,
+      1.0
+    ],
+    "source_style_score": 0.7073266506195068
+  },
+  {
+    "id": "proso49_1bef55c83663f62a5625",
+    "word": "पुस्त",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "9927b2c78c984e4d5dbbcfe46cf90a6fa801c43f7fe10d7c4f2303734ddc85ca",
+    "features": [
+      3.6051528453826904,
+      2.465698003768921,
+      1.13945472240448,
+      0.8297585844993591,
+      0.745398223400116,
+      3.238621950149536,
+      0.9230769276618958
+    ],
+    "source_style_score": 0.639480471611023
+  },
+  {
+    "id": "proso49_5703efcfc5836c07a2a0",
+    "word": "सराय",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "1dd82eed0d426f4f50652100256cbe9aa21b370c4c190137c34950c091ba39f9",
+    "features": [
+      1.7225134372711182,
+      2.523247241973877,
+      -0.8007338643074036,
+      0.3028380572795868,
+      0.5162298679351807,
+      2.936265468597412,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.49155232310295105
+  },
+  {
+    "id": "proso49_5703efcfc5836c07a2a0",
+    "word": "सराय",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "1dd82eed0d426f4f50652100256cbe9aa21b370c4c190137c34950c091ba39f9",
+    "features": [
+      1.6209417581558228,
+      2.3749635219573975,
+      -0.7540217041969299,
+      0.3252655863761902,
+      0.5892044305801392,
+      2.936265468597412,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4828800559043884
+  },
+  {
+    "id": "proso49_5703efcfc5836c07a2a0",
+    "word": "सराय",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "1dd82eed0d426f4f50652100256cbe9aa21b370c4c190137c34950c091ba39f9",
+    "features": [
+      2.237959384918213,
+      1.8036105632781982,
+      0.43434885144233704,
+      0.601804792881012,
+      0.789584755897522,
+      2.936265468597412,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5624889731407166
+  },
+  {
+    "id": "proso49_f5a24ecb797e9fda8209",
+    "word": "भक्त",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "1f1f1ef383bcc33870ff064c6f289244c75c93ecb9da8e342e0692a0de95cd74",
+    "features": [
+      2.5122218132019043,
+      2.175349473953247,
+      0.3368723392486572,
+      0.5782938599586487,
+      0.7310017347335815,
+      3.175615072250366,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.563352108001709
+  },
+  {
+    "id": "proso49_f5a24ecb797e9fda8209",
+    "word": "भक्त",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "1f1f1ef383bcc33870ff064c6f289244c75c93ecb9da8e342e0692a0de95cd74",
+    "features": [
+      3.7549521923065186,
+      1.72324538230896,
+      2.0317068099975586,
+      1.051839828491211,
+      0.8895555138587952,
+      3.175615072250366,
+      0.7692307829856873
+    ],
+    "source_style_score": 0.6318742632865906
+  },
+  {
+    "id": "proso49_f5a24ecb797e9fda8209",
+    "word": "भक्त",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "1f1f1ef383bcc33870ff064c6f289244c75c93ecb9da8e342e0692a0de95cd74",
+    "features": [
+      3.6916937828063965,
+      1.8163549900054932,
+      1.8753387928009033,
+      1.0121437311172485,
+      0.8706514835357666,
+      3.175615072250366,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5944215059280396
+  },
+  {
+    "id": "proso49_347742f23ba0ee33892f",
+    "word": "निमित्त",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "086c9b7f8b6698839aaf507981581322e238f067af7824a2b9937e0a3a780491",
+    "features": [
+      3.344799757003784,
+      4.860622882843018,
+      -1.5158230066299438,
+      -0.9644717574119568,
+      -0.5942081212997437,
+      2.0607211589813232,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.38298511505126953
+  },
+  {
+    "id": "proso49_347742f23ba0ee33892f",
+    "word": "निमित्त",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "086c9b7f8b6698839aaf507981581322e238f067af7824a2b9937e0a3a780491",
+    "features": [
+      1.5840164422988892,
+      2.4524900913238525,
+      -0.8684736490249634,
+      0.08724355697631836,
+      0.1134992241859436,
+      2.0607211589813232,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.45624592900276184
+  },
+  {
+    "id": "proso49_347742f23ba0ee33892f",
+    "word": "निमित्त",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "086c9b7f8b6698839aaf507981581322e238f067af7824a2b9937e0a3a780491",
+    "features": [
+      2.213070869445801,
+      3.141216516494751,
+      -0.9281457662582397,
+      -0.08512599766254425,
+      -0.07926585525274277,
+      2.0607211589813232,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.46440720558166504
+  },
+  {
+    "id": "proso49_d4daa3c4a5b1e78662bc",
+    "word": "डसना",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "222c76b010f5eb335ddc570a9d2b0d1ef55ed399f950a6d33429c7efe5025cce",
+    "features": [
+      3.5121922492980957,
+      3.8553240299224854,
+      -0.34313175082206726,
+      0.3396300673484802,
+      0.27148282527923584,
+      2.8074660301208496,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5296971797943115
+  },
+  {
+    "id": "proso49_d4daa3c4a5b1e78662bc",
+    "word": "डसना",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "222c76b010f5eb335ddc570a9d2b0d1ef55ed399f950a6d33429c7efe5025cce",
+    "features": [
+      4.648246765136719,
+      5.0775299072265625,
+      -0.429283082485199,
+      0.2351444959640503,
+      0.1420234888792038,
+      2.8074660301208496,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5582548975944519
+  },
+  {
+    "id": "proso49_d4daa3c4a5b1e78662bc",
+    "word": "डसना",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "222c76b010f5eb335ddc570a9d2b0d1ef55ed399f950a6d33429c7efe5025cce",
+    "features": [
+      3.174222946166992,
+      2.622483015060425,
+      0.5517399311065674,
+      0.7028881311416626,
+      0.6216748356819153,
+      2.8074660301208496,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5410798788070679
+  },
+  {
+    "id": "proso49_1f9f0649f4a430f37350",
+    "word": "मेहमान",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "78936cf69fa57de2539107249fbca8abd001e43ffb7ad243942245ce4f84f0a5",
+    "features": [
+      1.9680719375610352,
+      5.911113739013672,
+      -3.9430418014526367,
+      -0.24880759418010712,
+      -0.5758095979690552,
+      4.554662704467773,
+      0.07692307978868484
+    ],
+    "source_style_score": 0.36298316717147827
+  },
+  {
+    "id": "proso49_1f9f0649f4a430f37350",
+    "word": "मेहमान",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "78936cf69fa57de2539107249fbca8abd001e43ffb7ad243942245ce4f84f0a5",
+    "features": [
+      2.936112642288208,
+      6.287815570831299,
+      -3.351702928543091,
+      -0.2451419234275818,
+      -0.3802779018878937,
+      4.554662704467773,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.40845465660095215
+  },
+  {
+    "id": "proso49_1f9f0649f4a430f37350",
+    "word": "मेहमान",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "78936cf69fa57de2539107249fbca8abd001e43ffb7ad243942245ce4f84f0a5",
+    "features": [
+      3.284038543701172,
+      5.124215602874756,
+      -1.8401774168014526,
+      0.12707364559173584,
+      0.17623959481716156,
+      4.554662704467773,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4845408797264099
+  },
+  {
+    "id": "proso49_0801e1f3d34c9fba07c0",
+    "word": "नरम",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "53382711b29088cc3c808534cbc37a82d3efc224a5fa954119034b96d2a902c8",
+    "features": [
+      2.365328788757324,
+      3.142268180847168,
+      -0.7769392132759094,
+      -0.6862986087799072,
+      -0.38965851068496704,
+      1.3429585695266724,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.40506860613822937
+  },
+  {
+    "id": "proso49_0801e1f3d34c9fba07c0",
+    "word": "नरम",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "53382711b29088cc3c808534cbc37a82d3efc224a5fa954119034b96d2a902c8",
+    "features": [
+      2.0690903663635254,
+      2.970679998397827,
+      -0.9015896916389465,
+      -0.7596923112869263,
+      -0.49308398365974426,
+      1.3429585695266724,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.3658597767353058
+  },
+  {
+    "id": "proso49_0801e1f3d34c9fba07c0",
+    "word": "नरम",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "53382711b29088cc3c808534cbc37a82d3efc224a5fa954119034b96d2a902c8",
+    "features": [
+      2.2652909755706787,
+      3.204861640930176,
+      -0.9395707249641418,
+      -0.9248650074005127,
+      -0.5482983589172363,
+      1.3429585695266724,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.3730568289756775
+  },
+  {
+    "id": "proso49_976eeff59f9cb9466477",
+    "word": "ग्रह",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "2f3cddb1459c02759d52c322fae7e06c8b07ca4a09a82870c1120a3aeb8b3598",
+    "features": [
+      1.9407708644866943,
+      2.676072120666504,
+      -0.73530113697052,
+      -0.25832390785217285,
+      -0.19913753867149353,
+      1.4961074590682983,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.42113110423088074
+  },
+  {
+    "id": "proso49_976eeff59f9cb9466477",
+    "word": "ग्रह",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "2f3cddb1459c02759d52c322fae7e06c8b07ca4a09a82870c1120a3aeb8b3598",
+    "features": [
+      2.783052682876587,
+      3.5211384296417236,
+      -0.7380856275558472,
+      -0.5393947958946228,
+      -0.2899667024612427,
+      1.4961074590682983,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.4147684872150421
+  },
+  {
+    "id": "proso49_976eeff59f9cb9466477",
+    "word": "ग्रह",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "2f3cddb1459c02759d52c322fae7e06c8b07ca4a09a82870c1120a3aeb8b3598",
+    "features": [
+      1.2769496440887451,
+      2.0653815269470215,
+      -0.7884318232536316,
+      -0.08865121752023697,
+      -0.1038660779595375,
+      1.4961074590682983,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.3940848410129547
+  },
+  {
+    "id": "proso49_0078c32912abfc406dd0",
+    "word": "थाप",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "e11484790e63fb1c7a19a6fab6135e5b07f40289dbafe35c7b2e663ebcb60095",
+    "features": [
+      6.886260032653809,
+      11.966398239135742,
+      -5.080138206481934,
+      -0.6161378026008606,
+      -0.5860633850097656,
+      6.55013370513916,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5176063776016235
+  },
+  {
+    "id": "proso49_0078c32912abfc406dd0",
+    "word": "थाप",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "e11484790e63fb1c7a19a6fab6135e5b07f40289dbafe35c7b2e663ebcb60095",
+    "features": [
+      2.150609254837036,
+      6.041848659515381,
+      -3.8912391662597656,
+      0.12848886847496033,
+      0.39133989810943604,
+      6.55013370513916,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5100621581077576
+  },
+  {
+    "id": "proso49_0078c32912abfc406dd0",
+    "word": "थाप",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "e11484790e63fb1c7a19a6fab6135e5b07f40289dbafe35c7b2e663ebcb60095",
+    "features": [
+      3.6098036766052246,
+      6.189010143280029,
+      -2.579206705093384,
+      0.20547011494636536,
+      0.3728337585926056,
+      6.55013370513916,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.5026548504829407
+  },
+  {
+    "id": "proso49_2af077c199ebcc91e7e1",
+    "word": "दुष्ट",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "870ee81a5ec1c9a21ae81ce35852c984e92b50e45e626c89c9697fb8a51a97f9",
+    "features": [
+      3.1151633262634277,
+      7.449690818786621,
+      -4.334527492523193,
+      -0.4495169222354889,
+      -0.708600640296936,
+      4.910619735717773,
+      0.0
+    ],
+    "source_style_score": 0.36420199275016785
+  },
+  {
+    "id": "proso49_2af077c199ebcc91e7e1",
+    "word": "दुष्ट",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "870ee81a5ec1c9a21ae81ce35852c984e92b50e45e626c89c9697fb8a51a97f9",
+    "features": [
+      3.7532975673675537,
+      4.199399471282959,
+      -0.44610193371772766,
+      0.4264392852783203,
+      0.5579310059547424,
+      4.910619735717773,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.570921003818512
+  },
+  {
+    "id": "proso49_2af077c199ebcc91e7e1",
+    "word": "दुष्ट",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "870ee81a5ec1c9a21ae81ce35852c984e92b50e45e626c89c9697fb8a51a97f9",
+    "features": [
+      2.1088037490844727,
+      6.075080871582031,
+      -3.9662768840789795,
+      -0.1730385571718216,
+      -0.402942419052124,
+      4.910619735717773,
+      0.0
+    ],
+    "source_style_score": 0.3678196668624878
+  },
+  {
+    "id": "proso49_5dd671b98d8ca20b19a8",
+    "word": "सामना",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "f7f841690a988c269007389b89999cdadd59a3f344a7ad633f69809bcd8b2805",
+    "features": [
+      2.0078697204589844,
+      2.6421356201171875,
+      -0.6342657804489136,
+      0.3479987680912018,
+      0.5398410558700562,
+      3.1147541999816895,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5239326357841492
+  },
+  {
+    "id": "proso49_5dd671b98d8ca20b19a8",
+    "word": "सामना",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "f7f841690a988c269007389b89999cdadd59a3f344a7ad633f69809bcd8b2805",
+    "features": [
+      1.7088512182235718,
+      2.6201584339141846,
+      -0.9113072752952576,
+      0.2966820001602173,
+      0.5407677292823792,
+      3.1147541999816895,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.48042523860931396
+  },
+  {
+    "id": "proso49_5dd671b98d8ca20b19a8",
+    "word": "सामना",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "f7f841690a988c269007389b89999cdadd59a3f344a7ad633f69809bcd8b2805",
+    "features": [
+      2.1496152877807617,
+      1.157362699508667,
+      0.99225252866745,
+      0.6691125631332397,
+      0.9695322513580322,
+      3.1147541999816895,
+      0.692307710647583
+    ],
+    "source_style_score": 0.5824921727180481
+  },
+  {
+    "id": "proso49_f651584d47fb1605fd04",
+    "word": "महतो",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "ae6fd1129f94a80fb60313b827dca5e90ca59b9871e88304950f0d7fb361b48e",
+    "features": [
+      2.8282687664031982,
+      3.053797960281372,
+      -0.2255292385816574,
+      0.4693860113620758,
+      0.7725042700767517,
+      4.654696941375732,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.529218316078186
+  },
+  {
+    "id": "proso49_f651584d47fb1605fd04",
+    "word": "महतो",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "ae6fd1129f94a80fb60313b827dca5e90ca59b9871e88304950f0d7fb361b48e",
+    "features": [
+      2.982697010040283,
+      3.452913999557495,
+      -0.47021710872650146,
+      0.430164635181427,
+      0.6713005304336548,
+      4.654696941375732,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5259749293327332
+  },
+  {
+    "id": "proso49_f651584d47fb1605fd04",
+    "word": "महतो",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "ae6fd1129f94a80fb60313b827dca5e90ca59b9871e88304950f0d7fb361b48e",
+    "features": [
+      3.098130464553833,
+      3.230600357055664,
+      -0.13246974349021912,
+      0.48065268993377686,
+      0.72214275598526,
+      4.654696941375732,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5439839959144592
+  },
+  {
+    "id": "proso49_d93f0a18735f1e678a10",
+    "word": "मार्ग",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "55c68a902d1069ebc24679fdd5b3de07fb9758f7fff3a215c12f91aca44afffd",
+    "features": [
+      1.516258716583252,
+      2.3237764835357666,
+      -0.8075176477432251,
+      0.07726920396089554,
+      0.09759549796581268,
+      1.9151229858398438,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.42963236570358276
+  },
+  {
+    "id": "proso49_d93f0a18735f1e678a10",
+    "word": "मार्ग",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "55c68a902d1069ebc24679fdd5b3de07fb9758f7fff3a215c12f91aca44afffd",
+    "features": [
+      1.5781363248825073,
+      2.6518712043762207,
+      -1.073734998703003,
+      -0.11917712539434433,
+      -0.14462557435035706,
+      1.9151229858398438,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.3968893587589264
+  },
+  {
+    "id": "proso49_d93f0a18735f1e678a10",
+    "word": "मार्ग",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "55c68a902d1069ebc24679fdd5b3de07fb9758f7fff3a215c12f91aca44afffd",
+    "features": [
+      2.0812268257141113,
+      2.8363358974456787,
+      -0.7551090717315674,
+      -0.006216446869075298,
+      -0.0057203094474971294,
+      1.9151229858398438,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.4569433331489563
+  },
+  {
+    "id": "proso49_54824584431903fc11da",
+    "word": "स्निग्ध",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "a0193fc47a59439be85bb04f9c9233c477517b259e5fdcc8922472e31f13a665",
+    "features": [
+      3.518606424331665,
+      3.0764195919036865,
+      0.4421869218349457,
+      0.8102666735649109,
+      0.4992130398750305,
+      2.167847156524658,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.549343466758728
+  },
+  {
+    "id": "proso49_54824584431903fc11da",
+    "word": "स्निग्ध",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "a0193fc47a59439be85bb04f9c9233c477517b259e5fdcc8922472e31f13a665",
+    "features": [
+      4.288539886474609,
+      4.820827960968018,
+      -0.5322882533073425,
+      -0.015878980979323387,
+      -0.00802678894251585,
+      2.167847156524658,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.49817290902137756
+  },
+  {
+    "id": "proso49_54824584431903fc11da",
+    "word": "स्निग्ध",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "a0193fc47a59439be85bb04f9c9233c477517b259e5fdcc8922472e31f13a665",
+    "features": [
+      4.034511089324951,
+      3.223881483078003,
+      0.8106298446655273,
+      1.1260019540786743,
+      0.6050300002098083,
+      2.167847156524658,
+      0.692307710647583
+    ],
+    "source_style_score": 0.6244663000106812
+  },
+  {
+    "id": "proso49_6bd7630e69132034babf",
+    "word": "बहर",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "2665d535e479734c9ce3a7078ee8ec8bee1d359d38ede368135d1a93455c5ea3",
+    "features": [
+      1.1145890951156616,
+      1.7206145524978638,
+      -0.6060255765914917,
+      -0.11349570751190186,
+      -0.12049846351146698,
+      1.1833598613739014,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4120033383369446
+  },
+  {
+    "id": "proso49_6bd7630e69132034babf",
+    "word": "बहर",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "2665d535e479734c9ce3a7078ee8ec8bee1d359d38ede368135d1a93455c5ea3",
+    "features": [
+      1.7979459762573242,
+      2.394587993621826,
+      -0.5966419577598572,
+      -0.39315474033355713,
+      -0.2587639093399048,
+      1.1833598613739014,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4097572863101959
+  },
+  {
+    "id": "proso49_6bd7630e69132034babf",
+    "word": "बहर",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "2665d535e479734c9ce3a7078ee8ec8bee1d359d38ede368135d1a93455c5ea3",
+    "features": [
+      2.126053810119629,
+      2.259787082672119,
+      -0.13373322784900665,
+      0.29057496786117554,
+      0.16173379123210907,
+      1.1833598613739014,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.46911755204200745
+  },
+  {
+    "id": "proso49_ba38192e5635d25bd21d",
+    "word": "जेष्ठ",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "dd9bca30c212bc08465e503e4bb9d23b8d81bead5b5089fd6e6f2dd084dc2905",
+    "features": [
+      2.179920196533203,
+      2.004488945007324,
+      0.17543120682239532,
+      0.5676969885826111,
+      0.6063827872276306,
+      2.3284714221954346,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.5038245916366577
+  },
+  {
+    "id": "proso49_ba38192e5635d25bd21d",
+    "word": "जेष्ठ",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "dd9bca30c212bc08465e503e4bb9d23b8d81bead5b5089fd6e6f2dd084dc2905",
+    "features": [
+      2.1254141330718994,
+      1.7621209621429443,
+      0.3632931113243103,
+      0.6302446126937866,
+      0.690456748008728,
+      2.3284714221954346,
+      0.692307710647583
+    ],
+    "source_style_score": 0.5695754885673523
+  },
+  {
+    "id": "proso49_ba38192e5635d25bd21d",
+    "word": "जेष्ठ",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "dd9bca30c212bc08465e503e4bb9d23b8d81bead5b5089fd6e6f2dd084dc2905",
+    "features": [
+      3.25612211227417,
+      2.7446413040161133,
+      0.5114807486534119,
+      0.783050537109375,
+      0.5599638819694519,
+      2.3284714221954346,
+      0.692307710647583
+    ],
+    "source_style_score": 0.5921441316604614
+  },
+  {
+    "id": "proso49_0ffdde8503a778dc4146",
+    "word": "धूर्त",
+    "split": "train",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "9a3fe668944c1ffb996ab0c6d06a96853d53d08bf019ea84146ec9cbddbde49f",
+    "features": [
+      3.464233636856079,
+      3.2804248332977295,
+      0.18380866944789886,
+      0.6580888032913208,
+      0.3761618435382843,
+      1.9801467657089233,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5606850981712341
+  },
+  {
+    "id": "proso49_0ffdde8503a778dc4146",
+    "word": "धूर्त",
+    "split": "train",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "9a3fe668944c1ffb996ab0c6d06a96853d53d08bf019ea84146ec9cbddbde49f",
+    "features": [
+      3.0606117248535156,
+      2.827519655227661,
+      0.23309215903282166,
+      0.6750170588493347,
+      0.4367208182811737,
+      1.9801467657089233,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5551479458808899
+  },
+  {
+    "id": "proso49_0ffdde8503a778dc4146",
+    "word": "धूर्त",
+    "split": "train",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "9a3fe668944c1ffb996ab0c6d06a96853d53d08bf019ea84146ec9cbddbde49f",
+    "features": [
+      2.6596174240112305,
+      1.5776805877685547,
+      1.0819368362426758,
+      1.084609866142273,
+      0.8075171709060669,
+      1.9801467657089233,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5918056964874268
+  },
+  {
+    "id": "proso49_2ceec7620c8029f07c21",
+    "word": "मुजरा",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "edc9a463f058d57e4a83a226d240a5b51d1cb6cc83574ee9a11138f3b3c75554",
+    "features": [
+      2.2914559841156006,
+      0.9812614321708679,
+      1.310194492340088,
+      0.9486915469169617,
+      0.9049960970878601,
+      2.1859145164489746,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5823816061019897
+  },
+  {
+    "id": "proso49_2ceec7620c8029f07c21",
+    "word": "मुजरा",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "edc9a463f058d57e4a83a226d240a5b51d1cb6cc83574ee9a11138f3b3c75554",
+    "features": [
+      1.4858990907669067,
+      1.3586124181747437,
+      0.12728670239448547,
+      0.5378873348236084,
+      0.7912891507148743,
+      2.1859145164489746,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5367571115493774
+  },
+  {
+    "id": "proso49_2ceec7620c8029f07c21",
+    "word": "मुजरा",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "edc9a463f058d57e4a83a226d240a5b51d1cb6cc83574ee9a11138f3b3c75554",
+    "features": [
+      1.5746939182281494,
+      1.1271315813064575,
+      0.4475623071193695,
+      0.6265360713005066,
+      0.869727373123169,
+      2.1859145164489746,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5455576181411743
+  },
+  {
+    "id": "proso49_e4364d442feab215807e",
+    "word": "तह",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "f29ec2db084c0bfd8eb71c6b7dd47fe512ef1075f146d851addf6d7a6090d892",
+    "features": [
+      2.4008617401123047,
+      2.645531415939331,
+      -0.2446698397397995,
+      0.45694318413734436,
+      0.7206756472587585,
+      3.7865593433380127,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5319764614105225
+  },
+  {
+    "id": "proso49_e4364d442feab215807e",
+    "word": "तह",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "f29ec2db084c0bfd8eb71c6b7dd47fe512ef1075f146d851addf6d7a6090d892",
+    "features": [
+      1.381450891494751,
+      3.2164037227630615,
+      -1.8349528312683105,
+      0.20578785240650177,
+      0.5640648603439331,
+      3.7865593433380127,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4731934070587158
+  },
+  {
+    "id": "proso49_e4364d442feab215807e",
+    "word": "तह",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "f29ec2db084c0bfd8eb71c6b7dd47fe512ef1075f146d851addf6d7a6090d892",
+    "features": [
+      1.473421335220337,
+      3.3682827949523926,
+      -1.8948613405227661,
+      0.18006913363933563,
+      0.4627613425254822,
+      3.7865593433380127,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.44334766268730164
+  },
+  {
+    "id": "proso49_2db6c0f11e0ce071c52a",
+    "word": "द्रोण",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "f5cca7a6db127b7a0dbdd2845fbcdfbd352b9876ae4f2515253644034d4af840",
+    "features": [
+      1.4852714538574219,
+      2.69132137298584,
+      -1.206049919128418,
+      0.13149601221084595,
+      0.2314538210630417,
+      2.6143131256103516,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.46301889419555664
+  },
+  {
+    "id": "proso49_2db6c0f11e0ce071c52a",
+    "word": "द्रोण",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "f5cca7a6db127b7a0dbdd2845fbcdfbd352b9876ae4f2515253644034d4af840",
+    "features": [
+      0.991421103477478,
+      2.5551376342773438,
+      -1.5637165307998657,
+      0.09428604692220688,
+      0.2486262023448944,
+      2.6143131256103516,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.4174669682979584
+  },
+  {
+    "id": "proso49_2db6c0f11e0ce071c52a",
+    "word": "द्रोण",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "f5cca7a6db127b7a0dbdd2845fbcdfbd352b9876ae4f2515253644034d4af840",
+    "features": [
+      2.421218156814575,
+      4.671947002410889,
+      -2.2507286071777344,
+      -0.6679331064224243,
+      -0.7212015390396118,
+      2.6143131256103516,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.36217978596687317
+  },
+  {
+    "id": "proso49_f3928267a44ff2414fbe",
+    "word": "फाल",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "69c9ffd027fd0b67e8f17a3b629e19a09b0f0005f15d9d9be1a9b5b6c8ca03e0",
+    "features": [
+      7.550608158111572,
+      4.221579074859619,
+      3.3290293216705322,
+      0.9688165187835693,
+      0.8295270204544067,
+      6.465035915374756,
+      0.692307710647583
+    ],
+    "source_style_score": 0.6736075282096863
+  },
+  {
+    "id": "proso49_f3928267a44ff2414fbe",
+    "word": "फाल",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "69c9ffd027fd0b67e8f17a3b629e19a09b0f0005f15d9d9be1a9b5b6c8ca03e0",
+    "features": [
+      7.112860679626465,
+      4.3636860847473145,
+      2.7491748332977295,
+      0.8774346113204956,
+      0.7975196242332458,
+      6.465035915374756,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.6180901527404785
+  },
+  {
+    "id": "proso49_f3928267a44ff2414fbe",
+    "word": "फाल",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "69c9ffd027fd0b67e8f17a3b629e19a09b0f0005f15d9d9be1a9b5b6c8ca03e0",
+    "features": [
+      6.33343505859375,
+      0.9266529679298401,
+      5.406782150268555,
+      0.9695792198181152,
+      0.9897258877754211,
+      6.465035915374756,
+      0.8461538553237915
+    ],
+    "source_style_score": 0.663718581199646
+  },
+  {
+    "id": "proso49_9386422e98a64914945c",
+    "word": "राख",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "d982e6f3421b00d97df1f18f17760f4e75a7d03c58bb0ca9c91b2451b4d6dac6",
+    "features": [
+      2.5927727222442627,
+      1.801803469657898,
+      0.7909693121910095,
+      1.4694584608078003,
+      0.7588423490524292,
+      1.3389326333999634,
+      0.8461538553237915
+    ],
+    "source_style_score": 0.6393469572067261
+  },
+  {
+    "id": "proso49_9386422e98a64914945c",
+    "word": "राख",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "d982e6f3421b00d97df1f18f17760f4e75a7d03c58bb0ca9c91b2451b4d6dac6",
+    "features": [
+      1.5630959272384644,
+      0.8462628722190857,
+      0.7168330550193787,
+      0.9816949367523193,
+      0.8409102559089661,
+      1.3389326333999634,
+      0.692307710647583
+    ],
+    "source_style_score": 0.5821957588195801
+  },
+  {
+    "id": "proso49_9386422e98a64914945c",
+    "word": "राख",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "d982e6f3421b00d97df1f18f17760f4e75a7d03c58bb0ca9c91b2451b4d6dac6",
+    "features": [
+      4.250994682312012,
+      4.226468563079834,
+      0.024525873363018036,
+      0.5579886436462402,
+      0.175749272108078,
+      1.3389326333999634,
+      0.692307710647583
+    ],
+    "source_style_score": 0.5914320945739746
+  },
+  {
+    "id": "proso49_31fae9b4daa28dd89523",
+    "word": "ठप्प",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "8e0c01b5887a9ccac13fa021c078ae53d4c8a5962da9096f2ef58461f6f77504",
+    "features": [
+      2.860994338989258,
+      3.8318543434143066,
+      -0.9708600044250488,
+      0.16018997132778168,
+      0.17312867939472198,
+      3.0920798778533936,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.47789904475212097
+  },
+  {
+    "id": "proso49_31fae9b4daa28dd89523",
+    "word": "ठप्प",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "8e0c01b5887a9ccac13fa021c078ae53d4c8a5962da9096f2ef58461f6f77504",
+    "features": [
+      4.240253448486328,
+      5.840470314025879,
+      -1.6002171039581299,
+      -0.343605101108551,
+      -0.25056391954421997,
+      3.0920798778533936,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.4570150375366211
+  },
+  {
+    "id": "proso49_31fae9b4daa28dd89523",
+    "word": "ठप्प",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "8e0c01b5887a9ccac13fa021c078ae53d4c8a5962da9096f2ef58461f6f77504",
+    "features": [
+      4.509695053100586,
+      2.4775617122650146,
+      2.0321333408355713,
+      1.2425529956817627,
+      0.8519585728645325,
+      3.0920798778533936,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.6313436031341553
+  },
+  {
+    "id": "proso49_ce8cd6eb0f3f877e4526",
+    "word": "पादरी",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "4eae25366f5b0da8f9a417728c361653e102ad5ef9a59895a44a65916766759d",
+    "features": [
+      2.5449070930480957,
+      3.968557119369507,
+      -1.4236500263214111,
+      -0.16167572140693665,
+      -0.1681678295135498,
+      2.6470980644226074,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.439378023147583
+  },
+  {
+    "id": "proso49_ce8cd6eb0f3f877e4526",
+    "word": "पादरी",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "4eae25366f5b0da8f9a417728c361653e102ad5ef9a59895a44a65916766759d",
+    "features": [
+      3.0836782455444336,
+      5.197805881500244,
+      -2.1141276359558105,
+      -0.7493073344230652,
+      -0.6432220935821533,
+      2.6470980644226074,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4032604694366455
+  },
+  {
+    "id": "proso49_ce8cd6eb0f3f877e4526",
+    "word": "पादरी",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "4eae25366f5b0da8f9a417728c361653e102ad5ef9a59895a44a65916766759d",
+    "features": [
+      3.2695817947387695,
+      4.651520252227783,
+      -1.3819386959075928,
+      -0.2810957729816437,
+      -0.2275789976119995,
+      2.6470980644226074,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.46120157837867737
+  },
+  {
+    "id": "proso49_0084df7cdabc64fcc7c7",
+    "word": "मूर्त",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "fa7031c71953ebfbbf2dd21b51e0c653e564cc7757f8c031091fc010c61972bb",
+    "features": [
+      2.7609448432922363,
+      12.494714736938477,
+      -9.733770370483398,
+      -0.11408978700637817,
+      -0.4543747007846832,
+      10.995756149291992,
+      0.0
+    ],
+    "source_style_score": 0.38385099172592163
+  },
+  {
+    "id": "proso49_0084df7cdabc64fcc7c7",
+    "word": "मूर्त",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "fa7031c71953ebfbbf2dd21b51e0c653e564cc7757f8c031091fc010c61972bb",
+    "features": [
+      1.6194339990615845,
+      10.140421867370605,
+      -8.520987510681152,
+      0.08560767024755478,
+      0.5812654495239258,
+      10.995756149291992,
+      0.0
+    ],
+    "source_style_score": 0.4302220046520233
+  },
+  {
+    "id": "proso49_0084df7cdabc64fcc7c7",
+    "word": "मूर्त",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "fa7031c71953ebfbbf2dd21b51e0c653e564cc7757f8c031091fc010c61972bb",
+    "features": [
+      3.381248712539673,
+      10.329501152038574,
+      -6.948253154754639,
+      0.10603591054677963,
+      0.34482675790786743,
+      10.995756149291992,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.4698733687400818
+  },
+  {
+    "id": "proso49_e86155a1f76211cc2dc2",
+    "word": "गह",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "4fe763518ac11b916ba79d519bd6ecc2751d184f742202b83a15a8a4cc32329c",
+    "features": [
+      3.9418625831604004,
+      5.29882287979126,
+      -1.356960415840149,
+      -0.3419291377067566,
+      -0.23671050369739532,
+      2.728870391845703,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.47514256834983826
+  },
+  {
+    "id": "proso49_e86155a1f76211cc2dc2",
+    "word": "गह",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "4fe763518ac11b916ba79d519bd6ecc2751d184f742202b83a15a8a4cc32329c",
+    "features": [
+      4.395088195800781,
+      5.41663932800293,
+      -1.0215508937835693,
+      -0.17299164831638336,
+      -0.10740894824266434,
+      2.728870391845703,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5241363644599915
+  },
+  {
+    "id": "proso49_e86155a1f76211cc2dc2",
+    "word": "गह",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "4fe763518ac11b916ba79d519bd6ecc2751d184f742202b83a15a8a4cc32329c",
+    "features": [
+      4.2132439613342285,
+      6.507594108581543,
+      -2.2943501472473145,
+      -1.1515535116195679,
+      -0.7458481192588806,
+      2.728870391845703,
+      0.0
+    ],
+    "source_style_score": 0.3659135699272156
+  },
+  {
+    "id": "proso49_d8db04b4cc6ccce4d66e",
+    "word": "चेतना",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "4a0931e763c0f65d732ab16746b02b9fef9566727e05791ac227d7a4db7f8330",
+    "features": [
+      1.6364282369613647,
+      4.911898612976074,
+      -3.275470495223999,
+      -0.029727831482887268,
+      -0.08173854649066925,
+      4.499462604522705,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.4166366159915924
+  },
+  {
+    "id": "proso49_d8db04b4cc6ccce4d66e",
+    "word": "चेतना",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "4a0931e763c0f65d732ab16746b02b9fef9566727e05791ac227d7a4db7f8330",
+    "features": [
+      2.78883695602417,
+      4.760194778442383,
+      -1.9713577032089233,
+      0.13245931267738342,
+      0.21370761096477509,
+      4.499462604522705,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.4882485568523407
+  },
+  {
+    "id": "proso49_d8db04b4cc6ccce4d66e",
+    "word": "चेतना",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "4a0931e763c0f65d732ab16746b02b9fef9566727e05791ac227d7a4db7f8330",
+    "features": [
+      2.667069435119629,
+      4.51689338684082,
+      -1.8498239517211914,
+      0.1717965006828308,
+      0.28982818126678467,
+      4.499462604522705,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.47927767038345337
+  },
+  {
+    "id": "proso49_1962c9ef947875518187",
+    "word": "देख",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "a9fb43efd746183f274332667cced86d83c62ad13ddf009bc7b5e77d5614d58d",
+    "features": [
+      4.570588111877441,
+      3.9797537326812744,
+      0.5908345580101013,
+      0.6107644438743591,
+      0.6381328701972961,
+      4.775396823883057,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5966687798500061
+  },
+  {
+    "id": "proso49_1962c9ef947875518187",
+    "word": "देख",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "a9fb43efd746183f274332667cced86d83c62ad13ddf009bc7b5e77d5614d58d",
+    "features": [
+      3.157698392868042,
+      2.874697208404541,
+      0.2830011248588562,
+      0.5374307632446289,
+      0.812758207321167,
+      4.775396823883057,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.574138879776001
+  },
+  {
+    "id": "proso49_1962c9ef947875518187",
+    "word": "देख",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "a9fb43efd746183f274332667cced86d83c62ad13ddf009bc7b5e77d5614d58d",
+    "features": [
+      5.255768775939941,
+      4.505988121032715,
+      0.7497805953025818,
+      0.6604771614074707,
+      0.6001102328300476,
+      4.775396823883057,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5997333526611328
+  },
+  {
+    "id": "proso49_76dc14af41ee892cc26d",
+    "word": "सहर",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "c9e565c1ca9d85965973e3484898825cc4705ee6004321493e3171a3181ca2ac",
+    "features": [
+      3.765842914581299,
+      1.5013833045959473,
+      2.2644596099853516,
+      0.9547275900840759,
+      0.9181209802627563,
+      3.6214511394500732,
+      0.9230769276618958
+    ],
+    "source_style_score": 0.6489455699920654
+  },
+  {
+    "id": "proso49_76dc14af41ee892cc26d",
+    "word": "सहर",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "c9e565c1ca9d85965973e3484898825cc4705ee6004321493e3171a3181ca2ac",
+    "features": [
+      3.1098508834838867,
+      1.5888326168060303,
+      1.521018147468567,
+      0.7724679112434387,
+      0.8995462656021118,
+      3.6214511394500732,
+      0.7692307829856873
+    ],
+    "source_style_score": 0.6088712811470032
+  },
+  {
+    "id": "proso49_76dc14af41ee892cc26d",
+    "word": "सहर",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "c9e565c1ca9d85965973e3484898825cc4705ee6004321493e3171a3181ca2ac",
+    "features": [
+      2.5722079277038574,
+      2.036438465118408,
+      0.5357694029808044,
+      0.5941360592842102,
+      0.8364933133125305,
+      3.6214511394500732,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5688724517822266
+  },
+  {
+    "id": "proso49_a6fa6add12a7e9247b3c",
+    "word": "घबराहट",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "2ea9ab95f6583fd61a86518f4ef2ffdc96c96d4d655378ae79436ea22c793d02",
+    "features": [
+      2.8123624324798584,
+      2.404482364654541,
+      0.40787991881370544,
+      0.6812806129455566,
+      0.5868595838546753,
+      2.4225871562957764,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5561022758483887
+  },
+  {
+    "id": "proso49_a6fa6add12a7e9247b3c",
+    "word": "घबराहट",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "2ea9ab95f6583fd61a86518f4ef2ffdc96c96d4d655378ae79436ea22c793d02",
+    "features": [
+      2.4094486236572266,
+      2.559359073638916,
+      -0.14991039037704468,
+      0.43654072284698486,
+      0.43892115354537964,
+      2.4225871562957764,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5063828825950623
+  },
+  {
+    "id": "proso49_a6fa6add12a7e9247b3c",
+    "word": "घबराहट",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "2ea9ab95f6583fd61a86518f4ef2ffdc96c96d4d655378ae79436ea22c793d02",
+    "features": [
+      3.2076542377471924,
+      2.2652010917663574,
+      0.9424530863761902,
+      0.9394251108169556,
+      0.7095026969909668,
+      2.4225871562957764,
+      0.692307710647583
+    ],
+    "source_style_score": 0.6032477021217346
+  },
+  {
+    "id": "proso49_ff5472d2fdc0fbb67f7b",
+    "word": "दुरुस्त",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "6bc1888804c93b0ccb762e27df26220615bc1e2049e792a827bff421398302c6",
+    "features": [
+      10.478510856628418,
+      7.884681224822998,
+      2.59382963180542,
+      1.8980071544647217,
+      0.7476070523262024,
+      4.127386093139648,
+      0.8461538553237915
+    ],
+    "source_style_score": 0.7878889441490173
+  },
+  {
+    "id": "proso49_ff5472d2fdc0fbb67f7b",
+    "word": "दुरुस्त",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "6bc1888804c93b0ccb762e27df26220615bc1e2049e792a827bff421398302c6",
+    "features": [
+      4.638692378997803,
+      1.8124219179153442,
+      2.826270341873169,
+      1.0351409912109375,
+      0.9210411906242371,
+      4.127386093139648,
+      0.7692307829856873
+    ],
+    "source_style_score": 0.642995297908783
+  },
+  {
+    "id": "proso49_ff5472d2fdc0fbb67f7b",
+    "word": "दुरुस्त",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "6bc1888804c93b0ccb762e27df26220615bc1e2049e792a827bff421398302c6",
+    "features": [
+      5.382108688354492,
+      2.7321910858154297,
+      2.6499176025390625,
+      1.1311073303222656,
+      0.8674140572547913,
+      4.127386093139648,
+      0.7692307829856873
+    ],
+    "source_style_score": 0.6608951091766357
+  },
+  {
+    "id": "proso49_bb0873795d9136bf90be",
+    "word": "परास्त",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "dad15722ce6f6abdd46da91fa583858e0c0205bec14fd6f69dd3c11c7be25c8c",
+    "features": [
+      5.922407627105713,
+      7.891613006591797,
+      -1.9692054986953735,
+      0.3803916871547699,
+      0.6849243640899658,
+      10.663748741149902,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.5470649003982544
+  },
+  {
+    "id": "proso49_bb0873795d9136bf90be",
+    "word": "परास्त",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "dad15722ce6f6abdd46da91fa583858e0c0205bec14fd6f69dd3c11c7be25c8c",
+    "features": [
+      2.5519940853118896,
+      8.779168128967285,
+      -6.227173805236816,
+      0.18974722921848297,
+      0.7928767204284668,
+      10.663748741149902,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5188926458358765
+  },
+  {
+    "id": "proso49_bb0873795d9136bf90be",
+    "word": "परास्त",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "dad15722ce6f6abdd46da91fa583858e0c0205bec14fd6f69dd3c11c7be25c8c",
+    "features": [
+      2.8084867000579834,
+      8.236882209777832,
+      -5.428395748138428,
+      0.2363656610250473,
+      0.8974740505218506,
+      10.663748741149902,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5290130972862244
+  },
+  {
+    "id": "proso49_6e863b3dee7211d29c94",
+    "word": "लहर",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "33515336085c27007ae2f42944958fd37c2f1150ee8518cd5f4bb629930ba45a",
+    "features": [
+      2.6313750743865967,
+      1.197879433631897,
+      1.4334956407546997,
+      1.0783495903015137,
+      0.892733633518219,
+      2.1784372329711914,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5933142304420471
+  },
+  {
+    "id": "proso49_6e863b3dee7211d29c94",
+    "word": "लहर",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "33515336085c27007ae2f42944958fd37c2f1150ee8518cd5f4bb629930ba45a",
+    "features": [
+      2.833256721496582,
+      1.8107870817184448,
+      1.0224696397781372,
+      1.0002955198287964,
+      0.769108235836029,
+      2.1784372329711914,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.5660878419876099
+  },
+  {
+    "id": "proso49_6e863b3dee7211d29c94",
+    "word": "लहर",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "33515336085c27007ae2f42944958fd37c2f1150ee8518cd5f4bb629930ba45a",
+    "features": [
+      2.8538365364074707,
+      1.5756880044937134,
+      1.2781486511230469,
+      1.0965107679367065,
+      0.8370066285133362,
+      2.1784372329711914,
+      0.692307710647583
+    ],
+    "source_style_score": 0.6080468893051147
+  },
+  {
+    "id": "proso49_c9f37cd8bef76985bd9a",
+    "word": "रसना",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "e4dee22ae615962710651aae1593350ed181add92746056425b3ea37ef3b33de",
+    "features": [
+      3.2580583095550537,
+      3.958190679550171,
+      -0.7001323103904724,
+      -0.1691039651632309,
+      -0.10085070878267288,
+      1.9430501461029053,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.4620133340358734
+  },
+  {
+    "id": "proso49_c9f37cd8bef76985bd9a",
+    "word": "रसना",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "e4dee22ae615962710651aae1593350ed181add92746056425b3ea37ef3b33de",
+    "features": [
+      2.6382551193237305,
+      2.505723237991333,
+      0.13253182172775269,
+      0.5902861952781677,
+      0.43474024534225464,
+      1.9430501461029053,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5182673335075378
+  },
+  {
+    "id": "proso49_c9f37cd8bef76985bd9a",
+    "word": "रसना",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "e4dee22ae615962710651aae1593350ed181add92746056425b3ea37ef3b33de",
+    "features": [
+      3.0364561080932617,
+      3.3660547733306885,
+      -0.329598605632782,
+      0.22052839398384094,
+      0.14111770689487457,
+      1.9430501461029053,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.4971282184123993
+  },
+  {
+    "id": "proso49_9dce95ccd6256f27cd3d",
+    "word": "खन",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "acf13c0a6e652ca55f3e8525d8886aa6f35f2982314eeb23669ecd661a789cb2",
+    "features": [
+      4.22213077545166,
+      6.591405391693115,
+      -2.369274616241455,
+      0.3556087017059326,
+      0.7933169603347778,
+      9.419027328491211,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.5821420550346375
+  },
+  {
+    "id": "proso49_9dce95ccd6256f27cd3d",
+    "word": "खन",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "acf13c0a6e652ca55f3e8525d8886aa6f35f2982314eeb23669ecd661a789cb2",
+    "features": [
+      1.5774171352386475,
+      9.676214218139648,
+      -8.098796844482422,
+      -0.013654458336532116,
+      -0.08153310418128967,
+      9.419027328491211,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.43041297793388367
+  },
+  {
+    "id": "proso49_9dce95ccd6256f27cd3d",
+    "word": "खन",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "acf13c0a6e652ca55f3e8525d8886aa6f35f2982314eeb23669ecd661a789cb2",
+    "features": [
+      2.8304407596588135,
+      9.6458740234375,
+      -6.815433502197266,
+      0.020776940509676933,
+      0.06914067268371582,
+      9.419027328491211,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.4775540828704834
+  },
+  {
+    "id": "proso49_3df991580a47985f71b7",
+    "word": "जोगिन",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "de08050a8a7751dd2368c8e2f3bee531e7c83b0489d8c6647561abcf0c11978e",
+    "features": [
+      3.6466963291168213,
+      4.748326778411865,
+      -1.1016303300857544,
+      -0.5194891691207886,
+      -0.3033887445926666,
+      2.1297202110290527,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.422923743724823
+  },
+  {
+    "id": "proso49_3df991580a47985f71b7",
+    "word": "जोगिन",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "de08050a8a7751dd2368c8e2f3bee531e7c83b0489d8c6647561abcf0c11978e",
+    "features": [
+      2.505025863647461,
+      3.2808585166931152,
+      -0.7758325338363647,
+      0.005162520799785852,
+      0.004389066714793444,
+      2.1297202110290527,
+      0.3076923191547394
+    ],
+    "source_style_score": 0.45570576190948486
+  },
+  {
+    "id": "proso49_3df991580a47985f71b7",
+    "word": "जोगिन",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "de08050a8a7751dd2368c8e2f3bee531e7c83b0489d8c6647561abcf0c11978e",
+    "features": [
+      3.578214645385742,
+      4.9325785636901855,
+      -1.3543637990951538,
+      -0.7706625461578369,
+      -0.45869120955467224,
+      2.1297202110290527,
+      0.1538461595773697
+    ],
+    "source_style_score": 0.4033114016056061
+  },
+  {
+    "id": "proso49_6c6476823d0cf1d9150e",
+    "word": "म्लेच्छ",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "bb35389cca6b1bd5be6da8da7928e134e65ce9c4634678b967ea18a92c450e15",
+    "features": [
+      11.873720169067383,
+      11.175976753234863,
+      0.6977434754371643,
+      0.8257026672363281,
+      0.3455347418785095,
+      4.968837738037109,
+      0.6153846383094788
+    ],
+    "source_style_score": 0.7465723156929016
+  },
+  {
+    "id": "proso49_6c6476823d0cf1d9150e",
+    "word": "म्लेच्छ",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "bb35389cca6b1bd5be6da8da7928e134e65ce9c4634678b967ea18a92c450e15",
+    "features": [
+      12.64397144317627,
+      11.556700706481934,
+      1.0872713327407837,
+      1.032875418663025,
+      0.4059002101421356,
+      4.968837738037109,
+      0.7692307829856873
+    ],
+    "source_style_score": 0.7843959331512451
+  },
+  {
+    "id": "proso49_6c6476823d0cf1d9150e",
+    "word": "म्लेच्छ",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "bb35389cca6b1bd5be6da8da7928e134e65ce9c4634678b967ea18a92c450e15",
+    "features": [
+      13.350982666015625,
+      12.748329162597656,
+      0.6026530265808105,
+      0.8185346722602844,
+      0.3046342134475708,
+      4.968837738037109,
+      0.692307710647583
+    ],
+    "source_style_score": 0.781055748462677
+  },
+  {
+    "id": "proso49_141660bac39fc9e6cb16",
+    "word": "प्रारब्ध",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "da67b3d60aa733eb48659e6b56c4f4a6cafd819b60210f9c2fcb09d5101abe49",
+    "features": [
+      1.903079628944397,
+      1.7848668098449707,
+      0.11821272224187851,
+      0.6512259840965271,
+      0.4108383357524872,
+      1.2005940675735474,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5287832021713257
+  },
+  {
+    "id": "proso49_141660bac39fc9e6cb16",
+    "word": "प्रारब्ध",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "da67b3d60aa733eb48659e6b56c4f4a6cafd819b60210f9c2fcb09d5101abe49",
+    "features": [
+      1.5038862228393555,
+      1.4950306415557861,
+      0.008855653926730156,
+      0.5092121958732605,
+      0.40651819109916687,
+      1.2005940675735474,
+      0.5384615659713745
+    ],
+    "source_style_score": 0.5142315030097961
+  },
+  {
+    "id": "proso49_141660bac39fc9e6cb16",
+    "word": "प्रारब्ध",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "da67b3d60aa733eb48659e6b56c4f4a6cafd819b60210f9c2fcb09d5101abe49",
+    "features": [
+      4.027761936187744,
+      4.9288482666015625,
+      -0.9010860323905945,
+      -2.2995455265045166,
+      -0.6854478716850281,
+      1.2005940675735474,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.364052951335907
+  },
+  {
+    "id": "proso49_4f6375da99082b358dcc",
+    "word": "शहर",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "17e1d31c58552e530c637c6506a24d3d40a56be9d61ce8ccf7c116c5ad67533e",
+    "features": [
+      2.338796377182007,
+      3.2358806133270264,
+      -0.8970841765403748,
+      0.12109073996543884,
+      0.13300327956676483,
+      2.568880081176758,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.4510394334793091
+  },
+  {
+    "id": "proso49_4f6375da99082b358dcc",
+    "word": "शहर",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "17e1d31c58552e530c637c6506a24d3d40a56be9d61ce8ccf7c116c5ad67533e",
+    "features": [
+      1.8546173572540283,
+      3.45790433883667,
+      -1.603286862373352,
+      -0.145348459482193,
+      -0.20132604241371155,
+      2.568880081176758,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.4335133731365204
+  },
+  {
+    "id": "proso49_4f6375da99082b358dcc",
+    "word": "शहर",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "17e1d31c58552e530c637c6506a24d3d40a56be9d61ce8ccf7c116c5ad67533e",
+    "features": [
+      2.456226348876953,
+      3.9864981174468994,
+      -1.5302718877792358,
+      -0.24699978530406952,
+      -0.25832831859588623,
+      2.568880081176758,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.41698676347732544
+  },
+  {
+    "id": "proso49_8bb4877ccd88d87319ac",
+    "word": "कर्म",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "76711eb00d044ed22897991c7d7709c71c1f3a3ee08ad6393afaebaf37f76deb",
+    "features": [
+      1.5670109987258911,
+      8.637401580810547,
+      -7.070390701293945,
+      0.11852821707725525,
+      0.7355618476867676,
+      9.724549293518066,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.47543492913246155
+  },
+  {
+    "id": "proso49_8bb4877ccd88d87319ac",
+    "word": "कर्म",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "76711eb00d044ed22897991c7d7709c71c1f3a3ee08ad6393afaebaf37f76deb",
+    "features": [
+      2.36397647857666,
+      7.747448921203613,
+      -5.383472442626953,
+      0.21218998730182648,
+      0.8728733658790588,
+      9.724549293518066,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.49681782722473145
+  },
+  {
+    "id": "proso49_8bb4877ccd88d87319ac",
+    "word": "कर्म",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "76711eb00d044ed22897991c7d7709c71c1f3a3ee08ad6393afaebaf37f76deb",
+    "features": [
+      1.5767806768417358,
+      8.61287784576416,
+      -7.036097049713135,
+      0.12092732638120651,
+      0.7458004951477051,
+      9.724549293518066,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.476296603679657
+  },
+  {
+    "id": "proso49_701db0ca8a33f52e51ef",
+    "word": "ढकना",
+    "split": "development",
+    "condition": "sham",
+    "label": 0,
+    "independent_hindi_template_sha256": "1df7a9b7d5323d23bd7c9e75c25438878e90a0b5d7d7827ab92badfdfa1a02d8",
+    "features": [
+      3.094968318939209,
+      3.3515565395355225,
+      -0.25658828020095825,
+      0.4699021279811859,
+      0.7958837151527405,
+      5.242016792297363,
+      0.38461539149284363
+    ],
+    "source_style_score": 0.5340945720672607
+  },
+  {
+    "id": "proso49_701db0ca8a33f52e51ef",
+    "word": "ढकना",
+    "split": "development",
+    "condition": "native_transfer",
+    "label": 0,
+    "independent_hindi_template_sha256": "1df7a9b7d5323d23bd7c9e75c25438878e90a0b5d7d7827ab92badfdfa1a02d8",
+    "features": [
+      3.4739511013031006,
+      3.8084356784820557,
+      -0.3344844579696655,
+      0.4556776285171509,
+      0.6875945329666138,
+      5.242016792297363,
+      0.4615384638309479
+    ],
+    "source_style_score": 0.547665536403656
+  },
+  {
+    "id": "proso49_701db0ca8a33f52e51ef",
+    "word": "ढकना",
+    "split": "development",
+    "condition": "hindi_transfer",
+    "label": 1,
+    "independent_hindi_template_sha256": "1df7a9b7d5323d23bd7c9e75c25438878e90a0b5d7d7827ab92badfdfa1a02d8",
+    "features": [
+      3.5420258045196533,
+      5.9312591552734375,
+      -2.389233350753784,
+      0.08815637230873108,
+      0.13046692311763763,
+      5.242016792297363,
+      0.23076923191547394
+    ],
+    "source_style_score": 0.4737752676010132
+  }
+]

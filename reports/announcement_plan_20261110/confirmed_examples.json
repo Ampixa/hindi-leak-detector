@@ -1,0 +1,25 @@
+[
+  {
+    "word": "हैन",
+    "case_id": "real_yt_yt01_005",
+    "origin": "user-supplied development example",
+    "used_for_development": true
+  },
+  {
+    "word": "किनकि",
+    "case_id": "real_yt_yt01_008",
+    "origin": "user-supplied development example",
+    "used_for_development": true
+  },
+  {
+    "word": "नेकपा",
+    "case_id": "real_yt_yt03_019",
+    "word_ordinal": 4,
+    "origin": "user confirmed detector discovery in conversation",
+    "user_quote": "i saw that it caught it properly ne ka pa",
+    "recorded_utc": "2026-11-09T06:18:12.318963+00:00",
+    "original_confirmation_utc": "unknown",
+    "phonetic_boundaries_manually_verified": false,
+    "scope": "Confirmation of this occurrence; not a held-out accuracy estimate."
+  }
+]

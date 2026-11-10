@@ -1,0 +1,47 @@
+{
+  "candidate_sha256": "3f1840867759d3ebfee31bd4875450e27c5ba4774d7dc1d49250380204b42883",
+  "script_sha256": "e8557d581101497e30c940124edf17bce19087ce090704a3260c72f4f683183a",
+  "source_selection_sha256": "c76a989dcc79fa9a85d1bfea1e528f48fd02417f54a7aef130c8442d767d3a25",
+  "inventory_sha256": "dd86c698b12609d9d9351446c74d169d821c7799ee632c8310652904df20a72f",
+  "feature_extraction_adapter": "Existing AnchoredInference extracts production word bounds and24 query-only phone features/evidence. Its v71 head scores are discarded; only the v82 candidate is reported.",
+  "adapter_code_sha256": "93e4e1a9eac016a494f03765833fa289587b0e82b10d894541f75393580102f1",
+  "adapter_model_sha256": "cd912af1fcf474a4aecbf2654e62185bf8d44623d48e90c72967512a3f25ef51",
+  "cases": [
+    [
+      "real_yt_yt01_008",
+      "किनकि",
+      null
+    ],
+    [
+      "real_yt_yt03_019",
+      "नेकपा",
+      4
+    ],
+    [
+      "real_yt_yt03_018",
+      "तलको",
+      0
+    ],
+    [
+      "real_yt_yt04_032",
+      "हुनलाई",
+      14
+    ],
+    [
+      "real_yt_yt07_053",
+      "चलाउनको",
+      14
+    ],
+    [
+      "real_yt_yt12_089",
+      "नगरौ",
+      7
+    ],
+    [
+      "real_yt_yt03_019",
+      "पिढको",
+      8
+    ]
+  ],
+  "limits": "Development regressions, not independent test. Real counterpart speech is unlabeled. Pidh listener-similar, not a definitive negative. Haina quality/prosody outside deletion head."
+}

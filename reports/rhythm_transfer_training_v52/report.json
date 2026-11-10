@@ -1,0 +1,86 @@
+{
+  "status": "complete_frozen_rhythm_transfer_experiment",
+  "model_sha256": "20073fdc4afd0361addfb5d6f1abdcc128a98b648f7a7a364744164e007c325f",
+  "threshold": 0.8805320127105712,
+  "best_epoch": 289,
+  "word_contexts": {
+    "train": 87,
+    "development": 22,
+    "reserved_evaluation": 34
+  },
+  "train": {
+    "positive_count": 87,
+    "negative_count": 174,
+    "true_positive": 4,
+    "false_positive": 0,
+    "recall": 0.04597701149425287,
+    "specificity": 1.0,
+    "balanced_accuracy": 0.5229885057471264,
+    "actual_hindi_error_accuracy": null
+  },
+  "development": {
+    "positive_count": 22,
+    "negative_count": 44,
+    "true_positive": 1,
+    "false_positive": 0,
+    "recall": 0.045454545454545456,
+    "specificity": 1.0,
+    "balanced_accuracy": 0.5227272727272727,
+    "actual_hindi_error_accuracy": null
+  },
+  "reserved": {
+    "positive_count": 34,
+    "negative_count": 68,
+    "true_positive": 2,
+    "false_positive": 0,
+    "recall": 0.058823529411764705,
+    "specificity": 1.0,
+    "balanced_accuracy": 0.5294117647058824,
+    "actual_hindi_error_accuracy": null
+  },
+  "nuisance": {
+    "sham_pitch_plus3": {
+      "contexts": 34,
+      "added_flags_over_sham": 0,
+      "max_absolute_score_difference": 0.4079345762729645
+    },
+    "sham_pitch_minus3": {
+      "contexts": 34,
+      "added_flags_over_sham": 0,
+      "max_absolute_score_difference": 0.24044257402420044
+    },
+    "sham_gain": {
+      "contexts": 34,
+      "added_flags_over_sham": 0,
+      "max_absolute_score_difference": 0.0
+    }
+  },
+  "reserved_by_condition_flags": {
+    "hindi_transfer": 2
+  },
+  "actual_hindi_error_accuracy": null,
+  "promotion": "not_promoted_pending_real_prosody_error_validation",
+  "limits": [
+    "Held-out words and conditioning groups measure known source-style transfers only.",
+    "Native spectra/pitch values retimed under a monotone duration map; WORD reconstruction can alter percepts and phone sequences.",
+    "Rhythm and pitch-only interventions are separate; neither validates natural Hindi-error detection.",
+    "No error labels exist for the real Swar prosody examples; source style does not establish an unacceptable pronunciation."
+  ],
+  "phone_stability": {
+    "qualified_contexts": 14,
+    "total_contexts": 34,
+    "criterion": "Neither donor condition adds free-phone edits versus the original carrier beyond WORLD sham.",
+    "interpretation": "Probe stability diagnostic, not independent human phone truth.",
+    "stable_subset_metrics": {
+      "positive_count": 14,
+      "negative_count": 28,
+      "true_positive": 1,
+      "false_positive": 0,
+      "recall": 0.07142857142857142,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.5357142857142857,
+      "actual_hindi_error_accuracy": null
+    }
+  },
+  "prior_exposure": "Word families previously used in pitch-only audit; held out from rhythm fitting, not globally untouched."
+}

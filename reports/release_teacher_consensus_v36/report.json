@@ -1,0 +1,3002 @@
+{
+  "status": "complete_release_teacher_consensus",
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "cases": 86,
+  "voice_groups": 12,
+  "references": 172,
+  "site_comparisons": 1698,
+  "word_decisions": {
+    "real/untested_site": 1121,
+    "real/uncertain": 191,
+    "swar/untested_site": 1121,
+    "swar/uncertain": 179,
+    "a450/untested_site": 1121,
+    "a450/uncertain": 189,
+    "real/no_strong_vowel_change": 42,
+    "real/strong_vowel_change": 14,
+    "swar/no_strong_vowel_change": 47,
+    "a450/no_strong_vowel_change": 41,
+    "a450/strong_vowel_change": 17,
+    "swar/strong_vowel_change": 21
+  },
+  "flagged_words": [
+    {
+      "id": "real_yt_yt01_002",
+      "source": "real",
+      "voice": "yt01",
+      "word_ordinal": 4,
+      "word": "भइसकेपछि",
+      "start": 1.4041297935103245,
+      "end": 1.9256637168141593,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "bh",
+            "axj",
+            "s",
+            "ax",
+            "k",
+            "e",
+            "p",
+            "ax",
+            "tsh",
+            "i"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt01_002_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9988278746604919
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt01_002_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9990988969802856
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 7,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "bh",
+            "axj",
+            "s",
+            "ax",
+            "k",
+            "e",
+            "p",
+            "ax",
+            "tsh",
+            "i"
+          ],
+          "decision": "no_strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt01_002_v0",
+              "reference_qualified": true,
+              "decision": "no_strong_vowel_change",
+              "score": 0.1199868768453598
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt01_002_v1",
+              "reference_qualified": true,
+              "decision": "no_strong_vowel_change",
+              "score": 0.08841151744127274
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt01_003",
+      "source": "real",
+      "voice": "yt01",
+      "word_ordinal": 13,
+      "word": "गर्न",
+      "start": 5.788005540166205,
+      "end": 5.948227146814404,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 4,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "g",
+            "ax",
+            "r",
+            "n",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt01_003_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.8435728549957275
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt01_003_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9989041090011597
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt01_004",
+      "source": "a450",
+      "voice": "yt01",
+      "word_ordinal": 0,
+      "word": "हैन",
+      "start": 0.0,
+      "end": 0.18050755141388175,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 1,
+            "expected": "ʌi̯",
+            "alternative": "ˈɛː"
+          },
+          "native_phones": [
+            "h",
+            "axj",
+            "n",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt01_004_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9988927245140076
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt01_004_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.9971871972084045
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "h",
+            "axj",
+            "n",
+            "ax"
+          ],
+          "decision": "unsupported_reference",
+          "qualified_references": 0,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt01_004_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.013711481355130672
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt01_004_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.9186844825744629
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt01_005",
+      "source": "swar",
+      "voice": "yt01",
+      "word_ordinal": 1,
+      "word": "हैन",
+      "start": 1.0825527272727271,
+      "end": 1.3231199999999999,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 1,
+            "expected": "ʌi̯",
+            "alternative": "ˈɛː"
+          },
+          "native_phones": [
+            "h",
+            "axj",
+            "n",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt01_005_v0",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.9246768355369568
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt01_005_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.8794498443603516
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "h",
+            "axj",
+            "n",
+            "ax"
+          ],
+          "decision": "unsupported_reference",
+          "qualified_references": 0,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt01_005_v0",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.9989809393882751
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt01_005_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.9996094107627869
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt01_008",
+      "source": "swar",
+      "voice": "yt01",
+      "word_ordinal": 1,
+      "word": "किनकि",
+      "start": 0.8653749999999999,
+      "end": 1.428875,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "k",
+            "i",
+            "n",
+            "ax",
+            "k",
+            "i"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt01_008_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9991057515144348
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt01_008_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999004602432251
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt02_011",
+      "source": "a450",
+      "voice": "yt02",
+      "word_ordinal": 3,
+      "word": "नै",
+      "start": 1.7031516853932585,
+      "end": 1.8033370786516854,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 1,
+            "expected": "ai̯",
+            "alternative": "ˈɛː"
+          },
+          "native_phones": [
+            "n",
+            "aaj"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt02_011_v0",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.9036330580711365
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt02_011_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9988909363746643
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt02_015",
+      "source": "swar",
+      "voice": "yt02",
+      "word_ordinal": 5,
+      "word": "ऐनमा",
+      "start": 3.443961612284069,
+      "end": 3.6842380038387716,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 0,
+            "expected": "ʌi̯",
+            "alternative": "ˈɛː"
+          },
+          "native_phones": [
+            "axj",
+            "n",
+            "m",
+            "aa"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt02_015_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9964514970779419
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt02_015_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.4781631827354431
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt02_015",
+      "source": "a450",
+      "voice": "yt02",
+      "word_ordinal": 5,
+      "word": "ऐनमा",
+      "start": 3.3651614457831323,
+      "end": 3.725714457831325,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 0,
+            "expected": "ʌi̯",
+            "alternative": "ˈɛː"
+          },
+          "native_phones": [
+            "axj",
+            "n",
+            "m",
+            "aa"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt02_015_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9966493248939514
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt02_015_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.249008908867836
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt03_018",
+      "source": "swar",
+      "voice": "yt03",
+      "word_ordinal": 0,
+      "word": "तलको",
+      "start": 0.46143360433604336,
+      "end": 0.7222439024390244,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "t",
+            "ax",
+            "l",
+            "ax",
+            "k",
+            "o"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt03_018_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999985694885254
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt03_018_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999988079071045
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt03_018",
+      "source": "a450",
+      "voice": "yt03",
+      "word_ordinal": 0,
+      "word": "तलको",
+      "start": 0.04011278920308484,
+      "end": 0.2807895244215939,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "t",
+            "ax",
+            "l",
+            "ax",
+            "k",
+            "o"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt03_018_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.999996542930603
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt03_018_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999983310699463
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt03_019",
+      "source": "swar",
+      "voice": "yt03",
+      "word_ordinal": 4,
+      "word": "नेकपा",
+      "start": 1.6627605321507761,
+      "end": 2.0033259423503327,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "n",
+            "e",
+            "k",
+            "ax",
+            "p",
+            "aa"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt03_019_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999986886978149
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt03_019_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999982118606567
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt03_019",
+      "source": "swar",
+      "voice": "yt03",
+      "word_ordinal": 8,
+      "word": "पिढको",
+      "start": 3.2253547671840357,
+      "end": 3.525853658536586,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "p",
+            "i",
+            "dxh",
+            "ax",
+            "k",
+            "o"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt03_019_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999979734420776
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt03_019_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999974966049194
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt03_019",
+      "source": "a450",
+      "voice": "yt03",
+      "word_ordinal": 3,
+      "word": "सबै",
+      "start": 1.8214128184713374,
+      "end": 2.0415835987261146,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 3,
+            "expected": "ʌi̯",
+            "alternative": "ɛː"
+          },
+          "native_phones": [
+            "s",
+            "ax",
+            "b",
+            "axj"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt03_019_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9970995187759399
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt03_019_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9938598871231079
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt03_019",
+      "source": "a450",
+      "voice": "yt03",
+      "word_ordinal": 8,
+      "word": "पिढको",
+      "start": 4.583555334394904,
+      "end": 4.883788216560509,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "p",
+            "i",
+            "dxh",
+            "ax",
+            "k",
+            "o"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt03_019_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999988079071045
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt03_019_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999986886978149
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt04_030",
+      "source": "real",
+      "voice": "yt04",
+      "word_ordinal": 11,
+      "word": "अब",
+      "start": 2.9848064516129034,
+      "end": 3.064935483870968,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 2,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "ax",
+            "b",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt04_030_v0",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.9908418655395508
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt04_030_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999986886978149
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt04_030",
+      "source": "swar",
+      "voice": "yt04",
+      "word_ordinal": 21,
+      "word": "आफै",
+      "start": 6.004411764705883,
+      "end": 6.204558823529412,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 2,
+            "expected": "ʌi̯",
+            "alternative": "ɛː"
+          },
+          "native_phones": [
+            "aa",
+            "ph",
+            "axj"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt04_030_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.989823043346405
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt04_030_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.2340286672115326
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt04_030",
+      "source": "a450",
+      "voice": "yt04",
+      "word_ordinal": 11,
+      "word": "अब",
+      "start": 4.08311803874092,
+      "end": 4.203209745762711,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 2,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "ax",
+            "b",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt04_030_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.00206819549202919
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt04_030_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9997391104698181
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt04_032",
+      "source": "swar",
+      "voice": "yt04",
+      "word_ordinal": 14,
+      "word": "हुनलाई",
+      "start": 3.8246871165644167,
+      "end": 4.185128834355828,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "h",
+            "u",
+            "n",
+            "ax",
+            "l",
+            "aaj"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt04_032_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999979734420776
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt04_032_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999985694885254
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt05_035",
+      "source": "swar",
+      "voice": "yt05",
+      "word_ordinal": 19,
+      "word": "हैन",
+      "start": 6.962108033240997,
+      "end": 7.122617728531856,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 1,
+            "expected": "ʌi̯",
+            "alternative": "ˈɛː"
+          },
+          "native_phones": [
+            "h",
+            "axj",
+            "n",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_035_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.99974125623703
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_035_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9997343420982361
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "h",
+            "axj",
+            "n",
+            "ax"
+          ],
+          "decision": "unsupported_reference",
+          "qualified_references": 0,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_035_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.007171019911766052
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_035_v1",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.0373908095061779
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt05_036",
+      "source": "real",
+      "voice": "yt05",
+      "word_ordinal": 17,
+      "word": "परहेप्स",
+      "start": 7.613595706618962,
+      "end": 8.234704830053666,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "p",
+            "ax",
+            "r",
+            "ax",
+            "h",
+            "e",
+            "p",
+            "s",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_036_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9955902099609375
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_036_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.8782912492752075
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 8,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "p",
+            "ax",
+            "r",
+            "ax",
+            "h",
+            "e",
+            "p",
+            "s",
+            "ax"
+          ],
+          "decision": "unsupported_reference",
+          "qualified_references": 0,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_036_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.00011517506936797872
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_036_v1",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.0001297400303883478
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt05_036",
+      "source": "swar",
+      "voice": "yt05",
+      "word_ordinal": 14,
+      "word": "किनकि",
+      "start": 3.7110369318181817,
+      "end": 3.9718125,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "k",
+            "i",
+            "n",
+            "ax",
+            "k",
+            "i"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_036_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.999995231628418
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_036_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999974966049194
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt05_036",
+      "source": "swar",
+      "voice": "yt05",
+      "word_ordinal": 17,
+      "word": "परहेप्स",
+      "start": 4.493363636363636,
+      "end": 4.954735795454545,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "p",
+            "ax",
+            "r",
+            "ax",
+            "h",
+            "e",
+            "p",
+            "s",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_036_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999526739120483
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_036_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.9995816349983215
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 8,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "p",
+            "ax",
+            "r",
+            "ax",
+            "h",
+            "e",
+            "p",
+            "s",
+            "ax"
+          ],
+          "decision": "unsupported_reference",
+          "qualified_references": 0,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_036_v0",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.7481505274772644
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_036_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.6908518671989441
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt05_036",
+      "source": "a450",
+      "voice": "yt05",
+      "word_ordinal": 17,
+      "word": "परहेप्स",
+      "start": 8.005851063829788,
+      "end": 8.566260638297873,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "p",
+            "ax",
+            "r",
+            "ax",
+            "h",
+            "e",
+            "p",
+            "s",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_036_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.905157208442688
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_036_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.5641329288482666
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 8,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "p",
+            "ax",
+            "r",
+            "ax",
+            "h",
+            "e",
+            "p",
+            "s",
+            "ax"
+          ],
+          "decision": "unsupported_reference",
+          "qualified_references": 0,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_036_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.010213690809905529
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_036_v1",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.016303814947605133
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt05_037",
+      "source": "real",
+      "voice": "yt05",
+      "word_ordinal": 10,
+      "word": "हैन",
+      "start": 2.46839590443686,
+      "end": 2.6490102389078496,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 1,
+            "expected": "ʌi̯",
+            "alternative": "ˈɛː"
+          },
+          "native_phones": [
+            "h",
+            "axj",
+            "n",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_037_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9751128554344177
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_037_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.30323898792266846
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "h",
+            "axj",
+            "n",
+            "ax"
+          ],
+          "decision": "unsupported_reference",
+          "qualified_references": 0,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_037_v0",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.9915503263473511
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_037_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.9957505464553833
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt05_037",
+      "source": "swar",
+      "voice": "yt05",
+      "word_ordinal": 10,
+      "word": "हैन",
+      "start": 2.5639050847457625,
+      "end": 2.764210169491525,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 1,
+            "expected": "ʌi̯",
+            "alternative": "ˈɛː"
+          },
+          "native_phones": [
+            "h",
+            "axj",
+            "n",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_037_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9994070529937744
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_037_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.9991617202758789
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "h",
+            "axj",
+            "n",
+            "ax"
+          ],
+          "decision": "unsupported_reference",
+          "qualified_references": 0,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_037_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.0004256276588421315
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_037_v1",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.0016453351126983762
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt05_039",
+      "source": "real",
+      "voice": "yt05",
+      "word_ordinal": 11,
+      "word": "हैन",
+      "start": 4.16764081632653,
+      "end": 4.287861224489796,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 1,
+            "expected": "ʌi̯",
+            "alternative": "ˈɛː"
+          },
+          "native_phones": [
+            "h",
+            "axj",
+            "n",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_039_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9995266199111938
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_039_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9994981288909912
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "h",
+            "axj",
+            "n",
+            "ax"
+          ],
+          "decision": "unsupported_reference",
+          "qualified_references": 0,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_039_v0",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.9999988079071045
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_039_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.999527096748352
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt05_040",
+      "source": "swar",
+      "voice": "yt05",
+      "word_ordinal": 6,
+      "word": "आइसके",
+      "start": 2.0072727272727273,
+      "end": 2.268218181818182,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 2,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "aaj",
+            "s",
+            "ax",
+            "k",
+            "e"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt05_040_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999986886978149
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt05_040_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999988079071045
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt06_041",
+      "source": "a450",
+      "voice": "yt06",
+      "word_ordinal": 11,
+      "word": "कसैले",
+      "start": 3.884406602708803,
+      "end": 4.264838177200902,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 3,
+            "expected": "ʌi̯",
+            "alternative": "ˈɛː"
+          },
+          "native_phones": [
+            "k",
+            "ax",
+            "s",
+            "axj",
+            "l",
+            "e"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt06_041_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.917844831943512
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt06_041_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.5807897448539734
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt06_046",
+      "source": "a450",
+      "voice": "yt06",
+      "word_ordinal": 8,
+      "word": "अथवा",
+      "start": 3.533058064516129,
+      "end": 3.8341709677419353,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 2,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "ax",
+            "th",
+            "ax",
+            "w",
+            "aa"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt06_046_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.999996542930603
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt06_046_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999960660934448
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt06_048",
+      "source": "swar",
+      "voice": "yt06",
+      "word_ordinal": 5,
+      "word": "अथवा",
+      "start": 2.423033426183844,
+      "end": 2.683359331476323,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 2,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "ax",
+            "th",
+            "ax",
+            "w",
+            "aa"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt06_048_v0",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.995530903339386
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt06_048_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999960660934448
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt07_053",
+      "source": "real",
+      "voice": "yt07",
+      "word_ordinal": 4,
+      "word": "कुनै",
+      "start": 0.9033210332103321,
+      "end": 1.1040590405904058,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 3,
+            "expected": "ʌi̯",
+            "alternative": "ɛː"
+          },
+          "native_phones": [
+            "k",
+            "u",
+            "n",
+            "axj"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt07_053_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.19014430046081543
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt07_053_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9967647790908813
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt07_053",
+      "source": "swar",
+      "voice": "yt07",
+      "word_ordinal": 4,
+      "word": "कुनै",
+      "start": 0.9820346020761246,
+      "end": 1.2024913494809688,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 3,
+            "expected": "ʌi̯",
+            "alternative": "ɛː"
+          },
+          "native_phones": [
+            "k",
+            "u",
+            "n",
+            "axj"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt07_053_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.0073053366504609585
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt07_053_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.985962450504303
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt07_053",
+      "source": "swar",
+      "voice": "yt07",
+      "word_ordinal": 14,
+      "word": "चलाउनको",
+      "start": 4.008304498269896,
+      "end": 4.449217993079585,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 3,
+            "expected": "au̯",
+            "alternative": "ʊ"
+          },
+          "native_phones": [
+            "ts",
+            "ax",
+            "l",
+            "aaw",
+            "n",
+            "ax",
+            "k",
+            "o"
+          ],
+          "decision": "unsupported_reference",
+          "qualified_references": 0,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt07_053_v0",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.9267789721488953
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt07_053_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.8082936406135559
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 5,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "ts",
+            "ax",
+            "l",
+            "aaw",
+            "n",
+            "ax",
+            "k",
+            "o"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt07_053_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999631643295288
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt07_053_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.999996542930603
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt07_053",
+      "source": "a450",
+      "voice": "yt07",
+      "word_ordinal": 4,
+      "word": "कुनै",
+      "start": 1.563322697368421,
+      "end": 1.8038338815789474,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 3,
+            "expected": "ʌi̯",
+            "alternative": "ɛː"
+          },
+          "native_phones": [
+            "k",
+            "u",
+            "n",
+            "axj"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt07_053_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.16271233558654785
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt07_053_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.989335834980011
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt07_054",
+      "source": "real",
+      "voice": "yt07",
+      "word_ordinal": 1,
+      "word": "एकै",
+      "start": 0.5211685393258427,
+      "end": 0.6815280898876405,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 2,
+            "expected": "ʌi̯",
+            "alternative": "ɛː"
+          },
+          "native_phones": [
+            "e",
+            "k",
+            "axj"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt07_054_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9960438013076782
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt07_054_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9974384307861328
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt07_054",
+      "source": "swar",
+      "voice": "yt07",
+      "word_ordinal": 10,
+      "word": "एकै",
+      "start": 3.5641827676240205,
+      "end": 3.7243707571801563,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 2,
+            "expected": "ʌi̯",
+            "alternative": "ɛː"
+          },
+          "native_phones": [
+            "e",
+            "k",
+            "axj"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt07_054_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.13721777498722076
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt07_054_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9866815805435181
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt07_055",
+      "source": "real",
+      "voice": "yt07",
+      "word_ordinal": 5,
+      "word": "मैले",
+      "start": 1.544313725490196,
+      "end": 1.6646498599439776,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 1,
+            "expected": "ʌi̯",
+            "alternative": "ˈɛː"
+          },
+          "native_phones": [
+            "m",
+            "axj",
+            "l",
+            "e"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt07_055_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9994872808456421
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt07_055_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.998364269733429
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt08_057",
+      "source": "real",
+      "voice": "yt08",
+      "word_ordinal": 13,
+      "word": "ट्राइमेस्टरको",
+      "start": 4.507432432432433,
+      "end": 5.068357357357358,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 9,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "tx",
+            "r",
+            "aaj",
+            "m",
+            "e",
+            "s",
+            "tx",
+            "ax",
+            "r",
+            "ax",
+            "k",
+            "o"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt08_057_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.02506319247186184
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt08_057_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.999976634979248
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt08_057",
+      "source": "swar",
+      "voice": "yt08",
+      "word_ordinal": 13,
+      "word": "ट्राइमेस्टरको",
+      "start": 6.654884990253411,
+      "end": 7.396543859649123,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 9,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "tx",
+            "r",
+            "aaj",
+            "m",
+            "e",
+            "s",
+            "tx",
+            "ax",
+            "r",
+            "ax",
+            "k",
+            "o"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt08_057_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.009571574628353119
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt08_057_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9998032450675964
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt08_057",
+      "source": "a450",
+      "voice": "yt08",
+      "word_ordinal": 13,
+      "word": "ट्राइमेस्टरको",
+      "start": 5.826062500000001,
+      "end": 6.506770833333334,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 9,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "tx",
+            "r",
+            "aaj",
+            "m",
+            "e",
+            "s",
+            "tx",
+            "ax",
+            "r",
+            "ax",
+            "k",
+            "o"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt08_057_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.07550135999917984
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt08_057_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999411106109619
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt08_061",
+      "source": "real",
+      "voice": "yt08",
+      "word_ordinal": 7,
+      "word": "कसैले",
+      "start": 2.3270608695652175,
+      "end": 2.668095652173913,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 3,
+            "expected": "ʌi̯",
+            "alternative": "ˈɛː"
+          },
+          "native_phones": [
+            "k",
+            "ax",
+            "s",
+            "axj",
+            "l",
+            "e"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt08_061_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.6309057474136353
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt08_061_v1",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.1546795666217804
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt08_061",
+      "source": "swar",
+      "voice": "yt08",
+      "word_ordinal": 7,
+      "word": "कसैले",
+      "start": 3.7080434782608696,
+      "end": 4.048782608695652,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 3,
+            "expected": "ʌi̯",
+            "alternative": "ˈɛː"
+          },
+          "native_phones": [
+            "k",
+            "ax",
+            "s",
+            "axj",
+            "l",
+            "e"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt08_061_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9964008331298828
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt08_061_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.9922800064086914
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt08_061",
+      "source": "a450",
+      "voice": "yt08",
+      "word_ordinal": 7,
+      "word": "कसैले",
+      "start": 2.848008033419023,
+      "end": 3.1889667416452445,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 3,
+            "expected": "ʌi̯",
+            "alternative": "ˈɛː"
+          },
+          "native_phones": [
+            "k",
+            "ax",
+            "s",
+            "axj",
+            "l",
+            "e"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt08_061_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9899167418479919
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt08_061_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.9717356562614441
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt08_061",
+      "source": "a450",
+      "voice": "yt08",
+      "word_ordinal": 9,
+      "word": "हैन",
+      "start": 3.509869055269923,
+      "end": 3.7104330012853475,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 1,
+            "expected": "ʌi̯",
+            "alternative": "ˈɛː"
+          },
+          "native_phones": [
+            "h",
+            "axj",
+            "n",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt08_061_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9808958768844604
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt08_061_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.7223241925239563
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "h",
+            "axj",
+            "n",
+            "ax"
+          ],
+          "decision": "unsupported_reference",
+          "qualified_references": 0,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt08_061_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.03122824802994728
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt08_061_v1",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.037723004817962646
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt09_067",
+      "source": "a450",
+      "voice": "yt09",
+      "word_ordinal": 10,
+      "word": "उकटै",
+      "start": 3.9260216867469873,
+      "end": 4.186421084337349,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 2,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "u",
+            "k",
+            "ax",
+            "tx",
+            "axj"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt09_067_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999988079071045
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt09_067_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999988079071045
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 4,
+            "expected": "ʌi̯",
+            "alternative": "ˌɛː"
+          },
+          "native_phones": [
+            "u",
+            "k",
+            "ax",
+            "tx",
+            "axj"
+          ],
+          "decision": "unsupported_reference",
+          "qualified_references": 0,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt09_067_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.0011210237862542272
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt09_067_v1",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.041025158017873764
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt09_070",
+      "source": "real",
+      "voice": "yt09",
+      "word_ordinal": 1,
+      "word": "समय",
+      "start": 0.3814615384615384,
+      "end": 0.5822307692307692,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": "ˌɛ"
+          },
+          "native_phones": [
+            "s",
+            "ax",
+            "m",
+            "ax",
+            "y",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt09_070_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9979615211486816
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt09_070_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.6325519680976868
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 5,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "s",
+            "ax",
+            "m",
+            "ax",
+            "y",
+            "ax"
+          ],
+          "decision": "unsupported_reference",
+          "qualified_references": 0,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt09_070_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.0068794917315244675
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt09_070_v1",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.0075582354329526424
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt09_070",
+      "source": "a450",
+      "voice": "yt09",
+      "word_ordinal": 1,
+      "word": "समय",
+      "start": 0.9411588302752294,
+      "end": 1.2215040137614679,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": "ˌɛ"
+          },
+          "native_phones": [
+            "s",
+            "ax",
+            "m",
+            "ax",
+            "y",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt09_070_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.995537281036377
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt09_070_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.7907810807228088
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 5,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "s",
+            "ax",
+            "m",
+            "ax",
+            "y",
+            "ax"
+          ],
+          "decision": "unsupported_reference",
+          "qualified_references": 0,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt09_070_v0",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.8246784806251526
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt09_070_v1",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.8570476174354553
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt12_089",
+      "source": "swar",
+      "voice": "yt12",
+      "word_ordinal": 7,
+      "word": "नगरौ",
+      "start": 2.3670493506493506,
+      "end": 2.627825974025974,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "n",
+            "ax",
+            "g",
+            "ax",
+            "r",
+            "axw"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt12_089_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999983310699463
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt12_089_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9999983310699463
+            }
+          ]
+        },
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 5,
+            "expected": "ʌu̯",
+            "alternative": "ˌɔː"
+          },
+          "native_phones": [
+            "n",
+            "ax",
+            "g",
+            "ax",
+            "r",
+            "axw"
+          ],
+          "decision": "unsupported_reference",
+          "qualified_references": 0,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt12_089_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.030775045976042747
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt12_089_v1",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.0029637403786182404
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt12_091",
+      "source": "real",
+      "voice": "yt12",
+      "word_ordinal": 0,
+      "word": "गर्न",
+      "start": 0.0,
+      "end": 0.20106951871657755,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 4,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "g",
+            "ax",
+            "r",
+            "n",
+            "ax"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 2,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt12_091_v0",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.8677749037742615
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt12_091_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9981957077980042
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt12_096",
+      "source": "real",
+      "voice": "yt12",
+      "word_ordinal": 13,
+      "word": "धेरै",
+      "start": 5.66742782152231,
+      "end": 5.987847769028871,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 3,
+            "expected": "ʌi̯",
+            "alternative": "ɛː"
+          },
+          "native_phones": [
+            "dh",
+            "e",
+            "r",
+            "axj"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt12_096_v0",
+              "reference_qualified": false,
+              "decision": "uncertain",
+              "score": 0.47816765308380127
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt12_096_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9965180158615112
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt12_096",
+      "source": "swar",
+      "voice": "yt12",
+      "word_ordinal": 13,
+      "word": "धेरै",
+      "start": 4.890494623655914,
+      "end": 5.131010752688172,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 3,
+            "expected": "ʌi̯",
+            "alternative": "ɛː"
+          },
+          "native_phones": [
+            "dh",
+            "e",
+            "r",
+            "axj"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt12_096_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.017022890970110893
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt12_096_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9931094646453857
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    },
+    {
+      "id": "real_yt_yt12_096",
+      "source": "a450",
+      "voice": "yt12",
+      "word_ordinal": 13,
+      "word": "धेरै",
+      "start": 6.264784049636804,
+      "end": 6.565013317191283,
+      "decision": "strong_vowel_change",
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_quality",
+            "index": 3,
+            "expected": "ʌi̯",
+            "alternative": "ɛː"
+          },
+          "native_phones": [
+            "dh",
+            "e",
+            "r",
+            "axj"
+          ],
+          "decision": "strong_vowel_change",
+          "qualified_references": 1,
+          "available_references": 2,
+          "reference_decisions": [
+            {
+              "reference_id": "swarref21_real_yt_yt12_096_v0",
+              "reference_qualified": false,
+              "decision": "no_strong_vowel_change",
+              "score": 0.01419013924896717
+            },
+            {
+              "reference_id": "swarref21_real_yt_yt12_096_v1",
+              "reference_qualified": true,
+              "decision": "strong_vowel_change",
+              "score": 0.9819605350494385
+            }
+          ]
+        }
+      ],
+      "native_variant_ambiguity": false,
+      "actual_hindi_error_label": null
+    }
+  ],
+  "regressions": [
+    {
+      "id": "real_yt_yt01_005",
+      "source": "swar",
+      "word": "हैन",
+      "reported_pronunciation": "hain",
+      "label_source": "User native-listener report in this conversation",
+      "split": "development_regression",
+      "flagged": true
+    },
+    {
+      "id": "real_yt_yt01_008",
+      "source": "swar",
+      "word": "किनकि",
+      "reported_pronunciation": "kinki",
+      "label_source": "User native-listener report in this conversation",
+      "split": "development_regression",
+      "flagged": true
+    }
+  ],
+  "reference_content_decisions": {
+    "pass": 166,
+    "quarantine": 6
+  },
+  "actual_hindi_error_accuracy": null,
+  "native_error_false_positive_rate": null,
+  "limits": [
+    "Human flags quantify disagreement with generated references, not unacceptable Native pronunciation.",
+    "Teacher/probe/G2P mistakes and natural reductions can cause disagreement; global ASR pass is not pronunciation gold.",
+    "All six picks/two known errors were previously inspected; this is reference sensitivity, not independent accuracy.",
+    "Both phone probes share training-family and MMS/G2P biases."
+  ]
+}

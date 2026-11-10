@@ -1,0 +1,45 @@
+{
+  "version": "eSpeak NG text-to-speech: 1.52.0  Data at: /opt/homebrew/Cellar/espeak-ng/1.52.0/share/espeak-ng-data\n",
+  "resources": [
+    {
+      "path": "/opt/homebrew/Cellar/espeak-ng/1.52.0/bin/espeak-ng",
+      "bytes": 56016,
+      "sha256": "9c73c915df7e7320a53ccfe0021214383de195809eba2677d9fe6288b00cddb0"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/espeak-ng/1.52.0/lib/libespeak-ng.1.dylib",
+      "bytes": 539568,
+      "sha256": "3079df913e0626299b64b744747cf18ba4ede6347aa142c213bf0f0004e60223"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/espeak-ng/1.52.0/share/espeak-ng-data/hi_dict",
+      "bytes": 92143,
+      "sha256": "5a68c9532624e57ac845b26ce1e2e5034c4f6353bede46ecbe57e583ec8effd6"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/espeak-ng/1.52.0/share/espeak-ng-data/intonations",
+      "bytes": 2312,
+      "sha256": "031a105bf6bb2ebcd73a2c579ccfb42469b27266db0078af65ae298fd3588b21"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/espeak-ng/1.52.0/share/espeak-ng-data/lang/inc/hi",
+      "bytes": 23,
+      "sha256": "3c1c3f916f57f2d6d6cbf7923c0f39a36ac2140e2a69ddffce917d7b8bf3ccab"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/espeak-ng/1.52.0/share/espeak-ng-data/phondata",
+      "bytes": 554740,
+      "sha256": "a0b643b155cb6b12628d9e7865b57d9fca0d35844614f2594a5e009c80c80bb4"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/espeak-ng/1.52.0/share/espeak-ng-data/phonindex",
+      "bytes": 43316,
+      "sha256": "384e5fa6f714ba5356c58008249b78699c31c1ad044b243068d263fb806b7d73"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/espeak-ng/1.52.0/share/espeak-ng-data/phontab",
+      "bytes": 58652,
+      "sha256": "1b40690667e1e9aa1ba5e5234773c799e7e72ea751426e5150423d53c3f24fa2"
+    }
+  ]
+}

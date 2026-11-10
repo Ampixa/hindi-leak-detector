@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-11-09T08:16:30.370992+00:00",
+  "model_sha256": "cd912af1fcf474a4aecbf2654e62185bf8d44623d48e90c72967512a3f25ef51",
+  "protocol_sha256": "0dfb01c0f29e0ad42d97462f7066ea70fd0177edc77e8b37d596d3137c22eeac",
+  "threshold": 0.9869572887528136,
+  "test_scores_opened": false,
+  "external_copy_required_before_test": true
+}

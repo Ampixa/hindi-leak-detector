@@ -1,0 +1,501 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "created_utc": "2026-11-07T12:23:55.489457+00:00",
+  "status": "verified_unused_inputs_deleted",
+  "owner": "Ampixa/user",
+  "source_sha256": "37c44a7435be57a848cd8b5bba0e8b28469f7d6e08b78a8f40f948085b8f56fc",
+  "files": [
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/.gitignore",
+      "bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/README.md.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/README.md.metadata",
+      "bytes": 101,
+      "sha256": "f66d3317b1e471db552e8cef2dca04f5990e02c4d677c62e3088038cde5879d1",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/chat_template.jinja.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/chat_template.jinja.metadata",
+      "bytes": 100,
+      "sha256": "5f968a6e19403c02e634286951f0e364b9faacae1b0e608e62df1caea29bd71b",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/codec.pth.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/codec.pth.metadata",
+      "bytes": 125,
+      "sha256": "fe59904304c8b5f6a6ad7f6ec25c2514f1f5bc4a6afbe51b4e5edaccd826b086",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/config.json.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/config.json.metadata",
+      "bytes": 100,
+      "sha256": "db08d462a67413d402d636565349a34fecf0a84fd2dced0b600a9aa5c2007e5e",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/configuration_arktts.py.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/configuration_arktts.py.metadata",
+      "bytes": 101,
+      "sha256": "a5b4f1d4d25681e72b0ed17b55b9433f1de149bceedf058f8254f715761a2bc0",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/generation_config.json.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/generation_config.json.metadata",
+      "bytes": 101,
+      "sha256": "6acb6e45d72683dfa64d73abcf63e94a6e77c23ebb258304835d5ffcbe3a9ab6",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/model.safetensors.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/model.safetensors.metadata",
+      "bytes": 125,
+      "sha256": "2ecb4f843f2c881eda639cacd3d6989d7d4107e006faec3941f16f07dc90ddeb",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/modeling_arktts.py.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/modeling_arktts.py.metadata",
+      "bytes": 101,
+      "sha256": "ad73e5422a0d47234f351202ef17f42ba04d1e6f6fa13e93023f897b04732dd4",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/modeling_arktts_codec.py.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/modeling_arktts_codec.py.metadata",
+      "bytes": 101,
+      "sha256": "fbaab096d2e7ee514c97d8e85b241ae940a7eded464367d512e3f6e083d9c539",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/processing_arktts.py.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/processing_arktts.py.metadata",
+      "bytes": 101,
+      "sha256": "7caeab5d98ad0283668cdcd3d1248e1719e3fa5d2fd9d766c4125d6632598723",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/processor_config.json.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/processor_config.json.metadata",
+      "bytes": 101,
+      "sha256": "d5231a254acc620f2b57be588cf02d3c9e6f87f8e1abfefdd1ca98552ade27db",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/special_tokens_map.json.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/special_tokens_map.json.metadata",
+      "bytes": 101,
+      "sha256": "6de0999a55f047e9c96da47f1ec85b4cf6a68e5833f9433b1c6248237043eb04",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/tokenizer.json.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/tokenizer.json.metadata",
+      "bytes": 101,
+      "sha256": "7e269800981bef6f51765c4ee2ccadff09a2cd5a9499c4a8ad19dc2796168559",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/tokenizer_config.json.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/tokenizer_config.json.metadata",
+      "bytes": 101,
+      "sha256": "9cc2b4e10fa4ed9cb3c55f05844c45e2539174f193806f5ad7673364b630c880",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/README.md",
+      "bytes": 450,
+      "sha256": "68b66d534f431523d482ba458b373e5f967cb2e04a656419c56ef95fe8d317bb",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/chat_template.jinja",
+      "bytes": 1727,
+      "sha256": "d3aff4b6198c753a363b325790cb79baa04262b8e0c2b2fb731aa4dc5374264b",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/codec.pth",
+      "bytes": 1349857559,
+      "sha256": "c310505aa11fe2f6cc63b8d3130dc7e77e73227774f5c62575769b1f47a8d048",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/config.json",
+      "bytes": 2650,
+      "sha256": "46d4bcfa018b4019f24783d7a919dacf51f4b572581c6be53bef55acceccd809",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/configuration_arktts.py",
+      "bytes": 7966,
+      "sha256": "7936ca9839bdf4f0a0cfa890b62f646ed94b162b7e351d18b89d1bb1f4542c23",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/generation_config.json",
+      "bytes": 167,
+      "sha256": "bb8e5f7d9969cbce88d7544c8b84748a85ceff6d61a7789194b578a5b8dee8de",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/model.safetensors",
+      "bytes": 339605208,
+      "sha256": "327bca2331895902ff81dbb14a5ad10dffa9db605cb752e424ca38b9db17b4fe",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/modeling_arktts.py",
+      "bytes": 41961,
+      "sha256": "50bc8f9adffa79b231c8b9e8fe7a56cc9b304bd46d1c890fbd24b0d1fd954b12",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/modeling_arktts_codec.py",
+      "bytes": 20120,
+      "sha256": "c9d579f1a876cbceb3f7ef501dfccc17a4986933ba758de36c84450ba4905925",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/processing_arktts.py",
+      "bytes": 11713,
+      "sha256": "4067508f68c3c2fe55f39b7bdf55c903e4d4a78528d359a45695574ef84c5c1f",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/processor_config.json",
+      "bytes": 206,
+      "sha256": "9b35a69c49ddd5572830e1dd6c5ec21b7bbe53c559cf58076c4704d106a0e604",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/special_tokens_map.json",
+      "bytes": 7686,
+      "sha256": "fcd51e87c5087140cc2fe5a376c72e20bf9494bab91cfa386103cc91458ac707",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/tokenizer.json",
+      "bytes": 5852397,
+      "sha256": "f1c5ac4973f74a007635d81dafcb2cf0e5c4578c7426f48f53ab0ebf5b978bef",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/tokenizer_config.json",
+      "bytes": 848425,
+      "sha256": "eef7d68d89c08f2396f2a915572df81cd544d15e9f8f8602f0cfe6e78e773f00",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4256933800326415_008877.wav",
+      "bytes": 323628,
+      "sha256": "14dcc7e2d2f417d11db91bf8fae9e767af05952d1b8d17b488a1648b20aaa638",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4257018100398290_024741.wav",
+      "bytes": 372780,
+      "sha256": "cefd966a49f8f9f10ce7230ce9ddfa902a44b09ea269537250525d8c54e44c65",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4257298100347538_019650.wav",
+      "bytes": 293932,
+      "sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4257387500340373_011237.wav",
+      "bytes": 303148,
+      "sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4257689200333878_001003.wav",
+      "bytes": 289836,
+      "sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4257751100369637_009829.wav",
+      "bytes": 302124,
+      "sha256": "6ed10838a90596e8775880ff7a3116342079317d98b9ec29fe1737eaeebe9e6b",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4258147000367444_016985.wav",
+      "bytes": 297004,
+      "sha256": "15ed78181b636b5435f43f185992b43025c7684412bd030a52bf288a0ce1d28e",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4258254800397423_008408.wav",
+      "bytes": 310316,
+      "sha256": "2324e89c0e9fab1255a05f15a9daa3271b1d0f74f964ca76a1e4fd4d78d3d6f1",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4258453800348915_004837.wav",
+      "bytes": 298764,
+      "sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4258716800392755_018420.wav",
+      "bytes": 297004,
+      "sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4259065500397435_005809.wav",
+      "bytes": 297004,
+      "sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4259085700325035_000321.wav",
+      "bytes": 288812,
+      "sha256": "159e1e624ed7cb903c96e40b8da88b7d713a3dad977162f8be666a2fb3fc9a51",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4259279700316061_013003.wav",
+      "bytes": 318508,
+      "sha256": "f52796252bd27627d20a4a011fc8c82e5cf36669dcd779c58c7ab43ef10cbcf4",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4259326600373607_015369.wav",
+      "bytes": 367660,
+      "sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4259477200361463_015355.wav",
+      "bytes": 313388,
+      "sha256": "b3ce03a672bcb6eaf9859682766953f05055ade8277e6c23afd1b00efa038247",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    },
+    {
+      "path": "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4259790200369285_016321.wav",
+      "bytes": 311052,
+      "sha256": "09716e1dd999ef87a83452a89f9bfc3f801c4b5936aadd6035434ce6fe74828a",
+      "reason": "Unused task-owned Audio8 input after user switched to Pocket; verified pinned HF restore or original k2 reference exists."
+    }
+  ],
+  "deleted": [
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/.gitignore",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/README.md.lock",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/README.md.metadata",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/chat_template.jinja.lock",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/chat_template.jinja.metadata",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/codec.pth.lock",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/codec.pth.metadata",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/config.json.lock",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/config.json.metadata",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/configuration_arktts.py.lock",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/configuration_arktts.py.metadata",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/generation_config.json.lock",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/generation_config.json.metadata",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/model.safetensors.lock",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/model.safetensors.metadata",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/modeling_arktts.py.lock",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/modeling_arktts.py.metadata",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/modeling_arktts_codec.py.lock",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/modeling_arktts_codec.py.metadata",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/processing_arktts.py.lock",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/processing_arktts.py.metadata",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/processor_config.json.lock",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/processor_config.json.metadata",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/special_tokens_map.json.lock",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/special_tokens_map.json.metadata",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/tokenizer.json.lock",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/tokenizer.json.metadata",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/tokenizer_config.json.lock",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/.cache/huggingface/download/tokenizer_config.json.metadata",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/README.md",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/chat_template.jinja",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/codec.pth",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/config.json",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/configuration_arktts.py",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/generation_config.json",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/model.safetensors",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/modeling_arktts.py",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/modeling_arktts_codec.py",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/processing_arktts.py",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/processor_config.json",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/special_tokens_map.json",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/tokenizer.json",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/models/audio8/tokenizer_config.json",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4256933800326415_008877.wav",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4257018100398290_024741.wav",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4257298100347538_019650.wav",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4257387500340373_011237.wav",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4257689200333878_001003.wav",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4257751100369637_009829.wav",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4258147000367444_016985.wav",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4258254800397423_008408.wav",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4258453800348915_004837.wav",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4258716800392755_018420.wav",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4259065500397435_005809.wav",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4259085700325035_000321.wav",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4259279700316061_013003.wav",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4259326600373607_015369.wav",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4259477200361463_015355.wav",
+    "/home/ampixa/hindi-detector-wordmatrix-v3/references/S4259790200369285_016321.wav"
+  ],
+  "free_bytes_before": 20961333248,
+  "lsof_excluded_unrelated_virtual_mounts": [
+    "/run/docker/netns/default",
+    "/sys/kernel/debug/tracing"
+  ],
+  "hf_revision": "f4a96a2708d651f95202ecebba025c514935cb77",
+  "reference_replacements": [
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259065500397435_005809.wav",
+      "sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4257751100369637_009829.wav",
+      "sha256": "6ed10838a90596e8775880ff7a3116342079317d98b9ec29fe1737eaeebe9e6b"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4258453800348915_004837.wav",
+      "sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4257298100347538_019650.wav",
+      "sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4258716800392755_018420.wav",
+      "sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259477200361463_015355.wav",
+      "sha256": "b3ce03a672bcb6eaf9859682766953f05055ade8277e6c23afd1b00efa038247"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4257387500340373_011237.wav",
+      "sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4257689200333878_001003.wav",
+      "sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4258254800397423_008408.wav",
+      "sha256": "2324e89c0e9fab1255a05f15a9daa3271b1d0f74f964ca76a1e4fd4d78d3d6f1"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4256933800326415_008877.wav",
+      "sha256": "14dcc7e2d2f417d11db91bf8fae9e767af05952d1b8d17b488a1648b20aaa638"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259790200369285_016321.wav",
+      "sha256": "09716e1dd999ef87a83452a89f9bfc3f801c4b5936aadd6035434ce6fe74828a"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4258147000367444_016985.wav",
+      "sha256": "15ed78181b636b5435f43f185992b43025c7684412bd030a52bf288a0ce1d28e"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259085700325035_000321.wav",
+      "sha256": "159e1e624ed7cb903c96e40b8da88b7d713a3dad977162f8be666a2fb3fc9a51"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4257018100398290_024741.wav",
+      "sha256": "cefd966a49f8f9f10ce7230ce9ddfa902a44b09ea269537250525d8c54e44c65"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259279700316061_013003.wav",
+      "sha256": "f52796252bd27627d20a4a011fc8c82e5cf36669dcd779c58c7ab43ef10cbcf4"
+    },
+    {
+      "source_path": "/Volumes/T9/indicvoices_r_ne/audio/S4259326600373607_015369.wav",
+      "sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662"
+    }
+  ],
+  "no_unique_audio_deleted": true,
+  "shared_checkpoints_untouched": true,
+  "bytes_removed": 1701244656,
+  "free_bytes_after": 22662692864,
+  "historical_state": "Task-owned restored model/reference copies no longer exist locally; all 14 model files are restorable from the verified HF pin, and original reference bytes remain on k2. No Audio8 matrix output ever existed."
+}

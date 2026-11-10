@@ -1,0 +1,36 @@
+{
+  "creator": "Codex /root",
+  "created_utc": "2026-11-08T08:50:11.675466+00:00",
+  "owner": "Ampixa/user",
+  "status": "active",
+  "next_review": "2026-11-09",
+  "files": [
+    {
+      "path": "history.json",
+      "bytes": 1903,
+      "sha256": "795edb250f6ea317e62176595652aab15b46bf6c314e4a18a481c47dd0b48368"
+    },
+    {
+      "path": "inputs.json",
+      "bytes": 12653979,
+      "sha256": "1da19777b34d38a4fb38f7e6ccd9812f54b5ee693617c38218873bdf50dd29db"
+    },
+    {
+      "path": "model.pt",
+      "bytes": 638954,
+      "sha256": "9d3caf0a1d5ffe32056b665c4cbbba4580f2ad06e533d9d9a00e75c984245146"
+    },
+    {
+      "path": "report.json",
+      "bytes": 5991,
+      "sha256": "41cee2c5b4c3da2252b36844fe3b6a5c445e039004dad9f7ed37ad5d3782842d"
+    },
+    {
+      "path": "source_snapshot.json",
+      "bytes": 30176,
+      "sha256": "50434633e20758a54787dfa53b3d0f8acc8432124134fc1886e18c532ac9f5da"
+    }
+  ],
+  "duplicate": "cdjk compact checkpoint copy",
+  "not_on_hf": true
+}

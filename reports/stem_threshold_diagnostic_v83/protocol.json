@@ -1,0 +1,7 @@
+{
+  "timing": "Post-fit diagnostic after seeing v83 failure, not pre-registered, not a selected newmodel. No test read/livechange.",
+  "rule": "Single global logit threshold max(originalfamilyoperatingpoint, q95higher of S2 retained40-60ms)+1e-5. Known duration used only for calibration diagnostic, never inference feature.",
+  "reason": "Test whether conservative threshold alone resolves short-vowel false flags while preserving80%recall.",
+  "conclusion": "Dev passes alternativecalibration, CV short-recall falls to75.7%. Cannot solve by threshold alone.",
+  "actual_hindi_error_accuracy": null
+}

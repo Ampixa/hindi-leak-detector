@@ -1,0 +1,648 @@
+Adversarial pre-fit review explicitly requested by the user for the next Hindi-leakage work. Tools disabled: read supplied sources, do not claim execution/listening. Last query-only phone-summary classifier failed:1/93 known full removals,6/93 WORLD-removal; hardest shortened-but-retained S2 set threshold98.6957. Train/dev oracle windows also failed to rescue phone emissions. Existing reference-conditioned live model remains unchanged,7 user-confirmed discovery occurrences; these plus208 fresh cross-system clips stay OUT of fitting. We have main_v71 train385 eligible sources184lexemes4conditioninggroups,dev111sources with4other groups,7same-source physical families. All sources are approved24layer Nepali teacher. Labels are known manipulations, not independent real phonetic/Hindi-error truth. Goal now is to actually fit a small acoustic candidate, not keep architecture-shopping. Concrete recipe: 25ms Hann FFT512 at5ms hop,64 logMel bands,query-word production-MMS crop with40ms pad,resampled128relative-time bins,RMS then global per-word mean/std; two fixedwidth hints from observed query phone trace gap/native focal spans, never edit geometry; neighboring intendedG2P phones embedding4each; local14 old query-only features. CNN66->24 channels kernel5 thentwo24channel kernel3 blocks,dilations1/2,GroupNorm,SiLU; global/focus pooled72+context8+local14=94,24hidden->1. About14k params. ONE architecture,32fixedepochs AdamW.001,weight_decay.01,source-group/class-balanced BCE with S2 half negative weight,plus.2matchedrank loss(P1/S0,P1w/S_world,P1w/S2),whole-source7families in a batch. 12CV cells:3phonetic-collisionfold x4voices, validationintersection and trainexcludes either heldfold OR heldvoice. Local14scaler fitsfoldtraining only. No dev earlystopping/modelsearch. Fixed phone-onlylinear14 ridge.01 comparison sameCV. Finalfittrainonly; dev threshold=max(.5,S0q97.5,S1/S2/S_world/S_originalq95)+1e-5, prespecified beforefit. This is newcandidate operatingprotocol, no retuneoldspenttest. Require trainCV/devP1/P1wrecall>=.8,reportnegativeflags/abstains and baseline. Freezeexternally; generatefreshphysicaltest onlyifgatespass. v71oldtest staysspent, crosssystemv80nevergold labels. Please identify only concrete blocking defects vs empirical risks in these sources/design; particularly leakage in hints, sufficiency of spectral normalization and target localization, paired-loss identities, oracle-vs-production boundaries, waveform-edit shortcut vulnerability. Say GO to fitting or list specific must-fix blockers. Propose focused fixes, not another data/model sweep. Don't turn lack of human labels into a prerequisite to this controlled training experiment; explain limits of claim. Concise, cite filenames.
+FILE hindi_detector/acoustic_deletion.py
+"""Versioned query-only high-resolution word acoustics for deletion learning."""
+from __future__ import annotations
+
+import math
+
+import numpy as np
+import torch
+from torch import nn
+import torch.nn.functional as F
+import torchaudio
+
+from hindi_detector.anchored_detector import select
+
+SCHEMA = 'acoustic_deletion_v81'
+RECIPE = {'sample_rate': 16000, 'n_fft': 512, 'window_samples': 400, 'hop_samples': 80,
+          'mel_bands': 64, 'f_min': 80., 'f_max': 7600., 'time_bins': 128,
+          'word_padding_seconds': .04, 'focus_sigma_fraction': .08,
+          'normalization': 'Per-query-word RMS, then global log-mel mean/std; no dataset or reference normalization.',
+          'clock': 'Actual duration / verified convolution output frame count, matching pinned phone runtime.',
+          'forbidden_inputs': ['edit geometry', 'mapped_word', 'source_region', 'reference waveform',
+                               'source/speaker/word ID', 'physical label', 'absolute duration scalar']}
+
+
+def frame_count(samples, configuration):
+    if configuration['model_type'] != 'wav2vec2' or configuration.get('add_adapter'):
+        raise ValueError('Unsupported phone output geometry')
+    kernels, strides = configuration['conv_kernel'], configuration['conv_stride']
+    if not kernels or len(kernels) != len(strides):
+        raise ValueError('Incomplete convolution geometry')
+    value = int(samples)
+    for kernel, stride in zip(kernels, strides, strict=True):
+        if not isinstance(kernel, int) or not isinstance(stride, int) or kernel < 1 or stride < 1:
+            raise ValueError('Invalid convolution geometry')
+        value = (value - kernel) // stride + 1
+    if value < 1:
+        raise ValueError('Too few samples for phone frontend')
+    return value
+
+
+class WordAcoustics:
+    def __init__(self, phone_vocabulary, phone_configurations):
+        if len(phone_configurations) != 2 or len(set(phone_vocabulary.values())) != len(phone_vocabulary):
+            raise ValueError('Need explicit two-probe geometry and unique project phone IDs')
+        self.vocabulary = phone_vocabulary
+        self.configurations = phone_configurations
+        self.window = torch.hann_window(RECIPE['window_samples'])
+        self.filters = torchaudio.functional.melscale_fbanks(
+            n_freqs=RECIPE['n_fft'] // 2 + 1, f_min=RECIPE['f_min'], f_max=RECIPE['f_max'],
+            n_mels=RECIPE['mel_bands'], sample_rate=16000, norm='slaney', mel_scale='htk')
+
+    def extract(self, samples, word_bounds, evidence, native_phones, site_index, local_features):
+        # Deliberately accept individual runtime-observable arguments instead of
+        # a training row containing source labels and intervention coordinates.
+        wave = np.asarray(samples, np.float32)
+        if wave.ndim != 1 or not np.isfinite(wave).all() or len(wave) < 3200 or np.max(np.abs(wave)) < 1e-5:
+            raise ValueError('Need finite non-silent16k mono utterance')
+        start, end = word_bounds
+        if not 0 <= start < end <= len(wave) / 16000 or len(evidence) != 2:
+            raise ValueError('Invalid production word bounds or probe evidence')
+        if not 0 < site_index < len(native_phones) - 1 or native_phones[site_index] != 'ax':
+            raise ValueError('Only internal inherent-vowel deletion sites are supported')
+        neighbors = [native_phones[site_index - 1], native_phones[site_index + 1]]
+        if any(p not in self.vocabulary for p in neighbors):
+            raise ValueError('Neighbor project phone missing from pinned input vocabulary')
+        left = max(0, int(math.floor((start - .04) * 16000)))
+        right = min(len(wave), int(math.ceil((end + .04) * 16000)))
+        crop = torch.from_numpy(wave[left:right].copy())
+        if len(crop) <= RECIPE['n_fft'] // 2:
+            raise ValueError('Observed word crop too short for spectral analysis')
+        with torch.inference_mode():
+            crop = crop / crop.square().mean().sqrt().clamp_min(1e-6)
+            spectrum = torch.stft(crop, n_fft=512, hop_length=80, win_length=400,
+                window=self.window, center=True, return_complex=True).abs().square()
+            mel = torch.log((self.filters.T @ spectrum).clamp_min(1e-10))
+            mel = (mel - mel.mean()) / mel.std(unbiased=False).clamp_min(.1)
+            mel = F.interpolate(mel[None], size=128, mode='linear', align_corners=False)[0].clamp(-8, 8)
+        gaps, nuclei = [], []
+        fallback = start + (end - start) * (site_index + .5) / len(native_phones)
+        for config, probe in zip(self.configurations, evidence, strict=True):
+            dt = len(wave) / 16000 / frame_count(len(wave), config)
+            if len(probe['windows']) != 3:
+                raise ValueError('Need all three production boundary recipes')
+            for window in probe['windows']:
+                gaps.append((window['gap_start_frame'] + window['gap_end_frame']) / 2 * dt)
+                span = window['native_focal_span']
+                nuclei.append(fallback if span is None else
+                    (window['start_frame'] + (span['start_frame'] + span['end_frame']) / 2) * dt)
+        grid = np.linspace(0, 1, 128, dtype=np.float32)
+        masks = []
+        for centers in (gaps, nuclei):
+            center = np.clip((np.mean(centers) - left / 16000) / ((right - left) / 16000), 0, 1)
+            masks.append(np.exp(-.5 * ((grid - center) / .08) ** 2))
+        acoustic = np.concatenate([mel.numpy(), np.stack(masks)], axis=0).astype(np.float32)
+        if acoustic.shape != (66, 128) or not np.isfinite(acoustic).all():
+            raise ValueError('Invalid high-resolution spectral features')
+        return acoustic, np.array([self.vocabulary[p] for p in neighbors], np.int64), select(np.asarray(local_features)[None], 'local14')[0].astype(np.float32)
+
+
+class AcousticDeletionNetwork(nn.Module):
+    def __init__(self, vocabulary_size):
+        super().__init__()
+        self.context = nn.Embedding(vocabulary_size, 4)
+        self.temporal = nn.Sequential(
+            nn.Conv1d(66, 24, 5, padding=2), nn.GroupNorm(6, 24), nn.SiLU(),
+            nn.Conv1d(24, 24, 3, padding=1), nn.GroupNorm(6, 24), nn.SiLU(),
+            nn.Conv1d(24, 24, 3, padding=2, dilation=2), nn.GroupNorm(6, 24), nn.SiLU())
+        self.head = nn.Sequential(nn.Linear(94, 24), nn.SiLU(), nn.Dropout(.1), nn.Linear(24, 1))
+
+    def forward(self, mel, context, phone):
+        if mel.ndim != 3 or mel.shape[1:] != (66, 128) or context.shape != (len(mel), 2) or phone.shape != (len(mel), 14):
+            raise ValueError('Acoustic head input schema differs')
+        values = self.temporal(mel)
+        pooled = [values.mean(-1)]
+        for mask in (mel[:, 64:65], mel[:, 65:66]):
+            pooled.append((values * mask).sum(-1) / mask.sum(-1).clamp_min(1e-6))
+        return self.head(torch.cat([*pooled, self.context(context).flatten(1), phone], dim=1)).squeeze(1)
+
+
+def pair_indices(rows):
+    lookup = {}
+    for i, row in enumerate(rows):
+        key = row['pair_id'], row['family']
+        if key in lookup:
+            raise ValueError('Duplicate source/family in paired acoustic objective')
+        lookup[key] = i
+    pairs = []
+    for identity in sorted({r['pair_id'] for r in rows}):
+        for positive, negative in [('P1', 'S0'), ('P1w', 'S_world'), ('P1w', 'S2')]:
+            if (identity, positive) in lookup and (identity, negative) in lookup:
+                a, b = lookup[identity, positive], lookup[identity, negative]
+                if rows[a]['label'] != 1 or rows[b]['label'] != 0:
+                    raise ValueError('Physical family/label disagreement in ranking objective')
+                pairs.append((a, b))
+    return pairs
+
+
+FILE scripts/prepare_acoustic_deletion.py
+"""Cache train/development-only observable word acoustics, never oracle edits."""
+from __future__ import annotations
+
+from collections import Counter
+from datetime import datetime, timezone
+import json
+import logging
+from pathlib import Path
+import time
+
+import numpy as np
+import torch
+
+from hindi_detector.acoustic_deletion import RECIPE, WordAcoustics, frame_count
+from hindi_detector.artifacts import write_group
+from hindi_detector.corrected_synthesis import sha
+from scripts.calibrate_asr_gate import audio
+from scripts.extract_corrected_training import read_rows
+from scripts.train_anchored_detector import read_partition
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def main():
+    out = ROOT / 'reports/acoustic_features_v81'
+    if out.exists():
+        raise FileExistsError(out)
+    torch.set_num_threads(2)
+    configurations = [json.loads((ROOT / 'models' / p / 'config.json').read_text()) for p in ('phoneme_probe', 'phoneme_probe_lv60_v20')]
+    # Validate convolution-clock geometry against retained actual model outputs,
+    # rather than assuming a20ms frame rate or a particular frontend layout.
+    source = ROOT / 'reports/native_main_features_v71'
+    receipts = read_rows(source / 'items.jsonl')
+    geometry_checks = []
+    for row in receipts[::max(1, len(receipts) // 8)][:8]:
+        detail = json.loads((source / row['detail']).read_text())
+        samples = round(detail['seconds'] * 16000)
+        with np.load(source / row['features'], allow_pickle=False) as arrays:
+            counts = [len(arrays[k]) for k in ('phone_log_probs', 'secondary_phone_log_probs')]
+        if counts != [frame_count(samples, c) for c in configurations]:
+            raise ValueError('Observed encoder output disagrees with verified convolution clock')
+        geometry_checks.append({'source_id': row['id'], 'samples': samples, 'observed_frames': counts})
+    ipa = json.loads((ROOT / 'data/swar_phone_plan_v18/ipa_map.json').read_text())
+    vocabulary = {phone: i for i, phone in enumerate(sorted(ipa))}
+    frontend = WordAcoustics(vocabulary, configurations)
+    words = {w['word_id']: w for w in json.loads((ROOT / 'data/native_main_v71/selection.json').read_text())['words']}
+    write_group(out, {'protocol.json': {'recipe': RECIPE, 'phone_vocabulary': vocabulary, 'phone_configurations': configurations,
+        'geometry_checks': geometry_checks, 'partitions': ['train', 'development'],
+        'never_read': ['main_v71 test controls', 'Swar recordings/labels', 'cross-system v80 audio/results/labels'],
+        'physical_labels': 'Known interventions only, not independent human phonetic/Hindi-error gold.',
+        'feature_code_sha256': sha(ROOT / 'hindi_detector/acoustic_deletion.py'), 'script_sha256': sha(Path(__file__))}},
+        'High-resolution query-word spectral training cache. PART.npz contains float16mel66x128, int64context neighbor IDs, float32local14, float32labels; PART.index.json metadata/attempted statuses/source hashes; PART.inputs.json pinned control/content receipts and runtime. '
+        'report.json measured/attempted counts and array SHA, status.json atomic progress. Features use only actual edited query waveform, production word boundaries, query phone traces and intended G2P triphone; never edit/mapped/source-region geometry, source or speaker IDs, or reference audio. '
+        'No new WAV/encoder/checkpoint copies. Owner Ampixa/user; review2026-11-10. Active consumer acoustic deletion training v81, NOT on HF; inherited source/MMS/PanPhon rights. Cache disposable24h after fitting/reproducibility consumer closes; compact configs/hash manifest retained.',
+        ['.venv-indicf5/bin/python -m scripts.prepare_acoustic_deletion'])
+    reports = {}
+    for part in ('train', 'development'):
+        rows, rejected, inputs = read_partition(part)
+        records, mel, context, phone, labels = [], [], [], [], []
+        directory = ROOT / ('reports/native_main_controls_' + part + '_v71')
+        started = time.monotonic()
+        for ordinal, row in enumerate(rows):
+            record = {k: row[k] for k in ('pair_id', 'job_id', 'word_id', 'word', 'voice', 'phone_collision_group', 'split', 'family', 'label', 'status', 'audio_sha256')}
+            record['array_index'] = None
+            if row['status'] == 'measured':
+                try:
+                    samples = audio(directory, {'audio': row['audio'], 'sha256': row['audio_sha256']})
+                    spec = words[row['word_id']]
+                    a, b, c = frontend.extract(samples, (row['production_word']['start'], row['production_word']['end']),
+                        row['evidence'], spec['native_project_phones'], spec['site_index'], row['features'])
+                    record['array_index'] = len(mel)
+                    mel.append(a.astype(np.float16)); context.append(b); phone.append(c); labels.append(row['label'])
+                except ValueError as error:
+                    logging.warning('Retained acoustic abstention %s/%s: %s', row['pair_id'], row['family'], error)
+                    record.update(status='abstain', reason=str(error))
+            records.append(record)
+            if ordinal % 100 == 0:
+                (out / 'status.json').write_text(json.dumps({'phase': 'preparing_query_acoustics', 'partition': part, 'processed': ordinal + 1, 'expected': len(rows), 'updated_utc': datetime.now(timezone.utc).isoformat()}) + '\n')
+        path = out / (part + '.npz')
+        np.savez_compressed(path, mel=np.stack(mel), context=np.stack(context), phone=np.stack(phone), labels=np.array(labels, np.float32))
+        (out / (part + '.index.json')).write_text(json.dumps(records, ensure_ascii=False, indent=2) + '\n')
+        (out / (part + '.inputs.json')).write_text(json.dumps({'qualified_source_inputs': inputs, 'unedited_content_excluded_rows': len(rejected)}, ensure_ascii=False, indent=2) + '\n')
+        reports[part] = {'attempted_rows': len(records), 'measured_rows': len(mel), 'sources': len({r['pair_id'] for r in rows}),
+            'lexemes': len({r['word_id'] for r in rows}), 'outcomes': dict(Counter(r['family'] + '/' + r['status'] for r in records)),
+            'array_sha256': sha(path), 'index_sha256': sha(out / (part + '.index.json')), 'elapsed_seconds': time.monotonic() - started}
+        print(part, json.dumps(reports[part]), flush=True)
+    (out / 'report.json').write_text(json.dumps({'status': 'complete_train_development_acoustic_cache', 'partitions': reports}, indent=2) + '\n')
+    (out / 'status.json').write_text(json.dumps({'phase': 'complete_acoustic_cache', 'updated_utc': datetime.now(timezone.utc).isoformat()}) + '\n')
+
+
+if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO)
+    try:
+        main()
+    except Exception:
+        logging.exception('Acoustic feature preparation failed explicitly; no silent feature substitution')
+        raise
+
+
+FILE tests/test_acoustic_deletion.py
+import unittest
+
+import numpy as np
+import torch
+import torch.nn.functional as F
+
+from hindi_detector.acoustic_deletion import AcousticDeletionNetwork, WordAcoustics, frame_count, pair_indices
+
+
+class AcousticDeletionTests(unittest.TestCase):
+    def test_verified_convolution_geometry_matches_observed_fixture(self):
+        config = {'model_type': 'wav2vec2', 'conv_kernel': [10, 3, 3, 3, 3, 2, 2], 'conv_stride': [5, 2, 2, 2, 2, 2, 2]}
+        self.assertEqual(frame_count(24320, config), 75)
+        bad = {**config, 'add_adapter': True}
+        with self.assertRaises(ValueError):
+            frame_count(24320, bad)
+
+    def test_source_pair_ranking_is_row_order_invariant(self):
+        rows = [{'pair_id': p, 'family': f, 'label': label} for p in ('a', 'b')
+                for f, label in [('S0', 0), ('P1', 1), ('S_world', 0), ('P1w', 1), ('S2', 0)]]
+        scores = torch.arange(len(rows), dtype=torch.float32) / 5
+        def loss(rs, z):
+            pairs = pair_indices(rs)
+            return torch.stack([F.softplus(-(z[a] - z[b])) for a, b in pairs]).mean()
+        order = np.random.default_rng(1).permutation(len(rows))
+        self.assertAlmostEqual(float(loss(rows, scores)), float(loss([rows[i] for i in order], scores[order])), places=6)
+        with self.assertRaises(ValueError):
+            pair_indices(rows + rows[:1])
+
+    def test_gain_normalization_preserves_spectral_evidence(self):
+        cfg = {'model_type': 'wav2vec2', 'conv_kernel': [10, 3, 3, 3, 3, 2, 2], 'conv_stride': [5, 2, 2, 2, 2, 2, 2]}
+        frontend = WordAcoustics({'s': 0, 'k': 1}, [cfg, cfg])
+        t = np.arange(16000, dtype=np.float32) / 16000
+        wave = (.2 * np.sin(2 * np.pi * 600 * t) + .1 * np.sin(2 * np.pi * 1700 * t)).astype(np.float32)
+        windows = [{'gap_start_frame': 20, 'gap_end_frame': 23, 'native_focal_span': {'start_frame': 2, 'end_frame': 4}, 'start_frame': 18} for _ in range(3)]
+        evidence = [{'windows': windows}, {'windows': windows}]
+        args = ((.2, .7), evidence, ['s', 'ax', 'k'], 1, np.zeros(24))
+        a = frontend.extract(wave, *args)[0]
+        b = frontend.extract(wave / 2, *args)[0]
+        self.assertLess(float(np.abs(a[:64] - b[:64]).mean()), .02)
+        np.testing.assert_array_equal(a[64:], b[64:])
+
+    def test_acoustic_head_has_finite_gradient_on_real_input_schema(self):
+        torch.manual_seed(81)
+        net = AcousticDeletionNetwork(20)
+        mel = torch.randn(3, 66, 128)
+        mel[:, 64:] = torch.sigmoid(mel[:, 64:])
+        out = net(mel, torch.zeros((3, 2), dtype=torch.long), torch.zeros(3, 14))
+        F.binary_cross_entropy_with_logits(out, torch.tensor([0., 1., 0.])).backward()
+        self.assertTrue(all(torch.isfinite(p.grad).all() for p in net.parameters()))
+
+
+FILE hindi_detector/anchored_detector.py
+"""Linear deletion evidence with local features and grouped fitting helpers."""
+from __future__ import annotations
+
+from collections import Counter
+import hashlib
+from pathlib import Path
+
+import numpy as np
+import torch
+from torch import nn
+
+from hindi_detector.anchored_vowels import FEATURE_NAMES as LOCAL_NAMES
+from hindi_detector.corrected_synthesis import sha
+
+# Anchor strength, censored fits and gap-duration availability remain diagnostics.
+# The head sees local vowel evidence, not word duration or anchor damage.
+INDICES = {'local14': list(range(7)) + list(range(12, 19)), 'primary7': list(range(7)), 'secondary7': list(range(12, 19)),
+           'gap_mass4': [3, 4, 15, 16], 'no_margin8': [3, 4, 5, 6, 15, 16, 17, 18]}
+ALL_NAMES = ['primary_' + n for n in LOCAL_NAMES] + ['secondary_' + n for n in LOCAL_NAMES]
+
+
+def select(features, mode):
+    values = np.asarray(features, np.float64)
+    if values.ndim != 2 or values.shape[1] != 24 or not np.isfinite(values).all() or mode not in INDICES:
+        raise ValueError('Expected24 finite anchored deletion features and an explicit mode')
+    values = values.copy()
+    values[:, [5, 17]] = np.clip(values[:, [5, 17]], -10., 0.)
+    return values[:, INDICES[mode]]
+
+
+def weights(rows):
+    """Equal phonetic-group/source/class mass, split over same-source families."""
+    per_source_class = Counter((row['pair_id'], row['label']) for row in rows)
+    group_sources = {}
+    for row in rows:
+        group_sources.setdefault(row['phone_collision_group'], set()).add(row['pair_id'])
+    result = np.array([1 / (len(group_sources[row['phone_collision_group']]) * per_source_class[row['pair_id'], row['label']]) for row in rows], float)
+    return result / result.mean()
+
+
+def cells(rows, folds=3):
+    """Hold out both a phonetic group and a conditioning voice per CV cell."""
+    assignments = {}
+    for row in rows:
+        identity = row['pair_id']
+        cell = (int(hashlib.sha256(row['phone_collision_group'].encode()).hexdigest()[:12], 16) % folds, row['voice'])
+        if identity in assignments and assignments[identity] != cell:
+            raise ValueError('One source family crosses grouped cross-validation cells')
+        assignments[identity] = cell
+    group_ids = np.array([assignments[row['pair_id']][0] for row in rows])
+    voices = np.array([row['voice'] for row in rows])
+    for fold in range(folds):
+        for voice in sorted(set(voices)):
+            validation = (group_ids == fold) & (voices == voice)
+            training = (group_ids != fold) & (voices != voice)
+            if not validation.any():
+                continue
+            if training.sum() < 12:
+                raise ValueError('Grouped CV cell has insufficient disjoint training rows')
+            tr_groups = {row['phone_collision_group'] for row, keep in zip(rows, training, strict=True) if keep}
+            dv_groups = {row['phone_collision_group'] for row, keep in zip(rows, validation, strict=True) if keep}
+            if tr_groups & dv_groups or set(voices[training]) & set(voices[validation]):
+                raise AssertionError('CV phonetic group or voice leakage')
+            yield training, validation
+
+
+def fit(features, labels, rows, mode, ridge):
+    values = select(features, mode)
+    y = np.asarray(labels, float)
+    if len(y) != len(values) or len(rows) != len(y) or set(y.tolist()) != {0., 1.}:
+        raise ValueError('Both measured physical labels and matching metadata required')
+    if not np.array_equal(y, np.array([row['label'] for row in rows])):
+        raise ValueError('Explicit fit labels do not match their source/family metadata')
+    mean, scale = values.mean(0), np.maximum(values.std(0), .05)
+    x = torch.from_numpy(np.clip((values - mean) / scale, -8, 8))
+    target, w = torch.from_numpy(y), torch.from_numpy(weights(rows))
+    network = nn.Linear(x.shape[1], 1, dtype=torch.float64)
+    nn.init.zeros_(network.weight)
+    nn.init.zeros_(network.bias)
+    optimizer = torch.optim.LBFGS(network.parameters(), max_iter=120, tolerance_grad=1e-7, tolerance_change=1e-10, line_search_fn='strong_wolfe')
+    def closure():
+        optimizer.zero_grad(set_to_none=True)
+        logits = network(x).squeeze(-1)
+        loss = (torch.nn.functional.binary_cross_entropy_with_logits(logits, target, reduction='none') * w).mean()
+        loss = loss + ridge * network.weight.square().sum() / 2
+        if not torch.isfinite(loss):
+            raise ValueError('Nonfinite local-deletion training objective')
+        loss.backward()
+        return loss
+    optimizer.step(closure)
+    state = {'schema': 'anchored_deletion_v71', 'feature_mode': mode, 'feature_names': [ALL_NAMES[i] for i in INDICES[mode]],
+             'mean': mean, 'scale': scale, 'weights': network.state_dict(), 'ridge': ridge,
+             'cause': 'vowel_deletion', 'actual_hindi_error_accuracy': None}
+    return network.eval(), state
+
+
+def score(network, state, features):
+    values = select(features, state['feature_mode'])
+    normalized = np.clip((values - state['mean']) / state['scale'], -8, 8)
+    with torch.inference_mode():
+        return torch.sigmoid(network(torch.from_numpy(normalized)).squeeze(-1)).cpu().numpy()
+
+
+def load(path: Path):
+    state = torch.load(path, map_location='cpu', weights_only=False)
+    if state['schema'] != 'anchored_deletion_v71' or state['cause'] != 'vowel_deletion':
+        raise ValueError('Not a reviewed anchored deletion checkpoint')
+    if state['feature_names'] != [ALL_NAMES[i] for i in INDICES[state['feature_mode']]]:
+        raise ValueError('Anchored feature schema changed')
+    root = Path(__file__).resolve().parents[1]
+    for name, digest in state['code_sha256'].items():
+        if sha(root / name) != digest:
+            raise ValueError('Checkpoint feature-code pin differs: ' + name)
+    for name, pin in state['resource_files'].items():
+        if sha(root / name) != pin:
+            raise ValueError('Checkpoint resource pin differs: ' + name)
+    network = nn.Linear(len(state['feature_names']), 1, dtype=torch.float64)
+    network.load_state_dict(state['weights'], strict=True)
+    return network.eval(), state
+
+
+FILE reports/oracle_window_experiment_v76/report.json
+{
+  "status": "complete_train_development_oracle_experiment",
+  "summaries": {
+    "train": {
+      "anchor": {
+        "0.95": {
+          "sources": 379,
+          "threshold": 1.8706016404724122,
+          "P1w_recall": 0.8258575197889182,
+          "S2_flag_rate": 0.047493403693931395,
+          "paired_S2_P1w_concordance": 0.974934036939314,
+          "paired_original_P1w_concordance": 0.978891820580475
+        },
+        "0.99": {
+          "sources": 379,
+          "threshold": 5.729717241058349,
+          "P1w_recall": 0.41160949868073876,
+          "S2_flag_rate": 0.0079155672823219,
+          "paired_S2_P1w_concordance": 0.974934036939314,
+          "paired_original_P1w_concordance": 0.978891820580475
+        }
+      },
+      "oracle": {
+        "0.95": {
+          "sources": 379,
+          "threshold": 0.05722237284298368,
+          "P1w_recall": 0.38258575197889183,
+          "S2_flag_rate": 0.047493403693931395,
+          "paired_S2_P1w_concordance": 0.9023746701846965,
+          "paired_original_P1w_concordance": 0.9287598944591029
+        },
+        "0.99": {
+          "sources": 379,
+          "threshold": 0.683329878981865,
+          "P1w_recall": 0.013192612137203167,
+          "S2_flag_rate": 0.0079155672823219,
+          "paired_S2_P1w_concordance": 0.9023746701846965,
+          "paired_original_P1w_concordance": 0.9287598944591029
+        }
+      },
+      "duration_strata": {
+        "40_to_60ms": {
+          "sources": 144,
+          "groups": 97,
+          "anchor": {
+            "sources": 144,
+            "threshold": 6.268603549728393,
+            "P1w_recall": 0.4166666666666667,
+            "S2_flag_rate": 0.006944444444444444,
+            "paired_S2_P1w_concordance": 0.96875,
+            "paired_original_P1w_concordance": 0.9930555555555556
+          },
+          "oracle": {
+            "sources": 144,
+            "threshold": 1.4522384117506326,
+            "P1w_recall": 0.0,
+            "S2_flag_rate": 0.006944444444444444,
+            "paired_S2_P1w_concordance": 0.875,
+            "paired_original_P1w_concordance": 0.9166666666666666
+          }
+        },
+        "60_to_90ms": {
+          "sources": 233,
+          "groups": 131,
+          "anchor": {
+            "sources": 233,
+            "threshold": 4.6109014911746975,
+            "P1w_recall": 0.48068669527896996,
+            "S2_flag_rate": 0.008583690987124463,
+            "paired_S2_P1w_concordance": 0.9785407725321889,
+            "paired_original_P1w_concordance": 0.9699570815450643
+          },
+          "oracle": {
+            "sources": 233,
+            "threshold": 0.12041213715762016,
+            "P1w_recall": 0.34334763948497854,
+            "S2_flag_rate": 0.008583690987124463,
+            "paired_S2_P1w_concordance": 0.9227467811158798,
+            "paired_original_P1w_concordance": 0.9399141630901288
+          }
+        },
+        "90ms_and_up": {
+          "sources": 2,
+          "groups": 1,
+          "anchor": {
+            "sources": 2,
+            "threshold": -0.580505205860138,
+            "P1w_recall": 1.0,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 1.0,
+            "paired_original_P1w_concordance": 1.0
+          },
+          "oracle": {
+            "sources": 2,
+            "threshold": -0.580505196861605,
+            "P1w_recall": 0.5,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 0.5,
+            "paired_original_P1w_concordance": 0.5
+          }
+        }
+      },
+      "oracle_recall_95_cluster_percentile_interval": [
+        0.0,
+        0.04806547619047617
+      ],
+      "bootstrap": {
+        "unit": "phonetic-collision group, voices kept together",
+        "seed": 760,
+        "replicates": 500
+      },
+      "top_decile_anchor_S2_sources": 38,
+      "top_decile_under_half_retained_coverage": 0.21052631578947367
+    },
+    "development": {
+      "anchor": {
+        "0.95": {
+          "sources": 109,
+          "threshold": 1.6608286960220338,
+          "P1w_recall": 0.8807339449541285,
+          "S2_flag_rate": 0.045871559633027525,
+          "paired_S2_P1w_concordance": 0.981651376146789,
+          "paired_original_P1w_concordance": 0.9908256880733946
+        },
+        "0.99": {
+          "sources": 109,
+          "threshold": 7.047637925872802,
+          "P1w_recall": 0.22018348623853212,
+          "S2_flag_rate": 0.009174311926605505,
+          "paired_S2_P1w_concordance": 0.981651376146789,
+          "paired_original_P1w_concordance": 0.9908256880733946
+        }
+      },
+      "oracle": {
+        "0.95": {
+          "sources": 109,
+          "threshold": 0.04182226818642511,
+          "P1w_recall": 0.45871559633027525,
+          "S2_flag_rate": 0.045871559633027525,
+          "paired_S2_P1w_concordance": 0.8899082568807339,
+          "paired_original_P1w_concordance": 0.8990825688073395
+        },
+        "0.99": {
+          "sources": 109,
+          "threshold": 0.3802998627839655,
+          "P1w_recall": 0.09174311926605505,
+          "S2_flag_rate": 0.009174311926605505,
+          "paired_S2_P1w_concordance": 0.8899082568807339,
+          "paired_original_P1w_concordance": 0.8990825688073395
+        }
+      },
+      "duration_strata": {
+        "40_to_60ms": {
+          "sources": 61,
+          "groups": 39,
+          "anchor": {
+            "sources": 61,
+            "threshold": 7.266041503677368,
+            "P1w_recall": 0.16393442622950818,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 0.9672131147540983,
+            "paired_original_P1w_concordance": 0.9836065573770492
+          },
+          "oracle": {
+            "sources": 61,
+            "threshold": 0.6811307986236657,
+            "P1w_recall": 0.0,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 0.9180327868852459,
+            "paired_original_P1w_concordance": 0.9016393442622951
+          }
+        },
+        "60_to_90ms": {
+          "sources": 47,
+          "groups": 33,
+          "anchor": {
+            "sources": 47,
+            "threshold": 2.436734901199341,
+            "P1w_recall": 0.8297872340425532,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 1.0,
+            "paired_original_P1w_concordance": 1.0
+          },
+          "oracle": {
+            "sources": 47,
+            "threshold": 0.3802998627839655,
+            "P1w_recall": 0.0425531914893617,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 0.851063829787234,
+            "paired_original_P1w_concordance": 0.8936170212765957
+          }
+        },
+        "90ms_and_up": {
+          "sources": 1,
+          "groups": 1,
+          "anchor": {
+            "sources": 1,
+            "threshold": -0.708974524011612,
+            "P1w_recall": 1.0,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 1.0,
+            "paired_original_P1w_concordance": 1.0
+          },
+          "oracle": {
+            "sources": 1,
+            "threshold": -0.7089745359365102,
+            "P1w_recall": 1.0,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 1.0,
+            "paired_original_P1w_concordance": 1.0
+          }
+        }
+      },
+      "oracle_recall_95_cluster_percentile_interval": [
+        0.0,
+        0.513695652173913
+      ],
+      "bootstrap": {
+        "unit": "phonetic-collision group, voices kept together",
+        "seed": 760,
+        "replicates": 500
+      },
+      "top_decile_anchor_S2_sources": 11,
+      "top_decile_under_half_retained_coverage": 0.2727272727272727
+    }
+  },
+  "anchor_redesign_go": false,
+  "oracle_overall_recall_below_60_percent": true,
+  "decision": "No anchor-only redesign justified; inspect encoder sensitivity, physical intervention validity and duration strata before another fit.",
+  "test_read": false,
+  "model_changed": false,
+  "actual_hindi_error_accuracy": null,
+  "items_sha256": "2b36a3925d4d75a6d64193d68c19f19631d303659c74d50689ed996c0e527f34"
+}

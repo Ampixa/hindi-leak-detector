@@ -1,0 +1,482 @@
+[
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/voices/46aa713b/reference.wav",
+    "destination": "audio/47a43b277a23c00bd869a017.wav",
+    "sha256": "da66d037d0066bba75c61541bb102d12b707b2beb628fd99c48e0da6dc555d6e"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_085.wav",
+    "destination": "audio/aa03252c11ff6089a4c2ec9e.wav",
+    "sha256": "0e93e3ccd237e3bf7f1b47b4484f385576a4d6c966aa7c6621fb4c0e85a1d3ec"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_085.wav",
+    "destination": "audio/6c4b18432eee6ca7cf351847.wav",
+    "sha256": "4df6eade27360319c295e0de88501bdf25873ac97063adac81e3f7c100f32504"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_085.wav",
+    "destination": "audio/f37935a9d9b8dfb35669ccf8.wav",
+    "sha256": "a46fa9fe343620b133cbb0aa1635f6c11cdc2e36a16f9cf2b2e17a30ff419ed7"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/voices/59903f2c/reference.wav",
+    "destination": "audio/60a86b02987b2aabf832d811.wav",
+    "sha256": "91c9cd90a1281edfe7c6df9d872c81c1a2e4f6cff74faf1c8fee08a4e0bde198"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_086.wav",
+    "destination": "audio/67b04015e244459a6d5c3fc3.wav",
+    "sha256": "7bc09b079b6826898caffef2159fd14118fe1a5016370d37913241aeaca18a92"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_086.wav",
+    "destination": "audio/493c40e0ef58865a2e619b21.wav",
+    "sha256": "b9697b5447005acc270646588e61a57dc16c72da04ef099c69fed13af6617697"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_086.wav",
+    "destination": "audio/b0351d9978349be78c841667.wav",
+    "sha256": "c52ff0fe77db1648fa4c7b6443cbfedfef0656aeda3f54f073aa0bd2d20ee6ad"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/voices/37e9e229/reference.wav",
+    "destination": "audio/a7ce4918ada32221156ba59a.wav",
+    "sha256": "d3866fa5f82bb626b66cd735158775c0438b159a808df8d565a835e2f0af010a"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_165.wav",
+    "destination": "audio/b538990a6f9ca0f18b21a358.wav",
+    "sha256": "250e8c341933fd09df7a009b30ddb691197e661242a789b824bb4be3897c2873"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_165.wav",
+    "destination": "audio/ca7343f6c0c63e47c7272c3b.wav",
+    "sha256": "0c7a96b13634198d50d1c6061a2abb2b7f950f11180c48ca8d880984f082a663"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_165.wav",
+    "destination": "audio/ed3075f38dc3d5b2c9406a72.wav",
+    "sha256": "ad4ec4ad4bbd52f08634423c1e111fff47294b1fe858bb7bac0d252e8eac2bfb"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_167.wav",
+    "destination": "audio/59f6350aec46fcfac3082f27.wav",
+    "sha256": "1f7236ff79d04b1d1b84b21991f674bb0046907ce843b804763e92a40bba608b"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_167.wav",
+    "destination": "audio/d0ac8dcd75a3584959fe0143.wav",
+    "sha256": "86dbe01e8b085d6d183fdf23abaae0d594f46218e90cf13fad6e576d5c64dda4"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_167.wav",
+    "destination": "audio/47158517209193c02d2ddc2c.wav",
+    "sha256": "c7043823df79fc59d5d250bf586bcecf174647f58600a64c308517f611b6ddef"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_168.wav",
+    "destination": "audio/4aa5f2088539ca13aef923d2.wav",
+    "sha256": "823841c606a4c52ad0a4ee5c0ce42ac537f58399950c4dafbf461db8ffb2a151"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_168.wav",
+    "destination": "audio/6188c47d015234225cc7d34c.wav",
+    "sha256": "6b759c41833bebb6a07b055d9e451d0b2a2e466bdb570fd3fa0113a3dd47df01"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_168.wav",
+    "destination": "audio/fe7deb63b14990b617096bc9.wav",
+    "sha256": "327e4f5679ad10ed92200966596f73136004cc45596485d89561f85d5686dcb2"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/voices/3962eefe/reference.wav",
+    "destination": "audio/bb3882ff183bc517c077bccf.wav",
+    "sha256": "961da59cddb1b2fe3d03073a56063912e594ca777bc42546c01dc31ea50f1077"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_169.wav",
+    "destination": "audio/2478871e032b4e33db254ce0.wav",
+    "sha256": "73452a29420924935b045669d2620a7de3ab7cfea9a89933c62c52f38a1379ff"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_169.wav",
+    "destination": "audio/b2dfabb6b518087b880c95ac.wav",
+    "sha256": "2651c1a3f9d715257dea197457077f2a3d9573ace8a5ebb71c2a3f08c8d36279"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_169.wav",
+    "destination": "audio/8101bd882da207efed4834c9.wav",
+    "sha256": "44d49d35e785d302ac166a18c26770ab40465388d99b9f0de9f47a259893b13b"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/voices/183ab408/reference.wav",
+    "destination": "audio/997dcd5ba418bea005302b3a.wav",
+    "sha256": "25097144a007aad7c5468d440104cc0e0aa8b2dcb6b2828e69117dac2a893d07"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_170.wav",
+    "destination": "audio/1b6c49f1e977f70c7b8e7d41.wav",
+    "sha256": "37d8abe38d836ca81ff0478f9f9582b3e35120e1439788d4ba482206b91d5cb3"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_170.wav",
+    "destination": "audio/a46de095a384e0a99c7cd3a7.wav",
+    "sha256": "825df8e349e78555410622d5e0adc1a0f289e1db5d98050432b9ed302deaceb5"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_170.wav",
+    "destination": "audio/b7b5168e6a2f8cfea678167a.wav",
+    "sha256": "fe8da0b69ec01dfc8c28a5561bd3ddafd495baa4d4e6ca578b2392f656713dc6"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_178.wav",
+    "destination": "audio/2a760dcd2198a3f17e629fb7.wav",
+    "sha256": "96a4ef13f74db201285e9c141f47305298c95120d7d21c40bf1fa353d3aebe22"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_178.wav",
+    "destination": "audio/ddeb079d915799f4046d2ed6.wav",
+    "sha256": "d7ab29a70b0f8d491d4af471e171594ccbd9c15e35be9ddc371aba88af35005b"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_178.wav",
+    "destination": "audio/dd4865883e8f4aea89fc7bd6.wav",
+    "sha256": "1a79e99431f7607b588785aecdfbfc3710b2f0001a928c21a683fe0952ec7601"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/voices/d18c3456/reference.wav",
+    "destination": "audio/4d30ba26926b3386d572c8da.wav",
+    "sha256": "0069622947056c38ec807d2e338869fe3a238c1964e83a4777dd01631b1d333f"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_179.wav",
+    "destination": "audio/c382b72a9ff76d16af8cf9d5.wav",
+    "sha256": "ddb24f7d7109f01b6cb2cecd3a40ed4b87e63382111fa8c538cea7ee70fc7172"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_179.wav",
+    "destination": "audio/545abaa05d876737020feb93.wav",
+    "sha256": "9cc34c9e1f430f03a609ae4d4ee76f56387e7372b69737625596a1c6ad772040"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_179.wav",
+    "destination": "audio/e902587a4441b92ba2fdfe34.wav",
+    "sha256": "4b84f163130af641acd815cc313dc658c469465dfb81da1ecdedbeaca8d7be46"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/voices/6c458024/reference.wav",
+    "destination": "audio/ad0743f2bb665927d143f917.wav",
+    "sha256": "d0a23b6f11dc527f330850eab06772c96cbe715312c50850b1c87501b50677cc"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_180.wav",
+    "destination": "audio/8bc76c5a978e13bf020dc19f.wav",
+    "sha256": "686da6719b6aa1524dc63d4cf07ba2aa5fc66123a8a957069e07cdd9bd0c6f6b"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_180.wav",
+    "destination": "audio/7bdf38a4d5160038dd9ce198.wav",
+    "sha256": "b5d2cc0c244475cc40adea16c1a9e8d469cf99e5fd24c1c3f2dc0a5692028deb"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_180.wav",
+    "destination": "audio/816fd8002f9e8f2790615a0d.wav",
+    "sha256": "1e8ac1074c9be98b722be81ae6b06102abbf9a4fbeb83540afe14b84f7f8b915"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_109.wav",
+    "destination": "audio/b174e8ae8d47d8da4f3d9349.wav",
+    "sha256": "ecf6b09cc7f54ee9aa79aef2d71a9b815bf319a536aa4ac31542e7ae9e985bcc"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_109.wav",
+    "destination": "audio/3639f79ab46f9ba4d6934e09.wav",
+    "sha256": "3b827dd0e6e934fee7254217a8b2b853762e57219f7b69f4ab28c23d8658cfca"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_109.wav",
+    "destination": "audio/5236f8575609fc35449231ef.wav",
+    "sha256": "a1b18dc9845a1b415027cbed6f58ef4a0fcb3068b14454091f532ff03ce7ec4e"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_110.wav",
+    "destination": "audio/cd84f13d47546e1631267744.wav",
+    "sha256": "2184094eef53d02fd83f325829f67a712cee39bdfe57ee709ad88fb9fcb0d8bb"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_110.wav",
+    "destination": "audio/a128d264b945281907db9007.wav",
+    "sha256": "1327a74b2b4c10321b00e72270403b82f09b14c5ad50b49421be9e9893071b9b"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_110.wav",
+    "destination": "audio/3e9106f3c35c09a14bcbc8b3.wav",
+    "sha256": "27513905971b1c42e7de2e7440b84241b3bb6e3809319186c347d506a21074b7"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_111.wav",
+    "destination": "audio/cd1959777232fe2877a5da53.wav",
+    "sha256": "396d080f19da40dfc572b409567841683ad420dff71d66b9ae81e3f80d9d77cf"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_111.wav",
+    "destination": "audio/71456e4cfbb816cd63609ae6.wav",
+    "sha256": "3a7e015d80c3a48c07be3c87d39ee73622333c1d4b0d566869e6629796f41ca6"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_111.wav",
+    "destination": "audio/ae936afbea284237bf0ce368.wav",
+    "sha256": "dc4e2a2e562dcfa62045d5c3524d15b01c6a06a8044c7843ece84f4f8ef07d73"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_113.wav",
+    "destination": "audio/b9f39db19bae1803fd210051.wav",
+    "sha256": "b4d9a6dc5deed6a5439d35d973a2d7f57df2e65917d7f04b42b35c075bbf8d40"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_113.wav",
+    "destination": "audio/17d01d4d8bd11b7933c0b0a5.wav",
+    "sha256": "75d7e1f190b97771382fd16456018e2af2cb887dd2d9a6c33aceb210e1f520d1"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_113.wav",
+    "destination": "audio/51882347bef3f7ab3a91617d.wav",
+    "sha256": "201ece28cd47ae546b0b7d470c98d58366da8b79c42f6b8bf99ba983417d5ba7"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_114.wav",
+    "destination": "audio/462da41ae2b8eb86b92df40d.wav",
+    "sha256": "c497debf8bff56a6141dec17be3eb45c9d157b7a1199bc46879d120d9c6dca2f"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_114.wav",
+    "destination": "audio/005f0b0f8d4858cb1bc28261.wav",
+    "sha256": "86c19639ed2212494e137a397983dabc1fc8fa18d09b7d7360ac6f389078eef5"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_114.wav",
+    "destination": "audio/0316dc4452a38c6137f157b5.wav",
+    "sha256": "8a0e0957c70d009b1c11465210aac5b5d1d342a042fb9e3ae76b027a16fd3bff"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_115.wav",
+    "destination": "audio/aa3fe642ae74e658202de0ba.wav",
+    "sha256": "24c7f4cdf7e4a7eae1ad24682e157753e7f9beedb0e31c03c28160d9cea87cd2"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_115.wav",
+    "destination": "audio/768aa8fc0fdbe2a0040c242d.wav",
+    "sha256": "7226fcda8242d3573114f34e478e38686bb85998fee14c5d0003cd022783e1b5"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_115.wav",
+    "destination": "audio/63a4f5705de38a7070638860.wav",
+    "sha256": "2044207afeb9065efaab2571848d5fcb2c353df6d8d33f9a1d0a62d791fb8aa2"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_117.wav",
+    "destination": "audio/107bbfae9bfebf251e9ebb1d.wav",
+    "sha256": "d553b13baad7af4abadb7b5cf35ea6b6fa5044843d70f7d51df6aa0bf40d50e9"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_117.wav",
+    "destination": "audio/99a92e1c2f0d2c8ccc9926c5.wav",
+    "sha256": "bff10ed61ccff0ce09e53f5055f51a89c0258e0161bf175b62c59f5a4a9412b5"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_117.wav",
+    "destination": "audio/1ff89e871d36c1baa077e0fb.wav",
+    "sha256": "42c83f0518bf904d8b088f2da88516d416d0275ba06344ffaa2b1157a17b4d22"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_118.wav",
+    "destination": "audio/0f59073f4849309380eed2c5.wav",
+    "sha256": "22af9c791e79e92f2a7c301183aedfa45c4f67f62a98a9c59ebd5ac740365dbd"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_118.wav",
+    "destination": "audio/1bc56954fb8b5b0cbe8262a3.wav",
+    "sha256": "2fdb5934ea1a1c3a3000b0836539db1794e26df0908bb4c60dd22779b354a9cc"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_118.wav",
+    "destination": "audio/f46a6709f7abde4d6e185099.wav",
+    "sha256": "4a6f21df2d7e717ea2de3c961ea0cc3e95a1eb857a29f973667502d9ffeda662"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_137.wav",
+    "destination": "audio/2c132b8180a5c5d3c5189b6d.wav",
+    "sha256": "273a14fa22dc193feaaac76c2b7fe663cf83d6a28643721a51e453f5309ae3ef"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_137.wav",
+    "destination": "audio/99e7b06a0c5765d8db299a35.wav",
+    "sha256": "c3e3eeebd2bb09c53d7d49d94cd2070eefd3c1a7852d95434b19a1db5493363d"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_137.wav",
+    "destination": "audio/7c5a069d6852cc091f29a9e6.wav",
+    "sha256": "097608c766a1668d3a6abcb997dcbb105e3936b06e794339c3885318f4a7e924"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_138.wav",
+    "destination": "audio/d9a4b9f2fcc3c7d54e4fd9a0.wav",
+    "sha256": "7b4c05546fc49318b2d79b642835d91051d05bd4ea0a40fc5ff8cf29746afe9c"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_138.wav",
+    "destination": "audio/0c4387ad682702e129ded783.wav",
+    "sha256": "17c90765c92d38a25ba16b9758bd1146914290cd6dbea2204ed82b18f1814cae"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_138.wav",
+    "destination": "audio/6c1d1076a8b794cc94c46870.wav",
+    "sha256": "edd6d9e3568926dfa7b84cecbe59b450b02882a18345aafc991a2e923370b7d5"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_139.wav",
+    "destination": "audio/b3f655393cd656ad49216660.wav",
+    "sha256": "8a1a03602390b0799a42fecce14e9a5f15cffd7a4b924a71cdbe5e4a65a98627"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_139.wav",
+    "destination": "audio/1ddca2d6d4d18651261b62f1.wav",
+    "sha256": "ce489a3f984f5a15c2a5fd6cf4385eca299644575612472e9fb3852756ac80c7"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_139.wav",
+    "destination": "audio/18957a23487083218859d6a9.wav",
+    "sha256": "49d6c59d4a1fea9aee5f5eb6058f97ed705b4d127b312420d1f1c8b4082c231f"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_140.wav",
+    "destination": "audio/623053457ea76a8233502a5d.wav",
+    "sha256": "41b3cd6b4867b7776b85da2babd22ee76c813a569ae0cba3c10dd521a71d0cea"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_140.wav",
+    "destination": "audio/598ff6e0ec4aee484c9d4001.wav",
+    "sha256": "da5dc66ba654d38b465b1f63f3c6a7488fc7bfd647bd1bcff0144d044c8a8eea"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_140.wav",
+    "destination": "audio/4907b0e00992e2df33dd7654.wav",
+    "sha256": "a05fb753eb9fe82bb1483325e9ab187e97e5fc58bb964a5e4f5afba0b2484e47"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_141.wav",
+    "destination": "audio/c55ad5b0a746a0bb87849df8.wav",
+    "sha256": "118d3ecf06416e2689b69e65e3651bee177fab8e8006efee808f9de8e05e821c"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_141.wav",
+    "destination": "audio/879b2235c1bf1224296d9765.wav",
+    "sha256": "860d210fa6af09daa71035564ac1c929b196d2e29d544c1063a18c61b3551976"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_141.wav",
+    "destination": "audio/ea06cc495c4c92be0aefce11.wav",
+    "sha256": "39e7f0271ae26d7092ce2e646665eac84326d6c2e102670d81588f7887eecc4d"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/voices/5c9cbabf/reference.wav",
+    "destination": "audio/a7b1b4b3dbbc3b6478ade236.wav",
+    "sha256": "1dae30acc8c7b2765430ed735a153e37ae422cdadf959685c6f84e6f83fe9958"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/sources/human/sent_142.wav",
+    "destination": "audio/dfa9f8f66d543439a48906e1.wav",
+    "sha256": "e72314c547f6ca634f3bc7bd66781d6cb45e7e12bd19b0f555ac9814da85cfec"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R2/sent_142.wav",
+    "destination": "audio/2bf39e7442cb8013ecd93fdd.wav",
+    "sha256": "a061868d6ee4c47da09f0fd35eed8e763519017d6264523ad3347ec028e5490b"
+  },
+  {
+    "source_host": "khalti-gpu",
+    "source": "/home/ampixa/tts_bench_v0/runs/audio8_dpo_R3_129/sent_142.wav",
+    "destination": "audio/cb7650d06572de6b3dc96f09.wav",
+    "sha256": "373b9c7b33ab71a7efaf8adea4634e1a7ab9093f36ded8577978fa1dbde6378d"
+  }
+]

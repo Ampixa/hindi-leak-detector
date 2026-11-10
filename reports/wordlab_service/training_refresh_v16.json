@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-11-08T08:47:23.697266+00:00",
+  "creator": "Codex /root",
+  "owner": "Ampixa/user",
+  "old_pid": 2907,
+  "new_pid": 16502,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-m",
+    "hindi_detector.wordlab_server",
+    "--pack",
+    "data/indicf5_audio8_v1",
+    "--pack",
+    "data/pocket_architecture_probe_v3",
+    "--pack",
+    "data/human_g2p_bank_v5",
+    "--pack",
+    "data/wordmatrix_v3",
+    "--pack",
+    "data/pocket_wordmatrix_v4",
+    "--page",
+    "review/wordlab.html",
+    "--data",
+    "review/human_word_data_v8",
+    "--port",
+    "8770"
+  ],
+  "reason": "Expose current preview checkpoint, CPU recovery audio and recorded-variation audit; read-only private review",
+  "sha256": {
+    "hindi_detector/wordlab_server.py": "76ba4653a8aa73f91c3ab176ddee392c8719cce2c9d7beb3d80af6c9cebba00c",
+    "review/corrected-pair.html": "e5fddeb439b50f95653513ae84270bcd9978b6943dbde674c2cf247e4a3f6bdf"
+  },
+  "annotation_services": "untouched",
+  "next_review": "2026-11-09"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "wave",
+  "id": "cross80_s00_v0",
+  "parity_only": true,
+  "sha256": "693ef56e5f2fb45485218e452f53a127edd28669eb7438cd164b52f8846fb713",
+  "bytes": 149804,
+  "seconds": 3.12,
+  "generation_detail": {
+    "frames": 39,
+    "frame_cap": false
+  },
+  "clipping_fraction_before_pcm": 0.0,
+  "generation_wall_seconds": 1.1338304076343775
+}

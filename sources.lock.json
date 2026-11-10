@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "reviewed_utc": "2026-11-06T07:32:15.871Z",
+  "sources": [
+    {
+      "id": "ampixa_frontend",
+      "repository": "Ampixa/nepa-newa-text-frontend",
+      "revision": "b7395f282b74ee50ef24a93fa6a87778cf8f6226",
+      "directory": ".sources/frontend",
+      "files": [
+        {
+          "path": "LICENSE",
+          "git_blob_sha1": "3e38fcd5c233f1d794e47a398b8af2ed5a13e24c",
+          "size_bytes": 1308
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha1": "dcefced3e8914cb5f2d70b03393290a0350f87c2",
+          "size_bytes": 11122
+        },
+        {
+          "path": "data/frontend/candidates_lexicon.tsv",
+          "git_blob_sha1": "7409799507dbc890ab2c05f594a47059c18af9de",
+          "size_bytes": 7040134
+        },
+        {
+          "path": "data/frontend/ipa_map.tsv",
+          "git_blob_sha1": "b8918a0ed3560f0a8e4b8c7bb550e8c62208e178",
+          "size_bytes": 1895
+        },
+        {
+          "path": "data/frontend/phones.tsv",
+          "git_blob_sha1": "59d3321c05529f8a2537cf9732b09b7039039e3c",
+          "size_bytes": 3216
+        },
+        {
+          "path": "nepali_frontend/__init__.py",
+          "git_blob_sha1": "cb649fc0f3bf27dbb5a4206a2712b6200879e657",
+          "size_bytes": 211
+        },
+        {
+          "path": "nepali_frontend/data.py",
+          "git_blob_sha1": "c6fc747b62a14afae2b7228c19c45ea42581685a",
+          "size_bytes": 1958
+        },
+        {
+          "path": "nepali_frontend/g2p/__init__.py",
+          "git_blob_sha1": "f77c12b3f631591014d698016332cc8d76479ea9",
+          "size_bytes": 37
+        },
+        {
+          "path": "nepali_frontend/g2p/akshara.py",
+          "git_blob_sha1": "01b8c38cefdf3fb47ae84df0e1a5f7c402cb86bb",
+          "size_bytes": 8656
+        },
+        {
+          "path": "nepali_frontend/g2p/base_map.py",
+          "git_blob_sha1": "6e9c50780667d93066a943b0dcb96d8bfa8d3c47",
+          "size_bytes": 5579
+        },
+        {
+          "path": "nepali_frontend/g2p/phonemizer.py",
+          "git_blob_sha1": "d72e03c815ec0ba40340e6ee8636a2a58235dca9",
+          "size_bytes": 5807
+        },
+        {
+          "path": "nepali_frontend/g2p/post_rules.py",
+          "git_blob_sha1": "bb85a14528be08c841df09ce988a561cb6cc4c01",
+          "size_bytes": 18426
+        },
+        {
+          "path": "nepali_frontend/g2p/reverse.py",
+          "git_blob_sha1": "735f49e95e16661c298e7333a581394cf21b0478",
+          "size_bytes": 6466
+        },
+        {
+          "path": "nepali_frontend/g2p/reverse_model.py",
+          "git_blob_sha1": "8596ce46c799b392ca4d252a843987e970710e40",
+          "size_bytes": 10011
+        },
+        {
+          "path": "nepali_frontend/normalize/__init__.py",
+          "git_blob_sha1": "1bae47f8d40ca198e749fef5b60b8bc592d495e2",
+          "size_bytes": 942
+        },
+        {
+          "path": "nepali_frontend/normalize/numbers.py",
+          "git_blob_sha1": "94ab8a7df36dd35375de3fbf205336ff6e90c225",
+          "size_bytes": 6210
+        },
+        {
+          "path": "nepali_frontend/normalize/phones.py",
+          "git_blob_sha1": "c1e378c13f997e090a99943f5f3de83b5ee1fcd7",
+          "size_bytes": 3363
+        },
+        {
+          "path": "nepali_frontend/normalize/text.py",
+          "git_blob_sha1": "200d3a2f0077d9613d874b26c3f1b1cd64b6d490",
+          "size_bytes": 826
+        },
+        {
+          "path": "nepali_frontend/prosody/__init__.py",
+          "git_blob_sha1": "cc929715d765e8c44a7a089b76c12abb8cfb9ddf",
+          "size_bytes": 147
+        },
+        {
+          "path": "nepali_frontend/prosody/chunker.py",
+          "git_blob_sha1": "371c1e12fdba3c52c7d775f396059655853b241e",
+          "size_bytes": 4060
+        },
+        {
+          "path": "nepali_frontend/tokenize/__init__.py",
+          "git_blob_sha1": "43f8322ff3246cf9c6a6809f27ab34b5f8a809e0",
+          "size_bytes": 241
+        },
+        {
+          "path": "nepali_frontend/tokenize/script.py",
+          "git_blob_sha1": "f4b8f007e21e31964122b881a51a6253780e6fe0",
+          "size_bytes": 2875
+        },
+        {
+          "path": "nepali_frontend/trace.py",
+          "git_blob_sha1": "60ca75b5eee2781ac6ee3e6e6ff6dfcf02ff06c7",
+          "size_bytes": 4750
+        }
+      ]
+    },
+    {
+      "id": "hindi_lexicon",
+      "repository": "aryamanarora/schwa-deletion",
+      "revision": "9959ab8a8bc15e262c3e6cad961265b5a3eeae7f",
+      "directory": ".sources/hindi",
+      "files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "7d43fa7c904c845e4c8ef7b660797cde3c523cd1",
+          "size_bytes": 1073
+        },
+        {
+          "path": "hindi/LICENSE",
+          "git_blob_sha1": "7073b2b57063f04c12e4b4a7a5b9e01d8de88818",
+          "size_bytes": 1070
+        },
+        {
+          "path": "hindi/data/extra_large.csv",
+          "git_blob_sha1": "ec713dd782bc5d85f78f095ac5bff87205794f52",
+          "size_bytes": 1058469
+        }
+      ]
+    },
+    {
+      "id": "neptts_benchmark",
+      "repository": "Ampixa/neptts-bench",
+      "revision": "f44010141a727ab1c3ead8a36fecc2a48918ac26",
+      "directory": ".sources/neptts",
+      "files": [
+        {
+          "path": "LICENSE",
+          "git_blob_sha1": "555687414b556fdda1877d30ba860ff6058a7d7e",
+          "size_bytes": 1063
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha1": "44423bd6a441a7138e47a33b0c7eb13ddc0ccbbf",
+          "size_bytes": 5135
+        },
+        {
+          "path": "benchmark/sentences.json",
+          "git_blob_sha1": "90c8f231400f1748b5d70a8347af49db9cc654e0",
+          "size_bytes": 130767
+        }
+      ]
+    }
+  ]
+}

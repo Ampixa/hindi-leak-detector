@@ -1,0 +1,52 @@
+{
+  "created_by": "Codex GPT-6 /root",
+  "created_utc": "2026-11-06",
+  "incident": "torch.inference_mode created tensors mutated by Pocket worker threads; corrected wrapper to torch.no_grad; no upstream changes",
+  "deleted": [
+    {
+      "path": "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1/parent.yaml",
+      "bytes": 1235,
+      "sha256": "244f32ee185afb867441dcf50bbf4990af6b3b04c132380452fffd3cf29727e4",
+      "reason": "failed initial smoke run; reproduce from pinned sources after no_grad correction"
+    },
+    {
+      "path": "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1/reference.wav",
+      "bytes": 153424,
+      "sha256": "1f4058da031004edaefb79f29eee5573ede8a2cbb81b637791298d8c94444cdc",
+      "reason": "failed initial smoke run; reproduce from pinned sources after no_grad correction"
+    },
+    {
+      "path": "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1/README.md",
+      "bytes": 2126,
+      "sha256": "4c948a7b093dc75ae2e1d7da0a2bfb0d10a64c569178b9509813acfb8493ce43",
+      "reason": "failed initial smoke run; reproduce from pinned sources after no_grad correction"
+    },
+    {
+      "path": "/Volumes/T9/hindi-detector/data/g00005.pocket.16k.wav",
+      "bytes": 150016,
+      "sha256": "fcee5d4ce0c4fdb26c5d16caa974da6bb007cc5ea7cda1e9c0bf5a6e1ba317fd",
+      "reason": "completed smoke-test/download consumer; compact reports, hashes and reproduction inputs retained"
+    },
+    {
+      "path": "/Volumes/T9/hindi-detector/data/g00005.audio8.16k.wav",
+      "bytes": 145272,
+      "sha256": "f48a7d34838e5d2f1f375abd5b403d1b364263382f8da71d04d8b1b82482a2fc",
+      "reason": "completed smoke-test/download consumer; compact reports, hashes and reproduction inputs retained"
+    },
+    {
+      "path": "/Volumes/T9/hindi-detector/reports/k2_model_fetch.log",
+      "bytes": 7779,
+      "sha256": "431124803d8b5aa64c44f5a731f35a0a5f123635a20d975681637c5d9f161ad6",
+      "reason": "completed smoke-test/download consumer; compact reports, hashes and reproduction inputs retained"
+    },
+    {
+      "path": "/Volumes/T9/hindi-detector/reports/k2_pocket_pilot.log",
+      "bytes": 6091,
+      "sha256": "10c2019f1e1a60c76a4849aa1b19b1affb4894f29249f777047d28efaedc3388",
+      "reason": "completed smoke-test/download consumer; compact reports, hashes and reproduction inputs retained"
+    }
+  ],
+  "reclaimed_logical_bytes": 465943,
+  "last_cleanup_utc": "2026-11-06T07:56:54.219588+00:00",
+  "t9_free_bytes_after": 292815314944
+}

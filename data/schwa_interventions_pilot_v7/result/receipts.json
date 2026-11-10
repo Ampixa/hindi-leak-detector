@@ -1,0 +1,538 @@
+[
+  {
+    "word": "कमला",
+    "candidate_id": "schwa-00029",
+    "site": {
+      "gap_index": 2,
+      "target_count": 1,
+      "hindi_count": 0
+    },
+    "condition": "lexicon_path",
+    "speaker": "kala",
+    "speaker_id": 2,
+    "requested_phones": [
+      "k",
+      "ax",
+      "m",
+      "ax",
+      "l",
+      "aa"
+    ],
+    "native_encoded_input_ids": [
+      1,
+      32,
+      4,
+      59,
+      4,
+      77,
+      10,
+      2
+    ],
+    "scales": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "deterministic_repeat_verified": true,
+    "audio": "schwa-00029_kala_lexicon_path.wav",
+    "bytes": 28204,
+    "sha256": "f4dbf7ea338498ce765561b8dfd108af3b090cf9e5544d091be6f429898ea5ed",
+    "sample_rate": 22050,
+    "audio_frames": 14080,
+    "seconds": 0.6385487528344671,
+    "actual_output_shapes": {
+      "output": [
+        1,
+        1,
+        14080
+      ],
+      "durations": [
+        1,
+        8
+      ]
+    },
+    "actual_duration_output": [
+      [
+        1.118536353111267,
+        1.316017746925354,
+        7.506513595581055,
+        7.53151273727417,
+        5.696352481842041,
+        4.2849016189575195,
+        5.048248767852783,
+        17.479164123535156
+      ]
+    ],
+    "duration_output_sum": 49.98124694824219,
+    "audio_frames_per_duration_unit": 281.7056568152545,
+    "raw_peak": 0.21253307163715363,
+    "human_pronunciation_gold": false,
+    "actual_hindi_leakage_label": null
+  },
+  {
+    "word": "कमला",
+    "candidate_id": "schwa-00029",
+    "site": {
+      "gap_index": 2,
+      "target_count": 1,
+      "hindi_count": 0
+    },
+    "condition": "site_count_alternative",
+    "speaker": "kala",
+    "speaker_id": 2,
+    "requested_phones": [
+      "k",
+      "ax",
+      "m",
+      "l",
+      "aa"
+    ],
+    "native_encoded_input_ids": [
+      1,
+      32,
+      4,
+      59,
+      77,
+      10,
+      2
+    ],
+    "scales": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "deterministic_repeat_verified": true,
+    "audio": "schwa-00029_kala_site_count_alternative.wav",
+    "bytes": 23596,
+    "sha256": "675de6f7b82c308e0c25a56418905b3211e242197dc0f5954ca9ced40b9ff149",
+    "sample_rate": 22050,
+    "audio_frames": 11776,
+    "seconds": 0.5340589569160997,
+    "actual_output_shapes": {
+      "output": [
+        1,
+        1,
+        11776
+      ],
+      "durations": [
+        1,
+        7
+      ]
+    },
+    "actual_duration_output": [
+      [
+        0.964294970035553,
+        1.7997002601623535,
+        8.289036750793457,
+        5.16454553604126,
+        6.8676228523254395,
+        3.2619292736053467,
+        16.891326904296875
+      ]
+    ],
+    "duration_output_sum": 43.23845672607422,
+    "audio_frames_per_duration_unit": 272.35014595002144,
+    "raw_peak": 0.13935858011245728,
+    "human_pronunciation_gold": false,
+    "actual_hindi_leakage_label": null
+  },
+  {
+    "word": "कमला",
+    "candidate_id": "schwa-00029",
+    "site": {
+      "gap_index": 2,
+      "target_count": 1,
+      "hindi_count": 0
+    },
+    "condition": "lexicon_path",
+    "speaker": "barsha",
+    "speaker_id": 1,
+    "requested_phones": [
+      "k",
+      "ax",
+      "m",
+      "ax",
+      "l",
+      "aa"
+    ],
+    "native_encoded_input_ids": [
+      1,
+      32,
+      4,
+      59,
+      4,
+      77,
+      10,
+      2
+    ],
+    "scales": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "deterministic_repeat_verified": true,
+    "audio": "schwa-00029_barsha_lexicon_path.wav",
+    "bytes": 33324,
+    "sha256": "1b06280f3ee44a89b42efae9fcc0a421d0daa1812d582b0c635c24ff9490d544",
+    "sample_rate": 22050,
+    "audio_frames": 16640,
+    "seconds": 0.7546485260770975,
+    "actual_output_shapes": {
+      "output": [
+        1,
+        1,
+        16640
+      ],
+      "durations": [
+        1,
+        8
+      ]
+    },
+    "actual_duration_output": [
+      [
+        2.8737359046936035,
+        1.6782348155975342,
+        7.290504455566406,
+        6.4384613037109375,
+        7.997089862823486,
+        5.439206123352051,
+        13.927520751953125,
+        16.65774917602539
+      ]
+    ],
+    "duration_output_sum": 62.30250549316406,
+    "audio_frames_per_duration_unit": 267.0839618452547,
+    "raw_peak": 0.23506984114646912,
+    "human_pronunciation_gold": false,
+    "actual_hindi_leakage_label": null
+  },
+  {
+    "word": "कमला",
+    "candidate_id": "schwa-00029",
+    "site": {
+      "gap_index": 2,
+      "target_count": 1,
+      "hindi_count": 0
+    },
+    "condition": "site_count_alternative",
+    "speaker": "barsha",
+    "speaker_id": 1,
+    "requested_phones": [
+      "k",
+      "ax",
+      "m",
+      "l",
+      "aa"
+    ],
+    "native_encoded_input_ids": [
+      1,
+      32,
+      4,
+      59,
+      77,
+      10,
+      2
+    ],
+    "scales": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "deterministic_repeat_verified": true,
+    "audio": "schwa-00029_barsha_site_count_alternative.wav",
+    "bytes": 34860,
+    "sha256": "95438e5235ffbd1932acea7ef79b22b4fd9eccc3750527c6c12ad131bc78a91b",
+    "sample_rate": 22050,
+    "audio_frames": 17408,
+    "seconds": 0.7894784580498866,
+    "actual_output_shapes": {
+      "output": [
+        1,
+        1,
+        17408
+      ],
+      "durations": [
+        1,
+        7
+      ]
+    },
+    "actual_duration_output": [
+      [
+        3.4310052394866943,
+        1.5423071384429932,
+        8.733562469482422,
+        6.844258785247803,
+        7.979331970214844,
+        16.08277130126953,
+        20.548358917236328
+      ]
+    ],
+    "duration_output_sum": 65.16159057617188,
+    "audio_frames_per_duration_unit": 267.1512442540915,
+    "raw_peak": 0.16859346628189087,
+    "human_pronunciation_gold": false,
+    "actual_hindi_leakage_label": null
+  },
+  {
+    "word": "कर्म",
+    "candidate_id": "schwa-00030",
+    "site": {
+      "gap_index": 3,
+      "target_count": 1,
+      "hindi_count": 0
+    },
+    "condition": "lexicon_path",
+    "speaker": "kala",
+    "speaker_id": 2,
+    "requested_phones": [
+      "k",
+      "ax",
+      "r",
+      "m",
+      "ax"
+    ],
+    "native_encoded_input_ids": [
+      1,
+      32,
+      4,
+      61,
+      59,
+      4,
+      2
+    ],
+    "scales": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "deterministic_repeat_verified": true,
+    "audio": "schwa-00030_kala_lexicon_path.wav",
+    "bytes": 23084,
+    "sha256": "491ce421eff2f2fcc22940912c0456670a5f8bff5137cc53bc0e806d3457965c",
+    "sample_rate": 22050,
+    "audio_frames": 11520,
+    "seconds": 0.5224489795918368,
+    "actual_output_shapes": {
+      "output": [
+        1,
+        1,
+        11520
+      ],
+      "durations": [
+        1,
+        7
+      ]
+    },
+    "actual_duration_output": [
+      [
+        0.7740991115570068,
+        2.9164745807647705,
+        4.363824367523193,
+        4.684770107269287,
+        5.972564220428467,
+        6.5627946853637695,
+        17.744659423828125
+      ]
+    ],
+    "duration_output_sum": 43.019187927246094,
+    "audio_frames_per_duration_unit": 267.78748170427076,
+    "raw_peak": 0.0842486172914505,
+    "human_pronunciation_gold": false,
+    "actual_hindi_leakage_label": null
+  },
+  {
+    "word": "कर्म",
+    "candidate_id": "schwa-00030",
+    "site": {
+      "gap_index": 3,
+      "target_count": 1,
+      "hindi_count": 0
+    },
+    "condition": "site_count_alternative",
+    "speaker": "kala",
+    "speaker_id": 2,
+    "requested_phones": [
+      "k",
+      "ax",
+      "r",
+      "m"
+    ],
+    "native_encoded_input_ids": [
+      1,
+      32,
+      4,
+      61,
+      59,
+      2
+    ],
+    "scales": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "deterministic_repeat_verified": true,
+    "audio": "schwa-00030_kala_site_count_alternative.wav",
+    "bytes": 19500,
+    "sha256": "b2da7680ef06627b204eab718b1b23eef638a0ac46b39c4e8b44a8c2acf41271",
+    "sample_rate": 22050,
+    "audio_frames": 9728,
+    "seconds": 0.44117913832199546,
+    "actual_output_shapes": {
+      "output": [
+        1,
+        1,
+        9728
+      ],
+      "durations": [
+        1,
+        6
+      ]
+    },
+    "actual_duration_output": [
+      [
+        1.0675243139266968,
+        2.2006359100341797,
+        8.22144889831543,
+        4.4391913414001465,
+        13.738296508789062,
+        4.4132280349731445
+      ]
+    ],
+    "duration_output_sum": 34.080326080322266,
+    "audio_frames_per_duration_unit": 285.4432782442442,
+    "raw_peak": 0.03916037082672119,
+    "human_pronunciation_gold": false,
+    "actual_hindi_leakage_label": null
+  },
+  {
+    "word": "कर्म",
+    "candidate_id": "schwa-00030",
+    "site": {
+      "gap_index": 3,
+      "target_count": 1,
+      "hindi_count": 0
+    },
+    "condition": "lexicon_path",
+    "speaker": "barsha",
+    "speaker_id": 1,
+    "requested_phones": [
+      "k",
+      "ax",
+      "r",
+      "m",
+      "ax"
+    ],
+    "native_encoded_input_ids": [
+      1,
+      32,
+      4,
+      61,
+      59,
+      4,
+      2
+    ],
+    "scales": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "deterministic_repeat_verified": true,
+    "audio": "schwa-00030_barsha_lexicon_path.wav",
+    "bytes": 28716,
+    "sha256": "10782a569bb663e6c398e9e858ac4c0edef0f4df53750c7db4a08c3d03fc11bc",
+    "sample_rate": 22050,
+    "audio_frames": 14336,
+    "seconds": 0.6501587301587302,
+    "actual_output_shapes": {
+      "output": [
+        1,
+        1,
+        14336
+      ],
+      "durations": [
+        1,
+        7
+      ]
+    },
+    "actual_duration_output": [
+      [
+        2.101628303527832,
+        1.7792130708694458,
+        9.549308776855469,
+        3.311439275741577,
+        6.013370990753174,
+        10.591803550720215,
+        18.222824096679688
+      ]
+    ],
+    "duration_output_sum": 51.56958770751953,
+    "audio_frames_per_duration_unit": 277.99330258965057,
+    "raw_peak": 0.12954114377498627,
+    "human_pronunciation_gold": false,
+    "actual_hindi_leakage_label": null
+  },
+  {
+    "word": "कर्म",
+    "candidate_id": "schwa-00030",
+    "site": {
+      "gap_index": 3,
+      "target_count": 1,
+      "hindi_count": 0
+    },
+    "condition": "site_count_alternative",
+    "speaker": "barsha",
+    "speaker_id": 1,
+    "requested_phones": [
+      "k",
+      "ax",
+      "r",
+      "m"
+    ],
+    "native_encoded_input_ids": [
+      1,
+      32,
+      4,
+      61,
+      59,
+      2
+    ],
+    "scales": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "deterministic_repeat_verified": true,
+    "audio": "schwa-00030_barsha_site_count_alternative.wav",
+    "bytes": 22572,
+    "sha256": "9082423d6d76412931f4f96cbebe9c72a09e59c4dd93da7656377e4abeecb952",
+    "sample_rate": 22050,
+    "audio_frames": 11264,
+    "seconds": 0.5108390022675737,
+    "actual_output_shapes": {
+      "output": [
+        1,
+        1,
+        11264
+      ],
+      "durations": [
+        1,
+        6
+      ]
+    },
+    "actual_duration_output": [
+      [
+        1.9993165731430054,
+        1.5046242475509644,
+        12.533190727233887,
+        2.4292421340942383,
+        4.525643348693848,
+        18.16343116760254
+      ]
+    ],
+    "duration_output_sum": 41.15544891357422,
+    "audio_frames_per_duration_unit": 273.6940137296089,
+    "raw_peak": 0.050940074026584625,
+    "human_pronunciation_gold": false,
+    "actual_hindi_leakage_label": null
+  }
+]

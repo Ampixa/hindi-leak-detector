@@ -1,0 +1,101 @@
+{
+  "created_utc": "2026-11-09T07:33:02.611186+00:00",
+  "summary": "Beyond हैन and किनकि: you confirmed the नेकपा and तलको detections. पिढको sounded similar to you and is now a false-flag check; आइसके remains alignment-sensitive. These development observations are not an accuracy estimate.",
+  "cases": [
+    {
+      "id": "real_yt_yt03_019",
+      "word": "नेकपा",
+      "word_ordinal": 4,
+      "status": "user_confirmed",
+      "status_label": "Confirmed by you",
+      "explanation": "You confirmed this flag is correct. The expected vowel is between /k/ and /p/.",
+      "readings": {
+        "swar": {
+          "start": 1.6627605321507761,
+          "end": 2.0033259423503327,
+          "audio_sha256": "c1e7d8ad7f898ae387ff3237bdead0c7a21478a0c4eef42016ffcec920fb8969"
+        },
+        "real": {
+          "start": 2.5825851703406815,
+          "end": 2.982985971943888,
+          "audio_sha256": "a3267e107f2ddc88a2023db91e62eabf534a98c0aa0f9fbf48142158c8515903"
+        }
+      }
+    },
+    {
+      "id": "real_yt_yt03_019",
+      "word": "पिढको",
+      "word_ordinal": 8,
+      "status": "listener_similar",
+      "status_label": "You heard similar readings",
+      "explanation": "You reported the two readings sound more or less similar. Keep this as a false-flag/acceptability check; no confirmed error label.",
+      "readings": {
+        "swar": {
+          "start": 3.2253547671840357,
+          "end": 3.525853658536586,
+          "audio_sha256": "c1e7d8ad7f898ae387ff3237bdead0c7a21478a0c4eef42016ffcec920fb8969"
+        },
+        "real": {
+          "start": 4.724729458917836,
+          "end": 5.105110220440882,
+          "audio_sha256": "a3267e107f2ddc88a2023db91e62eabf534a98c0aa0f9fbf48142158c8515903"
+        }
+      }
+    },
+    {
+      "id": "real_yt_yt03_018",
+      "word": "तलको",
+      "word_ordinal": 0,
+      "status": "user_confirmed",
+      "status_label": "Confirmed by you",
+      "explanation": "You confirmed this is a useful detection: the vowel between /l/ and /k/ is reduced in Swar relative to the recorded reading.",
+      "readings": {
+        "swar": {
+          "start": 0.46143360433604336,
+          "end": 0.7222439024390244,
+          "audio_sha256": "f4276cc2f0f188a18fc5f7eb4dcf4bbc26e57d1bd3193dc82c16509c50143497"
+        },
+        "real": {
+          "start": 0.020023419203747075,
+          "end": 0.34039812646370027,
+          "audio_sha256": "034a5275777f0fd390065d3d313b87d3f4830820837bf64173860aaed77a30aa"
+        }
+      }
+    },
+    {
+      "id": "real_yt_yt05_040",
+      "word": "आइसके",
+      "word_ordinal": 6,
+      "status": "alignment_sensitive",
+      "status_label": "Alignment-sensitive · under review",
+      "explanation": "The whole-word path favors deletion, but focal-vowel evidence conflicts. This needs an ownership/alignment check.",
+      "readings": {
+        "swar": {
+          "start": 2.0072727272727273,
+          "end": 2.268218181818182,
+          "audio_sha256": "664e285172ace7e7b256b625d62e6d1dca75a3d79684762d1f1cf7f65cf0a117"
+        },
+        "real": {
+          "start": 3.3636594059405946,
+          "end": 3.764095049504951,
+          "audio_sha256": "db6220afb9dee359775183f928b3bb0e6e59f386dacc8734cc4245bfef5cc49d"
+        }
+      }
+    }
+  ],
+  "audit_report_sha256": "2c13ad36afecfa3d2bfe70c770ddf2013128e777debbc0a6691e1392c008e1e9",
+  "audit_items_sha256": "028c4d232dab41c8130bd73ab9150e90cc0ed67b7cbaec6cbcfeeaf863f7eae2",
+  "new_confirmation": {
+    "source": "conversation",
+    "quote": "i saw that it caught it properly ne ka pa",
+    "case_id": "real_yt_yt03_019",
+    "word": "नेकपा",
+    "original_event_utc": "unknown",
+    "phonetic_boundaries_manually_verified": false
+  },
+  "prediction_changes": false,
+  "listener_feedback_v73": {
+    "source": "reports/listener_feedback_v73/feedback.json",
+    "sha256": "ba5a219376714d898bf77f51f9bfdcd6bc550353edb7953c44bb66f6db863597"
+  }
+}

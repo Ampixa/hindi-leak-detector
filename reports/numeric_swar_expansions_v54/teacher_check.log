@@ -1,0 +1,25 @@
+INFO:hindi_detector.teacher_reference_cache:Preparing two best-teacher references: ['-m', 'scripts.run_swar_teacher_validation', '--plan', '/Volumes/T9/hindi-detector/data/inference_ref_9390794f91d4117903000e65', '--out', '/Volumes/T9/hindi-detector/reports/inference_ref_9390794f91d4117903000e65/controller', '--namespace', 'inference_ref_9390794f91d4117903000e65', '--smoke', '2']; log /Volumes/T9/hindi-detector/reports/inference_ref_9390794f91d4117903000e65/controller.log
+INFO:hindi_detector.teacher_reference_cache:Preparing two best-teacher references: ['-m', 'scripts.screen_teacher_reference', '--plan', '/Volumes/T9/hindi-detector/data/inference_ref_9390794f91d4117903000e65', '--out', '/Volumes/T9/hindi-detector/reports/inference_ref_9390794f91d4117903000e65/content_screen']; log /Volumes/T9/hindi-detector/reports/inference_ref_9390794f91d4117903000e65/content_screen.log
+/Volumes/T9/hindi-detector/.venv-indicf5/lib/python3.12/site-packages/pyworld/__init__.py:13: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+WARNING:root:Explicit unsupported local paired word हजार: No declared acoustic representation for 'd͡z'
+WARNING:root:Explicit unsupported local paired word लिएको: No declared acoustic representation for ''
+WARNING:root:Explicit unsupported local paired word थिए: No declared acoustic representation for ''
+WARNING:root:Explicit unsupported local paired word हजार: No declared acoustic representation for 'd͡z'
+WARNING:root:Explicit unsupported local paired word एउटा: No declared acoustic representation for 'eu̯'
+WARNING:root:Explicit unsupported local paired word हजार: No declared acoustic representation for 'd͡z'
+WARNING:root:Explicit unsupported local paired word लिएको: No declared acoustic representation for ''
+WARNING:root:Explicit unsupported local paired word थिए: No declared acoustic representation for ''
+WARNING:root:Explicit unsupported local paired word हजार: No declared acoustic representation for 'd͡z'
+WARNING:root:Explicit unsupported local paired word एउटा: No declared acoustic representation for 'eu̯'
+WARNING:root:Explicit unsupported local paired word हजार: No declared acoustic representation for 'd͡z'
+WARNING:root:Explicit unsupported local paired word लिएको: No declared acoustic representation for ''
+WARNING:root:Explicit unsupported local paired word थिए: No declared acoustic representation for ''
+WARNING:root:Explicit unsupported local paired word हजार: No declared acoustic representation for 'd͡z'
+WARNING:root:Explicit unsupported local paired word एउटा: No declared acoustic representation for 'eu̯'
+WARNING:root:Explicit unsupported local paired word हजार: No declared acoustic representation for 'd͡z'
+WARNING:root:Explicit unsupported local paired word लिएको: No declared acoustic representation for ''
+WARNING:root:Explicit unsupported local paired word थिए: No declared acoustic representation for ''
+WARNING:root:Explicit unsupported local paired word हजार: No declared acoustic representation for 'd͡z'
+WARNING:root:Explicit unsupported local paired word एउटा: No declared acoustic representation for 'eu̯'
+{"word_flags": [], "reference_mode": "generated_content_screened_24_layer_teacher", "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85", "status": "scored_vowel_evidence"}

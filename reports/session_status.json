@@ -1,0 +1,69 @@
+{
+  "schema": "goal_status_snapshot_v57",
+  "created_by": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "observed_utc": "2026-11-09T03:08:21.541271+00:00",
+  "status": "active_word_detector_candidate_general_accuracy_unvalidated",
+  "goal": "Detect localized Hindi-compatible pronunciation leakage in Nepali TTS while distinguishing observed native variation and preferred reference style.",
+  "word_model": "reports/task_vowel_release_v31/model.pt",
+  "word_model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "private_review": "http://100.80.123.8:8770/swar",
+  "known_user_development_errors_flagged": 2,
+  "cases_scored_with_recorded_reference": 90,
+  "user_picks_scored": 6,
+  "controlled_deletion_detected": [
+    34,
+    39
+  ],
+  "controlled_quality_detected": [
+    17,
+    25
+  ],
+  "observed_sham_flags": [
+    0,
+    64
+  ],
+  "cold_checks": [
+    8,
+    8
+  ],
+  "guard_checks": [
+    5,
+    5
+  ],
+  "unit_tests_passed": 160,
+  "source_pair": [
+    "pocket_teacher_250000_24l",
+    "indicf5_stock"
+  ],
+  "query_runtime_host": "k2 M2Ultra64GB",
+  "teacher_runtime_host": "khalti-gpu L40S",
+  "actual_hindi_error_accuracy": null,
+  "hindi_intonation_accuracy": null,
+  "remaining_scientific_work": [
+    "Validate general real Hindi-error accuracy beyond the two reported development examples.",
+    "Learn/validate Hindi-specific intonation and additional consonant/timing contrasts.",
+    "Improve native-variation/reference sensitivity without hiding the14 teacher-relative human flags."
+  ],
+  "selected_source_benchmark": "reports/corrected_training_v16/final/model.pt (historical source classification, not the current word detector)",
+  "next_review": "2026-11-10",
+  "not_on_HF": true,
+  "owned_service_pid": 44652,
+  "word_flags": 21,
+  "two_teacher_supported_word_flags": 9,
+  "word_positions_total": 1433,
+  "supported_word_positions": 260,
+  "prosody_heads_admitted": 0,
+  "prosody_admission_report": "reports/prosody_admission_v55/report.json",
+  "working_deadline_elapsed": true,
+  "source_generation": {
+    "new_verified24_teacher_donors": 164,
+    "native_content_pass": 160
+  },
+  "numeric_expansions": {
+    "corroborated_cases_added": 4,
+    "new_cold_results": 11,
+    "all_new_content_pass": true,
+    "ambiguous_cases_remaining": 6
+  }
+}

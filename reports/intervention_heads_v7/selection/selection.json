@@ -1,0 +1,53 @@
+{
+  "choices": {
+    "ctc_site": {
+      "l2": 0.001,
+      "development_log_loss": 0.23816184666989204
+    },
+    "pooled_phone": {
+      "l2": 1.0,
+      "development_log_loss": 0.625586549638065
+    }
+  },
+  "trials": {
+    "ctc_site": [
+      {
+        "l2": 0.001,
+        "development_log_loss": 0.23816184666989204
+      },
+      {
+        "l2": 0.01,
+        "development_log_loss": 0.2643130323967153
+      },
+      {
+        "l2": 0.1,
+        "development_log_loss": 0.3377878329373409
+      },
+      {
+        "l2": 1.0,
+        "development_log_loss": 0.5194914550664085
+      }
+    ],
+    "pooled_phone": [
+      {
+        "l2": 0.001,
+        "development_log_loss": 1.9078260639661069
+      },
+      {
+        "l2": 0.01,
+        "development_log_loss": 1.3291314322219507
+      },
+      {
+        "l2": 0.1,
+        "development_log_loss": 0.756979445856691
+      },
+      {
+        "l2": 1.0,
+        "development_log_loss": 0.625586549638065
+      }
+    ]
+  },
+  "feature_manifest_sha256": "b66851033ba778f885a6e1887cc5d06f1268186c6f64503296ad82de84c28aa6",
+  "test_features_loaded": false,
+  "selection_rule": "Lowest development log loss per prespecified feature branch; no test threshold tuning."
+}

@@ -1,0 +1,4237 @@
+[
+  {
+    "word": "अब",
+    "nepali_g2p": {
+      "project_phones": [
+        "ax",
+        ".",
+        "b",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "ʌ",
+        ".",
+        "b",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "ˈʌ|b\n",
+      "units_with_stress_preserved": [
+        "ˈʌ",
+        "b"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 1640,
+        "raw_spelling": "अब",
+        "phones_ascii": [
+          "a",
+          "b"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00003",
+        "language": "ne",
+        "word": "अब",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "ax",
+          "b",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "ax",
+          "b"
+        ],
+        "sites": [
+          {
+            "gap_index": 1,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257061600351107_000038.wav",
+        "speaker_id": "S4257061600351107",
+        "state": "West Bengal",
+        "district": "Alipurduar"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259378100382157_022352.wav",
+        "speaker_id": "S4259378100382157",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258265500397913_002646.wav",
+        "speaker_id": "S4258265500397913",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258770700360586_013902.wav",
+        "speaker_id": "S4258770700360586",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258701300312146_001010.wav",
+        "speaker_id": "S4258701300312146",
+        "state": "West Bengal",
+        "district": "Alipurduar"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259707300344281_018567.wav",
+        "speaker_id": "S4259707300344281",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259058000369997_000496.wav",
+        "speaker_id": "S4259058000369997",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258134000306992_012647.wav",
+        "speaker_id": "S4258134000306992",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "तर",
+    "nepali_g2p": {
+      "project_phones": [
+        "t",
+        "ax",
+        ".",
+        "r",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "t̪",
+        "ʌ",
+        ".",
+        "r",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "t|ˈʌ|ɾ\n",
+      "units_with_stress_preserved": [
+        "t",
+        "ˈʌ",
+        "ɾ"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 14085,
+        "raw_spelling": "तर",
+        "phones_ascii": [
+          "t",
+          "a",
+          "r"
+        ]
+      },
+      {
+        "csv_row": 14086,
+        "raw_spelling": "तर",
+        "phones_ascii": [
+          "t",
+          "a",
+          "r"
+        ]
+      },
+      {
+        "csv_row": 14087,
+        "raw_spelling": "तर",
+        "phones_ascii": [
+          "t",
+          "a",
+          "r"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00115",
+        "language": "ne",
+        "word": "तर",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "t",
+          "ax",
+          "r",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "t",
+          "ax",
+          "r"
+        ],
+        "sites": [
+          {
+            "gap_index": 2,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257061600351107_000419.wav",
+        "speaker_id": "S4257061600351107",
+        "state": "West Bengal",
+        "district": "Alipurduar"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256978800325427_023570.wav",
+        "speaker_id": "S4256978800325427",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257688200303485_001507.wav",
+        "speaker_id": "S4257688200303485",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258645500317007_012445.wav",
+        "speaker_id": "S4258645500317007",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258103700316384_019858.wav",
+        "speaker_id": "S4258103700316384",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259799900369821_003160.wav",
+        "speaker_id": "S4259799900369821",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259995800353135_001584.wav",
+        "speaker_id": "S4259995800353135",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "आज",
+    "nepali_g2p": {
+      "project_phones": [
+        "aa",
+        ".",
+        "dz",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "a",
+        ".",
+        "d͡z",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "ˈaː|ɟ\n",
+      "units_with_stress_preserved": [
+        "ˈaː",
+        "ɟ"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 2918,
+        "raw_spelling": "आज",
+        "phones_ascii": [
+          "aa",
+          "j"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00017",
+        "language": "ne",
+        "word": "आज",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "aa",
+          "dz",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "aa",
+          "dz"
+        ],
+        "sites": [
+          {
+            "gap_index": 2,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257061600351107_004322.wav",
+        "speaker_id": "S4257061600351107",
+        "state": "West Bengal",
+        "district": "Alipurduar"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257025800301991_023324.wav",
+        "speaker_id": "S4257025800301991",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258265500397913_002646.wav",
+        "speaker_id": "S4258265500397913",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257603500385674_010900.wav",
+        "speaker_id": "S4257603500385674",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259399200339078_024766.wav",
+        "speaker_id": "S4259399200339078",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258785600360919_005521.wav",
+        "speaker_id": "S4258785600360919",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258168700367997_006509.wav",
+        "speaker_id": "S4258168700367997",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "जब",
+    "nepali_g2p": {
+      "project_phones": [
+        "dz",
+        "ax",
+        ".",
+        "b",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "d͡z",
+        "ʌ",
+        ".",
+        "b",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "ɟ|ˈʌ|b\n",
+      "units_with_stress_preserved": [
+        "ɟ",
+        "ˈʌ",
+        "b"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 11506,
+        "raw_spelling": "जब",
+        "phones_ascii": [
+          "j",
+          "a",
+          "b"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00092",
+        "language": "ne",
+        "word": "जब",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "dz",
+          "ax",
+          "b",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "dz",
+          "ax",
+          "b"
+        ],
+        "sites": [
+          {
+            "gap_index": 2,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257169000338471_024634.wav",
+        "speaker_id": "S4257169000338471",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258804100339766_000033.wav",
+        "speaker_id": "S4258804100339766",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258703500360392_019445.wav",
+        "speaker_id": "S4258703500360392",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259394300375548_023021.wav",
+        "speaker_id": "S4259394300375548",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259089000369099_024919.wav",
+        "speaker_id": "S4259089000369099",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257183300380420_014297.wav",
+        "speaker_id": "S4257183300380420",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259676500362436_020710.wav",
+        "speaker_id": "S4259676500362436",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256960400327264_004020.wav",
+        "speaker_id": "S4256960400327264",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "किन",
+    "nepali_g2p": {
+      "project_phones": [
+        "k",
+        "i",
+        ".",
+        "n",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "k",
+        "i",
+        ".",
+        "n",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "k|ˈɪ|n\n",
+      "units_with_stress_preserved": [
+        "k",
+        "ˈɪ",
+        "n"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 6415,
+        "raw_spelling": "किन",
+        "phones_ascii": [
+          "k",
+          "i",
+          "n"
+        ]
+      },
+      {
+        "csv_row": 6416,
+        "raw_spelling": "किन",
+        "phones_ascii": [
+          "k",
+          "i",
+          "n"
+        ]
+      },
+      {
+        "csv_row": 6526,
+        "raw_spelling": "किन",
+        "phones_ascii": [
+          "k",
+          "ii",
+          "n"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00041",
+        "language": "ne",
+        "word": "किन",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "k",
+          "i",
+          "n",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "k",
+          "i",
+          "n"
+        ],
+        "sites": [
+          {
+            "gap_index": 3,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259378100382157_024034.wav",
+        "speaker_id": "S4259378100382157",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259403900334230_005014.wav",
+        "speaker_id": "S4259403900334230",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259378900393723_011336.wav",
+        "speaker_id": "S4259378900393723",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259808500383736_023475.wav",
+        "speaker_id": "S4259808500383736",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258004900311206_004662.wav",
+        "speaker_id": "S4258004900311206",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258495000392076_016561.wav",
+        "speaker_id": "S4258495000392076",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259366500382771_011972.wav",
+        "speaker_id": "S4259366500382771",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259312400392139_002133.wav",
+        "speaker_id": "S4259312400392139",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "हुन",
+    "nepali_g2p": {
+      "project_phones": [
+        "h",
+        "u",
+        ".",
+        "n",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "ɦ",
+        "u",
+        ".",
+        "n",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "h|ˈʊ|n\n",
+      "units_with_stress_preserved": [
+        "h",
+        "ˈʊ",
+        "n"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 34763,
+        "raw_spelling": "हुन",
+        "phones_ascii": [
+          "h",
+          "u",
+          "n"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00382",
+        "language": "ne",
+        "word": "हुन",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "h",
+          "u",
+          "n",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "h",
+          "u",
+          "n"
+        ],
+        "sites": [
+          {
+            "gap_index": 3,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257120300378262_013318.wav",
+        "speaker_id": "S4257120300378262",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259391000375598_000269.wav",
+        "speaker_id": "S4259391000375598",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259327300365356_019473.wav",
+        "speaker_id": "S4259327300365356",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257718000306351_022856.wav",
+        "speaker_id": "S4257718000306351",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257142500339968_010050.wav",
+        "speaker_id": "S4257142500339968",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257070600301972_024394.wav",
+        "speaker_id": "S4257070600301972",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259761200369592_011458.wav",
+        "speaker_id": "S4259761200369592",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "बिहान",
+    "nepali_g2p": {
+      "project_phones": [
+        "b",
+        "i",
+        ".",
+        "h",
+        "aa",
+        ".",
+        "n",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "b",
+        "i",
+        ".",
+        "ɦ",
+        "a",
+        ".",
+        "n",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "b|ɪ|h|ˈaː|n\n",
+      "units_with_stress_preserved": [
+        "b",
+        "ɪ",
+        "h",
+        "ˈaː",
+        "n"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 23730,
+        "raw_spelling": "बिहान",
+        "phones_ascii": [
+          "b",
+          "i",
+          "h",
+          "aa",
+          "n"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00224",
+        "language": "ne",
+        "word": "बिहान",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "b",
+          "i",
+          "h",
+          "aa",
+          "n",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "b",
+          "i",
+          "h",
+          "aa",
+          "n"
+        ],
+        "sites": [
+          {
+            "gap_index": 5,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257074600398803_019880.wav",
+        "speaker_id": "S4257074600398803",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257460200307926_004563.wav",
+        "speaker_id": "S4257460200307926",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259818100332473_001952.wav",
+        "speaker_id": "S4259818100332473",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259506200381201_012895.wav",
+        "speaker_id": "S4259506200381201",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257748800382722_005378.wav",
+        "speaker_id": "S4257748800382722",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259445600357796_008867.wav",
+        "speaker_id": "S4259445600357796",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259617100304366_024797.wav",
+        "speaker_id": "S4259617100304366",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259089000369099_024924.wav",
+        "speaker_id": "S4259089000369099",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "तल",
+    "nepali_g2p": {
+      "project_phones": [
+        "t",
+        "ax",
+        ".",
+        "l",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "t̪",
+        "ʌ",
+        ".",
+        "l",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "t|ˈʌ|l\n",
+      "units_with_stress_preserved": [
+        "t",
+        "ˈʌ",
+        "l"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 14181,
+        "raw_spelling": "तल",
+        "phones_ascii": [
+          "t",
+          "a",
+          "l"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00118",
+        "language": "ne",
+        "word": "तल",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "t",
+          "ax",
+          "l",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "t",
+          "ax",
+          "l"
+        ],
+        "sites": [
+          {
+            "gap_index": 2,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258708900360748_019805.wav",
+        "speaker_id": "S4258708900360748",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257748800382722_001418.wav",
+        "speaker_id": "S4257748800382722",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259306900382890_012951.wav",
+        "speaker_id": "S4259306900382890",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258786600332194_002491.wav",
+        "speaker_id": "S4258786600332194",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259437700357435_002653.wav",
+        "speaker_id": "S4259437700357435",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259472400361971_006670.wav",
+        "speaker_id": "S4259472400361971",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256998600327310_015894.wav",
+        "speaker_id": "S4256998600327310",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259417500367695_005022.wav",
+        "speaker_id": "S4259417500367695",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "गरम",
+    "nepali_g2p": {
+      "project_phones": [
+        "g",
+        "ax",
+        ".",
+        "r",
+        "ax",
+        "m"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "ɡ",
+        "ʌ",
+        ".",
+        "r",
+        "ʌ",
+        "m"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "ɡ|ˈʌ|ɾ|ə|m\n",
+      "units_with_stress_preserved": [
+        "ɡ",
+        "ˈʌ",
+        "ɾ",
+        "ə",
+        "m"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 8415,
+        "raw_spelling": "गरम",
+        "phones_ascii": [
+          "g",
+          "a",
+          "r",
+          "m"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00054",
+        "language": "ne",
+        "word": "गरम",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "g",
+          "ax",
+          "r",
+          "ax",
+          "m"
+        ],
+        "hindi_schwa_hypothesis": [
+          "g",
+          "ax",
+          "r",
+          "m"
+        ],
+        "sites": [
+          {
+            "gap_index": 2,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259364000374802_002225.wav",
+        "speaker_id": "S4259364000374802",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258183800306918_004710.wav",
+        "speaker_id": "S4258183800306918",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259011800302294_008659.wav",
+        "speaker_id": "S4259011800302294",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259043200302793_003913.wav",
+        "speaker_id": "S4259043200302793",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257394400342321_001787.wav",
+        "speaker_id": "S4257394400342321",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257906500377556_006660.wav",
+        "speaker_id": "S4257906500377556",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258939400365753_016571.wav",
+        "speaker_id": "S4258939400365753",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259405200357040_004700.wav",
+        "speaker_id": "S4259405200357040",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "धर्म",
+    "nepali_g2p": {
+      "project_phones": [
+        "dh",
+        "ax",
+        "r",
+        ".",
+        "m",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "d̪ʱ",
+        "ʌ",
+        "r",
+        ".",
+        "m",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "dʰ|ˈʌ|r|m\n",
+      "units_with_stress_preserved": [
+        "dʰ",
+        "ˈʌ",
+        "r",
+        "m"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 16640,
+        "raw_spelling": "धर्म",
+        "phones_ascii": [
+          "dh",
+          "a",
+          "r",
+          "m"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00158",
+        "language": "ne",
+        "word": "धर्म",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "dh",
+          "ax",
+          "r",
+          "m",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "dh",
+          "ax",
+          "r",
+          "m"
+        ],
+        "sites": [
+          {
+            "gap_index": 3,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256905800325333_023952.wav",
+        "speaker_id": "S4256905800325333",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259849400332772_001680.wav",
+        "speaker_id": "S4259849400332772",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259437500379748_010087.wav",
+        "speaker_id": "S4259437500379748",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258786600332194_018769.wav",
+        "speaker_id": "S4258786600332194",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259304500365577_004977.wav",
+        "speaker_id": "S4259304500365577",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259602800353467_017383.wav",
+        "speaker_id": "S4259602800353467",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259988300353408_023868.wav",
+        "speaker_id": "S4259988300353408",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259783000375209_001873.wav",
+        "speaker_id": "S4259783000375209",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "खान",
+    "nepali_g2p": {
+      "project_phones": [
+        "kh",
+        "aa",
+        ".",
+        "n",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "kʰ",
+        "a",
+        ".",
+        "n",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "kʰ|ˈaː|n\n",
+      "units_with_stress_preserved": [
+        "kʰ",
+        "ˈaː",
+        "n"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 7737,
+        "raw_spelling": "खान",
+        "phones_ascii": [
+          "kh",
+          "aa",
+          "n"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00050",
+        "language": "ne",
+        "word": "खान",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "kh",
+          "aa",
+          "n",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "kh",
+          "aa",
+          "n"
+        ],
+        "sites": [
+          {
+            "gap_index": 3,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259447300361272_023736.wav",
+        "speaker_id": "S4259447300361272",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258422800338261_005305.wav",
+        "speaker_id": "S4258422800338261",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258792600310045_013278.wav",
+        "speaker_id": "S4258792600310045",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259836700332537_020329.wav",
+        "speaker_id": "S4259836700332537",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258494400315015_003239.wav",
+        "speaker_id": "S4258494400315015",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259970200353919_009104.wav",
+        "speaker_id": "S4259970200353919",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258255000397944_025074.wav",
+        "speaker_id": "S4258255000397944",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259304500373437_001247.wav",
+        "speaker_id": "S4259304500373437",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "गर",
+    "nepali_g2p": {
+      "project_phones": [
+        "g",
+        "ax",
+        ".",
+        "r",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "ɡ",
+        "ʌ",
+        ".",
+        "r",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "ɡ|ˈʌ|ɾ\n",
+      "units_with_stress_preserved": [
+        "ɡ",
+        "ˈʌ",
+        "ɾ"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 8396,
+        "raw_spelling": "गर",
+        "phones_ascii": [
+          "g",
+          "a",
+          "r"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00053",
+        "language": "ne",
+        "word": "गर",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "g",
+          "ax",
+          "r",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "g",
+          "ax",
+          "r"
+        ],
+        "sites": [
+          {
+            "gap_index": 2,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258888300338419_021529.wav",
+        "speaker_id": "S4258888300338419",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257748800382722_004065.wav",
+        "speaker_id": "S4257748800382722",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259815800383949_015354.wav",
+        "speaker_id": "S4259815800383949",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258208600397848_017367.wav",
+        "speaker_id": "S4258208600397848",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259799900369821_005730.wav",
+        "speaker_id": "S4259799900369821",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258250500397503_015375.wav",
+        "speaker_id": "S4258250500397503",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258175700398083_009007.wav",
+        "speaker_id": "S4258175700398083",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258174000316342_016007.wav",
+        "speaker_id": "S4258174000316342",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "शब्द",
+    "nepali_g2p": {
+      "project_phones": [
+        "s",
+        "ax",
+        "b",
+        ".",
+        "d",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "s",
+        "ʌ",
+        "b",
+        ".",
+        "d̪",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "ʃ|ˈʌ|b|d\n",
+      "units_with_stress_preserved": [
+        "ʃ",
+        "ˈʌ",
+        "b",
+        "d"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 30509,
+        "raw_spelling": "शब्द",
+        "phones_ascii": [
+          "sh",
+          "a",
+          "b",
+          "d"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00316",
+        "language": "ne",
+        "word": "शब्द",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "s",
+          "ax",
+          "b",
+          "d",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "s",
+          "ax",
+          "b",
+          "d"
+        ],
+        "sites": [
+          {
+            "gap_index": 3,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258196300353139_017632.wav",
+        "speaker_id": "S4258196300353139",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259320600382847_000120.wav",
+        "speaker_id": "S4259320600382847",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259051900397235_015071.wav",
+        "speaker_id": "S4259051900397235",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259705700369018_022136.wav",
+        "speaker_id": "S4259705700369018",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259012700397892_002086.wav",
+        "speaker_id": "S4259012700397892",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258495000392076_012121.wav",
+        "speaker_id": "S4258495000392076",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257080100347283_023869.wav",
+        "speaker_id": "S4257080100347283",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259443200361466_010462.wav",
+        "speaker_id": "S4259443200361466",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "नष्ट",
+    "nepali_g2p": {
+      "project_phones": [
+        "n",
+        "ax",
+        "s",
+        ".",
+        "tx",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "n",
+        "ʌ",
+        "s",
+        ".",
+        "ʈ",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "n|ˈʌ|ʂ|ʈ\n",
+      "units_with_stress_preserved": [
+        "n",
+        "ˈʌ",
+        "ʂ",
+        "ʈ"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 17279,
+        "raw_spelling": "नष्ट",
+        "phones_ascii": [
+          "n",
+          "a",
+          "sh",
+          "tt"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00167",
+        "language": "ne",
+        "word": "नष्ट",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "n",
+          "ax",
+          "s",
+          "tx",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "n",
+          "ax",
+          "s",
+          "tx"
+        ],
+        "sites": [
+          {
+            "gap_index": 3,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256900300325090_010230.wav",
+        "speaker_id": "S4256900300325090",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259089000369099_021446.wav",
+        "speaker_id": "S4259089000369099",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259644800354773_000870.wav",
+        "speaker_id": "S4259644800354773",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258190500398301_023815.wav",
+        "speaker_id": "S4258190500398301",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259345900314682_016682.wav",
+        "speaker_id": "S4259345900314682",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258708900360748_021844.wav",
+        "speaker_id": "S4258708900360748",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258494200395386_016896.wav",
+        "speaker_id": "S4258494200395386",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "प्रश्न",
+    "nepali_g2p": {
+      "project_phones": [
+        "p",
+        "r",
+        "ax",
+        "s",
+        ".",
+        "n",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "p",
+        "r",
+        "ʌ",
+        "s",
+        ".",
+        "n",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "p|ɾ|ˈʌ|ʃ|n|ə\n",
+      "units_with_stress_preserved": [
+        "p",
+        "ɾ",
+        "ˈʌ",
+        "ʃ",
+        "n",
+        "ə"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 21389,
+        "raw_spelling": "प्रश्न",
+        "phones_ascii": [
+          "p",
+          "r",
+          "a",
+          "sh",
+          "n"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00203",
+        "language": "ne",
+        "word": "प्रश्न",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "p",
+          "r",
+          "ax",
+          "s",
+          "n",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "p",
+          "r",
+          "ax",
+          "s",
+          "n"
+        ],
+        "sites": [
+          {
+            "gap_index": 4,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259475400367735_023695.wav",
+        "speaker_id": "S4259475400367735",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258279300397300_002532.wav",
+        "speaker_id": "S4258279300397300",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259312300373838_015854.wav",
+        "speaker_id": "S4259312300373838",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257885200354043_019728.wav",
+        "speaker_id": "S4257885200354043",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259470700357887_000142.wav",
+        "speaker_id": "S4259470700357887",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258174000316342_016006.wav",
+        "speaker_id": "S4258174000316342",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259070600380854_012786.wav",
+        "speaker_id": "S4259070600380854",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "बार",
+    "nepali_g2p": {
+      "project_phones": [
+        "b",
+        "aa",
+        ".",
+        "r",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "b",
+        "a",
+        ".",
+        "r",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "b|ˈaː|ɾ\n",
+      "units_with_stress_preserved": [
+        "b",
+        "ˈaː",
+        "ɾ"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 23277,
+        "raw_spelling": "बार",
+        "phones_ascii": [
+          "b",
+          "aa",
+          "r"
+        ]
+      },
+      {
+        "csv_row": 23278,
+        "raw_spelling": "बार",
+        "phones_ascii": [
+          "b",
+          "aa",
+          "r"
+        ]
+      },
+      {
+        "csv_row": 23279,
+        "raw_spelling": "बार",
+        "phones_ascii": [
+          "b",
+          "aa",
+          "r"
+        ]
+      },
+      {
+        "csv_row": 23280,
+        "raw_spelling": "बार",
+        "phones_ascii": [
+          "b",
+          "aa",
+          "r"
+        ]
+      },
+      {
+        "csv_row": 23281,
+        "raw_spelling": "बार",
+        "phones_ascii": [
+          "b",
+          "aa",
+          "r"
+        ]
+      },
+      {
+        "csv_row": 23282,
+        "raw_spelling": "बार",
+        "phones_ascii": [
+          "b",
+          "aa",
+          "r"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00220",
+        "language": "ne",
+        "word": "बार",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "b",
+          "aa",
+          "r",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "b",
+          "aa",
+          "r"
+        ],
+        "sites": [
+          {
+            "gap_index": 3,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259802600383793_002031.wav",
+        "speaker_id": "S4259802600383793",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258494400315015_003239.wav",
+        "speaker_id": "S4258494400315015",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257706400306318_011823.wav",
+        "speaker_id": "S4257706400306318",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257079700398280_020015.wav",
+        "speaker_id": "S4257079700398280",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259783000375209_004944.wav",
+        "speaker_id": "S4259783000375209",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258174000316342_012844.wav",
+        "speaker_id": "S4258174000316342",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258789700331929_022593.wav",
+        "speaker_id": "S4258789700331929",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257783100382821_008038.wav",
+        "speaker_id": "S4257783100382821",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "असल",
+    "nepali_g2p": {
+      "project_phones": [
+        "ax",
+        ".",
+        "s",
+        "ax",
+        "l"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "ʌ",
+        ".",
+        "s",
+        "ʌ",
+        "l"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "ˈʌ|s|ə|l\n",
+      "units_with_stress_preserved": [
+        "ˈʌ",
+        "s",
+        "ə",
+        "l"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 2552,
+        "raw_spelling": "असल",
+        "phones_ascii": [
+          "a",
+          "s",
+          "l"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00015",
+        "language": "ne",
+        "word": "असल",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "ax",
+          "s",
+          "ax",
+          "l"
+        ],
+        "hindi_schwa_hypothesis": [
+          "ax",
+          "s",
+          "l"
+        ],
+        "sites": [
+          {
+            "gap_index": 1,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258884200338416_024167.wav",
+        "speaker_id": "S4258884200338416",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258450800338362_004653.wav",
+        "speaker_id": "S4258450800338362",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259051900397235_015069.wav",
+        "speaker_id": "S4259051900397235",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259447300361272_020755.wav",
+        "speaker_id": "S4259447300361272",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256976500324624_017308.wav",
+        "speaker_id": "S4256976500324624",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259600300304898_019143.wav",
+        "speaker_id": "S4259600300304898",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "सुन्न",
+    "nepali_g2p": {
+      "project_phones": [
+        "s",
+        "u",
+        "n",
+        ".",
+        "n",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "s",
+        "u",
+        "n",
+        ".",
+        "n",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "s|ˈʊ|n|n|ə\n",
+      "units_with_stress_preserved": [
+        "s",
+        "ˈʊ",
+        "n",
+        "n",
+        "ə"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 33231,
+        "raw_spelling": "सुन्न",
+        "phones_ascii": [
+          "s",
+          "u",
+          "n",
+          "n"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00360",
+        "language": "ne",
+        "word": "सुन्न",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "s",
+          "u",
+          "n",
+          "n",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "s",
+          "u",
+          "n",
+          "n"
+        ],
+        "sites": [
+          {
+            "gap_index": 4,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257061600351107_004322.wav",
+        "speaker_id": "S4257061600351107",
+        "state": "West Bengal",
+        "district": "Alipurduar"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258187900367177_000397.wav",
+        "speaker_id": "S4258187900367177",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259358600382389_005223.wav",
+        "speaker_id": "S4259358600382389",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259447300361272_005250.wav",
+        "speaker_id": "S4259447300361272",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256916400327075_012461.wav",
+        "speaker_id": "S4256916400327075",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258730100392052_001719.wav",
+        "speaker_id": "S4258730100392052",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "पर",
+    "nepali_g2p": {
+      "project_phones": [
+        "p",
+        "ax",
+        ".",
+        "r",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "p",
+        "ʌ",
+        ".",
+        "r",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "p|ˈʌ|ɾ\n",
+      "units_with_stress_preserved": [
+        "p",
+        "ˈʌ",
+        "ɾ"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 19094,
+        "raw_spelling": "पर",
+        "phones_ascii": [
+          "p",
+          "a",
+          "r"
+        ]
+      },
+      {
+        "csv_row": 19095,
+        "raw_spelling": "पर",
+        "phones_ascii": [
+          "p",
+          "a",
+          "r"
+        ]
+      },
+      {
+        "csv_row": 19096,
+        "raw_spelling": "पर",
+        "phones_ascii": [
+          "p",
+          "a",
+          "r"
+        ]
+      },
+      {
+        "csv_row": 19097,
+        "raw_spelling": "पर",
+        "phones_ascii": [
+          "p",
+          "a",
+          "r"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00179",
+        "language": "ne",
+        "word": "पर",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "p",
+          "ax",
+          "r",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "p",
+          "ax",
+          "r"
+        ],
+        "sites": [
+          {
+            "gap_index": 2,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259350100392442_021660.wav",
+        "speaker_id": "S4259350100392442",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259304600365570_004368.wav",
+        "speaker_id": "S4259304600365570",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259342600382276_013839.wav",
+        "speaker_id": "S4259342600382276",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257989000377068_019164.wav",
+        "speaker_id": "S4257989000377068",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258495000392076_017978.wav",
+        "speaker_id": "S4258495000392076",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256985700320618_022063.wav",
+        "speaker_id": "S4256985700320618",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "अर्थ",
+    "nepali_g2p": {
+      "project_phones": [
+        "ax",
+        "r",
+        ".",
+        "th",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "ʌ",
+        "r",
+        ".",
+        "t̪ʰ",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "ˈʌ|ɾ|tʰ\n",
+      "units_with_stress_preserved": [
+        "ˈʌ",
+        "ɾ",
+        "tʰ"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 2108,
+        "raw_spelling": "अर्थ",
+        "phones_ascii": [
+          "a",
+          "r",
+          "th"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00009",
+        "language": "ne",
+        "word": "अर्थ",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "ax",
+          "r",
+          "th",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "ax",
+          "r",
+          "th"
+        ],
+        "sites": [
+          {
+            "gap_index": 2,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259707300344281_016608.wav",
+        "speaker_id": "S4259707300344281",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256902900326680_001118.wav",
+        "speaker_id": "S4256902900326680",
+        "state": "West Bengal",
+        "district": "Jalpaiguri"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259051900397235_015076.wav",
+        "speaker_id": "S4259051900397235",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256991000325084_005473.wav",
+        "speaker_id": "S4256991000325084",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258411800315841_017856.wav",
+        "speaker_id": "S4258411800315841",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258761200392217_020471.wav",
+        "speaker_id": "S4258761200392217",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "प्राप्त",
+    "nepali_g2p": {
+      "project_phones": [
+        "p",
+        "r",
+        "aa",
+        "p",
+        ".",
+        "t",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "p",
+        "r",
+        "a",
+        "p",
+        ".",
+        "t̪",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "p|ɾ|ˈaː|p|t\n",
+      "units_with_stress_preserved": [
+        "p",
+        "ɾ",
+        "ˈaː",
+        "p",
+        "t"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 21515,
+        "raw_spelling": "प्राप्त",
+        "phones_ascii": [
+          "p",
+          "r",
+          "aa",
+          "p",
+          "t"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00204",
+        "language": "ne",
+        "word": "प्राप्त",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "p",
+          "r",
+          "aa",
+          "p",
+          "t",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "p",
+          "r",
+          "aa",
+          "p",
+          "t"
+        ],
+        "sites": [
+          {
+            "gap_index": 5,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259705700369018_005938.wav",
+        "speaker_id": "S4259705700369018",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256932000325459_005196.wav",
+        "speaker_id": "S4256932000325459",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258895700339504_020971.wav",
+        "speaker_id": "S4258895700339504",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257390400341204_012792.wav",
+        "speaker_id": "S4257390400341204",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258707100312265_001294.wav",
+        "speaker_id": "S4258707100312265",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258980500331521_011640.wav",
+        "speaker_id": "S4258980500331521",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258445100315811_005790.wav",
+        "speaker_id": "S4258445100315811",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256986700326010_010609.wav",
+        "speaker_id": "S4256986700326010",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "सामना",
+    "nepali_g2p": {
+      "project_phones": [
+        "s",
+        "aa",
+        ".",
+        "m",
+        "ax",
+        ".",
+        "n",
+        "aa"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "s",
+        "a",
+        ".",
+        "m",
+        "ʌ",
+        ".",
+        "n",
+        "a"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "s|ˈaː|m|n|ˌaː\n",
+      "units_with_stress_preserved": [
+        "s",
+        "ˈaː",
+        "m",
+        "n",
+        "ˌaː"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 32546,
+        "raw_spelling": "सामना",
+        "phones_ascii": [
+          "s",
+          "aa",
+          "m",
+          "n",
+          "aa"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00352",
+        "language": "ne",
+        "word": "सामना",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "s",
+          "aa",
+          "m",
+          "ax",
+          "n",
+          "aa"
+        ],
+        "hindi_schwa_hypothesis": [
+          "s",
+          "aa",
+          "m",
+          "n",
+          "aa"
+        ],
+        "sites": [
+          {
+            "gap_index": 3,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259363500339093_001731.wav",
+        "speaker_id": "S4259363500339093",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259355800372553_014690.wav",
+        "speaker_id": "S4259355800372553",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259399200339078_024766.wav",
+        "speaker_id": "S4259399200339078",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257845700334143_000087.wav",
+        "speaker_id": "S4257845700334143",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259827900303688_016084.wav",
+        "speaker_id": "S4259827900303688",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256958500325178_015581.wav",
+        "speaker_id": "S4256958500325178",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258637900378709_017874.wav",
+        "speaker_id": "S4258637900378709",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259602800353467_015494.wav",
+        "speaker_id": "S4259602800353467",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "सहर",
+    "nepali_g2p": {
+      "project_phones": [
+        "s",
+        "ax",
+        ".",
+        "h",
+        "ax",
+        "r"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "s",
+        "ʌ",
+        ".",
+        "ɦ",
+        "ʌ",
+        "r"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "s|ˈʌ|h|ə|ɾ\n",
+      "units_with_stress_preserved": [
+        "s",
+        "ˈʌ",
+        "h",
+        "ə",
+        "ɾ"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 32247,
+        "raw_spelling": "सहर",
+        "phones_ascii": [
+          "s",
+          "a",
+          "h",
+          "r"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00346",
+        "language": "ne",
+        "word": "सहर",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "s",
+          "ax",
+          "h",
+          "ax",
+          "r"
+        ],
+        "hindi_schwa_hypothesis": [
+          "s",
+          "ax",
+          "h",
+          "r"
+        ],
+        "sites": [
+          {
+            "gap_index": 2,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258706700392275_024905.wav",
+        "speaker_id": "S4258706700392275",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259306000392024_013341.wav",
+        "speaker_id": "S4259306000392024",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256940200324520_024137.wav",
+        "speaker_id": "S4256940200324520",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256979800325907_008986.wav",
+        "speaker_id": "S4256979800325907",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257611100303364_010799.wav",
+        "speaker_id": "S4257611100303364",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259686200304066_015753.wav",
+        "speaker_id": "S4259686200304066",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258637900378709_007139.wav",
+        "speaker_id": "S4258637900378709",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259085700380851_025178.wav",
+        "speaker_id": "S4259085700380851",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "जन्म",
+    "nepali_g2p": {
+      "project_phones": [
+        "dz",
+        "ax",
+        "n",
+        ".",
+        "m",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "d͡z",
+        "ʌ",
+        "n",
+        ".",
+        "m",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "ɟ|ˈʌ|n|m\n",
+      "units_with_stress_preserved": [
+        "ɟ",
+        "ˈʌ",
+        "n",
+        "m"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 11492,
+        "raw_spelling": "जन्म",
+        "phones_ascii": [
+          "j",
+          "a",
+          "n",
+          "m"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00091",
+        "language": "ne",
+        "word": "जन्म",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "dz",
+          "ax",
+          "n",
+          "m",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "dz",
+          "ax",
+          "n",
+          "m"
+        ],
+        "sites": [
+          {
+            "gap_index": 3,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258147000367483_016821.wav",
+        "speaker_id": "S4258147000367483",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258381400367210_015430.wav",
+        "speaker_id": "S4258381400367210",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257657800303030_006384.wav",
+        "speaker_id": "S4257657800303030",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257043200362898_007053.wav",
+        "speaker_id": "S4257043200362898",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258587800320440_014804.wav",
+        "speaker_id": "S4258587800320440",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257783100382821_009055.wav",
+        "speaker_id": "S4257783100382821",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259853300332112_008663.wav",
+        "speaker_id": "S4259853300332112",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259761200369592_019050.wav",
+        "speaker_id": "S4259761200369592",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "तब",
+    "nepali_g2p": {
+      "project_phones": [
+        "t",
+        "ax",
+        ".",
+        "b",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "t̪",
+        "ʌ",
+        ".",
+        "b",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "t|ˈʌ|b\n",
+      "units_with_stress_preserved": [
+        "t",
+        "ˈʌ",
+        "b"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 14030,
+        "raw_spelling": "तब",
+        "phones_ascii": [
+          "t",
+          "a",
+          "b"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00111",
+        "language": "ne",
+        "word": "तब",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "t",
+          "ax",
+          "b",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "t",
+          "ax",
+          "b"
+        ],
+        "sites": [
+          {
+            "gap_index": 2,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259802600383793_001847.wav",
+        "speaker_id": "S4259802600383793",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259070200380986_013377.wav",
+        "speaker_id": "S4259070200380986",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258216400397759_004165.wav",
+        "speaker_id": "S4258216400397759",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259070600380854_012786.wav",
+        "speaker_id": "S4259070600380854",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259577100381198_024068.wav",
+        "speaker_id": "S4259577100381198",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259345900314682_011800.wav",
+        "speaker_id": "S4259345900314682",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258637900378709_008087.wav",
+        "speaker_id": "S4258637900378709",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259346700339885_010127.wav",
+        "speaker_id": "S4259346700339885",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "शुल्क",
+    "nepali_g2p": {
+      "project_phones": [
+        "s",
+        "u",
+        "l",
+        ".",
+        "k",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "s",
+        "u",
+        "l",
+        ".",
+        "k",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "ʃ|ˈʊ|l|k\n",
+      "units_with_stress_preserved": [
+        "ʃ",
+        "ˈʊ",
+        "l",
+        "k"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 30837,
+        "raw_spelling": "शुल्क",
+        "phones_ascii": [
+          "sh",
+          "u",
+          "l",
+          "k"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00327",
+        "language": "ne",
+        "word": "शुल्क",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "s",
+          "u",
+          "l",
+          "k",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "s",
+          "u",
+          "l",
+          "k"
+        ],
+        "sites": [
+          {
+            "gap_index": 4,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259336200375952_008449.wav",
+        "speaker_id": "S4259336200375952",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259079200380399_010785.wav",
+        "speaker_id": "S4259079200380399",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257853500334988_007830.wav",
+        "speaker_id": "S4257853500334988",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256951400325870_007089.wav",
+        "speaker_id": "S4256951400325870",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258164000306173_010249.wav",
+        "speaker_id": "S4258164000306173",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259602800353467_012716.wav",
+        "speaker_id": "S4259602800353467",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257707400382265_012473.wav",
+        "speaker_id": "S4257707400382265",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258949300323924_006767.wav",
+        "speaker_id": "S4258949300323924",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "उच्च",
+    "nepali_g2p": {
+      "project_phones": [
+        "u",
+        "ts",
+        ".",
+        "ts",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "u",
+        "t͡s",
+        ".",
+        "t͡s",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "ˈʊ|cː\n",
+      "units_with_stress_preserved": [
+        "ˈʊ",
+        "cː"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 3930,
+        "raw_spelling": "उच्च",
+        "phones_ascii": [
+          "u",
+          "c",
+          "c"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00023",
+        "language": "ne",
+        "word": "उच्च",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "u",
+          "ts",
+          "ts",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "u",
+          "ts",
+          "ts"
+        ],
+        "sites": [
+          {
+            "gap_index": 3,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258381100367641_004649.wav",
+        "speaker_id": "S4258381100367641",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259443200361466_009609.wav",
+        "speaker_id": "S4259443200361466",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257819100334517_007190.wav",
+        "speaker_id": "S4257819100334517",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259390200393711_009846.wav",
+        "speaker_id": "S4259390200393711",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258216400397759_008425.wav",
+        "speaker_id": "S4258216400397759",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259507500381305_011229.wav",
+        "speaker_id": "S4259507500381305",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257713700348239_011253.wav",
+        "speaker_id": "S4257713700348239",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "मसला",
+    "nepali_g2p": {
+      "project_phones": [
+        "m",
+        "ax",
+        ".",
+        "s",
+        "ax",
+        ".",
+        "l",
+        "aa"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "m",
+        "ʌ",
+        ".",
+        "s",
+        "ʌ",
+        ".",
+        "l",
+        "a"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "m|ˈʌ|s|l|ˌaː\n",
+      "units_with_stress_preserved": [
+        "m",
+        "ˈʌ",
+        "s",
+        "l",
+        "ˌaː"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 25770,
+        "raw_spelling": "मसला",
+        "phones_ascii": [
+          "m",
+          "a",
+          "s",
+          "l",
+          "aa"
+        ]
+      },
+      {
+        "csv_row": 25771,
+        "raw_spelling": "मसला",
+        "phones_ascii": [
+          "m",
+          "a",
+          "s",
+          "l",
+          "aa"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00252",
+        "language": "ne",
+        "word": "मसला",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "m",
+          "ax",
+          "s",
+          "ax",
+          "l",
+          "aa"
+        ],
+        "hindi_schwa_hypothesis": [
+          "m",
+          "ax",
+          "s",
+          "l",
+          "aa"
+        ],
+        "sites": [
+          {
+            "gap_index": 2,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257040100398268_017063.wav",
+        "speaker_id": "S4257040100398268",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257002900398643_011513.wav",
+        "speaker_id": "S4257002900398643",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259034700302901_008472.wav",
+        "speaker_id": "S4259034700302901",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257164800378362_011910.wav",
+        "speaker_id": "S4257164800378362",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258614900378359_019642.wav",
+        "speaker_id": "S4258614900378359",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258084700301969_007696.wav",
+        "speaker_id": "S4258084700301969",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259615200354658_015329.wav",
+        "speaker_id": "S4259615200354658",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "शुद्ध",
+    "nepali_g2p": {
+      "project_phones": [
+        "s",
+        "u",
+        "d",
+        ".",
+        "dh",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "s",
+        "u",
+        "d̪",
+        ".",
+        "d̪ʱ",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "ʃ|ˈʊ|dʰː\n",
+      "units_with_stress_preserved": [
+        "ʃ",
+        "ˈʊ",
+        "dʰː"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 30822,
+        "raw_spelling": "शुद्ध",
+        "phones_ascii": [
+          "sh",
+          "u",
+          "d",
+          "dh"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00325",
+        "language": "ne",
+        "word": "शुद्ध",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "s",
+          "u",
+          "d",
+          "dh",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "s",
+          "u",
+          "d",
+          "dh"
+        ],
+        "sites": [
+          {
+            "gap_index": 4,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257207900309196_019176.wav",
+        "speaker_id": "S4257207900309196",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259741600375889_017390.wav",
+        "speaker_id": "S4259741600375889",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259827900303688_009630.wav",
+        "speaker_id": "S4259827900303688",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257601200335084_017279.wav",
+        "speaker_id": "S4257601200335084",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259484600379203_002696.wav",
+        "speaker_id": "S4259484600379203",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259316600344888_004275.wav",
+        "speaker_id": "S4259316600344888",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259676500362436_024707.wav",
+        "speaker_id": "S4259676500362436",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258203800397254_005189.wav",
+        "speaker_id": "S4258203800397254",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "पूर्ण",
+    "nepali_g2p": {
+      "project_phones": [
+        "p",
+        "u",
+        "r",
+        ".",
+        "n",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "p",
+        "u",
+        "r",
+        ".",
+        "n",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "p|ˈuː|r|ɳ|ə\n",
+      "units_with_stress_preserved": [
+        "p",
+        "ˈuː",
+        "r",
+        "ɳ",
+        "ə"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 20481,
+        "raw_spelling": "पूर्ण",
+        "phones_ascii": [
+          "p",
+          "uu",
+          "r",
+          "n"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00199",
+        "language": "ne",
+        "word": "पूर्ण",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "p",
+          "u",
+          "r",
+          "n",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "p",
+          "u",
+          "r",
+          "n"
+        ],
+        "sites": [
+          {
+            "gap_index": 4,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259043200302793_001147.wav",
+        "speaker_id": "S4259043200302793",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259300700375367_018578.wav",
+        "speaker_id": "S4259300700375367",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258190500398301_023817.wav",
+        "speaker_id": "S4258190500398301",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259051900397235_006687.wav",
+        "speaker_id": "S4259051900397235",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257853500334988_012000.wav",
+        "speaker_id": "S4257853500334988",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258114300398934_016378.wav",
+        "speaker_id": "S4258114300398934",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259378100382157_003107.wav",
+        "speaker_id": "S4259378100382157",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "बुद्ध",
+    "nepali_g2p": {
+      "project_phones": [
+        "b",
+        "u",
+        "d",
+        ".",
+        "dh",
+        "ax"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "b",
+        "u",
+        "d̪",
+        ".",
+        "d̪ʱ",
+        "ʌ"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "b|ˈʊ|dʰː\n",
+      "units_with_stress_preserved": [
+        "b",
+        "ˈʊ",
+        "dʰː"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 23875,
+        "raw_spelling": "बुद्ध",
+        "phones_ascii": [
+          "b",
+          "u",
+          "d",
+          "dh"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00225",
+        "language": "ne",
+        "word": "बुद्ध",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "b",
+          "u",
+          "d",
+          "dh",
+          "ax"
+        ],
+        "hindi_schwa_hypothesis": [
+          "b",
+          "u",
+          "d",
+          "dh"
+        ],
+        "sites": [
+          {
+            "gap_index": 4,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258553600320985_021317.wav",
+        "speaker_id": "S4258553600320985",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257744800347497_014414.wav",
+        "speaker_id": "S4257744800347497",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258708900360748_021843.wav",
+        "speaker_id": "S4258708900360748",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259312300373838_010979.wav",
+        "speaker_id": "S4259312300373838",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258175700398083_013710.wav",
+        "speaker_id": "S4258175700398083",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258949300323924_013147.wav",
+        "speaker_id": "S4258949300323924",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259399200339078_018613.wav",
+        "speaker_id": "S4259399200339078",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259345900314682_016687.wav",
+        "speaker_id": "S4259345900314682",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  },
+  {
+    "word": "घटना",
+    "nepali_g2p": {
+      "project_phones": [
+        "gh",
+        "ax",
+        ".",
+        "tx",
+        "ax",
+        ".",
+        "n",
+        "aa"
+      ],
+      "source": "lexicon",
+      "frontend_reported_confidence": "high",
+      "ipa_candidate_units": [
+        "ɡʱ",
+        "ʌ",
+        ".",
+        "ʈ",
+        "ʌ",
+        ".",
+        "n",
+        "a"
+      ]
+    },
+    "hindi_g2p": {
+      "engine": "espeak-ng 1.52.0 inc/hi",
+      "raw_ipa_stdout": "ɡʰ|ˈʌ|ʈ|n|ˌaː\n",
+      "units_with_stress_preserved": [
+        "ɡʰ",
+        "ˈʌ",
+        "ʈ",
+        "n",
+        "ˌaː"
+      ]
+    },
+    "independent_hindi_lexicon_variants": [
+      {
+        "csv_row": 9259,
+        "raw_spelling": "घटना",
+        "phones_ascii": [
+          "gh",
+          "a",
+          "tt",
+          "@",
+          "n",
+          "aa"
+        ]
+      },
+      {
+        "csv_row": 9260,
+        "raw_spelling": "घटना",
+        "phones_ascii": [
+          "gh",
+          "a",
+          "tt",
+          "n",
+          "aa"
+        ]
+      },
+      {
+        "csv_row": 9261,
+        "raw_spelling": "घटना",
+        "phones_ascii": [
+          "gh",
+          "a",
+          "tt",
+          "n",
+          "aa"
+        ]
+      }
+    ],
+    "screening_schwa_candidates": [
+      {
+        "candidate_id": "schwa-00068",
+        "language": "ne",
+        "word": "घटना",
+        "profile": "spoken_nepali",
+        "target_phones": [
+          "gh",
+          "ax",
+          "tx",
+          "ax",
+          "n",
+          "aa"
+        ],
+        "hindi_schwa_hypothesis": [
+          "gh",
+          "ax",
+          "tx",
+          "n",
+          "aa"
+        ],
+        "sites": [
+          {
+            "gap_index": 2,
+            "target_count": 1,
+            "hindi_count": 0
+          }
+        ],
+        "target_source": "lexicon",
+        "review_status": "pending",
+        "note": "Normalized dictionary contrast; verify meaning, dialect, context and both pronunciations with native listeners."
+      }
+    ],
+    "human_examples": [
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259073100369792_024672.wav",
+        "speaker_id": "S4259073100369792",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259326000365483_010504.wav",
+        "speaker_id": "S4259326000365483",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256927700324817_004540.wav",
+        "speaker_id": "S4256927700324817",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4256916400327075_014016.wav",
+        "speaker_id": "S4256916400327075",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258949300323924_013147.wav",
+        "speaker_id": "S4258949300323924",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      },
+      {
+        "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259653200304270_006507.wav",
+        "speaker_id": "S4259653200304270",
+        "state": "West Bengal",
+        "district": "Kalimpong"
+      }
+    ],
+    "actual_realization_labels": null,
+    "g2p_predictions_are_ground_truth": false,
+    "separate_judgments": {
+      "native_variant_support": null,
+      "preferred_tts_style_distance": null,
+      "hindi_phone_hypothesis_evidence": null
+    }
+  }
+]

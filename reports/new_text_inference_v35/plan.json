@@ -1,0 +1,25 @@
+{
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-u",
+    "-m",
+    "scripts.detect_nepali_leakage",
+    "--query",
+    "/Volumes/T9/hindi-detector/data/minimal_audit_v29/teacher/audio/audit29_14d2f6e0a3cd602d0d37_v0_c1.wav",
+    "--text",
+    "यस पटक नसकियोस् भन्नुहोस्।",
+    "--out",
+    "/Volumes/T9/hindi-detector/reports/new_text_inference_v35/result"
+  ],
+  "source_selection": {
+    "name": "unknown_vowel_deletion",
+    "query": "/Volumes/T9/hindi-detector/data/minimal_audit_v29/teacher/audio/audit29_14d2f6e0a3cd602d0d37_v0_c1.wav",
+    "reference": "/Volumes/T9/hindi-detector/data/minimal_audit_v29/teacher/audio/audit29_14d2f6e0a3cd602d0d37_v1_c0.wav",
+    "text": "यस पटक नसकियोस् भन्नुहोस्।",
+    "word": "नसकियोस्",
+    "expected_flag": null,
+    "actual_case": null,
+    "mode": "unknown_word_explicit",
+    "selection": "First job-ID realized request pair, independent of classifier scores; target absent from799-word runtime cache"
+  }
+}

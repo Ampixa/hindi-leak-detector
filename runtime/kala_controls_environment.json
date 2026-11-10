@@ -1,0 +1,82 @@
+{
+  "python": "3.12.13 (main, Apr 14 2026, 14:33:40) [Clang 22.1.3 ]",
+  "versions": {
+    "onnxruntime": "1.23.2",
+    "numpy": "1.26.4",
+    "kala-tts": "0.1.4",
+    "soundfile": "0.13.1",
+    "huggingface-hub": "0.36.0"
+  },
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "inputs": [
+    {
+      "name": "input",
+      "type": "tensor(int64)",
+      "shape": [
+        "batch_size",
+        "phonemes"
+      ]
+    },
+    {
+      "name": "input_lengths",
+      "type": "tensor(int64)",
+      "shape": [
+        "batch_size"
+      ]
+    },
+    {
+      "name": "scales",
+      "type": "tensor(float)",
+      "shape": [
+        3
+      ]
+    },
+    {
+      "name": "sid",
+      "type": "tensor(int64)",
+      "shape": [
+        "batch_size"
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output",
+      "type": "tensor(float)",
+      "shape": [
+        "batch_size",
+        1,
+        "time"
+      ]
+    },
+    {
+      "name": "durations",
+      "type": "tensor(float)",
+      "shape": [
+        "batch_size",
+        "phonemes"
+      ]
+    }
+  ],
+  "native_sources": [
+    {
+      "path": "/Volumes/T9/hindi-detector/.venv-kala-controls/lib/python3.12/site-packages/kala_tts/_infer.py",
+      "sha256": "cb908f3430545f1e9e9c453b24ebfcf1888233ab526ee4d927c690821184b47f",
+      "source_utf8": "\"\"\"ONNX inference core for the real_nepali_v02_kala model.\"\"\"\n\nfrom __future__ import annotations\n\nimport io\nimport json\nimport re\nimport time\nimport wave\nfrom dataclasses import dataclass\nfrom pathlib import Path\nfrom typing import Any\n\nimport numpy as np\nimport onnxruntime as ort\n\nfrom real_nepali import g2p as _g2p\nfrom kala_tts._postproc import postprocess\n\n\nPUNCTUATION_PATTERN = re.compile(r\"([^\u0964\u0965?!.,\u060c;:]+)([\u0964\u0965?!.,\u060c;:]*)\")\n\nPAUSE_SECONDS: dict[str, float] = {\n    \"period\": 0.18,\n    \"question\": 0.22,\n    \"exclaim\": 0.18,\n    \"comma\": 0.10,\n}\n\nPUBLIC_SPEAKERS = (\"kala\", \"barsha\", \"slr143_F\", \"slr43_0546\", \"slr43_2099\")\nDEFAULT_SPEAKER = \"kala\"\nSAMPLE_RATE = 22050\nG2P_PROFILE = \"real_nepali_v0.2\"\n\n\n@dataclass(frozen=True)\nclass _Chunk:\n    text: str\n    punctuation: str\n    pause_s: float\n\n\ndef _pause_seconds(punctuation: str) -> float:\n    pauses: list[float] = []\n    for ch in punctuation:\n        if ch in {\"?\", \"\uff1f\"}:\n            pauses.append(PAUSE_SECONDS[\"question\"])\n        elif ch == \"!\":\n            pauses.append(PAUSE_SECONDS[\"exclaim\"])\n        elif ch in {\",\", \"\u060c\", \";\", \":\"}:\n            pauses.append(PAUSE_SECONDS[\"comma\"])\n        elif ch in {\".\", \"\u0964\", \"\u0965\"}:\n            pauses.append(PAUSE_SECONDS[\"period\"])\n    return max(pauses) if pauses else 0.0\n\n\ndef _split_chunks(text: str) -> list[_Chunk]:\n    chunks: list[_Chunk] = []\n    for m in PUNCTUATION_PATTERN.finditer(text):\n        chunk_text = \" \".join(m.group(1).split())\n        if not chunk_text:\n            continue\n        punct = m.group(2) or \"\"\n        chunks.append(_Chunk(text=chunk_text, punctuation=punct, pause_s=_pause_seconds(punct)))\n    if not chunks and text.strip():\n        chunks.append(_Chunk(text=\" \".join(text.split()), punctuation=\"\", pause_s=0.0))\n    return chunks\n\n\ndef _phones_to_ids(phones: list[str], id_map: dict[str, list[int]]) -> list[int]:\n    ids = [id_map[\"^\"][0]]\n    for phone in phones:\n        if phone in {\".\", \"|\"}:\n            continue\n        if phone not in id_map:\n            raise ValueError(f\"phone not in model vocabulary: {phone!r}\")\n        ids.extend(id_map[phone])\n    ids.append(id_map[\"$\"][0])\n    return ids\n\n\ndef _phonemize_chunk(text: str, id_map: dict[str, list[int]]) -> list[int]:\n    phones: list[str] = []\n    for word in _g2p.phonemize_text(text, profile=G2P_PROFILE):\n        if not word.phones:\n            continue\n        phones.extend(word.phones)\n        phones.append(\"|\")\n    if phones and phones[-1] == \"|\":\n        phones.pop()\n    return _phones_to_ids(phones, id_map)\n\n\ndef _silence(seconds: float) -> np.ndarray:\n    n = max(0, int(round(seconds * SAMPLE_RATE)))\n    return np.zeros(n, dtype=np.float32)\n\n\ndef _audio_to_wav_bytes(audio: np.ndarray) -> bytes:\n    samples = np.clip(audio.reshape(-1).astype(np.float32), -1.0, 1.0)\n    pcm = (samples * 32767.0).astype(np.int16)\n    buf = io.BytesIO()\n    with wave.open(buf, \"wb\") as wf:\n        wf.setnchannels(1)\n        wf.setsampwidth(2)\n        wf.setframerate(SAMPLE_RATE)\n        wf.writeframes(pcm.tobytes())\n    return buf.getvalue()\n\n\nclass KalaEngine:\n    \"\"\"Loaded ONNX inference engine. Keep one instance and call synthesize().\"\"\"\n\n    def __init__(self, model_path: Path, config_path: Path, speakers_path: Path) -> None:\n        config = json.loads(config_path.read_text(encoding=\"utf-8\"))\n        self._id_map: dict[str, list[int]] = {\n            str(k): [int(i) for i in v]\n            for k, v in config[\"phoneme_id_map\"].items()\n        }\n        self._speaker_map: dict[str, int] = {\n            str(k): int(v)\n            for k, v in json.loads(speakers_path.read_text(encoding=\"utf-8\")).items()\n        }\n        self._session = ort.InferenceSession(\n            str(model_path),\n            providers=[\"CPUExecutionProvider\"],\n        )\n        self._input_names = {inp.name for inp in self._session.get_inputs()}\n\n    @property\n    def speakers(self) -> tuple[str, ...]:\n        return tuple(s for s in PUBLIC_SPEAKERS if s in self._speaker_map)\n\n    def synthesize(\n        self,\n        text: str,\n        *,\n        speaker: str = DEFAULT_SPEAKER,\n        length_scale: float = 1.0,\n        noise_scale: float = 0.333,\n        noise_scale_w: float = 0.667,\n    ) -> bytes:\n        if speaker not in self._speaker_map:\n            valid = \", \".join(sorted(self._speaker_map))\n            raise ValueError(f\"unknown speaker {speaker!r}; valid: {valid}\")\n\n        sid = np.array([self._speaker_map[speaker]], dtype=np.int64)\n        scales = np.array([noise_scale, length_scale, noise_scale_w], dtype=np.float32)\n        audio_parts: list[np.ndarray] = []\n\n        for chunk in _split_chunks(\" \".join(text.split())):\n            phone_ids = _phonemize_chunk(chunk.text, self._id_map)\n            feed: dict[str, Any] = {\n                \"input\": np.array([phone_ids], dtype=np.int64),\n                \"input_lengths\": np.array([len(phone_ids)], dtype=np.int64),\n                \"scales\": scales,\n            }\n            if \"sid\" in self._input_names:\n                feed[\"sid\"] = sid\n            output = self._session.run(None, feed)[0]\n            audio_parts.append(np.asarray(output).reshape(-1).astype(np.float32))\n            if chunk.pause_s > 0:\n                audio_parts.append(_silence(chunk.pause_s))\n\n        audio = np.concatenate(audio_parts) if audio_parts else np.array([], dtype=np.float32)\n        audio = postprocess(audio, SAMPLE_RATE)\n        return _audio_to_wav_bytes(audio)\n\n    def rtf(self, text: str, speaker: str = DEFAULT_SPEAKER) -> float:\n        \"\"\"Return real-time factor (inference time / audio duration) on this text.\"\"\"\n        t0 = time.perf_counter()\n        wav = self.synthesize(text, speaker=speaker)\n        elapsed = time.perf_counter() - t0\n        buf = io.BytesIO(wav)\n        with wave.open(buf) as wf:\n            duration = wf.getnframes() / wf.getframerate()\n        return elapsed / duration if duration > 0 else float(\"inf\")\n"
+    },
+    {
+      "path": "/Volumes/T9/hindi-detector/.venv-kala-controls/lib/python3.12/site-packages/kala_tts/_postproc.py",
+      "sha256": "b22982d4290e00743d79097cd1de8b9ce23e054e695a0cb5c188b90c047ef252",
+      "source_utf8": "\"\"\"Lightweight audio post-processing for kala-tts.  Pure numpy.\n\nHistory / rationale (see scripts/diag_shrill.py, diag_frames.py,\ndiag_sib_compare.py):\n\n  The \"sss shrill\" was first assumed to be excess high-frequency brightness,\n  and earlier releases shipped a spectral de-emphasis tilt.  Frame-level\n  measurement proved that wrong: the /s/ sits at 4-9 kHz with a centroid\n  (~6.2 kHz) actually *lower* than clean references (edge_hemkala 7.0 kHz,\n  gtts 7.4 kHz).  kala's /s/ is not too bright \u2014 it is too *tonal*\n  (spectral flatness ~0.34 vs 0.47-0.69 for the references) and short.\n\n  The de-emphasis tilt therefore attacked the wrong thing and made the /s/\n  *more* tonal (it stripped the broadband skirt and left the peak naked).\n  This module reverts that: the only always-on stage is a noise gate, which\n  is a near-no-op on clean VITS output (pauses are true silence) but costs\n  nothing and guards other inputs.\n\n  Tonality is addressed separately by the optional `add_air` stage, which\n  injects shaped broadband noise into sibilant frames to turn the whistle\n  into a natural hiss.  It is OFF by default until validated by listening.\n\"\"\"\n\nfrom __future__ import annotations\n\nimport math\nimport numpy as np\n\n\n# ---------------------------------------------------------------------------\n# Noise gate  (removes inter-phoneme hiss if any; no-op on clean output)\n# ---------------------------------------------------------------------------\n\ndef _noise_gate(\n    audio: np.ndarray,\n    sample_rate: int,\n    threshold_db: float = -40,\n    frame_ms: float = 10,\n    fade_ms: float = 8,\n) -> np.ndarray:\n    \"\"\"Frame-based gate with cosine fade \u2014 suppresses hiss below threshold.\"\"\"\n    peak = float(np.abs(audio).max())\n    if peak < 1e-9:\n        return audio\n\n    threshold = peak * (10.0 ** (threshold_db / 20.0))\n    frame_n = max(1, int(round(sample_rate * frame_ms / 1000)))\n\n    pad = (frame_n - len(audio) % frame_n) % frame_n\n    padded = np.pad(audio, (0, pad))\n    peaks = np.abs(padded.reshape(-1, frame_n)).max(axis=1)\n    gate = np.repeat((peaks > threshold).astype(np.float32), frame_n)[: len(audio)]\n\n    fade_n = max(2, int(round(sample_rate * fade_ms / 1000)))\n    ramp = (0.5 * (1.0 - np.cos(math.pi * np.arange(fade_n) / fade_n))).astype(np.float32)\n\n    diff = np.diff(gate, prepend=gate[0])\n    for s in np.where(diff > 0)[0]:\n        end = min(s + fade_n, len(gate))\n        gate[s:end] = np.minimum(gate[s:end], ramp[: end - s])\n    for s in np.where(diff < 0)[0]:\n        start = max(0, s - fade_n)\n        seg = ramp[: s - start][::-1]\n        gate[start:s] = np.minimum(gate[start:s], seg)\n\n    return (audio * gate).astype(np.float32)\n\n\n# ---------------------------------------------------------------------------\n# Pipeline\n# ---------------------------------------------------------------------------\n\ndef postprocess(audio: np.ndarray, sample_rate: int) -> np.ndarray:\n    \"\"\"Gate only (the reverted, minimal pipeline).  Input/output float32.\"\"\"\n    audio = _noise_gate(audio, sample_rate)\n    return audio\n"
+    }
+  ],
+  "native_test_ids": [
+    1,
+    4,
+    44,
+    4,
+    2
+  ]
+}

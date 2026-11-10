@@ -1,0 +1,17 @@
+{
+  "pid": 49308,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-u",
+    "-m",
+    "scripts.detect_nepali_leakage",
+    "--query",
+    "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/swar/real_yt_yt09_069.wav",
+    "--text",
+    "\u092e\u0948\u0932\u0947 \u0924\u0940\u0928 \u0939\u091c\u093e\u0930 \u0930\u0941\u092a\u0948\u092f\u093e \u0924\u093f\u0930\u0947\u0930 \u091f\u094d\u0930\u0947\u0928\u093f\u0919 \u0932\u093f\u090f\u0915\u094b \u0925\u093f\u090f\u0964 \u0924\u0940\u0928 \u0939\u091c\u093e\u0930 \u0930\u0941\u092a\u0948\u092f\u093e \u0924\u094d\u092f\u0924\u093f\u0916\u0947\u0930 \u090f\u0909\u091f\u093e \u092a\u0948\u0938\u093e \u0925\u093f\u092f\u094b\u0964",
+    "--check-query-content",
+    "--out",
+    "/Volumes/T9/hindi-detector/reports/numeric_teacher_check_v54"
+  ],
+  "created_utc": "2026-11-09T02:58:43.863130+00:00"
+}

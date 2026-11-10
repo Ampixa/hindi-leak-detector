@@ -1,0 +1,471 @@
+{
+  "created_utc": "2026-11-08T20:48:54.734820+00:00",
+  "status": "corrected_training_and_audits_complete",
+  "model_path": "/Volumes/T9/hindi-detector/reports/corrected_training_v16/final/model.pt",
+  "model_sha256": "cf46b138ad009c5b133160859a8316d91c7b93784043ea814e327e638341d567",
+  "systems": [
+    "pocket_teacher_250000_24l",
+    "indicf5_stock"
+  ],
+  "partition_texts": {
+    "train": 463,
+    "development": 93,
+    "reserved_evaluation": 102
+  },
+  "partition_focal_lexemes": {
+    "train": 178,
+    "development": 48,
+    "reserved_evaluation": 45
+  },
+  "conditioning_groups": {
+    "train": 8,
+    "development": 4,
+    "reserved_evaluation": 4
+  },
+  "physical_reserved_source_metrics": {
+    "phonetics": {
+      "focal_source": {
+        "n": 206,
+        "positive_labels": 103,
+        "negative_labels": 103,
+        "tp": 86,
+        "fp": 51,
+        "fn": 17,
+        "tn": 52,
+        "precision": 0.6277372262773723,
+        "recall": 0.8349514563106796,
+        "false_positive_rate": 0.49514563106796117,
+        "accuracy": 0.6699029126213593,
+        "balanced_accuracy": 0.6699029126213591,
+        "brier": 0.21802574866151375
+      },
+      "conservative_focal_source": {
+        "n": 206,
+        "positive_labels": 103,
+        "negative_labels": 103,
+        "tp": 40,
+        "fp": 13,
+        "fn": 63,
+        "tn": 90,
+        "precision": 0.7547169811320755,
+        "recall": 0.3883495145631068,
+        "false_positive_rate": 0.1262135922330097,
+        "accuracy": 0.6310679611650486,
+        "balanced_accuracy": 0.6310679611650485,
+        "brier": 0.21802574866151375
+      },
+      "operating_points": {
+        "balanced": 0.35999999999999993,
+        "high": 0.7929944396018982,
+        "low": 0.1768156737089157
+      },
+      "focal_lexemes": 45,
+      "lexeme_cluster_balanced_accuracy_ci95": [
+        0.6118339077412513,
+        0.7196666666666667
+      ],
+      "unchanged_neighbor_flag_rate": 0.45489690721649484,
+      "conservative_unchanged_neighbor_flag_rate": 0.1134020618556701,
+      "uncertain_fraction": 0.6116504854368932,
+      "paired_source_ordering": {
+        "pairs": 103,
+        "f5_above_teacher": 83,
+        "fraction": 0.8058252427184466,
+        "median_score_delta": 0.19385886192321777
+      }
+    },
+    "prosody": {
+      "focal_source": {
+        "n": 206,
+        "positive_labels": 103,
+        "negative_labels": 103,
+        "tp": 47,
+        "fp": 17,
+        "fn": 56,
+        "tn": 86,
+        "precision": 0.734375,
+        "recall": 0.4563106796116505,
+        "false_positive_rate": 0.1650485436893204,
+        "accuracy": 0.6456310679611651,
+        "balanced_accuracy": 0.645631067961165,
+        "brier": 0.22063157329037855
+      },
+      "conservative_focal_source": {
+        "n": 206,
+        "positive_labels": 103,
+        "negative_labels": 103,
+        "tp": 19,
+        "fp": 5,
+        "fn": 84,
+        "tn": 98,
+        "precision": 0.7916666666666666,
+        "recall": 0.18446601941747573,
+        "false_positive_rate": 0.04854368932038835,
+        "accuracy": 0.5679611650485437,
+        "balanced_accuracy": 0.5679611650485437,
+        "brier": 0.22063157329037855
+      },
+      "operating_points": {
+        "balanced": 0.5499999999999999,
+        "high": 0.6751213073730469,
+        "low": 0.24054838716983795
+      },
+      "focal_lexemes": 45,
+      "lexeme_cluster_balanced_accuracy_ci95": [
+        0.5736842105263158,
+        0.6956521739130435
+      ],
+      "unchanged_neighbor_flag_rate": 0.23969072164948454,
+      "conservative_unchanged_neighbor_flag_rate": 0.12242268041237113,
+      "uncertain_fraction": 0.7233009708737864,
+      "paired_source_ordering": {
+        "pairs": 103,
+        "f5_above_teacher": 80,
+        "fraction": 0.7766990291262136,
+        "median_score_delta": 0.10041776299476624
+      }
+    },
+    "combined": {
+      "focal_source": {
+        "n": 206,
+        "positive_labels": 103,
+        "negative_labels": 103,
+        "tp": 71,
+        "fp": 31,
+        "fn": 32,
+        "tn": 72,
+        "precision": 0.696078431372549,
+        "recall": 0.6893203883495146,
+        "false_positive_rate": 0.30097087378640774,
+        "accuracy": 0.6941747572815534,
+        "balanced_accuracy": 0.6941747572815534,
+        "brier": 0.20452065601205083
+      },
+      "conservative_focal_source": {
+        "n": 206,
+        "positive_labels": 103,
+        "negative_labels": 103,
+        "tp": 45,
+        "fp": 13,
+        "fn": 58,
+        "tn": 90,
+        "precision": 0.7758620689655172,
+        "recall": 0.4368932038834951,
+        "false_positive_rate": 0.1262135922330097,
+        "accuracy": 0.6553398058252428,
+        "balanced_accuracy": 0.6553398058252426,
+        "brier": 0.20452065601205083
+      },
+      "operating_points": {
+        "balanced": 0.5099999999999999,
+        "high": 0.7588273286819458,
+        "low": 0.15569888055324554
+      },
+      "focal_lexemes": 45,
+      "lexeme_cluster_balanced_accuracy_ci95": [
+        0.619863085284281,
+        0.7527191894127377
+      ],
+      "unchanged_neighbor_flag_rate": 0.27319587628865977,
+      "conservative_unchanged_neighbor_flag_rate": 0.10438144329896908,
+      "uncertain_fraction": 0.5485436893203883,
+      "paired_source_ordering": {
+        "pairs": 103,
+        "f5_above_teacher": 87,
+        "fraction": 0.8446601941747572,
+        "median_score_delta": 0.26054203510284424
+      }
+    }
+  },
+  "original_tts_transfer_source_metrics": {
+    "phonetics": {
+      "focal_source": {
+        "n": 206,
+        "positive_labels": 103,
+        "negative_labels": 103,
+        "tp": 73,
+        "fp": 55,
+        "fn": 30,
+        "tn": 48,
+        "precision": 0.5703125,
+        "recall": 0.7087378640776699,
+        "false_positive_rate": 0.5339805825242718,
+        "accuracy": 0.587378640776699,
+        "balanced_accuracy": 0.587378640776699,
+        "brier": 0.2466441708536411
+      },
+      "conservative_focal_source": {
+        "n": 206,
+        "positive_labels": 103,
+        "negative_labels": 103,
+        "tp": 25,
+        "fp": 11,
+        "fn": 78,
+        "tn": 92,
+        "precision": 0.6944444444444444,
+        "recall": 0.24271844660194175,
+        "false_positive_rate": 0.10679611650485436,
+        "accuracy": 0.5679611650485437,
+        "balanced_accuracy": 0.5679611650485437,
+        "brier": 0.2466441708536411
+      },
+      "operating_points": {
+        "balanced": 0.35999999999999993,
+        "high": 0.7929944396018982,
+        "low": 0.1768156737089157
+      },
+      "focal_lexemes": 45,
+      "lexeme_cluster_balanced_accuracy_ci95": [
+        0.5304878048780488,
+        0.6305495356037151
+      ],
+      "unchanged_neighbor_flag_rate": null,
+      "conservative_unchanged_neighbor_flag_rate": null,
+      "uncertain_fraction": 0.6893203883495146,
+      "paired_source_ordering": {
+        "pairs": 103,
+        "f5_above_teacher": 69,
+        "fraction": 0.6699029126213593,
+        "median_score_delta": 0.17547492682933807
+      }
+    },
+    "prosody": {
+      "focal_source": {
+        "n": 206,
+        "positive_labels": 103,
+        "negative_labels": 103,
+        "tp": 38,
+        "fp": 14,
+        "fn": 65,
+        "tn": 89,
+        "precision": 0.7307692307692307,
+        "recall": 0.36893203883495146,
+        "false_positive_rate": 0.13592233009708737,
+        "accuracy": 0.616504854368932,
+        "balanced_accuracy": 0.616504854368932,
+        "brier": 0.23536473002839894
+      },
+      "conservative_focal_source": {
+        "n": 206,
+        "positive_labels": 103,
+        "negative_labels": 103,
+        "tp": 13,
+        "fp": 6,
+        "fn": 90,
+        "tn": 97,
+        "precision": 0.6842105263157895,
+        "recall": 0.1262135922330097,
+        "false_positive_rate": 0.05825242718446602,
+        "accuracy": 0.5339805825242718,
+        "balanced_accuracy": 0.5339805825242718,
+        "brier": 0.23536473002839894
+      },
+      "operating_points": {
+        "balanced": 0.5499999999999999,
+        "high": 0.6751213073730469,
+        "low": 0.24054838716983795
+      },
+      "focal_lexemes": 45,
+      "lexeme_cluster_balanced_accuracy_ci95": [
+        0.5631904069767442,
+        0.6594152614626753
+      ],
+      "unchanged_neighbor_flag_rate": null,
+      "conservative_unchanged_neighbor_flag_rate": null,
+      "uncertain_fraction": 0.7572815533980582,
+      "paired_source_ordering": {
+        "pairs": 103,
+        "f5_above_teacher": 79,
+        "fraction": 0.7669902912621359,
+        "median_score_delta": 0.09135803580284119
+      }
+    },
+    "combined": {
+      "focal_source": {
+        "n": 206,
+        "positive_labels": 103,
+        "negative_labels": 103,
+        "tp": 56,
+        "fp": 27,
+        "fn": 47,
+        "tn": 76,
+        "precision": 0.6746987951807228,
+        "recall": 0.5436893203883495,
+        "false_positive_rate": 0.2621359223300971,
+        "accuracy": 0.6407766990291263,
+        "balanced_accuracy": 0.6407766990291262,
+        "brier": 0.23722085529146156
+      },
+      "conservative_focal_source": {
+        "n": 206,
+        "positive_labels": 103,
+        "negative_labels": 103,
+        "tp": 34,
+        "fp": 13,
+        "fn": 69,
+        "tn": 90,
+        "precision": 0.723404255319149,
+        "recall": 0.3300970873786408,
+        "false_positive_rate": 0.1262135922330097,
+        "accuracy": 0.6019417475728155,
+        "balanced_accuracy": 0.6019417475728155,
+        "brier": 0.23722085529146156
+      },
+      "operating_points": {
+        "balanced": 0.5099999999999999,
+        "high": 0.7588273286819458,
+        "low": 0.15569888055324554
+      },
+      "focal_lexemes": 45,
+      "lexeme_cluster_balanced_accuracy_ci95": [
+        0.5753000872981231,
+        0.7033973294147712
+      ],
+      "unchanged_neighbor_flag_rate": null,
+      "conservative_unchanged_neighbor_flag_rate": null,
+      "uncertain_fraction": 0.5728155339805825,
+      "paired_source_ordering": {
+        "pairs": 103,
+        "f5_above_teacher": 74,
+        "fraction": 0.7184466019417476,
+        "median_score_delta": 0.19594744965434074
+      }
+    }
+  },
+  "recorded_variation": {
+    "status": "real_recorded_variation_audit_complete_not_error_accuracy",
+    "model_sha256": "cf46b138ad009c5b133160859a8316d91c7b93784043ea814e327e638341d567",
+    "summary": {
+      "phonetics": {
+        "observations": 136,
+        "conservative_source_flag_rate": 0.11764705882352941,
+        "median_source_score": 0.28207141160964966,
+        "two_reference_word_pairs": 68,
+        "reference_flag_flip_fraction": 0.08823529411764706,
+        "median_reference_score_delta": 0.10662253201007843
+      },
+      "prosody": {
+        "observations": 136,
+        "conservative_source_flag_rate": 0.17647058823529413,
+        "median_source_score": 0.4247678518295288,
+        "two_reference_word_pairs": 68,
+        "reference_flag_flip_fraction": 0.17647058823529413,
+        "median_reference_score_delta": 0.08829396963119507
+      },
+      "combined": {
+        "observations": 136,
+        "conservative_source_flag_rate": 0.125,
+        "median_source_score": 0.24057120829820633,
+        "two_reference_word_pairs": 68,
+        "reference_flag_flip_fraction": 0.10294117647058823,
+        "median_reference_score_delta": 0.07323003560304642
+      }
+    },
+    "human_recordings_scored": 63,
+    "human_speaker_groups": 58,
+    "human_reference_pairs": 126,
+    "original_human_recordings": 63,
+    "actual_hindi_error_accuracy": null,
+    "limits": [
+      "Source-score/flag rates on recorded regional variation, not native-error false-positive ground truth.",
+      "All selected metadata report West Bengal; Hindi exposure and Nepal residence are not verified.",
+      "Human recordings were not used in corrected classifier fitting; teacher pretraining overlap is not established.",
+      "Prior-explored bank and overlapping focal lexemes; no claim of untouched human pronunciation labels.",
+      "ASR-conditioned coverage can exclude legitimate dialect variation; report unscored counts."
+    ]
+  },
+  "reference_sensitivity_by_actual_occurrence": {
+    "phonetics": {
+      "word_occurrences_with_two_references": 68,
+      "flag_flip_fraction": 0.08823529411764706,
+      "median_score_delta": 0.10662253201007843
+    },
+    "prosody": {
+      "word_occurrences_with_two_references": 68,
+      "flag_flip_fraction": 0.17647058823529413,
+      "median_score_delta": 0.08829396963119507
+    },
+    "combined": {
+      "word_occurrences_with_two_references": 68,
+      "flag_flip_fraction": 0.10294117647058823,
+      "median_score_delta": 0.07323003560304642
+    }
+  },
+  "content_coverage_by_source_split_kind": {
+    "pocket_teacher_250000_24l/train/authored_targeted_carrier": {
+      "pass": 510,
+      "quarantine": 2
+    },
+    "pocket_teacher_250000_24l/train/natural_transcript": {
+      "pass": 510,
+      "quarantine": 2
+    },
+    "indicf5_stock/train/authored_targeted_carrier": {
+      "pass": 471,
+      "quarantine": 41
+    },
+    "indicf5_stock/train/natural_transcript": {
+      "pass": 506,
+      "quarantine": 6
+    },
+    "pocket_teacher_250000_24l/reserved_evaluation/authored_targeted_carrier": {
+      "pass": 184
+    },
+    "pocket_teacher_250000_24l/development/authored_targeted_carrier": {
+      "pass": 231,
+      "quarantine": 3
+    },
+    "indicf5_stock/reserved_evaluation/authored_targeted_carrier": {
+      "pass": 153,
+      "quarantine": 31
+    },
+    "indicf5_stock/development/authored_targeted_carrier": {
+      "pass": 195,
+      "quarantine": 39
+    },
+    "pocket_teacher_250000_24l/development/natural_transcript": {
+      "pass": 22
+    },
+    "pocket_teacher_250000_24l/reserved_evaluation/natural_transcript": {
+      "pass": 71,
+      "quarantine": 1
+    },
+    "indicf5_stock/development/natural_transcript": {
+      "pass": 21,
+      "quarantine": 1
+    },
+    "indicf5_stock/reserved_evaluation/natural_transcript": {
+      "pass": 72
+    }
+  },
+  "cpu_recovery": {
+    "recovered_texts": 7,
+    "recovered_ids": [
+      "night11_1819a5fe1a857452fc9b",
+      "night11_1f7a39e10e0426ab8dda",
+      "night11_1fb20b204bf7ed159c99",
+      "night11_354e0cf53cd96fc78e77",
+      "night11_35bd0a955b9a8a72355c",
+      "night11_3806b07b990eec6dc82c",
+      "night11_3ea527a33c6147063e80"
+    ],
+    "original_feature_errors_retained": true,
+    "encoder_policy": "Each recovered quartet and physical pair entirely CPU; other groups original MPS.",
+    "boundary_quarantines": [
+      {
+        "text_id": "night11_d4b835f23d35422c596b",
+        "reason": "inspected zero-context word boundary interrupted original run",
+        "status": "quarantined_not_error_label"
+      }
+    ],
+    "physical_content_quarantines": 5,
+    "final_model_sha256": "cf46b138ad009c5b133160859a8316d91c7b93784043ea814e327e638341d567",
+    "previous_failures": "/Volumes/T9/hindi-detector/reports/corrected_training_v16/recovery_v17/previous_failure_states.json"
+  },
+  "actual_hindi_error_accuracy": null,
+  "actual_prosody_error_accuracy": null,
+  "scope": "Known source changes and score distributions. No independently labeled real Hindi pronunciation/prosody error benchmark.",
+  "review_url": "http://100.80.123.8:8770/comparison",
+  "native_report_sha256": "58d98aa860b3a6ee99d224a93d3a2a2de8b1976891ae249e0c4cf41eed6dc284",
+  "model_report_sha256": "7483e7a159ac070076d4b67cb258c1710f6b048c294b55d55dc75d5681d1cf71"
+}

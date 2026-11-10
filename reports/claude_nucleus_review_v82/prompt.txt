@@ -1,0 +1,367 @@
+Requested adversarial pre-fit delta review; no tools, execution, audio listening. The previous14k word-level raw logMel+local14 CNN completed strict12jointgroup/voiceCV then devcalibration. CV min(P1,P1w)recall.826 vs phone-only.805; dev94/111P1,95/111P1w,5/109S2false,40-60msdevrecall.770,shortfalseclusterfailedgate. Heldouttestnotopened,liveunchanged. We continue with ONE focused correction: loss-only local vowel-region supervision, not more teacher data or arbitraryarchitecturesearch. Same immutable train385sources184lexemes/dev111sources;4disjointconditioninggroups each,7physicalfamilies. Same inputcachequery-only64logMel+2observedfocusmasks+neighborphones+local14; no knowneditcoords in forward inputs. Newtargets/masks derived from known physical manipulations ONLY as training LOSS targets, sourcegeometrynotindependent humanphonegold. Unknown frames mask0. NewdenseCNN event head, contextconditioned, any-vowelregionlogits; gap-local softmaxpool enters worddeletionlogit with constrainednegative coefficient. No globalacousticpool. Classifier phone/context branch preserved; explicit no-acousticMLPablation same classweights/ranking;32fixedepochs,S2halfnegativeweight,aux.5frameBCE normalizedperrow. Same12trainCV jointfolds,devonlycalibration;globalOOFq97.5S0/95others,minlogit0;all-attemptedabstentionsinclmisses;40-60msgate>=.8recall,S2FPR<=.05. Stageabsolutephysicaltestreadinessseparatefrommechanistic superiority>=.05 overbestfixedbaseline; neither implies realHindiaccuracy. Swar7confirmed and freshcross-systemv80 remainoutoffit. Please check specific new blocker: targetregionmapping forS1/S2 and resampledcenteredSTFT geometry, source-to-target versus oracleinput leakage, whether monotonic nucleusveto genuinelyhasthatdirection, and hiddenmaskshortcutrisks. Do not block fitting for lackofhumanlabels in this controlled experiment. GOorconcretefixes, concise. Sourcecontrols were made from originalsourcevowelspan [a,b]:S0 same32samplefade splice reinserts[sourcea:b];P1/P1w samefade splice removes[a,b];S_world continuousWORLDoriginal;S2 continuousWORLD fullrenderpiecewiseretime target[a,a+(b-a)//2];S1 samePCMcutbeforewordby>=50ms, removesmatchedlength. PositivecutjoinsandcontinuousWORLDshorteningstilldiffer, soartifactsremainrisk; notclaimedeliminated.
+FILE hindi_detector/nucleus_deletion.py
+"""Localized vowel-region supervision; intervention geometry is target-only."""
+from __future__ import annotations
+
+import numpy as np
+import torch
+from torch import nn
+import torch.nn.functional as F
+
+SCHEMA = 'nucleus_deletion_v82'
+
+
+def supervision(row, samples):
+    """Known manipulation coordinates create LOSS targets, never model inputs."""
+    start, end = row['production_word']['start'], row['production_word']['end']
+    left = max(0, int(np.floor((start - .04) * 16000)))
+    right = min(samples, int(np.ceil((end + .04) * 16000)))
+    raw_frames = (right - left) // 80 + 1  # Verified centered512 FFT, hop80.
+    at = np.clip((np.arange(128) + .5) * raw_frames / 128 - .5, 0, raw_frames - 1)
+    times = left / 16000 + at * 80 / 16000
+    half = np.maximum(np.gradient(times) / 2, .0025)
+    a, b = row['source_region']['start_sample'], row['source_region']['end_sample']
+    edit = row['edit']
+    if row['family'] in {'P1', 'P1w'}:
+        if edit['replacement_samples'] != 0:
+            raise ValueError('Deletion target has retained replacement samples')
+        lo, hi, value = edit['start_sample'] / 16000 - .02, edit['start_sample'] / 16000 + .02, 0.
+    else:
+        value = 1.
+        if row['family'] == 'S2':
+            a, b = edit['start_sample'], edit['start_sample'] + edit['replacement_samples']
+        elif row['family'] == 'S1':
+            if edit['end_sample'] <= a:
+                shift = edit['replacement_samples'] - (edit['end_sample'] - edit['start_sample'])
+                a, b = a + shift, b + shift
+            elif edit['start_sample'] < b:
+                raise ValueError('Off-target control overlaps the target nucleus')
+        elif row['family'] not in {'S_original', 'S0', 'S_world'}:
+            raise ValueError('Unregistered auxiliary target family')
+        lo, hi = a / 16000, b / 16000
+        trim = min(.0125, (hi - lo) / 4)
+        lo, hi = lo + trim, hi - trim
+    if not 0 <= lo < hi <= samples / 16000:
+        raise ValueError('Known physical target outside emitted waveform')
+    mask = np.maximum(0., np.minimum(times + half, hi) - np.maximum(times - half, lo)) / (2 * half)
+    if mask.sum() <= 0:
+        raise ValueError('Auxiliary target has no overlap with observed production word crop')
+    return np.full(128, value, np.float32), mask.astype(np.float32)
+
+
+class PhoneContextNetwork(nn.Module):
+    def __init__(self, vocabulary_size):
+        super().__init__()
+        self.context = nn.Embedding(vocabulary_size, 4)
+        self.head = nn.Sequential(nn.Linear(22, 16), nn.SiLU(), nn.Dropout(.1), nn.Linear(16, 1))
+
+    def forward(self, mel, context, phone):
+        return self.head(torch.cat([phone, self.context(context).flatten(1)], dim=1)).squeeze(1)
+
+
+class NucleusDeletionNetwork(PhoneContextNetwork):
+    def __init__(self, vocabulary_size):
+        super().__init__(vocabulary_size)
+        self.temporal = nn.Sequential(nn.Conv1d(66, 24, 5, padding=2), nn.GroupNorm(6, 24), nn.SiLU(),
+            nn.Conv1d(24, 24, 3, padding=1), nn.GroupNorm(6, 24), nn.SiLU(),
+            nn.Conv1d(24, 24, 3, dilation=2, padding=2), nn.GroupNorm(6, 24), nn.SiLU())
+        self.nucleus = nn.Sequential(nn.Conv1d(32, 16, 3, padding=1), nn.GroupNorm(4, 16), nn.SiLU(), nn.Conv1d(16, 1, 1))
+        self.vowel_veto = nn.Parameter(torch.tensor(0.))
+
+    def forward(self, mel, context, phone, *, auxiliary=False):
+        embedded = self.context(context).flatten(1)
+        values = self.temporal(mel)
+        dense = self.nucleus(torch.cat([values, embedded[:, :, None].expand(-1, -1, 128)], dim=1)).squeeze(1)
+        # Only the observed deletion-anchor neighborhood can supply the acoustic
+        # veto. No global acoustic pool and no known edit-location input.
+        focus = mel[:, 64]
+        focus = torch.where(focus >= .25, focus, torch.zeros_like(focus))
+        present = torch.logsumexp(dense + torch.log(focus.clamp_min(1e-30)), dim=1) - torch.log(focus.sum(1).clamp_min(1e-6))
+        logits = self.head(torch.cat([phone, embedded], dim=1)).squeeze(1) - F.softplus(self.vowel_veto) * present
+        return (logits, dense) if auxiliary else logits
+
+
+FILE scripts/prepare_nucleus_supervision.py
+"""Add train/dev loss-only vowel-region targets to immutable v81 acoustics."""
+from __future__ import annotations
+
+import json
+import logging
+from pathlib import Path
+
+import numpy as np
+import soundfile as sf
+
+from hindi_detector.artifacts import write_group
+from hindi_detector.corrected_synthesis import sha
+from hindi_detector.nucleus_deletion import supervision
+from scripts.train_anchored_detector import read_partition
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def main():
+    base = ROOT / 'reports/acoustic_features_v81_reviewed'
+    out = ROOT / 'reports/nucleus_targets_v82'
+    if out.exists():
+        raise FileExistsError(out)
+    write_group(out, {'protocol.json': {'input_cache_protocol_sha256': sha(base / 'protocol.json'),
+        'target_builder_sha256': sha(ROOT / 'hindi_detector/nucleus_deletion.py'),
+        'supervision': 'Loss only: retained original/WORLD/sham nuclei have positive central-region targets; removed nuclei have negative40ms splice-neighborhood targets. S1 coordinates shifted only in target labels after off-target cut.',
+        'unknown_frames': 'All other frames have zero loss weight, not a negative phoneme label.',
+        'boundary_caveat': 'Coordinates describe known physical manipulations and source-probe regions, not human-verified phoneme boundaries.',
+        'input_boundary': 'No edit/source-region/target/mask arrays enter network.forward; same query-only v81 mel/context/local14 inputs. Targets and masks consumed only by auxiliary loss.',
+        'partitions': ['train', 'development'], 'test_read': False}},
+        'Auxiliary training-only vowel-region labels. PART.npz target/mask arrays128bins aligned exactly to immutable measured v81 rows; PART.inputs.json row/cache/source receipt hashes and class counts; report.json completeness. '
+        'No duplicated mel/WAV/model encoder assets. Owner Ampixa/user; review2026-11-10, active consumer localized training v82. NOT on HF, inherited research rights. Keep compact label provenance and selected head; targets disposable24h after reproducibility consumer closes.',
+        ['.venv-indicf5/bin/python -m scripts.prepare_nucleus_supervision'])
+    report = {}
+    for part in ('train', 'development'):
+        cache = json.loads((base / (part + '.index.json')).read_text())
+        cache = [r for r in cache if r['status'] == 'measured']
+        rows, _, inputs = read_partition(part)
+        lookup = {(r['pair_id'], r['family']): r for r in rows}
+        targets, masks = [], []
+        for index, record in enumerate(cache):
+            if record['array_index'] != index:
+                raise ValueError('Auxiliary target/input row order differs')
+            row = lookup[record['pair_id'], record['family']]
+            if row['audio_sha256'] != record['audio_sha256']:
+                raise ValueError('Known intervention label belongs to a different waveform')
+            path = ROOT / ('reports/native_main_controls_' + part + '_v71') / row['audio']
+            info = sf.info(path)
+            if info.samplerate != 16000 or info.channels != 1:
+                raise ValueError('Auxiliary coordinates require original16k mono control')
+            target, mask = supervision(row, info.frames)
+            targets.append(target); masks.append(mask)
+        path = out / (part + '.npz')
+        np.savez_compressed(path, targets=np.stack(targets), masks=np.stack(masks))
+        report[part] = {'rows': len(targets), 'sha256': sha(path), 'input_index_sha256': sha(base / (part + '.index.json'))}
+        (out / (part + '.inputs.json')).write_text(json.dumps({'source_inputs': inputs, **report[part]}, ensure_ascii=False, indent=2) + '\n')
+    (out / 'report.json').write_text(json.dumps({'status': 'complete_loss_only_supervision', 'partitions': report}, indent=2) + '\n')
+    print(json.dumps(report), flush=True)
+
+
+if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO)
+    try:
+        main()
+    except Exception:
+        logging.exception('Loss-only nucleus target construction failed explicitly; no target geometry enters inference')
+        raise
+
+
+FILE tests/test_nucleus_deletion.py
+import unittest
+
+import numpy as np
+import torch
+import torch.nn.functional as F
+
+from hindi_detector.nucleus_deletion import NucleusDeletionNetwork, supervision
+
+
+class NucleusSupervisionTests(unittest.TestCase):
+    def row(self, family, shift=0):
+        return {'family': family, 'source_region': {'start_sample': 8000, 'end_sample': 9600},
+                'production_word': {'start': .3 + shift / 16000, 'end': .9 + shift / 16000},
+                'edit': {'start_sample': 8000, 'end_sample': 9600, 'replacement_samples': 1600}}
+
+    def test_retained_and_removed_targets_only_supervise_local_frames(self):
+        kept = self.row('S0')
+        target, mask = supervision(kept, 24000)
+        self.assertTrue(np.all(target == 1))
+        self.assertGreater(mask.sum(), 0)
+        self.assertLess(mask.sum(), 30)
+        removed = self.row('P1')
+        removed['edit']['replacement_samples'] = 0
+        target, mask = supervision(removed, 22400)
+        self.assertTrue(np.all(target == 0))
+        self.assertGreater(mask.sum(), 0)
+
+    def test_off_target_cut_moves_loss_labels_with_the_actual_word(self):
+        _, original = supervision(self.row('S_original'), 24000)
+        moved = self.row('S1', -1600)
+        moved['edit'] = {'start_sample': 1600, 'end_sample': 3200, 'replacement_samples': 0}
+        _, after = supervision(moved, 22400)
+        np.testing.assert_allclose(after, original, atol=1e-6)
+
+    def test_increased_local_vowel_evidence_can_only_reduce_deletion_logit(self):
+        torch.manual_seed(82)
+        net = NucleusDeletionNetwork(10).eval()
+        mel = torch.randn(2, 66, 128)
+        mel[:, 64:] = torch.sigmoid(mel[:, 64:])
+        context = torch.zeros((2, 2), dtype=torch.long)
+        phone = torch.zeros(2, 14)
+        before = net(mel, context, phone)
+        with torch.no_grad():
+            net.nucleus[-1].bias.add_(1.)
+        after = net(mel, context, phone)
+        expected = -F.softplus(net.vowel_veto).detach()
+        torch.testing.assert_close(after - before, torch.full_like(before, expected.item()), atol=1e-5, rtol=1e-5)
+        with self.assertRaises(TypeError):
+            net(mel, context, phone, edit={'start_sample': 0})
+
+
+FILE hindi_detector/acoustic_deletion.py
+"""Versioned query-only high-resolution word acoustics for deletion learning."""
+from __future__ import annotations
+
+import math
+
+import numpy as np
+import torch
+from torch import nn
+import torch.nn.functional as F
+import torchaudio
+
+from hindi_detector.anchored_detector import select
+
+SCHEMA = 'acoustic_deletion_v81'
+RECIPE = {'sample_rate': 16000, 'n_fft': 512, 'window_samples': 400, 'hop_samples': 80,
+          'mel_bands': 64, 'f_min': 80., 'f_max': 7600., 'time_bins': 128,
+          'word_padding_seconds': .04, 'focus_sigma_fraction': .08,
+          'normalization': 'Per-query-word RMS, then global log-mel mean/std; no dataset or reference normalization.',
+          'spectral_floor': 'Relative to query crop maximum power,80dB down.',
+          'duration_caveat': 'No duration scalar enters the acoustic head; fixed padding/resampling still encode duration indirectly. Compare explicit duration baseline.',
+          'clock': 'Actual duration / verified convolution output frame count, matching pinned phone runtime.',
+          'forbidden_inputs': ['edit geometry', 'mapped_word', 'source_region', 'reference waveform',
+                               'source/speaker/word ID', 'physical label', 'absolute duration scalar']}
+PROCESSING = {'S_original': 'original_pcm', 'S0': 'original_pcm_splice', 'P1': 'original_pcm_splice',
+              'S1': 'original_pcm_splice', 'S_world': 'WORLD_base', 'P1w': 'WORLD_base', 'S2': 'WORLD_base'}
+
+
+def require_query_evidence(value):
+    if isinstance(value, dict):
+        forbidden = {'edit', 'mapped_word', 'source_region', 'source_features', 'oracle', 'reference',
+                     'reference_audio', 'label', 'word_id', 'voice', 'speaker_id'}
+        if forbidden & value.keys():
+            raise ValueError('Non-query provenance/label entered acoustic evidence')
+        for child in value.values():
+            require_query_evidence(child)
+    elif isinstance(value, list):
+        for child in value:
+            require_query_evidence(child)
+
+
+def frame_count(samples, configuration):
+    if configuration['model_type'] != 'wav2vec2' or configuration.get('add_adapter'):
+        raise ValueError('Unsupported phone output geometry')
+    kernels, strides = configuration['conv_kernel'], configuration['conv_stride']
+    if not kernels or len(kernels) != len(strides):
+        raise ValueError('Incomplete convolution geometry')
+    value = int(samples)
+    for kernel, stride in zip(kernels, strides, strict=True):
+        if not isinstance(kernel, int) or not isinstance(stride, int) or kernel < 1 or stride < 1:
+            raise ValueError('Invalid convolution geometry')
+        value = (value - kernel) // stride + 1
+    if value < 1:
+        raise ValueError('Too few samples for phone frontend')
+    return value
+
+
+class WordAcoustics:
+    def __init__(self, phone_vocabulary, phone_configurations):
+        if len(phone_configurations) != 2 or len(set(phone_vocabulary.values())) != len(phone_vocabulary):
+            raise ValueError('Need explicit two-probe geometry and unique project phone IDs')
+        self.vocabulary = phone_vocabulary
+        self.configurations = phone_configurations
+        self.window = torch.hann_window(RECIPE['window_samples'])
+        self.filters = torchaudio.functional.melscale_fbanks(
+            n_freqs=RECIPE['n_fft'] // 2 + 1, f_min=RECIPE['f_min'], f_max=RECIPE['f_max'],
+            n_mels=RECIPE['mel_bands'], sample_rate=16000, norm='slaney', mel_scale='htk')
+
+    def extract(self, samples, word_bounds, evidence, native_phones, site_index, local_features):
+        # Deliberately accept individual runtime-observable arguments instead of
+        # a training row containing source labels and intervention coordinates.
+        wave = np.asarray(samples, np.float32)
+        if wave.ndim != 1 or not np.isfinite(wave).all() or len(wave) < 3200 or np.max(np.abs(wave)) < 1e-5:
+            raise ValueError('Need finite non-silent16k mono utterance')
+        start, end = word_bounds
+        if not 0 <= start < end <= len(wave) / 16000 or len(evidence) != 2:
+            raise ValueError('Invalid production word bounds or probe evidence')
+        require_query_evidence(evidence)
+        if not 0 < site_index < len(native_phones) - 1 or native_phones[site_index] != 'ax':
+            raise ValueError('Only internal inherent-vowel deletion sites are supported')
+        neighbors = [native_phones[site_index - 1], native_phones[site_index + 1]]
+        if any(p not in self.vocabulary for p in neighbors):
+            raise ValueError('Neighbor project phone missing from pinned input vocabulary')
+        left = max(0, int(math.floor((start - .04) * 16000)))
+        right = min(len(wave), int(math.ceil((end + .04) * 16000)))
+        crop = torch.from_numpy(wave[left:right].copy())
+        if len(crop) <= RECIPE['n_fft'] // 2:
+            raise ValueError('Observed word crop too short for spectral analysis')
+        with torch.inference_mode():
+            crop = crop / crop.square().mean().sqrt().clamp_min(1e-6)
+            spectrum = torch.stft(crop, n_fft=512, hop_length=80, win_length=400,
+                window=self.window, center=True, return_complex=True).abs().square()
+            power = self.filters.T @ spectrum
+            mel = torch.log(torch.maximum(power, power.max().clamp_min(1e-12) * 1e-8))
+            mel = (mel - mel.mean()) / mel.std(unbiased=False).clamp_min(.1)
+            mel = F.interpolate(mel[None], size=128, mode='linear', align_corners=False)[0].clamp(-8, 8)
+        gaps, nuclei, fallbacks = [], [], 0
+        fallback = start + (end - start) * (site_index + .5) / len(native_phones)
+        for config, probe in zip(self.configurations, evidence, strict=True):
+            dt = len(wave) / 16000 / frame_count(len(wave), config)
+            if len(probe['windows']) != 3:
+                raise ValueError('Need all three production boundary recipes')
+            for window in probe['windows']:
+                gaps.append((window['gap_start_frame'] + window['gap_end_frame']) / 2 * dt)
+                span = window['native_focal_span']
+                fallbacks += span is None
+                nuclei.append(fallback if span is None else
+                    (window['start_frame'] + (span['start_frame'] + span['end_frame']) / 2) * dt)
+        grid = np.linspace(0, 1, 128, dtype=np.float32)
+        masks = []
+        for centers in (gaps, nuclei):
+            seconds = float(np.mean(centers))
+            if not start <= seconds <= end:
+                raise ValueError('Observed phone-location hint outside production word bounds')
+            center = (seconds - left / 16000) / ((right - left) / 16000)
+            masks.append(np.exp(-.5 * ((grid - center) / .08) ** 2))
+        acoustic = np.concatenate([mel.numpy(), np.stack(masks)], axis=0).astype(np.float32)
+        if acoustic.shape != (66, 128) or not np.isfinite(acoustic).all():
+            raise ValueError('Invalid high-resolution spectral features')
+        diagnostic = {'native_hint_fallback_windows': int(fallbacks), 'hint_windows': 6,
+                      'observed_word_seconds': end - start, 'observed_crop_seconds': (right - left) / 16000}
+        return acoustic, np.array([self.vocabulary[p] for p in neighbors], np.int64), select(np.asarray(local_features)[None], 'local14')[0].astype(np.float32), diagnostic
+
+
+class AcousticDeletionNetwork(nn.Module):
+    def __init__(self, vocabulary_size):
+        super().__init__()
+        self.context = nn.Embedding(vocabulary_size, 4)
+        self.temporal = nn.Sequential(
+            nn.Conv1d(66, 24, 5, padding=2), nn.GroupNorm(6, 24), nn.SiLU(),
+            nn.Conv1d(24, 24, 3, padding=1), nn.GroupNorm(6, 24), nn.SiLU(),
+            nn.Conv1d(24, 24, 3, padding=2, dilation=2), nn.GroupNorm(6, 24), nn.SiLU())
+        self.head = nn.Sequential(nn.Linear(94, 24), nn.SiLU(), nn.Dropout(.1), nn.Linear(24, 1))
+
+    def forward(self, mel, context, phone):
+        if mel.ndim != 3 or mel.shape[1:] != (66, 128) or context.shape != (len(mel), 2) or phone.shape != (len(mel), 14):
+            raise ValueError('Acoustic head input schema differs')
+        values = self.temporal(mel)
+        pooled = [values.mean(-1)]
+        for mask in (mel[:, 64:65], mel[:, 65:66]):
+            pooled.append((values * mask).sum(-1) / mask.sum(-1).clamp_min(1e-6))
+        return self.head(torch.cat([*pooled, self.context(context).flatten(1), phone], dim=1)).squeeze(1)
+
+
+def pair_indices(rows):
+    lookup = {}
+    for i, row in enumerate(rows):
+        key = row['pair_id'], row['family']
+        if key in lookup:
+            raise ValueError('Duplicate source/family in paired acoustic objective')
+        lookup[key] = i
+    pairs = []
+    for identity in sorted({r['pair_id'] for r in rows}):
+        for positive, negative in [('P1', 'S0'), ('P1w', 'S_world'), ('P1w', 'S2')]:
+            if (identity, positive) in lookup and (identity, negative) in lookup:
+                a, b = lookup[identity, positive], lookup[identity, negative]
+                if rows[a]['label'] != 1 or rows[b]['label'] != 0:
+                    raise ValueError('Physical family/label disagreement in ranking objective')
+                if PROCESSING[positive] != PROCESSING[negative]:
+                    raise ValueError('Rank pair does not share its original/WORLD processing base')
+                pairs.append((a, b))
+    return pairs

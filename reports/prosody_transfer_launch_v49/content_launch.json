@@ -1,0 +1,14 @@
+{
+  "pid": 47554,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-asr-gate/bin/python",
+    "-u",
+    "-m",
+    "scripts.screen_teacher_reference",
+    "--plan",
+    "/Volumes/T9/hindi-detector/data/prosody_transfer_v49",
+    "--out",
+    "/Volumes/T9/hindi-detector/reports/prosody_native_donor_content_v49"
+  ],
+  "created_utc": "2026-11-09T02:36:19.979578+00:00"
+}

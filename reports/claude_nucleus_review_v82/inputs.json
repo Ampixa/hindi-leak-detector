@@ -1,0 +1,22 @@
+[
+  {
+    "path": "hindi_detector/nucleus_deletion.py",
+    "sha256": "f28e47c28e1554a00d4b8b8c04aac2268d8191f975d9271bbc32198db7dc4c88",
+    "bytes": 4136
+  },
+  {
+    "path": "scripts/prepare_nucleus_supervision.py",
+    "sha256": "88a0f47b288cc084d2f0243ae993fcfd2c262b1facf4325fb2f236cb422709af",
+    "bytes": 4099
+  },
+  {
+    "path": "tests/test_nucleus_deletion.py",
+    "sha256": "dee722092047fd8a4372d80223af4a396b7a573fbe0b564a95c4ab0b1d2c44a3",
+    "bytes": 2190
+  },
+  {
+    "path": "hindi_detector/acoustic_deletion.py",
+    "sha256": "05a044d0de082edecac2f6ba1c5058ad2ea73d9fae9f59c2a3cea797c457d8c9",
+    "bytes": 9409
+  }
+]

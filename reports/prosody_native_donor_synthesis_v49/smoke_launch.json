@@ -1,0 +1,18 @@
+{
+  "pid": 1635566,
+  "command": [
+    "/home/ampixa/pocket_tts_stage/.venv/bin/python",
+    "-u",
+    "-m",
+    "scripts.run_corrected_synthesis",
+    "--plan",
+    "/home/ampixa/hindi-detector-teacher-f5-v14/plans/prosody_transfer_v49",
+    "--out",
+    "/home/ampixa/hindi-detector-teacher-f5-v14/data/prosody_transfer_v49",
+    "--system",
+    "pocket_teacher_250000_24l",
+    "--limit",
+    "6"
+  ],
+  "created_utc": "2026-11-09T02:33:11.309037+00:00"
+}

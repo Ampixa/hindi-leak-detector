@@ -1,0 +1,323 @@
+{
+  "reason": "v6 superseded by verified current v8; every case and old index exactly reconstructible, no active reader/open file.",
+  "files": [
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-ed371c4c85508556.json",
+      "bytes": 102894,
+      "sha256": "f1adfa2f645bfd088b3422f66827d46797306f1243a8cdd530313da1080a3928"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-e39574b24e0c33da.json",
+      "bytes": 97093,
+      "sha256": "2455dc974e4a8129209e25e9d3322d653038317e804f22b3ee61d88251e898ef"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-6ab9e75bc4b2d4c2.json",
+      "bytes": 60342,
+      "sha256": "03d1d4f469581eef7701ad7a1545fa9f0972f010bd871db8a10711ee0ff8c882"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-66cdbbe97fd08896.json",
+      "bytes": 70617,
+      "sha256": "5011a79e9c6592f4ec05e0f494d96bdf3d2d9ad50814f053c6c08345db9c22f7"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-8c5496ae46f68822.json",
+      "bytes": 113009,
+      "sha256": "ac84ccdd9c39654cc8fa4b9196d7e70706edf28c46f2baa066950de1d02b94bc"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-2cee31d7d6c6b53c.json",
+      "bytes": 61472,
+      "sha256": "30d833366274d28ac81cb35f9c1d08866f59fc18671e9c0fe53e50659b50fda8"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-c3020c800912bed4.json",
+      "bytes": 82909,
+      "sha256": "10d7f57229821994a34f1265749824ca5df73aa5c1d0130371bdab70e278240e"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-29ceb0c96ee4ad7d.json",
+      "bytes": 115911,
+      "sha256": "31ecd6f4d1bfe6bbd95a1c83d074b3f883f74e97d7eaa2d7b222df6475ea0d18"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-4a99a8588e6a2e96.json",
+      "bytes": 127022,
+      "sha256": "8cb6cb47ceb285106d428b46c1f47de9680e4b1ba546d4fc92411dadc805772a"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-e41cdca326a9b6ad.json",
+      "bytes": 85754,
+      "sha256": "7e53eb2682abe5c1329bed256dac194286bba0cfead085546a0abd327193215b"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-5874542cbceff94e.json",
+      "bytes": 117069,
+      "sha256": "0137a497832a262e7dacdeaee51f5dbe3beda261b582c4f6819422ae39f18f17"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-bdd385dd0012dbcf.json",
+      "bytes": 114859,
+      "sha256": "b994d8f4eb153a337b0bc213f9bb1580140787ab65f6c8a85e09c38e97557cb0"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-6b53f257728124a5.json",
+      "bytes": 92436,
+      "sha256": "557961a851888558d67a1530d34bc677a05b145ee67241e4122d17b603ce3b5b"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-b089879f077b6a2f.json",
+      "bytes": 116398,
+      "sha256": "987440e2ac87d0bc715007257a9c73b6b962fb5f6db554c35a2a11f7f839e076"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-e973ff279aef245e.json",
+      "bytes": 121297,
+      "sha256": "1c4d23a50a2cecbf34120a72711ae6608be83ba8fd5fe7c5aeeb8f5479ff9de8"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-4f47c167e0a61808.json",
+      "bytes": 122004,
+      "sha256": "b5b1358b0d13d75924507fb5cb98817472ba52b1f0dc55521b75a599e46b175f"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-8699de338a18164c.json",
+      "bytes": 99953,
+      "sha256": "5238836fccd715e9f2d0d91f5aa4c155940330d7672fe588a8d13fe3c103fc8c"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-af12462648652246.json",
+      "bytes": 96552,
+      "sha256": "c49f1ba5f9f8ae3ca103cd517aa9597285c94806f2dad60fa969c7bd17ac0d93"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-120cf2018eaac0b7.json",
+      "bytes": 84511,
+      "sha256": "b2e2ee5f1a5f6dab805942c9df62aea9f0742cc567f37f3699ff7c27b4fa2014"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-5181febd9f63da76.json",
+      "bytes": 62692,
+      "sha256": "53cb91c8a49178be5aa13e7be885761bccd49b1dbd432125f6bfcda7269a9a27"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-fe4b9e1fa636cb18.json",
+      "bytes": 138420,
+      "sha256": "c0d9095fc7c49c02a67e83f17fef761325636560cd5362169e63e9d3ccd88fcb"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-5b02bad62c688e65.json",
+      "bytes": 143883,
+      "sha256": "2c7600db13587ec07cca21622b431f79ed0b290c95493d507f0e4c522cf60341"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-697407646b12da46.json",
+      "bytes": 88320,
+      "sha256": "f58bd17013075953b00dbe21271114b06e4f982b92000914523d05f9b1b10fe8"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-1772bfb9a6cffd2c.json",
+      "bytes": 87814,
+      "sha256": "0c341b4d8cdd00cd42e0fc9346ea33d35fcdfe233cc7571a724ad2e7e9cc3fa6"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-84e082ac744811fb.json",
+      "bytes": 113369,
+      "sha256": "ebc1ea45c0ac8bf23ab6cf19ea1c5cb4bbc5e3e6f5d16e525ff03227ec6d0d01"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-024e1b753bd71424.json",
+      "bytes": 134476,
+      "sha256": "2a03f3c97239431fe6b3a97c4855bd6a62af575e2105071ecc18d64ad53824af"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-0e0ec381863c741f.json",
+      "bytes": 109826,
+      "sha256": "0bd19256d643d144713e8d948ab536c6a93f29bf138555156c64f96ab09aa049"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-8ca0986907acae33.json",
+      "bytes": 129181,
+      "sha256": "cc78dc5a1286dc9de9eed23e49474789c7a9b97be0f72aa665a64830dbde9a18"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-c6c01ba8f0efda43.json",
+      "bytes": 85957,
+      "sha256": "235781b2e72d7bf583a106665ad4f7dd4dceab09807e7ce85952735982ea9b81"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-03032a1fad5d76d8.json",
+      "bytes": 117279,
+      "sha256": "5a71db9091f3fd9dc2a2f04f389b0cc0fb46461af8a32913a6391391721fe636"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-e6e477efc218746e.json",
+      "bytes": 80197,
+      "sha256": "ac6f7a1b88bee88243727337128ca0e38b22ea9037341eb38f8119b3985272fc"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/human-word-a8d96948fc1f8abe.json",
+      "bytes": 76202,
+      "sha256": "f98fc60ff2b17f2357526d4d6df4eadc4d35588b197d8f8f89d7393b87d3e359"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/pocket_arch_greeting_s29.json",
+      "bytes": 151674,
+      "sha256": "e9e87b265a201e86ce37bfd8fa1064391819a8bd9739e29f40b1aebb5f9f7c99"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/pocket_arch_greeting_s7.json",
+      "bytes": 150696,
+      "sha256": "2af3bca9dcac9cef738fefa45939d186edb88a82e36a4e7c1471e9551d033cd9"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/pocket_arch_historical_s29.json",
+      "bytes": 134671,
+      "sha256": "8e66dc93042c4a7188b584eee1dfb7c61720f2e30d0738f0cc68e3633756e09f"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/pocket_arch_historical_s7.json",
+      "bytes": 129613,
+      "sha256": "d7f10d3c421835ad88e7cea8196c6f1eed3f1aff7648fd9732648933f5d56c09"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/pocket_arch_schwa_draft_s29.json",
+      "bytes": 176476,
+      "sha256": "d10da205519a965eb55966527583415c70bb0dcc3fb954016d87946772911320"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/pocket_arch_schwa_draft_s7.json",
+      "bytes": 178534,
+      "sha256": "56093527999dcf00de36bd8c16289aa2ddadaf1b3f23f22d47b49e3311ed7dfd"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_085.json",
+      "bytes": 124511,
+      "sha256": "6dbee6080a8b14351ea3e624df4d33a83a468005696a2330de4b2629fdecef8e"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_086.json",
+      "bytes": 144060,
+      "sha256": "2777834c7ff686eeab47304a42a46208e70c38c694d499d2736b17ff5b5231e7"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_109.json",
+      "bytes": 94378,
+      "sha256": "21fbb3427d76c9a0fa014afae431061e9f320f212e301e190b8121aa27926c0e"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_110.json",
+      "bytes": 112274,
+      "sha256": "162e98622d59b12cc72e382c2dca0b9d743279b54d2dbb870049e44c96c046e8"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_111.json",
+      "bytes": 115710,
+      "sha256": "4951106f23a2c051103d653a2d9b7b88116518dfa6eda8ae51736286526ba939"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_113.json",
+      "bytes": 127219,
+      "sha256": "6311c86d4de405024a1075976d9c77fd70108aa40d12c71534f85fec4e6cd33f"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_114.json",
+      "bytes": 119088,
+      "sha256": "04a007c59ceb605bc06da0b4cb84b076d6cd16a785e05157c4544336e0b7b96f"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_115.json",
+      "bytes": 134024,
+      "sha256": "aa5e64a062ff12b8bbad9468353810fd267e904bc627c00e17ca570ca68853e6"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_117.json",
+      "bytes": 88609,
+      "sha256": "11f6b757d5ba65254827cf3fd0f9cce1418ef9bb3a9b75c8bfcd31f0ace6e89e"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_118.json",
+      "bytes": 104638,
+      "sha256": "89a7ab8fa3d8ff39801c501ad5d8254416e35ea369a14500085f3e1308e9ca79"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_137.json",
+      "bytes": 207316,
+      "sha256": "a2e2a96ede6fd81ae32b7d18d166c634cc3092475ebaf324cba3d5282742afa3"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_138.json",
+      "bytes": 162327,
+      "sha256": "7f972f46fbc3b5d5b2d955bf7e56687db64336978a073c56413fcac1ac45c28b"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_139.json",
+      "bytes": 175918,
+      "sha256": "c5771c95f898b1f183c9eacd7184717d98b013403032f73fc110cf255503acbf"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_140.json",
+      "bytes": 128571,
+      "sha256": "0be641e9e0204509b27cbf70d5760f3406e7fac3d344ea34e58d96b62cfdfead"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_141.json",
+      "bytes": 162663,
+      "sha256": "bb72e02361a8732854e9670e87f79aee533f2e06f4efb47f9af560e2495e4103"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_142.json",
+      "bytes": 264986,
+      "sha256": "542fab01845888d82e5e1538406a8a3b69fab53f510ecd8caae7a4c0f46c9b5f"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_165.json",
+      "bytes": 194819,
+      "sha256": "270a44c7e3af82edf89266a6ddb73b77a755d5049d97b598b24266462b63d780"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_167.json",
+      "bytes": 138709,
+      "sha256": "f6956888810ba5ad240001da026e7b0d85260337434ac49e8d3a08b21108d84b"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_168.json",
+      "bytes": 189904,
+      "sha256": "1ea2e2eade8757e6df2059001ad1524facf2f711ef8231f3c6b6b8b469db99e9"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_169.json",
+      "bytes": 215917,
+      "sha256": "d10fee993df86751aea79cb061ef1a07880ca7416d0be9097313f4c8643755b2"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_170.json",
+      "bytes": 221459,
+      "sha256": "5c6e3717062b89f36dddecd75d5e5a78b4f276e89d76bbe22d5a69e1f4ac7943"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_178.json",
+      "bytes": 191605,
+      "sha256": "f193658d34e15830ee6543e66650659eede8c50d681d38f47d4c6d8d987e4d83"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_179.json",
+      "bytes": 120480,
+      "sha256": "525f0cc25791ac0f4d2f36ba9fb4a3773ba7d1d8aef235608572d9ecf62a7f99"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/sent_180.json",
+      "bytes": 116360,
+      "sha256": "96117a8d90366a0f7902cfa4be3791b094f272053d76e25bf27b16ef484ce22a"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/review/human_word_data_v6/index.json",
+      "bytes": 9500,
+      "sha256": "76f593898b42616bb30e1f6cfb7d2b2cdcda4cec08b8e52bbe37961e90b7e200"
+    }
+  ],
+  "replacement_manifest_sha256": "bf135ea4cb1c42f68e6b1de09d373fa1f93e363d257b09cefeeffb96ae3b092d",
+  "restore": "For each retained v6 manifest case: read same v8 file, remove words[].schwa_transfer, serialize json.dumps(ensure_ascii=False,indent=2,allow_nan=False)+newline. For index: filter v8 rows whose id+ .json appears in retained v6 manifest. Verify all old SHAs.",
+  "free_before_bytes": 51033800704
+}

@@ -1,0 +1,105 @@
+{
+  "status": "trained_source_proxy_not_validated_hindi_leakage",
+  "label_source": "user_authorized_source_proxy_not_human_gold",
+  "user_assumption": "Original IndicF5 is the Hindi-like source proxy; Audio8 R3 is the Nepali-like source proxy.",
+  "training_clips": 48,
+  "training_speaker_groups": 12,
+  "development_clips": 16,
+  "development_speaker_groups": 4,
+  "test_clips": 48,
+  "test_speaker_groups": 8,
+  "development_bce": 3.7839851074750186e-07,
+  "selected_step": 10,
+  "held_out_source_proxy_metrics": {
+    "n": 48,
+    "positive_labels": 24,
+    "negative_labels": 24,
+    "tp": 16,
+    "fp": 5,
+    "fn": 8,
+    "tn": 19,
+    "precision": 0.7619047619047619,
+    "recall": 0.6666666666666666,
+    "false_positive_rate": 0.20833333333333334,
+    "accuracy": 0.7291666666666666,
+    "balanced_accuracy": 0.7291666666666666,
+    "brier": 0.24410092472664713
+  },
+  "held_out_source_proxy_uncertainty": {
+    "speaker_groups": 8,
+    "draws": 1000,
+    "method": "speaker-group bootstrap percentile 95%",
+    "intervals": {
+      "precision": {
+        "ci95": [
+          0.605909090909091,
+          0.9473684210526315
+        ],
+        "defined_draws": 1000
+      },
+      "recall": {
+        "ci95": [
+          0.45454545454545453,
+          0.9
+        ],
+        "defined_draws": 1000
+      },
+      "false_positive_rate": {
+        "ci95": [
+          0.038461538461538464,
+          0.42857142857142855
+        ],
+        "defined_draws": 1000
+      },
+      "balanced_accuracy": {
+        "ci95": [
+          0.6041666666666667,
+          0.88
+        ],
+        "defined_draws": 1000
+      }
+    },
+    "limitation": "Small or perfect test samples can give misleadingly narrow bootstrap intervals; report counts and collect more independent speakers."
+  },
+  "paired_ordering": {
+    "pairs": 24,
+    "indicf5_above_audio8_fraction": 0.9583333333333334,
+    "mean_margin": 0.4733426764531284
+  },
+  "reserved_controls_score_distributions": {
+    "audio8_dpo_R2": {
+      "n": 24,
+      "median_indicf5_like_score": 1.5574476088860193e-05,
+      "mean_indicf5_like_score": 0.2555001580895677,
+      "fraction_over_0_5": 0.25
+    },
+    "audio8_r3": {
+      "n": 24,
+      "median_indicf5_like_score": 0.00011315393300733311,
+      "mean_indicf5_like_score": 0.21524164984201385,
+      "fraction_over_0_5": 0.20833333333333334
+    },
+    "indicf5_stock": {
+      "n": 24,
+      "median_indicf5_like_score": 0.9989742906931488,
+      "mean_indicf5_like_score": 0.6885843262951422,
+      "fraction_over_0_5": 0.6666666666666666
+    },
+    "native_recording": {
+      "n": 24,
+      "median_indicf5_like_score": 0.05362344567517117,
+      "mean_indicf5_like_score": 0.44089650721278195,
+      "fraction_over_0_5": 0.4583333333333333
+    }
+  },
+  "verified_hindi_leakage_accuracy": null,
+  "human_label_events_used": 0,
+  "limits": [
+    "Training and test labels are source-level assumptions, not observed per-clip accent labels.",
+    "Both TTS architectures appear in training and test; unseen-sentence/voice results do not establish unseen-system accent generalization.",
+    "The head may use vocoder, channel, duration or speaker artifacts. Scores are uncalibrated.",
+    "Native recordings and Audio8 R2 are diagnostic controls, not human-labeled accuracy examples.",
+    "Cross-corpus real-person identity and upstream training-text exposure remain unverified.",
+    "No schwa-site localization or causal checkpoint attribution is established."
+  ]
+}

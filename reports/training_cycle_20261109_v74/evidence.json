@@ -1,0 +1,820 @@
+{
+  "training": {
+    "status": "complete_reviewed_anchored_fit_before_test",
+    "model_sha256": "cd912af1fcf474a4aecbf2654e62185bf8d44623d48e90c72967512a3f25ef51",
+    "selected": {
+      "mode": "gap_mass4",
+      "ridge": 0.001,
+      "cv_bce": 0.1279566165072559,
+      "feature_count": 4
+    },
+    "threshold": 0.9869572887528136,
+    "calibration_quantiles": {
+      "S0": 0.20758685532645665,
+      "S2": 0.9869472887528137
+    },
+    "training_sources": 385,
+    "training_lexemes": 184,
+    "training_measured_rows": 2689,
+    "training_attempted_rows": 2689,
+    "calibration_sources": 111,
+    "training_post_edit_abstentions": {},
+    "calibration_post_edit_abstentions": {},
+    "within_source_label_permutation_cv_auc": 0.5255791368610545,
+    "actual_hindi_error_accuracy": null,
+    "test_scores_opened": false,
+    "production_changed": false,
+    "coefficients": {
+      "primary_gap_vowel_mass_mean": 0.13958927870033652,
+      "primary_gap_vowel_peak_mean": -1.750725044446242,
+      "secondary_gap_vowel_mass_mean": 0.23620144624247041,
+      "secondary_gap_vowel_peak_mean": -2.4845865896411716
+    }
+  },
+  "test": {
+    "status": "completed_frozen_held_out_physical_test",
+    "model_sha256": "cd912af1fcf474a4aecbf2654e62185bf8d44623d48e90c72967512a3f25ef51",
+    "threshold": 0.9869572887528136,
+    "families": {
+      "P1": {
+        "attempted": 93,
+        "measured": 93,
+        "abstained": 0,
+        "flagged": 1,
+        "flag_rate": 0.010752688172043012,
+        "abstention_rate": 0.0,
+        "correct_decision_rate": 0.010752688172043012,
+        "recall": 0.010752688172043012,
+        "false_flag_rate": null,
+        "cluster_interval": {
+          "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+          "groups": 50,
+          "seed": 7101,
+          "replicates": 1000,
+          "flag_rate_95_percentile_interval": [
+            0.0,
+            0.034482758620689655
+          ]
+        }
+      },
+      "P1u": {
+        "attempted": 93,
+        "measured": 93,
+        "abstained": 0,
+        "flagged": 1,
+        "flag_rate": 0.010752688172043012,
+        "abstention_rate": 0.0,
+        "correct_decision_rate": 0.010752688172043012,
+        "recall": 0.010752688172043012,
+        "false_flag_rate": null,
+        "cluster_interval": {
+          "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+          "groups": 50,
+          "seed": 7101,
+          "replicates": 1000,
+          "flag_rate_95_percentile_interval": [
+            0.0,
+            0.034482758620689655
+          ]
+        }
+      },
+      "P1w": {
+        "attempted": 93,
+        "measured": 93,
+        "abstained": 0,
+        "flagged": 6,
+        "flag_rate": 0.06451612903225806,
+        "abstention_rate": 0.0,
+        "correct_decision_rate": 0.06451612903225806,
+        "recall": 0.06451612903225806,
+        "false_flag_rate": null,
+        "cluster_interval": {
+          "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+          "groups": 50,
+          "seed": 7101,
+          "replicates": 1000,
+          "flag_rate_95_percentile_interval": [
+            0.010869565217391304,
+            0.125
+          ]
+        }
+      },
+      "S0": {
+        "attempted": 93,
+        "measured": 93,
+        "abstained": 0,
+        "flagged": 0,
+        "flag_rate": 0.0,
+        "abstention_rate": 0.0,
+        "correct_decision_rate": 1.0,
+        "recall": null,
+        "false_flag_rate": 0.0,
+        "cluster_interval": {
+          "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+          "groups": 50,
+          "seed": 7101,
+          "replicates": 1000,
+          "flag_rate_95_percentile_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "S1": {
+        "attempted": 93,
+        "measured": 93,
+        "abstained": 0,
+        "flagged": 0,
+        "flag_rate": 0.0,
+        "abstention_rate": 0.0,
+        "correct_decision_rate": 1.0,
+        "recall": null,
+        "false_flag_rate": 0.0,
+        "cluster_interval": {
+          "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+          "groups": 50,
+          "seed": 7101,
+          "replicates": 1000,
+          "flag_rate_95_percentile_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "S2": {
+        "attempted": 88,
+        "measured": 88,
+        "abstained": 0,
+        "flagged": 0,
+        "flag_rate": 0.0,
+        "abstention_rate": 0.0,
+        "correct_decision_rate": 1.0,
+        "recall": null,
+        "false_flag_rate": 0.0,
+        "cluster_interval": {
+          "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+          "groups": 48,
+          "seed": 7101,
+          "replicates": 1000,
+          "flag_rate_95_percentile_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "S_original": {
+        "attempted": 93,
+        "measured": 93,
+        "abstained": 0,
+        "flagged": 0,
+        "flag_rate": 0.0,
+        "abstention_rate": 0.0,
+        "correct_decision_rate": 1.0,
+        "recall": null,
+        "false_flag_rate": 0.0,
+        "cluster_interval": {
+          "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+          "groups": 50,
+          "seed": 7101,
+          "replicates": 1000,
+          "flag_rate_95_percentile_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "S_world": {
+        "attempted": 93,
+        "measured": 93,
+        "abstained": 0,
+        "flagged": 0,
+        "flag_rate": 0.0,
+        "abstention_rate": 0.0,
+        "correct_decision_rate": 1.0,
+        "recall": null,
+        "false_flag_rate": 0.0,
+        "cluster_interval": {
+          "unit": "exact phonetic-collision group; all conditioning voices and source variants resampled together",
+          "groups": 50,
+          "seed": 7101,
+          "replicates": 1000,
+          "flag_rate_95_percentile_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "admission_gates": {
+      "minimum_test_P1_sources": true,
+      "minimum_test_lexemes": true,
+      "minimum_test_conditioning_groups": true,
+      "P1_recall": false,
+      "P1w_recall": false,
+      "S0_false_flag_rate": true,
+      "other_retained_vowel_controls": true,
+      "abstentions": true,
+      "P1u_boundary_robustness": true
+    },
+    "physical_control_admission_passed": false,
+    "production_changed": false,
+    "test_sources": 93,
+    "test_lexemes": 50,
+    "conditioning_groups": 4,
+    "matched_shortened_vs_removed": {
+      "S2": {
+        "attempted": 88,
+        "measured": 88,
+        "abstained": 0,
+        "flagged": 0,
+        "flag_rate": 0.0,
+        "abstention_rate": 0.0,
+        "correct_decision_rate": 1.0,
+        "recall": null,
+        "false_flag_rate": 0.0
+      },
+      "P1w": {
+        "attempted": 88,
+        "measured": 88,
+        "abstained": 0,
+        "flagged": 6,
+        "flag_rate": 0.06818181818181818,
+        "abstention_rate": 0.0,
+        "correct_decision_rate": 0.06818181818181818,
+        "recall": 0.06818181818181818,
+        "false_flag_rate": null
+      }
+    },
+    "unfiltered_requested_readings": {
+      "0": {
+        "requests": 356,
+        "measured": 348,
+        "flagged": 2,
+        "accuracy": null
+      },
+      "1": {
+        "requests": 356,
+        "measured": 348,
+        "flagged": 20,
+        "accuracy": null
+      }
+    },
+    "actual_hindi_error_accuracy": null,
+    "limits": [
+      "Physical edits are not real Hindi leakage annotations.",
+      "All conditioning groups come from one approved Native TTS teacher; no human speaker-generalization claim.",
+      "Source eligibility conditions on audible vowel evidence, so selected-control specificity is not unfiltered Native specificity.",
+      "Phonetic collision groups are disjoint; morphological root independence was not established.",
+      "Natural requested edits have null realized-error labels; source/text request identity is never pronunciation gold."
+    ]
+  },
+  "runtime": {
+    "status": "complete_post_utterance_runtime_benchmark",
+    "model_sha256": "cd912af1fcf474a4aecbf2654e62185bf8d44623d48e90c72967512a3f25ef51",
+    "cold_initialization_seconds": 6.697870917007094,
+    "completed_utterances": 8,
+    "processing_seconds_median": 0.6309400415048003,
+    "processing_seconds_p95": 0.7743189420973067,
+    "real_time_factor_median": 0.08912822483806312,
+    "real_time_factor_p95": 0.13291141995777123,
+    "streaming": false,
+    "actual_hindi_error_accuracy": null,
+    "production_changed": false,
+    "includes": "Cold initialization hashes and loads all three encoders. Per-utterance timing includes alignment, both phone encoders, existing prosody extraction, G2P and local CTC/head; excludes file read/resampling. First utterance may include warmup. No network/upload time.",
+    "items_sha256": "3f40c96396cec5ae158aafc5185169c6cddf04065a021625a33553165eb03519"
+  },
+  "short_audit": {
+    "status": "complete_training_only_short_vowel_audit",
+    "sources": 24,
+    "rows": 48,
+    "probes": [
+      {
+        "probe": 0,
+        "sources": 24,
+        "localization_recovery_signals": 8,
+        "shortening_loses_encoder_vowel_signal": 6,
+        "shortened_oracle_peak_median": 0.8909389972686768
+      },
+      {
+        "probe": 1,
+        "sources": 24,
+        "localization_recovery_signals": 6,
+        "shortening_loses_encoder_vowel_signal": 5,
+        "shortened_oracle_peak_median": 0.902351438999176
+      }
+    ],
+    "maximum_clip_fraction": 0.0019097222222222222,
+    "actual_hindi_error_accuracy": null,
+    "model_changed": false,
+    "items_sha256": "e4ebc7280b3a2fc32059f1b2bf1cd62cd1f30687e63ef805cc7c78ef13d0624d"
+  },
+  "oracle": {
+    "status": "complete_train_development_oracle_experiment",
+    "summaries": {
+      "train": {
+        "anchor": {
+          "0.95": {
+            "sources": 379,
+            "threshold": 1.8706016404724122,
+            "P1w_recall": 0.8258575197889182,
+            "S2_flag_rate": 0.047493403693931395,
+            "paired_S2_P1w_concordance": 0.974934036939314,
+            "paired_original_P1w_concordance": 0.978891820580475
+          },
+          "0.99": {
+            "sources": 379,
+            "threshold": 5.729717241058349,
+            "P1w_recall": 0.41160949868073876,
+            "S2_flag_rate": 0.0079155672823219,
+            "paired_S2_P1w_concordance": 0.974934036939314,
+            "paired_original_P1w_concordance": 0.978891820580475
+          }
+        },
+        "oracle": {
+          "0.95": {
+            "sources": 379,
+            "threshold": 0.05722237284298368,
+            "P1w_recall": 0.38258575197889183,
+            "S2_flag_rate": 0.047493403693931395,
+            "paired_S2_P1w_concordance": 0.9023746701846965,
+            "paired_original_P1w_concordance": 0.9287598944591029
+          },
+          "0.99": {
+            "sources": 379,
+            "threshold": 0.683329878981865,
+            "P1w_recall": 0.013192612137203167,
+            "S2_flag_rate": 0.0079155672823219,
+            "paired_S2_P1w_concordance": 0.9023746701846965,
+            "paired_original_P1w_concordance": 0.9287598944591029
+          }
+        },
+        "duration_strata": {
+          "40_to_60ms": {
+            "sources": 144,
+            "groups": 97,
+            "anchor": {
+              "sources": 144,
+              "threshold": 6.268603549728393,
+              "P1w_recall": 0.4166666666666667,
+              "S2_flag_rate": 0.006944444444444444,
+              "paired_S2_P1w_concordance": 0.96875,
+              "paired_original_P1w_concordance": 0.9930555555555556
+            },
+            "oracle": {
+              "sources": 144,
+              "threshold": 1.4522384117506326,
+              "P1w_recall": 0.0,
+              "S2_flag_rate": 0.006944444444444444,
+              "paired_S2_P1w_concordance": 0.875,
+              "paired_original_P1w_concordance": 0.9166666666666666
+            }
+          },
+          "60_to_90ms": {
+            "sources": 233,
+            "groups": 131,
+            "anchor": {
+              "sources": 233,
+              "threshold": 4.6109014911746975,
+              "P1w_recall": 0.48068669527896996,
+              "S2_flag_rate": 0.008583690987124463,
+              "paired_S2_P1w_concordance": 0.9785407725321889,
+              "paired_original_P1w_concordance": 0.9699570815450643
+            },
+            "oracle": {
+              "sources": 233,
+              "threshold": 0.12041213715762016,
+              "P1w_recall": 0.34334763948497854,
+              "S2_flag_rate": 0.008583690987124463,
+              "paired_S2_P1w_concordance": 0.9227467811158798,
+              "paired_original_P1w_concordance": 0.9399141630901288
+            }
+          },
+          "90ms_and_up": {
+            "sources": 2,
+            "groups": 1,
+            "anchor": {
+              "sources": 2,
+              "threshold": -0.580505205860138,
+              "P1w_recall": 1.0,
+              "S2_flag_rate": 0.0,
+              "paired_S2_P1w_concordance": 1.0,
+              "paired_original_P1w_concordance": 1.0
+            },
+            "oracle": {
+              "sources": 2,
+              "threshold": -0.580505196861605,
+              "P1w_recall": 0.5,
+              "S2_flag_rate": 0.0,
+              "paired_S2_P1w_concordance": 0.5,
+              "paired_original_P1w_concordance": 0.5
+            }
+          }
+        },
+        "oracle_recall_95_cluster_percentile_interval": [
+          0.0,
+          0.04806547619047617
+        ],
+        "bootstrap": {
+          "unit": "phonetic-collision group, voices kept together",
+          "seed": 760,
+          "replicates": 500
+        },
+        "top_decile_anchor_S2_sources": 38,
+        "top_decile_under_half_retained_coverage": 0.21052631578947367
+      },
+      "development": {
+        "anchor": {
+          "0.95": {
+            "sources": 109,
+            "threshold": 1.6608286960220338,
+            "P1w_recall": 0.8807339449541285,
+            "S2_flag_rate": 0.045871559633027525,
+            "paired_S2_P1w_concordance": 0.981651376146789,
+            "paired_original_P1w_concordance": 0.9908256880733946
+          },
+          "0.99": {
+            "sources": 109,
+            "threshold": 7.047637925872802,
+            "P1w_recall": 0.22018348623853212,
+            "S2_flag_rate": 0.009174311926605505,
+            "paired_S2_P1w_concordance": 0.981651376146789,
+            "paired_original_P1w_concordance": 0.9908256880733946
+          }
+        },
+        "oracle": {
+          "0.95": {
+            "sources": 109,
+            "threshold": 0.04182226818642511,
+            "P1w_recall": 0.45871559633027525,
+            "S2_flag_rate": 0.045871559633027525,
+            "paired_S2_P1w_concordance": 0.8899082568807339,
+            "paired_original_P1w_concordance": 0.8990825688073395
+          },
+          "0.99": {
+            "sources": 109,
+            "threshold": 0.3802998627839655,
+            "P1w_recall": 0.09174311926605505,
+            "S2_flag_rate": 0.009174311926605505,
+            "paired_S2_P1w_concordance": 0.8899082568807339,
+            "paired_original_P1w_concordance": 0.8990825688073395
+          }
+        },
+        "duration_strata": {
+          "40_to_60ms": {
+            "sources": 61,
+            "groups": 39,
+            "anchor": {
+              "sources": 61,
+              "threshold": 7.266041503677368,
+              "P1w_recall": 0.16393442622950818,
+              "S2_flag_rate": 0.0,
+              "paired_S2_P1w_concordance": 0.9672131147540983,
+              "paired_original_P1w_concordance": 0.9836065573770492
+            },
+            "oracle": {
+              "sources": 61,
+              "threshold": 0.6811307986236657,
+              "P1w_recall": 0.0,
+              "S2_flag_rate": 0.0,
+              "paired_S2_P1w_concordance": 0.9180327868852459,
+              "paired_original_P1w_concordance": 0.9016393442622951
+            }
+          },
+          "60_to_90ms": {
+            "sources": 47,
+            "groups": 33,
+            "anchor": {
+              "sources": 47,
+              "threshold": 2.436734901199341,
+              "P1w_recall": 0.8297872340425532,
+              "S2_flag_rate": 0.0,
+              "paired_S2_P1w_concordance": 1.0,
+              "paired_original_P1w_concordance": 1.0
+            },
+            "oracle": {
+              "sources": 47,
+              "threshold": 0.3802998627839655,
+              "P1w_recall": 0.0425531914893617,
+              "S2_flag_rate": 0.0,
+              "paired_S2_P1w_concordance": 0.851063829787234,
+              "paired_original_P1w_concordance": 0.8936170212765957
+            }
+          },
+          "90ms_and_up": {
+            "sources": 1,
+            "groups": 1,
+            "anchor": {
+              "sources": 1,
+              "threshold": -0.708974524011612,
+              "P1w_recall": 1.0,
+              "S2_flag_rate": 0.0,
+              "paired_S2_P1w_concordance": 1.0,
+              "paired_original_P1w_concordance": 1.0
+            },
+            "oracle": {
+              "sources": 1,
+              "threshold": -0.7089745359365102,
+              "P1w_recall": 1.0,
+              "S2_flag_rate": 0.0,
+              "paired_S2_P1w_concordance": 1.0,
+              "paired_original_P1w_concordance": 1.0
+            }
+          }
+        },
+        "oracle_recall_95_cluster_percentile_interval": [
+          0.0,
+          0.513695652173913
+        ],
+        "bootstrap": {
+          "unit": "phonetic-collision group, voices kept together",
+          "seed": 760,
+          "replicates": 500
+        },
+        "top_decile_anchor_S2_sources": 11,
+        "top_decile_under_half_retained_coverage": 0.2727272727272727
+      }
+    },
+    "anchor_redesign_go": false,
+    "oracle_overall_recall_below_60_percent": true,
+    "decision": "No anchor-only redesign justified; inspect encoder sensitivity, physical intervention validity and duration strata before another fit.",
+    "test_read": false,
+    "model_changed": false,
+    "actual_hindi_error_accuracy": null,
+    "items_sha256": "2b36a3925d4d75a6d64193d68c19f19631d303659c74d50689ed996c0e527f34"
+  },
+  "examples": [
+    {
+      "id": "real_yt_yt04_032",
+      "word_ordinal": 14,
+      "word": "हुनलाई",
+      "text": "खाने हुन् हामीले ब्रान्डिङ गरेको यसरी गको सिमी खाने हुन् हो अब त्यहाँ इनोभेटिभ हुनलाई अब यस्तो छ नि त हजुरबुवा बाबाहरुले",
+      "status": "user_confirmed",
+      "human_error_label": 1,
+      "readings": {
+        "swar": {
+          "start": 3.8246871165644167,
+          "end": 4.185128834355828,
+          "audio_sha256": "50fecc6efa3f54a67ef93a04be8f2ceec55df0d2dc64f7a92173407b732d3f28"
+        },
+        "real": {
+          "start": 5.413533834586466,
+          "end": 5.774436090225564,
+          "audio_sha256": "a8c99afa1c713a013a9ea7a506b547dd444195476bbb26c0c940f8d6e20643a1"
+        }
+      },
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "h",
+            "u",
+            "n",
+            "ax",
+            "l",
+            "aaj"
+          ],
+          "native_ipa_sequence": [
+            "ɦ",
+            "u",
+            "n",
+            "ʌ",
+            "l",
+            "ai̯"
+          ],
+          "teacher_reference_support": {
+            "decision": "strong_vowel_change",
+            "qualified_references": 2,
+            "available_references": 2
+          },
+          "observed_human_variation": {
+            "status": "not_observed_in_limited_bank",
+            "cases": [],
+            "source_groups": 0,
+            "human_error_label": null,
+            "used_for_prediction": false,
+            "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+          }
+        }
+      ],
+      "link": "http://100.80.123.8:8770/swar#case=real_yt_yt04_032&word=14",
+      "confirmation_source": "reports/listener_confirmations_v79/feedback.json",
+      "confirmation_recorded_utc": "2026-11-09T08:45:34.148513+00:00",
+      "used_for_training": false,
+      "independent_test": false
+    },
+    {
+      "id": "real_yt_yt07_053",
+      "word_ordinal": 14,
+      "word": "चलाउनको",
+      "text": "खाकिने काम सुन्छ नि कुनै बेला घरमा कल भयो भने घर मात्र हामीले घर चलाउनको लागि मात्र चलाइर हुन्छ।",
+      "status": "user_confirmed",
+      "human_error_label": 1,
+      "readings": {
+        "swar": {
+          "start": 4.008304498269896,
+          "end": 4.449217993079585,
+          "audio_sha256": "d57ae415208597206b091b53d2202ff527bddc96ad1e107ca8601fa15a45cefb"
+        },
+        "real": {
+          "start": 3.814022140221402,
+          "end": 4.135202952029521,
+          "audio_sha256": "691e1ee665d187e2e9190dd72e320951dea2892b244aba4412a199a7ea1e95ff"
+        }
+      },
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 5,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "ts",
+            "ax",
+            "l",
+            "aaw",
+            "n",
+            "ax",
+            "k",
+            "o"
+          ],
+          "native_ipa_sequence": [
+            "t͡s",
+            "ʌ",
+            "l",
+            "au̯",
+            "n",
+            "ʌ",
+            "k",
+            "o"
+          ],
+          "teacher_reference_support": {
+            "decision": "strong_vowel_change",
+            "qualified_references": 2,
+            "available_references": 2
+          },
+          "observed_human_variation": {
+            "status": "not_observed_in_limited_bank",
+            "cases": [],
+            "source_groups": 0,
+            "human_error_label": null,
+            "used_for_prediction": false,
+            "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+          }
+        }
+      ],
+      "link": "http://100.80.123.8:8770/swar#case=real_yt_yt07_053&word=14",
+      "confirmation_source": "reports/listener_confirmations_v79/feedback.json",
+      "confirmation_recorded_utc": "2026-11-09T08:45:34.148513+00:00",
+      "used_for_training": false,
+      "independent_test": false
+    },
+    {
+      "id": "real_yt_yt12_089",
+      "word_ordinal": 7,
+      "word": "नगरौ",
+      "text": "यो र सिस्टम बाहिर र प्रणाली बाहिर नगरौ भनेर म सम्पूर्ण नया इन्टरप्रेनर र पुराना साथीहरुलाई पनि अनुरोध गर्न चाहन्छु र",
+      "status": "user_confirmed",
+      "human_error_label": 1,
+      "readings": {
+        "swar": {
+          "start": 2.3670493506493506,
+          "end": 2.627825974025974,
+          "audio_sha256": "33e33c00ce4b762fa1a1c52dc1b5a728f8824cdda8e0e391575db232aa60c06c"
+        },
+        "real": {
+          "start": 1.8643691275167784,
+          "end": 2.265308724832215,
+          "audio_sha256": "539269e7e1e51fce04ad60c24a84d1e07473ec27370c4381239af0be5290f2df"
+        }
+      },
+      "sites": [
+        {
+          "site": {
+            "kind": "vowel_deletion",
+            "index": 3,
+            "expected": "ʌ",
+            "alternative": null
+          },
+          "native_phones": [
+            "n",
+            "ax",
+            "g",
+            "ax",
+            "r",
+            "axw"
+          ],
+          "native_ipa_sequence": [
+            "n",
+            "ʌ",
+            "ɡ",
+            "ʌ",
+            "r",
+            "ʌu̯"
+          ],
+          "teacher_reference_support": {
+            "decision": "strong_vowel_change",
+            "qualified_references": 2,
+            "available_references": 2
+          },
+          "observed_human_variation": {
+            "status": "not_observed_in_limited_bank",
+            "cases": [],
+            "source_groups": 0,
+            "human_error_label": null,
+            "used_for_prediction": false,
+            "meaning": "Observed probe-supported alternative in recorded speech, potentially including contextual or regional variation; acceptability and Hindi influence remain unconfirmed."
+          }
+        }
+      ],
+      "link": "http://100.80.123.8:8770/swar#case=real_yt_yt12_089&word=7",
+      "confirmation_source": "reports/listener_confirmations_v79/feedback.json",
+      "confirmation_recorded_utc": "2026-11-09T08:45:34.148513+00:00",
+      "used_for_training": false,
+      "independent_test": false
+    }
+  ],
+  "claude": {
+    "reviewer_model": [
+      "claude-opus-5-5[1m]"
+    ],
+    "verdict": "Rejected candidate; no promotion. One train/development oracle-window experiment before more large data.",
+    "accepted": [
+      "Shortened-vowel S2 sets threshold; loss selection does not match operating-tail goal.",
+      "Feature overlap cannot be fixed by selecting another existing CV head.",
+      "Audit anchor-gap versus geometry-placed equal-duration windows on train/development with matched vocoder controls.",
+      "Physical manipulation labels are not independent realized phoneme or Hindi-error labels."
+    ],
+    "corrections": [
+      "The two simple baseline rules were declared in evaluate_anchored_detector.py before its single test evaluation. They were not invented after opening outcomes. They remain limited physical-control results and fail S2 admission.",
+      "A second training-only audit completed concurrently and was NOT in the Claude prompt:24 source pairs show both localization-recovery and shortened-encoder loss signals; see reports/short_vowel_localization_v75.",
+      "No oracle-window evidence can become inference input: the edit location is available only in synthetic diagnostics."
+    ],
+    "next_experiment": "Exact blank-vowel margins in current anchor gaps versus same-duration geometry windows, S2/P1w/S_world; train/development only, duration strata and phonetic-group bootstrap. No test head retuning."
+  },
+  "feedback": {
+    "updated_review_sha256": "a2a30d9054cb39d5cfa5051c738c8bcd6db1a7479c6251dbdba4b4f5988a375b",
+    "selected_model_sha256_unchanged": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+    "prediction_changes": false
+  },
+  "source_files": {
+    "reports/anchored_training_v71/report.json": "00db8710baf3d7f1e2f5701c1f2d609441f7e7adf6d6fc224ea58c6b36f11e80",
+    "reports/anchored_test_v74/report.json": "94306736ef617edfe49b9a9231e949edf75fe7c19fa5616c986cac6ac17674f6",
+    "reports/anchored_runtime_v74/report.json": "68faa2ce61fe8488acfecde3616a815bea68d9d4c5f57863c38b771751c9241d",
+    "reports/short_vowel_localization_v75/report.json": "95b0236c8fa0f02698807c4c20ff9972a4accfdd2063a8eaf5429e29ee87d93b",
+    "reports/oracle_window_experiment_v76/report.json": "2c8f1a241d4f11e084f31284d177e5d7a20ba6418ea256a952d40d9bcdfe9891",
+    "reports/more_listening_v77/examples.json": "e547bf8f30db59bda1136210207379e3f6024c80fb0b882719a33fa3b70f9c15",
+    "reports/claude_adversarial_v68/post_training/triage.json": "0c6dbfeff8c3ed45e64f7dbc6c69cc3249a97b0438ba6e9333e72d3e4c9ac1d2",
+    "reports/listener_feedback_v73/applied.json": "6d37c168d7201986faac26fdd9795b2d75166b9900ca8de9653d97434fc3a0e8",
+    "reports/listener_confirmations_v79/feedback.json": "d507ab99f5ea67ad1ea59aeb84f3fa097c897d07cfe43a6d4a857392ec1e717e"
+  },
+  "confirmations": {
+    "recorded_utc": "2026-11-09T08:45:34.148513+00:00",
+    "source": "user conversation",
+    "quote": "they are conformed for hunalai , chalaunako, nagarau",
+    "confirmations": [
+      {
+        "case_id": "real_yt_yt04_032",
+        "word_ordinal": 14,
+        "word": "हुनलाई",
+        "reading": "swar",
+        "audio_sha256": "50fecc6efa3f54a67ef93a04be8f2ceec55df0d2dc64f7a92173407b732d3f28",
+        "status": "user_confirmed_pronunciation_anomaly",
+        "human_error_label": 1,
+        "phonetic_boundary_manually_verified": false
+      },
+      {
+        "case_id": "real_yt_yt07_053",
+        "word_ordinal": 14,
+        "word": "चलाउनको",
+        "reading": "swar",
+        "audio_sha256": "d57ae415208597206b091b53d2202ff527bddc96ad1e107ca8601fa15a45cefb",
+        "status": "user_confirmed_pronunciation_anomaly",
+        "human_error_label": 1,
+        "phonetic_boundary_manually_verified": false
+      },
+      {
+        "case_id": "real_yt_yt12_089",
+        "word_ordinal": 7,
+        "word": "नगरौ",
+        "reading": "swar",
+        "audio_sha256": "33e33c00ce4b762fa1a1c52dc1b5a728f8824cdda8e0e391575db232aa60c06c",
+        "status": "user_confirmed_pronunciation_anomaly",
+        "human_error_label": 1,
+        "phonetic_boundary_manually_verified": false
+      }
+    ],
+    "scope": "User confirms these three previously flagged occurrences. One listener, detector-selected development discoveries; no independent precision/recall estimate, exact phone-boundary verification or general Hindi causality claim.",
+    "total_confirmed_occurrences": 7,
+    "used_for_training": false,
+    "independent_test": false,
+    "pidh_status": "listener_similar; error label remains null",
+    "prediction_changes": false
+  }
+}

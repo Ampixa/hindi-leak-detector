@@ -1,0 +1,144 @@
+/Volumes/T9/hindi-detector/.venv-indicf5/lib/python3.12/site-packages/pyworld/__init__.py:13: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+ERROR:root:Explicit rhythm-control exclusion proso49_5b2e0d49bff14b493763
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 112, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds, minimum_word_seconds=minimum)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 25, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below explicit minimum')
+ValueError: Local word stretch outside frozen.4..2.5 or word below explicit minimum
+ERROR:root:Explicit rhythm-control exclusion proso49_8d42e19c1f353709032e
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 116, in main
+    raise ValueError('Invalid emitted duration-control waveform')
+ValueError: Invalid emitted duration-control waveform
+ERROR:root:Explicit rhythm-control exclusion proso49_8bf09ffd1eb3fa0704a3
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 112, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds, minimum_word_seconds=minimum)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 25, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below explicit minimum')
+ValueError: Local word stretch outside frozen.4..2.5 or word below explicit minimum
+ERROR:root:Explicit rhythm-control exclusion proso49_cbeb33cb998b612d4ad6
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 112, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds, minimum_word_seconds=minimum)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 25, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below explicit minimum')
+ValueError: Local word stretch outside frozen.4..2.5 or word below explicit minimum
+ERROR:root:Explicit rhythm-control exclusion proso49_50b033ec6cbb49289806
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 116, in main
+    raise ValueError('Invalid emitted duration-control waveform')
+ValueError: Invalid emitted duration-control waveform
+ERROR:root:Explicit rhythm-control exclusion proso49_4846dbfaf106d7f38fbd
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 112, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds, minimum_word_seconds=minimum)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 25, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below explicit minimum')
+ValueError: Local word stretch outside frozen.4..2.5 or word below explicit minimum
+ERROR:root:Explicit rhythm-control exclusion proso49_76488f3650cd6479ac15
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 112, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds, minimum_word_seconds=minimum)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 25, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below explicit minimum')
+ValueError: Local word stretch outside frozen.4..2.5 or word below explicit minimum
+ERROR:root:Explicit rhythm-control exclusion proso49_c32bd9b9de261713e30e
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 116, in main
+    raise ValueError('Invalid emitted duration-control waveform')
+ValueError: Invalid emitted duration-control waveform
+ERROR:root:Explicit rhythm-control exclusion proso49_4910fe5018a84063a4ce
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 116, in main
+    raise ValueError('Invalid emitted duration-control waveform')
+ValueError: Invalid emitted duration-control waveform
+ERROR:root:Explicit rhythm-control exclusion proso49_1bef55c83663f62a5625
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 112, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds, minimum_word_seconds=minimum)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 25, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below explicit minimum')
+ValueError: Local word stretch outside frozen.4..2.5 or word below explicit minimum
+ERROR:root:Explicit rhythm-control exclusion proso49_b356682305d0330f370d
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 92, in main
+    raise ValueError('Third Native donor failed content/feature qualification')
+ValueError: Third Native donor failed content/feature qualification
+ERROR:root:Explicit rhythm-control exclusion proso49_347742f23ba0ee33892f
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 112, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds, minimum_word_seconds=minimum)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 25, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below explicit minimum')
+ValueError: Local word stretch outside frozen.4..2.5 or word below explicit minimum
+ERROR:root:Explicit rhythm-control exclusion proso49_25d82ea97871bc9dbe9e
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 92, in main
+    raise ValueError('Third Native donor failed content/feature qualification')
+ValueError: Third Native donor failed content/feature qualification
+ERROR:root:Explicit rhythm-control exclusion proso49_a6fa6add12a7e9247b3c
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 112, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds, minimum_word_seconds=minimum)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 25, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below explicit minimum')
+ValueError: Local word stretch outside frozen.4..2.5 or word below explicit minimum
+ERROR:root:Explicit rhythm-control exclusion proso49_bb0873795d9136bf90be
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 112, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds, minimum_word_seconds=minimum)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 25, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below explicit minimum')
+ValueError: Local word stretch outside frozen.4..2.5 or word below explicit minimum
+ERROR:root:Explicit rhythm-control exclusion proso49_05ae49edb13a722e1990
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 112, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds, minimum_word_seconds=minimum)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 25, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below explicit minimum')
+ValueError: Local word stretch outside frozen.4..2.5 or word below explicit minimum
+ERROR:root:Explicit rhythm-control exclusion proso49_f392995d709b544526c5
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 92, in main
+    raise ValueError('Third Native donor failed content/feature qualification')
+ValueError: Third Native donor failed content/feature qualification
+ERROR:root:Explicit rhythm-control exclusion proso49_367c445f47c9d1daaddc
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 92, in main
+    raise ValueError('Third Native donor failed content/feature qualification')
+ValueError: Third Native donor failed content/feature qualification
+ERROR:root:Explicit rhythm-control exclusion proso49_56742ed3e2cb9659629b
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 112, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds, minimum_word_seconds=minimum)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 25, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below explicit minimum')
+ValueError: Local word stretch outside frozen.4..2.5 or word below explicit minimum
+ERROR:root:Explicit rhythm-control exclusion proso49_2522ad6c270e97cdab7d
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 116, in main
+    raise ValueError('Invalid emitted duration-control waveform')
+ValueError: Invalid emitted duration-control waveform
+ERROR:root:Explicit rhythm-control exclusion proso49_68415b5f275e79774b4e
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_rhythm_interventions.py", line 112, in main
+    source_knots, target_knots, intended, ratios = duration_map(cd['words'], donor['words'], seconds, minimum_word_seconds=minimum)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/T9/hindi-detector/hindi_detector/rhythm_transfer.py", line 25, in duration_map
+    raise ValueError('Local word stretch outside frozen.4..2.5 or word below explicit minimum')
+ValueError: Local word stretch outside frozen.4..2.5 or word below explicit minimum
+{"status": "complete_word_rhythm_controls", "counts": {"ok_rhythm_interventions": 143, "excluded_rhythm_intervention": 21}, "actual_hindi_error_accuracy": null}

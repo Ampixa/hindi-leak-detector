@@ -1,0 +1,190 @@
+{
+  "status": "trained_corrected_structured_source_candidate",
+  "model_sha256": "5499ed0aeeb3c65cf47569729870df32e7ac242d37340a6a8b640ec570518bba",
+  "final": false,
+  "best_epoch": 3,
+  "fitting_recipe": "matched_focal_and_pairwise_v16",
+  "epochs_run": 18,
+  "training_loss_word_rows": 3764,
+  "partition_texts": {
+    "train": 192,
+    "development": 35
+  },
+  "partition_focal_lexemes": {
+    "train": 108,
+    "development": 27
+  },
+  "conditioning_groups": {
+    "train": 8,
+    "development": 4
+  },
+  "development": {
+    "phonetics": {
+      "focal_source": {
+        "n": 72,
+        "positive_labels": 36,
+        "negative_labels": 36,
+        "tp": 24,
+        "fp": 5,
+        "fn": 12,
+        "tn": 31,
+        "precision": 0.8275862068965517,
+        "recall": 0.6666666666666666,
+        "false_positive_rate": 0.1388888888888889,
+        "accuracy": 0.7638888888888888,
+        "balanced_accuracy": 0.7638888888888888,
+        "brier": 0.20430981567359327
+      },
+      "conservative_focal_source": {
+        "n": 72,
+        "positive_labels": 36,
+        "negative_labels": 36,
+        "tp": 14,
+        "fp": 3,
+        "fn": 22,
+        "tn": 33,
+        "precision": 0.8235294117647058,
+        "recall": 0.3888888888888889,
+        "false_positive_rate": 0.08333333333333333,
+        "accuracy": 0.6527777777777778,
+        "balanced_accuracy": 0.6527777777777778,
+        "brier": 0.20430981567359327
+      },
+      "operating_points": {
+        "balanced": 0.5299999999999999,
+        "high": 0.6850302219390869,
+        "low": 0.23287111520767212
+      },
+      "focal_lexemes": 27,
+      "lexeme_cluster_balanced_accuracy_ci95": [
+        0.6756756756756757,
+        0.8461538461538463
+      ],
+      "unchanged_neighbor_flag_rate": 0.25,
+      "conservative_unchanged_neighbor_flag_rate": 0.09210526315789473,
+      "uncertain_fraction": 0.5694444444444444,
+      "paired_source_ordering": {
+        "pairs": 36,
+        "f5_above_teacher": 31,
+        "fraction": 0.8611111111111112,
+        "median_score_delta": 0.17057307809591293
+      }
+    },
+    "prosody": {
+      "focal_source": {
+        "n": 72,
+        "positive_labels": 36,
+        "negative_labels": 36,
+        "tp": 21,
+        "fp": 14,
+        "fn": 15,
+        "tn": 22,
+        "precision": 0.6,
+        "recall": 0.5833333333333334,
+        "false_positive_rate": 0.3888888888888889,
+        "accuracy": 0.5972222222222222,
+        "balanced_accuracy": 0.5972222222222223,
+        "brier": 0.24416406346065328
+      },
+      "conservative_focal_source": {
+        "n": 72,
+        "positive_labels": 36,
+        "negative_labels": 36,
+        "tp": 5,
+        "fp": 3,
+        "fn": 31,
+        "tn": 33,
+        "precision": 0.625,
+        "recall": 0.1388888888888889,
+        "false_positive_rate": 0.08333333333333333,
+        "accuracy": 0.5277777777777778,
+        "balanced_accuracy": 0.5277777777777778,
+        "brier": 0.24416406346065328
+      },
+      "operating_points": {
+        "balanced": 0.48999999999999994,
+        "high": 0.5775927305221558,
+        "low": 0.31982433795928955
+      },
+      "focal_lexemes": 27,
+      "lexeme_cluster_balanced_accuracy_ci95": [
+        0.5317288306451613,
+        0.6621621621621622
+      ],
+      "unchanged_neighbor_flag_rate": 0.32894736842105265,
+      "conservative_unchanged_neighbor_flag_rate": 0.08552631578947369,
+      "uncertain_fraction": 0.7638888888888888,
+      "paired_source_ordering": {
+        "pairs": 36,
+        "f5_above_teacher": 28,
+        "fraction": 0.7777777777777778,
+        "median_score_delta": 0.03057025372982025
+      }
+    },
+    "combined": {
+      "focal_source": {
+        "n": 72,
+        "positive_labels": 36,
+        "negative_labels": 36,
+        "tp": 23,
+        "fp": 6,
+        "fn": 13,
+        "tn": 30,
+        "precision": 0.7931034482758621,
+        "recall": 0.6388888888888888,
+        "false_positive_rate": 0.16666666666666666,
+        "accuracy": 0.7361111111111112,
+        "balanced_accuracy": 0.7361111111111112,
+        "brier": 0.21162559867406708
+      },
+      "conservative_focal_source": {
+        "n": 72,
+        "positive_labels": 36,
+        "negative_labels": 36,
+        "tp": 17,
+        "fp": 3,
+        "fn": 19,
+        "tn": 33,
+        "precision": 0.85,
+        "recall": 0.4722222222222222,
+        "false_positive_rate": 0.08333333333333333,
+        "accuracy": 0.6944444444444444,
+        "balanced_accuracy": 0.6944444444444444,
+        "brier": 0.21162559867406708
+      },
+      "operating_points": {
+        "balanced": 0.4699999999999999,
+        "high": 0.523381233215332,
+        "low": 0.2756110727787018
+      },
+      "focal_lexemes": 27,
+      "lexeme_cluster_balanced_accuracy_ci95": [
+        0.631578947368421,
+        0.8378378378378379
+      ],
+      "unchanged_neighbor_flag_rate": 0.2631578947368421,
+      "conservative_unchanged_neighbor_flag_rate": 0.13157894736842105,
+      "uncertain_fraction": 0.5277777777777778,
+      "paired_source_ordering": {
+        "pairs": 36,
+        "f5_above_teacher": 31,
+        "fraction": 0.8611111111111112,
+        "median_score_delta": 0.12448098510503769
+      }
+    }
+  },
+  "development_site_coverage": {
+    "focal_occurrences": 72,
+    "supported_site_occurrences": 38
+  },
+  "reserved_test": null,
+  "actual_hindi_error_accuracy": null,
+  "actual_prosody_error_accuracy": null,
+  "limits": [
+    "Physical source provenance is known; actual realized phone correctness is not supplied by source identity.",
+    "No hidden speech embeddings used; phone posteriors can still retain voice/codec cues.",
+    "Exact unsupported dental/aspirated paths remain unavailable; temporal central-vowel evidence remains measured separately.",
+    "Prosody branch learns source-related local delivery shifts, not validated Hindi-specific intonation.",
+    "Shared carrier templates and source family; no unseen-generator or real-human Hindi-error accuracy claim."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "ValueError",
+  "message": "Original audio is not the required mono recording",
+  "frames": [
+    {
+      "file": "/Volumes/T9/hindi-detector/scripts/verify_original_human_audio.py",
+      "line": 162,
+      "function": "<module>"
+    },
+    {
+      "file": "/Volumes/T9/hindi-detector/scripts/verify_original_human_audio.py",
+      "line": 117,
+      "function": "main"
+    }
+  ],
+  "updated_utc": "2026-11-07T14:30:20.095561+00:00"
+}

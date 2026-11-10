@@ -1,0 +1,28 @@
+{
+  "status": "temporal_schwa_site_hypotheses_measured_not_validated_detector",
+  "clips_with_candidate_words": 124,
+  "candidate_word_occurrences": 206,
+  "supported": 155,
+  "excluded": 51,
+  "inputs": [
+    {
+      "path": "/Volumes/T9/hindi-detector/reports/wordlab_native_wordbank_v3/manifest.json",
+      "sha256": "f2bc8a18cb985a33624e706291ac37065558a160da4a3dcdd1a0692d99f22119"
+    },
+    {
+      "path": "/Volumes/T9/hindi-detector/reports/wordlab_test_v3/manifest.json",
+      "sha256": "61c01a6725585f4a8e77ce64924b5d279d5a79402b2502aa7500da196cbe9ba5"
+    }
+  ],
+  "ipa_map_sha256": "89f8fc639b6c3b54782bb57e4390a7134a23b6b874a8a32fe3ee0bdf51f1b1d5",
+  "phone_revision": "2c733782da5604684829819a5eb744c193fe9398",
+  "validated_schwa_accuracy": null,
+  "limits": [
+    "Lexicon paths are unreviewed hypotheses, including known questionable entries; no approved gold is fabricated.",
+    "Each site changes its schwa count while other project phones stay fixed; non-schwa IPA is never collapsed to fit the probe.",
+    "Three central-vowel qualities are nuisance alternatives, equally marginalized within each path family.",
+    "CTC likelihoods can favor short paths and the phone model may be wrong on Nepali. Native references are needed to audit this bias.",
+    "Unsupported vocabulary/impossible paths are counted exclusions, never low-risk predictions.",
+    "The old whole-clip proxy is not used as evidence for a word or schwa site."
+  ]
+}

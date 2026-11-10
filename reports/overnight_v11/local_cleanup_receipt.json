@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-11-08T04:59:57.490401+00:00",
+  "files": [
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.playwright-mcp/page-2026-11-08T04-59-39-694Z.yml",
+      "bytes": 3783,
+      "sha256": "c180866d2d9f9b14f8fdd82ff3f0d106f9e2a580f5105cf87a5a6c69969a3a88",
+      "reason": "Transient owned UI snapshot or unused duplicate after verified final result sync"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.playwright-mcp/page-2026-11-08T04-55-54-624Z.yml",
+      "bytes": 3653,
+      "sha256": "6d3af763958a7d9f3212d977d4ef870a32e0a161c9a4b6029a0a94a35484a39a",
+      "reason": "Transient owned UI snapshot or unused duplicate after verified final result sync"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.playwright-mcp/page-2026-11-08T01-39-28-814Z.yml",
+      "bytes": 3634,
+      "sha256": "85628fb813750dcf073bb111f62e288c5f7e6c52700b4e5f35d2f6c6c9108236",
+      "reason": "Transient owned UI snapshot or unused duplicate after verified final result sync"
+    },
+    {
+      "path": "/tmp/paired_v11_report.json",
+      "bytes": 13174,
+      "sha256": "ac3e1f098f8c9140e23057acf3cdf74cc7055cfa79ff044cabf087c01b81bf3e",
+      "reason": "Transient owned UI snapshot or unused duplicate after verified final result sync"
+    }
+  ],
+  "logical_bytes": 24244
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "name": "real_yt_yt01_005_explicit",
+    "query": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/swar/real_yt_yt01_005.wav",
+    "reference": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/real/real_yt_yt01_005.wav",
+    "text": "अब हैन कामदारहरुलाई मात्रै थियो भने चाहिँ अहिले स्टुन्टहरुलाई पनि भाको छ।",
+    "word": "हैन",
+    "expected_flag": true,
+    "actual_case": "real_yt_yt01_005",
+    "mode": "explicit"
+  },
+  {
+    "name": "real_yt_yt01_005_teacher_cache",
+    "query": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/swar/real_yt_yt01_005.wav",
+    "reference": null,
+    "text": "अब हैन कामदारहरुलाई मात्रै थियो भने चाहिँ अहिले स्टुन्टहरुलाई पनि भाको छ।",
+    "word": "हैन",
+    "expected_flag": true,
+    "actual_case": "real_yt_yt01_005",
+    "mode": "teacher_cache"
+  },
+  {
+    "name": "real_yt_yt01_008_explicit",
+    "query": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/swar/real_yt_yt01_008.wav",
+    "reference": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/real/real_yt_yt01_008.wav",
+    "text": "स्ट्रंगर किनकि अब मल्टिकल्चर वर्ल्ड छ।",
+    "word": "किनकि",
+    "expected_flag": true,
+    "actual_case": "real_yt_yt01_008",
+    "mode": "explicit"
+  },
+  {
+    "name": "real_yt_yt01_008_teacher_cache",
+    "query": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/swar/real_yt_yt01_008.wav",
+    "reference": null,
+    "text": "स्ट्रंगर किनकि अब मल्टिकल्चर वर्ल्ड छ।",
+    "word": "किनकि",
+    "expected_flag": true,
+    "actual_case": "real_yt_yt01_008",
+    "mode": "teacher_cache"
+  },
+  {
+    "name": "real_yt_yt04_030_explicit",
+    "query": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/swar/real_yt_yt04_030.wav",
+    "reference": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/real/real_yt_yt04_030.wav",
+    "text": "त्यो जुन दिन हामीले कन्टेनर लोड गर्छौ नि त्यो दिन शास्ति अब किनकि ठाउँै छैन पनि काठमाडौँमा त्यही भएर अब हामी आफै पनि अब",
+    "word": "किनकि",
+    "expected_flag": false,
+    "actual_case": "real_yt_yt04_030",
+    "mode": "explicit"
+  },
+  {
+    "name": "real_yt_yt04_030_teacher_cache",
+    "query": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/swar/real_yt_yt04_030.wav",
+    "reference": null,
+    "text": "त्यो जुन दिन हामीले कन्टेनर लोड गर्छौ नि त्यो दिन शास्ति अब किनकि ठाउँै छैन पनि काठमाडौँमा त्यही भएर अब हामी आफै पनि अब",
+    "word": "किनकि",
+    "expected_flag": false,
+    "actual_case": "real_yt_yt04_030",
+    "mode": "teacher_cache"
+  },
+  {
+    "name": "unknown_vowel_deletion",
+    "query": "/Volumes/T9/hindi-detector/data/minimal_audit_v29/teacher/audio/audit29_14d2f6e0a3cd602d0d37_v0_c1.wav",
+    "reference": "/Volumes/T9/hindi-detector/data/minimal_audit_v29/teacher/audio/audit29_14d2f6e0a3cd602d0d37_v1_c0.wav",
+    "text": "यस पटक नसकियोस् भन्नुहोस्।",
+    "word": "नसकियोस्",
+    "expected_flag": null,
+    "actual_case": null,
+    "mode": "unknown_word_explicit",
+    "selection": "First job-ID realized request pair, independent of classifier scores; target absent from799-word runtime cache"
+  },
+  {
+    "name": "unknown_vowel_quality",
+    "query": "/Volumes/T9/hindi-detector/data/minimal_audit_v29/teacher/audio/audit29_305230cb8aadad7c71f3_v0_c1.wav",
+    "reference": "/Volumes/T9/hindi-detector/data/minimal_audit_v29/teacher/audio/audit29_305230cb8aadad7c71f3_v1_c0.wav",
+    "text": "यस पटक हैमिल्टनको भन्नुहोस्।",
+    "word": "हैमिल्टनको",
+    "expected_flag": null,
+    "actual_case": null,
+    "mode": "unknown_word_explicit",
+    "selection": "First job-ID realized request pair, independent of classifier scores; target absent from799-word runtime cache"
+  }
+]

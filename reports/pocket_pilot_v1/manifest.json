@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "status": "complete_unreviewed_audio",
+  "texts": [
+    {
+      "id": "historical",
+      "text": "सबैको सुरक्षा एनएलजीको इच्छा एनएलजी",
+      "source": "existing internal g00005 paired-probe page"
+    },
+    {
+      "id": "greeting",
+      "text": "नमस्कार म तपाईंलाई कसरी सहयोग गर्न सक्छु",
+      "source": "existing internal Audio8 greeting, punctuation omitted for Hindi model"
+    },
+    {
+      "id": "schwa_draft",
+      "text": "आज हामी नेपालको अर्थ र विकासका विषयमा कुरा गर्छौं",
+      "source": "Codex-authored unreviewed pilot text; no gold pronunciations"
+    }
+  ],
+  "seeds": [
+    7,
+    29
+  ],
+  "parent": {
+    "repo": "saryps-labs/pocket-tts-hindi",
+    "revision": "6bff9c1e776bb90c68dd05c2467c62d1ecdf1b51",
+    "sha256": "3e558891d7462b9aa4406114504391788199580e9c000ab5fc08df1d50e2866c"
+  },
+  "finetune": {
+    "path": "/Users/k2/madhyam/runs/nepali_v1c/model.safetensors",
+    "sha256": "515c22c63f2ae4e1d7ea76f239f6310692f84e58532fdd56fa997bea3f01a7eb",
+    "reported_step": 1309
+  },
+  "historical_parent_hash_verified": false,
+  "pocket_source_revision": "b8a06e1d7ba379944ab0188342cc6c7f78def088",
+  "reference_original": "/Users/k2/madhyam/madhyam-tts/dashboard/public/audio/pocket/g00005.ref.m4a",
+  "reference_original_sha256": "90c4b2c759d1987706e4060b7492ec35cd1a474ae680ad5ffaab605bb01146d7",
+  "reference_wav_sha256": "1f4058da031004edaefb79f29eee5573ede8a2cbb81b637791298d8c94444cdc",
+  "device": "cpu",
+  "threads": 2,
+  "temperature": 0.3,
+  "sampler_decode_steps": 1,
+  "eos_threshold": -4.0,
+  "versions": {
+    "torch": "2.14.0",
+    "numpy": "2.5.2"
+  },
+  "outputs": [
+    {
+      "system": "parent",
+      "text_id": "historical",
+      "seed": 7,
+      "path": "parent.historical.s7.wav",
+      "seconds": 4.4,
+      "generation_wall_seconds": 0.575605291989632,
+      "sha256": "ae1a78454b1494247e0688ea9fb6faad2838d90ff11ff102365e9132da4e22d9"
+    },
+    {
+      "system": "parent",
+      "text_id": "historical",
+      "seed": 29,
+      "path": "parent.historical.s29.wav",
+      "seconds": 4.72,
+      "generation_wall_seconds": 0.606796000036411,
+      "sha256": "1df569fa046c9df36ed8e18725206c90062556d87125e0fde190ab0ac0112eff"
+    },
+    {
+      "system": "parent",
+      "text_id": "greeting",
+      "seed": 7,
+      "path": "parent.greeting.s7.wav",
+      "seconds": 4.96,
+      "generation_wall_seconds": 0.6425939170294441,
+      "sha256": "38a46ee3f2c90aeca7e9300fab01de76d50d562fbc49a15e8195cc5d22bd080d"
+    },
+    {
+      "system": "parent",
+      "text_id": "greeting",
+      "seed": 29,
+      "path": "parent.greeting.s29.wav",
+      "seconds": 5.6,
+      "generation_wall_seconds": 0.7714409999898635,
+      "sha256": "1f4da44b143997460329a81c5f56f1108f10cda91133410e1a2e0680abdeb5b0"
+    },
+    {
+      "system": "parent",
+      "text_id": "schwa_draft",
+      "seed": 7,
+      "path": "parent.schwa_draft.s7.wav",
+      "seconds": 5.6,
+      "generation_wall_seconds": 0.8232870000065304,
+      "sha256": "39c899c8e8735a588febf5f7bb1ea40cecbba3b7b944addfc5ec33d865ddff9f"
+    },
+    {
+      "system": "parent",
+      "text_id": "schwa_draft",
+      "seed": 29,
+      "path": "parent.schwa_draft.s29.wav",
+      "seconds": 5.6,
+      "generation_wall_seconds": 0.8192829589825124,
+      "sha256": "f36c617199dbfe65680aa3975a207991a0b98c8cf567fbb26d599525700e3399"
+    },
+    {
+      "system": "nepali_v1c",
+      "text_id": "historical",
+      "seed": 7,
+      "path": "nepali_v1c.historical.s7.wav",
+      "seconds": 3.04,
+      "generation_wall_seconds": 0.4156348750111647,
+      "sha256": "bb95d77d8a1c3f9f9337fbd79747ca44b6d32f0fe160394b19962642ea5509cd"
+    },
+    {
+      "system": "nepali_v1c",
+      "text_id": "historical",
+      "seed": 29,
+      "path": "nepali_v1c.historical.s29.wav",
+      "seconds": 2.96,
+      "generation_wall_seconds": 0.4036363329505548,
+      "sha256": "ea0b07d605961a2b039e4fd8c355bc137e4d3ba991e0b1ab7ddf65bb6c7f6f2c"
+    },
+    {
+      "system": "nepali_v1c",
+      "text_id": "greeting",
+      "seed": 7,
+      "path": "nepali_v1c.greeting.s7.wav",
+      "seconds": 3.2,
+      "generation_wall_seconds": 0.42590737499995157,
+      "sha256": "84ba169c16a0fc841d5171fbd82f56ef14d73423eccf85b1357a933744d973b8"
+    },
+    {
+      "system": "nepali_v1c",
+      "text_id": "greeting",
+      "seed": 29,
+      "path": "nepali_v1c.greeting.s29.wav",
+      "seconds": 2.72,
+      "generation_wall_seconds": 0.3730875410255976,
+      "sha256": "14fb316379da084aee9dbb29b77c694ba39f46cd8ba3e38b007a97ea38b17e22"
+    },
+    {
+      "system": "nepali_v1c",
+      "text_id": "schwa_draft",
+      "seed": 7,
+      "path": "nepali_v1c.schwa_draft.s7.wav",
+      "seconds": 3.76,
+      "generation_wall_seconds": 0.49169904104201123,
+      "sha256": "24ecf40d5a5b2ce88fb07c0af6b994e9a26ede5b3f042218e2709706093f4f6a"
+    },
+    {
+      "system": "nepali_v1c",
+      "text_id": "schwa_draft",
+      "seed": 29,
+      "path": "nepali_v1c.schwa_draft.s29.wav",
+      "seconds": 3.68,
+      "generation_wall_seconds": 0.49305058299796656,
+      "sha256": "f06c2187dd44a892d5786cc059e9945f28ae27a0b101c5d2e40ee8869aa13d83"
+    }
+  ]
+}

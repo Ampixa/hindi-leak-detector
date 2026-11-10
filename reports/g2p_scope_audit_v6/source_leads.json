@@ -1,0 +1,10 @@
+{
+  "ldcil_documentation": "https://data.ldcil.org/resources/downloads/NepaliSentenceAlignedSpeechCorpus.pdf",
+  "ldcil_sample": "https://data.ldcil.org/resources/downloads/NepaliSentenceAlignedSample.zip",
+  "sample_archive_observed_bytes": 7096079,
+  "sample_inventory": "Eight WAVs plus one metadata XLS; no paired phonetic text/TextGrid members in the inspected ZIP. No payload retained or training permission inferred.",
+  "ipa_audio_attempt": "Public article supplementary link returned HTTP403. No audio retained and no access-control workaround attempted.",
+  "ipa_copyright_notice": "https://www.internationalphoneticassociation.org/node/125",
+  "use_limit": "Personal use stated; do not incorporate IPA recordings into a product or training release without appropriate permission. Bibliographic source only here.",
+  "ldcil_scope": "Reported pronunciation-variant annotation is a prospective source, not acquired phonetic labels; terms still need inspection before model use."
+}

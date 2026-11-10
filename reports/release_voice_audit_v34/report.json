@@ -1,0 +1,92 @@
+{
+  "status": "complete_release_voice_audit",
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "native_controls": {
+    "gain_half": {
+      "cases": 21,
+      "sites": 80,
+      "site_flags": 0,
+      "cases_with_flags": 0
+    },
+    "world_original_f0": {
+      "cases": 21,
+      "sites": 80,
+      "site_flags": 2,
+      "cases_with_flags": 2
+    },
+    "world_plus3_semitones": {
+      "cases": 21,
+      "sites": 80,
+      "site_flags": 2,
+      "cases_with_flags": 2
+    },
+    "world_minus3_semitones": {
+      "cases": 21,
+      "sites": 80,
+      "site_flags": 2,
+      "cases_with_flags": 2
+    }
+  },
+  "pitch_added_effect": {
+    "world_plus3_semitones": {
+      "added_flags_over_WORLD0": 0,
+      "median_score_shift": -3.4516138839535415e-05
+    },
+    "world_minus3_semitones": {
+      "added_flags_over_WORLD0": 0,
+      "median_score_shift": -7.327790081035346e-05
+    }
+  },
+  "known_error_checks": [
+    {
+      "id": "real_yt_yt01_005",
+      "condition": "gain_half",
+      "word": "हैन",
+      "flagged": true
+    },
+    {
+      "id": "real_yt_yt01_005",
+      "condition": "world_minus3_semitones",
+      "word": "हैन",
+      "flagged": true
+    },
+    {
+      "id": "real_yt_yt01_005",
+      "condition": "world_original_f0",
+      "word": "हैन",
+      "flagged": true
+    },
+    {
+      "id": "real_yt_yt01_005",
+      "condition": "world_plus3_semitones",
+      "word": "हैन",
+      "flagged": true
+    },
+    {
+      "id": "real_yt_yt01_008",
+      "condition": "gain_half",
+      "word": "किनकि",
+      "flagged": true
+    },
+    {
+      "id": "real_yt_yt01_008",
+      "condition": "world_minus3_semitones",
+      "word": "किनकि",
+      "flagged": true
+    },
+    {
+      "id": "real_yt_yt01_008",
+      "condition": "world_original_f0",
+      "word": "किनकि",
+      "flagged": true
+    },
+    {
+      "id": "real_yt_yt01_008",
+      "condition": "world_plus3_semitones",
+      "word": "किनकि",
+      "flagged": true
+    }
+  ],
+  "actual_hindi_error_accuracy": null,
+  "limits": "Nuisance sensitivity relative to the same recorded reference, not Native-error FPR or validated Hindi intonation. WORLD reconstruction can alter phonetic detail."
+}

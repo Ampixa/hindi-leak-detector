@@ -1,0 +1,18 @@
+{
+  "status": "independent_probe_intervention_check_not_human_leakage_accuracy",
+  "clips": 8,
+  "paired_interventions": 4,
+  "pairs_ordered_as_requested": 4,
+  "observed_duration_step_sizes": [
+    256
+  ],
+  "duration_outputs_all_have_integral_sample_step": true,
+  "actual_hindi_accuracy": null,
+  "native_acceptability_accuracy": null,
+  "limits": [
+    "Independent probe agreement is a renderer/input-adherence sanity check, not verified realization labels.",
+    "The candidate site alternative is not automatically a Hindi error.",
+    "Whole-word likelihood can be biased by vowel quality, phone count and probe coverage.",
+    "Ceiled-duration/sample correspondence is measured; no manually verified acoustic phone boundaries exist."
+  ]
+}

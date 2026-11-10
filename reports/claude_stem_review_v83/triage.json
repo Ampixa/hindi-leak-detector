@@ -1,0 +1,9 @@
+{
+  "B1": "Actual torch.stft plus F.interpolate grid equivalence test now covers utterance start/end and real float-boundary fixture, numeric tolerance1e-8samples. Requested mel-energy vs stem-L2 correlation rejected as an invalid alignment invariant: LayerNorm/GELU norm is not mel energy. Independent convolution-clock test and actual outputframe check retained.",
+  "B2": "Actual standalone v83 trainer supplied in follow-up review. Loads512stem+exactcachedhints64:66 for bothparts; validates sourceidentity/cacheindex/arrays/code. Saves new explicit pretrained recipe, module/code/cache/checkpoint pins and software.",
+  "B3": "Explicit test base PhoneContextNetwork unchanged by arbitrary66vs514channel audio inputs.",
+  "B4": "Protocol declares refit no-audio arm with same seed/objective/epochs/splits; no reusedlogits or claim of bit-deterministic MPS.",
+  "sample_rate": "Verified loader scripts.calibrate_asr_gate.audio resamples to16k; v82targetprep verified rawsamehash WAV actually16kmono.",
+  "upstream": "Published pinned XLSR checkpoint, not trained by this experiment. Whether upstream espeak fine-tuning froze convolution layers is unknown; not asserted.",
+  "sham": "Fixed OOF center-dense shamcutoffs absmedian<=.25,absq95<=1logit before newfit. Retained central mask missesexactjoins; no mechanistic attribution established. GroupNorm wholecrop normalization caveat explicit."
+}

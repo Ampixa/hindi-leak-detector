@@ -1,0 +1,25 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "status": "complete_unreviewed_audio",
+  "pid": 629424,
+  "checkpoint": "/home/ampixa/tts_bench_v0/models/audio8_r3/model.safetensors",
+  "checkpoint_sha256": "0ab717efa1c7359f0006ad59d50855c0560ead2de78c361f82929c8dbd1adfef",
+  "codec_sha256": "c310505aa11fe2f6cc63b8d3130dc7e77e73227774f5c62575769b1f47a8d048",
+  "driver_sha256": "773cc5e04c1c108b91ba1b405a77ed602ba5ad78c362df25cecc2b90cd7b4027",
+  "manifest_sha256": "c43762049b37165aae6d6fb323210d08c4e86cd23b659159c8b0e682c4813191",
+  "native_method_sha256": "4876ca0980aa9a81b2d4905c25e1fd33bb2c4f675c3f28dc0411d1e21c9754f8",
+  "model_code_sha256": "50bc8f9adffa79b231c8b9e8fe7a56cc9b304bd46d1c890fbd24b0d1fd954b12",
+  "codec_code_sha256": "c9d579f1a876cbceb3f7ef501dfccc17a4986933ba758de36c84450ba4905925",
+  "settings": {
+    "seed": 0,
+    "max_new_tokens": 1024,
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "top_k": 50,
+    "do_sample": true,
+    "dtype": "float32"
+  },
+  "waveform_policy": "Native method; no reranking, silence trimming, or loudness normalization",
+  "label_source": "user source-level proxy assumption, not human pronunciation annotation",
+  "completed": 32
+}

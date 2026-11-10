@@ -1,0 +1,6 @@
+{
+  "previous_attempt": "reports/query_guard_verification_v42",
+  "failure": "Result JSON saved, but stdout summary referenced a variable local to main and exited1. Prior outputs are not counted as successful CLI executions.",
+  "fix": "Summary derives reference_mode from result dictionary; regression unit covers all3 result statuses.",
+  "fixed_cli_sha256": "7bf1aeff591bd1fb0460f25ae51c482e9d05a66d6ed72f30e418b5900cfcaed1"
+}

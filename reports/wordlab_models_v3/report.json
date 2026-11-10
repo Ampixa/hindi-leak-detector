@@ -1,0 +1,248 @@
+{
+  "status": "three_weak_localization_branches_trained",
+  "train_bags": 72,
+  "development_bags": 24,
+  "train_words": 843,
+  "development_words": 222,
+  "test_bags": 96,
+  "test_words": 308,
+  "training_explicit_failures": 0,
+  "test_explicit_failures": 0,
+  "branches": {
+    "phonetics": {
+      "development": {
+        "source_bag_metrics": {
+          "n": 16,
+          "positive_labels": 8,
+          "negative_labels": 8,
+          "tp": 3,
+          "fp": 1,
+          "fn": 5,
+          "tn": 7,
+          "precision": 0.75,
+          "recall": 0.375,
+          "false_positive_rate": 0.125,
+          "accuracy": 0.625,
+          "balanced_accuracy": 0.625,
+          "brier": 0.2680553178731234
+        },
+        "controls": {
+          "audio8_r3": {
+            "n": 8,
+            "high_bag_scores": 1,
+            "median_bag_score": 0.24104134014155396
+          },
+          "indicf5_stock": {
+            "n": 8,
+            "high_bag_scores": 3,
+            "median_bag_score": 0.361204468018701
+          },
+          "native_recording": {
+            "n": 8,
+            "high_bag_scores": 2,
+            "median_bag_score": 0.22174287212248
+          }
+        }
+      },
+      "previously_inspected_benchmark": {
+        "source_bag_metrics": {
+          "n": 48,
+          "positive_labels": 24,
+          "negative_labels": 24,
+          "tp": 9,
+          "fp": 8,
+          "fn": 15,
+          "tn": 16,
+          "precision": 0.5294117647058824,
+          "recall": 0.375,
+          "false_positive_rate": 0.3333333333333333,
+          "accuracy": 0.5208333333333334,
+          "balanced_accuracy": 0.5208333333333333,
+          "brier": 0.34254602103473575
+        },
+        "controls": {
+          "audio8_dpo_R2": {
+            "n": 24,
+            "high_bag_scores": 9,
+            "median_bag_score": 0.16752343607080286
+          },
+          "audio8_r3": {
+            "n": 24,
+            "high_bag_scores": 8,
+            "median_bag_score": 0.1863014479516274
+          },
+          "indicf5_stock": {
+            "n": 24,
+            "high_bag_scores": 9,
+            "median_bag_score": 0.2880571699509304
+          },
+          "native_recording": {
+            "n": 24,
+            "high_bag_scores": 6,
+            "median_bag_score": 0.17600790097255029
+          }
+        }
+      }
+    },
+    "prosody": {
+      "development": {
+        "source_bag_metrics": {
+          "n": 16,
+          "positive_labels": 8,
+          "negative_labels": 8,
+          "tp": 4,
+          "fp": 1,
+          "fn": 4,
+          "tn": 7,
+          "precision": 0.8,
+          "recall": 0.5,
+          "false_positive_rate": 0.125,
+          "accuracy": 0.6875,
+          "balanced_accuracy": 0.6875,
+          "brier": 0.21705126326749272
+        },
+        "controls": {
+          "audio8_r3": {
+            "n": 8,
+            "high_bag_scores": 1,
+            "median_bag_score": 0.39359615509769763
+          },
+          "indicf5_stock": {
+            "n": 8,
+            "high_bag_scores": 4,
+            "median_bag_score": 0.497036398807189
+          },
+          "native_recording": {
+            "n": 8,
+            "high_bag_scores": 0,
+            "median_bag_score": 0.40427383745902556
+          }
+        }
+      },
+      "previously_inspected_benchmark": {
+        "source_bag_metrics": {
+          "n": 48,
+          "positive_labels": 24,
+          "negative_labels": 24,
+          "tp": 13,
+          "fp": 10,
+          "fn": 11,
+          "tn": 14,
+          "precision": 0.5652173913043478,
+          "recall": 0.5416666666666666,
+          "false_positive_rate": 0.4166666666666667,
+          "accuracy": 0.5625,
+          "balanced_accuracy": 0.5625,
+          "brier": 0.22795254024543135
+        },
+        "controls": {
+          "audio8_dpo_R2": {
+            "n": 24,
+            "high_bag_scores": 4,
+            "median_bag_score": 0.44850719674319145
+          },
+          "audio8_r3": {
+            "n": 24,
+            "high_bag_scores": 10,
+            "median_bag_score": 0.48489178966540136
+          },
+          "indicf5_stock": {
+            "n": 24,
+            "high_bag_scores": 13,
+            "median_bag_score": 0.5061623647455151
+          },
+          "native_recording": {
+            "n": 24,
+            "high_bag_scores": 5,
+            "median_bag_score": 0.3999571843276716
+          }
+        }
+      }
+    },
+    "combined": {
+      "development": {
+        "source_bag_metrics": {
+          "n": 16,
+          "positive_labels": 8,
+          "negative_labels": 8,
+          "tp": 3,
+          "fp": 1,
+          "fn": 5,
+          "tn": 7,
+          "precision": 0.75,
+          "recall": 0.375,
+          "false_positive_rate": 0.125,
+          "accuracy": 0.625,
+          "balanced_accuracy": 0.625,
+          "brier": 0.26933877917016513
+        },
+        "controls": {
+          "audio8_r3": {
+            "n": 8,
+            "high_bag_scores": 1,
+            "median_bag_score": 0.2425283094097746
+          },
+          "indicf5_stock": {
+            "n": 8,
+            "high_bag_scores": 3,
+            "median_bag_score": 0.3667871642103372
+          },
+          "native_recording": {
+            "n": 8,
+            "high_bag_scores": 2,
+            "median_bag_score": 0.22708032433601436
+          }
+        }
+      },
+      "previously_inspected_benchmark": {
+        "source_bag_metrics": {
+          "n": 48,
+          "positive_labels": 24,
+          "negative_labels": 24,
+          "tp": 9,
+          "fp": 8,
+          "fn": 15,
+          "tn": 16,
+          "precision": 0.5294117647058824,
+          "recall": 0.375,
+          "false_positive_rate": 0.3333333333333333,
+          "accuracy": 0.5208333333333334,
+          "balanced_accuracy": 0.5208333333333333,
+          "brier": 0.34093477800973454
+        },
+        "controls": {
+          "audio8_dpo_R2": {
+            "n": 24,
+            "high_bag_scores": 9,
+            "median_bag_score": 0.16800525823194049
+          },
+          "audio8_r3": {
+            "n": 24,
+            "high_bag_scores": 8,
+            "median_bag_score": 0.17502993750770496
+          },
+          "indicf5_stock": {
+            "n": 24,
+            "high_bag_scores": 9,
+            "median_bag_score": 0.30775661760636397
+          },
+          "native_recording": {
+            "n": 24,
+            "high_bag_scores": 6,
+            "median_bag_score": 0.1726425171384045
+          }
+        }
+      }
+    }
+  },
+  "human_word_labels_used": 0,
+  "validated_word_hindi_accuracy": null,
+  "limits": [
+    "Only utterance source bags supply weak supervision. Individual F5 words are not labeled Hindi by fiat.",
+    "These local scores indicate evidence for a positive source bag, not certified word-level accent.",
+    "Pitch/energy/register normalization is not proof of voice-conversion or speaker invariance.",
+    "The phonetic probe is unvalidated on Nepali; apparent phone strings and schwa posteriors need component testing.",
+    "The original benchmark/pilot have already been examined; bag metrics are exploratory source comparisons.",
+    "Source speaker IDs are disjoint; cross-corpus real-person identity and upstream text exposure are unverified."
+  ]
+}

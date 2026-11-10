@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-11-08T05:27:30.568368+00:00",
+  "host": "k2",
+  "disk_usage": {
+    "total": 2000189177856,
+    "used": 1760243654656,
+    "free": 239945523200
+  },
+  "new_plan_logical_bytes": 55326301,
+  "shared_models_not_copied": true,
+  "deleted_bytes": 0,
+  "next_review": "2026-11-09"
+}

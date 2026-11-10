@@ -1,0 +1,1762 @@
+{
+  "tests_passed_local": 65,
+  "tests_passed_k2": 65,
+  "http_cases_verified": 62,
+  "human_word_cases": 32,
+  "actual_human_judgments_fabricated": false,
+  "browser_audio_check": "All seven recordings in the previously failing human case reached readyState4 with no media errors after queue-size fix. Desktop/mobile no horizontal overflow; first-case word button played with250ms context.",
+  "native_gold_hindi_accuracy": null,
+  "current_status_observed": {
+    "observed_utc": "2026-11-07T14:38:32.307219+00:00",
+    "generation": {
+      "creator": "Codex GPT-6 /root",
+      "created_utc": "2026-11-07T10:42:16.821272+00:00",
+      "status": "complete_unreviewed_audio",
+      "plan_sha256": "24e9999c680d94cda46d3d25a63b96b80fa30c993b83cdca0c38bba5545623fa",
+      "driver_sha256": "d48cdebc5366c07a882d60b2e05c21e9f551107676b491120e86f7592972d794",
+      "torch_version": "2.14.0",
+      "numpy_version": "2.5.2",
+      "weight_sha256": {
+        "pocket_nepali_v1c": "515c22c63f2ae4e1d7ea76f239f6310692f84e58532fdd56fa997bea3f01a7eb",
+        "pocket_hindi_parent": "3e558891d7462b9aa4406114504391788199580e9c000ab5fc08df1d50e2866c"
+      },
+      "codec_state_sha256": {
+        "pocket_nepali_v1c": "73e6cc8b2c83be1aaa69a9600ce7efd9089e7786ca738574969085dacf57e31a",
+        "pocket_hindi_parent": "73e6cc8b2c83be1aaa69a9600ce7efd9089e7786ca738574969085dacf57e31a"
+      },
+      "completed": 1024,
+      "systems_completed": [
+        "pocket_nepali_v1c",
+        "pocket_hindi_parent"
+      ],
+      "same_codec_parameters_verified": true
+    },
+    "pipeline": {
+      "status": "candidate_trained_reliability_unvalidated",
+      "generated_clips": 1024,
+      "report": "reports/pocket_crossed_models_v4/report.json",
+      "reliable_automatic_detector": false,
+      "remaining": "Independent native false-alarm and actual word/prosody-error validation; source role accuracy is insufficient.",
+      "updated_utc": "2026-11-07T11:09:52.193275+00:00",
+      "pid": 32344
+    },
+    "native": {
+      "phase": "native_controls_measured_reliability_unvalidated",
+      "pid": 32732,
+      "updated_utc": "2026-11-07T11:10:03.096052+00:00",
+      "report": "reports/pocket_native_validation_v4/report.json"
+    },
+    "word_evidence": {
+      "processed": 1024,
+      "planned": 1024,
+      "failed": 0
+    },
+    "native_evidence": {
+      "processed": 64,
+      "planned": 64,
+      "failed": 0
+    },
+    "model_report": {
+      "status": "three_crossed_reference_heads_trained",
+      "branches": {
+        "phonetics": {
+          "development": {
+            "queries": 384,
+            "focus_score_meaning": "Weak source evidence on the held-out focal word, not certified pronunciation correctness",
+            "pocket_same_architecture": {
+              "n": 256,
+              "focus_coverage": 1.0,
+              "focus_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 51,
+                "fp": 16,
+                "fn": 77,
+                "tn": 112,
+                "precision": 0.7611940298507462,
+                "recall": 0.3984375,
+                "false_positive_rate": 0.125,
+                "accuracy": 0.63671875,
+                "balanced_accuracy": 0.63671875,
+                "brier": 0.25645270874597403
+              },
+              "whole_bag_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 94,
+                "fp": 32,
+                "fn": 34,
+                "tn": 96,
+                "precision": 0.746031746031746,
+                "recall": 0.734375,
+                "false_positive_rate": 0.25,
+                "accuracy": 0.7421875,
+                "balanced_accuracy": 0.7421875,
+                "brier": 0.18244668574946427
+              }
+            },
+            "indicf5_vs_pocket": {
+              "n": 256,
+              "focus_coverage": 1.0,
+              "focus_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 49,
+                "fp": 16,
+                "fn": 79,
+                "tn": 112,
+                "precision": 0.7538461538461538,
+                "recall": 0.3828125,
+                "false_positive_rate": 0.125,
+                "accuracy": 0.62890625,
+                "balanced_accuracy": 0.62890625,
+                "brier": 0.2839953017990592
+              },
+              "whole_bag_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 123,
+                "fp": 32,
+                "fn": 5,
+                "tn": 96,
+                "precision": 0.7935483870967742,
+                "recall": 0.9609375,
+                "false_positive_rate": 0.25,
+                "accuracy": 0.85546875,
+                "balanced_accuracy": 0.85546875,
+                "brier": 0.13924163372167725
+              }
+            }
+          },
+          "held_out_voice_and_focus_word": {
+            "queries": 384,
+            "focus_score_meaning": "Weak source evidence on the held-out focal word, not certified pronunciation correctness",
+            "pocket_same_architecture": {
+              "n": 256,
+              "focus_coverage": 1.0,
+              "focus_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 30,
+                "fp": 17,
+                "fn": 98,
+                "tn": 111,
+                "precision": 0.6382978723404256,
+                "recall": 0.234375,
+                "false_positive_rate": 0.1328125,
+                "accuracy": 0.55078125,
+                "balanced_accuracy": 0.55078125,
+                "brier": 0.297295054802034
+              },
+              "whole_bag_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 95,
+                "fp": 26,
+                "fn": 33,
+                "tn": 102,
+                "precision": 0.7851239669421488,
+                "recall": 0.7421875,
+                "false_positive_rate": 0.203125,
+                "accuracy": 0.76953125,
+                "balanced_accuracy": 0.76953125,
+                "brier": 0.1664956649561422
+              }
+            },
+            "indicf5_vs_pocket": {
+              "n": 256,
+              "focus_coverage": 1.0,
+              "focus_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 22,
+                "fp": 17,
+                "fn": 106,
+                "tn": 111,
+                "precision": 0.5641025641025641,
+                "recall": 0.171875,
+                "false_positive_rate": 0.1328125,
+                "accuracy": 0.51953125,
+                "balanced_accuracy": 0.51953125,
+                "brier": 0.31261983365212376
+              },
+              "whole_bag_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 109,
+                "fp": 26,
+                "fn": 19,
+                "tn": 102,
+                "precision": 0.8074074074074075,
+                "recall": 0.8515625,
+                "false_positive_rate": 0.203125,
+                "accuracy": 0.82421875,
+                "balanced_accuracy": 0.82421875,
+                "brier": 0.13575293003296401
+              }
+            }
+          }
+        },
+        "prosody": {
+          "development": {
+            "queries": 384,
+            "focus_score_meaning": "Weak source evidence on the held-out focal word, not certified pronunciation correctness",
+            "pocket_same_architecture": {
+              "n": 256,
+              "focus_coverage": 1.0,
+              "focus_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 43,
+                "fp": 15,
+                "fn": 85,
+                "tn": 113,
+                "precision": 0.7413793103448276,
+                "recall": 0.3359375,
+                "false_positive_rate": 0.1171875,
+                "accuracy": 0.609375,
+                "balanced_accuracy": 0.609375,
+                "brier": 0.23651112053540005
+              },
+              "whole_bag_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 32,
+                "fp": 6,
+                "fn": 96,
+                "tn": 122,
+                "precision": 0.8421052631578947,
+                "recall": 0.25,
+                "false_positive_rate": 0.046875,
+                "accuracy": 0.6015625,
+                "balanced_accuracy": 0.6015625,
+                "brier": 0.2348166037684799
+              }
+            },
+            "indicf5_vs_pocket": {
+              "n": 256,
+              "focus_coverage": 1.0,
+              "focus_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 43,
+                "fp": 15,
+                "fn": 85,
+                "tn": 113,
+                "precision": 0.7413793103448276,
+                "recall": 0.3359375,
+                "false_positive_rate": 0.1171875,
+                "accuracy": 0.609375,
+                "balanced_accuracy": 0.609375,
+                "brier": 0.23182036774826803
+              },
+              "whole_bag_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 80,
+                "fp": 6,
+                "fn": 48,
+                "tn": 122,
+                "precision": 0.9302325581395349,
+                "recall": 0.625,
+                "false_positive_rate": 0.046875,
+                "accuracy": 0.7890625,
+                "balanced_accuracy": 0.7890625,
+                "brier": 0.1599299626129494
+              }
+            }
+          },
+          "held_out_voice_and_focus_word": {
+            "queries": 384,
+            "focus_score_meaning": "Weak source evidence on the held-out focal word, not certified pronunciation correctness",
+            "pocket_same_architecture": {
+              "n": 256,
+              "focus_coverage": 1.0,
+              "focus_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 25,
+                "fp": 10,
+                "fn": 103,
+                "tn": 118,
+                "precision": 0.7142857142857143,
+                "recall": 0.1953125,
+                "false_positive_rate": 0.078125,
+                "accuracy": 0.55859375,
+                "balanced_accuracy": 0.55859375,
+                "brier": 0.23925460981106833
+              },
+              "whole_bag_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 45,
+                "fp": 39,
+                "fn": 83,
+                "tn": 89,
+                "precision": 0.5357142857142857,
+                "recall": 0.3515625,
+                "false_positive_rate": 0.3046875,
+                "accuracy": 0.5234375,
+                "balanced_accuracy": 0.5234375,
+                "brier": 0.26355676308037035
+              }
+            },
+            "indicf5_vs_pocket": {
+              "n": 256,
+              "focus_coverage": 1.0,
+              "focus_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 37,
+                "fp": 10,
+                "fn": 91,
+                "tn": 118,
+                "precision": 0.7872340425531915,
+                "recall": 0.2890625,
+                "false_positive_rate": 0.078125,
+                "accuracy": 0.60546875,
+                "balanced_accuracy": 0.60546875,
+                "brier": 0.22036860026140132
+              },
+              "whole_bag_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 108,
+                "fp": 39,
+                "fn": 20,
+                "tn": 89,
+                "precision": 0.7346938775510204,
+                "recall": 0.84375,
+                "false_positive_rate": 0.3046875,
+                "accuracy": 0.76953125,
+                "balanced_accuracy": 0.76953125,
+                "brier": 0.18097418431589535
+              }
+            }
+          }
+        },
+        "combined": {
+          "development": {
+            "queries": 384,
+            "focus_score_meaning": "Weak source evidence on the held-out focal word, not certified pronunciation correctness",
+            "pocket_same_architecture": {
+              "n": 256,
+              "focus_coverage": 1.0,
+              "focus_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 56,
+                "fp": 17,
+                "fn": 72,
+                "tn": 111,
+                "precision": 0.7671232876712328,
+                "recall": 0.4375,
+                "false_positive_rate": 0.1328125,
+                "accuracy": 0.65234375,
+                "balanced_accuracy": 0.65234375,
+                "brier": 0.24060929315713403
+              },
+              "whole_bag_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 94,
+                "fp": 30,
+                "fn": 34,
+                "tn": 98,
+                "precision": 0.7580645161290323,
+                "recall": 0.734375,
+                "false_positive_rate": 0.234375,
+                "accuracy": 0.75,
+                "balanced_accuracy": 0.75,
+                "brier": 0.17705642477820244
+              }
+            },
+            "indicf5_vs_pocket": {
+              "n": 256,
+              "focus_coverage": 1.0,
+              "focus_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 45,
+                "fp": 17,
+                "fn": 83,
+                "tn": 111,
+                "precision": 0.7258064516129032,
+                "recall": 0.3515625,
+                "false_positive_rate": 0.1328125,
+                "accuracy": 0.609375,
+                "balanced_accuracy": 0.609375,
+                "brier": 0.27063272619133083
+              },
+              "whole_bag_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 123,
+                "fp": 30,
+                "fn": 5,
+                "tn": 98,
+                "precision": 0.803921568627451,
+                "recall": 0.9609375,
+                "false_positive_rate": 0.234375,
+                "accuracy": 0.86328125,
+                "balanced_accuracy": 0.86328125,
+                "brier": 0.12620527632916095
+              }
+            }
+          },
+          "held_out_voice_and_focus_word": {
+            "queries": 384,
+            "focus_score_meaning": "Weak source evidence on the held-out focal word, not certified pronunciation correctness",
+            "pocket_same_architecture": {
+              "n": 256,
+              "focus_coverage": 1.0,
+              "focus_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 33,
+                "fp": 15,
+                "fn": 95,
+                "tn": 113,
+                "precision": 0.6875,
+                "recall": 0.2578125,
+                "false_positive_rate": 0.1171875,
+                "accuracy": 0.5703125,
+                "balanced_accuracy": 0.5703125,
+                "brier": 0.2811896109122285
+              },
+              "whole_bag_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 98,
+                "fp": 25,
+                "fn": 30,
+                "tn": 103,
+                "precision": 0.7967479674796748,
+                "recall": 0.765625,
+                "false_positive_rate": 0.1953125,
+                "accuracy": 0.78515625,
+                "balanced_accuracy": 0.78515625,
+                "brier": 0.1670672711555353
+              }
+            },
+            "indicf5_vs_pocket": {
+              "n": 256,
+              "focus_coverage": 1.0,
+              "focus_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 27,
+                "fp": 15,
+                "fn": 101,
+                "tn": 113,
+                "precision": 0.6428571428571429,
+                "recall": 0.2109375,
+                "false_positive_rate": 0.1171875,
+                "accuracy": 0.546875,
+                "balanced_accuracy": 0.546875,
+                "brier": 0.29075090488931943
+              },
+              "whole_bag_source_metrics": {
+                "n": 256,
+                "positive_labels": 128,
+                "negative_labels": 128,
+                "tp": 115,
+                "fp": 25,
+                "fn": 13,
+                "tn": 103,
+                "precision": 0.8214285714285714,
+                "recall": 0.8984375,
+                "false_positive_rate": 0.1953125,
+                "accuracy": 0.8515625,
+                "balanced_accuracy": 0.8515625,
+                "brier": 0.1257955242958607
+              }
+            }
+          }
+        }
+      },
+      "train_queries": 768,
+      "development_queries": 384,
+      "test_queries": 384,
+      "train_pairs": 1536,
+      "test_pairs": 768,
+      "source_labels": {
+        "indicf5_stock": 1,
+        "pocket_hindi_parent": 1,
+        "pocket_nepali_v1c": 0
+      },
+      "source_priors": {
+        "indicf5_stock": 0.25,
+        "pocket_hindi_parent": 0.25,
+        "pocket_nepali_v1c": 0.5
+      },
+      "cv_policy": "Split both voice groups and focal lexemes, including reference voices; choose by focal-word weak source log loss.",
+      "human_word_gold_used": 0,
+      "validated_word_hindi_accuracy": null,
+      "reliable_automatic_detector": false,
+      "limits": [
+        "Focal scores are weak checkpoint/source evidence, not proof a word is a Hindi pronunciation error.",
+        "Positive utterance bags never label every word as erroneous. Focal model selection is still weakly supervised.",
+        "Pocket parent versus Nepali changes checkpoint within one architecture; exact historical initialization hash is unverified.",
+        "The F5 matrix has already been inspected; predefined voice/lexeme splits do not make it pristine untouched evaluation.",
+        "Native-speech false alarms and verified localized/prosody errors remain necessary reliability checks.",
+        "Underlying phonetic probe and G2P candidate limitations remain; no performance claim for Nepal Bhasa/Newa."
+      ]
+    },
+    "native_report": {
+      "status": "native_control_reference_comparison_complete_reliability_unvalidated",
+      "native_control_clips": 32,
+      "models_sha256": "90d6cfec8b3559c221b93609f03ad40593cd1ffdca2679c520dff6d643cd610b",
+      "reliable_automatic_detector": false,
+      "branches": {
+        "phonetics": {
+          "high_bag_scores": 24,
+          "clips_with_any_high_word": 30,
+          "word_count": 408,
+          "high_word_scores": 112
+        },
+        "prosody": {
+          "high_bag_scores": 27,
+          "clips_with_any_high_word": 32,
+          "word_count": 408,
+          "high_word_scores": 189
+        },
+        "combined": {
+          "high_bag_scores": 23,
+          "clips_with_any_high_word": 30,
+          "word_count": 408,
+          "high_word_scores": 130
+        }
+      },
+      "limits": [
+        "Native corpus identity supplies weak negative controls, not independently judged accent gold.",
+        "32 source groups are insufficient to establish a low error rate across dialects/contexts.",
+        "Native references and F5 probes have previously been examined; this is exploratory diagnostic validation.",
+        "Different valid intonation can disagree with a synthetic preferred reading without being Hindi leakage."
+      ]
+    },
+    "human_metadata_status": {
+      "status": "complete_metadata_only",
+      "shards_complete": 139,
+      "shards_planned": 139,
+      "updated_utc": "2026-11-07T11:42:17.583178+00:00"
+    },
+    "human_metadata_audit": {
+      "creator": "Codex GPT-6 /root",
+      "started_utc": "2026-11-07T11:22:24.020497+00:00",
+      "completed_utc": "2026-11-07T11:42:17.582896+00:00",
+      "status": "human_metadata_recovered_not_accent_labels",
+      "repository": "ai4bharat/indicvoices_r",
+      "revision": "5f4495c91d500742a58d1be2ab07d77f73c0acf8",
+      "shards": 139,
+      "source_utterances": 42276,
+      "local_source_groups": 684,
+      "local_group_recordings": 25372,
+      "local_groups_with_metadata": 25372,
+      "single_utterance_text_duration_candidates": 15150,
+      "ambiguous_single_utterance_matches": 0,
+      "not_matched_as_single_utterance": 10222,
+      "states": {
+        "West Bengal": 42276
+      },
+      "districts": [
+        {
+          "state": "West Bengal",
+          "district": "Alipurduar",
+          "source_utterances": 82
+        },
+        {
+          "state": "West Bengal",
+          "district": "Darjeeling",
+          "source_utterances": 19100
+        },
+        {
+          "state": "West Bengal",
+          "district": "Jalpaiguri",
+          "source_utterances": 3558
+        },
+        {
+          "state": "West Bengal",
+          "district": "Kalimpong",
+          "source_utterances": 19536
+        }
+      ],
+      "audio_column_read": false,
+      "full_parquet_payload_checksum_verified": false,
+      "historical_local_prep_revision_known": false,
+      "geography_is_an_accent_label": false,
+      "first_language_residence_and_hindi_exposure": "unknown; never inferred from state/district",
+      "limits": [
+        "Source-region fields describe the speaker region reported by the dataset, not current residence or Hindi influence.",
+        "The local staging source can concatenate utterances with fixed 250 ms gaps. Local groups are not automatically natural prosodic units.",
+        "Single-utterance matches require exact normalized text and close duration; their original audio identity is not checksum-verified.",
+        "Speaker IDs are source metadata, not independently verified real-person identity.",
+        "Metadata is fetched at a pinned current revision; the historical corpus extraction revision remains unknown."
+      ]
+    },
+    "human_bank_status": {
+      "phase": "human_bank_selected_unlabeled",
+      "updated_utc": "2026-11-07T11:42:26.594200+00:00",
+      "word_families": 32,
+      "recordings": 232
+    },
+    "human_bank_report": {
+      "status": "regional_human_g2p_contrast_bank_selected_unlabeled",
+      "word_families": 32,
+      "unique_recordings": 232,
+      "source_groups": 187,
+      "reported_regions": [
+        [
+          "West Bengal",
+          "Alipurduar"
+        ],
+        [
+          "West Bengal",
+          "Darjeeling"
+        ],
+        [
+          "West Bengal",
+          "Jalpaiguri"
+        ],
+        [
+          "West Bengal",
+          "Kalimpong"
+        ]
+      ],
+      "eligible_single_utterance_contexts": 7331,
+      "waveform_qc_failures": [],
+      "excluded_prior_source_groups": [
+        "S4256915200327223",
+        "S4256919400327589",
+        "S4256921100325188",
+        "S4256923500327821",
+        "S4256931400326180",
+        "S4256933800326415",
+        "S4256936900324767",
+        "S4256949000324163",
+        "S4256950900326276",
+        "S4256955700327169",
+        "S4256958500325615",
+        "S4256960200326239",
+        "S4256961300324408",
+        "S4256963000327919",
+        "S4256968700325306",
+        "S4256982800327411",
+        "S4256993600327187",
+        "S4257003900347171",
+        "S4257015100398433",
+        "S4257015800301515",
+        "S4257018100398290",
+        "S4257038600301422",
+        "S4257060500347481",
+        "S4257062600351384",
+        "S4257080900301974",
+        "S4257088000351428",
+        "S4257154100339229",
+        "S4257177400338821",
+        "S4257182100381951",
+        "S4257183700338924",
+        "S4257258600309052",
+        "S4257273500309006",
+        "S4257274900309830",
+        "S4257279900309919",
+        "S4257292700347526",
+        "S4257298100347538",
+        "S4257387500340373",
+        "S4257387600341130",
+        "S4257391800340504",
+        "S4257482900307073",
+        "S4257592000350688",
+        "S4257664400303616",
+        "S4257689200333878",
+        "S4257692200386391",
+        "S4257700500348326",
+        "S4257716200306820",
+        "S4257718200369758",
+        "S4257727300382701",
+        "S4257728700306822",
+        "S4257734800306057",
+        "S4257741500304512",
+        "S4257751100369637",
+        "S4257754400369385",
+        "S4257764000369040",
+        "S4257775500306176",
+        "S4257799100369302",
+        "S4257818800334152",
+        "S4257892500334342",
+        "S4257893600334805",
+        "S4257899000356919",
+        "S4257938300377849",
+        "S4257964300389259",
+        "S4258006200359213",
+        "S4258007300359488",
+        "S4258012700311274",
+        "S4258014800359639",
+        "S4258034700301705",
+        "S4258038100359205",
+        "S4258045700390584",
+        "S4258052200390134",
+        "S4258076500359661",
+        "S4258084400396634",
+        "S4258107400367029",
+        "S4258124900316554",
+        "S4258134900316977",
+        "S4258145700306807",
+        "S4258147000367444",
+        "S4258160100398406",
+        "S4258174000316355",
+        "S4258182200316847",
+        "S4258193000306125",
+        "S4258209300397381",
+        "S4258254800397423",
+        "S4258259900397306",
+        "S4258405200335282",
+        "S4258453800348915",
+        "S4258465100315719",
+        "S4258499600394731",
+        "S4258502600318048",
+        "S4258521300379169",
+        "S4258544700379178",
+        "S4258564000363122",
+        "S4258569400363641",
+        "S4258586900320961",
+        "S4258650600397479",
+        "S4258659500317740",
+        "S4258700800392918",
+        "S4258707800392558",
+        "S4258709200332681",
+        "S4258716800392755",
+        "S4258727400360509",
+        "S4258785100392834",
+        "S4258790600360258",
+        "S4258912200357092",
+        "S4258950100357203",
+        "S4259007700302614",
+        "S4259016000397503",
+        "S4259031200302942",
+        "S4259065500397435",
+        "S4259085700325035",
+        "S4259093200369941",
+        "S4259099900302234",
+        "S4259279700316061",
+        "S4259300900382367",
+        "S4259301000382836",
+        "S4259303500373494",
+        "S4259307200382602",
+        "S4259311700374147",
+        "S4259317600339124",
+        "S4259321500375130",
+        "S4259326600373607",
+        "S4259329100365878",
+        "S4259333900344578",
+        "S4259343400382517",
+        "S4259346000373546",
+        "S4259348900375296",
+        "S4259350800393608",
+        "S4259355800382027",
+        "S4259361500382428",
+        "S4259375800339936",
+        "S4259382400392883",
+        "S4259384300339981",
+        "S4259385700393384",
+        "S4259386800339426",
+        "S4259396100374865",
+        "S4259404700357247",
+        "S4259408000357437",
+        "S4259424500357645",
+        "S4259440200361747",
+        "S4259445500306484",
+        "S4259454800379450",
+        "S4259460700361524",
+        "S4259477200361463",
+        "S4259494700361768",
+        "S4259496900361141",
+        "S4259638800304563",
+        "S4259675300304689",
+        "S4259708000369496",
+        "S4259729900369742",
+        "S4259747200369569",
+        "S4259771000369911",
+        "S4259771200375896",
+        "S4259790200369285",
+        "S4259794900375714",
+        "S4259806300383273",
+        "S4259867700361421",
+        "S4259923300353492",
+        "S4259980800353695"
+      ],
+      "word_coverage": [
+        {
+          "word": "अब",
+          "source_speakers": 353,
+          "reported_regions": 4,
+          "candidate_contexts": 1848
+        },
+        {
+          "word": "जब",
+          "source_speakers": 67,
+          "reported_regions": 3,
+          "candidate_contexts": 82
+        },
+        {
+          "word": "तर",
+          "source_speakers": 289,
+          "reported_regions": 4,
+          "candidate_contexts": 572
+        },
+        {
+          "word": "निमित्त",
+          "source_speakers": 2,
+          "reported_regions": 1,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "बिहान",
+          "source_speakers": 48,
+          "reported_regions": 3,
+          "candidate_contexts": 58
+        },
+        {
+          "word": "आज",
+          "source_speakers": 55,
+          "reported_regions": 4,
+          "candidate_contexts": 71
+        },
+        {
+          "word": "सामना",
+          "source_speakers": 17,
+          "reported_regions": 2,
+          "candidate_contexts": 18
+        },
+        {
+          "word": "शब्द",
+          "source_speakers": 15,
+          "reported_regions": 3,
+          "candidate_contexts": 19
+        },
+        {
+          "word": "प्राप्त",
+          "source_speakers": 85,
+          "reported_regions": 2,
+          "candidate_contexts": 103
+        },
+        {
+          "word": "प्रश्न",
+          "source_speakers": 9,
+          "reported_regions": 3,
+          "candidate_contexts": 10
+        },
+        {
+          "word": "हुन",
+          "source_speakers": 49,
+          "reported_regions": 3,
+          "candidate_contexts": 59
+        },
+        {
+          "word": "धर्म",
+          "source_speakers": 22,
+          "reported_regions": 3,
+          "candidate_contexts": 25
+        },
+        {
+          "word": "तय",
+          "source_speakers": 5,
+          "reported_regions": 2,
+          "candidate_contexts": 5
+        },
+        {
+          "word": "पालना",
+          "source_speakers": 2,
+          "reported_regions": 2,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "लाग",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "सुन्न",
+          "source_speakers": 8,
+          "reported_regions": 3,
+          "candidate_contexts": 8
+        },
+        {
+          "word": "सहरी",
+          "source_speakers": 2,
+          "reported_regions": 2,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "गरम",
+          "source_speakers": 23,
+          "reported_regions": 3,
+          "candidate_contexts": 24
+        },
+        {
+          "word": "किन",
+          "source_speakers": 60,
+          "reported_regions": 3,
+          "candidate_contexts": 70
+        },
+        {
+          "word": "यथार्थ",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "ध्वस्त",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "चेतना",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "ग्रह",
+          "source_speakers": 2,
+          "reported_regions": 2,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "युद्ध",
+          "source_speakers": 2,
+          "reported_regions": 1,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "नष्ट",
+          "source_speakers": 9,
+          "reported_regions": 3,
+          "candidate_contexts": 9
+        },
+        {
+          "word": "कष्ट",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "सहर",
+          "source_speakers": 14,
+          "reported_regions": 2,
+          "candidate_contexts": 15
+        },
+        {
+          "word": "तल",
+          "source_speakers": 24,
+          "reported_regions": 3,
+          "candidate_contexts": 29
+        },
+        {
+          "word": "अर्थ",
+          "source_speakers": 6,
+          "reported_regions": 3,
+          "candidate_contexts": 6
+        },
+        {
+          "word": "तबला",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "चिक",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "पूर्ण",
+          "source_speakers": 8,
+          "reported_regions": 2,
+          "candidate_contexts": 9
+        },
+        {
+          "word": "खान",
+          "source_speakers": 21,
+          "reported_regions": 3,
+          "candidate_contexts": 22
+        },
+        {
+          "word": "सदर",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "मेहनत",
+          "source_speakers": 2,
+          "reported_regions": 2,
+          "candidate_contexts": 3
+        },
+        {
+          "word": "सफर",
+          "source_speakers": 2,
+          "reported_regions": 1,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "तुलसी",
+          "source_speakers": 3,
+          "reported_regions": 1,
+          "candidate_contexts": 3
+        },
+        {
+          "word": "तब",
+          "source_speakers": 12,
+          "reported_regions": 2,
+          "candidate_contexts": 12
+        },
+        {
+          "word": "बिक",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "दत्त",
+          "source_speakers": 2,
+          "reported_regions": 1,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "बार",
+          "source_speakers": 9,
+          "reported_regions": 3,
+          "candidate_contexts": 9
+        },
+        {
+          "word": "गुजरात",
+          "source_speakers": 7,
+          "reported_regions": 3,
+          "candidate_contexts": 7
+        },
+        {
+          "word": "उक्त",
+          "source_speakers": 4,
+          "reported_regions": 1,
+          "candidate_contexts": 8
+        },
+        {
+          "word": "मल्ल",
+          "source_speakers": 2,
+          "reported_regions": 1,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "भिन्न",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 5
+        },
+        {
+          "word": "शुभ",
+          "source_speakers": 5,
+          "reported_regions": 2,
+          "candidate_contexts": 5
+        },
+        {
+          "word": "परपर",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "स्वच्छ",
+          "source_speakers": 5,
+          "reported_regions": 2,
+          "candidate_contexts": 5
+        },
+        {
+          "word": "शुद्ध",
+          "source_speakers": 9,
+          "reported_regions": 2,
+          "candidate_contexts": 10
+        },
+        {
+          "word": "नरम",
+          "source_speakers": 4,
+          "reported_regions": 3,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "दुग्ध",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "कृष्ण",
+          "source_speakers": 3,
+          "reported_regions": 2,
+          "candidate_contexts": 3
+        },
+        {
+          "word": "देख",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "राख",
+          "source_speakers": 5,
+          "reported_regions": 3,
+          "candidate_contexts": 5
+        },
+        {
+          "word": "पुष्प",
+          "source_speakers": 2,
+          "reported_regions": 2,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "तुलना",
+          "source_speakers": 3,
+          "reported_regions": 1,
+          "candidate_contexts": 3
+        },
+        {
+          "word": "अमर",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "शिल्प",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 5
+        },
+        {
+          "word": "गहना",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "घटना",
+          "source_speakers": 7,
+          "reported_regions": 2,
+          "candidate_contexts": 7
+        },
+        {
+          "word": "गर",
+          "source_speakers": 20,
+          "reported_regions": 3,
+          "candidate_contexts": 20
+        },
+        {
+          "word": "रद्द",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "पर",
+          "source_speakers": 7,
+          "reported_regions": 3,
+          "candidate_contexts": 8
+        },
+        {
+          "word": "स्थापना",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "मृग",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "उच्च",
+          "source_speakers": 9,
+          "reported_regions": 2,
+          "candidate_contexts": 11
+        },
+        {
+          "word": "स्वायत्त",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "असल",
+          "source_speakers": 8,
+          "reported_regions": 3,
+          "candidate_contexts": 9
+        },
+        {
+          "word": "पुतला",
+          "source_speakers": 2,
+          "reported_regions": 2,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "उपाय",
+          "source_speakers": 3,
+          "reported_regions": 2,
+          "candidate_contexts": 3
+        },
+        {
+          "word": "शाह",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "स्वादिष्ट",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "मर",
+          "source_speakers": 5,
+          "reported_regions": 3,
+          "candidate_contexts": 5
+        },
+        {
+          "word": "सपना",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "आय",
+          "source_speakers": 7,
+          "reported_regions": 2,
+          "candidate_contexts": 7
+        },
+        {
+          "word": "शीर्ष",
+          "source_speakers": 2,
+          "reported_regions": 1,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "जन्म",
+          "source_speakers": 12,
+          "reported_regions": 2,
+          "candidate_contexts": 12
+        },
+        {
+          "word": "गमला",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "स्वप्न",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "दशहरा",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "शुल्क",
+          "source_speakers": 10,
+          "reported_regions": 2,
+          "candidate_contexts": 10
+        },
+        {
+          "word": "रचना",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "दसहरा",
+          "source_speakers": 2,
+          "reported_regions": 1,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "महल",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "मसला",
+          "source_speakers": 9,
+          "reported_regions": 2,
+          "candidate_contexts": 9
+        },
+        {
+          "word": "अन्न",
+          "source_speakers": 3,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "मार्ग",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "सिद्ध",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "पेय",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "पदार्थ",
+          "source_speakers": 3,
+          "reported_regions": 2,
+          "candidate_contexts": 3
+        },
+        {
+          "word": "निम्न",
+          "source_speakers": 3,
+          "reported_regions": 2,
+          "candidate_contexts": 3
+        },
+        {
+          "word": "भ्रष्ट",
+          "source_speakers": 2,
+          "reported_regions": 2,
+          "candidate_contexts": 3
+        },
+        {
+          "word": "तीर्थ",
+          "source_speakers": 3,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "पोखरा",
+          "source_speakers": 3,
+          "reported_regions": 2,
+          "candidate_contexts": 3
+        },
+        {
+          "word": "चिन्ह",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "कन",
+          "source_speakers": 2,
+          "reported_regions": 2,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "लहसुन",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "स्पष्ट",
+          "source_speakers": 2,
+          "reported_regions": 2,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "नगर",
+          "source_speakers": 3,
+          "reported_regions": 2,
+          "candidate_contexts": 3
+        },
+        {
+          "word": "पस",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "पहल",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "बुद्ध",
+          "source_speakers": 8,
+          "reported_regions": 2,
+          "candidate_contexts": 8
+        },
+        {
+          "word": "चाहना",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "दुख",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "साधना",
+          "source_speakers": 3,
+          "reported_regions": 1,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "कर्मचारी",
+          "source_speakers": 2,
+          "reported_regions": 1,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "स्वर्ण",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "सृजना",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 5
+        },
+        {
+          "word": "भग्न",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "बाट",
+          "source_speakers": 5,
+          "reported_regions": 2,
+          "candidate_contexts": 5
+        },
+        {
+          "word": "कसरत",
+          "source_speakers": 2,
+          "reported_regions": 2,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "जोगिन",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "मुक्त",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "भव",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "थाह",
+          "source_speakers": 4,
+          "reported_regions": 2,
+          "candidate_contexts": 4
+        },
+        {
+          "word": "रोप",
+          "source_speakers": 2,
+          "reported_regions": 2,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "हमला",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "बन",
+          "source_speakers": 3,
+          "reported_regions": 1,
+          "candidate_contexts": 3
+        },
+        {
+          "word": "लहरा",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "सहन",
+          "source_speakers": 2,
+          "reported_regions": 2,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "रहन",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "स्नेह",
+          "source_speakers": 3,
+          "reported_regions": 1,
+          "candidate_contexts": 3
+        },
+        {
+          "word": "साट",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "गुप्त",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "सुस्त",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "परास्त",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "तरह",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "बोल",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "ठप्प",
+          "source_speakers": 2,
+          "reported_regions": 1,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "हर्ष",
+          "source_speakers": 2,
+          "reported_regions": 1,
+          "candidate_contexts": 2
+        },
+        {
+          "word": "लय",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "अल्प",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "गृह",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "चित्त",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "खन",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "निकाल",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "चाँदनी",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "अस्त",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        },
+        {
+          "word": "पुस्त",
+          "source_speakers": 1,
+          "reported_regions": 1,
+          "candidate_contexts": 1
+        }
+      ],
+      "metadata_revision": "5f4495c91d500742a58d1be2ab07d77f73c0acf8",
+      "output_contract": [
+        "Broad native Nepali support, including regional varieties",
+        "Deviation from the preferred TTS pronunciation style",
+        "Independent Hindi-phone hypothesis evidence"
+      ],
+      "limits": [
+        "All human examples are unlabeled for Hindi leakage; region never supplies a pronunciation label.",
+        "Each example matches one original utterance by speaker/text/duration, not verified raw audio checksum identity.",
+        "G2P outputs are alternative priors. Real human audio must determine realized phones and legitimate variants.",
+        "Hindi dictionary aliases used for candidate mining erase distinctions; raw Hindi G2P/lexicon outputs are preserved separately.",
+        "The named Newa repository implements Nepali here; this is not a Nepal Bhasa pronunciation bank."
+      ]
+    },
+    "human_evidence_status": {
+      "creator": "Codex GPT-6 /root",
+      "created_utc": "2026-11-07T12:00:30.563948+00:00",
+      "controller_source_sha256": "3eecc962b82bc2ed2ecca24bc74186cfb4465b1b95f68f854d8a4af092d4f918",
+      "controller_source_utf8": "\"\"\"Pinned-runtime continuation for human word evidence and its neutral summary.\"\"\"\nfrom __future__ import annotations\n\nfrom datetime import datetime, timezone\nimport hashlib\nimport json\nimport logging\nimport os\nfrom pathlib import Path\nimport subprocess\nimport sys\n\nROOT = Path(__file__).resolve().parents[1]\nOUT = ROOT / 'reports/human_g2p_evidence_v5'\nLOG = logging.getLogger(__name__)\n\n\ndef save(value):\n    value.update(updated_utc=datetime.now(timezone.utc).isoformat(), pid=os.getpid())\n    p = OUT / 'job.json'; temporary = p.with_name(p.name + '.partial')\n    temporary.write_text(json.dumps(value, indent=2) + '\\n'); temporary.replace(p)\n\n\ndef main():\n    if not (OUT / 'README.md').is_file() or (OUT / 'manifest.json').exists() or (OUT / 'items.jsonl').exists():\n        raise ValueError('Need documented fresh evidence; inspect partial outputs before resuming')\n    if sys.version_info[:2] != (3, 12):\n        raise RuntimeError('Use the pinned Python3.12 word runtime for this continuation')\n    phases = [\n        ('extracting_real_human_word_evidence', 'extract.log', ['-m', 'scripts.extract_word_evidence', '--pack', 'data/human_g2p_bank_v5', '--g2p-bank', 'data/human_g2p_bank_v5/word_bank.json', '--out', 'reports/human_g2p_evidence_v5']),\n        ('summarizing_real_human_g2p_paths', 'summary.log', ['-m', 'scripts.summarize_human_g2p', '--bank', 'data/human_g2p_bank_v5', '--evidence', 'reports/human_g2p_evidence_v5', '--out', 'reports/human_g2p_summary_v5'])]\n    base = {'creator': 'Codex GPT-6 /root', 'created_utc': datetime.now(timezone.utc).isoformat(),\n            'controller_source_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),\n            'controller_source_utf8': Path(__file__).read_text(), 'python': sys.version,\n            'phases': phases, 'source_bank_sha256': hashlib.sha256((ROOT / 'data/human_g2p_bank_v5/word_bank.json').read_bytes()).hexdigest()}\n    for phase, filename, arguments in phases:\n        save(base | {'status': phase})\n        with (OUT / filename).open('w') as log:\n            subprocess.run([sys.executable, *arguments], cwd=ROOT,\n                           env={**os.environ, 'PYTHONDONTWRITEBYTECODE': '1', 'OMP_NUM_THREADS': '2'},\n                           stdin=subprocess.DEVNULL, stdout=log, stderr=subprocess.STDOUT, check=True)\n    save(base | {'status': 'evidence_and_summary_complete_unlabeled'})\n\n\nif __name__ == '__main__':\n    logging.basicConfig(level=logging.INFO)\n    try:\n        main()\n    except Exception:\n        LOG.exception('Real-human G2P evidence failed; inspect partial outputs before retry')\n        if OUT.is_dir():\n            save({'status': 'failed_inspect_logs_before_retry'})\n        raise\n",
+      "python": "3.12.13 (main, Apr 14 2026, 14:33:40) [Clang 22.1.3 ]",
+      "phases": [
+        [
+          "extracting_real_human_word_evidence",
+          "extract.log",
+          [
+            "-m",
+            "scripts.extract_word_evidence",
+            "--pack",
+            "data/human_g2p_bank_v5",
+            "--g2p-bank",
+            "data/human_g2p_bank_v5/word_bank.json",
+            "--out",
+            "reports/human_g2p_evidence_v5"
+          ]
+        ],
+        [
+          "summarizing_real_human_g2p_paths",
+          "summary.log",
+          [
+            "-m",
+            "scripts.summarize_human_g2p",
+            "--bank",
+            "data/human_g2p_bank_v5",
+            "--evidence",
+            "reports/human_g2p_evidence_v5",
+            "--out",
+            "reports/human_g2p_summary_v5"
+          ]
+        ]
+      ],
+      "source_bank_sha256": "056edc34c0a1788b057c983d1697b35f5504970fd9463e03dead3b1712087e8d",
+      "status": "evidence_and_summary_complete_unlabeled",
+      "updated_utc": "2026-11-07T12:11:39.438052+00:00",
+      "pid": 38300
+    },
+    "human_evidence": {
+      "processed": 232,
+      "planned": 232,
+      "failed": 0
+    },
+    "human_evidence_report": {
+      "status": "real_human_dual_g2p_evidence_collected_unlabelled",
+      "word_families": 32,
+      "families_with_supported_comparisons": 20,
+      "observed_planned_word_occurrences": 264,
+      "extraction_successes": 232,
+      "extraction_failures": 0,
+      "native_acceptability_accuracy": null,
+      "preferred_style_accuracy": null,
+      "hindi_error_accuracy": null,
+      "geography_used_as_label": false,
+      "g2p_outputs_used_as_gold": false,
+      "limits": [
+        "This is a speaker-weighted observation bank, not a trained/validated human-word error classifier.",
+        "Full predicted path preference mixes phone quality, phone count and model path-length bias.",
+        "Both G2P paths may fit poorly; per-frame comparisons with the probe greedy sequence are retained.",
+        "Unsupported IPA and impossible paths remain explicit, never native support or zero risk.",
+        "Current regional coverage is reported West Bengal districts; Nepal-region coverage is not established.",
+        "Single-original-utterance candidacy uses text/duration metadata, not verified original audio identity.",
+        "Native variation, preferred TTS style and Hindi-phone evidence are separate requested outputs."
+      ]
+    },
+    "original_audio_pilot": {
+      "status": "pilot_complete_two_exact_staged_reconstructions",
+      "original_recordings_recovered": 2,
+      "selected_recordings": 232,
+      "byte_identical_staged_reconstructions": 2,
+      "source_channels": 2,
+      "source_sample_rate": 48000,
+      "measured_staging_delay_samples_at_24khz": [
+        256,
+        256
+      ],
+      "historical_executed_revision_known": false,
+      "native_acceptability_accuracy": null,
+      "hindi_leakage_accuracy": null,
+      "updated_utc": "2026-11-07T14:35:32.262855+00:00",
+      "limits": [
+        "Only these two originals are verified, not the remaining 230.",
+        "Byte-identical replay establishes source-to-staging correspondence for these clips, not native acceptability.",
+        "The strict mono failure is retained as resolved setup evidence; original two-channel payloads remain unchanged."
+      ]
+    },
+    "original_audio_status": {
+      "status": "recovering_original_utterance_audio",
+      "updated_utc": "2026-11-07T14:38:21.232975+00:00",
+      "original_recordings_recovered": 5,
+      "selected_recordings": 232,
+      "audio_row_groups_read": 3,
+      "row_group_limit": 400
+    },
+    "original_audio_report": null,
+    "original_audio_failure": null
+  },
+  "source_inventory": "reports/goal_source_inventory.json"
+}

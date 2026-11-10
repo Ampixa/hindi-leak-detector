@@ -1,0 +1,15 @@
+{
+  "owner": "Ampixa/user",
+  "status": "active/reference",
+  "review_date": "2026-11-10",
+  "source_data_checksums": "Each teacher WAV in teacher/items.jsonl; each frame detail/NPZ in reports/native_main_features_v71/items.jsonl; each control in corresponding items.jsonl, all selected model/checkpoints have SHA in runtime/inventory/frozen_selection. No HF upload.",
+  "known_duplicates": [
+    "Raw teacher renders k2:data/native_main_v71/teacher and L40:/home/ampixa/hindi-detector-teacher-f5-v14/data/native_main_v71/teacher.",
+    "Compact training/test/diagnostic/report copies on Mac and k2 for review; no raw waveform/encoder/model encoder copied to Mac.",
+    "Claude post-training review local reports/claude_adversarial_v68/post_training; compact review copy k2:reports/post_training."
+  ],
+  "raw_deletion_condition": "After independently marked short-vowel/representation review consumer finishes or is cancelled, remove redundant raw diagnostics within24h. Do not retain beyond7days without dated current use. Check active jobs, unique inputs and verified replacements first; no blind janitor.",
+  "model_retention": "Keep only tiny selected rejected-v71 head as immutable negative-result reproduction evidence and current v31 live head. No historical epochs generated.",
+  "python_caches": "__pycache__/*.pyc are reproducible disposable bytecode under source trees. Current CLI/test consumers only; source/README provide inventory role. Existing historical cache authorship unknown; do not infer ownership from age.",
+  "preview": "Mac local-only PID2817,127.0.0.1:8781; log disposable24h after preview consumer ends. No new public service or external messages."
+}

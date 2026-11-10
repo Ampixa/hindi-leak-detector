@@ -1,0 +1,50 @@
+{
+  "created_by": "Codex GPT-6 /root",
+  "utc": "2026-11-07T16:26:49.233696+00:00",
+  "removed": [
+    {
+      "path": "reports/ui_transfer_v8/desktop.png",
+      "bytes": 126999,
+      "sha256": "69f0f4461fdcc7a218d173a6abf88236b31fcbf48e415eeaa6eaf2f7dac0c6bf",
+      "reason": "Transient owned screenshot/browser snapshot; visual and semantic QA complete, compact outcomes retained."
+    },
+    {
+      "path": "reports/ui_transfer_v8/mobile.png",
+      "bytes": 76439,
+      "sha256": "b197e0858a85c1c6125213d1fca0c98f1f3766014ef187a680ab4110f7a8c22b",
+      "reason": "Transient owned screenshot/browser snapshot; visual and semantic QA complete, compact outcomes retained."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T16-18-41-231Z.yml",
+      "bytes": 9277,
+      "sha256": "6ad77cc54ee0c81bf3b803f7b3c9d2317246dfb1db49b09c513dfec846c7f15d",
+      "reason": "Transient owned screenshot/browser snapshot; visual and semantic QA complete, compact outcomes retained."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T16-18-40-450Z.yml",
+      "bytes": 33796,
+      "sha256": "86acacfac594984ddde5ac9929076ce77c509dc090437f8e717b1ba8c86b4276",
+      "reason": "Transient owned screenshot/browser snapshot; visual and semantic QA complete, compact outcomes retained."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T16-16-40-645Z.yml",
+      "bytes": 3303,
+      "sha256": "a489d72f3efd9457e6d430eb577e311253a3fcb482e64bdb95d5f89e60381514",
+      "reason": "Transient owned screenshot/browser snapshot; visual and semantic QA complete, compact outcomes retained."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T16-26-09-039Z.yml",
+      "bytes": 9277,
+      "sha256": "613fee728dc82d33ddc4aec6978beccacb22ab1d3dcf55ad3af8fe86b1ae7503",
+      "reason": "Transient owned screenshot/browser snapshot; visual and semantic QA complete, compact outcomes retained."
+    }
+  ],
+  "logical_bytes_removed": 259091,
+  "free_before_bytes": 51014328320,
+  "free_after_bytes": 51014590464,
+  "replacement_evidence": [
+    "browser_checks.json",
+    "api_checks.json"
+  ],
+  "historical_pixels_no_longer_retained": true
+}

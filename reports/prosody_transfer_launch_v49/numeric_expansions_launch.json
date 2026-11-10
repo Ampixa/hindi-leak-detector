@@ -1,0 +1,10 @@
+{
+  "pid": 49034,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-u",
+    "-m",
+    "scripts.score_numeric_swar_expansions"
+  ],
+  "created_utc": "2026-11-09T02:55:24.779286+00:00"
+}

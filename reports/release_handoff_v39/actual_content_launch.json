@@ -1,0 +1,10 @@
+{
+  "pid": 42381,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-asr-gate/bin/python",
+    "-u",
+    "-m",
+    "scripts.audit_swar_content"
+  ],
+  "created_utc": "2026-11-09T01:25:32.482979+00:00"
+}

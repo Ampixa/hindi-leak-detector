@@ -1,0 +1,25 @@
+{
+  "status": "complete_training_only_short_vowel_audit",
+  "sources": 24,
+  "rows": 48,
+  "probes": [
+    {
+      "probe": 0,
+      "sources": 24,
+      "localization_recovery_signals": 8,
+      "shortening_loses_encoder_vowel_signal": 6,
+      "shortened_oracle_peak_median": 0.8909389972686768
+    },
+    {
+      "probe": 1,
+      "sources": 24,
+      "localization_recovery_signals": 6,
+      "shortening_loses_encoder_vowel_signal": 5,
+      "shortened_oracle_peak_median": 0.902351438999176
+    }
+  ],
+  "maximum_clip_fraction": 0.0019097222222222222,
+  "actual_hindi_error_accuracy": null,
+  "model_changed": false,
+  "items_sha256": "e4ebc7280b3a2fc32059f1b2bf1cd62cd1f30687e63ef805cc7c78ef13d0624d"
+}

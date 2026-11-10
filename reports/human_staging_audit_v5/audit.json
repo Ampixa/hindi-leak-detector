@@ -1,0 +1,18 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "source_hashes": [
+    "f39af3d0ce15a92fdfe0154778f8b7b96774bdd4788ef2b3f06f1c9915b16c0c",
+    "f39af3d0ce15a92fdfe0154778f8b7b96774bdd4788ef2b3f06f1c9915b16c0c"
+  ],
+  "observed_behavior": [
+    "concatenate same-speaker utterances",
+    "insert 250 ms zero gaps between joined utterances",
+    "peak normalize to 0.95",
+    "resample to 24 kHz using sphn",
+    "write grouped transcript without per-utterance timing"
+  ],
+  "historical_executed_revision_known": false,
+  "conclusion": "A local group is not automatically a natural prosodic unit. Match original source row and verify retrieved audio before using as human prosody context. Current source inspection does not prove every historical group was concatenated.",
+  "original_authorship": "unknown",
+  "no_source_corpus_modified": true
+}

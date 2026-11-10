@@ -1,0 +1,28 @@
+{
+  "status": "actual_model_pair_smoke_complete",
+  "clip_counts": {
+    "pocket_teacher_250000_24l": 8,
+    "indicf5_stock": 8
+  },
+  "content_decisions": {
+    "pocket_teacher_250000_24l": {
+      "pass": 8
+    },
+    "indicf5_stock": {
+      "pass": 8
+    }
+  },
+  "recipe": {
+    "version": "content_gate_v11",
+    "conformer_cer": 0.15,
+    "conformer_wer": 0.5,
+    "tight_cer": 0.08,
+    "agreed_roman_cer": 0.18,
+    "roman_wer": 0.7,
+    "reject_cer": 0.35,
+    "reject_roman_cer": 0.3,
+    "reject_wer": 0.8
+  },
+  "automatic_hindi_accuracy": null,
+  "model_pair_sha256": "06b469ad88fff6ea655c3c39ba7b70082ed9bb30c607afe61141b61c16b370e6"
+}

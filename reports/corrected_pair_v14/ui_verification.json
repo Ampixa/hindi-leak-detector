@@ -1,0 +1,33 @@
+{
+  "creator": "Codex /root",
+  "created_utc": "2026-11-08T05:29:02.640082+00:00",
+  "desktop": "1280x900 no horizontal overflow",
+  "mobile": "390x844 no horizontal overflow",
+  "paired_cases": 24,
+  "first_audio_durations_seconds": [
+    2.08,
+    2.816
+  ],
+  "teacher_loaded_layers": 24,
+  "teacher_sha256": "2b4636e3aed0e4f2d035630e504be95fc58f494b690a851a91bfe0dd8299516f",
+  "indicf5_sha256": "ba7f3671180fb7784e24bd1dafc96e729a38ce02e7f6d3877cdef32525a1865c",
+  "all_displayed_pairs_share_reference_sha": true,
+  "tests_passed": 102,
+  "cleanup": [
+    {
+      "path": ".playwright-mcp/page-2026-11-08T05-28-25-911Z.yml",
+      "bytes": 3315,
+      "sha256": "ffd85f85b467609a6b1a27414d89538ccbace8a89ecb90b70816c7da4e5a16a4",
+      "reason": "Own transient UI snapshot consumed by successful layout/audio/source verification"
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-08T05-29-02-355Z.yml",
+      "bytes": 3315,
+      "sha256": "0e94e986fecb543cc9a2661e411c99d1eca75788f73340f94f626bdf7666945f",
+      "reason": "Own root-route verification snapshot consumed; default page confirmed corrected pair"
+    }
+  ],
+  "local_free_bytes": 44697575424,
+  "new_detector_trained": false,
+  "default_root_verified": true
+}

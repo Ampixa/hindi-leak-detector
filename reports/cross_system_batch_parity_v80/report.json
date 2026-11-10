@@ -1,0 +1,11 @@
+{
+  "status": "exact_word_decision_and_reference_qualification_parity",
+  "words": 7,
+  "flagged_words": [
+    "हैन"
+  ],
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "cold_result_sha256": "acf9360de3bde66f595543e4a4e93aaff601000af77615ad02c799b1a4d141c7",
+  "batch_case_sha256": "22a1d89a03e66f5decb6dff70c7e43f18cda7f03fab9195c0cbe3692102fdcb1",
+  "compared": "All word strings/bounds/decisions and site kind/index/Native phones/decision/qualified/available references; extra display and variation-bank fields excluded."
+}

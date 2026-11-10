@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-11-09T00:52:09.449839+00:00",
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "status": "active",
+  "next_review": "2026-11-10",
+  "purpose": "Expose reference-induced human variation flags and exact supported-word coverage in user review; frozen model unchanged.",
+  "previous_review_report_sha256": "04c00757d73c5d7f361d31dd4badc288768af9df5f4918c77f10eda532a7b384",
+  "current_review_report_sha256": "028c9257b7eb7db360f640bdb29791ada074df4406092c023f7ecfe2748fa854",
+  "audit_input_sha256": "76a795d228684bb73a8057d847f43427ee40283ab68bb8d55d14fcd5a2ea6fad",
+  "model_sha256_unchanged": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "source_html_sha256": "3af881e13cf562c0154747a4feb7f0c7711c3781a86f690b0b2df9cd6657904b",
+  "member_role": "review_report.json compact UI summary; review_amendment_v36.json exact change/input/output identity.",
+  "not_on_HF": true,
+  "retention": "Keep compact audit/receipt while model/review active; inherited source/MMS rights."
+}

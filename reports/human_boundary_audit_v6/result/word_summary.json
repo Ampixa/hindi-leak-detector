@@ -1,0 +1,332 @@
+[
+  {
+    "word": "अब",
+    "occurrences": 11,
+    "source_groups": 8,
+    "statuses": {
+      "boundary_sensitive_g2p_evidence": 6,
+      "consistent_sign_in_tested_windows": 4,
+      "incomplete_or_tied_boundary_evidence": 1
+    },
+    "source_groups_with_direction_changes": 4,
+    "short_span_warnings": 3
+  },
+  {
+    "word": "अर्थ",
+    "occurrences": 6,
+    "source_groups": 6,
+    "statuses": {
+      "unavailable_g2p_projection": 6
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "असल",
+    "occurrences": 6,
+    "source_groups": 6,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 6
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "आज",
+    "occurrences": 7,
+    "source_groups": 7,
+    "statuses": {
+      "unavailable_g2p_projection": 7
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "उच्च",
+    "occurrences": 8,
+    "source_groups": 7,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 7,
+      "boundary_sensitive_g2p_evidence": 1
+    },
+    "source_groups_with_direction_changes": 1,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "किन",
+    "occurrences": 9,
+    "source_groups": 8,
+    "statuses": {
+      "boundary_sensitive_g2p_evidence": 7,
+      "consistent_sign_in_tested_windows": 2
+    },
+    "source_groups_with_direction_changes": 6,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "खान",
+    "occurrences": 8,
+    "source_groups": 8,
+    "statuses": {
+      "boundary_sensitive_g2p_evidence": 5,
+      "consistent_sign_in_tested_windows": 3
+    },
+    "source_groups_with_direction_changes": 5,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "गर",
+    "occurrences": 9,
+    "source_groups": 8,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 6,
+      "boundary_sensitive_g2p_evidence": 3
+    },
+    "source_groups_with_direction_changes": 2,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "गरम",
+    "occurrences": 8,
+    "source_groups": 8,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 8
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "घटना",
+    "occurrences": 7,
+    "source_groups": 6,
+    "statuses": {
+      "unavailable_g2p_projection": 7
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "जन्म",
+    "occurrences": 8,
+    "source_groups": 8,
+    "statuses": {
+      "unavailable_g2p_projection": 8
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "जब",
+    "occurrences": 8,
+    "source_groups": 8,
+    "statuses": {
+      "unavailable_g2p_projection": 8
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "तब",
+    "occurrences": 10,
+    "source_groups": 8,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 10
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "तर",
+    "occurrences": 7,
+    "source_groups": 7,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 7
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "तल",
+    "occurrences": 10,
+    "source_groups": 8,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 10
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "धर्म",
+    "occurrences": 9,
+    "source_groups": 8,
+    "statuses": {
+      "unavailable_g2p_projection": 9
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "नष्ट",
+    "occurrences": 7,
+    "source_groups": 7,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 7
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "पर",
+    "occurrences": 6,
+    "source_groups": 6,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 4,
+      "boundary_sensitive_g2p_evidence": 2
+    },
+    "source_groups_with_direction_changes": 2,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "पूर्ण",
+    "occurrences": 7,
+    "source_groups": 7,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 7
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "प्रश्न",
+    "occurrences": 7,
+    "source_groups": 7,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 7
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "प्राप्त",
+    "occurrences": 8,
+    "source_groups": 8,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 8
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "बार",
+    "occurrences": 10,
+    "source_groups": 8,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 8,
+      "boundary_sensitive_g2p_evidence": 2
+    },
+    "source_groups_with_direction_changes": 2,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "बिहान",
+    "occurrences": 10,
+    "source_groups": 8,
+    "statuses": {
+      "unavailable_g2p_projection": 10
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "बुद्ध",
+    "occurrences": 9,
+    "source_groups": 8,
+    "statuses": {
+      "unavailable_g2p_projection": 9
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "मसला",
+    "occurrences": 7,
+    "source_groups": 7,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 6,
+      "boundary_sensitive_g2p_evidence": 1
+    },
+    "source_groups_with_direction_changes": 1,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "शब्द",
+    "occurrences": 9,
+    "source_groups": 8,
+    "statuses": {
+      "unavailable_g2p_projection": 9
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "शुद्ध",
+    "occurrences": 10,
+    "source_groups": 8,
+    "statuses": {
+      "unavailable_g2p_projection": 10
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "शुल्क",
+    "occurrences": 8,
+    "source_groups": 8,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 7,
+      "boundary_sensitive_g2p_evidence": 1
+    },
+    "source_groups_with_direction_changes": 1,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "सहर",
+    "occurrences": 13,
+    "source_groups": 8,
+    "statuses": {
+      "unavailable_g2p_projection": 13
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "सामना",
+    "occurrences": 9,
+    "source_groups": 8,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 9
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "सुन्न",
+    "occurrences": 6,
+    "source_groups": 6,
+    "statuses": {
+      "consistent_sign_in_tested_windows": 6
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  },
+  {
+    "word": "हुन",
+    "occurrences": 7,
+    "source_groups": 7,
+    "statuses": {
+      "unavailable_g2p_projection": 7
+    },
+    "source_groups_with_direction_changes": 0,
+    "short_span_warnings": 0
+  }
+]

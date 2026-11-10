@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-11-08T08:51:44.468570+00:00",
+  "creator": "Codex (GPT-6), session /root",
+  "owner": "Ampixa/user",
+  "original_host": "k2",
+  "original_path": "/Volumes/T9/hindi-detector/reports/corrected_training_v16/review_verification.json",
+  "status": "active",
+  "next_review": "2026-11-09",
+  "purpose": "Current trained preview and owned final pipeline remain reviewable and detached; no final results asserted",
+  "current_consumer": "User private review and final fitting supervisor",
+  "restore": "Re-run documented owned CLI with the preserved source/input/runtime locks; never restart an existing output namespace",
+  "licence": "Existing model/data licences unchanged; no HF upload",
+  "duplicate": "Compact receipt copied to cdjk",
+  "review_url": "http://100.80.123.8:8770/comparison",
+  "selected_model_sha256": "9d3caf0a1d5ffe32056b665c4cbbba4580f2ad06e533d9d9a00e75c984245146",
+  "ui_verification": {
+    "desktop_overflow": false,
+    "mobile_width": 390,
+    "mobile_overflow": false,
+    "browser_console_errors": 0,
+    "word_buttons": 40,
+    "first_word_audio_http": 200,
+    "first_word_audio_bytes": 89644,
+    "examples_model_matches_selected": true
+  },
+  "workers": {
+    "reports/corrected_pair_v14/status.json": {
+      "phase": "generating_and_screening_corrected_pair",
+      "process": "PID  ELAPSED COMMAND\n66222 03:28:13 /Volumes/T9/hindi-detector/.venv-asr-gate/bin/python -u -m scripts.continue_corrected_pair --plan /Volumes/T9/hindi-detector/data/teacher_indicf5_v14 --out /Volumes/T9/hindi-detector/reports/corrected_pair_v14"
+    },
+    "reports/structured_evidence_v15/status.json": {
+      "phase": "extracting_corrected_word_controls",
+      "process": "PID  ELAPSED COMMAND\n89214 01:53:08 /Volumes/T9/hindi-detector/.venv-indicf5/bin/python -u -m scripts.extract_corrected_training --out /Volumes/T9/hindi-detector/reports/structured_evidence_v15"
+    },
+    "reports/corrected_training_v16/status.json": {
+      "phase": "pilot_trained_waiting_for_full_corrected_evidence",
+      "process": "PID ELAPSED COMMAND\n10611   30:32 /Volumes/T9/hindi-detector/.venv-indicf5/bin/python -u -m scripts.finish_corrected_training"
+    },
+    "reports/native_variation_audit_v16/status.json": {
+      "phase": "waiting_for_frozen_final_corrected_model",
+      "process": "PID ELAPSED COMMAND\n 5194   49:46 /Volumes/T9/hindi-detector/.venv-indicf5/bin/python -u -m scripts.audit_native_variation"
+    },
+    "reports/corrected_training_v16/finalizer_status.json": {
+      "phase": "waiting_for_final_training_and_recorded_variation",
+      "process": "PID ELAPSED COMMAND\n15244   13:35 /Volumes/T9/hindi-detector/.venv-indicf5/bin/python -u -m scripts.finalize_corrected_training"
+    }
+  },
+  "actual_hindi_error_accuracy": null
+}

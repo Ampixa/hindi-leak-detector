@@ -1,0 +1,27 @@
+{
+  "status": "same_architecture_external_checkpoint_diagnostic_not_accent_accuracy",
+  "branches": {
+    "phonetics": {
+      "pairs": 6,
+      "parent_above_fine_tune": 5,
+      "mean_parent_minus_fine_tune": 0.15248280460207006
+    },
+    "prosody": {
+      "pairs": 6,
+      "parent_above_fine_tune": 0,
+      "mean_parent_minus_fine_tune": -0.04300523131504144
+    },
+    "combined": {
+      "pairs": 6,
+      "parent_above_fine_tune": 5,
+      "mean_parent_minus_fine_tune": 0.1608922084281081
+    }
+  },
+  "validated_hindi_accuracy": null,
+  "limits": [
+    "Six seed/text pairs cover only three authored texts, not six independent linguistic samples.",
+    "Parent versus fine-tune role is a diagnostic direction, not human accent gold.",
+    "The historical exact parent weight hash used by the fine-tune remains unverified.",
+    "Successful ordering would not establish localized schwa/prosody correctness."
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "status": "trained_paired_word_source_candidate_not_validated_accent_detector",
+  "model_sha256": "efa2d36a71d46949f27db72e1d6b9a769125159427f9da6d144422c2ab8fc820",
+  "best_epoch": 1,
+  "epochs_run": 16,
+  "training_loss_word_rows": 20188,
+  "partition_texts": {
+    "train": 512,
+    "development": 113,
+    "reserved_evaluation": 110
+  },
+  "partition_audio_clips": {
+    "train": 2048,
+    "development": 452,
+    "reserved_evaluation": 440
+  },
+  "partition_focal_lexemes": {
+    "train": 196,
+    "development": 52,
+    "reserved_evaluation": 50
+  },
+  "conditioning_groups": {
+    "train": 8,
+    "development": 4,
+    "reserved_evaluation": 4
+  },
+  "text_kind_counts": {
+    "train": {
+      "authored_targeted_carrier": 312,
+      "natural_transcript": 200
+    },
+    "development": {
+      "authored_targeted_carrier": 111,
+      "natural_transcript": 2
+    },
+    "reserved_evaluation": {
+      "authored_targeted_carrier": 102,
+      "natural_transcript": 8
+    }
+  },
+  "test": {
+    "phonetics": {
+      "feature_localization": {
+        "fixed_threshold_0_5": {
+          "n": 2468,
+          "positive_labels": 220,
+          "negative_labels": 2248,
+          "tp": 181,
+          "fp": 451,
+          "fn": 39,
+          "tn": 1797,
+          "precision": 0.28639240506329117,
+          "recall": 0.8227272727272728,
+          "false_positive_rate": 0.20062277580071175,
+          "accuracy": 0.8014586709886548,
+          "balanced_accuracy": 0.8110522484632805,
+          "brier": 0.13599400161483377
+        },
+        "development_threshold": 0.6,
+        "selected_threshold_metrics": {
+          "n": 2468,
+          "positive_labels": 220,
+          "negative_labels": 2248,
+          "tp": 166,
+          "fp": 364,
+          "fn": 54,
+          "tn": 1884,
+          "precision": 0.3132075471698113,
+          "recall": 0.7545454545454545,
+          "false_positive_rate": 0.1619217081850534,
+          "accuracy": 0.8306320907617504,
+          "balanced_accuracy": 0.7963118731802006,
+          "brier": 0.13599400161483377
+        },
+        "clusters": 110,
+        "cluster_kind": "text",
+        "cluster_bootstrap_balanced_accuracy_ci95": [
+          0.7697007773442479,
+          0.8244815043493985
+        ]
+      },
+      "focal_source": {
+        "fixed_threshold_0_5": {
+          "n": 440,
+          "positive_labels": 220,
+          "negative_labels": 220,
+          "tp": 181,
+          "fp": 103,
+          "fn": 39,
+          "tn": 117,
+          "precision": 0.6373239436619719,
+          "recall": 0.8227272727272728,
+          "false_positive_rate": 0.4681818181818182,
+          "accuracy": 0.6772727272727272,
+          "balanced_accuracy": 0.6772727272727272,
+          "brier": 0.22975559247049396
+        },
+        "development_threshold": 0.6,
+        "selected_threshold_metrics": {
+          "n": 440,
+          "positive_labels": 220,
+          "negative_labels": 220,
+          "tp": 166,
+          "fp": 92,
+          "fn": 54,
+          "tn": 128,
+          "precision": 0.6434108527131783,
+          "recall": 0.7545454545454545,
+          "false_positive_rate": 0.41818181818181815,
+          "accuracy": 0.6681818181818182,
+          "balanced_accuracy": 0.6681818181818182,
+          "brier": 0.22975559247049396
+        },
+        "clusters": 50,
+        "cluster_kind": "focal_lexeme",
+        "cluster_bootstrap_balanced_accuracy_ci95": [
+          0.6379637931034483,
+          0.6998084677419354
+        ]
+      },
+      "full_source_focal_audit": {
+        "fixed_threshold_0_5": {
+          "n": 440,
+          "positive_labels": 220,
+          "negative_labels": 220,
+          "tp": 181,
+          "fp": 103,
+          "fn": 39,
+          "tn": 117,
+          "precision": 0.6373239436619719,
+          "recall": 0.8227272727272728,
+          "false_positive_rate": 0.4681818181818182,
+          "accuracy": 0.6772727272727272,
+          "balanced_accuracy": 0.6772727272727272,
+          "brier": 0.22975559247049396
+        },
+        "development_threshold": 0.6,
+        "selected_threshold_metrics": {
+          "n": 440,
+          "positive_labels": 220,
+          "negative_labels": 220,
+          "tp": 166,
+          "fp": 92,
+          "fn": 54,
+          "tn": 128,
+          "precision": 0.6434108527131783,
+          "recall": 0.7545454545454545,
+          "false_positive_rate": 0.41818181818181815,
+          "accuracy": 0.6681818181818182,
+          "balanced_accuracy": 0.6681818181818182,
+          "brier": 0.22975559247049396
+        },
+        "clusters": 50,
+        "cluster_kind": "focal_lexeme",
+        "cluster_bootstrap_balanced_accuracy_ci95": [
+          0.6379637931034483,
+          0.6998084677419354
+        ]
+      },
+      "native_control_word_flag_rate": 0.1847649918962723
+    },
+    "prosody": {
+      "feature_localization": {
+        "fixed_threshold_0_5": {
+          "n": 2468,
+          "positive_labels": 220,
+          "negative_labels": 2248,
+          "tp": 140,
+          "fp": 848,
+          "fn": 80,
+          "tn": 1400,
+          "precision": 0.1417004048582996,
+          "recall": 0.6363636363636364,
+          "false_positive_rate": 0.37722419928825623,
+          "accuracy": 0.6239870340356564,
+          "balanced_accuracy": 0.6295697185376901,
+          "brier": 0.22418053175663366
+        },
+        "development_threshold": 0.5299999999999999,
+        "selected_threshold_metrics": {
+          "n": 2468,
+          "positive_labels": 220,
+          "negative_labels": 2248,
+          "tp": 128,
+          "fp": 718,
+          "fn": 92,
+          "tn": 1530,
+          "precision": 0.15130023640661938,
+          "recall": 0.5818181818181818,
+          "false_positive_rate": 0.3193950177935943,
+          "accuracy": 0.6717990275526742,
+          "balanced_accuracy": 0.6312115820122937,
+          "brier": 0.22418053175663366
+        },
+        "clusters": 110,
+        "cluster_kind": "text",
+        "cluster_bootstrap_balanced_accuracy_ci95": [
+          0.5964872794623448,
+          0.6653115311623878
+        ]
+      },
+      "focal_source": {
+        "fixed_threshold_0_5": {
+          "n": 440,
+          "positive_labels": 220,
+          "negative_labels": 220,
+          "tp": 140,
+          "fp": 90,
+          "fn": 80,
+          "tn": 130,
+          "precision": 0.6086956521739131,
+          "recall": 0.6363636363636364,
+          "false_positive_rate": 0.4090909090909091,
+          "accuracy": 0.6136363636363636,
+          "balanced_accuracy": 0.6136363636363636,
+          "brier": 0.23287620502199358
+        },
+        "development_threshold": 0.5299999999999999,
+        "selected_threshold_metrics": {
+          "n": 440,
+          "positive_labels": 220,
+          "negative_labels": 220,
+          "tp": 128,
+          "fp": 78,
+          "fn": 92,
+          "tn": 142,
+          "precision": 0.6213592233009708,
+          "recall": 0.5818181818181818,
+          "false_positive_rate": 0.35454545454545455,
+          "accuracy": 0.6136363636363636,
+          "balanced_accuracy": 0.6136363636363636,
+          "brier": 0.23287620502199358
+        },
+        "clusters": 50,
+        "cluster_kind": "focal_lexeme",
+        "cluster_bootstrap_balanced_accuracy_ci95": [
+          0.578603267523722,
+          0.6487820512820511
+        ]
+      },
+      "full_source_focal_audit": {
+        "fixed_threshold_0_5": {
+          "n": 440,
+          "positive_labels": 220,
+          "negative_labels": 220,
+          "tp": 140,
+          "fp": 90,
+          "fn": 80,
+          "tn": 130,
+          "precision": 0.6086956521739131,
+          "recall": 0.6363636363636364,
+          "false_positive_rate": 0.4090909090909091,
+          "accuracy": 0.6136363636363636,
+          "balanced_accuracy": 0.6136363636363636,
+          "brier": 0.23287620502199358
+        },
+        "development_threshold": 0.5299999999999999,
+        "selected_threshold_metrics": {
+          "n": 440,
+          "positive_labels": 220,
+          "negative_labels": 220,
+          "tp": 128,
+          "fp": 78,
+          "fn": 92,
+          "tn": 142,
+          "precision": 0.6213592233009708,
+          "recall": 0.5818181818181818,
+          "false_positive_rate": 0.35454545454545455,
+          "accuracy": 0.6136363636363636,
+          "balanced_accuracy": 0.6136363636363636,
+          "brier": 0.23287620502199358
+        },
+        "clusters": 50,
+        "cluster_kind": "focal_lexeme",
+        "cluster_bootstrap_balanced_accuracy_ci95": [
+          0.578603267523722,
+          0.6487820512820511
+        ]
+      },
+      "native_control_word_flag_rate": 0.3225283630470016
+    },
+    "combined": {
+      "feature_localization": {
+        "fixed_threshold_0_5": {
+          "n": 2468,
+          "positive_labels": 220,
+          "negative_labels": 2248,
+          "tp": 178,
+          "fp": 414,
+          "fn": 42,
+          "tn": 1834,
+          "precision": 0.30067567567567566,
+          "recall": 0.8090909090909091,
+          "false_positive_rate": 0.18416370106761565,
+          "accuracy": 0.8152350081037277,
+          "balanced_accuracy": 0.8124636040116466,
+          "brier": 0.12848372448041645
+        },
+        "development_threshold": 0.57,
+        "selected_threshold_metrics": {
+          "n": 2468,
+          "positive_labels": 220,
+          "negative_labels": 2248,
+          "tp": 171,
+          "fp": 360,
+          "fn": 49,
+          "tn": 1888,
+          "precision": 0.3220338983050847,
+          "recall": 0.7772727272727272,
+          "false_positive_rate": 0.1601423487544484,
+          "accuracy": 0.8342787682333873,
+          "balanced_accuracy": 0.8085651892591394,
+          "brier": 0.12848372448041645
+        },
+        "clusters": 110,
+        "cluster_kind": "text",
+        "cluster_bootstrap_balanced_accuracy_ci95": [
+          0.7815951820029564,
+          0.8363688342064233
+        ]
+      },
+      "focal_source": {
+        "fixed_threshold_0_5": {
+          "n": 440,
+          "positive_labels": 220,
+          "negative_labels": 220,
+          "tp": 178,
+          "fp": 98,
+          "fn": 42,
+          "tn": 122,
+          "precision": 0.644927536231884,
+          "recall": 0.8090909090909091,
+          "false_positive_rate": 0.44545454545454544,
+          "accuracy": 0.6818181818181818,
+          "balanced_accuracy": 0.6818181818181819,
+          "brier": 0.22483857465546728
+        },
+        "development_threshold": 0.57,
+        "selected_threshold_metrics": {
+          "n": 440,
+          "positive_labels": 220,
+          "negative_labels": 220,
+          "tp": 171,
+          "fp": 90,
+          "fn": 49,
+          "tn": 130,
+          "precision": 0.6551724137931034,
+          "recall": 0.7772727272727272,
+          "false_positive_rate": 0.4090909090909091,
+          "accuracy": 0.6840909090909091,
+          "balanced_accuracy": 0.6840909090909091,
+          "brier": 0.22483857465546728
+        },
+        "clusters": 50,
+        "cluster_kind": "focal_lexeme",
+        "cluster_bootstrap_balanced_accuracy_ci95": [
+          0.6499999999999999,
+          0.7165336134453781
+        ]
+      },
+      "full_source_focal_audit": {
+        "fixed_threshold_0_5": {
+          "n": 440,
+          "positive_labels": 220,
+          "negative_labels": 220,
+          "tp": 178,
+          "fp": 98,
+          "fn": 42,
+          "tn": 122,
+          "precision": 0.644927536231884,
+          "recall": 0.8090909090909091,
+          "false_positive_rate": 0.44545454545454544,
+          "accuracy": 0.6818181818181818,
+          "balanced_accuracy": 0.6818181818181819,
+          "brier": 0.22483857465546728
+        },
+        "development_threshold": 0.57,
+        "selected_threshold_metrics": {
+          "n": 440,
+          "positive_labels": 220,
+          "negative_labels": 220,
+          "tp": 171,
+          "fp": 90,
+          "fn": 49,
+          "tn": 130,
+          "precision": 0.6551724137931034,
+          "recall": 0.7772727272727272,
+          "false_positive_rate": 0.4090909090909091,
+          "accuracy": 0.6840909090909091,
+          "balanced_accuracy": 0.6840909090909091,
+          "brier": 0.22483857465546728
+        },
+        "clusters": 50,
+        "cluster_kind": "focal_lexeme",
+        "cluster_bootstrap_balanced_accuracy_ci95": [
+          0.6499999999999999,
+          0.7165336134453781
+        ]
+      },
+      "native_control_word_flag_rate": 0.18233387358184766
+    }
+  },
+  "actual_hindi_error_accuracy": null,
+  "actual_prosody_error_accuracy": null,
+  "limits": [
+    "Feature-local replacements do not simulate acoustic splice boundary effects or sentence-level intonation changes.",
+    "Source identity at a focal G2P site is weak supervision, not proof of an incorrectly realized phone.",
+    "No gold Hindi pronunciation/prosody errors; class scores are uncalibrated source evidence.",
+    "Same generator family and shared authored carrier templates; no claim of unseen-generator generalization.",
+    "Hidden speech features can retain voice/channel cues despite held-out conditioning groups.",
+    "Only ASR-passing complete quartets used; report generated, filtered and trained counts separately."
+  ]
+}

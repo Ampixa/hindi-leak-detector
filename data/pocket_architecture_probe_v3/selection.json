@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "creator": "Codex GPT-6 /root",
+  "jobs": [
+    {
+      "id": "pocket_arch_historical_s7",
+      "text": "सबैको सुरक्षा एनएलजीको इच्छा एनएलजी",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "category": "same_architecture_checkpoint_probe"
+    },
+    {
+      "id": "pocket_arch_historical_s29",
+      "text": "सबैको सुरक्षा एनएलजीको इच्छा एनएलजी",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "category": "same_architecture_checkpoint_probe"
+    },
+    {
+      "id": "pocket_arch_greeting_s7",
+      "text": "नमस्कार म तपाईंलाई कसरी सहयोग गर्न सक्छु",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "category": "same_architecture_checkpoint_probe"
+    },
+    {
+      "id": "pocket_arch_greeting_s29",
+      "text": "नमस्कार म तपाईंलाई कसरी सहयोग गर्न सक्छु",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "category": "same_architecture_checkpoint_probe"
+    },
+    {
+      "id": "pocket_arch_schwa_draft_s7",
+      "text": "आज हामी नेपालको अर्थ र विकासका विषयमा कुरा गर्छौं",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "category": "same_architecture_checkpoint_probe"
+    },
+    {
+      "id": "pocket_arch_schwa_draft_s29",
+      "text": "आज हामी नेपालको अर्थ र विकासका विषयमा कुरा गर्छौं",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "category": "same_architecture_checkpoint_probe"
+    }
+  ],
+  "clips": [
+    {
+      "clip_id": "55e352664ceed989a5155622",
+      "system": "pocket_hindi_parent",
+      "sentence_id": "pocket_arch_historical_s7",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "text": "सबैको सुरक्षा एनएलजीको इच्छा एनएलजी",
+      "audio": "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1/parent.historical.s7.wav",
+      "sha256": "ae1a78454b1494247e0688ea9fb6faad2838d90ff11ff102365e9132da4e22d9",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "8068a0154f87e78873ce53ad",
+      "system": "pocket_hindi_parent",
+      "sentence_id": "pocket_arch_historical_s29",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "text": "सबैको सुरक्षा एनएलजीको इच्छा एनएलजी",
+      "audio": "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1/parent.historical.s29.wav",
+      "sha256": "1df569fa046c9df36ed8e18725206c90062556d87125e0fde190ab0ac0112eff",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "ca18acb1bdcd99aee1eee020",
+      "system": "pocket_hindi_parent",
+      "sentence_id": "pocket_arch_greeting_s7",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "text": "नमस्कार म तपाईंलाई कसरी सहयोग गर्न सक्छु",
+      "audio": "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1/parent.greeting.s7.wav",
+      "sha256": "38a46ee3f2c90aeca7e9300fab01de76d50d562fbc49a15e8195cc5d22bd080d",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "e12d981d70827af224bcac6f",
+      "system": "pocket_hindi_parent",
+      "sentence_id": "pocket_arch_greeting_s29",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "text": "नमस्कार म तपाईंलाई कसरी सहयोग गर्न सक्छु",
+      "audio": "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1/parent.greeting.s29.wav",
+      "sha256": "1f4da44b143997460329a81c5f56f1108f10cda91133410e1a2e0680abdeb5b0",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "aac056de5426a1959d4e9981",
+      "system": "pocket_hindi_parent",
+      "sentence_id": "pocket_arch_schwa_draft_s7",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "text": "आज हामी नेपालको अर्थ र विकासका विषयमा कुरा गर्छौं",
+      "audio": "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1/parent.schwa_draft.s7.wav",
+      "sha256": "39c899c8e8735a588febf5f7bb1ea40cecbba3b7b944addfc5ec33d865ddff9f",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "cc0e03f6f40917628ce3a507",
+      "system": "pocket_hindi_parent",
+      "sentence_id": "pocket_arch_schwa_draft_s29",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "text": "आज हामी नेपालको अर्थ र विकासका विषयमा कुरा गर्छौं",
+      "audio": "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1/parent.schwa_draft.s29.wav",
+      "sha256": "f36c617199dbfe65680aa3975a207991a0b98c8cf567fbb26d599525700e3399",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "4c116bd7fc9075da57bc6cf0",
+      "system": "pocket_nepali_v1c",
+      "sentence_id": "pocket_arch_historical_s7",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "text": "सबैको सुरक्षा एनएलजीको इच्छा एनएलजी",
+      "audio": "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1/nepali_v1c.historical.s7.wav",
+      "sha256": "bb95d77d8a1c3f9f9337fbd79747ca44b6d32f0fe160394b19962642ea5509cd",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "b3f57def51aac0fabc92fd90",
+      "system": "pocket_nepali_v1c",
+      "sentence_id": "pocket_arch_historical_s29",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "text": "सबैको सुरक्षा एनएलजीको इच्छा एनएलजी",
+      "audio": "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1/nepali_v1c.historical.s29.wav",
+      "sha256": "ea0b07d605961a2b039e4fd8c355bc137e4d3ba991e0b1ab7ddf65bb6c7f6f2c",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "d62afcdcfb5abb1b913a7694",
+      "system": "pocket_nepali_v1c",
+      "sentence_id": "pocket_arch_greeting_s7",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "text": "नमस्कार म तपाईंलाई कसरी सहयोग गर्न सक्छु",
+      "audio": "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1/nepali_v1c.greeting.s7.wav",
+      "sha256": "84ba169c16a0fc841d5171fbd82f56ef14d73423eccf85b1357a933744d973b8",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "27dee3892a49202693ec296c",
+      "system": "pocket_nepali_v1c",
+      "sentence_id": "pocket_arch_greeting_s29",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "text": "नमस्कार म तपाईंलाई कसरी सहयोग गर्न सक्छु",
+      "audio": "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1/nepali_v1c.greeting.s29.wav",
+      "sha256": "14fb316379da084aee9dbb29b77c694ba39f46cd8ba3e38b007a97ea38b17e22",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "d08e7bcf0a21beedad02a3a9",
+      "system": "pocket_nepali_v1c",
+      "sentence_id": "pocket_arch_schwa_draft_s7",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "text": "आज हामी नेपालको अर्थ र विकासका विषयमा कुरा गर्छौं",
+      "audio": "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1/nepali_v1c.schwa_draft.s7.wav",
+      "sha256": "24ecf40d5a5b2ce88fb07c0af6b994e9a26ede5b3f042218e2709706093f4f6a",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "94790b8126434c29c86e7939",
+      "system": "pocket_nepali_v1c",
+      "sentence_id": "pocket_arch_schwa_draft_s29",
+      "speaker_id": "reference_waveform_1f4058da0310",
+      "split": "reserved_evaluation",
+      "text": "आज हामी नेपालको अर्थ र विकासका विषयमा कुरा गर्छौं",
+      "audio": "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1/nepali_v1c.schwa_draft.s29.wav",
+      "sha256": "f06c2187dd44a892d5786cc059e9945f28ae27a0b101c5d2e40ee8869aa13d83",
+      "automatic_leakage_label": null
+    }
+  ],
+  "external_audio_roots": [
+    "/Volumes/T9/hindi-detector/reports/pocket_pilot_v1"
+  ],
+  "limits": [
+    "Speaker grouping is the common reference WAV hash, not an invented human identity.",
+    "Both checkpoints share a synthesis runtime/decoder/reference; this reduces architecture confounding but does not prove identical output voice.",
+    "The fine-tune historical parent hash is unverified; no causal lineage or native-accent gold claim."
+  ]
+}

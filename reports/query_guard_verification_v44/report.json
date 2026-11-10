@@ -1,0 +1,64 @@
+{
+  "status": "complete_query_guard_verification",
+  "created_utc": "2026-11-09T01:33:50.472512+00:00",
+  "checks": [
+    {
+      "name": "real_yt_yt01_005",
+      "status": "scored_vowel_evidence",
+      "exit_code": 0,
+      "content_decision": "pass",
+      "word_flags": [
+        "हैन"
+      ],
+      "max_feature_difference": 0.0,
+      "passed": true,
+      "result_sha256": "2f1c361c8447728b4c5f7a7bb857bcd5962ff7d302e845376e822565e6436bce"
+    },
+    {
+      "name": "real_yt_yt01_008",
+      "status": "scored_vowel_evidence",
+      "exit_code": 0,
+      "content_decision": "quarantine",
+      "word_flags": [
+        "किनकि"
+      ],
+      "max_feature_difference": 0.0,
+      "passed": true,
+      "result_sha256": "da31afa66c8558b10e5b520fa0f78afede8769907acacf16bc9fbee03ae1aa79"
+    },
+    {
+      "name": "deliberately_mismatched_transcript",
+      "status": "unscored_content_mismatch",
+      "exit_code": 0,
+      "content_decision": "reject",
+      "word_flags": [],
+      "max_feature_difference": null,
+      "passed": true,
+      "result_sha256": "cafa2d61a120734a7316b25a61c27e5ba962cbcc85cb0a1239858278fcc2f14f"
+    },
+    {
+      "name": "real_yt_yt06_045_reference_abstention",
+      "status": "unscored_reference_quality",
+      "exit_code": 0,
+      "content_decision": null,
+      "word_flags": [],
+      "max_feature_difference": null,
+      "passed": true,
+      "result_sha256": "a0f7f81d549ed1ea39ae9c1373a743a11f5e42169aced5946a00956d8696492f"
+    },
+    {
+      "name": "real_yt_yt10_074_reference_abstention",
+      "status": "unscored_reference_quality",
+      "exit_code": 0,
+      "content_decision": null,
+      "word_flags": [],
+      "max_feature_difference": null,
+      "passed": true,
+      "result_sha256": "5a8856175d4de4987b61edb624b2640e98ede08fa183c50f3e5938b2a6ab1ef5"
+    }
+  ],
+  "passed": 5,
+  "total": 5,
+  "actual_hindi_error_accuracy": null,
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85"
+}

@@ -1,0 +1,800 @@
+[
+  {
+    "sentence_id": "pocket_arch_greeting_s29",
+    "parent_audio_sha256": "1f4da44b143997460329a81c5f56f1108f10cda91133410e1a2e0680abdeb5b0",
+    "fine_tune_audio_sha256": "14fb316379da084aee9dbb29b77c694ba39f46cd8ba3e38b007a97ea38b17e22",
+    "branches": {
+      "phonetics": {
+        "parent_score": 0.40799747705008554,
+        "fine_tune_score": 0.1001376726291188,
+        "parent_minus_fine_tune": 0.3078598044209667,
+        "words": [
+          {
+            "word": "नमस्कार",
+            "parent_source_evidence": 0.1657310213306754,
+            "fine_tune_source_evidence": 0.1422424381974372
+          },
+          {
+            "word": "म",
+            "parent_source_evidence": 0.23774536659148449,
+            "fine_tune_source_evidence": 0.1406305077826454
+          },
+          {
+            "word": "तपाईंलाई",
+            "parent_source_evidence": 0.127832771041236,
+            "fine_tune_source_evidence": 0.0893468777664628
+          },
+          {
+            "word": "कसरी",
+            "parent_source_evidence": 0.17585482783394607,
+            "fine_tune_source_evidence": 0.1302388482611942
+          },
+          {
+            "word": "सहयोग",
+            "parent_source_evidence": 0.15776865661263823,
+            "fine_tune_source_evidence": 0.03309341277844583
+          },
+          {
+            "word": "गर्न",
+            "parent_source_evidence": 0.23940817986727497,
+            "fine_tune_source_evidence": 0.06166789756770556
+          },
+          {
+            "word": "सक्छु",
+            "parent_source_evidence": 0.7753660442646294,
+            "fine_tune_source_evidence": 0.09230577484803358
+          }
+        ]
+      },
+      "prosody": {
+        "parent_score": 0.40949687119144795,
+        "fine_tune_score": 0.4283870832901859,
+        "parent_minus_fine_tune": -0.018890212098737924,
+        "words": [
+          {
+            "word": "नमस्कार",
+            "parent_source_evidence": 0.4158390994143405,
+            "fine_tune_source_evidence": 0.40850212972376254
+          },
+          {
+            "word": "म",
+            "parent_source_evidence": 0.24746489320456846,
+            "fine_tune_source_evidence": 0.2695146586312062
+          },
+          {
+            "word": "तपाईंलाई",
+            "parent_source_evidence": 0.34961197697766483,
+            "fine_tune_source_evidence": 0.33957991827829137
+          },
+          {
+            "word": "कसरी",
+            "parent_source_evidence": 0.467212150769405,
+            "fine_tune_source_evidence": 0.4834784554472124
+          },
+          {
+            "word": "सहयोग",
+            "parent_source_evidence": 0.33426232011522916,
+            "fine_tune_source_evidence": 0.35025157021251024
+          },
+          {
+            "word": "गर्न",
+            "parent_source_evidence": 0.22860711491253127,
+            "fine_tune_source_evidence": 0.40375649629522753
+          },
+          {
+            "word": "सक्छु",
+            "parent_source_evidence": 0.6154861186575946,
+            "fine_tune_source_evidence": 0.6031798950230136
+          }
+        ]
+      },
+      "combined": {
+        "parent_score": 0.4160345413502255,
+        "fine_tune_score": 0.09971912664086001,
+        "parent_minus_fine_tune": 0.31631541470936547,
+        "words": [
+          {
+            "word": "नमस्कार",
+            "parent_source_evidence": 0.17981704686358585,
+            "fine_tune_source_evidence": 0.14669977318893623
+          },
+          {
+            "word": "म",
+            "parent_source_evidence": 0.2441205411691329,
+            "fine_tune_source_evidence": 0.15030789462499447
+          },
+          {
+            "word": "तपाईंलाई",
+            "parent_source_evidence": 0.12265461871908835,
+            "fine_tune_source_evidence": 0.08488726448902176
+          },
+          {
+            "word": "कसरी",
+            "parent_source_evidence": 0.1919821650297875,
+            "fine_tune_source_evidence": 0.12479226486079881
+          },
+          {
+            "word": "सहयोग",
+            "parent_source_evidence": 0.15676876951340998,
+            "fine_tune_source_evidence": 0.0316649903660199
+          },
+          {
+            "word": "गर्न",
+            "parent_source_evidence": 0.2588090319475571,
+            "fine_tune_source_evidence": 0.050051704615919845
+          },
+          {
+            "word": "सक्छु",
+            "parent_source_evidence": 0.7793622127457476,
+            "fine_tune_source_evidence": 0.09567499360079533
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sentence_id": "pocket_arch_greeting_s7",
+    "parent_audio_sha256": "38a46ee3f2c90aeca7e9300fab01de76d50d562fbc49a15e8195cc5d22bd080d",
+    "fine_tune_audio_sha256": "84ba169c16a0fc841d5171fbd82f56ef14d73423eccf85b1357a933744d973b8",
+    "branches": {
+      "phonetics": {
+        "parent_score": 0.3768222523145623,
+        "fine_tune_score": 0.630767365703585,
+        "parent_minus_fine_tune": -0.25394511338902276,
+        "words": [
+          {
+            "word": "नमस्कार",
+            "parent_source_evidence": 0.17397637251134285,
+            "fine_tune_source_evidence": 0.14458345710563372
+          },
+          {
+            "word": "म",
+            "parent_source_evidence": 0.23527638681459812,
+            "fine_tune_source_evidence": 0.21891147712414014
+          },
+          {
+            "word": "तपाईंलाई",
+            "parent_source_evidence": 0.11635668306624963,
+            "fine_tune_source_evidence": 0.10803680947432603
+          },
+          {
+            "word": "कसरी",
+            "parent_source_evidence": 0.175512519354419,
+            "fine_tune_source_evidence": 0.1395329177480902
+          },
+          {
+            "word": "सहयोग",
+            "parent_source_evidence": 0.1272509624640275,
+            "fine_tune_source_evidence": 0.04748330488307451
+          },
+          {
+            "word": "गर्न",
+            "parent_source_evidence": 0.22486042865303016,
+            "fine_tune_source_evidence": 0.19046768312020826
+          },
+          {
+            "word": "सक्छु",
+            "parent_source_evidence": 0.7458071591425172,
+            "fine_tune_source_evidence": 0.9162516821154072
+          }
+        ]
+      },
+      "prosody": {
+        "parent_score": 0.42596014162296736,
+        "fine_tune_score": 0.47994061990957965,
+        "parent_minus_fine_tune": -0.05398047828661229,
+        "words": [
+          {
+            "word": "नमस्कार",
+            "parent_source_evidence": 0.42451544360267773,
+            "fine_tune_source_evidence": 0.3455785386042701
+          },
+          {
+            "word": "म",
+            "parent_source_evidence": 0.2383226976819316,
+            "fine_tune_source_evidence": 0.3459587008743392
+          },
+          {
+            "word": "तपाईंलाई",
+            "parent_source_evidence": 0.464469887196734,
+            "fine_tune_source_evidence": 0.514609674004936
+          },
+          {
+            "word": "कसरी",
+            "parent_source_evidence": 0.5264639896946617,
+            "fine_tune_source_evidence": 0.41554289948709167
+          },
+          {
+            "word": "सहयोग",
+            "parent_source_evidence": 0.32422191323927285,
+            "fine_tune_source_evidence": 0.4427968258786409
+          },
+          {
+            "word": "गर्न",
+            "parent_source_evidence": 0.2261189328578271,
+            "fine_tune_source_evidence": 0.44918585218609125
+          },
+          {
+            "word": "सक्छु",
+            "parent_source_evidence": 0.5820573481306267,
+            "fine_tune_source_evidence": 0.6690516627092092
+          }
+        ]
+      },
+      "combined": {
+        "parent_score": 0.4059495222261091,
+        "fine_tune_score": 0.6283209660555461,
+        "parent_minus_fine_tune": -0.22237144382943702,
+        "words": [
+          {
+            "word": "नमस्कार",
+            "parent_source_evidence": 0.18933903423832682,
+            "fine_tune_source_evidence": 0.15603277617416464
+          },
+          {
+            "word": "म",
+            "parent_source_evidence": 0.23974944722358382,
+            "fine_tune_source_evidence": 0.22134522180181113
+          },
+          {
+            "word": "तपाईंलाई",
+            "parent_source_evidence": 0.12435230798441556,
+            "fine_tune_source_evidence": 0.10222234656350808
+          },
+          {
+            "word": "कसरी",
+            "parent_source_evidence": 0.2035599898296627,
+            "fine_tune_source_evidence": 0.13448138303500354
+          },
+          {
+            "word": "सहयोग",
+            "parent_source_evidence": 0.13124243852034886,
+            "fine_tune_source_evidence": 0.043579577649308476
+          },
+          {
+            "word": "गर्न",
+            "parent_source_evidence": 0.23640995257943162,
+            "fine_tune_source_evidence": 0.17916208547964027
+          },
+          {
+            "word": "सक्छु",
+            "parent_source_evidence": 0.771497606784401,
+            "fine_tune_source_evidence": 0.9154779836396998
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sentence_id": "pocket_arch_historical_s29",
+    "parent_audio_sha256": "1df569fa046c9df36ed8e18725206c90062556d87125e0fde190ab0ac0112eff",
+    "fine_tune_audio_sha256": "ea0b07d605961a2b039e4fd8c355bc137e4d3ba991e0b1ab7ddf65bb6c7f6f2c",
+    "branches": {
+      "phonetics": {
+        "parent_score": 0.49490111722092844,
+        "fine_tune_score": 0.3021942931037598,
+        "parent_minus_fine_tune": 0.19270682411716866,
+        "words": [
+          {
+            "word": "सबैको",
+            "parent_source_evidence": 0.09862236683832856,
+            "fine_tune_source_evidence": 0.14496979988185216
+          },
+          {
+            "word": "सुरक्षा",
+            "parent_source_evidence": 0.24043200634416867,
+            "fine_tune_source_evidence": 0.5380980362458442
+          },
+          {
+            "word": "एनएलजीको",
+            "parent_source_evidence": 0.6557056918288966,
+            "fine_tune_source_evidence": 0.2143292824096272
+          },
+          {
+            "word": "इच्छा",
+            "parent_source_evidence": 0.2620126106458961,
+            "fine_tune_source_evidence": 0.15005080102375712
+          },
+          {
+            "word": "एनएलजी",
+            "parent_source_evidence": 0.6888198424276144,
+            "fine_tune_source_evidence": 0.27613268229731336
+          }
+        ]
+      },
+      "prosody": {
+        "parent_score": 0.42590744576287526,
+        "fine_tune_score": 0.4509189499503728,
+        "parent_minus_fine_tune": -0.025011504187497535,
+        "words": [
+          {
+            "word": "सबैको",
+            "parent_source_evidence": 0.4960311142826889,
+            "fine_tune_source_evidence": 0.38291457628094505
+          },
+          {
+            "word": "सुरक्षा",
+            "parent_source_evidence": 0.47692456231563524,
+            "fine_tune_source_evidence": 0.5449784010939821
+          },
+          {
+            "word": "एनएलजीको",
+            "parent_source_evidence": 0.32223371809338247,
+            "fine_tune_source_evidence": 0.381647710962699
+          },
+          {
+            "word": "इच्छा",
+            "parent_source_evidence": 0.434929650709317,
+            "fine_tune_source_evidence": 0.5441773633931222
+          },
+          {
+            "word": "एनएलजी",
+            "parent_source_evidence": 0.3623471417457274,
+            "fine_tune_source_evidence": 0.322891350584933
+          }
+        ]
+      },
+      "combined": {
+        "parent_score": 0.5071086729684003,
+        "fine_tune_score": 0.3032631233174725,
+        "parent_minus_fine_tune": 0.20384554965092783,
+        "words": [
+          {
+            "word": "सबैको",
+            "parent_source_evidence": 0.11419550672114194,
+            "fine_tune_source_evidence": 0.15242571914019534
+          },
+          {
+            "word": "सुरक्षा",
+            "parent_source_evidence": 0.2850815815286863,
+            "fine_tune_source_evidence": 0.5388478460098237
+          },
+          {
+            "word": "एनएलजीको",
+            "parent_source_evidence": 0.6816168465137689,
+            "fine_tune_source_evidence": 0.23791218784320617
+          },
+          {
+            "word": "इच्छा",
+            "parent_source_evidence": 0.2575589915982345,
+            "fine_tune_source_evidence": 0.1349061559546959
+          },
+          {
+            "word": "एनएलजी",
+            "parent_source_evidence": 0.6803853380192175,
+            "fine_tune_source_evidence": 0.2646314194328654
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sentence_id": "pocket_arch_historical_s7",
+    "parent_audio_sha256": "ae1a78454b1494247e0688ea9fb6faad2838d90ff11ff102365e9132da4e22d9",
+    "fine_tune_audio_sha256": "bb95d77d8a1c3f9f9337fbd79747ca44b6d32f0fe160394b19962642ea5509cd",
+    "branches": {
+      "phonetics": {
+        "parent_score": 0.32543588578374605,
+        "fine_tune_score": 0.2993007021705567,
+        "parent_minus_fine_tune": 0.02613518361318934,
+        "words": [
+          {
+            "word": "सबैको",
+            "parent_source_evidence": 0.1976053758101374,
+            "fine_tune_source_evidence": 0.0333735057092291
+          },
+          {
+            "word": "सुरक्षा",
+            "parent_source_evidence": 0.27406474876567605,
+            "fine_tune_source_evidence": 0.1935449813397638
+          },
+          {
+            "word": "एनएलजीको",
+            "parent_source_evidence": 0.4998610156540684,
+            "fine_tune_source_evidence": 0.1293086018954292
+          },
+          {
+            "word": "इच्छा",
+            "parent_source_evidence": 0.21729718105770734,
+            "fine_tune_source_evidence": 0.21665941236079583
+          },
+          {
+            "word": "एनएलजी",
+            "parent_source_evidence": 0.33832792275043083,
+            "fine_tune_source_evidence": 0.5895097716241708
+          }
+        ]
+      },
+      "prosody": {
+        "parent_score": 0.4385151856511678,
+        "fine_tune_score": 0.5276782357533819,
+        "parent_minus_fine_tune": -0.08916305010221409,
+        "words": [
+          {
+            "word": "सबैको",
+            "parent_source_evidence": 0.31823074551431396,
+            "fine_tune_source_evidence": 0.5028933375587422
+          },
+          {
+            "word": "सुरक्षा",
+            "parent_source_evidence": 0.5131210962147087,
+            "fine_tune_source_evidence": 0.6715950742474814
+          },
+          {
+            "word": "एनएलजीको",
+            "parent_source_evidence": 0.34596295102637536,
+            "fine_tune_source_evidence": 0.34246559304410135
+          },
+          {
+            "word": "इच्छा",
+            "parent_source_evidence": 0.5465394879169103,
+            "fine_tune_source_evidence": 0.613845886793135
+          },
+          {
+            "word": "एनएलजी",
+            "parent_source_evidence": 0.39396163246523486,
+            "fine_tune_source_evidence": 0.2952133912404114
+          }
+        ]
+      },
+      "combined": {
+        "parent_score": 0.3427331734124353,
+        "fine_tune_score": 0.3004750772295096,
+        "parent_minus_fine_tune": 0.0422580961829257,
+        "words": [
+          {
+            "word": "सबैको",
+            "parent_source_evidence": 0.21389103104341456,
+            "fine_tune_source_evidence": 0.038336400790585895
+          },
+          {
+            "word": "सुरक्षा",
+            "parent_source_evidence": 0.31922841314895545,
+            "fine_tune_source_evidence": 0.1743438782035038
+          },
+          {
+            "word": "एनएलजीको",
+            "parent_source_evidence": 0.5315105947668606,
+            "fine_tune_source_evidence": 0.13201319108241463
+          },
+          {
+            "word": "इच्छा",
+            "parent_source_evidence": 0.21763081878159765,
+            "fine_tune_source_evidence": 0.18721902308948193
+          },
+          {
+            "word": "एनएलजी",
+            "parent_source_evidence": 0.3120347840603905,
+            "fine_tune_source_evidence": 0.6022671594146812
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sentence_id": "pocket_arch_schwa_draft_s29",
+    "parent_audio_sha256": "f36c617199dbfe65680aa3975a207991a0b98c8cf567fbb26d599525700e3399",
+    "fine_tune_audio_sha256": "f06c2187dd44a892d5786cc059e9945f28ae27a0b101c5d2e40ee8869aa13d83",
+    "branches": {
+      "phonetics": {
+        "parent_score": 0.39963948441270913,
+        "fine_tune_score": 0.1997462705409318,
+        "parent_minus_fine_tune": 0.19989321387177733,
+        "words": [
+          {
+            "word": "आज",
+            "parent_source_evidence": 0.2603956737703258,
+            "fine_tune_source_evidence": 0.1830035136141138
+          },
+          {
+            "word": "हामी",
+            "parent_source_evidence": 0.2520077888437064,
+            "fine_tune_source_evidence": 0.21919784093774478
+          },
+          {
+            "word": "नेपालको",
+            "parent_source_evidence": 0.27553344394167073,
+            "fine_tune_source_evidence": 0.2465819215520308
+          },
+          {
+            "word": "अर्थ",
+            "parent_source_evidence": 0.25396253399392293,
+            "fine_tune_source_evidence": 0.23264666595084046
+          },
+          {
+            "word": "र",
+            "parent_source_evidence": 0.29612477862515346,
+            "fine_tune_source_evidence": 0.15011473670410266
+          },
+          {
+            "word": "विकासका",
+            "parent_source_evidence": 0.13572951409111722,
+            "fine_tune_source_evidence": 0.12696446865355387
+          },
+          {
+            "word": "विषयमा",
+            "parent_source_evidence": 0.2962328100300835,
+            "fine_tune_source_evidence": 0.17918749604524714
+          },
+          {
+            "word": "कुरा",
+            "parent_source_evidence": 0.21165598456654108,
+            "fine_tune_source_evidence": 0.2020105568199368
+          },
+          {
+            "word": "गर्छौं",
+            "parent_source_evidence": 0.7682023162417484,
+            "fine_tune_source_evidence": 0.241116821457887
+          }
+        ]
+      },
+      "prosody": {
+        "parent_score": 0.3636515717208108,
+        "fine_tune_score": 0.4014656751232577,
+        "parent_minus_fine_tune": -0.0378141034024469,
+        "words": [
+          {
+            "word": "आज",
+            "parent_source_evidence": 0.26392540481918614,
+            "fine_tune_source_evidence": 0.2821761408913607
+          },
+          {
+            "word": "हामी",
+            "parent_source_evidence": 0.24152396490749128,
+            "fine_tune_source_evidence": 0.2232317785074001
+          },
+          {
+            "word": "नेपालको",
+            "parent_source_evidence": 0.3489281291270445,
+            "fine_tune_source_evidence": 0.394421586446994
+          },
+          {
+            "word": "अर्थ",
+            "parent_source_evidence": 0.47226427024191037,
+            "fine_tune_source_evidence": 0.4505132393996324
+          },
+          {
+            "word": "र",
+            "parent_source_evidence": 0.24291308581698784,
+            "fine_tune_source_evidence": 0.36636384571947006
+          },
+          {
+            "word": "विकासका",
+            "parent_source_evidence": 0.4291618412492396,
+            "fine_tune_source_evidence": 0.4519037018781422
+          },
+          {
+            "word": "विषयमा",
+            "parent_source_evidence": 0.3760386212982747,
+            "fine_tune_source_evidence": 0.4115967120173807
+          },
+          {
+            "word": "कुरा",
+            "parent_source_evidence": 0.37860379579793996,
+            "fine_tune_source_evidence": 0.45918376929492993
+          },
+          {
+            "word": "गर्छौं",
+            "parent_source_evidence": 0.4288268496293301,
+            "fine_tune_source_evidence": 0.4828812361106943
+          }
+        ]
+      },
+      "combined": {
+        "parent_score": 0.3738861354618729,
+        "fine_tune_score": 0.19836454927309802,
+        "parent_minus_fine_tune": 0.17552158618877486,
+        "words": [
+          {
+            "word": "आज",
+            "parent_source_evidence": 0.27324049009249707,
+            "fine_tune_source_evidence": 0.19960693825978762
+          },
+          {
+            "word": "हामी",
+            "parent_source_evidence": 0.26646130540976054,
+            "fine_tune_source_evidence": 0.2268995006982872
+          },
+          {
+            "word": "नेपालको",
+            "parent_source_evidence": 0.2911694935670336,
+            "fine_tune_source_evidence": 0.25477578355880165
+          },
+          {
+            "word": "अर्थ",
+            "parent_source_evidence": 0.2769884410031969,
+            "fine_tune_source_evidence": 0.25905363772859724
+          },
+          {
+            "word": "र",
+            "parent_source_evidence": 0.30832041827729306,
+            "fine_tune_source_evidence": 0.14379491153154156
+          },
+          {
+            "word": "विकासका",
+            "parent_source_evidence": 0.12715571534079675,
+            "fine_tune_source_evidence": 0.11625609022159406
+          },
+          {
+            "word": "विषयमा",
+            "parent_source_evidence": 0.28814771596917826,
+            "fine_tune_source_evidence": 0.1588598880435765
+          },
+          {
+            "word": "कुरा",
+            "parent_source_evidence": 0.22493360449464733,
+            "fine_tune_source_evidence": 0.17648593901543025
+          },
+          {
+            "word": "गर्छौं",
+            "parent_source_evidence": 0.7186937547343808,
+            "fine_tune_source_evidence": 0.22480683616116762
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sentence_id": "pocket_arch_schwa_draft_s7",
+    "parent_audio_sha256": "39c899c8e8735a588febf5f7bb1ea40cecbba3b7b944addfc5ec33d865ddff9f",
+    "fine_tune_audio_sha256": "24ecf40d5a5b2ce88fb07c0af6b994e9a26ede5b3f042218e2709706093f4f6a",
+    "branches": {
+      "phonetics": {
+        "parent_score": 0.6409357829538973,
+        "fine_tune_score": 0.19868886797555624,
+        "parent_minus_fine_tune": 0.44224691497834107,
+        "words": [
+          {
+            "word": "आज",
+            "parent_source_evidence": 0.23255398386719706,
+            "fine_tune_source_evidence": 0.17653237594416954
+          },
+          {
+            "word": "हामी",
+            "parent_source_evidence": 0.23809921895569577,
+            "fine_tune_source_evidence": 0.23819001139628576
+          },
+          {
+            "word": "नेपालको",
+            "parent_source_evidence": 0.2644434243875114,
+            "fine_tune_source_evidence": 0.2709623815387613
+          },
+          {
+            "word": "अर्थ",
+            "parent_source_evidence": 0.2796667367813932,
+            "fine_tune_source_evidence": 0.18021275211987536
+          },
+          {
+            "word": "र",
+            "parent_source_evidence": 0.295936666015285,
+            "fine_tune_source_evidence": 0.2508954697245358
+          },
+          {
+            "word": "विकासका",
+            "parent_source_evidence": 0.13440750626053916,
+            "fine_tune_source_evidence": 0.1329699078636079
+          },
+          {
+            "word": "विषयमा",
+            "parent_source_evidence": 0.20677449934475037,
+            "fine_tune_source_evidence": 0.19635989570647736
+          },
+          {
+            "word": "कुरा",
+            "parent_source_evidence": 0.20858782742446744,
+            "fine_tune_source_evidence": 0.1620245483854933
+          },
+          {
+            "word": "गर्छौं",
+            "parent_source_evidence": 0.9315163182715896,
+            "fine_tune_source_evidence": 0.15759117351703425
+          }
+        ]
+      },
+      "prosody": {
+        "parent_score": 0.34360913994871306,
+        "fine_tune_score": 0.376781179761453,
+        "parent_minus_fine_tune": -0.03317203981273992,
+        "words": [
+          {
+            "word": "आज",
+            "parent_source_evidence": 0.2664613445741344,
+            "fine_tune_source_evidence": 0.22578703224939525
+          },
+          {
+            "word": "हामी",
+            "parent_source_evidence": 0.323174531549512,
+            "fine_tune_source_evidence": 0.23064877894117158
+          },
+          {
+            "word": "नेपालको",
+            "parent_source_evidence": 0.3704958645997852,
+            "fine_tune_source_evidence": 0.29926467933400736
+          },
+          {
+            "word": "अर्थ",
+            "parent_source_evidence": 0.44474345636246726,
+            "fine_tune_source_evidence": 0.4198962952702186
+          },
+          {
+            "word": "र",
+            "parent_source_evidence": 0.29757016645650397,
+            "fine_tune_source_evidence": 0.2804812293297101
+          },
+          {
+            "word": "विकासका",
+            "parent_source_evidence": 0.38677368443266996,
+            "fine_tune_source_evidence": 0.435097546023879
+          },
+          {
+            "word": "विषयमा",
+            "parent_source_evidence": 0.36457009654918754,
+            "fine_tune_source_evidence": 0.4380071337793434
+          },
+          {
+            "word": "कुरा",
+            "parent_source_evidence": 0.24813075999976375,
+            "fine_tune_source_evidence": 0.41835217722057827
+          },
+          {
+            "word": "गर्छौं",
+            "parent_source_evidence": 0.34339070962190626,
+            "fine_tune_source_evidence": 0.509840567972765
+          }
+        ]
+      },
+      "combined": {
+        "parent_score": 0.6452225550704109,
+        "fine_tune_score": 0.19543850740431898,
+        "parent_minus_fine_tune": 0.4497840476660919,
+        "words": [
+          {
+            "word": "आज",
+            "parent_source_evidence": 0.24155872301519127,
+            "fine_tune_source_evidence": 0.18911826679712754
+          },
+          {
+            "word": "हामी",
+            "parent_source_evidence": 0.24671138574562942,
+            "fine_tune_source_evidence": 0.23711357287465512
+          },
+          {
+            "word": "नेपालको",
+            "parent_source_evidence": 0.2763959121535911,
+            "fine_tune_source_evidence": 0.29641004915181146
+          },
+          {
+            "word": "अर्थ",
+            "parent_source_evidence": 0.2981048077480017,
+            "fine_tune_source_evidence": 0.19585314661152273
+          },
+          {
+            "word": "र",
+            "parent_source_evidence": 0.29089117787366403,
+            "fine_tune_source_evidence": 0.2430979113899685
+          },
+          {
+            "word": "विकासका",
+            "parent_source_evidence": 0.12849860851778622,
+            "fine_tune_source_evidence": 0.12263411672734019
+          },
+          {
+            "word": "विषयमा",
+            "parent_source_evidence": 0.20433838371251417,
+            "fine_tune_source_evidence": 0.16717592627206806
+          },
+          {
+            "word": "कुरा",
+            "parent_source_evidence": 0.20294759833410575,
+            "fine_tune_source_evidence": 0.13288609683231506
+          },
+          {
+            "word": "गर्छौं",
+            "parent_source_evidence": 0.9326427902200836,
+            "fine_tune_source_evidence": 0.1397181877447469
+          }
+        ]
+      }
+    }
+  }
+]

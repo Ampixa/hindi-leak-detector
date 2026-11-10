@@ -1,0 +1,10 @@
+{
+  "status": "complete_development_regressions",
+  "known_confirmed_deletion_occurrences": 6,
+  "flagged": 6,
+  "tested": 6,
+  "actual_hindi_error_accuracy": null,
+  "production_changed": false,
+  "model_sha256": "ae98b0048e0103e8f5c136b07d3bd68d842bb0efe2eb3a9ab2d3c64abe3d858a",
+  "items_sha256": "29a247e168b5e0b8c2c1d312cb6a880d27e4caea627ade4c677297d79f74cf52"
+}

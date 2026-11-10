@@ -1,0 +1,10 @@
+{
+  "pid": 48384,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-u",
+    "-m",
+    "scripts.run_rhythm_experiment"
+  ],
+  "created_utc": "2026-11-09T02:47:40.298662+00:00"
+}

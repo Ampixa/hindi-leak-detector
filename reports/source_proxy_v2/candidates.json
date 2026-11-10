@@ -1,0 +1,434 @@
+[
+  {
+    "representation": "layer12",
+    "l2": 0.1,
+    "mean_grouped_cv_log_loss": 0.6236536935949802,
+    "fold_losses": [
+      0.5525231417452277,
+      0.6759183412138245,
+      0.6425195978258887
+    ],
+    "solver_checks": [
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 45,
+        "objective": 0.053667455030811814,
+        "gradient_inf_norm": 5.036976238543059e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 53,
+        "objective": 0.05458215340652368,
+        "gradient_inf_norm": 3.379639840353846e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 59,
+        "objective": 0.05619931455237653,
+        "gradient_inf_norm": 1.5348004067339364e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      }
+    ]
+  },
+  {
+    "representation": "layer12",
+    "l2": 1,
+    "mean_grouped_cv_log_loss": 0.5628334140353128,
+    "fold_losses": [
+      0.5521735524270586,
+      0.5764433990496188,
+      0.559883290629261
+    ],
+    "solver_checks": [
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 34,
+        "objective": 0.20526062724180363,
+        "gradient_inf_norm": 1.7292158341619679e-06,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 36,
+        "objective": 0.209030604450204,
+        "gradient_inf_norm": 5.39421364180448e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 35,
+        "objective": 0.21594442813080855,
+        "gradient_inf_norm": 3.88719717988803e-06,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      }
+    ]
+  },
+  {
+    "representation": "layer12",
+    "l2": 10,
+    "mean_grouped_cv_log_loss": 0.5858530503828104,
+    "fold_losses": [
+      0.6138056224406411,
+      0.5788982327403268,
+      0.5648552959674635
+    ],
+    "solver_checks": [
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 21,
+        "objective": 0.5287051291922339,
+        "gradient_inf_norm": 3.32760382150063e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 24,
+        "objective": 0.5354223391791215,
+        "gradient_inf_norm": 3.587826234580094e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 22,
+        "objective": 0.5573364609730542,
+        "gradient_inf_norm": 3.9186113665046207e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      }
+    ]
+  },
+  {
+    "representation": "layer12",
+    "l2": 100,
+    "mean_grouped_cv_log_loss": 0.6570305277368429,
+    "fold_losses": [
+      0.6782439660936164,
+      0.6484155063966959,
+      0.6444321107202164
+    ],
+    "solver_checks": [
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 18,
+        "objective": 0.8670842385113955,
+        "gradient_inf_norm": 5.3504137925708406e-08,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 18,
+        "objective": 0.8753954984151335,
+        "gradient_inf_norm": 1.7795491477623493e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 18,
+        "objective": 0.9050176687242075,
+        "gradient_inf_norm": 7.960098362957968e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      }
+    ]
+  },
+  {
+    "representation": "layer24",
+    "l2": 0.1,
+    "mean_grouped_cv_log_loss": 0.4401854403061116,
+    "fold_losses": [
+      0.4425636214520077,
+      0.3156236562132167,
+      0.5623690432531105
+    ],
+    "solver_checks": [
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 57,
+        "objective": 0.06445684744606937,
+        "gradient_inf_norm": 8.54808306052085e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 70,
+        "objective": 0.07615934698656256,
+        "gradient_inf_norm": 4.0077250033568193e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 69,
+        "objective": 0.06818404941437517,
+        "gradient_inf_norm": 2.4068965651146204e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      }
+    ]
+  },
+  {
+    "representation": "layer24",
+    "l2": 1,
+    "mean_grouped_cv_log_loss": 0.4609155969088656,
+    "fold_losses": [
+      0.4851008563813538,
+      0.3762188846924247,
+      0.5214270496528182
+    ],
+    "solver_checks": [
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 39,
+        "objective": 0.22654420297559344,
+        "gradient_inf_norm": 6.161952554976924e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 47,
+        "objective": 0.2572869015869011,
+        "gradient_inf_norm": 2.918665212193355e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 37,
+        "objective": 0.2401659469689549,
+        "gradient_inf_norm": 1.9679950830735204e-06,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      }
+    ]
+  },
+  {
+    "representation": "layer24",
+    "l2": 10,
+    "mean_grouped_cv_log_loss": 0.5457322105598384,
+    "fold_losses": [
+      0.5882819320903843,
+      0.49504657389321893,
+      0.5538681256959118
+    ],
+    "solver_checks": [
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 24,
+        "objective": 0.5270012801274866,
+        "gradient_inf_norm": 2.0158100578343552e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 24,
+        "objective": 0.5730834266959574,
+        "gradient_inf_norm": 2.2080964013487803e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 23,
+        "objective": 0.5675864447747011,
+        "gradient_inf_norm": 4.1396356325641703e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      }
+    ]
+  },
+  {
+    "representation": "layer24",
+    "l2": 100,
+    "mean_grouped_cv_log_loss": 0.638070416032827,
+    "fold_losses": [
+      0.6810019304137298,
+      0.6149000891842205,
+      0.6183092285005307
+    ],
+    "solver_checks": [
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 20,
+        "objective": 0.8311061580310397,
+        "gradient_inf_norm": 8.611189006302311e-08,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 20,
+        "objective": 0.8771043675412777,
+        "gradient_inf_norm": 1.9123635704165753e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 19,
+        "objective": 0.8965723796272687,
+        "gradient_inf_norm": 6.963052931463487e-08,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      }
+    ]
+  },
+  {
+    "representation": "both",
+    "l2": 0.1,
+    "mean_grouped_cv_log_loss": 0.4943738362885483,
+    "fold_losses": [
+      0.44652875263270675,
+      0.4401943320658261,
+      0.596398424167112
+    ],
+    "solver_checks": [
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 66,
+        "objective": 0.03400845402022598,
+        "gradient_inf_norm": 1.200437406806011e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 71,
+        "objective": 0.03727491058021221,
+        "gradient_inf_norm": 1.8088979300237166e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 57,
+        "objective": 0.035752767423644624,
+        "gradient_inf_norm": 6.251666161095557e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      }
+    ]
+  },
+  {
+    "representation": "both",
+    "l2": 1,
+    "mean_grouped_cv_log_loss": 0.47276532530620674,
+    "fold_losses": [
+      0.4666063119243601,
+      0.42968825595570626,
+      0.5220014080385539
+    ],
+    "solver_checks": [
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 42,
+        "objective": 0.14075499325696317,
+        "gradient_inf_norm": 1.189426166720367e-06,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 43,
+        "objective": 0.15250267268187057,
+        "gradient_inf_norm": 5.943124945506639e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 49,
+        "objective": 0.14889130536174122,
+        "gradient_inf_norm": 2.1188476627152027e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      }
+    ]
+  },
+  {
+    "representation": "both",
+    "l2": 10,
+    "mean_grouped_cv_log_loss": 0.5177549689035029,
+    "fold_losses": [
+      0.5495891265745968,
+      0.484478111683581,
+      0.5191976684523307
+    ],
+    "solver_checks": [
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 27,
+        "objective": 0.4060718292894977,
+        "gradient_inf_norm": 3.1642962362160576e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 27,
+        "objective": 0.43065348670661613,
+        "gradient_inf_norm": 4.212658594789781e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 25,
+        "objective": 0.43331312343627615,
+        "gradient_inf_norm": 1.5292973628410617e-06,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      }
+    ]
+  },
+  {
+    "representation": "both",
+    "l2": 100,
+    "mean_grouped_cv_log_loss": 0.6176566039074073,
+    "fold_losses": [
+      0.6590937004281965,
+      0.5970734596067521,
+      0.5968026516872735
+    ],
+    "solver_checks": [
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 20,
+        "objective": 0.7578859347662517,
+        "gradient_inf_norm": 1.3699771453379306e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 18,
+        "objective": 0.7884656635488527,
+        "gradient_inf_norm": 4.991695168043986e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "name": "scipy L-BFGS-B",
+        "converged": true,
+        "iterations": 17,
+        "objective": 0.8120368568718469,
+        "gradient_inf_norm": 7.116787049121776e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      }
+    ]
+  }
+]

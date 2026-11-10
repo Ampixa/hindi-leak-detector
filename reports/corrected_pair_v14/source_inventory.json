@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-11-08T05:27:30.568368+00:00",
+  "creator": "Codex /root",
+  "files": [
+    {
+      "path": "scripts/build_teacher_f5_plan.py",
+      "sha256": "ee5c9c55de92cef1caee8a5d86d341029b187f0db71050728e6477366640a298",
+      "bytes": 9005
+    },
+    {
+      "path": "scripts/run_corrected_synthesis.py",
+      "sha256": "511b350a7cdc22ce289faa5de294e2901f12b2e89cff8bcc189b7d4e07d235f4",
+      "bytes": 7236
+    },
+    {
+      "path": "scripts/continue_corrected_pair.py",
+      "sha256": "561033500c2aab4fa21184b3458bd6a01af553134399b60fda13d74368ecd952",
+      "bytes": 9132
+    },
+    {
+      "path": "hindi_detector/corrected_synthesis.py",
+      "sha256": "de9a768b37e5f7943de1e946e8f153e60164d2979113c07c8187341ba1a09754",
+      "bytes": 9546
+    },
+    {
+      "path": "hindi_detector/asr_gate.py",
+      "sha256": "23f237cd2dfb64e435e8a74c7d675e68cc4d34c22fc17ed2636137999031ff54",
+      "bytes": 4878
+    },
+    {
+      "path": "hindi_detector/wordlab_server.py",
+      "sha256": "a32b9f2d35f865f8da8554ca765320b065cead15b74f61b05000c396b9f6374a",
+      "bytes": 18792
+    },
+    {
+      "path": "review/corrected-pair.html",
+      "sha256": "a07ab1b14a03772edb79119b3e18e0c8f19afcce3e7f6275faec387204e41827",
+      "bytes": 7545
+    },
+    {
+      "path": "tests/test_corrected_synthesis.py",
+      "sha256": "b3fbf9ea6fcd8885689d282773040457074f6a53dc2c997cff19cea73072c797",
+      "bytes": 1354
+    }
+  ]
+}

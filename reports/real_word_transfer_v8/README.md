@@ -1,0 +1,6 @@
+# Real-word transfer
+Created by Codex GPT-6 /root; owner Ampixa/user. UTC: 2026-11-07T15:56:14.959342+00:00.
+Original host/path k2:/Volumes/T9/hindi-detector/reports/real_word_transfer_v8.
+Purpose/current consumer: measure unchanged schwa components on actual IndicF5/Pocket/human/earlier benchmark words with independently encoded crops and seven fixed boundary recipes. NOT a validated Hindi-error or prosody classifier.
+Inventory: README.md provenance; worker.log errors/progress; pid process identity; plan.json source/model hashes and verified clip/word counts; source_snapshot.json exact source with hashes; items.jsonl per-clip evidence/abstentions; status.json live status; result/report.json final counts and result/README.md provenance (when completed).
+Status active; initial size pending completion review. Last review2026-11-07; next review2026-11-08. Keep results while used for component transfer decision; logs disposable within24h after result review. No new copied audio/model or uploads; NOT on HF; existing source licenses apply. Duplicate locations: selected metadata sync to cdjk, no input data copies. Restore/reproduce from verified source packs and captured source: .venv-indicf5/bin/python -m scripts.apply_schwa_components --out NEW_DOCUMENTED_DIRECTORY.

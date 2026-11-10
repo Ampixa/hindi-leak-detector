@@ -1,0 +1,277 @@
+{
+  "inventory_sha256": "dd86c698b12609d9d9351446c74d169d821c7799ee632c8310652904df20a72f",
+  "selection_sha256": "c76a989dcc79fa9a85d1bfea1e528f48fd02417f54a7aef130c8442d767d3a25",
+  "cases": 10,
+  "assets": [
+    {
+      "id": "real_yt_yt04_027",
+      "kind": "real",
+      "path": "assets/audio/real/real_yt_yt04_027.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/real/real_yt_yt04_027.wav",
+      "bytes": 233038,
+      "sha256": "595bde4d715d9678bc9bbc29a9df18cfacd7c16e4f95ea7c673b366b6c64ee5a",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt04_027",
+      "kind": "swar",
+      "path": "assets/audio/swar/real_yt_yt04_027.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/swar/real_yt_yt04_027.wav",
+      "bytes": 316460,
+      "sha256": "08d7b95f62d793b025425f3d7f9f3c465f29f3b43ea9d567428acdae39a0e43a",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt04_027",
+      "kind": "a450",
+      "path": "assets/audio/a450/real_yt_yt04_027.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/a450/real_yt_yt04_027.wav",
+      "bytes": 831532,
+      "sha256": "02d5726e28b53465c35853c9122a16bbecb79ea670589aee5cd285b94325a08e",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt08_059",
+      "kind": "real",
+      "path": "assets/audio/real/real_yt_yt08_059.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/real/real_yt_yt08_059.wav",
+      "bytes": 122926,
+      "sha256": "37db9ea4afbaa3d16f8f1cb8e499ed695d628bca8801755912443395ca7be8dc",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt08_059",
+      "kind": "swar",
+      "path": "assets/audio/swar/real_yt_yt08_059.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/swar/real_yt_yt08_059.wav",
+      "bytes": 266780,
+      "sha256": "e49649ae6ad491c4e40b210724142b5d096faaa4d65d614d9718cd5a3017402b",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt08_059",
+      "kind": "a450",
+      "path": "assets/audio/a450/real_yt_yt08_059.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/a450/real_yt_yt08_059.wav",
+      "bytes": 520236,
+      "sha256": "e5e95e086e174b20bd2b4fa8e76dffe74ee45ece71559bab998457aa1d53a85a",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt08_060",
+      "kind": "real",
+      "path": "assets/audio/real/real_yt_yt08_060.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/real/real_yt_yt08_060.wav",
+      "bytes": 229166,
+      "sha256": "29d05c3891f87c823e299582c587699997a234d562a1e8fd69b2c77d7d02eec4",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt08_060",
+      "kind": "swar",
+      "path": "assets/audio/swar/real_yt_yt08_060.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/swar/real_yt_yt08_060.wav",
+      "bytes": 498236,
+      "sha256": "2672781bd58bf0bb4caff86c01c2af9f2519345a751c97f06d5f36697259ad3a",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt08_060",
+      "kind": "a450",
+      "path": "assets/audio/a450/real_yt_yt08_060.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/a450/real_yt_yt08_060.wav",
+      "bytes": 708652,
+      "sha256": "3cf37bd663b6b5a5301d03aae6d0c1860684e52f7664ad31739dfbe01c182390",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt08_064",
+      "kind": "real",
+      "path": "assets/audio/real/real_yt_yt08_064.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/real/real_yt_yt08_064.wav",
+      "bytes": 220238,
+      "sha256": "4855dfff0e82caf185fa7891ead8f0deddeabd8589a1bab7b46979d3b47a17dc",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt08_064",
+      "kind": "swar",
+      "path": "assets/audio/swar/real_yt_yt08_064.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/swar/real_yt_yt08_064.wav",
+      "bytes": 555548,
+      "sha256": "150b1d68c782f2e46c8b402a3b489b5bc9333f589d50e515201601e1daa81eb8",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt08_064",
+      "kind": "a450",
+      "path": "assets/audio/a450/real_yt_yt08_064.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/a450/real_yt_yt08_064.wav",
+      "bytes": 749612,
+      "sha256": "d72f4935b82c441e3c50f5739a69bf649e194be3758079fbfc1ef1aca191a107",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt09_068",
+      "kind": "real",
+      "path": "assets/audio/real/real_yt_yt09_068.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/real/real_yt_yt09_068.wav",
+      "bytes": 280398,
+      "sha256": "031cb4be9c0fe866f08601990451b1f1bc7ae99362ced1322a854ced82d841ef",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt09_068",
+      "kind": "swar",
+      "path": "assets/audio/swar/real_yt_yt09_068.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/swar/real_yt_yt09_068.wav",
+      "bytes": 449564,
+      "sha256": "614d2ba8a036eef26024d16dddae7d66f9c7a103d3764573b5413dd1369544e2",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt09_068",
+      "kind": "a450",
+      "path": "assets/audio/a450/real_yt_yt09_068.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/a450/real_yt_yt09_068.wav",
+      "bytes": 978988,
+      "sha256": "5c308dabf4d09aa26bf23b2c7dcf0fe340318d3d92bed62c75b2ca85490fe7e3",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt09_069",
+      "kind": "real",
+      "path": "assets/audio/real/real_yt_yt09_069.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/real/real_yt_yt09_069.wav",
+      "bytes": 176686,
+      "sha256": "7c81af571a878e48ba43b2132133c137f7948edf2f2c685ef64bbbc661743530",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt09_069",
+      "kind": "swar",
+      "path": "assets/audio/swar/real_yt_yt09_069.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/swar/real_yt_yt09_069.wav",
+      "bytes": 333884,
+      "sha256": "3cf839cc2a2c97d7ca98125ff289bbc4cf9af2ca5cbb76a83f277192b4252641",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt09_069",
+      "kind": "a450",
+      "path": "assets/audio/a450/real_yt_yt09_069.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/a450/real_yt_yt09_069.wav",
+      "bytes": 503852,
+      "sha256": "c1d20a1487b6e9cd90470ec63cabe200ea03e185c815e3b1357ad11a26df54f4",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt10_073",
+      "kind": "real",
+      "path": "assets/audio/real/real_yt_yt10_073.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/real/real_yt_yt10_073.wav",
+      "bytes": 125230,
+      "sha256": "ece1947f4e51e07ac6b6a4635a9ab91fa50b102fee2878f280f7becfbecbda03",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt10_073",
+      "kind": "swar",
+      "path": "assets/audio/swar/real_yt_yt10_073.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/swar/real_yt_yt10_073.wav",
+      "bytes": 234044,
+      "sha256": "8a04dd0d25b576d7bd93c18ac1bb1ed3e956544a98989c9673913d26accfce51",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt10_073",
+      "kind": "a450",
+      "path": "assets/audio/a450/real_yt_yt10_073.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/a450/real_yt_yt10_073.wav",
+      "bytes": 327724,
+      "sha256": "6e7afeb0038e4cd462ea48c6626b19ea54165bc77b0d5d89d917117b43cda189",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt11_084",
+      "kind": "real",
+      "path": "assets/audio/real/real_yt_yt11_084.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/real/real_yt_yt11_084.wav",
+      "bytes": 272750,
+      "sha256": "642e6580d91354cc1eaa3cbdda67c94a3ed42181fcddea1119d29d2c2a711c55",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt11_084",
+      "kind": "swar",
+      "path": "assets/audio/swar/real_yt_yt11_084.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/swar/real_yt_yt11_084.wav",
+      "bytes": 481820,
+      "sha256": "ea8ad872cef5b1d305d56850dbe796c228d8eb6f351b070cebdfdf19f625fa07",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt11_084",
+      "kind": "a450",
+      "path": "assets/audio/a450/real_yt_yt11_084.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/a450/real_yt_yt11_084.wav",
+      "bytes": 737324,
+      "sha256": "f4f0bb2bf988414e188f534c3e15d3eeeb270c263332a51028d576ed86c52c07",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt11_085",
+      "kind": "real",
+      "path": "assets/audio/real/real_yt_yt11_085.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/real/real_yt_yt11_085.wav",
+      "bytes": 254798,
+      "sha256": "3d43cb9a3301728ee5f9afe5fcc0e8d28b959e3cd9bd790bf9e4c6ed9475fbcb",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt11_085",
+      "kind": "swar",
+      "path": "assets/audio/swar/real_yt_yt11_085.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/swar/real_yt_yt11_085.wav",
+      "bytes": 489020,
+      "sha256": "85d853de431bde545cefeb8a8e88f27432abef93e6db191fd0881944d815b283",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt11_085",
+      "kind": "a450",
+      "path": "assets/audio/a450/real_yt_yt11_085.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/a450/real_yt_yt11_085.wav",
+      "bytes": 733228,
+      "sha256": "4527fdae1277fde5e86536f30c52f6f9fa3753f0140a03bb28ffe1642df4f222",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt12_092",
+      "kind": "real",
+      "path": "assets/audio/real/real_yt_yt12_092.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/real/real_yt_yt12_092.wav",
+      "bytes": 194638,
+      "sha256": "d9368425e14b3c822123b96453a5d98bedac019f1856b372f61cca42b8cb13eb",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt12_092",
+      "kind": "swar",
+      "path": "assets/audio/swar/real_yt_yt12_092.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/swar/real_yt_yt12_092.wav",
+      "bytes": 343580,
+      "sha256": "e6a784714c8ca80e6919a577d17a1a2a8476b3993b8234bca4c1b314657f80c6",
+      "known_duplicate": null
+    },
+    {
+      "id": "real_yt_yt12_092",
+      "kind": "a450",
+      "path": "assets/audio/a450/real_yt_yt12_092.wav",
+      "url": "https://cdjk.fell-truck.ts.net/swar-fresh/audio/a450/real_yt_yt12_092.wav",
+      "bytes": 626732,
+      "sha256": "4743a42bac10c148b298cd482f3fa1fc976a129c7e890898cb472e4e043c5956",
+      "known_duplicate": null
+    }
+  ]
+}

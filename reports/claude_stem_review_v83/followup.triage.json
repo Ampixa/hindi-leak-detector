@@ -1,0 +1,14 @@
+{
+  "updated_utc": "2026-11-09T14:46:02.876157+00:00",
+  "verdict": "Conditional GO requirements implemented; actual smoke validation must pass before fullrun.",
+  "M1": "verified_metadata before fitting checks pinned SHA52ce4644...before unpickling, vocabulary/config equality with actual immutable feature protocol, RECIPE equality/featurecodehash and all resourcehashes. Hash recorded inputs.json. No directcacheSHA in oldstate; absence explicitly documented, actual cache receipts verified separately.",
+  "sham": "Source/original matching validated before fit; sham difference numbers computed afterOOF before finalfits and checkpoint saves.",
+  "smoke": "Actual real514channel one-epoch fit,predict_cnn,dense_diagnostic smoke running; no smokecheckpoint retained.",
+  "software": "Hint metadata checkpoint versions retained with actualhint-buildversions unknown. Stem build actual16k audit and installedversions stored validation.json, pinned in model. Fit software separate.",
+  "comparison": "Globalclipping coupling and GNtime normalization caveats explicit. No mechanisticattribution claim; calibration not independenttest.",
+  "source_sha256": {
+    "scripts/train_stem_deletion.py": "64e527a6e6c122e108c7da34a7664032248a8ab59b48d2162ce876f0f2ccf0bd",
+    "hindi_detector/stem_deletion.py": "c8fff6c966a9b8716ca777c0b4cce6a6dda58f3808d13c845f99bab03b4e0d64",
+    "tests/test_stem_deletion.py": "63001ae58d934376e6a39184e3d0fa7905f5e98aba67a32e601ce2791a234702"
+  }
+}

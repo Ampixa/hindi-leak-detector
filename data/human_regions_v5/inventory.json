@@ -1,0 +1,37 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 2779,
+    "sha256": "16f53e9776245b88130cf3b1bf02d16e5013aa70b3a6d82f47d05d07fa20097c"
+  },
+  {
+    "path": "audit.json",
+    "bytes": 1981,
+    "sha256": "d5dae0516c8efa67eb641e67acec425cc5a296a6661e5092f5c73b0ab08f2b81"
+  },
+  {
+    "path": "metadata.sqlite",
+    "bytes": 15257600,
+    "sha256": "2537d1a02b5c54f0b2357dcf93675fd6799e29e28d1b1a6dd2c721c2f635da22"
+  },
+  {
+    "path": "single_utterance_candidates.json",
+    "bytes": 13079507,
+    "sha256": "e03ae858c40966a444d08d669e07d22173490709e7c0cf95e371b5d195cfb7bb"
+  },
+  {
+    "path": "source_snapshot.json",
+    "bytes": 12223,
+    "sha256": "4685062b02a052237c7378ecd9111702c23ba1c12a2f41252ca52efbc4dae609"
+  },
+  {
+    "path": "speaker_regions.json",
+    "bytes": 193999,
+    "sha256": "5d3aac98280a4b23bdd0d2b367eeeb09503ffae67d494632c332951545499125"
+  },
+  {
+    "path": "status.json",
+    "bytes": 145,
+    "sha256": "7954c68f2459693acd6706087374b66470167d172a15a722243bc4109fbee075"
+  }
+]

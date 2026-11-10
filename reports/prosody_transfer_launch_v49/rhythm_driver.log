@@ -1,0 +1,15 @@
+ERROR:root:Owned rhythm experiment stopped explicitly; no automatic rerun or threshold tuning
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/run_rhythm_experiment.py", line 59, in <module>
+    main()
+  File "/Volumes/T9/hindi-detector/scripts/run_rhythm_experiment.py", line 49, in main
+    raise RuntimeError(name + ' child failed explicitly with exit' + str(code))
+RuntimeError: train child failed explicitly with exit1
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Volumes/T9/hindi-detector/scripts/run_rhythm_experiment.py", line 59, in <module>
+    main()
+  File "/Volumes/T9/hindi-detector/scripts/run_rhythm_experiment.py", line 49, in main
+    raise RuntimeError(name + ' child failed explicitly with exit' + str(code))
+RuntimeError: train child failed explicitly with exit1

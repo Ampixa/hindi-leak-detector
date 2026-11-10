@@ -1,0 +1,20 @@
+{
+  "pid": 42117,
+  "command": [
+    "/opt/homebrew/bin/claude",
+    "-p",
+    "--output-format",
+    "json",
+    "--tools",
+    "",
+    "--strict-mcp-config",
+    "--safe-mode",
+    "--no-session-persistence",
+    "--permission-mode",
+    "dontAsk",
+    "--effort",
+    "high"
+  ],
+  "created_utc": "2026-11-09T07:04:45.526805+00:00",
+  "prompt_sha256": "62eafe325cd39cfab52e8960c7e48ea34c00517831d7b352b560b0138dee9989"
+}

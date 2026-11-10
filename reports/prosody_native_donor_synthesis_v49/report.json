@@ -1,0 +1,19 @@
+{
+  "status": "complete_best_teacher_reference_rendering",
+  "generation": {
+    "status": "complete_corrected_audio",
+    "pid": 1636074,
+    "system": "pocket_teacher_250000_24l",
+    "updated_utc": "2026-11-09T02:35:52.340870+00:00",
+    "planned_clips": 164,
+    "processed_clips": 164,
+    "counts": {
+      "ok_unreviewed": 164
+    }
+  },
+  "contexts": 164,
+  "outputs": 164,
+  "finite_outputs": 164,
+  "weights_sha256": "2b4636e3aed0e4f2d035630e504be95fc58f494b690a851a91bfe0dd8299516f",
+  "content_and_pronunciation_validated": false
+}

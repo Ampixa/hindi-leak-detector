@@ -1,0 +1,9 @@
+{
+  "status": "complete_pitch_interventions",
+  "counts": {
+    "ok_pitch_interventions": 153,
+    "excluded_pitch_intervention": 11
+  },
+  "actual_hindi_error_accuracy": null,
+  "reserved_scores_opened": false
+}

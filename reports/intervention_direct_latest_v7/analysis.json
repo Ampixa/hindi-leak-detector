@@ -1,0 +1,61 @@
+{
+  "status": "isolated_word_intervention_evidence_not_actual_hindi_classification",
+  "site_evidence": {
+    "gap_index": 2,
+    "lexicon_schwa_count": 1,
+    "alternative_schwa_count": 0,
+    "lexicon_project_phones": [
+      "dx",
+      "ax",
+      "s",
+      "ax",
+      "n",
+      "aa"
+    ],
+    "alternative_project_phones": [
+      "dx",
+      "ax",
+      "s",
+      "n",
+      "aa"
+    ],
+    "vowel_conditioned_results": [
+      {
+        "central_vowel": "ʌ",
+        "lexicon_log_likelihood": -28.215829093327706,
+        "alternative_log_likelihood": -24.144643689381954,
+        "alternative_minus_lexicon": 4.071185403945751
+      },
+      {
+        "central_vowel": "ə",
+        "lexicon_log_likelihood": -28.636005849149925,
+        "alternative_log_likelihood": -24.455297736951014,
+        "alternative_minus_lexicon": 4.180708112198911
+      },
+      {
+        "central_vowel": "ɐ",
+        "lexicon_log_likelihood": -30.604959896601706,
+        "alternative_log_likelihood": -25.49002613552086,
+        "alternative_minus_lexicon": 5.114933761080845
+      }
+    ],
+    "marginal_alternative_minus_lexicon": 4.202192509131308,
+    "status": "unreviewed_site_counterfactual_not_hindi_label",
+    "meaning": "Raw exact CTC evidence for a site-count alternative versus the lexicon path, marginalized equally over three central-vowel qualities. Not a correctness probability."
+  },
+  "reduced_vowel_request_scores": {
+    "ctc_site": 0.05133658770647348,
+    "pooled_phone": 0.4927916586796918
+  },
+  "unavailable_reason": null,
+  "word": "डसना",
+  "candidate_id": "schwa-00106",
+  "audio_sha256": "c5e1e724eb2c091b24a9c117ffec1f1292ec235a8e965aab2cc1e097f3c3b18a",
+  "models_sha256": "254aecc9ace68ac3ae7e25b8fdb313beb0454a0f4b0e219e829ddf968fa57c45",
+  "seconds": 0.8243125,
+  "actual_hindi_error_probability": null,
+  "native_variant_support": null,
+  "preferred_style_distance": null,
+  "interpretation": "The trained scores describe synthetic reduced-vowel requests. A reduced vowel can be valid Nepali variation. Native acceptability, Hindi influence and prosody are not inferred.",
+  "input_contract": "Caller supplies an isolated word. This command does not establish boundary correctness, pronunciation target validity, or intended word identity."
+}

@@ -1,0 +1,470 @@
+{
+  "status": "three_crossed_reference_heads_trained",
+  "branches": {
+    "phonetics": {
+      "development": {
+        "queries": 384,
+        "focus_score_meaning": "Weak source evidence on the held-out focal word, not certified pronunciation correctness",
+        "pocket_same_architecture": {
+          "n": 256,
+          "focus_coverage": 1.0,
+          "focus_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 51,
+            "fp": 16,
+            "fn": 77,
+            "tn": 112,
+            "precision": 0.7611940298507462,
+            "recall": 0.3984375,
+            "false_positive_rate": 0.125,
+            "accuracy": 0.63671875,
+            "balanced_accuracy": 0.63671875,
+            "brier": 0.25645270874597403
+          },
+          "whole_bag_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 94,
+            "fp": 32,
+            "fn": 34,
+            "tn": 96,
+            "precision": 0.746031746031746,
+            "recall": 0.734375,
+            "false_positive_rate": 0.25,
+            "accuracy": 0.7421875,
+            "balanced_accuracy": 0.7421875,
+            "brier": 0.18244668574946427
+          }
+        },
+        "indicf5_vs_pocket": {
+          "n": 256,
+          "focus_coverage": 1.0,
+          "focus_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 49,
+            "fp": 16,
+            "fn": 79,
+            "tn": 112,
+            "precision": 0.7538461538461538,
+            "recall": 0.3828125,
+            "false_positive_rate": 0.125,
+            "accuracy": 0.62890625,
+            "balanced_accuracy": 0.62890625,
+            "brier": 0.2839953017990592
+          },
+          "whole_bag_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 123,
+            "fp": 32,
+            "fn": 5,
+            "tn": 96,
+            "precision": 0.7935483870967742,
+            "recall": 0.9609375,
+            "false_positive_rate": 0.25,
+            "accuracy": 0.85546875,
+            "balanced_accuracy": 0.85546875,
+            "brier": 0.13924163372167725
+          }
+        }
+      },
+      "held_out_voice_and_focus_word": {
+        "queries": 384,
+        "focus_score_meaning": "Weak source evidence on the held-out focal word, not certified pronunciation correctness",
+        "pocket_same_architecture": {
+          "n": 256,
+          "focus_coverage": 1.0,
+          "focus_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 30,
+            "fp": 17,
+            "fn": 98,
+            "tn": 111,
+            "precision": 0.6382978723404256,
+            "recall": 0.234375,
+            "false_positive_rate": 0.1328125,
+            "accuracy": 0.55078125,
+            "balanced_accuracy": 0.55078125,
+            "brier": 0.297295054802034
+          },
+          "whole_bag_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 95,
+            "fp": 26,
+            "fn": 33,
+            "tn": 102,
+            "precision": 0.7851239669421488,
+            "recall": 0.7421875,
+            "false_positive_rate": 0.203125,
+            "accuracy": 0.76953125,
+            "balanced_accuracy": 0.76953125,
+            "brier": 0.1664956649561422
+          }
+        },
+        "indicf5_vs_pocket": {
+          "n": 256,
+          "focus_coverage": 1.0,
+          "focus_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 22,
+            "fp": 17,
+            "fn": 106,
+            "tn": 111,
+            "precision": 0.5641025641025641,
+            "recall": 0.171875,
+            "false_positive_rate": 0.1328125,
+            "accuracy": 0.51953125,
+            "balanced_accuracy": 0.51953125,
+            "brier": 0.31261983365212376
+          },
+          "whole_bag_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 109,
+            "fp": 26,
+            "fn": 19,
+            "tn": 102,
+            "precision": 0.8074074074074075,
+            "recall": 0.8515625,
+            "false_positive_rate": 0.203125,
+            "accuracy": 0.82421875,
+            "balanced_accuracy": 0.82421875,
+            "brier": 0.13575293003296401
+          }
+        }
+      }
+    },
+    "prosody": {
+      "development": {
+        "queries": 384,
+        "focus_score_meaning": "Weak source evidence on the held-out focal word, not certified pronunciation correctness",
+        "pocket_same_architecture": {
+          "n": 256,
+          "focus_coverage": 1.0,
+          "focus_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 43,
+            "fp": 15,
+            "fn": 85,
+            "tn": 113,
+            "precision": 0.7413793103448276,
+            "recall": 0.3359375,
+            "false_positive_rate": 0.1171875,
+            "accuracy": 0.609375,
+            "balanced_accuracy": 0.609375,
+            "brier": 0.23651112053540005
+          },
+          "whole_bag_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 32,
+            "fp": 6,
+            "fn": 96,
+            "tn": 122,
+            "precision": 0.8421052631578947,
+            "recall": 0.25,
+            "false_positive_rate": 0.046875,
+            "accuracy": 0.6015625,
+            "balanced_accuracy": 0.6015625,
+            "brier": 0.2348166037684799
+          }
+        },
+        "indicf5_vs_pocket": {
+          "n": 256,
+          "focus_coverage": 1.0,
+          "focus_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 43,
+            "fp": 15,
+            "fn": 85,
+            "tn": 113,
+            "precision": 0.7413793103448276,
+            "recall": 0.3359375,
+            "false_positive_rate": 0.1171875,
+            "accuracy": 0.609375,
+            "balanced_accuracy": 0.609375,
+            "brier": 0.23182036774826803
+          },
+          "whole_bag_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 80,
+            "fp": 6,
+            "fn": 48,
+            "tn": 122,
+            "precision": 0.9302325581395349,
+            "recall": 0.625,
+            "false_positive_rate": 0.046875,
+            "accuracy": 0.7890625,
+            "balanced_accuracy": 0.7890625,
+            "brier": 0.1599299626129494
+          }
+        }
+      },
+      "held_out_voice_and_focus_word": {
+        "queries": 384,
+        "focus_score_meaning": "Weak source evidence on the held-out focal word, not certified pronunciation correctness",
+        "pocket_same_architecture": {
+          "n": 256,
+          "focus_coverage": 1.0,
+          "focus_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 25,
+            "fp": 10,
+            "fn": 103,
+            "tn": 118,
+            "precision": 0.7142857142857143,
+            "recall": 0.1953125,
+            "false_positive_rate": 0.078125,
+            "accuracy": 0.55859375,
+            "balanced_accuracy": 0.55859375,
+            "brier": 0.23925460981106833
+          },
+          "whole_bag_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 45,
+            "fp": 39,
+            "fn": 83,
+            "tn": 89,
+            "precision": 0.5357142857142857,
+            "recall": 0.3515625,
+            "false_positive_rate": 0.3046875,
+            "accuracy": 0.5234375,
+            "balanced_accuracy": 0.5234375,
+            "brier": 0.26355676308037035
+          }
+        },
+        "indicf5_vs_pocket": {
+          "n": 256,
+          "focus_coverage": 1.0,
+          "focus_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 37,
+            "fp": 10,
+            "fn": 91,
+            "tn": 118,
+            "precision": 0.7872340425531915,
+            "recall": 0.2890625,
+            "false_positive_rate": 0.078125,
+            "accuracy": 0.60546875,
+            "balanced_accuracy": 0.60546875,
+            "brier": 0.22036860026140132
+          },
+          "whole_bag_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 108,
+            "fp": 39,
+            "fn": 20,
+            "tn": 89,
+            "precision": 0.7346938775510204,
+            "recall": 0.84375,
+            "false_positive_rate": 0.3046875,
+            "accuracy": 0.76953125,
+            "balanced_accuracy": 0.76953125,
+            "brier": 0.18097418431589535
+          }
+        }
+      }
+    },
+    "combined": {
+      "development": {
+        "queries": 384,
+        "focus_score_meaning": "Weak source evidence on the held-out focal word, not certified pronunciation correctness",
+        "pocket_same_architecture": {
+          "n": 256,
+          "focus_coverage": 1.0,
+          "focus_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 56,
+            "fp": 17,
+            "fn": 72,
+            "tn": 111,
+            "precision": 0.7671232876712328,
+            "recall": 0.4375,
+            "false_positive_rate": 0.1328125,
+            "accuracy": 0.65234375,
+            "balanced_accuracy": 0.65234375,
+            "brier": 0.24060929315713403
+          },
+          "whole_bag_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 94,
+            "fp": 30,
+            "fn": 34,
+            "tn": 98,
+            "precision": 0.7580645161290323,
+            "recall": 0.734375,
+            "false_positive_rate": 0.234375,
+            "accuracy": 0.75,
+            "balanced_accuracy": 0.75,
+            "brier": 0.17705642477820244
+          }
+        },
+        "indicf5_vs_pocket": {
+          "n": 256,
+          "focus_coverage": 1.0,
+          "focus_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 45,
+            "fp": 17,
+            "fn": 83,
+            "tn": 111,
+            "precision": 0.7258064516129032,
+            "recall": 0.3515625,
+            "false_positive_rate": 0.1328125,
+            "accuracy": 0.609375,
+            "balanced_accuracy": 0.609375,
+            "brier": 0.27063272619133083
+          },
+          "whole_bag_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 123,
+            "fp": 30,
+            "fn": 5,
+            "tn": 98,
+            "precision": 0.803921568627451,
+            "recall": 0.9609375,
+            "false_positive_rate": 0.234375,
+            "accuracy": 0.86328125,
+            "balanced_accuracy": 0.86328125,
+            "brier": 0.12620527632916095
+          }
+        }
+      },
+      "held_out_voice_and_focus_word": {
+        "queries": 384,
+        "focus_score_meaning": "Weak source evidence on the held-out focal word, not certified pronunciation correctness",
+        "pocket_same_architecture": {
+          "n": 256,
+          "focus_coverage": 1.0,
+          "focus_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 33,
+            "fp": 15,
+            "fn": 95,
+            "tn": 113,
+            "precision": 0.6875,
+            "recall": 0.2578125,
+            "false_positive_rate": 0.1171875,
+            "accuracy": 0.5703125,
+            "balanced_accuracy": 0.5703125,
+            "brier": 0.2811896109122285
+          },
+          "whole_bag_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 98,
+            "fp": 25,
+            "fn": 30,
+            "tn": 103,
+            "precision": 0.7967479674796748,
+            "recall": 0.765625,
+            "false_positive_rate": 0.1953125,
+            "accuracy": 0.78515625,
+            "balanced_accuracy": 0.78515625,
+            "brier": 0.1670672711555353
+          }
+        },
+        "indicf5_vs_pocket": {
+          "n": 256,
+          "focus_coverage": 1.0,
+          "focus_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 27,
+            "fp": 15,
+            "fn": 101,
+            "tn": 113,
+            "precision": 0.6428571428571429,
+            "recall": 0.2109375,
+            "false_positive_rate": 0.1171875,
+            "accuracy": 0.546875,
+            "balanced_accuracy": 0.546875,
+            "brier": 0.29075090488931943
+          },
+          "whole_bag_source_metrics": {
+            "n": 256,
+            "positive_labels": 128,
+            "negative_labels": 128,
+            "tp": 115,
+            "fp": 25,
+            "fn": 13,
+            "tn": 103,
+            "precision": 0.8214285714285714,
+            "recall": 0.8984375,
+            "false_positive_rate": 0.1953125,
+            "accuracy": 0.8515625,
+            "balanced_accuracy": 0.8515625,
+            "brier": 0.1257955242958607
+          }
+        }
+      }
+    }
+  },
+  "train_queries": 768,
+  "development_queries": 384,
+  "test_queries": 384,
+  "train_pairs": 1536,
+  "test_pairs": 768,
+  "source_labels": {
+    "indicf5_stock": 1,
+    "pocket_hindi_parent": 1,
+    "pocket_nepali_v1c": 0
+  },
+  "source_priors": {
+    "indicf5_stock": 0.25,
+    "pocket_hindi_parent": 0.25,
+    "pocket_nepali_v1c": 0.5
+  },
+  "cv_policy": "Split both voice groups and focal lexemes, including reference voices; choose by focal-word weak source log loss.",
+  "human_word_gold_used": 0,
+  "validated_word_hindi_accuracy": null,
+  "reliable_automatic_detector": false,
+  "limits": [
+    "Focal scores are weak checkpoint/source evidence, not proof a word is a Hindi pronunciation error.",
+    "Positive utterance bags never label every word as erroneous. Focal model selection is still weakly supervised.",
+    "Pocket parent versus Nepali changes checkpoint within one architecture; exact historical initialization hash is unverified.",
+    "The F5 matrix has already been inspected; predefined voice/lexeme splits do not make it pristine untouched evaluation.",
+    "Native-speech false alarms and verified localized/prosody errors remain necessary reliability checks.",
+    "Underlying phonetic probe and G2P candidate limitations remain; no performance claim for Nepal Bhasa/Newa."
+  ]
+}

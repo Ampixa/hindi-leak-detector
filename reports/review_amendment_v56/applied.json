@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-11-09T03:01:22.734653+00:00",
+  "targets": {
+    "reports/task_vowel_release_v31/actual_swar/cases.json": "c2038382fc4f56b24691cfc0a7d4b6665d6356a51c988801e8d4bb788052650a",
+    "reports/task_vowel_release_v31/actual_swar/report.json": "bc6499ba52ef8efe0671b128dada47ada79bf0c2066e77d9e12c4290c63daf2d",
+    "reports/task_vowel_release_v31/review_report.json": "74c1d1869166eed81fdd0bb78ccf13b9e3fcedc5cf568617363f743a86a1d8db",
+    "reports/task_vowel_release_v31/priority_flags.json": "df428b9ad365f855a60bb976c8737c0237eba86b9011cd531991927db1f3d7b1"
+  },
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "cases_scored": 90,
+  "word_flags": 21,
+  "replicated_teacher_supported_words": 9
+}

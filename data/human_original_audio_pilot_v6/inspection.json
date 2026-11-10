@@ -1,0 +1,70 @@
+{
+  "diagnostic": "Inspect actual original channel layout after strict mono check rejected the payload. Original raw payloads retained for verification; no mix applied.",
+  "source_repo": "ai4bharat/indicvoices_r",
+  "source_revision": "5f4495c91d500742a58d1be2ab07d77f73c0acf8",
+  "shard": "Nepali/train-00000-of-00139.parquet",
+  "row_group": 0,
+  "records": [
+    {
+      "row": 28,
+      "speaker_id": "S4258804100339766",
+      "normalized": "र जब कसैलाई अचानक करेन्ट या बिजुलीले समात्छ त्यति बेला आफूले",
+      "text": "र जब कसैलाई अचानक करेन्ट या बिजुलीले समात्छ त्यति बेला आफूले",
+      "format": "WAV",
+      "subtype": "PCM_16",
+      "channels": 2,
+      "sample_rate": 48000,
+      "frames": 344064,
+      "duration": 7.168,
+      "rms_per_channel": [
+        0.14044381934157185,
+        0.1403364805037265
+      ],
+      "channel_correlation": [
+        [
+          1.0,
+          0.9999866631207062
+        ],
+        [
+          0.9999866631207062,
+          1.0
+        ]
+      ],
+      "max_channel_difference": 0.010711669921875,
+      "payload_path": "audio/original_row_28.source",
+      "payload_bytes": 1376300,
+      "payload_sha256": "a54fb1e567d41c26db780ed6b3657742d06cbb933a447ad1fc3f424b040ccfd2"
+    },
+    {
+      "row": 37,
+      "speaker_id": "S4257061600351107",
+      "normalized": "मकै मकै रोप्छ अनि कतिवटा अब फलफुलहरू पनि रोपेको हुन्छ",
+      "text": "मकै मकै रोप्छ अनि कतिवटा अब फलफुलहरू पनि रोपेको हुन्छ",
+      "format": "WAV",
+      "subtype": "PCM_16",
+      "channels": 2,
+      "sample_rate": 48000,
+      "frames": 296593,
+      "duration": 6.179020833333333,
+      "rms_per_channel": [
+        0.12054429841525019,
+        0.1202495513520052
+      ],
+      "channel_correlation": [
+        [
+          1.0,
+          0.9999755084445298
+        ],
+        [
+          0.9999755084445296,
+          1.0
+        ]
+      ],
+      "max_channel_difference": 0.01556396484375,
+      "payload_path": "audio/original_row_37.source",
+      "payload_bytes": 1186416,
+      "payload_sha256": "fc631d30d31cc40455f47e11ef57fb7b2c748a8d60797219d5987ba9f6f3a927"
+    }
+  ],
+  "inspector_source_utf8": "import pathlib,json,io,hashlib,sys,numpy as np,soundfile as sf,pyarrow.parquet as pq\nfrom huggingface_hub import HfFileSystem\nroot=pathlib.Path('/Volumes/T9/hindi-detector'); out=root/'data/human_original_audio_pilot_v6'\nif not (out/'failure.json').exists() or (out/'inspection.json').exists(): raise RuntimeError('Inspect prior pilot before original-format diagnosis')\nfs=HfFileSystem(token=sys.stdin.readline().strip(),skip_instance_cache=True)\nwith fs.open('datasets/ai4bharat/indicvoices_r@5f4495c91d500742a58d1be2ab07d77f73c0acf8/Nepali/train-00000-of-00139.parquet','rb',block_size=65536,cache_type='none') as stream:\n p=pq.ParquetFile(stream);table=p.read_row_group(0,columns=['audio','speaker_id','text','normalized','duration'])\nrows=[]\nfor index in (28,37):\n row=table.slice(index,1).to_pylist()[0];payload=row['audio']['bytes']; info=sf.info(io.BytesIO(payload));wave,rate=sf.read(io.BytesIO(payload),dtype='float32',always_2d=True)\n dest=out/'audio'/('original_row_'+str(index)+'.source');dest.write_bytes(payload)\n result={'row':index,'speaker_id':row['speaker_id'],'normalized':row['normalized'],'text':row['text'],'format':info.format,'subtype':info.subtype,'channels':info.channels,'sample_rate':rate,'frames':len(wave),'duration':info.duration,'rms_per_channel':np.sqrt(np.mean(wave.astype(float)**2,axis=0)).tolist(),'channel_correlation':np.corrcoef(wave.T).tolist(),'max_channel_difference':float(np.max(np.abs(wave[:,0]-wave[:,-1]))),'payload_path':str(dest.relative_to(out)),'payload_bytes':len(payload),'payload_sha256':hashlib.sha256(payload).hexdigest()}\n rows.append(result)\nrecord={'diagnostic':'Inspect actual original channel layout after strict mono check rejected the payload. Original raw payloads retained for verification; no mix applied.','source_repo':'ai4bharat/indicvoices_r','source_revision':'5f4495c91d500742a58d1be2ab07d77f73c0acf8','shard':'Nepali/train-00000-of-00139.parquet','row_group':0,'records':rows,'inspector_source_utf8':SOURCE}\n(out/'inspection.json').write_text(json.dumps(record,ensure_ascii=False,indent=2,allow_nan=False)+'\\n')\nprint(json.dumps(rows,ensure_ascii=False))\n"
+}

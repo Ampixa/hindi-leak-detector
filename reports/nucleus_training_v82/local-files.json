@@ -1,0 +1,51 @@
+{
+  "reviewed_utc": "2026-11-09T14:55:19.992422+00:00",
+  "scope": "Actual local compact members; original large data remains k2.",
+  "files": [
+    {
+      "path": "files.json",
+      "bytes": 1575,
+      "sha256": "4a5c4dfec502662eec1854b6b59169a8c45c8f4cb1474812662ee42dc23a5c5a"
+    },
+    {
+      "path": "frozen_selection.json",
+      "bytes": 290,
+      "sha256": "ae46250b342d4d395dd2cb37a799f31f9377cb319df47222cff9b13538875de9"
+    },
+    {
+      "path": "history.json",
+      "bytes": 143120,
+      "sha256": "b4516745e28a4538339dac33116f3d636c1837f5961a74eb8646c55bba2da4b4"
+    },
+    {
+      "path": "inputs.json",
+      "bytes": 462,
+      "sha256": "3113c42c803b827ac4e242b08f3ff5b84dbee21720ebf0321d168211f85b0f02"
+    },
+    {
+      "path": "model.pt",
+      "bytes": 73366,
+      "sha256": "3f1840867759d3ebfee31bd4875450e27c5ba4774d7dc1d49250380204b42883"
+    },
+    {
+      "path": "no_audio.pt",
+      "bytes": 5461,
+      "sha256": "59db13ec672e59b39f8e7dce2c2080755c17a31cb268467241a92a112dd4e394"
+    },
+    {
+      "path": "protocol.json",
+      "bytes": 1614,
+      "sha256": "1b62e049dc4d24fd6e7417af5cf8243252d4429dd0876fc90ca6195cfe2b5a78"
+    },
+    {
+      "path": "report.json",
+      "bytes": 30037,
+      "sha256": "7b767cebfcff23985c312b9b5535a21045d4ac609980006beda6fdcf96dc9207"
+    },
+    {
+      "path": "status.json",
+      "bytes": 128,
+      "sha256": "6e7edc1050d79aca1cdc5e04bca4bb139034eaf8d397fe5aff9eae0bdabdca77"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "status": "complete_cold_release_verification",
+  "checks": [
+    {
+      "name": "real_yt_yt01_005_explicit",
+      "word": "हैन",
+      "processed": true,
+      "flagged": true,
+      "expected_flag": true,
+      "check_passed": true,
+      "result_sha256": "c925842a4123ddc9f031b0e953c6030d2c5ec55e6836015924f30ca1ec72d27a",
+      "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+      "max_feature_difference": 0.0,
+      "max_word_time_difference_seconds": 0.0
+    },
+    {
+      "name": "real_yt_yt01_005_teacher_cache",
+      "word": "हैन",
+      "processed": true,
+      "flagged": true,
+      "expected_flag": true,
+      "check_passed": true,
+      "result_sha256": "715829e4d049904b0a3b62636757d2a46f1477de634081214f012b6c9ca74d74",
+      "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85"
+    },
+    {
+      "name": "real_yt_yt01_008_explicit",
+      "word": "किनकि",
+      "processed": true,
+      "flagged": true,
+      "expected_flag": true,
+      "check_passed": true,
+      "result_sha256": "974d42ca1633a4516195563d55e790c60205650a5d33b63bc59a3b15b4464b9d",
+      "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+      "max_feature_difference": 0.0,
+      "max_word_time_difference_seconds": 0.0
+    },
+    {
+      "name": "real_yt_yt01_008_teacher_cache",
+      "word": "किनकि",
+      "processed": true,
+      "flagged": true,
+      "expected_flag": true,
+      "check_passed": true,
+      "result_sha256": "d500e950e979867860c53f8317c6ec1a13d143e691a83c1fcbe685ebdfe7f04f",
+      "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85"
+    },
+    {
+      "name": "real_yt_yt04_030_explicit",
+      "word": "किनकि",
+      "processed": true,
+      "flagged": false,
+      "expected_flag": false,
+      "check_passed": true,
+      "result_sha256": "b8d5ddb1aea085e3c83ca67311d65091916eefef592589b17a9d7143de73bbdd",
+      "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+      "max_feature_difference": 0.0,
+      "max_word_time_difference_seconds": 0.0
+    },
+    {
+      "name": "real_yt_yt04_030_teacher_cache",
+      "word": "किनकि",
+      "processed": true,
+      "flagged": false,
+      "expected_flag": false,
+      "check_passed": true,
+      "result_sha256": "33abcc1bd11a28ab889a935ee9676fc20abfa218427b1e774df50cab09eced38",
+      "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85"
+    },
+    {
+      "name": "unknown_vowel_deletion",
+      "word": "नसकियोस्",
+      "processed": true,
+      "flagged": true,
+      "expected_flag": null,
+      "check_passed": true,
+      "result_sha256": "ec24e368e223d1538b789a0f73db1e9ef49e4fa5329b64ee8e06eaa8dfeb0ba7",
+      "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85"
+    },
+    {
+      "name": "unknown_vowel_quality",
+      "word": "हैमिल्टनको",
+      "processed": true,
+      "flagged": true,
+      "expected_flag": null,
+      "check_passed": true,
+      "result_sha256": "1390872e02b7d56c07ed23bbdac54ea7631f2a9c555d7923739d0bdc853dd879",
+      "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85"
+    }
+  ],
+  "checks_passed": 8,
+  "checks_total": 8,
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "actual_hindi_error_accuracy": null
+}

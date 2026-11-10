@@ -1,0 +1,33 @@
+{
+  "updated_utc": "2026-11-09T08:34:49.608076+00:00",
+  "steps": [
+    {
+      "step": "Actual Claude adversarial review and verified fixes",
+      "status": "complete"
+    },
+    {
+      "step": "Generate2404 approved24-layer teacher readings across512 new lexemes",
+      "status": "complete"
+    },
+    {
+      "step": "Fit grouped-CV head, freeze externally, then open held-out physical test",
+      "status": "complete; candidate rejected"
+    },
+    {
+      "step": "Benchmark persistent post-utterance inference",
+      "status": "complete; not streaming"
+    },
+    {
+      "step": "Claude post-training review and train/dev oracle experiment",
+      "status": "complete; anchor-only redesign no-go"
+    },
+    {
+      "step": "Offer more playable existing candidates, record listener feedback",
+      "status": "complete; three further occurrences confirmed by user"
+    }
+  ],
+  "next_decision": "Check short-vowel representation and physical intervention validity with independently marked real-word intervals before another model fit. Do not recycle the spent test or lower its threshold.",
+  "publication": "No public release or message sent; plain-text draft only.",
+  "listener_confirmation_update": "reports/listener_confirmations_v79/feedback.json",
+  "total_confirmed_occurrences": 7
+}

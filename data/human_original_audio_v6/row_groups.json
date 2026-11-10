@@ -1,0 +1,1094 @@
+[
+  {
+    "shard": "Nepali/train-00000-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 164889270,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00000-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 166133172,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00000-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 126598396,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00001-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 150199919,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00002-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 172225567,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00002-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 160892262,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00004-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 162131129,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00005-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 150391246,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00006-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 160835662,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00006-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 156694010,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00006-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 148526544,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00007-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 160748496,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00007-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 165232885,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00008-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 165664905,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00008-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 130849934,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00009-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 149372817,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00009-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 160712891,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00009-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 163757823,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00010-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 171151470,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00010-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 142503129,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00011-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 173685110,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00011-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 147675929,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00012-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 151665738,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00013-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 154639561,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00013-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 147776414,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00014-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 158201242,
+    "selected_recordings": 3
+  },
+  {
+    "shard": "Nepali/train-00017-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 159423607,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00017-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 127843262,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00021-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 160710143,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00022-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 156187848,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00022-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 170137502,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00022-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 139091679,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00023-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 148170979,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00023-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 159155007,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00024-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 144968577,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00025-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 162373891,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00025-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 141890436,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00025-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 170875458,
+    "selected_recordings": 3
+  },
+  {
+    "shard": "Nepali/train-00025-of-00139.parquet",
+    "row_group": 3,
+    "rows": 4,
+    "compressed_audio_column_bytes": 8411951,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00027-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 134162374,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00027-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 161438227,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00028-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 150314917,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00028-of-00139.parquet",
+    "row_group": 3,
+    "rows": 4,
+    "compressed_audio_column_bytes": 8526547,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00029-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 146412762,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00029-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 155217029,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00029-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 140826401,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00030-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 167665779,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00030-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 146324610,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00031-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 161657005,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00032-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 137772134,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00033-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 155581881,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00035-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 159066907,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00036-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 150818660,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00037-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 160704572,
+    "selected_recordings": 3
+  },
+  {
+    "shard": "Nepali/train-00037-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 155304271,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00039-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 151123849,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00039-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 158861944,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00039-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 160700101,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00042-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 165725589,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00043-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 148926659,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00044-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 150570800,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00044-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 163045219,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00046-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 147566474,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00047-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 162012404,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00048-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 170828483,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00049-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 141376001,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00049-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 155146398,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00050-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 162230262,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00050-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 139379795,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00053-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 135963778,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00053-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 150480142,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00054-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 146835040,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00055-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 142109905,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00056-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 134403289,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00056-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 154508153,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00056-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 146425419,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00057-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 161527903,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00058-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 170081433,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00058-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 154950580,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00059-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 164910824,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00059-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 166869736,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00060-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 142527881,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00060-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 169654939,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00062-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 154180097,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00062-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 138385128,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00062-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 146221483,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00063-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 144455404,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00063-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 161838483,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00064-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 152007458,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00065-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 157711540,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00066-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 150815623,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00066-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 153414263,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00067-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 145264482,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00069-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 163967694,
+    "selected_recordings": 3
+  },
+  {
+    "shard": "Nepali/train-00070-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 153889511,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00070-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 177095479,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00071-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 124985172,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00071-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 146161388,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00071-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 160082138,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00072-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 143881885,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00073-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 171680076,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00073-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 152510699,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00074-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 136273234,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00075-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 149776817,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00076-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 150201910,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00076-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 137006822,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00077-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 136361556,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00079-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 162011105,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00079-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 153000011,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00081-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 161735355,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00081-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 168104064,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00083-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 151320818,
+    "selected_recordings": 3
+  },
+  {
+    "shard": "Nepali/train-00084-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 144840510,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00085-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 169982949,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00085-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 136526578,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00086-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 153669286,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00087-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 148111158,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00087-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 156592245,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00088-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 133124048,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00089-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 170950604,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00090-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 166656888,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00091-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 173082183,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00091-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 154172042,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00092-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 174141852,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00092-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 162940904,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00093-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 151198641,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00094-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 162474690,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00095-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 176363924,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00095-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 170996874,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00095-of-00139.parquet",
+    "row_group": 3,
+    "rows": 4,
+    "compressed_audio_column_bytes": 6987423,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00097-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 142921277,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00098-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 166618124,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00099-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 177398948,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00102-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 152039720,
+    "selected_recordings": 3
+  },
+  {
+    "shard": "Nepali/train-00103-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 172074240,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00104-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 148943413,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00105-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 149260910,
+    "selected_recordings": 3
+  },
+  {
+    "shard": "Nepali/train-00107-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 154371463,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00108-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 154738994,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00108-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 158783228,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00109-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 161184948,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00109-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 160223556,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00110-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 153905979,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00111-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 161894269,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00112-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 155129399,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00113-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 157771049,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00114-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 160517583,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00115-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 173652978,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00117-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 148319236,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00117-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 155667243,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00118-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 156194904,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00119-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 124311172,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00120-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 144099825,
+    "selected_recordings": 2
+  },
+  {
+    "shard": "Nepali/train-00121-of-00139.parquet",
+    "row_group": 0,
+    "rows": 100,
+    "compressed_audio_column_bytes": 174651234,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00121-of-00139.parquet",
+    "row_group": 1,
+    "rows": 100,
+    "compressed_audio_column_bytes": 171433118,
+    "selected_recordings": 1
+  },
+  {
+    "shard": "Nepali/train-00122-of-00139.parquet",
+    "row_group": 2,
+    "rows": 100,
+    "compressed_audio_column_bytes": 143497010,
+    "selected_recordings": 1
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "pid": 10611,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-u",
+    "-m",
+    "scripts.finish_corrected_training"
+  ],
+  "previous_waiter_pid": 1681,
+  "created_utc": "2026-11-08T08:21:12.662108+00:00",
+  "reason": "Recover whole matched CPU groups for observed MPS length limit before final fit; pilot and test policy unchanged"
+}

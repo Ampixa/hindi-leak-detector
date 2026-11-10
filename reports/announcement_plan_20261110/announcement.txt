@@ -1,0 +1,7 @@
+Draft for10 November — update release link and completed claims before posting.
+
+We’re previewing Ampixa’s word-level pronunciation leakage detector for Nepali TTS. It flags suspected Hindi-like vowel omissions and vowel changes, points to the affected word, and lets you compare the audio with Nepali references.
+
+It has caught हैन, किनकि, and an additional नेकपा case confirmed during testing. The research preview will include examples, controlled-test results and failure cases as we expand coverage.
+
+[Release link]

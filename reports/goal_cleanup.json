@@ -1,0 +1,67 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "created_utc": "2026-11-06T10:17:47.166657+00:00",
+  "status": "active",
+  "owner": "Ampixa/user",
+  "next_review": "2026-11-13",
+  "deleted": [
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.playwright-mcp/page-2026-11-06T09-53-15-191Z.yml",
+      "bytes": 3206,
+      "sha256": "c3a0a112672ba5a715b8fc327d8d56c017cbfabf369c5e7a5fcb457b002f0c8e",
+      "reason": "completed blind review browser QA"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.playwright-mcp/page-2026-11-06T10-11-36-719Z.yml",
+      "bytes": 3079,
+      "sha256": "9e40381c8c03641895d78c31998d3c54426e82582fadc0dfc936adcfc682d8b4",
+      "reason": "completed blind review browser QA"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.playwright-mcp/page-2026-11-06T10-27-09-645Z.yml",
+      "bytes": 3093,
+      "sha256": "47731c392d0c0ef8d909f831d3a699209322af1b10e8ca4370d1f43fecc4f316",
+      "reason": "Development blind review browser QA completed; no human labels in snapshot"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.playwright-mcp/console-2026-11-06T15-56-31-623Z.log",
+      "bytes": 141,
+      "sha256": "0ad0cbcb42e9c763ea0d7a8c370629d4277049d8aa21e435f446d10e7bed36a0",
+      "reason": "Source-proxy result page/audio QA complete; console entry was a favicon 404, not a model or annotation failure"
+    },
+    {
+      "path": "/Users/cdjk/github/hindi-detector/.playwright-mcp/page-2026-11-06T15-56-32-590Z.yml",
+      "bytes": 7116,
+      "sha256": "255d27bfe5ff1708a1573d66761eb318c21bc9fd59aec79746cf51062e68fd96",
+      "reason": "Source-proxy result page/audio QA complete; console entry was a favicon 404, not a model or annotation failure"
+    }
+  ],
+  "local_reclaimed_logical_bytes": 16635,
+  "transfer_cleanup": {
+    "created_utc": "2026-11-06T10:17:46.258176+00:00",
+    "deleted": [
+      {
+        "path": "/home/ampixa/hindi-detector-transfer-v1/stream_comparison_audio.py",
+        "bytes": 1169,
+        "sha256": "d5b1fc461a1136bbf0f78cc170e7e7025eba39c3ff48a25a0208204da8a15313",
+        "reason": "completed 80-file verified stream; source code and selection retained in cdjk/k2 project"
+      },
+      {
+        "path": "/home/ampixa/hindi-detector-transfer-v1/transfer_files.json",
+        "bytes": 20427,
+        "sha256": "ab411bcecfd23f3817b18a17ab5a7fd2ad5133d4da20d77f84b1140995633659",
+        "reason": "completed 80-file verified stream; source code and selection retained in cdjk/k2 project"
+      }
+    ],
+    "reclaimed_logical_bytes": 21596,
+    "free_bytes_after": 23722213376
+  },
+  "package_cache": {
+    "path": "k2:/Volumes/T9/hindi-detector/runtime/uv-cache",
+    "reason": "runtime installation and real synthesis verified; installed environment retained",
+    "before_allocated_KiB": 1761364,
+    "tool_result": "uv cache clean removed 44160 files (1.5GiB)",
+    "restore": "uv pip install with runtime/indicf5.freeze; no model or human-label deletion"
+  },
+  "updated_utc": "2026-11-06T15:59:06.093888+00:00"
+}

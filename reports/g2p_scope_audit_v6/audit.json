@@ -1,0 +1,10 @@
+{
+  "frontend_revision": "b7395f282b74ee50ef24a93fa6a87778cf8f6226",
+  "frontend_readme_sha256": "f03b6e65180becf8169221108e2f0b3629c10a4e529f9294a8e5f68cb27fa1af",
+  "issue": "The frontend README regional characterization is not established by its cited phonetic illustration.",
+  "primary_source": "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/nepali/A887820E3B1293EFD43FBD3259D41F73",
+  "verified_primary_scope": "The main illustrated speaker originates from Biratnagar and grew up in eastern Nepal. The account describes standard literate/media speech.",
+  "decision": "Preserve the pinned frontend for reproduction, but do not use its README regional characterization as a Hindi/native classification rule. Treat a profile as one pronunciation policy; native-variant support requires independent evidence.",
+  "prosody_decision": "Condition pitch interpretation on segment and utterance context; pitch deviation alone cannot imply Hindi intonation.",
+  "no_frozen_frontend_modified": true
+}

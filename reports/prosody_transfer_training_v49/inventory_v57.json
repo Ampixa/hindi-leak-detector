@@ -1,0 +1,61 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "owner": "Ampixa/user",
+  "host": "k2",
+  "original_path": "/Volumes/T9/hindi-detector/reports/prosody_transfer_training_v49",
+  "created_utc": "2026-11-09T03:08:21.541271+00:00",
+  "last_review_utc": "2026-11-09T03:08:21.541271+00:00",
+  "next_review": "2026-11-10",
+  "not_on_HF": true,
+  "retention": "Compact admission/rollback/source pins retained for active Hindi-detector goal. Completed raw control WAVs/redundant frames disposable24h after consumer closes; no blind deletion. Source-model rights/MMS research restrictions inherited.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2296,
+      "sha256": "defbf13a6f4e6fdb34d1ea0c32c07fcef93a1e51e1bf65fff7f4e09e19428ebf",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "frozen_selection.json",
+      "bytes": 233,
+      "sha256": "3ecd0cb3510c610d68d86f08e819a54519c33185cc252fc47da32d3be337894e",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "history.json",
+      "bytes": 29952,
+      "sha256": "dfb1bf3745bb56868347cd1bb2be30ddd65e48eac8fd030552c62bd5ebb6b922",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "inputs.json",
+      "bytes": 4590,
+      "sha256": "7e42d0d02de6b50fcfeda85a387aae56b3afd4f414d7d22d4239a149be898c22",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "model.pt",
+      "bytes": 25716,
+      "sha256": "2ee5935a1950abca2271a1c500bb240b684aae687e322894ae59181a4d3d4f73",
+      "role": "Selected failed research head, reference only for reproducing admission result; not served"
+    },
+    {
+      "path": "report.json",
+      "bytes": 2232,
+      "sha256": "a27e26c25e92499237bb23d6875d827b4dfe33edded847cd376b09f623bb8676",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "scores.json",
+      "bytes": 161159,
+      "sha256": "e648c06026729ec01d61b220459765f3b40dcf726edfbd4ea4c65a47ebd96ad3",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    },
+    {
+      "path": "source_snapshot.json",
+      "bytes": 11780,
+      "sha256": "ee0b106a5823081dd8478d0ca2ca085b5d322fe3087199c38033bc4d67804634",
+      "role": "Explicit source/config/receipt/metrics/log/documentation; exact role in group README"
+    }
+  ]
+}

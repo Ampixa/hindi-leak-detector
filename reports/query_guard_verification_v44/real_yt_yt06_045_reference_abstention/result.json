@@ -1,0 +1,21 @@
+{
+  "status": "unscored_reference_quality",
+  "text": "हैन यहाँको प्रब्लमहरु छ पोलिसीहरु त्यसैगरी बिस्तारै रिफर्म पनि हुदै थियो।",
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "reference_mode": "no_content_qualified_reference",
+  "inputs": [
+    {
+      "role": "query",
+      "path": "/Volumes/T9/hindi-detector/data/swar_speech_v18/assets/audio/swar/real_yt_yt06_045.wav",
+      "sha256": "ec22c8dfbd742cbfb8ea345bddf9d906fba1cca5c8380239c274279ed3dae576",
+      "bytes": 290876
+    }
+  ],
+  "words": [],
+  "per_reference": [],
+  "word_flags": [],
+  "content_checked_with_asr": false,
+  "query_content_check": null,
+  "actual_hindi_error_accuracy": null,
+  "scope": "Neither cached teacher reference passed lexical-content checks; no pronunciation judgment is supported"
+}

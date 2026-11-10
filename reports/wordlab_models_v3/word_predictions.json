@@ -1,0 +1,3810 @@
+[
+  {
+    "clip_id": "aa03252c11ff6089a4c2ec9e",
+    "audio_sha256": "0e93e3ccd237e3bf7f1b47b4484f385576a4d6c966aa7c6621fb4c0e85a1d3ec",
+    "sentence_id": "sent_085",
+    "speaker_id": "46aa713b",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "खानामा",
+        "start": 0.10121951219512196,
+        "end": 0.566829268292683,
+        "phonetics_source_evidence": 0.2503630256536439,
+        "prosody_source_evidence": 0.3197721872012554,
+        "combined_source_evidence": 0.24912718359795957
+      },
+      {
+        "word": "नमक",
+        "start": 0.6882926829268293,
+        "end": 0.9717073170731707,
+        "phonetics_source_evidence": 0.1604374534272253,
+        "prosody_source_evidence": 0.29463162631689793,
+        "combined_source_evidence": 0.16184914087477162
+      },
+      {
+        "word": "थोरै",
+        "start": 1.032439024390244,
+        "end": 1.3158536585365854,
+        "phonetics_source_evidence": 0.16112588770806446,
+        "prosody_source_evidence": 0.38755000991772326,
+        "combined_source_evidence": 0.12870725022170154
+      },
+      {
+        "word": "छ",
+        "start": 1.3563414634146342,
+        "end": 1.4373170731707317,
+        "phonetics_source_evidence": 0.08947560837307571,
+        "prosody_source_evidence": 0.4632925180499221,
+        "combined_source_evidence": 0.07544681266140246
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.16933478182364317,
+      "prosody": 0.37341330447804855,
+      "combined": 0.15864036003330192
+    }
+  },
+  {
+    "clip_id": "6c4b18432eee6ca7cf351847",
+    "audio_sha256": "4df6eade27360319c295e0de88501bdf25873ac97063adac81e3f7c100f32504",
+    "sentence_id": "sent_085",
+    "speaker_id": "46aa713b",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "खानामा",
+        "start": 0.08057228915662651,
+        "end": 0.5035768072289157,
+        "phonetics_source_evidence": 0.7963456560339309,
+        "prosody_source_evidence": 0.36491039492578525,
+        "combined_source_evidence": 0.7832716346165576
+      },
+      {
+        "word": "नमक",
+        "start": 0.5237198795180723,
+        "end": 0.8057228915662651,
+        "phonetics_source_evidence": 0.12129012764130392,
+        "prosody_source_evidence": 0.406808925956924,
+        "combined_source_evidence": 0.1089056364593022
+      },
+      {
+        "word": "थोरै",
+        "start": 0.9064382530120483,
+        "end": 1.2085843373493976,
+        "phonetics_source_evidence": 0.07879918743888949,
+        "prosody_source_evidence": 0.4432320309365497,
+        "combined_source_evidence": 0.06428739975828389
+      },
+      {
+        "word": "छ",
+        "start": 1.2488704819277108,
+        "end": 1.3697289156626506,
+        "phonetics_source_evidence": 0.9645837138981652,
+        "prosody_source_evidence": 0.6232705633159794,
+        "combined_source_evidence": 0.9634861159619073
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.8869080518142833,
+      "prosody": 0.48125270969948736,
+      "combined": 0.883012999921666
+    }
+  },
+  {
+    "clip_id": "f37935a9d9b8dfb35669ccf8",
+    "audio_sha256": "a46fa9fe343620b133cbb0aa1635f6c11cdc2e36a16f9cf2b2e17a30ff419ed7",
+    "sentence_id": "sent_085",
+    "speaker_id": "46aa713b",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "खानामा",
+        "start": 0.06042921686746988,
+        "end": 0.5237198795180723,
+        "phonetics_source_evidence": 0.7346867966633117,
+        "prosody_source_evidence": 0.48084713117425376,
+        "combined_source_evidence": 0.707177326059825
+      },
+      {
+        "word": "नमक",
+        "start": 0.5438629518072289,
+        "end": 0.8258659638554218,
+        "phonetics_source_evidence": 0.1464891167645854,
+        "prosody_source_evidence": 0.4272322216219578,
+        "combined_source_evidence": 0.12263512131922706
+      },
+      {
+        "word": "थोरै",
+        "start": 0.9064382530120483,
+        "end": 1.2287274096385543,
+        "phonetics_source_evidence": 0.12916090306430533,
+        "prosody_source_evidence": 0.582677605807036,
+        "combined_source_evidence": 0.12547616299720138
+      },
+      {
+        "word": "छ",
+        "start": 1.2690135542168675,
+        "end": 1.3697289156626506,
+        "phonetics_source_evidence": 0.9864897002282366,
+        "prosody_source_evidence": 0.6589523930701154,
+        "combined_source_evidence": 0.9844818951942788
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.9500665873235739,
+      "prosody": 0.5555799538713668,
+      "combined": 0.9429705100752687
+    }
+  },
+  {
+    "clip_id": "67b04015e244459a6d5c3fc3",
+    "audio_sha256": "7bc09b079b6826898caffef2159fd14118fe1a5016370d37913241aeaca18a92",
+    "sentence_id": "sent_086",
+    "speaker_id": "59903f2c",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "ऊ",
+        "start": 0.1418421052631579,
+        "end": 0.20263157894736844,
+        "phonetics_source_evidence": 2.919367930576837e-06,
+        "prosody_source_evidence": 0.30144015583242256,
+        "combined_source_evidence": 3.315676661569256e-06
+      },
+      {
+        "word": "नम्र",
+        "start": 0.30394736842105263,
+        "end": 0.6686842105263159,
+        "phonetics_source_evidence": 0.20303351551593812,
+        "prosody_source_evidence": 0.3492007893395465,
+        "combined_source_evidence": 0.21330710766440636
+      },
+      {
+        "word": "मान्छे",
+        "start": 0.7497368421052633,
+        "end": 1.0739473684210528,
+        "phonetics_source_evidence": 0.9999992590004069,
+        "prosody_source_evidence": 0.4027253209110305,
+        "combined_source_evidence": 0.9999992251097483
+      },
+      {
+        "word": "हो",
+        "start": 1.155,
+        "end": 1.2360526315789475,
+        "phonetics_source_evidence": 0.009913109670774422,
+        "prosody_source_evidence": 0.2479504295816187,
+        "combined_source_evidence": 0.009377954022169425
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.9999970360087979,
+      "prosody": 0.3302143590761743,
+      "combined": 0.9999969004468723
+    }
+  },
+  {
+    "clip_id": "493c40e0ef58865a2e619b21",
+    "audio_sha256": "b9697b5447005acc270646588e61a57dc16c72da04ef099c69fed13af6617697",
+    "sentence_id": "sent_086",
+    "speaker_id": "59903f2c",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "ऊ",
+        "start": 0.10071536144578314,
+        "end": 0.24171686746987953,
+        "phonetics_source_evidence": 1.5761922530818472e-18,
+        "prosody_source_evidence": 0.34758193631965,
+        "combined_source_evidence": 1.0422839384294766e-18
+      },
+      {
+        "word": "नम्र",
+        "start": 0.3827183734939759,
+        "end": 0.7654367469879518,
+        "phonetics_source_evidence": 0.666874823069924,
+        "prosody_source_evidence": 0.2848123707237299,
+        "combined_source_evidence": 0.6877896251490913
+      },
+      {
+        "word": "मान्छे",
+        "start": 0.8862951807228916,
+        "end": 1.3092996987951808,
+        "phonetics_source_evidence": 0.9999999999999989,
+        "prosody_source_evidence": 0.39244818286203575,
+        "combined_source_evidence": 0.9999999999999987
+      },
+      {
+        "word": "हो",
+        "start": 1.3898719879518073,
+        "end": 1.4301581325301205,
+        "phonetics_source_evidence": 0.00023645629472916305,
+        "prosody_source_evidence": 0.33282064416966256,
+        "combined_source_evidence": 0.00020305293910484042
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.9999999999999958,
+      "prosody": 0.34164955873362096,
+      "combined": 0.9999999999999947
+    }
+  },
+  {
+    "clip_id": "b0351d9978349be78c841667",
+    "audio_sha256": "c52ff0fe77db1648fa4c7b6443cbfedfef0656aeda3f54f073aa0bd2d20ee6ad",
+    "sentence_id": "sent_086",
+    "speaker_id": "59903f2c",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "ऊ",
+        "start": 0.02028448275862069,
+        "end": 0.10142241379310345,
+        "phonetics_source_evidence": 0.16248886459944017,
+        "prosody_source_evidence": 0.4604343662708696,
+        "combined_source_evidence": 0.15209698985264183
+      },
+      {
+        "word": "नम्र",
+        "start": 0.3651206896551724,
+        "end": 0.7708103448275863,
+        "phonetics_source_evidence": 0.18987525773796818,
+        "prosody_source_evidence": 0.3161478066390888,
+        "combined_source_evidence": 0.1957659660594961
+      },
+      {
+        "word": "मान्छे",
+        "start": 0.8925172413793103,
+        "end": 1.2779224137931036,
+        "phonetics_source_evidence": 0.9985239783834544,
+        "prosody_source_evidence": 0.42120631765802063,
+        "combined_source_evidence": 0.9984534931257174
+      },
+      {
+        "word": "हो",
+        "start": 1.3590603448275862,
+        "end": 1.440198275862069,
+        "phonetics_source_evidence": 0.007849750535746826,
+        "prosody_source_evidence": 0.2580919577561518,
+        "combined_source_evidence": 0.00770773032485429
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.9941257082847313,
+      "prosody": 0.3741447541615862,
+      "combined": 0.9938466186237167
+    }
+  },
+  {
+    "clip_id": "b538990a6f9ca0f18b21a358",
+    "audio_sha256": "250e8c341933fd09df7a009b30ddb691197e661242a789b824bb4be3897c2873",
+    "sentence_id": "sent_165",
+    "speaker_id": "37e9e229",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "सरकारले",
+        "start": 0.12098360655737705,
+        "end": 0.7863934426229509,
+        "phonetics_source_evidence": 0.15161057390058774,
+        "prosody_source_evidence": 0.3332103682528645,
+        "combined_source_evidence": 0.15271009931105753
+      },
+      {
+        "word": "नयाँ",
+        "start": 0.8872131147540984,
+        "end": 1.2501639344262294,
+        "phonetics_source_evidence": 0.0787760306850336,
+        "prosody_source_evidence": 0.39727399301799976,
+        "combined_source_evidence": 0.07595824783860847
+      },
+      {
+        "word": "कर",
+        "start": 1.2904918032786885,
+        "end": 1.5122950819672132,
+        "phonetics_source_evidence": 0.12142715798211709,
+        "prosody_source_evidence": 0.45449764496756634,
+        "combined_source_evidence": 0.11066890126368052
+      },
+      {
+        "word": "लगायो",
+        "start": 1.5929508196721311,
+        "end": 2.1575409836065575,
+        "phonetics_source_evidence": 0.10145505797587762,
+        "prosody_source_evidence": 0.37644459170754246,
+        "combined_source_evidence": 0.09597512788595956
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.11413021077586771,
+      "prosody": 0.3935471686183749,
+      "combined": 0.10973429192886947
+    }
+  },
+  {
+    "clip_id": "ca7343f6c0c63e47c7272c3b",
+    "audio_sha256": "0c7a96b13634198d50d1c6061a2abb2b7f950f11180c48ca8d880984f082a663",
+    "sentence_id": "sent_165",
+    "speaker_id": "37e9e229",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "सरकारले",
+        "start": 0.0,
+        "end": 0.6422881355932204,
+        "phonetics_source_evidence": 0.30221252674285826,
+        "prosody_source_evidence": 0.567069043477719,
+        "combined_source_evidence": 0.3011548038118511
+      },
+      {
+        "word": "नयाँ",
+        "start": 0.7827886652542374,
+        "end": 1.144075741525424,
+        "phonetics_source_evidence": 0.026498990474744473,
+        "prosody_source_evidence": 0.3135312233359307,
+        "combined_source_evidence": 0.02527845609973495
+      },
+      {
+        "word": "कर",
+        "start": 1.2042902542372882,
+        "end": 1.4050052966101696,
+        "phonetics_source_evidence": 0.0968532875062093,
+        "prosody_source_evidence": 0.44418785522382764,
+        "combined_source_evidence": 0.08465889545492272
+      },
+      {
+        "word": "लगायो",
+        "start": 1.5455058262711865,
+        "end": 1.9670074152542374,
+        "phonetics_source_evidence": 0.1696042812355682,
+        "prosody_source_evidence": 0.3497893055469898,
+        "combined_source_evidence": 0.15855385713049366
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.1617430164155955,
+      "prosody": 0.436913132395874,
+      "combined": 0.1557236470140646
+    }
+  },
+  {
+    "clip_id": "ed3075f38dc3d5b2c9406a72",
+    "audio_sha256": "ad4ec4ad4bbd52f08634423c1e111fff47294b1fe858bb7bac0d252e8eac2bfb",
+    "sentence_id": "sent_165",
+    "speaker_id": "37e9e229",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "सरकारले",
+        "start": 0.0,
+        "end": 0.7454411764705883,
+        "phonetics_source_evidence": 0.26881524078743474,
+        "prosody_source_evidence": 0.521908532552157,
+        "combined_source_evidence": 0.26583093716289163
+      },
+      {
+        "word": "नयाँ",
+        "start": 0.8864705882352942,
+        "end": 1.2894117647058825,
+        "phonetics_source_evidence": 0.07760220465492672,
+        "prosody_source_evidence": 0.3219465486082506,
+        "combined_source_evidence": 0.07370654954542788
+      },
+      {
+        "word": "कर",
+        "start": 1.3498529411764708,
+        "end": 1.5513235294117649,
+        "phonetics_source_evidence": 0.11727588713891358,
+        "prosody_source_evidence": 0.4527276377008578,
+        "combined_source_evidence": 0.10587488430071383
+      },
+      {
+        "word": "लगायो",
+        "start": 1.6319117647058825,
+        "end": 2.1154411764705885,
+        "phonetics_source_evidence": 0.16369071214063,
+        "prosody_source_evidence": 0.36762946855427564,
+        "combined_source_evidence": 0.16580730208319244
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.16324311024380594,
+      "prosody": 0.42652782364575453,
+      "combined": 0.1594574523008234
+    }
+  },
+  {
+    "clip_id": "59f6350aec46fcfac3082f27",
+    "audio_sha256": "1f7236ff79d04b1d1b84b21991f674bb0046907ce843b804763e92a40bba608b",
+    "sentence_id": "sent_167",
+    "speaker_id": "46aa713b",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "रुखमा",
+        "start": 0.5243333333333333,
+        "end": 0.9276666666666666,
+        "phonetics_source_evidence": 0.22907832990303914,
+        "prosody_source_evidence": 0.3166703723725679,
+        "combined_source_evidence": 0.2644225209178182
+      },
+      {
+        "word": "फल",
+        "start": 1.0285,
+        "end": 1.331,
+        "phonetics_source_evidence": 0.15790555011795554,
+        "prosody_source_evidence": 0.34077739754942427,
+        "combined_source_evidence": 0.15919866063376473
+      },
+      {
+        "word": "पाकेको",
+        "start": 1.4318333333333333,
+        "end": 1.8553333333333333,
+        "phonetics_source_evidence": 0.1780050446742766,
+        "prosody_source_evidence": 0.5236538885586025,
+        "combined_source_evidence": 0.1645534413902781
+      },
+      {
+        "word": "छ",
+        "start": 2.0166666666666666,
+        "end": 2.1578333333333335,
+        "phonetics_source_evidence": 0.07855224252217335,
+        "prosody_source_evidence": 0.4372748944644064,
+        "combined_source_evidence": 0.0734179532920599
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.16431021173098856,
+      "prosody": 0.41663250780215333,
+      "combined": 0.17098747646562332
+    }
+  },
+  {
+    "clip_id": "d0ac8dcd75a3584959fe0143",
+    "audio_sha256": "86dbe01e8b085d6d183fdf23abaae0d594f46218e90cf13fad6e576d5c64dda4",
+    "sentence_id": "sent_167",
+    "speaker_id": "46aa713b",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "रुखमा",
+        "start": 0.08057228915662651,
+        "end": 0.4431475903614458,
+        "phonetics_source_evidence": 0.00016828440374033155,
+        "prosody_source_evidence": 0.4993112048127335,
+        "combined_source_evidence": 0.00015997044461101898
+      },
+      {
+        "word": "फल",
+        "start": 0.5035768072289157,
+        "end": 0.7050075301204819,
+        "phonetics_source_evidence": 0.08132240425961498,
+        "prosody_source_evidence": 0.5066968051203796,
+        "combined_source_evidence": 0.06919078240644348
+      },
+      {
+        "word": "पाकेको",
+        "start": 0.7855798192771084,
+        "end": 1.188441265060241,
+        "phonetics_source_evidence": 0.06508528351235916,
+        "prosody_source_evidence": 0.6690198895593932,
+        "combined_source_evidence": 0.05835456023528015
+      },
+      {
+        "word": "छ",
+        "start": 1.2488704819277108,
+        "end": 1.3898719879518073,
+        "phonetics_source_evidence": 0.7587547186159322,
+        "prosody_source_evidence": 0.7393877839661382,
+        "combined_source_evidence": 0.7443705417689412
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.45231472329676786,
+      "prosody": 0.6324491440620248,
+      "combined": 0.43249347126567705
+    }
+  },
+  {
+    "clip_id": "47158517209193c02d2ddc2c",
+    "audio_sha256": "c7043823df79fc59d5d250bf586bcecf174647f58600a64c308517f611b6ddef",
+    "sentence_id": "sent_167",
+    "speaker_id": "46aa713b",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "रुखमा",
+        "start": 0.04021649484536082,
+        "end": 0.5027061855670103,
+        "phonetics_source_evidence": 0.12690031695507556,
+        "prosody_source_evidence": 0.292864633826727,
+        "combined_source_evidence": 0.11947568827344957
+      },
+      {
+        "word": "फल",
+        "start": 0.6233556701030928,
+        "end": 0.8445463917525773,
+        "phonetics_source_evidence": 0.14783332606721844,
+        "prosody_source_evidence": 0.4239161458771218,
+        "combined_source_evidence": 0.14701553744815807
+      },
+      {
+        "word": "पाकेको",
+        "start": 0.9048711340206185,
+        "end": 1.2869278350515463,
+        "phonetics_source_evidence": 0.0787524215551934,
+        "prosody_source_evidence": 0.6832142009942842,
+        "combined_source_evidence": 0.06650124247083433
+      },
+      {
+        "word": "छ",
+        "start": 1.367360824742268,
+        "end": 1.46790206185567,
+        "phonetics_source_evidence": 0.24143697955784083,
+        "prosody_source_evidence": 0.5399193077883218,
+        "combined_source_evidence": 0.23276396160437024
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.1530072347742334,
+      "prosody": 0.5283159998738195,
+      "combined": 0.14578463268928396
+    }
+  },
+  {
+    "clip_id": "4aa5f2088539ca13aef923d2",
+    "audio_sha256": "823841c606a4c52ad0a4ee5c0ce42ac537f58399950c4dafbf461db8ffb2a151",
+    "sentence_id": "sent_168",
+    "speaker_id": "59903f2c",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "मेहनतको",
+        "start": 0.14137254901960783,
+        "end": 0.7068627450980391,
+        "phonetics_source_evidence": 0.2855044459115015,
+        "prosody_source_evidence": 0.4027026371423061,
+        "combined_source_evidence": 0.30239416137505853
+      },
+      {
+        "word": "फल",
+        "start": 0.7876470588235294,
+        "end": 1.0098039215686274,
+        "phonetics_source_evidence": 0.0980903893744597,
+        "prosody_source_evidence": 0.4238110839609716,
+        "combined_source_evidence": 0.09240985700121386
+      },
+      {
+        "word": "मीठो",
+        "start": 1.070392156862745,
+        "end": 1.393529411764706,
+        "phonetics_source_evidence": 0.986401773771183,
+        "prosody_source_evidence": 0.41394359163415034,
+        "combined_source_evidence": 0.9862308391573227
+      },
+      {
+        "word": "हुन्छ",
+        "start": 1.4945098039215685,
+        "end": 1.8176470588235294,
+        "phonetics_source_evidence": 0.24349504115558088,
+        "prosody_source_evidence": 0.383515921595541,
+        "combined_source_evidence": 0.20947763289189866
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.9482998528329774,
+      "prosody": 0.4063672000369682,
+      "combined": 0.947662027895554
+    }
+  },
+  {
+    "clip_id": "6188c47d015234225cc7d34c",
+    "audio_sha256": "6b759c41833bebb6a07b055d9e451d0b2a2e466bdb570fd3fa0113a3dd47df01",
+    "sentence_id": "sent_168",
+    "speaker_id": "59903f2c",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "मेहनतको",
+        "start": 0.30168307086614177,
+        "end": 1.0056102362204726,
+        "phonetics_source_evidence": 0.07495373210356485,
+        "prosody_source_evidence": 0.4321176083475967,
+        "combined_source_evidence": 0.08370933201355332
+      },
+      {
+        "word": "फल",
+        "start": 1.1665078740157482,
+        "end": 1.4078543307086615,
+        "phonetics_source_evidence": 0.07971683019995485,
+        "prosody_source_evidence": 0.4993590099181249,
+        "combined_source_evidence": 0.06700954062553065
+      },
+      {
+        "word": "मीठो",
+        "start": 1.5084153543307088,
+        "end": 1.83021062992126,
+        "phonetics_source_evidence": 0.04092150697026292,
+        "prosody_source_evidence": 0.5346470050611717,
+        "combined_source_evidence": 0.04314739401963287
+      },
+      {
+        "word": "हुन्छ",
+        "start": 1.9106594488188977,
+        "end": 2.2927913385826773,
+        "phonetics_source_evidence": 0.08239610950312855,
+        "prosody_source_evidence": 0.44515938896279816,
+        "combined_source_evidence": 0.07957281135385916
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.06979155337689202,
+      "prosody": 0.4811658708720597,
+      "combined": 0.06862469854994238
+    }
+  },
+  {
+    "clip_id": "fe7deb63b14990b617096bc9",
+    "audio_sha256": "327e4f5679ad10ed92200966596f73136004cc45596485d89561f85d5686dcb2",
+    "sentence_id": "sent_168",
+    "speaker_id": "59903f2c",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "मेहनतको",
+        "start": 0.06013893884892086,
+        "end": 0.9221303956834532,
+        "phonetics_source_evidence": 0.16450861718548437,
+        "prosody_source_evidence": 0.4221457686921464,
+        "combined_source_evidence": 0.18404740140793627
+      },
+      {
+        "word": "फल",
+        "start": 1.0624545863309351,
+        "end": 1.3030103417266186,
+        "phonetics_source_evidence": 0.19533866047916282,
+        "prosody_source_evidence": 0.5430024725913323,
+        "combined_source_evidence": 0.17617169582270026
+      },
+      {
+        "word": "मीठो",
+        "start": 1.3831955935251798,
+        "end": 1.7039366007194243,
+        "phonetics_source_evidence": 0.17164077870390984,
+        "prosody_source_evidence": 0.5230476298324127,
+        "combined_source_evidence": 0.16888960253146373
+      },
+      {
+        "word": "हुन्छ",
+        "start": 2.1449554856115105,
+        "end": 2.4857428057553954,
+        "phonetics_source_evidence": 0.9438020397310268,
+        "prosody_source_evidence": 0.5310719141313904,
+        "combined_source_evidence": 0.9403256076327403
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.8134424521409076,
+      "prosody": 0.5090762265701485,
+      "combined": 0.8039237108852079
+    }
+  },
+  {
+    "clip_id": "2478871e032b4e33db254ce0",
+    "audio_sha256": "73452a29420924935b045669d2620a7de3ab7cfea9a89933c62c52f38a1379ff",
+    "sentence_id": "sent_169",
+    "speaker_id": "3962eefe",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "उसमा",
+        "start": 0.1418421052631579,
+        "end": 0.4660526315789474,
+        "phonetics_source_evidence": 0.17032185341071573,
+        "prosody_source_evidence": 0.3870052309291728,
+        "combined_source_evidence": 0.1670538572592651
+      },
+      {
+        "word": "धेरै",
+        "start": 0.48631578947368426,
+        "end": 0.77,
+        "phonetics_source_evidence": 0.22431754453881728,
+        "prosody_source_evidence": 0.2758617837967782,
+        "combined_source_evidence": 0.22271532780780534
+      },
+      {
+        "word": "बल",
+        "start": 0.8105263157894738,
+        "end": 0.9928947368421054,
+        "phonetics_source_evidence": 0.9478577440150344,
+        "prosody_source_evidence": 0.31153263982765583,
+        "combined_source_evidence": 0.9424220903168041
+      },
+      {
+        "word": "छ",
+        "start": 1.0942105263157895,
+        "end": 1.2157894736842105,
+        "phonetics_source_evidence": 0.21654399900227833,
+        "prosody_source_evidence": 0.5250998129445936,
+        "combined_source_evidence": 0.21488884567895578
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.8257017814050622,
+      "prosody": 0.3912178098425831,
+      "combined": 0.8106828327901472
+    }
+  },
+  {
+    "clip_id": "b2dfabb6b518087b880c95ac",
+    "audio_sha256": "2651c1a3f9d715257dea197457077f2a3d9573ace8a5ebb71c2a3f08c8d36279",
+    "sentence_id": "sent_169",
+    "speaker_id": "3962eefe",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "उसमा",
+        "start": 0.28189073426573424,
+        "end": 0.8054020979020979,
+        "phonetics_source_evidence": 0.1276053089142707,
+        "prosody_source_evidence": 0.4621521748328245,
+        "combined_source_evidence": 0.1379375326982174
+      },
+      {
+        "word": "धेरै",
+        "start": 0.8255371503496504,
+        "end": 1.1476979895104895,
+        "phonetics_source_evidence": 0.21669788823647776,
+        "prosody_source_evidence": 0.32195090521907294,
+        "combined_source_evidence": 0.1995467550949983
+      },
+      {
+        "word": "बल",
+        "start": 1.208103146853147,
+        "end": 1.3893186188811188,
+        "phonetics_source_evidence": 0.156824053281312,
+        "prosody_source_evidence": 0.2859604029266538,
+        "combined_source_evidence": 0.14789015242098233
+      },
+      {
+        "word": "छ",
+        "start": 1.5101289335664336,
+        "end": 1.6309392482517482,
+        "phonetics_source_evidence": 0.14938065255378358,
+        "prosody_source_evidence": 0.5290789354590534,
+        "combined_source_evidence": 0.13422198857583056
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.16397097050988807,
+      "prosody": 0.41674485595709826,
+      "combined": 0.15574215545538564
+    }
+  },
+  {
+    "clip_id": "8101bd882da207efed4834c9",
+    "audio_sha256": "44d49d35e785d302ac166a18c26770ab40465388d99b9f0de9f47a259893b13b",
+    "sentence_id": "sent_169",
+    "speaker_id": "3962eefe",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "उसमा",
+        "start": 0.28103870967741934,
+        "end": 0.6825225806451612,
+        "phonetics_source_evidence": 0.1769227246845856,
+        "prosody_source_evidence": 0.5976896190820568,
+        "combined_source_evidence": 0.18047914885821303
+      },
+      {
+        "word": "धेरै",
+        "start": 1.1040806451612903,
+        "end": 1.4252677419354838,
+        "phonetics_source_evidence": 0.07595732154239537,
+        "prosody_source_evidence": 0.3140203267720829,
+        "combined_source_evidence": 0.07548782938271213
+      },
+      {
+        "word": "बल",
+        "start": 1.5256387096774193,
+        "end": 1.7063064516129032,
+        "phonetics_source_evidence": 0.20938060927886987,
+        "prosody_source_evidence": 0.25355686697316726,
+        "combined_source_evidence": 0.18981032204727344
+      },
+      {
+        "word": "छ",
+        "start": 1.7866032258064517,
+        "end": 1.9271225806451613,
+        "phonetics_source_evidence": 0.2451946059130459,
+        "prosody_source_evidence": 0.4368640348198014,
+        "combined_source_evidence": 0.22436380665259645
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.18147342932478483,
+      "prosody": 0.433336987927358,
+      "combined": 0.17105658397820545
+    }
+  },
+  {
+    "clip_id": "1b6c49f1e977f70c7b8e7d41",
+    "audio_sha256": "37d8abe38d836ca81ff0478f9f9582b3e35120e1439788d4ba482206b91d5cb3",
+    "sentence_id": "sent_170",
+    "speaker_id": "183ab408",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "बत्ती",
+        "start": 0.2218181818181818,
+        "end": 0.6251239669421488,
+        "phonetics_source_evidence": 0.2120900448550109,
+        "prosody_source_evidence": 0.6139355534252857,
+        "combined_source_evidence": 0.22970010330113488
+      },
+      {
+        "word": "बल",
+        "start": 0.7461157024793388,
+        "end": 0.927603305785124,
+        "phonetics_source_evidence": 0.3178753389627658,
+        "prosody_source_evidence": 0.3586468480367929,
+        "combined_source_evidence": 0.3363031772922787
+      },
+      {
+        "word": "अँध्यारो",
+        "start": 1.4317355371900826,
+        "end": 1.855206611570248,
+        "phonetics_source_evidence": 0.06416869936367836,
+        "prosody_source_evidence": 0.2690742278499649,
+        "combined_source_evidence": 0.061474992862892604
+      },
+      {
+        "word": "छ",
+        "start": 1.976198347107438,
+        "end": 2.097190082644628,
+        "phonetics_source_evidence": 0.21686103499150192,
+        "prosody_source_evidence": 0.4579323080516506,
+        "combined_source_evidence": 0.19709558567406335
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.21270218427912072,
+      "prosody": 0.456695988669573,
+      "combined": 0.2181220100625882
+    }
+  },
+  {
+    "clip_id": "a46de095a384e0a99c7cd3a7",
+    "audio_sha256": "825df8e349e78555410622d5e0adc1a0f289e1db5d98050432b9ed302deaceb5",
+    "sentence_id": "sent_170",
+    "speaker_id": "183ab408",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "बत्ती",
+        "start": 0.22136583333333335,
+        "end": 0.5836008333333333,
+        "phonetics_source_evidence": 0.4345274965849432,
+        "prosody_source_evidence": 0.5527307934393328,
+        "combined_source_evidence": 0.4451427658867406
+      },
+      {
+        "word": "बल",
+        "start": 0.6238491666666667,
+        "end": 0.8250908333333334,
+        "phonetics_source_evidence": 0.1820590255314021,
+        "prosody_source_evidence": 0.2514441386877412,
+        "combined_source_evidence": 0.1648216376803989
+      },
+      {
+        "word": "अँध्यारो",
+        "start": 1.6703058333333336,
+        "end": 2.052665,
+        "phonetics_source_evidence": 0.14812885637352785,
+        "prosody_source_evidence": 0.32922545219668353,
+        "combined_source_evidence": 0.1560343172156906
+      },
+      {
+        "word": "छ",
+        "start": 2.1532858333333333,
+        "end": 2.2941550000000004,
+        "phonetics_source_evidence": 0.9628766639897299,
+        "prosody_source_evidence": 0.5939464515802729,
+        "combined_source_evidence": 0.9640849350368437
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.8713914674144783,
+      "prosody": 0.46845540938176333,
+      "combined": 0.8751091460003988
+    }
+  },
+  {
+    "clip_id": "b7b5168e6a2f8cfea678167a",
+    "audio_sha256": "fe8da0b69ec01dfc8c28a5561bd3ddafd495baa4d4e6ca578b2392f656713dc6",
+    "sentence_id": "sent_170",
+    "speaker_id": "183ab408",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "बत्ती",
+        "start": 0.2208436135371179,
+        "end": 0.6424541484716157,
+        "phonetics_source_evidence": 0.4019220584660177,
+        "prosody_source_evidence": 0.6718094055707843,
+        "combined_source_evidence": 0.42260737037379004
+      },
+      {
+        "word": "बल",
+        "start": 0.7026842248908297,
+        "end": 0.9235278384279476,
+        "phonetics_source_evidence": 0.12757610132074967,
+        "prosody_source_evidence": 0.25135577255653313,
+        "combined_source_evidence": 0.11763429748543024
+      },
+      {
+        "word": "अँध्यारो",
+        "start": 2.569816593886463,
+        "end": 2.991427128820961,
+        "phonetics_source_evidence": 0.11618741871703776,
+        "prosody_source_evidence": 0.32129779289363203,
+        "combined_source_evidence": 0.12323417293475768
+      },
+      {
+        "word": "छ",
+        "start": 3.111887281659389,
+        "end": 3.2323474344978167,
+        "phonetics_source_evidence": 0.9855505718564652,
+        "prosody_source_evidence": 0.48497796934779364,
+        "combined_source_evidence": 0.985229002313984
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.9453227788407222,
+      "prosody": 0.4870362946796862,
+      "combined": 0.9442166858959407
+    }
+  },
+  {
+    "clip_id": "2a760dcd2198a3f17e629fb7",
+    "audio_sha256": "96a4ef13f74db201285e9c141f47305298c95120d7d21c40bf1fa353d3aebe22",
+    "sentence_id": "sent_178",
+    "speaker_id": "183ab408",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "सड्कमा",
+        "start": 0.10091743119266056,
+        "end": 0.6862385321100918,
+        "phonetics_source_evidence": 0.031122876371625332,
+        "prosody_source_evidence": 0.5675718159220439,
+        "combined_source_evidence": 0.0323957768514517
+      },
+      {
+        "word": "गाडी",
+        "start": 1.089908256880734,
+        "end": 1.4128440366972477,
+        "phonetics_source_evidence": 0.08635421558441868,
+        "prosody_source_evidence": 0.43874307680693897,
+        "combined_source_evidence": 0.07981706646322469
+      },
+      {
+        "word": "धेरै",
+        "start": 1.4733944954128442,
+        "end": 1.7761467889908258,
+        "phonetics_source_evidence": 0.04943249918950534,
+        "prosody_source_evidence": 0.33724303633226144,
+        "combined_source_evidence": 0.042284594351417015
+      },
+      {
+        "word": "छ",
+        "start": 1.836697247706422,
+        "end": 1.9577981651376148,
+        "phonetics_source_evidence": 0.018174634271072597,
+        "prosody_source_evidence": 0.6080793124288377,
+        "combined_source_evidence": 0.01685029716432396
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.04697301169777517,
+      "prosody": 0.5094807147333053,
+      "combined": 0.043408096688567904
+    }
+  },
+  {
+    "clip_id": "ddeb079d915799f4046d2ed6",
+    "audio_sha256": "d7ab29a70b0f8d491d4af471e171594ccbd9c15e35be9ddc371aba88af35005b",
+    "sentence_id": "sent_178",
+    "speaker_id": "183ab408",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "सड्कमा",
+        "start": 0.16047928994082838,
+        "end": 0.7221568047337277,
+        "phonetics_source_evidence": 0.05054884312231969,
+        "prosody_source_evidence": 0.5478138581832465,
+        "combined_source_evidence": 0.054484890806142744
+      },
+      {
+        "word": "गाडी",
+        "start": 0.9026960059171597,
+        "end": 1.2637744082840234,
+        "phonetics_source_evidence": 0.34491206330929325,
+        "prosody_source_evidence": 0.3029157433350333,
+        "combined_source_evidence": 0.3643492809431367
+      },
+      {
+        "word": "धेरै",
+        "start": 1.3239541420118341,
+        "end": 1.6248528106508875,
+        "phonetics_source_evidence": 0.11908150959384349,
+        "prosody_source_evidence": 0.3385092391805832,
+        "combined_source_evidence": 0.10454954806836768
+      },
+      {
+        "word": "छ",
+        "start": 1.6649726331360946,
+        "end": 1.7853321005917158,
+        "phonetics_source_evidence": 0.05585564261597146,
+        "prosody_source_evidence": 0.5424262613965224,
+        "combined_source_evidence": 0.04797274443152154
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.16214426264454748,
+      "prosody": 0.4552785372099056,
+      "combined": 0.1663127045060704
+    }
+  },
+  {
+    "clip_id": "dd4865883e8f4aea89fc7bd6",
+    "audio_sha256": "1a79e99431f7607b588785aecdfbfc3710b2f0001a928c21a683fe0952ec7601",
+    "sentence_id": "sent_178",
+    "speaker_id": "183ab408",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "सड्कमा",
+        "start": 0.1615304347826087,
+        "end": 0.7874608695652174,
+        "phonetics_source_evidence": 0.10342770406841435,
+        "prosody_source_evidence": 0.7318173391703712,
+        "combined_source_evidence": 0.10672163692450207
+      },
+      {
+        "word": "गाडी",
+        "start": 0.9893739130434783,
+        "end": 1.352817391304348,
+        "phonetics_source_evidence": 0.48663489076793726,
+        "prosody_source_evidence": 0.3939202858116893,
+        "combined_source_evidence": 0.49947087295699627
+      },
+      {
+        "word": "धेरै",
+        "start": 1.4133913043478261,
+        "end": 1.7364521739130436,
+        "phonetics_source_evidence": 0.1629693958486714,
+        "prosody_source_evidence": 0.2940514173843896,
+        "combined_source_evidence": 0.14115099342691273
+      },
+      {
+        "word": "छ",
+        "start": 1.7970260869565218,
+        "end": 1.9181739130434783,
+        "phonetics_source_evidence": 0.1596505276047031,
+        "prosody_source_evidence": 0.3713709648799349,
+        "combined_source_evidence": 0.15214328024357773
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.2657816945736167,
+      "prosody": 0.5230172148220266,
+      "combined": 0.26755369629326775
+    }
+  },
+  {
+    "clip_id": "c382b72a9ff76d16af8cf9d5",
+    "audio_sha256": "ddb24f7d7109f01b6cb2cecd3a40ed4b87e63382111fa8c538cea7ee70fc7172",
+    "sentence_id": "sent_179",
+    "speaker_id": "d18c3456",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "समय",
+        "start": 0.5639716312056737,
+        "end": 1.4904964539007093,
+        "phonetics_source_evidence": 0.13270151371016142,
+        "prosody_source_evidence": 0.4567549507581613,
+        "combined_source_evidence": 0.14741858370522154
+      },
+      {
+        "word": "बित्यो",
+        "start": 1.873191489361702,
+        "end": 2.3364539007092198,
+        "phonetics_source_evidence": 0.9875671653915723,
+        "prosody_source_evidence": 0.4990493298956783,
+        "combined_source_evidence": 0.9877948987326599
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.9754857457498021,
+      "prosody": 0.4787586916771533,
+      "combined": 0.9759343090734933
+    }
+  },
+  {
+    "clip_id": "545abaa05d876737020feb93",
+    "audio_sha256": "9cc34c9e1f430f03a609ae4d4ee76f56387e7372b69737625596a1c6ad772040",
+    "sentence_id": "sent_179",
+    "speaker_id": "d18c3456",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "समय",
+        "start": 0.06057608695652175,
+        "end": 0.46441666666666676,
+        "phonetics_source_evidence": 0.08249166216896606,
+        "prosody_source_evidence": 0.28793700476364936,
+        "combined_source_evidence": 0.07997671576217905
+      },
+      {
+        "word": "बित्यो",
+        "start": 0.6259528985507248,
+        "end": 0.969217391304348,
+        "phonetics_source_evidence": 0.2819849548391545,
+        "prosody_source_evidence": 0.5202251713588284,
+        "combined_source_evidence": 0.27343305591680067
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.19440492569653087,
+      "prosody": 0.42671746998298543,
+      "combined": 0.18806938773629217
+    }
+  },
+  {
+    "clip_id": "e902587a4441b92ba2fdfe34",
+    "audio_sha256": "4b84f163130af641acd815cc313dc658c469465dfb81da1ecdedbeaca8d7be46",
+    "sentence_id": "sent_179",
+    "speaker_id": "d18c3456",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "समय",
+        "start": 0.0403840579710145,
+        "end": 0.42403260869565224,
+        "phonetics_source_evidence": 0.092205799389701,
+        "prosody_source_evidence": 0.403281805869222,
+        "combined_source_evidence": 0.08932567025496614
+      },
+      {
+        "word": "बित्यो",
+        "start": 0.5653768115942029,
+        "end": 0.969217391304348,
+        "phonetics_source_evidence": 0.7005690636683821,
+        "prosody_source_evidence": 0.5537267861069317,
+        "combined_source_evidence": 0.6889272596423375
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.549675269065852,
+      "prosody": 0.48935466920524884,
+      "combined": 0.5362608738593445
+    }
+  },
+  {
+    "clip_id": "8bc76c5a978e13bf020dc19f",
+    "audio_sha256": "686da6719b6aa1524dc63d4cf07ba2aa5fc66123a8a957069e07cdd9bd0c6f6b",
+    "sentence_id": "sent_180",
+    "speaker_id": "6c458024",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "सम्य",
+        "start": 0.16231884057971013,
+        "end": 0.5072463768115941,
+        "phonetics_source_evidence": 0.03855786091542777,
+        "prosody_source_evidence": 0.2595898744319376,
+        "combined_source_evidence": 0.03900677343465814
+      },
+      {
+        "word": "छैन",
+        "start": 0.5884057971014492,
+        "end": 0.872463768115942,
+        "phonetics_source_evidence": 0.3614521565764497,
+        "prosody_source_evidence": 0.3832883899922722,
+        "combined_source_evidence": 0.34879330652324925
+      },
+      {
+        "word": "अहिले",
+        "start": 0.9333333333333332,
+        "end": 1.217391304347826,
+        "phonetics_source_evidence": 0.06048590183521346,
+        "prosody_source_evidence": 0.35903304096355243,
+        "combined_source_evidence": 0.05398822425675066
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.1826810201214574,
+      "prosody": 0.33807697986409435,
+      "combined": 0.17429755781118572
+    }
+  },
+  {
+    "clip_id": "7bdf38a4d5160038dd9ce198",
+    "audio_sha256": "b5d2cc0c244475cc40adea16c1a9e8d469cf99e5fd24c1c3f2dc0a5692028deb",
+    "sentence_id": "sent_180",
+    "speaker_id": "6c458024",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "सम्य",
+        "start": 0.08057228915662651,
+        "end": 0.40286144578313254,
+        "phonetics_source_evidence": 0.04734082395777058,
+        "prosody_source_evidence": 0.5215922671898222,
+        "combined_source_evidence": 0.045630295224497915
+      },
+      {
+        "word": "छैन",
+        "start": 0.4431475903614458,
+        "end": 0.7050075301204819,
+        "phonetics_source_evidence": 0.10702543977303174,
+        "prosody_source_evidence": 0.4845921571216431,
+        "combined_source_evidence": 0.0952051176294887
+      },
+      {
+        "word": "अहिले",
+        "start": 0.8661521084337349,
+        "end": 1.1280120481927711,
+        "phonetics_source_evidence": 0.09953366955615456,
+        "prosody_source_evidence": 0.3064821030249233,
+        "combined_source_evidence": 0.0962130172850446
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.08538865527610454,
+      "prosody": 0.45179467361356396,
+      "combined": 0.07961068651820546
+    }
+  },
+  {
+    "clip_id": "816fd8002f9e8f2790615a0d",
+    "audio_sha256": "1e8ac1074c9be98b722be81ae6b06102abbf9a4fbeb83540afe14b84f7f8b915",
+    "sentence_id": "sent_180",
+    "speaker_id": "6c458024",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "सम्य",
+        "start": 0.12085843373493976,
+        "end": 0.42300451807228917,
+        "phonetics_source_evidence": 0.06598780240103252,
+        "prosody_source_evidence": 0.37392546736112,
+        "combined_source_evidence": 0.062192160947696994
+      },
+      {
+        "word": "छैन",
+        "start": 0.5438629518072289,
+        "end": 0.8258659638554218,
+        "phonetics_source_evidence": 0.0485928606696072,
+        "prosody_source_evidence": 0.45025898615866694,
+        "combined_source_evidence": 0.041310465134337754
+      },
+      {
+        "word": "अहिले",
+        "start": 1.0071536144578315,
+        "end": 1.2891566265060241,
+        "phonetics_source_evidence": 0.011525023441402944,
+        "prosody_source_evidence": 0.3121153577320897,
+        "combined_source_evidence": 0.011359845631030714
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.042568659749049484,
+      "prosody": 0.3839866608996496,
+      "combined": 0.0387380429262604
+    }
+  },
+  {
+    "clip_id": "b174e8ae8d47d8da4f3d9349",
+    "audio_sha256": "ecf6b09cc7f54ee9aa79aef2d71a9b815bf319a536aa4ac31542e7ae9e985bcc",
+    "sentence_id": "sent_109",
+    "speaker_id": "46aa713b",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "तपाईं",
+        "start": 0.10208333333333333,
+        "end": 0.42874999999999996,
+        "phonetics_source_evidence": 0.007054532450542834,
+        "prosody_source_evidence": 0.5104915549745319,
+        "combined_source_evidence": 0.006773677159202649
+      },
+      {
+        "word": "जानुहुन्छ",
+        "start": 0.42874999999999996,
+        "end": 0.8574999999999999,
+        "phonetics_source_evidence": 0.031146628380825256,
+        "prosody_source_evidence": 0.39152087828956583,
+        "combined_source_evidence": 0.03126856823848841
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.019248513291044475,
+      "prosody": 0.4574516547862148,
+      "combined": 0.019174031110756704
+    }
+  },
+  {
+    "clip_id": "3639f79ab46f9ba4d6934e09",
+    "audio_sha256": "3b827dd0e6e934fee7254217a8b2b853762e57219f7b69f4ab28c23d8658cfca",
+    "sentence_id": "sent_109",
+    "speaker_id": "46aa713b",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "तपाईं",
+        "start": 0.020243589743589745,
+        "end": 0.3238974358974359,
+        "phonetics_source_evidence": 0.976694285770074,
+        "prosody_source_evidence": 0.7326468913889441,
+        "combined_source_evidence": 0.969760080831741
+      },
+      {
+        "word": "जानुहुन्छ",
+        "start": 0.3238974358974359,
+        "end": 0.870474358974359,
+        "phonetics_source_evidence": 0.8550176570271918,
+        "prosody_source_evidence": 0.34514909841805447,
+        "combined_source_evidence": 0.8593680634895281
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.9598436501095399,
+      "prosody": 0.6203086903123632,
+      "combined": 0.9502235359280207
+    }
+  },
+  {
+    "clip_id": "5236f8575609fc35449231ef",
+    "audio_sha256": "a1b18dc9845a1b415027cbed6f58ef4a0fcb3068b14454091f532ff03ce7ec4e",
+    "sentence_id": "sent_109",
+    "speaker_id": "46aa713b",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "तपाईं",
+        "start": 0.020243589743589745,
+        "end": 0.38462820512820517,
+        "phonetics_source_evidence": 0.047306584852683034,
+        "prosody_source_evidence": 0.6810557923224385,
+        "combined_source_evidence": 0.04547241334617601
+      },
+      {
+        "word": "जानुहुन्छ",
+        "start": 0.4048717948717949,
+        "end": 0.951448717948718,
+        "phonetics_source_evidence": 0.9892579507956305,
+        "prosody_source_evidence": 0.40275019887755376,
+        "combined_source_evidence": 0.9898997079694347
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.9787554435748784,
+      "prosody": 0.5841724290380926,
+      "combined": 0.9800109294175009
+    }
+  },
+  {
+    "clip_id": "cd84f13d47546e1631267744",
+    "audio_sha256": "2184094eef53d02fd83f325829f67a712cee39bdfe57ee709ad88fb9fcb0d8bb",
+    "sentence_id": "sent_110",
+    "speaker_id": "59903f2c",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "खाना",
+        "start": 0.06078947368421053,
+        "end": 0.42552631578947375,
+        "phonetics_source_evidence": 0.3662627658373781,
+        "prosody_source_evidence": 0.40216632492858123,
+        "combined_source_evidence": 0.34122801003863235
+      },
+      {
+        "word": "खानुभयो",
+        "start": 0.42552631578947375,
+        "end": 1.2563157894736843,
+        "phonetics_source_evidence": 0.1460597878326557,
+        "prosody_source_evidence": 0.36702347079019415,
+        "combined_source_evidence": 0.14576965261949365
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.2724582744273947,
+      "prosody": 0.3850966081119905,
+      "combined": 0.2561240495928056
+    }
+  },
+  {
+    "clip_id": "a128d264b945281907db9007",
+    "audio_sha256": "1327a74b2b4c10321b00e72270403b82f09b14c5ad50b49421be9e9893071b9b",
+    "sentence_id": "sent_110",
+    "speaker_id": "59903f2c",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "खाना",
+        "start": 0.0,
+        "end": 0.2820030120481928,
+        "phonetics_source_evidence": 0.20687244490712436,
+        "prosody_source_evidence": 0.4221396979166672,
+        "combined_source_evidence": 0.18534521945323004
+      },
+      {
+        "word": "खानुभयो",
+        "start": 0.34243222891566266,
+        "end": 0.8862951807228916,
+        "phonetics_source_evidence": 0.08303977352177139,
+        "prosody_source_evidence": 0.4819964477234256,
+        "combined_source_evidence": 0.07843017336126058
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.14943965990339106,
+      "prosody": 0.45370277884816046,
+      "combined": 0.1351795594051375
+    }
+  },
+  {
+    "clip_id": "3e9106f3c35c09a14bcbc8b3",
+    "audio_sha256": "27513905971b1c42e7de2e7440b84241b3bb6e3809319186c347d506a21074b7",
+    "sentence_id": "sent_110",
+    "speaker_id": "59903f2c",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "खाना",
+        "start": 0.0,
+        "end": 0.3634565217391305,
+        "phonetics_source_evidence": 0.1322160433872679,
+        "prosody_source_evidence": 0.39416974079813594,
+        "combined_source_evidence": 0.11989220537060429
+      },
+      {
+        "word": "खानुभयो",
+        "start": 0.42403260869565224,
+        "end": 1.0297934782608698,
+        "phonetics_source_evidence": 0.13371187487924896,
+        "prosody_source_evidence": 0.42968493874219443,
+        "combined_source_evidence": 0.1315181419266779
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.13296460429440138,
+      "prosody": 0.4124635529672354,
+      "combined": 0.12574382262514538
+    }
+  },
+  {
+    "clip_id": "cd1959777232fe2877a5da53",
+    "audio_sha256": "396d080f19da40dfc572b409567841683ad420dff71d66b9ae81e3f80d9d77cf",
+    "sentence_id": "sent_111",
+    "speaker_id": "3962eefe",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "को",
+        "start": 0.10192307692307694,
+        "end": 0.22423076923076926,
+        "phonetics_source_evidence": 0.05867311231386634,
+        "prosody_source_evidence": 0.6050930208564187,
+        "combined_source_evidence": 0.0644158673107253
+      },
+      {
+        "word": "आयो",
+        "start": 0.5096153846153847,
+        "end": 0.7542307692307693,
+        "phonetics_source_evidence": 0.008429196265246037,
+        "prosody_source_evidence": 0.2970847089709712,
+        "combined_source_evidence": 0.008752444932757269
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.03420417672087924,
+      "prosody": 0.4942967332399619,
+      "combined": 0.03738817460724679
+    }
+  },
+  {
+    "clip_id": "71456e4cfbb816cd63609ae6",
+    "audio_sha256": "3a7e015d80c3a48c07be3c87d39ee73622333c1d4b0d566869e6629796f41ca6",
+    "sentence_id": "sent_111",
+    "speaker_id": "3962eefe",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "को",
+        "start": 0.20143072289156627,
+        "end": 0.3021460843373494,
+        "phonetics_source_evidence": 0.1262930435765397,
+        "prosody_source_evidence": 0.48383752167170907,
+        "combined_source_evidence": 0.13317262956299786
+      },
+      {
+        "word": "आयो",
+        "start": 0.6848644578313253,
+        "end": 0.9668674698795181,
+        "phonetics_source_evidence": 0.12882929586367553,
+        "prosody_source_evidence": 0.28172023402281543,
+        "combined_source_evidence": 0.13424708500926633
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.12756301299422637,
+      "prosody": 0.39932537816147073,
+      "combined": 0.1337101904465968
+    }
+  },
+  {
+    "clip_id": "ae936afbea284237bf0ce368",
+    "audio_sha256": "dc4e2a2e562dcfa62045d5c3524d15b01c6a06a8044c7843ece84f4f8ef07d73",
+    "sentence_id": "sent_111",
+    "speaker_id": "3962eefe",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "को",
+        "start": 0.18128765060240964,
+        "end": 0.3021460843373494,
+        "phonetics_source_evidence": 0.13279562267801684,
+        "prosody_source_evidence": 0.7090783221491611,
+        "combined_source_evidence": 0.11961273557784236
+      },
+      {
+        "word": "आयो",
+        "start": 0.6042921686746988,
+        "end": 0.9467243975903614,
+        "phonetics_source_evidence": 0.16491946791331025,
+        "prosody_source_evidence": 0.2918339710692293,
+        "combined_source_evidence": 0.1441744510707303
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.14916065008940207,
+      "prosody": 0.5875820552388409,
+      "combined": 0.1320673271728429
+    }
+  },
+  {
+    "clip_id": "b9f39db19bae1803fd210051",
+    "audio_sha256": "b4d9a6dc5deed6a5439d35d973a2d7f57df2e65917d7f04b42b35c075bbf8d40",
+    "sentence_id": "sent_113",
+    "speaker_id": "d18c3456",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "राम्रो",
+        "start": 0.32426666666666665,
+        "end": 0.6688,
+        "phonetics_source_evidence": 0.10715414883279437,
+        "prosody_source_evidence": 0.2593434496552096,
+        "combined_source_evidence": 0.11649809405869137
+      },
+      {
+        "word": "छ",
+        "start": 0.7498666666666666,
+        "end": 0.8512,
+        "phonetics_source_evidence": 0.18068930899868255,
+        "prosody_source_evidence": 0.3650951016096574,
+        "combined_source_evidence": 0.1706848376582382
+      },
+      {
+        "word": "है",
+        "start": 0.9322666666666666,
+        "end": 1.1957333333333333,
+        "phonetics_source_evidence": 0.15994272564366585,
+        "prosody_source_evidence": 0.27315861086182586,
+        "combined_source_evidence": 0.15083188677559786
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.15036966992449663,
+      "prosody": 0.3024891678723399,
+      "combined": 0.14658699388231694
+    }
+  },
+  {
+    "clip_id": "17d01d4d8bd11b7933c0b0a5",
+    "audio_sha256": "75d7e1f190b97771382fd16456018e2af2cb887dd2d9a6c33aceb210e1f520d1",
+    "sentence_id": "sent_113",
+    "speaker_id": "d18c3456",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "राम्रो",
+        "start": 0.020243589743589745,
+        "end": 0.3643846153846154,
+        "phonetics_source_evidence": 0.10977255046955496,
+        "prosody_source_evidence": 0.29502302675324005,
+        "combined_source_evidence": 0.1084494579035944
+      },
+      {
+        "word": "छ",
+        "start": 0.4656025641025641,
+        "end": 0.6073076923076923,
+        "phonetics_source_evidence": 0.03395751387695474,
+        "prosody_source_evidence": 0.510956471224942,
+        "combined_source_evidence": 0.028852773192277175
+      },
+      {
+        "word": "है",
+        "start": 1.194371794871795,
+        "end": 1.3968076923076924,
+        "phonetics_source_evidence": 0.015008806558722651,
+        "prosody_source_evidence": 0.3316527799699491,
+        "combined_source_evidence": 0.0159369802234459
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.054730205650359944,
+      "prosody": 0.39510300367729206,
+      "combined": 0.05289471620241252
+    }
+  },
+  {
+    "clip_id": "51882347bef3f7ab3a91617d",
+    "audio_sha256": "201ece28cd47ae546b0b7d470c98d58366da8b79c42f6b8bf99ba983417d5ba7",
+    "sentence_id": "sent_113",
+    "speaker_id": "d18c3456",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "राम्रो",
+        "start": 0.020053977272727272,
+        "end": 0.4211335227272727,
+        "phonetics_source_evidence": 0.1885704301161947,
+        "prosody_source_evidence": 0.25505544413423276,
+        "combined_source_evidence": 0.1885860545425211
+      },
+      {
+        "word": "छ",
+        "start": 0.5214034090909091,
+        "end": 0.6818352272727273,
+        "phonetics_source_evidence": 0.0572214278875477,
+        "prosody_source_evidence": 0.5198178817755412,
+        "combined_source_evidence": 0.054692386594758356
+      },
+      {
+        "word": "है",
+        "start": 2.145775568181818,
+        "end": 2.366369318181818,
+        "phonetics_source_evidence": 0.13286078322504224,
+        "prosody_source_evidence": 0.30534619932692386,
+        "combined_source_evidence": 0.13369105309570123
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.12950238194344343,
+      "prosody": 0.3832859364074788,
+      "combined": 0.12907055193668773
+    }
+  },
+  {
+    "clip_id": "462da41ae2b8eb86b92df40d",
+    "audio_sha256": "c497debf8bff56a6141dec17be3eb45c9d157b7a1199bc46879d120d9c6dca2f",
+    "sentence_id": "sent_114",
+    "speaker_id": "6c458024",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "तिमी",
+        "start": 0.08108108108108109,
+        "end": 0.38513513513513514,
+        "phonetics_source_evidence": 0.9999999999999998,
+        "prosody_source_evidence": 0.5684616446138206,
+        "combined_source_evidence": 0.9999999999999974
+      },
+      {
+        "word": "जान्छौ",
+        "start": 0.44594594594594594,
+        "end": 0.8716216216216217,
+        "phonetics_source_evidence": 3.044414548101387e-08,
+        "prosody_source_evidence": 0.3429272236663207,
+        "combined_source_evidence": 3.0459631927960924e-08
+      },
+      {
+        "word": "हैन",
+        "start": 0.8918918918918919,
+        "end": 1.0945945945945947,
+        "phonetics_source_evidence": 0.999999999999998,
+        "prosody_source_evidence": 0.3208977597716059,
+        "combined_source_evidence": 0.9999999999999919
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.9999999999999992,
+      "prosody": 0.4352117122155581,
+      "combined": 0.9999999999999941
+    }
+  },
+  {
+    "clip_id": "005f0b0f8d4858cb1bc28261",
+    "audio_sha256": "86c19639ed2212494e137a397983dabc1fc8fa18d09b7d7360ac6f389078eef5",
+    "sentence_id": "sent_114",
+    "speaker_id": "6c458024",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "तिमी",
+        "start": 0.18128765060240964,
+        "end": 0.4431475903614458,
+        "phonetics_source_evidence": 0.1030968680089943,
+        "prosody_source_evidence": 0.4674538800406745,
+        "combined_source_evidence": 0.0914704586049942
+      },
+      {
+        "word": "जान्छौ",
+        "start": 0.48343373493975905,
+        "end": 0.9265813253012049,
+        "phonetics_source_evidence": 0.007913862468120985,
+        "prosody_source_evidence": 0.34093979414575304,
+        "combined_source_evidence": 0.008493279192231841
+      },
+      {
+        "word": "हैन",
+        "start": 0.9870105421686748,
+        "end": 1.188441265060241,
+        "phonetics_source_evidence": 0.01621837333570601,
+        "prosody_source_evidence": 0.4047029919420767,
+        "combined_source_evidence": 0.012654981727268337
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.04440653739356597,
+      "prosody": 0.4088573784995363,
+      "combined": 0.03909687112057641
+    }
+  },
+  {
+    "clip_id": "0316dc4452a38c6137f157b5",
+    "audio_sha256": "8a0e0957c70d009b1c11465210aac5b5d1d342a042fb9e3ae76b027a16fd3bff",
+    "sentence_id": "sent_114",
+    "speaker_id": "6c458024",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "तिमी",
+        "start": 0.1410015060240964,
+        "end": 0.40286144578313254,
+        "phonetics_source_evidence": 0.16431925066775502,
+        "prosody_source_evidence": 0.3911217503531473,
+        "combined_source_evidence": 0.1658747835995226
+      },
+      {
+        "word": "जान्छौ",
+        "start": 0.42300451807228917,
+        "end": 0.8661521084337349,
+        "phonetics_source_evidence": 0.002365780068832602,
+        "prosody_source_evidence": 0.4579034120396899,
+        "combined_source_evidence": 0.0025754912069327483
+      },
+      {
+        "word": "हैन",
+        "start": 0.8661521084337349,
+        "end": 1.349585843373494,
+        "phonetics_source_evidence": 0.02182559274792226,
+        "prosody_source_evidence": 0.6742881732713132,
+        "combined_source_evidence": 0.018650970274932174
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.06870278414375924,
+      "prosody": 0.5424913307958947,
+      "combined": 0.06845268995925378
+    }
+  },
+  {
+    "clip_id": "aa3fe642ae74e658202de0ba",
+    "audio_sha256": "24c7f4cdf7e4a7eae1ad24682e157753e7f9beedb0e31c03c28160d9cea87cd2",
+    "sentence_id": "sent_115",
+    "speaker_id": "37e9e229",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "उसले",
+        "start": 0.14166666666666666,
+        "end": 0.48571428571428577,
+        "phonetics_source_evidence": 0.3485181030493422,
+        "prosody_source_evidence": 0.4029316657057075,
+        "combined_source_evidence": 0.3677933059941407
+      },
+      {
+        "word": "त्यो",
+        "start": 0.7083333333333334,
+        "end": 0.9107142857142858,
+        "phonetics_source_evidence": 0.20231519812526844,
+        "prosody_source_evidence": 0.38041391618529974,
+        "combined_source_evidence": 0.22409296426585248
+      },
+      {
+        "word": "भन्यो",
+        "start": 1.0119047619047619,
+        "end": 1.4571428571428573,
+        "phonetics_source_evidence": 0.06457345255227415,
+        "prosody_source_evidence": 0.30552496897767173,
+        "combined_source_evidence": 0.05881973376555476
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.22231864382973238,
+      "prosody": 0.3655852154328764,
+      "combined": 0.23723727831789695
+    }
+  },
+  {
+    "clip_id": "768aa8fc0fdbe2a0040c242d",
+    "audio_sha256": "7226fcda8242d3573114f34e478e38686bb85998fee14c5d0003cd022783e1b5",
+    "sentence_id": "sent_115",
+    "speaker_id": "37e9e229",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "उसले",
+        "start": 0.2820030120481928,
+        "end": 0.6244352409638554,
+        "phonetics_source_evidence": 0.653085380084432,
+        "prosody_source_evidence": 0.31224804768220393,
+        "combined_source_evidence": 0.6552027568223171
+      },
+      {
+        "word": "त्यो",
+        "start": 0.8057228915662651,
+        "end": 0.9668674698795181,
+        "phonetics_source_evidence": 0.11198706932637752,
+        "prosody_source_evidence": 0.5272769824409285,
+        "combined_source_evidence": 0.10821549428622872
+      },
+      {
+        "word": "भन्यो",
+        "start": 1.027296686746988,
+        "end": 1.349585843373494,
+        "phonetics_source_evidence": 0.6566805400981733,
+        "prosody_source_evidence": 0.3126755500887783,
+        "combined_source_evidence": 0.6457610293121653
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.5665618300940061,
+      "prosody": 0.40290584369643817,
+      "combined": 0.5616954196542587
+    }
+  },
+  {
+    "clip_id": "63a4f5705de38a7070638860",
+    "audio_sha256": "2044207afeb9065efaab2571848d5fcb2c353df6d8d33f9a1d0a62d791fb8aa2",
+    "sentence_id": "sent_115",
+    "speaker_id": "37e9e229",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "उसले",
+        "start": 0.26185993975903615,
+        "end": 0.6042921686746988,
+        "phonetics_source_evidence": 0.5035189067724366,
+        "prosody_source_evidence": 0.2758544774482776,
+        "combined_source_evidence": 0.5141549536433838
+      },
+      {
+        "word": "त्यो",
+        "start": 0.7855798192771084,
+        "end": 0.9870105421686748,
+        "phonetics_source_evidence": 0.05031526584238595,
+        "prosody_source_evidence": 0.5333441128744931,
+        "combined_source_evidence": 0.044197016228814
+      },
+      {
+        "word": "भन्यो",
+        "start": 1.0675828313253013,
+        "end": 1.4301581325301205,
+        "phonetics_source_evidence": 0.08252462785501326,
+        "prosody_source_evidence": 0.3075201877630505,
+        "combined_source_evidence": 0.07380347806901826
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.2783437568364072,
+      "prosody": 0.396126752769345,
+      "combined": 0.28301613945433207
+    }
+  },
+  {
+    "clip_id": "107bbfae9bfebf251e9ebb1d",
+    "audio_sha256": "d553b13baad7af4abadb7b5cf35ea6b6fa5044843d70f7d51df6aa0bf40d50e9",
+    "sentence_id": "sent_117",
+    "speaker_id": "46aa713b",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "चिया",
+        "start": 0.020370370370370372,
+        "end": 0.2851851851851852,
+        "phonetics_source_evidence": 0.14040959569678418,
+        "prosody_source_evidence": 0.9392819685681331,
+        "combined_source_evidence": 0.08640415430582245
+      },
+      {
+        "word": "कि",
+        "start": 0.3666666666666667,
+        "end": 0.46851851851851856,
+        "phonetics_source_evidence": 0.09576475730289265,
+        "prosody_source_evidence": 0.597653886101342,
+        "combined_source_evidence": 0.08441641154938549
+      },
+      {
+        "word": "कफी",
+        "start": 0.5907407407407408,
+        "end": 0.9777777777777779,
+        "phonetics_source_evidence": 0.08288630708098374,
+        "prosody_source_evidence": 0.5172221697008339,
+        "combined_source_evidence": 0.07740839451885828
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.10704426716358197,
+      "prosody": 0.857321820415181,
+      "combined": 0.08275917849891301
+    }
+  },
+  {
+    "clip_id": "99a92e1c2f0d2c8ccc9926c5",
+    "audio_sha256": "bff10ed61ccff0ce09e53f5055f51a89c0258e0161bf175b62c59f5a4a9412b5",
+    "sentence_id": "sent_117",
+    "speaker_id": "46aa713b",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "चिया",
+        "start": 0.02019202898550725,
+        "end": 0.323072463768116,
+        "phonetics_source_evidence": 0.9957024584901468,
+        "prosody_source_evidence": 0.34718461179352245,
+        "combined_source_evidence": 0.9956294978885213
+      },
+      {
+        "word": "कि",
+        "start": 0.3634565217391305,
+        "end": 0.46441666666666676,
+        "phonetics_source_evidence": 0.1368132367552908,
+        "prosody_source_evidence": 0.7706284741809717,
+        "combined_source_evidence": 0.11715011114826909
+      },
+      {
+        "word": "कफी",
+        "start": 0.5855688405797103,
+        "end": 1.0297934782608698,
+        "phonetics_source_evidence": 0.11047172669381898,
+        "prosody_source_evidence": 0.5298640789005511,
+        "combined_source_evidence": 0.09709997632709051
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.9872326228224918,
+      "prosody": 0.625870325733839,
+      "combined": 0.9870156232273302
+    }
+  },
+  {
+    "clip_id": "1ff89e871d36c1baa077e0fb",
+    "audio_sha256": "42c83f0518bf904d8b088f2da88516d416d0275ba06344ffaa2b1157a17b4d22",
+    "sentence_id": "sent_117",
+    "speaker_id": "46aa713b",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "चिया",
+        "start": 0.020153301886792454,
+        "end": 0.30229952830188683,
+        "phonetics_source_evidence": 0.9707729588406983,
+        "prosody_source_evidence": 0.5601373894711307,
+        "combined_source_evidence": 0.9752433424386368
+      },
+      {
+        "word": "कि",
+        "start": 0.3426061320754717,
+        "end": 0.4232193396226415,
+        "phonetics_source_evidence": 0.1737443836802325,
+        "prosody_source_evidence": 0.6884885721688963,
+        "combined_source_evidence": 0.16708899321076182
+      },
+      {
+        "word": "कफी",
+        "start": 0.5038325471698113,
+        "end": 0.8665919811320755,
+        "phonetics_source_evidence": 0.10302778817282397,
+        "prosody_source_evidence": 0.5465403460246727,
+        "combined_source_evidence": 0.09159350040316291
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.9178982634459301,
+      "prosody": 0.609825129361755,
+      "combined": 0.9297335226199878
+    }
+  },
+  {
+    "clip_id": "0f59073f4849309380eed2c5",
+    "audio_sha256": "22af9c791e79e92f2a7c301183aedfa45c4f67f62a98a9c59ebd5ac740365dbd",
+    "sentence_id": "sent_118",
+    "speaker_id": "59903f2c",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "आज",
+        "start": 0.14222222222222222,
+        "end": 0.3250793650793651,
+        "phonetics_source_evidence": 0.1029957407796582,
+        "prosody_source_evidence": 0.4074247664150043,
+        "combined_source_evidence": 0.10856318690221872
+      },
+      {
+        "word": "कि",
+        "start": 0.5079365079365079,
+        "end": 0.6095238095238096,
+        "phonetics_source_evidence": 0.13650844595128236,
+        "prosody_source_evidence": 0.36850896847692977,
+        "combined_source_evidence": 0.13543759298188898
+      },
+      {
+        "word": "भोलि",
+        "start": 0.6907936507936507,
+        "end": 1.036190476190476,
+        "phonetics_source_evidence": 0.11218808571149927,
+        "prosody_source_evidence": 0.2413204499475626,
+        "combined_source_evidence": 0.1073035387198267
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.11745900653911058,
+      "prosody": 0.34628883515595926,
+      "combined": 0.11729413153075084
+    }
+  },
+  {
+    "clip_id": "1bc56954fb8b5b0cbe8262a3",
+    "audio_sha256": "2fdb5934ea1a1c3a3000b0836539db1794e26df0908bb4c60dd22779b354a9cc",
+    "sentence_id": "sent_118",
+    "speaker_id": "59903f2c",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "आज",
+        "start": 0.0,
+        "end": 0.20224798387096773,
+        "phonetics_source_evidence": 0.18621055062949182,
+        "prosody_source_evidence": 0.6031537339063151,
+        "combined_source_evidence": 0.15606506718121982
+      },
+      {
+        "word": "कि",
+        "start": 0.2831471774193548,
+        "end": 0.36404637096774195,
+        "phonetics_source_evidence": 0.11657743357891916,
+        "prosody_source_evidence": 0.4813277339126863,
+        "combined_source_evidence": 0.10893354129144892
+      },
+      {
+        "word": "भोलि",
+        "start": 0.42472076612903226,
+        "end": 0.6876431451612903,
+        "phonetics_source_evidence": 0.7898589929902319,
+        "prosody_source_evidence": 0.3045692045673431,
+        "combined_source_evidence": 0.7755387928251829
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.578621482796962,
+      "prosody": 0.49030083550687986,
+      "combined": 0.5563632396161139
+    }
+  },
+  {
+    "clip_id": "f46a6709f7abde4d6e185099",
+    "audio_sha256": "4a6f21df2d7e717ea2de3c961ea0cc3e95a1eb857a29f973667502d9ffeda662",
+    "sentence_id": "sent_118",
+    "speaker_id": "59903f2c",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "आज",
+        "start": 0.06057608695652175,
+        "end": 0.22211231884057975,
+        "phonetics_source_evidence": 0.13815363746114398,
+        "prosody_source_evidence": 0.3213713619244477,
+        "combined_source_evidence": 0.13058381716806738
+      },
+      {
+        "word": "कि",
+        "start": 0.3836485507246377,
+        "end": 0.484608695652174,
+        "phonetics_source_evidence": 0.12718400116997966,
+        "prosody_source_evidence": 0.6021331789805257,
+        "combined_source_evidence": 0.11063437568803987
+      },
+      {
+        "word": "भोलि",
+        "start": 0.5653768115942029,
+        "end": 0.8480652173913045,
+        "phonetics_source_evidence": 0.2871699385381949,
+        "prosody_source_evidence": 0.2792818688061419,
+        "combined_source_evidence": 0.2673281371022592
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.19112946657847,
+      "prosody": 0.4418053011963086,
+      "combined": 0.17570224503669774
+    }
+  },
+  {
+    "clip_id": "2c132b8180a5c5d3c5189b6d",
+    "audio_sha256": "273a14fa22dc193feaaac76c2b7fe663cf83d6a28643721a51e453f5309ae3ef",
+    "sentence_id": "sent_137",
+    "speaker_id": "3962eefe",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "रामले",
+        "start": 0.18233766233766233,
+        "end": 0.5672727272727273,
+        "phonetics_source_evidence": 0.40927812779616735,
+        "prosody_source_evidence": 0.2354777697761487,
+        "combined_source_evidence": 0.4453629630395424
+      },
+      {
+        "word": "किताब",
+        "start": 0.6888311688311688,
+        "end": 0.9724675324675325,
+        "phonetics_source_evidence": 0.14640804516782405,
+        "prosody_source_evidence": 0.716757785957561,
+        "combined_source_evidence": 0.11047934873494561
+      },
+      {
+        "word": "किन्यो",
+        "start": 1.0535064935064935,
+        "end": 1.3574025974025974,
+        "phonetics_source_evidence": 0.09897719656096254,
+        "prosody_source_evidence": 0.4105188513584982,
+        "combined_source_evidence": 0.08381342171343727
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.24513371830335934,
+      "prosody": 0.5409306752438131,
+      "combined": 0.25348299778014605
+    }
+  },
+  {
+    "clip_id": "99e7b06a0c5765d8db299a35",
+    "audio_sha256": "c3e3eeebd2bb09c53d7d49d94cd2070eefd3c1a7852d95434b19a1db5493363d",
+    "sentence_id": "sent_137",
+    "speaker_id": "3962eefe",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "रामले",
+        "start": 0.10062152777777778,
+        "end": 0.46285902777777777,
+        "phonetics_source_evidence": 0.8292376356180325,
+        "prosody_source_evidence": 0.24903718327803448,
+        "combined_source_evidence": 0.8347336295507035
+      },
+      {
+        "word": "किताब",
+        "start": 0.5836048611111111,
+        "end": 0.9860909722222222,
+        "phonetics_source_evidence": 0.14140402445126135,
+        "prosody_source_evidence": 0.5562361439077087,
+        "combined_source_evidence": 0.11980375997665282
+      },
+      {
+        "word": "किन्यो",
+        "start": 1.0665881944444444,
+        "end": 1.4087013888888889,
+        "phonetics_source_evidence": 0.1462952594620835,
+        "prosody_source_evidence": 0.45129460194127125,
+        "combined_source_evidence": 0.13487773104471798
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.6337957076019319,
+      "prosody": 0.44521971987281894,
+      "combined": 0.6404108256238447
+    }
+  },
+  {
+    "clip_id": "7c5a069d6852cc091f29a9e6",
+    "audio_sha256": "097608c766a1668d3a6abcb997dcbb105e3936b06e794339c3885318f4a7e924",
+    "sentence_id": "sent_137",
+    "speaker_id": "3962eefe",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "रामले",
+        "start": 0.12049324324324323,
+        "end": 0.4819729729729729,
+        "phonetics_source_evidence": 0.2644941856931248,
+        "prosody_source_evidence": 0.2823901749946302,
+        "combined_source_evidence": 0.2849941040080944
+      },
+      {
+        "word": "किताब",
+        "start": 0.6426306306306305,
+        "end": 1.0442747747747747,
+        "phonetics_source_evidence": 0.14573975409440068,
+        "prosody_source_evidence": 0.45713553470142854,
+        "combined_source_evidence": 0.13587179245642722
+      },
+      {
+        "word": "किन्यो",
+        "start": 1.1446858108108107,
+        "end": 1.4459189189189188,
+        "phonetics_source_evidence": 0.0759097917773245,
+        "prosody_source_evidence": 0.48648148080898357,
+        "combined_source_evidence": 0.07210565232549868
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.1695174028320312,
+      "prosody": 0.4211784749988171,
+      "combined": 0.17435762997871218
+    }
+  },
+  {
+    "clip_id": "d9a4b9f2fcc3c7d54e4fd9a0",
+    "audio_sha256": "7b4c05546fc49318b2d79b642835d91051d05bd4ea0a40fc5ff8cf29746afe9c",
+    "sentence_id": "sent_138",
+    "speaker_id": "183ab408",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "सीताले",
+        "start": 0.4041237113402062,
+        "end": 0.8486597938144329,
+        "phonetics_source_evidence": 0.10219378503227125,
+        "prosody_source_evidence": 0.5652591638524418,
+        "combined_source_evidence": 0.1154997191326338
+      },
+      {
+        "word": "भात",
+        "start": 0.9294845360824742,
+        "end": 1.171958762886598,
+        "phonetics_source_evidence": 0.13325881114853833,
+        "prosody_source_evidence": 0.42527172317712464,
+        "combined_source_evidence": 0.12243827417871009
+      },
+      {
+        "word": "पकाइन्",
+        "start": 1.2729896907216494,
+        "end": 1.757938144329897,
+        "phonetics_source_evidence": 0.07245406946159702,
+        "prosody_source_evidence": 0.6938954231853793,
+        "combined_source_evidence": 0.0626148443018057
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.10332311472847021,
+      "prosody": 0.5894365338638562,
+      "combined": 0.10096203085503022
+    }
+  },
+  {
+    "clip_id": "0c4387ad682702e129ded783",
+    "audio_sha256": "17c90765c92d38a25ba16b9758bd1146914290cd6dbea2204ed82b18f1814cae",
+    "sentence_id": "sent_138",
+    "speaker_id": "183ab408",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "सीताले",
+        "start": 0.14087013888888889,
+        "end": 0.6238534722222222,
+        "phonetics_source_evidence": 0.7570256654417941,
+        "prosody_source_evidence": 0.5697499128528771,
+        "combined_source_evidence": 0.786182949248041
+      },
+      {
+        "word": "भात",
+        "start": 0.7445993055555555,
+        "end": 0.9860909722222222,
+        "phonetics_source_evidence": 0.14067442689482978,
+        "prosody_source_evidence": 0.40655741763286574,
+        "combined_source_evidence": 0.12437166962784678
+      },
+      {
+        "word": "पकाइन्",
+        "start": 1.0867125,
+        "end": 1.5495715277777777,
+        "phonetics_source_evidence": 0.09029275205861262,
+        "prosody_source_evidence": 0.6748201511983922,
+        "combined_source_evidence": 0.07652794091427181
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.529678763975105,
+      "prosody": 0.5765423622687817,
+      "combined": 0.5653309306119316
+    }
+  },
+  {
+    "clip_id": "6c1d1076a8b794cc94c46870",
+    "audio_sha256": "edd6d9e3568926dfa7b84cecbe59b450b02882a18345aafc991a2e923370b7d5",
+    "sentence_id": "sent_138",
+    "speaker_id": "183ab408",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "सीताले",
+        "start": 0.14094536713286712,
+        "end": 0.6040515734265735,
+        "phonetics_source_evidence": 0.9132127283000553,
+        "prosody_source_evidence": 0.6462959293520666,
+        "combined_source_evidence": 0.9260554463263402
+      },
+      {
+        "word": "भात",
+        "start": 0.7449969405594405,
+        "end": 1.0067526223776224,
+        "phonetics_source_evidence": 0.13688495044703755,
+        "prosody_source_evidence": 0.3904538867977765,
+        "combined_source_evidence": 0.1089193301602115
+      },
+      {
+        "word": "पकाइन्",
+        "start": 1.6309392482517482,
+        "end": 2.0739104020979022,
+        "phonetics_source_evidence": 0.09733672187168815,
+        "prosody_source_evidence": 0.5303351752786044,
+        "combined_source_evidence": 0.0949130158749626
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.782432968950447,
+      "prosody": 0.545245436932454,
+      "combined": 0.8095328246210437
+    }
+  },
+  {
+    "clip_id": "b3f655393cd656ad49216660",
+    "audio_sha256": "8a1a03602390b0799a42fecce14e9a5f15cffd7a4b924a71cdbe5e4a65a98627",
+    "sentence_id": "sent_139",
+    "speaker_id": "d18c3456",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "हरिले",
+        "start": 0.5844961240310077,
+        "end": 1.0883720930232559,
+        "phonetics_source_evidence": 1.0,
+        "prosody_source_evidence": 0.32293588787989486,
+        "combined_source_evidence": 1.0
+      },
+      {
+        "word": "हिजो",
+        "start": 1.1689922480620154,
+        "end": 1.4108527131782946,
+        "phonetics_source_evidence": 2.311680484144739e-07,
+        "prosody_source_evidence": 0.4679177007072268,
+        "combined_source_evidence": 1.694734959463875e-07
+      },
+      {
+        "word": "गाडी",
+        "start": 1.4914728682170542,
+        "end": 1.813953488372093,
+        "phonetics_source_evidence": 0.9999999999976701,
+        "prosody_source_evidence": 0.37317504213003455,
+        "combined_source_evidence": 0.9999999999895242
+      },
+      {
+        "word": "चलायो",
+        "start": 1.834108527131783,
+        "end": 2.337984496124031,
+        "phonetics_source_evidence": 0.99042088981463,
+        "prosody_source_evidence": 0.35759106759426607,
+        "combined_source_evidence": 0.9853011092049074
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 1.0,
+      "prosody": 0.38540547835571853,
+      "combined": 1.0
+    }
+  },
+  {
+    "clip_id": "1ddca2d6d4d18651261b62f1",
+    "audio_sha256": "ce489a3f984f5a15c2a5fd6cf4385eca299644575612472e9fb3852756ac80c7",
+    "sentence_id": "sent_139",
+    "speaker_id": "d18c3456",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "हरिले",
+        "start": 0.020082207207207204,
+        "end": 0.5020551801801801,
+        "phonetics_source_evidence": 0.035723621394951596,
+        "prosody_source_evidence": 0.33841399678194606,
+        "combined_source_evidence": 0.03755694515921616
+      },
+      {
+        "word": "हिजो",
+        "start": 0.6024662162162161,
+        "end": 0.883617117117117,
+        "phonetics_source_evidence": 0.015174024724781434,
+        "prosody_source_evidence": 0.3126580978544112,
+        "combined_source_evidence": 0.016073914822239806
+      },
+      {
+        "word": "गाडी",
+        "start": 1.0041103603603603,
+        "end": 1.3455078828828826,
+        "phonetics_source_evidence": 0.2675221799502256,
+        "prosody_source_evidence": 0.3666841598879062,
+        "combined_source_evidence": 0.2786769685983324
+      },
+      {
+        "word": "चलायो",
+        "start": 1.36559009009009,
+        "end": 1.8475630630630628,
+        "phonetics_source_evidence": 0.08136904190916101,
+        "prosody_source_evidence": 0.37080712352020606,
+        "combined_source_evidence": 0.08136616980972361
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.11234601003748793,
+      "prosody": 0.34797435692425355,
+      "combined": 0.11705109316137716
+    }
+  },
+  {
+    "clip_id": "18957a23487083218859d6a9",
+    "audio_sha256": "49d6c59d4a1fea9aee5f5eb6058f97ed705b4d127b312420d1f1c8b4082c231f",
+    "sentence_id": "sent_139",
+    "speaker_id": "d18c3456",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "हरिले",
+        "start": 0.020071504237288137,
+        "end": 0.4817161016949153,
+        "phonetics_source_evidence": 0.26794182215939727,
+        "prosody_source_evidence": 0.3380823086672534,
+        "combined_source_evidence": 0.28838307798151674
+      },
+      {
+        "word": "हिजो",
+        "start": 0.6422881355932204,
+        "end": 0.9232891949152543,
+        "phonetics_source_evidence": 0.30760295441243485,
+        "prosody_source_evidence": 0.3586227991222551,
+        "combined_source_evidence": 0.33102571513596746
+      },
+      {
+        "word": "गाडी",
+        "start": 1.0437182203389832,
+        "end": 1.3849337923728815,
+        "phonetics_source_evidence": 0.1367756906353451,
+        "prosody_source_evidence": 0.3493966032795645,
+        "combined_source_evidence": 0.14014837116168993
+      },
+      {
+        "word": "चलायो",
+        "start": 1.4250768008474577,
+        "end": 1.906792902542373,
+        "phonetics_source_evidence": 0.18741033521590664,
+        "prosody_source_evidence": 0.3291427655154857,
+        "combined_source_evidence": 0.20073335814402632
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.2306731482199575,
+      "prosody": 0.3440011423938171,
+      "combined": 0.2473017393006125
+    }
+  },
+  {
+    "clip_id": "623053457ea76a8233502a5d",
+    "audio_sha256": "41b3cd6b4867b7776b85da2babd22ee76c813a569ae0cba3c10dd521a71d0cea",
+    "sentence_id": "sent_140",
+    "speaker_id": "6c458024",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "सीताले",
+        "start": 0.12153846153846154,
+        "end": 0.5874358974358974,
+        "phonetics_source_evidence": 0.15488323382702046,
+        "prosody_source_evidence": 0.6310060785582157,
+        "combined_source_evidence": 0.16905369046429122
+      },
+      {
+        "word": "भात",
+        "start": 0.6482051282051282,
+        "end": 0.8710256410256411,
+        "phonetics_source_evidence": 0.09899773137845075,
+        "prosody_source_evidence": 0.39133502661867064,
+        "combined_source_evidence": 0.08872100580272098
+      },
+      {
+        "word": "पकाइन्",
+        "start": 0.9317948717948719,
+        "end": 1.3369230769230769,
+        "phonetics_source_evidence": 0.06945434611302372,
+        "prosody_source_evidence": 0.46171584918568953,
+        "combined_source_evidence": 0.06018392240902078
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.1092059632469893,
+      "prosody": 0.5169678376334916,
+      "combined": 0.10842819106905607
+    }
+  },
+  {
+    "clip_id": "598ff6e0ec4aee484c9d4001",
+    "audio_sha256": "da5dc66ba654d38b465b1f63f3c6a7488fc7bfd647bd1bcff0144d044c8a8eea",
+    "sentence_id": "sent_140",
+    "speaker_id": "6c458024",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "सीताले",
+        "start": 0.12064948453608246,
+        "end": 0.5429226804123711,
+        "phonetics_source_evidence": 0.1839326292586955,
+        "prosody_source_evidence": 0.42576207536704846,
+        "combined_source_evidence": 0.2123452784040493
+      },
+      {
+        "word": "भात",
+        "start": 0.6233556701030928,
+        "end": 0.8646546391752576,
+        "phonetics_source_evidence": 0.22377400395625943,
+        "prosody_source_evidence": 0.40565442335277585,
+        "combined_source_evidence": 0.20257325530104284
+      },
+      {
+        "word": "पकाइन्",
+        "start": 0.9651958762886597,
+        "end": 1.4075773195876287,
+        "phonetics_source_evidence": 0.09541195400228972,
+        "prosody_source_evidence": 0.5619010783297721,
+        "combined_source_evidence": 0.08216195626657143
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.17107590163171765,
+      "prosody": 0.4742883894926258,
+      "combined": 0.16969781195781056
+    }
+  },
+  {
+    "clip_id": "4907b0e00992e2df33dd7654",
+    "audio_sha256": "a05fb753eb9fe82bb1483325e9ab187e97e5fc58bb964a5e4f5afba0b2484e47",
+    "sentence_id": "sent_140",
+    "speaker_id": "6c458024",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "सीताले",
+        "start": 0.12170689655172415,
+        "end": 0.5679655172413793,
+        "phonetics_source_evidence": 0.14765958806917018,
+        "prosody_source_evidence": 0.5439850824787298,
+        "combined_source_evidence": 0.15578103206020924
+      },
+      {
+        "word": "भात",
+        "start": 0.6491034482758621,
+        "end": 0.8722327586206897,
+        "phonetics_source_evidence": 0.17749035555882023,
+        "prosody_source_evidence": 0.37930855725677987,
+        "combined_source_evidence": 0.15248462330083976
+      },
+      {
+        "word": "पकाइन्",
+        "start": 0.9736551724137932,
+        "end": 1.379344827586207,
+        "phonetics_source_evidence": 0.07434968213620934,
+        "prosody_source_evidence": 0.6303207058896104,
+        "combined_source_evidence": 0.06635465079904546
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.1352854399172101,
+      "prosody": 0.5391042789985676,
+      "combined": 0.12676896209970706
+    }
+  },
+  {
+    "clip_id": "c55ad5b0a746a0bb87849df8",
+    "audio_sha256": "118d3ecf06416e2689b69e65e3651bee177fab8e8006efee808f9de8e05e821c",
+    "sentence_id": "sent_141",
+    "speaker_id": "37e9e229",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "उनी",
+        "start": 0.16153846153846155,
+        "end": 0.4240384615384616,
+        "phonetics_source_evidence": 0.10133076653027259,
+        "prosody_source_evidence": 0.3209638628428631,
+        "combined_source_evidence": 0.10040732226049091
+      },
+      {
+        "word": "काठमाडौं",
+        "start": 0.46442307692307694,
+        "end": 1.3326923076923078,
+        "phonetics_source_evidence": 0.08287323748563734,
+        "prosody_source_evidence": 0.4145054055888667,
+        "combined_source_evidence": 0.07247719122086062
+      },
+      {
+        "word": "गइन्",
+        "start": 1.3528846153846155,
+        "end": 1.7365384615384616,
+        "phonetics_source_evidence": 0.037060305944621334,
+        "prosody_source_evidence": 0.2998835334897439,
+        "combined_source_evidence": 0.03419652380481697
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.07453249796089073,
+      "prosody": 0.34909494888493653,
+      "combined": 0.06981420781414284
+    }
+  },
+  {
+    "clip_id": "879b2235c1bf1224296d9765",
+    "audio_sha256": "860d210fa6af09daa71035564ac1c929b196d2e29d544c1063a18c61b3551976",
+    "sentence_id": "sent_141",
+    "speaker_id": "37e9e229",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "उनी",
+        "start": 0.28214622641509435,
+        "end": 0.5038325471698113,
+        "phonetics_source_evidence": 0.06970753671040886,
+        "prosody_source_evidence": 0.2823668579659142,
+        "combined_source_evidence": 0.07645075326962951
+      },
+      {
+        "word": "काठमाडौं",
+        "start": 0.5642924528301887,
+        "end": 1.3704245283018868,
+        "phonetics_source_evidence": 0.18933328561087245,
+        "prosody_source_evidence": 0.6012971688091463,
+        "combined_source_evidence": 0.16912329365443526
+      },
+      {
+        "word": "गइन्",
+        "start": 1.4107311320754718,
+        "end": 1.733183962264151,
+        "phonetics_source_evidence": 0.08237217300352585,
+        "prosody_source_evidence": 0.27202311089038583,
+        "combined_source_evidence": 0.07442688721071451
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.11719261147819568,
+      "prosody": 0.4313090859630372,
+      "combined": 0.10893002867413815
+    }
+  },
+  {
+    "clip_id": "ea06cc495c4c92be0aefce11",
+    "audio_sha256": "39e7f0271ae26d7092ce2e646665eac84326d6c2e102670d81588f7887eecc4d",
+    "sentence_id": "sent_141",
+    "speaker_id": "37e9e229",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "उनी",
+        "start": 0.2826782608695652,
+        "end": 0.5047826086956522,
+        "phonetics_source_evidence": 0.04933028074109773,
+        "prosody_source_evidence": 0.2939777693612584,
+        "combined_source_evidence": 0.056109818845075814
+      },
+      {
+        "word": "काठमाडौं",
+        "start": 0.5451652173913044,
+        "end": 1.352817391304348,
+        "phonetics_source_evidence": 0.16462902839702956,
+        "prosody_source_evidence": 0.6596555377047922,
+        "combined_source_evidence": 0.15589130286269218
+      },
+      {
+        "word": "गइन्",
+        "start": 1.4133913043478261,
+        "end": 1.7566434782608695,
+        "phonetics_source_evidence": 0.12317330818432559,
+        "prosody_source_evidence": 0.30809598862470194,
+        "combined_source_evidence": 0.11284539376353463
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.11489783222504754,
+      "prosody": 0.4827472846511166,
+      "combined": 0.11014243869861944
+    }
+  },
+  {
+    "clip_id": "dfa9f8f66d543439a48906e1",
+    "audio_sha256": "e72314c547f6ca634f3bc7bd66781d6cb45e7e12bd19b0f555ac9814da85cfec",
+    "sentence_id": "sent_142",
+    "speaker_id": "5c9cbabf",
+    "system": "native_recording",
+    "words": [
+      {
+        "word": "रामले",
+        "start": 0.36260869565217385,
+        "end": 0.6647826086956521,
+        "phonetics_source_evidence": 0.24889525598215187,
+        "prosody_source_evidence": 0.31954991935293947,
+        "combined_source_evidence": 0.26269538343511434
+      },
+      {
+        "word": "मोटरसाइकल",
+        "start": 0.6647826086956521,
+        "end": 1.5108695652173911,
+        "phonetics_source_evidence": 0.15599163340146954,
+        "prosody_source_evidence": 0.4388144538482971,
+        "combined_source_evidence": 0.15856671025232744
+      },
+      {
+        "word": "किन्यो",
+        "start": 1.672028985507246,
+        "end": 2.2763768115942025,
+        "phonetics_source_evidence": 0.4577477963819485,
+        "prosody_source_evidence": 0.3749511288982256,
+        "combined_source_evidence": 0.43129595263453807
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.3119826151049241,
+      "prosody": 0.3816259109217408,
+      "combined": 0.30283203238726597
+    }
+  },
+  {
+    "clip_id": "2bf39e7442cb8013ecd93fdd",
+    "audio_sha256": "a061868d6ee4c47da09f0fd35eed8e763519017d6264523ad3347ec028e5490b",
+    "sentence_id": "sent_142",
+    "speaker_id": "5c9cbabf",
+    "system": "audio8_dpo_R2",
+    "words": [
+      {
+        "word": "रामले",
+        "start": 0.24277722772277227,
+        "end": 0.6676373762376238,
+        "phonetics_source_evidence": 0.0817429691917064,
+        "prosody_source_evidence": 0.3041985827694325,
+        "combined_source_evidence": 0.07963324482792666
+      },
+      {
+        "word": "मोटरसाइकल",
+        "start": 0.7283316831683169,
+        "end": 1.3959690594059406,
+        "phonetics_source_evidence": 0.11343240900219148,
+        "prosody_source_evidence": 0.46670678801926496,
+        "combined_source_evidence": 0.11590297472129439
+      },
+      {
+        "word": "किन्यो",
+        "start": 1.476894801980198,
+        "end": 1.8208292079207922,
+        "phonetics_source_evidence": 0.13781739693478098,
+        "prosody_source_evidence": 0.3594692255141582,
+        "combined_source_evidence": 0.13699490176596438
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.11158819444027833,
+      "prosody": 0.38443077303175066,
+      "combined": 0.11146985672609354
+    }
+  },
+  {
+    "clip_id": "cb7650d06572de6b3dc96f09",
+    "audio_sha256": "373b9c7b33ab71a7efaf8adea4634e1a7ab9093f36ded8577978fa1dbde6378d",
+    "sentence_id": "sent_142",
+    "speaker_id": "5c9cbabf",
+    "system": "audio8_r3",
+    "words": [
+      {
+        "word": "रामले",
+        "start": 0.2207865466101695,
+        "end": 0.6623596398305085,
+        "phonetics_source_evidence": 0.31891909534276885,
+        "prosody_source_evidence": 0.31444682026170573,
+        "combined_source_evidence": 0.3358117184115223
+      },
+      {
+        "word": "मोटरसाइकल",
+        "start": 0.7827886652542374,
+        "end": 1.585648834745763,
+        "phonetics_source_evidence": 0.03982556734369155,
+        "prosody_source_evidence": 0.4017137821848079,
+        "combined_source_evidence": 0.03950341445211522
+      },
+      {
+        "word": "किन्यो",
+        "start": 1.7060778601694917,
+        "end": 2.1075079449152545,
+        "phonetics_source_evidence": 0.04435335579795445,
+        "prosody_source_evidence": 0.43270296191229995,
+        "combined_source_evidence": 0.038496628450852596
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.1563895360170431,
+      "prosody": 0.3868619002513912,
+      "combined": 0.16359129513575474
+    }
+  },
+  {
+    "clip_id": "632a900df266346081427582",
+    "audio_sha256": "f4ecb0d4f4dffa9972aeb6e805732d95ad4291d2fec50505969144fa9428aac3",
+    "sentence_id": "sent_085",
+    "speaker_id": "46aa713b",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "खानामा",
+        "start": 0.0,
+        "end": 0.30401249999999996,
+        "phonetics_source_evidence": 0.18180153631437124,
+        "prosody_source_evidence": 0.80245685013898,
+        "combined_source_evidence": 0.15564878719154376
+      },
+      {
+        "word": "नमक",
+        "start": 0.30401249999999996,
+        "end": 0.526955,
+        "phonetics_source_evidence": 0.18023249839216618,
+        "prosody_source_evidence": 0.45257148192989394,
+        "combined_source_evidence": 0.16632362472961124
+      },
+      {
+        "word": "थोरै",
+        "start": 0.5674899999999999,
+        "end": 0.7904324999999999,
+        "phonetics_source_evidence": 0.07792854833617537,
+        "prosody_source_evidence": 0.5477185520979165,
+        "combined_source_evidence": 0.06652603065537721
+      },
+      {
+        "word": "छ",
+        "start": 0.8512349999999999,
+        "end": 0.9525724999999998,
+        "phonetics_source_evidence": 0.9980980477477174,
+        "prosody_source_evidence": 0.3202395472595016,
+        "combined_source_evidence": 0.9981253774759001
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.9924428793791421,
+      "prosody": 0.6216072399964042,
+      "combined": 0.9925497653399342
+    }
+  },
+  {
+    "clip_id": "b59d6e26560bb543890cd959",
+    "audio_sha256": "672f9a81d40203c6097cc555fdb81518840d94b772510f7a953fee40f3680887",
+    "sentence_id": "sent_086",
+    "speaker_id": "59903f2c",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "ऊ",
+        "start": 0.08086428571428572,
+        "end": 0.1415125,
+        "phonetics_source_evidence": 0.01808237436532326,
+        "prosody_source_evidence": 0.26950179784659517,
+        "combined_source_evidence": 0.021204555224396703
+      },
+      {
+        "word": "नम्र",
+        "start": 0.16172857142857144,
+        "end": 0.44475357142857147,
+        "phonetics_source_evidence": 0.14870662729578335,
+        "prosody_source_evidence": 0.3153082137834843,
+        "combined_source_evidence": 0.15123664495853636
+      },
+      {
+        "word": "मान्छे",
+        "start": 0.48518571428571433,
+        "end": 0.8692910714285715,
+        "phonetics_source_evidence": 0.7891111955945654,
+        "prosody_source_evidence": 0.5588808276577439,
+        "combined_source_evidence": 0.7841661839952137
+      },
+      {
+        "word": "हो",
+        "start": 1.3342607142857144,
+        "end": 1.4151250000000002,
+        "phonetics_source_evidence": 0.03992048742168198,
+        "prosody_source_evidence": 0.30211475087142214,
+        "combined_source_evidence": 0.0455047175613452
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.49852782477625673,
+      "prosody": 0.38737702726296663,
+      "combined": 0.49243197144693446
+    }
+  },
+  {
+    "clip_id": "dfa71f31e77457574cc36fc7",
+    "audio_sha256": "0d7e6969ceea1ab14495936f999c02d6490c0c883dd6aba2d4130c666bf12f56",
+    "sentence_id": "sent_165",
+    "speaker_id": "37e9e229",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "सरकारले",
+        "start": 0.06036968085106384,
+        "end": 0.7646826241134752,
+        "phonetics_source_evidence": 0.4297743641500405,
+        "prosody_source_evidence": 0.6710567892607157,
+        "combined_source_evidence": 0.424415371869441
+      },
+      {
+        "word": "नयाँ",
+        "start": 1.2073936170212767,
+        "end": 1.549488475177305,
+        "phonetics_source_evidence": 0.1270110558114606,
+        "prosody_source_evidence": 0.3315307529968345,
+        "combined_source_evidence": 0.13012251249899232
+      },
+      {
+        "word": "कर",
+        "start": 1.609858156028369,
+        "end": 1.7909671985815605,
+        "phonetics_source_evidence": 0.11163895876147177,
+        "prosody_source_evidence": 0.5282345159872652,
+        "combined_source_evidence": 0.1038075470179643
+      },
+      {
+        "word": "लगायो",
+        "start": 1.871460106382979,
+        "end": 2.3544175531914897,
+        "phonetics_source_evidence": 0.14713001431553255,
+        "prosody_source_evidence": 0.3469745129514142,
+        "combined_source_evidence": 0.14359666765276516
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.23037875926046644,
+      "prosody": 0.511422013195625,
+      "combined": 0.22637399652778442
+    }
+  },
+  {
+    "clip_id": "e07a2116023cec77dce57486",
+    "audio_sha256": "05398810cec9d74e161dcab44f2d3d3cb87024def726b0f09ef7fe2a76383e7a",
+    "sentence_id": "sent_167",
+    "speaker_id": "46aa713b",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "रुखमा",
+        "start": 0.020267499999999997,
+        "end": 0.20267499999999997,
+        "phonetics_source_evidence": 0.19805035873378887,
+        "prosody_source_evidence": 0.6733175166437385,
+        "combined_source_evidence": 0.1450832091139358
+      },
+      {
+        "word": "फल",
+        "start": 0.20267499999999997,
+        "end": 0.36481499999999994,
+        "phonetics_source_evidence": 0.2545796350936741,
+        "prosody_source_evidence": 0.6166169677069401,
+        "combined_source_evidence": 0.20242567626586824
+      },
+      {
+        "word": "पाकेको",
+        "start": 0.40534999999999993,
+        "end": 0.7701649999999999,
+        "phonetics_source_evidence": 0.12457308319584737,
+        "prosody_source_evidence": 0.9166558236402955,
+        "combined_source_evidence": 0.1194907588710674
+      },
+      {
+        "word": "छ",
+        "start": 0.8512349999999999,
+        "end": 0.9525724999999998,
+        "phonetics_source_evidence": 0.8937129876914863,
+        "prosody_source_evidence": 0.3586075365835248,
+        "combined_source_evidence": 0.8983701061575575
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.6955691553843713,
+      "prosody": 0.7919590116736305,
+      "combined": 0.7014666298096026
+    }
+  },
+  {
+    "clip_id": "417dd6b9d8da7955f94cdb4c",
+    "audio_sha256": "005b8318afbbca00143a97f35e5190041524760a3828914692ed643573a3ca2a",
+    "sentence_id": "sent_168",
+    "speaker_id": "59903f2c",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "मेहनतको",
+        "start": 0.06036968085106384,
+        "end": 0.6439432624113476,
+        "phonetics_source_evidence": 0.09398195259763051,
+        "prosody_source_evidence": 0.756860962467226,
+        "combined_source_evidence": 0.11117096006045579
+      },
+      {
+        "word": "फल",
+        "start": 1.3080097517730498,
+        "end": 1.549488475177305,
+        "phonetics_source_evidence": 0.26024486849997075,
+        "prosody_source_evidence": 0.6043777994918472,
+        "combined_source_evidence": 0.22981984428866728
+      },
+      {
+        "word": "मीठो",
+        "start": 1.6299813829787235,
+        "end": 1.9318297872340429,
+        "phonetics_source_evidence": 0.05907076301366377,
+        "prosody_source_evidence": 0.6289177547603034,
+        "combined_source_evidence": 0.06255746749136644
+      },
+      {
+        "word": "हुन्छ",
+        "start": 2.0525691489361706,
+        "end": 2.434910460992908,
+        "phonetics_source_evidence": 0.569556820242943,
+        "prosody_source_evidence": 0.5315041425704875,
+        "combined_source_evidence": 0.5529383526274967
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.31524385843362074,
+      "prosody": 0.6512595479133644,
+      "combined": 0.30155810318701554
+    }
+  },
+  {
+    "clip_id": "44aeb556c6f9f413613a52ba",
+    "audio_sha256": "97ff5392997eac4719c5f4bb60881cde099179f549e4131bc38c0d89e44eecb9",
+    "sentence_id": "sent_169",
+    "speaker_id": "3962eefe",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "उसमा",
+        "start": 0.04018426724137931,
+        "end": 0.5023033405172413,
+        "phonetics_source_evidence": 0.17770325107207524,
+        "prosody_source_evidence": 0.38756870806866794,
+        "combined_source_evidence": 0.21032829855779883
+      },
+      {
+        "word": "धेरै",
+        "start": 3.094188577586207,
+        "end": 3.435754849137931,
+        "phonetics_source_evidence": 0.2407818945825478,
+        "prosody_source_evidence": 0.2989054934386922,
+        "combined_source_evidence": 0.3494766731062954
+      },
+      {
+        "word": "बल",
+        "start": 3.47593911637931,
+        "end": 3.616584051724138,
+        "phonetics_source_evidence": 0.2918751882663236,
+        "prosody_source_evidence": 0.37187449882975837,
+        "combined_source_evidence": 0.331254466207193
+      },
+      {
+        "word": "छ",
+        "start": 3.717044719827586,
+        "end": 3.817505387931034,
+        "phonetics_source_evidence": 0.916240543640899,
+        "prosody_source_evidence": 0.25104344246121857,
+        "combined_source_evidence": 0.9197264672662292
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.7481803106199906,
+      "prosody": 0.3318195608668963,
+      "combined": 0.7612840459302473
+    }
+  },
+  {
+    "clip_id": "9350e1fb68ee8d9d6758a283",
+    "audio_sha256": "51ea8d1f9375b8bb28da33841799ab598ae0687d5f77db45910a743c70e85554",
+    "sentence_id": "sent_170",
+    "speaker_id": "183ab408",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "बत्ती",
+        "start": 0.2614054054054054,
+        "end": 0.542918918918919,
+        "phonetics_source_evidence": 0.2660491238871063,
+        "prosody_source_evidence": 0.41587018376396434,
+        "combined_source_evidence": 0.2675035912859591
+      },
+      {
+        "word": "बल",
+        "start": 0.542918918918919,
+        "end": 0.6032432432432433,
+        "phonetics_source_evidence": 0.2534341149630579,
+        "prosody_source_evidence": 0.2567286499029362,
+        "combined_source_evidence": 0.2666810519176501
+      },
+      {
+        "word": "अँध्यारो",
+        "start": 0.6032432432432433,
+        "end": 2.3325405405405406,
+        "phonetics_source_evidence": 0.1338843110634278,
+        "prosody_source_evidence": 0.9258694597327417,
+        "combined_source_evidence": 0.11291219004712513
+      },
+      {
+        "word": "छ",
+        "start": 2.352648648648649,
+        "end": 2.4934054054054053,
+        "phonetics_source_evidence": 0.7844684818669538,
+        "prosody_source_evidence": 0.33058774277194347,
+        "combined_source_evidence": 0.7912856573152561
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.5292028600553867,
+      "prosody": 0.7782817743703885,
+      "combined": 0.5374321047369691
+    }
+  },
+  {
+    "clip_id": "084b6be3e9ae484daf42b560",
+    "audio_sha256": "c98a021c2d9294684de1e9374871de403650dd5f0ce7fd1c9f089466d2e991cd",
+    "sentence_id": "sent_178",
+    "speaker_id": "183ab408",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "सड्कमा",
+        "start": 0.24198722627737226,
+        "end": 0.7259616788321168,
+        "phonetics_source_evidence": 0.2120666182297529,
+        "prosody_source_evidence": 0.5253705648342529,
+        "combined_source_evidence": 0.22560698199690962
+      },
+      {
+        "word": "गाडी",
+        "start": 0.8066240875912409,
+        "end": 1.1091081204379563,
+        "phonetics_source_evidence": 0.1571532210142371,
+        "prosody_source_evidence": 0.3324410386108558,
+        "combined_source_evidence": 0.15144523169632498
+      },
+      {
+        "word": "धेरै",
+        "start": 1.1292737226277372,
+        "end": 1.4317577554744525,
+        "phonetics_source_evidence": 0.2829123280155034,
+        "prosody_source_evidence": 0.2735406973793002,
+        "combined_source_evidence": 0.2599467581485113
+      },
+      {
+        "word": "छ",
+        "start": 2.3795410583941607,
+        "end": 2.520700273722628,
+        "phonetics_source_evidence": 0.9235247477332588,
+        "prosody_source_evidence": 0.530866221513977,
+        "combined_source_evidence": 0.9367703423350506
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.76368071908959,
+      "prosody": 0.4376517145244359,
+      "combined": 0.7962969389650519
+    }
+  },
+  {
+    "clip_id": "7e78dc946952f7cfdd408d5c",
+    "audio_sha256": "5ace4476725c004514d2473561a212f20e4410c4cda4b1271791d6c1cb1d84d7",
+    "sentence_id": "sent_179",
+    "speaker_id": "d18c3456",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "समय",
+        "start": 0.08185204081632652,
+        "end": 0.4092602040816326,
+        "phonetics_source_evidence": 0.011854526989401811,
+        "prosody_source_evidence": 0.5087809530812372,
+        "combined_source_evidence": 0.011561410143097316
+      },
+      {
+        "word": "बित्यो",
+        "start": 0.4911122448979591,
+        "end": 0.8389834183673468,
+        "phonetics_source_evidence": 0.413265555067508,
+        "prosody_source_evidence": 0.8603395092438783,
+        "combined_source_evidence": 0.40104090714580554
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.26371658052931124,
+      "prosody": 0.782513494052226,
+      "combined": 0.25408196374377784
+    }
+  },
+  {
+    "clip_id": "de84752e6a5ed13c9c11cea1",
+    "audio_sha256": "c162cd4dd2b2e4b32f3f22033d36cdf4a575f5eb38e8873485c5dea51360ba4d",
+    "sentence_id": "sent_180",
+    "speaker_id": "6c458024",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "सम्य",
+        "start": 0.24458035714285714,
+        "end": 0.38725223214285714,
+        "phonetics_source_evidence": 0.059810039210988424,
+        "prosody_source_evidence": 0.6302716918838123,
+        "combined_source_evidence": 0.05938249716332727
+      },
+      {
+        "word": "छैन",
+        "start": 0.4687790178571429,
+        "end": 0.7541227678571429,
+        "phonetics_source_evidence": 0.3858950051936914,
+        "prosody_source_evidence": 0.431014313159029,
+        "combined_source_evidence": 0.3898225578591831
+      },
+      {
+        "word": "अहिले",
+        "start": 0.8152678571428572,
+        "end": 1.100611607142857,
+        "phonetics_source_evidence": 0.14437969201974457,
+        "prosody_source_evidence": 0.3118751574688744,
+        "combined_source_evidence": 0.1365371140308805
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.22294762026697554,
+      "prosody": 0.4928514787728463,
+      "combined": 0.22282335682625512
+    }
+  },
+  {
+    "clip_id": "a07e1692f11d12a1909ed9d0",
+    "audio_sha256": "a3a24ae5616958a4a10cf9c3259c8eab2e8e0202c72609be00884d16715777ae",
+    "sentence_id": "sent_109",
+    "speaker_id": "46aa713b",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "तपाईं",
+        "start": 0.0,
+        "end": 0.24208695652173912,
+        "phonetics_source_evidence": 0.3832702054944109,
+        "prosody_source_evidence": 0.593100482263968,
+        "combined_source_evidence": 0.24592066162844153
+      },
+      {
+        "word": "जानुहुन्छ",
+        "start": 0.24208695652173912,
+        "end": 0.847304347826087,
+        "phonetics_source_evidence": 0.9999997473944766,
+        "prosody_source_evidence": 0.354682829370396,
+        "combined_source_evidence": 0.9999998581496359
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.9999994947891601,
+      "prosody": 0.5009027162954052,
+      "combined": 0.999999716299325
+    }
+  },
+  {
+    "clip_id": "77864f9ad9c367979e7f03d9",
+    "audio_sha256": "3e09151b53094a02cf1756e93fa03d47ffdfe2acc649e2622dcb7d33d6be54d0",
+    "sentence_id": "sent_110",
+    "speaker_id": "59903f2c",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "खाना",
+        "start": 0.06084027777777778,
+        "end": 0.3244814814814815,
+        "phonetics_source_evidence": 0.21859247762370254,
+        "prosody_source_evidence": 0.39330187819051615,
+        "combined_source_evidence": 0.20269325789406045
+      },
+      {
+        "word": "खानुभयो",
+        "start": 0.36504166666666665,
+        "end": 0.8720439814814814,
+        "phonetics_source_evidence": 0.07262515520451793,
+        "prosody_source_evidence": 0.4016945472748083,
+        "combined_source_evidence": 0.07118243845876714
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.15184321455150757,
+      "prosody": 0.39752743957308284,
+      "combined": 0.14194765413071242
+    }
+  },
+  {
+    "clip_id": "7aaba7a7c4c4de1283798b06",
+    "audio_sha256": "a6fb66579173e7d2f1ec495ef33d8758a7f6d7566eef795da093e3dcbbb14508",
+    "sentence_id": "sent_111",
+    "speaker_id": "3962eefe",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "को",
+        "start": 1.3645024752475248,
+        "end": 1.4648335396039605,
+        "phonetics_source_evidence": 0.11551926469260237,
+        "prosody_source_evidence": 0.4195410266605684,
+        "combined_source_evidence": 0.10414867432207328
+      },
+      {
+        "word": "आयो",
+        "start": 1.585230816831683,
+        "end": 1.8862240099009902,
+        "phonetics_source_evidence": 0.24878565220375293,
+        "prosody_source_evidence": 0.2881987487579872,
+        "combined_source_evidence": 0.23157929108933742
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.1875813217564214,
+      "prosody": 0.3605445472076101,
+      "combined": 0.17274256077233122
+    }
+  },
+  {
+    "clip_id": "7f6b0e4ad2d949ad65d48db0",
+    "audio_sha256": "323211368a6651ab0ca8d8edd8ecedb58cfb78bcb26b928d3e681f799bb06b20",
+    "sentence_id": "sent_113",
+    "speaker_id": "d18c3456",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "राम्रो",
+        "start": 0.02046301020408163,
+        "end": 0.38879719387755096,
+        "phonetics_source_evidence": 0.14466696448277003,
+        "prosody_source_evidence": 0.2651208142709215,
+        "combined_source_evidence": 0.14146886915340076
+      },
+      {
+        "word": "छ",
+        "start": 0.4911122448979591,
+        "end": 0.6548163265306122,
+        "phonetics_source_evidence": 0.8669810156404101,
+        "prosody_source_evidence": 0.5009653072605118,
+        "combined_source_evidence": 0.8680900090772399
+      },
+      {
+        "word": "है",
+        "start": 0.7980573979591836,
+        "end": 0.9208354591836734,
+        "phonetics_source_evidence": 0.2618269779989135,
+        "prosody_source_evidence": 0.3439397124693062,
+        "combined_source_evidence": 0.2502809004580138
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.7012414942213787,
+      "prosody": 0.386363368160462,
+      "combined": 0.7023673680895173
+    }
+  },
+  {
+    "clip_id": "308ed09dfe51c1ab73055332",
+    "audio_sha256": "b481fddce29961d0f5bf57f4dfcdc91f1527eb6195bbc896da6bb9faf917db16",
+    "sentence_id": "sent_114",
+    "speaker_id": "6c458024",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "तिमी",
+        "start": 0.20248940677966099,
+        "end": 0.40497881355932197,
+        "phonetics_source_evidence": 0.16871363615209667,
+        "prosody_source_evidence": 0.5066971188626319,
+        "combined_source_evidence": 0.16119178884531657
+      },
+      {
+        "word": "जान्छौ",
+        "start": 0.4252277542372881,
+        "end": 0.8099576271186439,
+        "phonetics_source_evidence": 0.8843490051946049,
+        "prosody_source_evidence": 0.5266499046739571,
+        "combined_source_evidence": 0.8712472095487845
+      },
+      {
+        "word": "हैन",
+        "start": 0.9517002118644067,
+        "end": 1.1541896186440677,
+        "phonetics_source_evidence": 0.4462045909517229,
+        "prosody_source_evidence": 0.23819452440742217,
+        "combined_source_evidence": 0.43807738143083946
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.7426081476794357,
+      "prosody": 0.44978604984488424,
+      "combined": 0.7206338199589903
+    }
+  },
+  {
+    "clip_id": "101b19e60939e5d5e3f12603",
+    "audio_sha256": "e2c6068891ec8037b9c04a9f4dd5ad53c1bac7923c6d85c04ceddeb69b3122c0",
+    "sentence_id": "sent_115",
+    "speaker_id": "37e9e229",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "उसले",
+        "start": 0.0809795918367347,
+        "end": 0.44538775510204087,
+        "phonetics_source_evidence": 0.2192237902908924,
+        "prosody_source_evidence": 0.5697085512638197,
+        "combined_source_evidence": 0.2249808960220908
+      },
+      {
+        "word": "त्यो",
+        "start": 0.9717551020408164,
+        "end": 1.113469387755102,
+        "phonetics_source_evidence": 0.13603105203996102,
+        "prosody_source_evidence": 0.6185162116254108,
+        "combined_source_evidence": 0.12586380146829357
+      },
+      {
+        "word": "भन्यो",
+        "start": 1.2551836734693878,
+        "end": 1.7208163265306125,
+        "phonetics_source_evidence": 0.1855572904516017,
+        "prosody_source_evidence": 0.31640038019425354,
+        "combined_source_evidence": 0.17945965987754503
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.18168260508301742,
+      "prosody": 0.5318493912029284,
+      "combined": 0.1787541256854059
+    }
+  },
+  {
+    "clip_id": "78350c3746332ca57ae0b8ee",
+    "audio_sha256": "70757ba1cc5e5c4a981fc3e28e104406f13deb7b72bbd72f22d12cb58cec99aa",
+    "sentence_id": "sent_117",
+    "speaker_id": "46aa713b",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "चिया",
+        "start": 0.12181451612903225,
+        "end": 0.28423387096774194,
+        "phonetics_source_evidence": 0.1134880552144704,
+        "prosody_source_evidence": 0.8212626105368258,
+        "combined_source_evidence": 0.09570876932184921
+      },
+      {
+        "word": "कि",
+        "start": 0.28423387096774194,
+        "end": 0.32483870967741935,
+        "phonetics_source_evidence": 0.12296603043406092,
+        "prosody_source_evidence": 0.4591380118425082,
+        "combined_source_evidence": 0.13516114477890828
+      },
+      {
+        "word": "कफी",
+        "start": 0.32483870967741935,
+        "end": 0.6090725806451612,
+        "phonetics_source_evidence": 0.0882567385718077,
+        "prosody_source_evidence": 0.3190832251745182,
+        "combined_source_evidence": 0.08487132257942226
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.10847565061909888,
+      "prosody": 0.6633868977937523,
+      "combined": 0.10577642784468289
+    }
+  },
+  {
+    "clip_id": "a3f7276acc288cabf84dfe70",
+    "audio_sha256": "8df6551ffe79fedc216440c93ef9e8c190f38788ffef8fbb030296c34c22ae9a",
+    "sentence_id": "sent_118",
+    "speaker_id": "59903f2c",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "आज",
+        "start": 0.020148809523809524,
+        "end": 0.1813392857142857,
+        "phonetics_source_evidence": 0.2539153833710096,
+        "prosody_source_evidence": 0.3420662807368864,
+        "combined_source_evidence": 0.2438427256633317
+      },
+      {
+        "word": "कि",
+        "start": 0.28208333333333335,
+        "end": 0.3425297619047619,
+        "phonetics_source_evidence": 0.11176749324372696,
+        "prosody_source_evidence": 0.6060584070154788,
+        "combined_source_evidence": 0.09990150286134805
+      },
+      {
+        "word": "भोलि",
+        "start": 0.423125,
+        "end": 0.7656547619047619,
+        "phonetics_source_evidence": 0.1864239238047285,
+        "prosody_source_evidence": 0.27420101530283386,
+        "combined_source_evidence": 0.18161856206887056
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.1881586433832728,
+      "prosody": 0.44813877323165613,
+      "combined": 0.1792940983251447
+    }
+  },
+  {
+    "clip_id": "1af7d053298c2f6dcddb1690",
+    "audio_sha256": "64f4671058f88086fed3f0a44049c94ae7aa0357aed5588e747dd803dee2b9b7",
+    "sentence_id": "sent_137",
+    "speaker_id": "3962eefe",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "रामले",
+        "start": 0.08008438485804416,
+        "end": 0.500527405362776,
+        "phonetics_source_evidence": 0.511412680634937,
+        "prosody_source_evidence": 0.20806721280328,
+        "combined_source_evidence": 0.5722035618842373
+      },
+      {
+        "word": "किताब",
+        "start": 3.043206624605678,
+        "end": 3.4236074526813876,
+        "phonetics_source_evidence": 0.1673711901034614,
+        "prosody_source_evidence": 0.8190578395320612,
+        "combined_source_evidence": 0.1786726622560856
+      },
+      {
+        "word": "किन्यो",
+        "start": 3.523712933753943,
+        "end": 5.245527208201892,
+        "phonetics_source_evidence": 0.10334415824235198,
+        "prosody_source_evidence": 0.893451577363504,
+        "combined_source_evidence": 0.11785324826957455
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.31239775937254954,
+      "prosody": 0.8145259038930738,
+      "combined": 0.3601637924871388
+    }
+  },
+  {
+    "clip_id": "e2b22bcc64cd07090dac1b19",
+    "audio_sha256": "6c3128576d9e418da0f48765ac4f3dd0b7adaf87f4cc6911ad7293afda532cf2",
+    "sentence_id": "sent_138",
+    "speaker_id": "183ab408",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "सीताले",
+        "start": 0.38131944444444443,
+        "end": 0.7425694444444445,
+        "phonetics_source_evidence": 0.2939308176627545,
+        "prosody_source_evidence": 0.6380163699771365,
+        "combined_source_evidence": 0.2849670086240764
+      },
+      {
+        "word": "भात",
+        "start": 0.7827083333333333,
+        "end": 0.9834027777777778,
+        "phonetics_source_evidence": 0.24459808812581949,
+        "prosody_source_evidence": 0.3766956187053156,
+        "combined_source_evidence": 0.24138842299637553
+      },
+      {
+        "word": "पकाइन्",
+        "start": 1.0436111111111113,
+        "end": 1.4249305555555556,
+        "phonetics_source_evidence": 0.10574531147473008,
+        "prosody_source_evidence": 0.6065351558149202,
+        "combined_source_evidence": 0.09640392305132922
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.22246356199015635,
+      "prosody": 0.565748033428362,
+      "combined": 0.21536292168375537
+    }
+  },
+  {
+    "clip_id": "cc584a8783ddff6b55a217a2",
+    "audio_sha256": "17db20d8b80b2b54c6cba626fbb25fa96bbb85e1e86c9f20e35e5949d9c3b374",
+    "sentence_id": "sent_139",
+    "speaker_id": "d18c3456",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "हरिले",
+        "start": 0.040445312500000004,
+        "end": 0.4448984375,
+        "phonetics_source_evidence": 0.3269559700282229,
+        "prosody_source_evidence": 0.31291415182106785,
+        "combined_source_evidence": 0.34319627376266515
+      },
+      {
+        "word": "हिजो",
+        "start": 0.5460117187500001,
+        "end": 0.7886835937500001,
+        "phonetics_source_evidence": 0.11398226852496249,
+        "prosody_source_evidence": 0.36850611971522607,
+        "combined_source_evidence": 0.11512125393364357
+      },
+      {
+        "word": "गाडी",
+        "start": 0.9302421875000001,
+        "end": 1.2538046875000002,
+        "phonetics_source_evidence": 0.17774733750950322,
+        "prosody_source_evidence": 0.40447318016844996,
+        "combined_source_evidence": 0.17420319973058573
+      },
+      {
+        "word": "चलायो",
+        "start": 1.27402734375,
+        "end": 1.6987031250000002,
+        "phonetics_source_evidence": 0.9871020610278927,
+        "prosody_source_evidence": 0.44651891758404444,
+        "combined_source_evidence": 0.9874183763256396
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.950837224089801,
+      "prosody": 0.3869638608686836,
+      "combined": 0.9520064728084275
+    }
+  },
+  {
+    "clip_id": "9150d5512405fb16df7fc1f9",
+    "audio_sha256": "5546ff1343bcce3ee1f3658fe8d081253165a6f11a828c53aa03cea5f77aae83",
+    "sentence_id": "sent_140",
+    "speaker_id": "6c458024",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "सीताले",
+        "start": 0.2430217391304348,
+        "end": 0.5873025362318841,
+        "phonetics_source_evidence": 0.12455001630159038,
+        "prosody_source_evidence": 0.6834250406223076,
+        "combined_source_evidence": 0.1303623079419804
+      },
+      {
+        "word": "भात",
+        "start": 0.6278061594202899,
+        "end": 0.8303242753623189,
+        "phonetics_source_evidence": 0.2592387592797559,
+        "prosody_source_evidence": 0.4828036831501352,
+        "combined_source_evidence": 0.2619803981224819
+      },
+      {
+        "word": "पकाइन्",
+        "start": 0.8910797101449276,
+        "end": 1.3366195652173913,
+        "phonetics_source_evidence": 0.12063741895282414,
+        "prosody_source_evidence": 0.5750406145051203,
+        "combined_source_evidence": 0.09609098101323452
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.1734215796980986,
+      "prosody": 0.5970708322283834,
+      "combined": 0.1692484010219568
+    }
+  },
+  {
+    "clip_id": "cc54b176ba666085c277dd96",
+    "audio_sha256": "5f65a858f661b9b1b0f254a43456d202f6dfa3cac2c1b614f7214f2e56bcc799",
+    "sentence_id": "sent_141",
+    "speaker_id": "37e9e229",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "उनी",
+        "start": 0.14047457627118642,
+        "end": 0.48162711864406776,
+        "phonetics_source_evidence": 0.08633442817339881,
+        "prosody_source_evidence": 0.3307296391696715,
+        "combined_source_evidence": 0.09070632923186611
+      },
+      {
+        "word": "काठमाडौं",
+        "start": 0.9632542372881355,
+        "end": 1.7057627118644068,
+        "phonetics_source_evidence": 0.07117594228482135,
+        "prosody_source_evidence": 0.620648275066273,
+        "combined_source_evidence": 0.06627069989219336
+      },
+      {
+        "word": "गइन्",
+        "start": 1.846237288135593,
+        "end": 2.1472542372881356,
+        "phonetics_source_evidence": 0.008210987760670755,
+        "prosody_source_evidence": 0.4236538262468694,
+        "combined_source_evidence": 0.0052348036941481345
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.056426187661271415,
+      "prosody": 0.4885179857482833,
+      "combined": 0.05541302208507694
+    }
+  },
+  {
+    "clip_id": "2ae91b8bb3113ea05f4f4694",
+    "audio_sha256": "94d3ba8f40c7ccd384065fa0d669765b64fe7fe93cde423212fbafca8727176c",
+    "sentence_id": "sent_142",
+    "speaker_id": "5c9cbabf",
+    "system": "indicf5_stock",
+    "words": [
+      {
+        "word": "रामले",
+        "start": 2.8227246376811594,
+        "end": 3.2631497584541065,
+        "phonetics_source_evidence": 0.3573734895868591,
+        "prosody_source_evidence": 0.3943623279659032,
+        "combined_source_evidence": 0.5012684124811664
+      },
+      {
+        "word": "मोटरसाइकल",
+        "start": 3.283169082125604,
+        "end": 6.7865507246376815,
+        "phonetics_source_evidence": 0.13847066270987254,
+        "prosody_source_evidence": 0.9907387315353057,
+        "combined_source_evidence": 0.12759712121326003
+      },
+      {
+        "word": "किन्यो",
+        "start": 6.7865507246376815,
+        "end": 7.106859903381642,
+        "phonetics_source_evidence": 0.11471837974474886,
+        "prosody_source_evidence": 0.3862548807883507,
+        "combined_source_evidence": 0.1813651727773609
+      }
+    ],
+    "bag_scores": {
+      "phonetics": 0.2200548766734821,
+      "prosody": 0.9730354197375244,
+      "combined": 0.31395513202571246
+    }
+  }
+]

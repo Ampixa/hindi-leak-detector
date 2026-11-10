@@ -1,0 +1,20 @@
+{
+  "reviewed_utc": "2026-11-09T14:32:05.197888+00:00",
+  "files": [
+    {
+      "path": "inputs.json",
+      "bytes": 1485,
+      "sha256": "c5124c35588035de24a1967e67c916b99820e6d42f8e3492d85d20532af5a1e3"
+    },
+    {
+      "path": "items.jsonl",
+      "bytes": 6644,
+      "sha256": "31077ca633c85314b2cf8feded3d361c123efeff4799a4967380b16c239f91b2"
+    },
+    {
+      "path": "report.json",
+      "bytes": 369,
+      "sha256": "07692e9d2f62b6e0caade0887d0be685dca96c7e61361934a999fdb79f07c7cf"
+    }
+  ]
+}

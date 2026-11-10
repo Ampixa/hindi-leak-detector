@@ -1,0 +1,27 @@
+{
+  "files": [
+    {
+      "path": ".playwright-mcp/page-2026-11-07T15-19-36-974Z.yml",
+      "bytes": 6224,
+      "sha256": "1e653a1370c6ac083728526725d0ab35ec7cfcad2b53582298aba3c134fd65df",
+      "reason": "Completed boundary/control-results website QA; compact DOM/audio/layout outcomes retained in verification_intervention_v7."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T15-27-29-731Z.yml",
+      "bytes": 7160,
+      "sha256": "0e03bedee0cf5a0e74cc87638858d4cddcb5722662262691419a6046b4380ec4",
+      "reason": "Completed boundary/control-results website QA; compact DOM/audio/layout outcomes retained in verification_intervention_v7."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T15-00-59-073Z.yml",
+      "bytes": 2947,
+      "sha256": "544ddc07d61e54a8aa98e116a95624248a832f43f1aa99d8959f798fb47f4465",
+      "reason": "Completed boundary/control-results website QA; compact DOM/audio/layout outcomes retained in verification_intervention_v7."
+    }
+  ],
+  "bytes_removed": 16331,
+  "free_bytes_before": 50962264064,
+  "active_open_files": false,
+  "deleted": true,
+  "free_bytes_after": 50962251776
+}

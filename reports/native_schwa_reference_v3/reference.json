@@ -1,0 +1,953 @@
+{
+  "status": "native_site_reference_distribution_not_hindi_gold",
+  "distributions": [
+    {
+      "word": "अब",
+      "candidate_id": "schwa-00003",
+      "gap_index": 1,
+      "source_group_count": 6,
+      "references": [
+        {
+          "speaker_id": "S4256982800327411",
+          "score": 9.972965564193334,
+          "audio_sha256s": [
+            "e65409fe4e87bf238dc913192753e8acb33fb9313beaa10e20201bb3020ddc50"
+          ],
+          "clip_ids": [
+            "native_bank_1900529f70337b29be53"
+          ]
+        },
+        {
+          "speaker_id": "S4257038600301422",
+          "score": -4.124323564003813,
+          "audio_sha256s": [
+            "8a3c1a14608ee65d4cd01d02814fb63ba4a9a764622a0ad2c61ef9cef4fa0c53"
+          ],
+          "clip_ids": [
+            "native_bank_7986acb2b4ca2775671f"
+          ]
+        },
+        {
+          "speaker_id": "S4259375800339936",
+          "score": 12.084319672858848,
+          "audio_sha256s": [
+            "f5c696e07eaf61c14508b896252241019bd06c7a01ffde69e291b548b7dec935"
+          ],
+          "clip_ids": [
+            "native_bank_7a5703dda0f0f298fe99"
+          ]
+        },
+        {
+          "speaker_id": "S4259729900369742",
+          "score": 10.731699179590713,
+          "audio_sha256s": [
+            "a9091100e5d5e2ed6a96d47cc3e6f4b41c58c6f6e243db48eff24dcfbbeebb88"
+          ],
+          "clip_ids": [
+            "native_bank_44ceb583b702d2439785"
+          ]
+        },
+        {
+          "speaker_id": "S4259771000369911",
+          "score": 9.691506368491638,
+          "audio_sha256s": [
+            "aa73cd8226d8c6fabacfb6dc83955890e1e03e7c13093106b6c56af165363b91"
+          ],
+          "clip_ids": [
+            "native_bank_35f225845a6534dcf1e2"
+          ]
+        },
+        {
+          "speaker_id": "S4259980800353695",
+          "score": 8.637689904269712,
+          "audio_sha256s": [
+            "6a765bcd57d5ba349f65dc66120274a8c75d2fdbcfb34bee31f8e1015164284f"
+          ],
+          "clip_ids": [
+            "native_bank_725972f38a65547c36e8"
+          ]
+        }
+      ],
+      "median_score": 9.832235966342486,
+      "median_absolute_deviation": 1.0470046376605007,
+      "minimum": -4.124323564003813,
+      "maximum": 12.084319672858848
+    },
+    {
+      "word": "असल",
+      "candidate_id": "schwa-00015",
+      "gap_index": 1,
+      "source_group_count": 6,
+      "references": [
+        {
+          "speaker_id": "S4256993600327187",
+          "score": -2.17057336656152,
+          "audio_sha256s": [
+            "4fe8800bff8ac0a12df15eb09c07b69c53b7dfdba1f0a57de76ed9a4f579ee0d"
+          ],
+          "clip_ids": [
+            "native_bank_900f2201d18f7f914b22"
+          ]
+        },
+        {
+          "speaker_id": "S4257182100381951",
+          "score": 1.2120337611138652,
+          "audio_sha256s": [
+            "01dfb1e71c8c0cb8cdb09ab8f0ef04ba99f91ec9044936c0c988b91044e0cccf"
+          ],
+          "clip_ids": [
+            "native_bank_5879464982f54197e1ff"
+          ]
+        },
+        {
+          "speaker_id": "S4258209300397381",
+          "score": -1.6229642763509409,
+          "audio_sha256s": [
+            "5553e100c204c75be079836cff9cadb1efdfe68781ab65a41808f2ed7280cd50"
+          ],
+          "clip_ids": [
+            "native_bank_fdf3642f2e732ac70a6f"
+          ]
+        },
+        {
+          "speaker_id": "S4259311700374147",
+          "score": 0.2861143476037977,
+          "audio_sha256s": [
+            "300f4a1f116fd744e244564070277a0cae1d2ff109d2e55aa4263a2b8e570f14"
+          ],
+          "clip_ids": [
+            "native_bank_96551e7dd646fbfb2383"
+          ]
+        },
+        {
+          "speaker_id": "S4259348900375296",
+          "score": 0.8174528085393469,
+          "audio_sha256s": [
+            "1c209047a11ff109175b4d51ea36399d9f1a705c88ea1975f61a0538fe4a691e"
+          ],
+          "clip_ids": [
+            "native_bank_cdf19f6ce5d5eef851e3"
+          ]
+        },
+        {
+          "speaker_id": "S4259771200375896",
+          "score": -2.4182918333103167,
+          "audio_sha256s": [
+            "05a743a46e0d576ac8d6c92a8c777a7f898cf355955e4ee21b8880a3ffc4e3d7"
+          ],
+          "clip_ids": [
+            "native_bank_26144922f24d6a8c074d"
+          ]
+        }
+      ],
+      "median_score": -0.6684249643735716,
+      "median_absolute_deviation": 1.4940130875504334,
+      "minimum": -2.4182918333103167,
+      "maximum": 1.2120337611138652
+    },
+    {
+      "word": "किन",
+      "candidate_id": "schwa-00041",
+      "gap_index": 3,
+      "source_group_count": 6,
+      "references": [
+        {
+          "speaker_id": "S4257154100339229",
+          "score": 10.280231096726565,
+          "audio_sha256s": [
+            "c3e36bac4af3fa52045401664b680ae3a6d2ff0d3636485cb2b08015ac87c6f3"
+          ],
+          "clip_ids": [
+            "native_bank_515ed67031db8935999a"
+          ]
+        },
+        {
+          "speaker_id": "S4258007300359488",
+          "score": 10.976933893187741,
+          "audio_sha256s": [
+            "7c064ec53c66b1878e220199afe3f50b8a0a46d3698acba902d8709e25685bcb"
+          ],
+          "clip_ids": [
+            "native_bank_8ee9c845aa107525eae9"
+          ]
+        },
+        {
+          "speaker_id": "S4258107400367029",
+          "score": 3.0608364635872505,
+          "audio_sha256s": [
+            "d1cd48a4752b6c0addc6f0564b2341ffbcdbc5cf1a0a79f3994ac329afd841cd"
+          ],
+          "clip_ids": [
+            "native_bank_d50e7284eac392dc3877"
+          ]
+        },
+        {
+          "speaker_id": "S4259093200369941",
+          "score": 9.953200711859301,
+          "audio_sha256s": [
+            "54b1dad4618175caa4cc7fc813d0d5f1dd9b73d99f82c2af72705275ec49157a"
+          ],
+          "clip_ids": [
+            "native_bank_d7a432bcfc06ff7869b6"
+          ]
+        },
+        {
+          "speaker_id": "S4259329100365878",
+          "score": 9.05338531115434,
+          "audio_sha256s": [
+            "b00a4ef893858fe4ae95ba06625d0024bec0fef0993328a7d4fe9cd09631e323"
+          ],
+          "clip_ids": [
+            "native_bank_75ca38ba942db009cf94"
+          ]
+        },
+        {
+          "speaker_id": "S4259454800379450",
+          "score": 0.0275062539727573,
+          "audio_sha256s": [
+            "65734cb479a34a6622dd8f6fd9248912aba2c96a208797ab0226485eedf4def3"
+          ],
+          "clip_ids": [
+            "native_bank_26a5e2a0ef059e1ac101"
+          ]
+        }
+      ],
+      "median_score": 9.50329301150682,
+      "median_absolute_deviation": 1.1252894834503335,
+      "minimum": 0.0275062539727573,
+      "maximum": 10.976933893187741
+    },
+    {
+      "word": "खान",
+      "candidate_id": "schwa-00050",
+      "gap_index": 3,
+      "source_group_count": 6,
+      "references": [
+        {
+          "speaker_id": "S4257754400369385",
+          "score": 8.337011141397717,
+          "audio_sha256s": [
+            "baf63185a9ff9eeada6b15c998c3abf8b7e42d56d6c559fa75d2304144fb7b76"
+          ],
+          "clip_ids": [
+            "native_bank_fced58dc4ca021a7f022"
+          ]
+        },
+        {
+          "speaker_id": "S4257818800334152",
+          "score": 0.4819719967465588,
+          "audio_sha256s": [
+            "73c45156a63f67d74197041128e3475e947a5cb3b9f993b3b7fd4e1253209d25"
+          ],
+          "clip_ids": [
+            "native_bank_d2c3a64a5d3c63ee7e6d"
+          ]
+        },
+        {
+          "speaker_id": "S4258182200316847",
+          "score": 3.603452073628624,
+          "audio_sha256s": [
+            "9a9f5690ef3c1ed23de45bb59e2074a3e39eb9664ed53758556d28729e4920d5"
+          ],
+          "clip_ids": [
+            "native_bank_8d324b1ed40fa4a729db"
+          ]
+        },
+        {
+          "speaker_id": "S4258502600318048",
+          "score": 8.415607222917181,
+          "audio_sha256s": [
+            "4f0db32f235e9a1a17a8f8281a6b48d11579dc31081bda6143da166a86b38e9b"
+          ],
+          "clip_ids": [
+            "native_bank_7b11b0a920522d913a5c"
+          ]
+        },
+        {
+          "speaker_id": "S4259408000357437",
+          "score": 9.951468334823485,
+          "audio_sha256s": [
+            "330f95c286f9af03312c034e73f27b0fd5f91dfb41df3d828083de58c852a0ce"
+          ],
+          "clip_ids": [
+            "native_bank_e2091447cc0179930ad2"
+          ]
+        },
+        {
+          "speaker_id": "S4259424500357645",
+          "score": 3.6141253323053526,
+          "audio_sha256s": [
+            "7b3b18e5116f966f60d09f7d242df3487fca46870345ed215f8048fcd0d0cdec"
+          ],
+          "clip_ids": [
+            "native_bank_00ee52129e00df2d0bd7"
+          ]
+        }
+      ],
+      "median_score": 5.975568236851535,
+      "median_absolute_deviation": 2.4060775746442786,
+      "minimum": 0.4819719967465588,
+      "maximum": 9.951468334823485
+    },
+    {
+      "word": "गर",
+      "candidate_id": "schwa-00053",
+      "gap_index": 2,
+      "source_group_count": 6,
+      "references": [
+        {
+          "speaker_id": "S4257700500348326",
+          "score": 9.539359932218847,
+          "audio_sha256s": [
+            "232e46434480c9b6603e0012662bdc17aa22a7e98659945b57d1ee294fe001cc"
+          ],
+          "clip_ids": [
+            "native_bank_14cbd2eca3b320b0029e"
+          ]
+        },
+        {
+          "speaker_id": "S4257938300377849",
+          "score": 9.193844058989683,
+          "audio_sha256s": [
+            "71070a9dd63a4732749adffb25ab0edcbc5255791a6e925096d9a3b80853c6fb"
+          ],
+          "clip_ids": [
+            "native_bank_bd468a90dff3e706b1a1"
+          ]
+        },
+        {
+          "speaker_id": "S4258006200359213",
+          "score": 9.310420254240187,
+          "audio_sha256s": [
+            "2d0eea6ebb32ec3f721e442c3c9e8f2d374eed825b40717cb16a80883dce4604"
+          ],
+          "clip_ids": [
+            "native_bank_0d8627fe1c7eb277da1f"
+          ]
+        },
+        {
+          "speaker_id": "S4259016000397503",
+          "score": 9.394478598831235,
+          "audio_sha256s": [
+            "4fa149dafd8969692401a9182fb9decf0911fd8d94a78733045a5ac5b95511e3"
+          ],
+          "clip_ids": [
+            "native_bank_0c36a92583eb0ac88df6"
+          ]
+        },
+        {
+          "speaker_id": "S4259031200302942",
+          "score": 7.270736049318234,
+          "audio_sha256s": [
+            "6123bf183111af153e5eb185a4e6177d049ab5ce3a02468afb6b8bc72bf18779"
+          ],
+          "clip_ids": [
+            "native_bank_ee7ee05e8c3edfa6879f"
+          ]
+        },
+        {
+          "speaker_id": "S4259980800353695",
+          "score": 7.644934644427924,
+          "audio_sha256s": [
+            "423b6a2d9548534ff41fd31a2b02fee7ce7e85b923a521f7a5b7d155a9b741f6"
+          ],
+          "clip_ids": [
+            "native_bank_ed7214eb912fd0d6f800"
+          ]
+        }
+      ],
+      "median_score": 9.252132156614934,
+      "median_absolute_deviation": 0.214787108910107,
+      "minimum": 7.270736049318234,
+      "maximum": 9.539359932218847
+    },
+    {
+      "word": "गरम",
+      "candidate_id": "schwa-00054",
+      "gap_index": 2,
+      "source_group_count": 6,
+      "references": [
+        {
+          "speaker_id": "S4256950900326276",
+          "score": -3.9377327005841067,
+          "audio_sha256s": [
+            "6a59978e5fd3b634775c6504804abd2a5d810dcc86b908b62064a5615feb57e4"
+          ],
+          "clip_ids": [
+            "native_bank_318c2a920a9cd4fb5b88"
+          ]
+        },
+        {
+          "speaker_id": "S4257692200386391",
+          "score": 4.19821409027068,
+          "audio_sha256s": [
+            "b2d8f239903bd15dcc024f50e78cf5686a69fa720b416e043cda4d296bd2348d"
+          ],
+          "clip_ids": [
+            "native_bank_2f66a0a4cd39c12c8ee8"
+          ]
+        },
+        {
+          "speaker_id": "S4258544700379178",
+          "score": 4.122977369707005,
+          "audio_sha256s": [
+            "b7cedf6f34a337fffe30b551ddde337c1dae594672c13d9fd16f05ac8435af93"
+          ],
+          "clip_ids": [
+            "native_bank_7426ad48cbad965dc78d"
+          ]
+        },
+        {
+          "speaker_id": "S4258569400363641",
+          "score": -3.20730430046822,
+          "audio_sha256s": [
+            "b9de783268093796b31d4a699b3f06308b1a1962e09e711faf26e52d22d67638"
+          ],
+          "clip_ids": [
+            "native_bank_566731ac2c4d448ab431"
+          ]
+        },
+        {
+          "speaker_id": "S4259384300339981",
+          "score": 0.7768822548121079,
+          "audio_sha256s": [
+            "e78051bdb7eb7abd999d8822cee941c2caa3e3a0a2b981d9fd2682e1e48f3920"
+          ],
+          "clip_ids": [
+            "native_bank_6e4b91a615bdff9284e2"
+          ]
+        },
+        {
+          "speaker_id": "S4259923300353492",
+          "score": -1.9378952355594734,
+          "audio_sha256s": [
+            "d978972c41c2c1bbf2740cbd233b81e5423737077b1b0fa1b5bb6bdad08fd6a4"
+          ],
+          "clip_ids": [
+            "native_bank_caabda893db3049071cd"
+          ]
+        }
+      ],
+      "median_score": -0.5805064903736827,
+      "median_absolute_deviation": 2.9920120101524805,
+      "minimum": -3.9377327005841067,
+      "maximum": 4.19821409027068
+    },
+    {
+      "word": "तब",
+      "candidate_id": "schwa-00111",
+      "gap_index": 2,
+      "source_group_count": 6,
+      "references": [
+        {
+          "speaker_id": "S4258034700301705",
+          "score": 2.457404227264341,
+          "audio_sha256s": [
+            "5e537fa013d4a9ab78a791b8828c7c1ffb8e32897b84dfe8a52a0e842b7a5516"
+          ],
+          "clip_ids": [
+            "native_bank_e88677de5c322a8b9908"
+          ]
+        },
+        {
+          "speaker_id": "S4258076500359661",
+          "score": 10.056556309715482,
+          "audio_sha256s": [
+            "dd41d2ce53db8aaa25961d5c0750c09a9e86593f4fb6aaedb54ce7ff387fd0a2"
+          ],
+          "clip_ids": [
+            "native_bank_2f1219e64cf838a63046"
+          ]
+        },
+        {
+          "speaker_id": "S4258084400396634",
+          "score": 1.227026613091109,
+          "audio_sha256s": [
+            "434b0280422224a5c654bced985db436430c0651ca34ca52d5eb3a4ceda8fa21"
+          ],
+          "clip_ids": [
+            "native_bank_f2c6661af8c77fd3e96d"
+          ]
+        },
+        {
+          "speaker_id": "S4258727400360509",
+          "score": 2.7029447512104294,
+          "audio_sha256s": [
+            "c67b5b47609984ada06d43b913c101e689d0ceed63efec80d24ccbe00690732c"
+          ],
+          "clip_ids": [
+            "native_bank_d1aa089b9ec6ecb07cd1"
+          ]
+        },
+        {
+          "speaker_id": "S4259321500375130",
+          "score": 0.01638812579690807,
+          "audio_sha256s": [
+            "ce3a6283c234a2000a5e30166c5bdc2eaddc4d218a06b17449d6ba846dc91175"
+          ],
+          "clip_ids": [
+            "native_bank_412a17e3a0c923400556"
+          ]
+        },
+        {
+          "speaker_id": "S4259496900361141",
+          "score": 8.052844512464798,
+          "audio_sha256s": [
+            "1d1db62ddea5f14f090f7938d440dd67b9400cd2e95db7c765a8ae24b2a244ac"
+          ],
+          "clip_ids": [
+            "native_bank_ee2c089bca9161ba7969"
+          ]
+        }
+      ],
+      "median_score": 2.5801744892373852,
+      "median_absolute_deviation": 1.9584671197933767,
+      "minimum": 0.01638812579690807,
+      "maximum": 10.056556309715482
+    },
+    {
+      "word": "तर",
+      "candidate_id": "schwa-00115",
+      "gap_index": 2,
+      "source_group_count": 6,
+      "references": [
+        {
+          "speaker_id": "S4256961300324408",
+          "score": 8.680169344145765,
+          "audio_sha256s": [
+            "cf26a744b3f85b8dc59c5a3081a0b3db9f1fe91e37f2b9eb188bc50a1c1ed8ab"
+          ],
+          "clip_ids": [
+            "native_bank_4895bc0fd8f60100f953"
+          ]
+        },
+        {
+          "speaker_id": "S4257080900301974",
+          "score": 9.063360956015035,
+          "audio_sha256s": [
+            "539c35443aca6f7127e5c8231f73e8b60c915b49088432b4589ceb91eed71236"
+          ],
+          "clip_ids": [
+            "native_bank_f1d1eda00316031b9bf7"
+          ]
+        },
+        {
+          "speaker_id": "S4258052200390134",
+          "score": 0.6871714917340359,
+          "audio_sha256s": [
+            "03c4a53d06ba9315e6679b8900826a0487711328b401f97fc3d7f133d0f9685e"
+          ],
+          "clip_ids": [
+            "native_bank_929feeecc7cf3f97436b"
+          ]
+        },
+        {
+          "speaker_id": "S4258259900397306",
+          "score": -1.9327697449903454,
+          "audio_sha256s": [
+            "9225a3cad9b3875ca90cb21fe8e22f02700161e0e3705ea726081243ea56df83"
+          ],
+          "clip_ids": [
+            "native_bank_8c548b419d496ec3549a"
+          ]
+        },
+        {
+          "speaker_id": "S4258499600394731",
+          "score": 0.4800216188259476,
+          "audio_sha256s": [
+            "0450407074a0b723f5840cacddc3d1d3a96fdcb6048655a1aff4f1824fd8f0c2"
+          ],
+          "clip_ids": [
+            "native_bank_8299b4b6da18b8109bff"
+          ]
+        },
+        {
+          "speaker_id": "S4259494700361768",
+          "score": -2.2138745985432493,
+          "audio_sha256s": [
+            "4560546d4819ca8ecc1be473b854abc468f34c64760b299f3d5da16538f86a84"
+          ],
+          "clip_ids": [
+            "native_bank_84f20ce7ac849a3b27d2"
+          ]
+        }
+      ],
+      "median_score": 0.5835965552799918,
+      "median_absolute_deviation": 2.656918727046789,
+      "minimum": -2.2138745985432493,
+      "maximum": 9.063360956015035
+    },
+    {
+      "word": "तल",
+      "candidate_id": "schwa-00118",
+      "gap_index": 2,
+      "source_group_count": 6,
+      "references": [
+        {
+          "speaker_id": "S4256963000327919",
+          "score": 1.1982034586278862,
+          "audio_sha256s": [
+            "bdc9b2cc3f289545762c57fdcc378cb5505c9ac7a5f1d5b58585ef5a96271615"
+          ],
+          "clip_ids": [
+            "native_bank_76382a804c38d0fff4e0"
+          ]
+        },
+        {
+          "speaker_id": "S4257088000351428",
+          "score": 10.84753107822674,
+          "audio_sha256s": [
+            "0f3b24d077ddcfd8359c27ccf9a4cabbb1b3345dc5dbf63c6882a7656d0ea910"
+          ],
+          "clip_ids": [
+            "native_bank_01a5755b48484b7056ed"
+          ]
+        },
+        {
+          "speaker_id": "S4257292700347526",
+          "score": 3.1655515463068618,
+          "audio_sha256s": [
+            "4e9a3548429abb62e6096de4b6771cc2a40ee4ac5bb683ae1e6b089d8f64dacf"
+          ],
+          "clip_ids": [
+            "native_bank_56c6b9379b0c009014af"
+          ]
+        },
+        {
+          "speaker_id": "S4257764000369040",
+          "score": 1.4914074461016078,
+          "audio_sha256s": [
+            "057b6e051c0e93a5fd612d5d6c73802ff254602b3efd91db0b69b7783d37349a"
+          ],
+          "clip_ids": [
+            "native_bank_986225ff1e6b0963e818"
+          ]
+        },
+        {
+          "speaker_id": "S4259307200382602",
+          "score": 4.029937650168112,
+          "audio_sha256s": [
+            "7aac9b1ff51b35e437e243443e207c8debd963e8b37d903d5db225301d613a85"
+          ],
+          "clip_ids": [
+            "native_bank_2f9783db4028bd92411f"
+          ]
+        },
+        {
+          "speaker_id": "S4259638800304563",
+          "score": -1.75218802866741,
+          "audio_sha256s": [
+            "197854d0bbcabada57b5a2c584c1bc956d58546eb9be213fad014d4e2b668d33"
+          ],
+          "clip_ids": [
+            "native_bank_18670d39e7fa6e656c84"
+          ]
+        }
+      ],
+      "median_score": 2.3284794962042348,
+      "median_absolute_deviation": 1.4158670957701127,
+      "minimum": -1.75218802866741,
+      "maximum": 10.84753107822674
+    },
+    {
+      "word": "पर",
+      "candidate_id": "schwa-00179",
+      "gap_index": 2,
+      "source_group_count": 6,
+      "references": [
+        {
+          "speaker_id": "S4256955700327169",
+          "score": 3.5963201888156373,
+          "audio_sha256s": [
+            "99bf7511ed99a0e831eb9b9526b151f6a4485b5161112e20a253e107f2d13aca"
+          ],
+          "clip_ids": [
+            "native_bank_fd43b6a2b5c69fd0c73d"
+          ]
+        },
+        {
+          "speaker_id": "S4257154100339229",
+          "score": -0.8558793633516562,
+          "audio_sha256s": [
+            "c8773f1ad3f7b17370785a36999b6526627ac65350f8a65a40452a723e406fe6"
+          ],
+          "clip_ids": [
+            "native_bank_2e957390c859061fd0e9"
+          ]
+        },
+        {
+          "speaker_id": "S4257964300389259",
+          "score": 10.39302478023646,
+          "audio_sha256s": [
+            "b2f4406deb687e48b660a84eb2402d71d9a5689097e570542aaaef12d470bd2c"
+          ],
+          "clip_ids": [
+            "native_bank_249b65fa6961e6727195"
+          ]
+        },
+        {
+          "speaker_id": "S4258014800359639",
+          "score": 8.644575372979194,
+          "audio_sha256s": [
+            "a7ea055bb7515535062989eb66d0442b6f0bd685480426363d2feb05ae4423ef"
+          ],
+          "clip_ids": [
+            "native_bank_9dde81938c4a65685bee"
+          ]
+        },
+        {
+          "speaker_id": "S4258564000363122",
+          "score": 10.690646093570969,
+          "audio_sha256s": [
+            "ed0dcb00b1981045a07d9915164b0941656245aafd14572ab1d87812972905ba"
+          ],
+          "clip_ids": [
+            "native_bank_f216580e10da964382d2"
+          ]
+        },
+        {
+          "speaker_id": "S4259301000382836",
+          "score": 4.457276439748025,
+          "audio_sha256s": [
+            "fa62e610c913732085db244009b6b8e452d7e6120f278f6d8c26be427ad0501d"
+          ],
+          "clip_ids": [
+            "native_bank_7f73e58fe2596ef5f5cb"
+          ]
+        }
+      ],
+      "median_score": 6.550925906363609,
+      "median_absolute_deviation": 3.3983522957104118,
+      "minimum": -0.8558793633516562,
+      "maximum": 10.690646093570969
+    },
+    {
+      "word": "प्राप्त",
+      "candidate_id": "schwa-00204",
+      "gap_index": 5,
+      "source_group_count": 6,
+      "references": [
+        {
+          "speaker_id": "S4257060500347481",
+          "score": -0.23880111020982575,
+          "audio_sha256s": [
+            "fbf91397ad6b80186a8402b4aaa5752a03c956abc0747fc7478cec9755b645a4"
+          ],
+          "clip_ids": [
+            "native_bank_44a9863817571dfdf88c"
+          ]
+        },
+        {
+          "speaker_id": "S4257062600351384",
+          "score": 0.199753528389504,
+          "audio_sha256s": [
+            "f18266d64653c8df7347f791809edccc986abb3960714df8033335104338dab1"
+          ],
+          "clip_ids": [
+            "native_bank_4c0f406f263e13580ff9"
+          ]
+        },
+        {
+          "speaker_id": "S4257718200369758",
+          "score": 2.812915884529902,
+          "audio_sha256s": [
+            "2e668ac0116c01251326997ee0c4b124a34d3c1c157fa274cd87a35ccd243540"
+          ],
+          "clip_ids": [
+            "native_bank_35a9406ef64601ccd505"
+          ]
+        },
+        {
+          "speaker_id": "S4258465100315719",
+          "score": -0.043700686796446675,
+          "audio_sha256s": [
+            "786b5fc64fbd7af2b514e3e9938e7f00ce1b084ed83dce719f9246dac6b7fe8a"
+          ],
+          "clip_ids": [
+            "native_bank_1652cbf578f932d194d2"
+          ]
+        },
+        {
+          "speaker_id": "S4259440200361747",
+          "score": 1.1346000705662291,
+          "audio_sha256s": [
+            "b62fdd04ecfa2844b024a88f8b4db3c2f5f1749db5f7c249aeca17891bb0d8db"
+          ],
+          "clip_ids": [
+            "native_bank_9869d8b440f098a3b007"
+          ]
+        },
+        {
+          "speaker_id": "S4259867700361421",
+          "score": -0.3168858181664973,
+          "audio_sha256s": [
+            "5c09a155fccc2d412097fcaa67c4b0569aa643368ee28218ec20e8ac7a90585f"
+          ],
+          "clip_ids": [
+            "native_bank_a677345c6031e3a8e7c0"
+          ]
+        }
+      ],
+      "median_score": 0.07802642079652866,
+      "median_absolute_deviation": 0.3558698849846902,
+      "minimum": -0.3168858181664973,
+      "maximum": 2.812915884529902
+    },
+    {
+      "word": "शुल्क",
+      "candidate_id": "schwa-00327",
+      "gap_index": 4,
+      "source_group_count": 6,
+      "references": [
+        {
+          "speaker_id": "S4257183700338924",
+          "score": -0.8583035230962599,
+          "audio_sha256s": [
+            "9c6c0b7669e71d413d472c2422ecc00ae5364f04d09d6a37e57643956f6ed96b"
+          ],
+          "clip_ids": [
+            "native_bank_6b9f092ab3aa0c84ad92"
+          ]
+        },
+        {
+          "speaker_id": "S4257258600309052",
+          "score": 10.092787170664117,
+          "audio_sha256s": [
+            "ab4d59d9c4306c49f470253a358727687baca532806077c166d2740b2e2818e1"
+          ],
+          "clip_ids": [
+            "native_bank_f2641ae8267f3fde847c"
+          ]
+        },
+        {
+          "speaker_id": "S4258038100359205",
+          "score": 1.8186998145433222,
+          "audio_sha256s": [
+            "5c967414bc2bc0cb1a07688a60c1fa68448e6df3340fbde66a088fee4fa7680f"
+          ],
+          "clip_ids": [
+            "native_bank_95e1017b6f2ad03c8826"
+          ]
+        },
+        {
+          "speaker_id": "S4258650600397479",
+          "score": -1.3183013158823185,
+          "audio_sha256s": [
+            "f16ce97f93a72d07007685195035941a834fc093759a0cd6d4dd4b5bb1d05627"
+          ],
+          "clip_ids": [
+            "native_bank_3c7dd9272b5f47e76e16"
+          ]
+        },
+        {
+          "speaker_id": "S4258709200332681",
+          "score": 3.999603477363403,
+          "audio_sha256s": [
+            "2661c2b3ed121c22f640262cd08175460dbf6d28a6b8936fbaca2fc8fb962bc4"
+          ],
+          "clip_ids": [
+            "native_bank_dea8e3a8597f75718bdf"
+          ]
+        },
+        {
+          "speaker_id": "S4259396100374865",
+          "score": 5.820446279644798,
+          "audio_sha256s": [
+            "0128526a59898f03d1e0675aa9253158cd910ae106c98a38bd683f4211502d6e"
+          ],
+          "clip_ids": [
+            "native_bank_63f669584a4f74c372be"
+          ]
+        }
+      ],
+      "median_score": 2.9091516459533624,
+      "median_absolute_deviation": 3.339374901370529,
+      "minimum": -1.3183013158823185,
+      "maximum": 10.092787170664117
+    },
+    {
+      "word": "सामना",
+      "candidate_id": "schwa-00352",
+      "gap_index": 3,
+      "source_group_count": 6,
+      "references": [
+        {
+          "speaker_id": "S4256915200327223",
+          "score": 3.081146755853082,
+          "audio_sha256s": [
+            "b0a4fea314aa0b5bc95d2b50cbd04fe88c111b5fedb2b8a0a3884bdead9b6304"
+          ],
+          "clip_ids": [
+            "native_bank_ed4e27993f2cafb1125c"
+          ]
+        },
+        {
+          "speaker_id": "S4256949000324163",
+          "score": 6.044343910091907,
+          "audio_sha256s": [
+            "4c3527460e6e0ed8c003cfcace3b5bcd65f34021e2204c53daf48591cddf09de"
+          ],
+          "clip_ids": [
+            "native_bank_65d4918198067145dcb1"
+          ]
+        },
+        {
+          "speaker_id": "S4256968700325306",
+          "score": 7.180483507139835,
+          "audio_sha256s": [
+            "cc801ced404085d61e2db8e1b6fbfe47c74b5bb1d702a1d8ffd34870acc93164"
+          ],
+          "clip_ids": [
+            "native_bank_6484bc75280d5083ce47"
+          ]
+        },
+        {
+          "speaker_id": "S4257387600341130",
+          "score": -0.36847837833870045,
+          "audio_sha256s": [
+            "692efdd53358275ee9eff420305426b044dad479288bf109696c698d4a702886"
+          ],
+          "clip_ids": [
+            "native_bank_f0631774c2759f4b0fb0"
+          ]
+        },
+        {
+          "speaker_id": "S4259007700302614",
+          "score": 8.59309340190587,
+          "audio_sha256s": [
+            "a150a0a1d7e6580820aad1f487b538b3e81f4c265683b32a5d054af16d3eca3c"
+          ],
+          "clip_ids": [
+            "native_bank_cce073b781f4c1553508"
+          ]
+        },
+        {
+          "speaker_id": "S4259317600339124",
+          "score": 7.076991587081315,
+          "audio_sha256s": [
+            "e7f72ccd3ca4e6c9a8d7b3cff13e2ffb120b11f88283684b8e5407fc39e96466"
+          ],
+          "clip_ids": [
+            "native_bank_65e80d8e305c0e865222"
+          ]
+        }
+      ],
+      "median_score": 6.560667748586611,
+      "median_absolute_deviation": 1.3261207059362414,
+      "minimum": -0.36847837833870045,
+      "maximum": 8.59309340190587
+    }
+  ],
+  "supported_anchor_words": 13,
+  "minimum_independent_source_groups": 4,
+  "comparison_rule": "For a new word/site, compare its raw counterfactual score with same-word native references; exclude the query audio and source speaker group before calculating an empirical rank. Never treat rank as Hindi probability.",
+  "no_reference_rule": "Return unsupported/insufficient references; do not substitute zero risk or a different word.",
+  "binary_threshold": null,
+  "validated_schwa_accuracy": null,
+  "limits": [
+    "Six native source groups per selected lexeme are a small reference sample.",
+    "Native lexicon alternatives may both be legitimate; reference rank is a diagnostic, not correctness.",
+    "Native phrase contexts differ. This bank cannot determine intonation appropriateness.",
+    "Each speaker contributes one averaged score, so repeated tokens do not inflate independent reference count."
+  ]
+}

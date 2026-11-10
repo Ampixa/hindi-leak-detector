@@ -1,0 +1,58 @@
+/Volumes/T9/hindi-detector/.venv-indicf5/lib/python3.12/site-packages/pyworld/__init__.py:13: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+ERROR:root:Explicit pitch-control eligibility exclusion proso49_8d42e19c1f353709032e
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_prosody_interventions.py", line 123, in main
+    raise ValueError('Invalid emitted waveform/rate/range')
+ValueError: Invalid emitted waveform/rate/range
+ERROR:root:Explicit pitch-control eligibility exclusion proso49_294c70f7b537140e6d7e
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_prosody_interventions.py", line 98, in main
+    raise ValueError('Donor focal word does not meet frozen voiced-span rule')
+ValueError: Donor focal word does not meet frozen voiced-span rule
+ERROR:root:Explicit pitch-control eligibility exclusion proso49_50b033ec6cbb49289806
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_prosody_interventions.py", line 123, in main
+    raise ValueError('Invalid emitted waveform/rate/range')
+ValueError: Invalid emitted waveform/rate/range
+ERROR:root:Explicit pitch-control eligibility exclusion proso49_5709167eb9d125991009
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_prosody_interventions.py", line 136, in main
+    raise ValueError('Emitted focal word lacks measured pitch')
+ValueError: Emitted focal word lacks measured pitch
+ERROR:root:Explicit pitch-control eligibility exclusion proso49_c32bd9b9de261713e30e
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_prosody_interventions.py", line 123, in main
+    raise ValueError('Invalid emitted waveform/rate/range')
+ValueError: Invalid emitted waveform/rate/range
+ERROR:root:Explicit pitch-control eligibility exclusion proso49_4910fe5018a84063a4ce
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_prosody_interventions.py", line 123, in main
+    raise ValueError('Invalid emitted waveform/rate/range')
+ValueError: Invalid emitted waveform/rate/range
+ERROR:root:Explicit pitch-control eligibility exclusion proso49_b356682305d0330f370d
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_prosody_interventions.py", line 83, in main
+    raise ValueError('Third Native donor content/features not qualified')
+ValueError: Third Native donor content/features not qualified
+ERROR:root:Explicit pitch-control eligibility exclusion proso49_25d82ea97871bc9dbe9e
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_prosody_interventions.py", line 83, in main
+    raise ValueError('Third Native donor content/features not qualified')
+ValueError: Third Native donor content/features not qualified
+ERROR:root:Explicit pitch-control eligibility exclusion proso49_f392995d709b544526c5
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_prosody_interventions.py", line 83, in main
+    raise ValueError('Third Native donor content/features not qualified')
+ValueError: Third Native donor content/features not qualified
+ERROR:root:Explicit pitch-control eligibility exclusion proso49_367c445f47c9d1daaddc
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_prosody_interventions.py", line 83, in main
+    raise ValueError('Third Native donor content/features not qualified')
+ValueError: Third Native donor content/features not qualified
+ERROR:root:Explicit pitch-control eligibility exclusion proso49_2522ad6c270e97cdab7d
+Traceback (most recent call last):
+  File "/Volumes/T9/hindi-detector/scripts/build_prosody_interventions.py", line 123, in main
+    raise ValueError('Invalid emitted waveform/rate/range')
+ValueError: Invalid emitted waveform/rate/range
+{"status": "complete_pitch_interventions", "counts": {"ok_pitch_interventions": 153, "excluded_pitch_intervention": 11}, "actual_hindi_error_accuracy": null, "reserved_scores_opened": false}

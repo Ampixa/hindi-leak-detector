@@ -1,0 +1,18 @@
+{
+  "reviewer_model": [
+    "claude-opus-5-5[1m]"
+  ],
+  "verdict": "Rejected candidate; no promotion. One train/development oracle-window experiment before more large data.",
+  "accepted": [
+    "Shortened-vowel S2 sets threshold; loss selection does not match operating-tail goal.",
+    "Feature overlap cannot be fixed by selecting another existing CV head.",
+    "Audit anchor-gap versus geometry-placed equal-duration windows on train/development with matched vocoder controls.",
+    "Physical manipulation labels are not independent realized phoneme or Hindi-error labels."
+  ],
+  "corrections": [
+    "The two simple baseline rules were declared in evaluate_anchored_detector.py before its single test evaluation. They were not invented after opening outcomes. They remain limited physical-control results and fail S2 admission.",
+    "A second training-only audit completed concurrently and was NOT in the Claude prompt:24 source pairs show both localization-recovery and shortened-encoder loss signals; see reports/short_vowel_localization_v75.",
+    "No oracle-window evidence can become inference input: the edit location is available only in synthetic diagnostics."
+  ],
+  "next_experiment": "Exact blank-vowel margins in current anchor gaps versus same-duration geometry windows, S2/P1w/S_world; train/development only, duration strata and phonetic-group bootstrap. No test head retuning."
+}

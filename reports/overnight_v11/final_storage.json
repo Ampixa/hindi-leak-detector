@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-11-08T04:59:20.983869+00:00",
+  "disk_usage": {
+    "total": 2000189177856,
+    "used": 1758933291008,
+    "free": 241255886848
+  },
+  "deleted_logical_bytes": 171505791,
+  "measured_free_delta_bytes": 22437888,
+  "retention_review": "2026-11-09"
+}

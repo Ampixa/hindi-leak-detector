@@ -1,0 +1,34 @@
+[
+  {
+    "candidate_id": "schwa-00029",
+    "speaker": "barsha",
+    "lexicon_request_score": 0.52585634353653,
+    "alternate_request_score": 7.16390808026917,
+    "alternate_minus_lexicon_request_score": 6.63805173673264,
+    "probe_orders_requests_as_expected": true
+  },
+  {
+    "candidate_id": "schwa-00029",
+    "speaker": "kala",
+    "lexicon_request_score": 1.249334335029781,
+    "alternate_request_score": 9.072340308363525,
+    "alternate_minus_lexicon_request_score": 7.8230059733337445,
+    "probe_orders_requests_as_expected": true
+  },
+  {
+    "candidate_id": "schwa-00030",
+    "speaker": "barsha",
+    "lexicon_request_score": 6.913314100382223,
+    "alternate_request_score": 9.40854585815724,
+    "alternate_minus_lexicon_request_score": 2.4952317577750165,
+    "probe_orders_requests_as_expected": true
+  },
+  {
+    "candidate_id": "schwa-00030",
+    "speaker": "kala",
+    "lexicon_request_score": 6.77111852250248,
+    "alternate_request_score": 8.44857501342716,
+    "alternate_minus_lexicon_request_score": 1.6774564909246799,
+    "probe_orders_requests_as_expected": true
+  }
+]

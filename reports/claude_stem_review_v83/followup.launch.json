@@ -1,0 +1,26 @@
+{
+  "pid": 49208,
+  "command": [
+    "/opt/homebrew/bin/claude",
+    "-p",
+    "--output-format",
+    "json",
+    "--tools",
+    "",
+    "--strict-mcp-config",
+    "--safe-mode",
+    "--no-session-persistence",
+    "--permission-mode",
+    "dontAsk",
+    "--effort",
+    "medium"
+  ],
+  "created_utc": "2026-11-09T14:41:31.972395+00:00",
+  "source_sha256": {
+    "scripts/train_stem_deletion.py": "e538e04febeb0cf8d53c8fa4979a350cf91f15ac5f817f30abe3346baf1f593a",
+    "tests/test_stem_deletion.py": "63001ae58d934376e6a39184e3d0fa7905f5e98aba67a32e601ce2791a234702",
+    "hindi_detector/nucleus_deletion.py": "1d6316deb80af13fe38711512780fddafe3d7d86afa6329ca4f2afb68e584d9c",
+    "hindi_detector/stem_deletion.py": "c8fff6c966a9b8716ca777c0b4cce6a6dda58f3808d13c845f99bab03b4e0d64",
+    "scripts/calibrate_asr_gate.py": "841d23a2572e4f9ad84895c89d7f4a89b43c8e150fc6817e99b569e85b2079b8"
+  }
+}

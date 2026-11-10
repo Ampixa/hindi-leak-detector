@@ -1,0 +1,7 @@
+{
+  "plan_sha256": "764feaa6e6362851755c45c830286524c4fcc20eb2bbdc420457dbec69ec03d1",
+  "model_pair_sha256": "06b469ad88fff6ea655c3c39ba7b70082ed9bb30c607afe61141b61c16b370e6",
+  "reference_inventory_sha256": "c118fa567ce107f7119527d3019d4913adfb75a5e91e70d4d4785decdcc934a3",
+  "reference_generation_uses_detector_weights": false,
+  "purpose": "Generated-reference generalization only, not classifier fitting or pronunciation gold"
+}

@@ -1,0 +1,234 @@
+{
+  "status": "complete_train_development_oracle_experiment",
+  "summaries": {
+    "train": {
+      "anchor": {
+        "0.95": {
+          "sources": 379,
+          "threshold": 1.8706016404724122,
+          "P1w_recall": 0.8258575197889182,
+          "S2_flag_rate": 0.047493403693931395,
+          "paired_S2_P1w_concordance": 0.974934036939314,
+          "paired_original_P1w_concordance": 0.978891820580475
+        },
+        "0.99": {
+          "sources": 379,
+          "threshold": 5.729717241058349,
+          "P1w_recall": 0.41160949868073876,
+          "S2_flag_rate": 0.0079155672823219,
+          "paired_S2_P1w_concordance": 0.974934036939314,
+          "paired_original_P1w_concordance": 0.978891820580475
+        }
+      },
+      "oracle": {
+        "0.95": {
+          "sources": 379,
+          "threshold": 0.05722237284298368,
+          "P1w_recall": 0.38258575197889183,
+          "S2_flag_rate": 0.047493403693931395,
+          "paired_S2_P1w_concordance": 0.9023746701846965,
+          "paired_original_P1w_concordance": 0.9287598944591029
+        },
+        "0.99": {
+          "sources": 379,
+          "threshold": 0.683329878981865,
+          "P1w_recall": 0.013192612137203167,
+          "S2_flag_rate": 0.0079155672823219,
+          "paired_S2_P1w_concordance": 0.9023746701846965,
+          "paired_original_P1w_concordance": 0.9287598944591029
+        }
+      },
+      "duration_strata": {
+        "40_to_60ms": {
+          "sources": 144,
+          "groups": 97,
+          "anchor": {
+            "sources": 144,
+            "threshold": 6.268603549728393,
+            "P1w_recall": 0.4166666666666667,
+            "S2_flag_rate": 0.006944444444444444,
+            "paired_S2_P1w_concordance": 0.96875,
+            "paired_original_P1w_concordance": 0.9930555555555556
+          },
+          "oracle": {
+            "sources": 144,
+            "threshold": 1.4522384117506326,
+            "P1w_recall": 0.0,
+            "S2_flag_rate": 0.006944444444444444,
+            "paired_S2_P1w_concordance": 0.875,
+            "paired_original_P1w_concordance": 0.9166666666666666
+          }
+        },
+        "60_to_90ms": {
+          "sources": 233,
+          "groups": 131,
+          "anchor": {
+            "sources": 233,
+            "threshold": 4.6109014911746975,
+            "P1w_recall": 0.48068669527896996,
+            "S2_flag_rate": 0.008583690987124463,
+            "paired_S2_P1w_concordance": 0.9785407725321889,
+            "paired_original_P1w_concordance": 0.9699570815450643
+          },
+          "oracle": {
+            "sources": 233,
+            "threshold": 0.12041213715762016,
+            "P1w_recall": 0.34334763948497854,
+            "S2_flag_rate": 0.008583690987124463,
+            "paired_S2_P1w_concordance": 0.9227467811158798,
+            "paired_original_P1w_concordance": 0.9399141630901288
+          }
+        },
+        "90ms_and_up": {
+          "sources": 2,
+          "groups": 1,
+          "anchor": {
+            "sources": 2,
+            "threshold": -0.580505205860138,
+            "P1w_recall": 1.0,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 1.0,
+            "paired_original_P1w_concordance": 1.0
+          },
+          "oracle": {
+            "sources": 2,
+            "threshold": -0.580505196861605,
+            "P1w_recall": 0.5,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 0.5,
+            "paired_original_P1w_concordance": 0.5
+          }
+        }
+      },
+      "oracle_recall_95_cluster_percentile_interval": [
+        0.0,
+        0.04806547619047617
+      ],
+      "bootstrap": {
+        "unit": "phonetic-collision group, voices kept together",
+        "seed": 760,
+        "replicates": 500
+      },
+      "top_decile_anchor_S2_sources": 38,
+      "top_decile_under_half_retained_coverage": 0.21052631578947367
+    },
+    "development": {
+      "anchor": {
+        "0.95": {
+          "sources": 109,
+          "threshold": 1.6608286960220338,
+          "P1w_recall": 0.8807339449541285,
+          "S2_flag_rate": 0.045871559633027525,
+          "paired_S2_P1w_concordance": 0.981651376146789,
+          "paired_original_P1w_concordance": 0.9908256880733946
+        },
+        "0.99": {
+          "sources": 109,
+          "threshold": 7.047637925872802,
+          "P1w_recall": 0.22018348623853212,
+          "S2_flag_rate": 0.009174311926605505,
+          "paired_S2_P1w_concordance": 0.981651376146789,
+          "paired_original_P1w_concordance": 0.9908256880733946
+        }
+      },
+      "oracle": {
+        "0.95": {
+          "sources": 109,
+          "threshold": 0.04182226818642511,
+          "P1w_recall": 0.45871559633027525,
+          "S2_flag_rate": 0.045871559633027525,
+          "paired_S2_P1w_concordance": 0.8899082568807339,
+          "paired_original_P1w_concordance": 0.8990825688073395
+        },
+        "0.99": {
+          "sources": 109,
+          "threshold": 0.3802998627839655,
+          "P1w_recall": 0.09174311926605505,
+          "S2_flag_rate": 0.009174311926605505,
+          "paired_S2_P1w_concordance": 0.8899082568807339,
+          "paired_original_P1w_concordance": 0.8990825688073395
+        }
+      },
+      "duration_strata": {
+        "40_to_60ms": {
+          "sources": 61,
+          "groups": 39,
+          "anchor": {
+            "sources": 61,
+            "threshold": 7.266041503677368,
+            "P1w_recall": 0.16393442622950818,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 0.9672131147540983,
+            "paired_original_P1w_concordance": 0.9836065573770492
+          },
+          "oracle": {
+            "sources": 61,
+            "threshold": 0.6811307986236657,
+            "P1w_recall": 0.0,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 0.9180327868852459,
+            "paired_original_P1w_concordance": 0.9016393442622951
+          }
+        },
+        "60_to_90ms": {
+          "sources": 47,
+          "groups": 33,
+          "anchor": {
+            "sources": 47,
+            "threshold": 2.436734901199341,
+            "P1w_recall": 0.8297872340425532,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 1.0,
+            "paired_original_P1w_concordance": 1.0
+          },
+          "oracle": {
+            "sources": 47,
+            "threshold": 0.3802998627839655,
+            "P1w_recall": 0.0425531914893617,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 0.851063829787234,
+            "paired_original_P1w_concordance": 0.8936170212765957
+          }
+        },
+        "90ms_and_up": {
+          "sources": 1,
+          "groups": 1,
+          "anchor": {
+            "sources": 1,
+            "threshold": -0.708974524011612,
+            "P1w_recall": 1.0,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 1.0,
+            "paired_original_P1w_concordance": 1.0
+          },
+          "oracle": {
+            "sources": 1,
+            "threshold": -0.7089745359365102,
+            "P1w_recall": 1.0,
+            "S2_flag_rate": 0.0,
+            "paired_S2_P1w_concordance": 1.0,
+            "paired_original_P1w_concordance": 1.0
+          }
+        }
+      },
+      "oracle_recall_95_cluster_percentile_interval": [
+        0.0,
+        0.513695652173913
+      ],
+      "bootstrap": {
+        "unit": "phonetic-collision group, voices kept together",
+        "seed": 760,
+        "replicates": 500
+      },
+      "top_decile_anchor_S2_sources": 11,
+      "top_decile_under_half_retained_coverage": 0.2727272727272727
+    }
+  },
+  "anchor_redesign_go": false,
+  "oracle_overall_recall_below_60_percent": true,
+  "decision": "No anchor-only redesign justified; inspect encoder sensitivity, physical intervention validity and duration strata before another fit.",
+  "test_read": false,
+  "model_changed": false,
+  "actual_hindi_error_accuracy": null,
+  "items_sha256": "2b36a3925d4d75a6d64193d68c19f19631d303659c74d50689ed996c0e527f34"
+}

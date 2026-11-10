@@ -1,0 +1,23 @@
+{
+  "id": "neptts_benchmark",
+  "repository": "Ampixa/neptts-bench",
+  "revision": "f44010141a727ab1c3ead8a36fecc2a48918ac26",
+  "directory": ".sources/neptts",
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha1": "555687414b556fdda1877d30ba860ff6058a7d7e",
+      "size_bytes": 1063
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha1": "44423bd6a441a7138e47a33b0c7eb13ddc0ccbbf",
+      "size_bytes": 5135
+    },
+    {
+      "path": "benchmark/sentences.json",
+      "git_blob_sha1": "90c8f231400f1748b5d70a8347af49db9cc654e0",
+      "size_bytes": 130767
+    }
+  ]
+}

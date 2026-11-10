@@ -1,0 +1,1031 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "status": "voice_confounds_measured_not_proven_absent",
+  "source_hashes": {
+    "scripts/run_voice_controls.py": "6c4da1c26167acddbe4d41624aeeff5b1e767a91532d5dda473038243dce884c",
+    "hindi_detector/voice_control.py": "f8c9c82b91fa003a4d287f40f5738e0285d6d90e3f1a050f522149c56247f185",
+    "hindi_detector/word_evidence.py": "94070a7fbb1213f2ecfc9304f71f079f4d87fdfc8af16d8520645900757f6539",
+    "hindi_detector/local_features.py": "4763df5b149f50d350fa0425fd204d9eda0d6ce05b3df1f8c3606e32d8e0519c",
+    "hindi_detector/word_model.py": "f082c7335a1ef6295de2559b153daa9bf0ef826616cfb20f610aaa3367ad06c4"
+  },
+  "word_models_sha256": "3a56e28de85292664c5902f7ba3146630212efde4e0e0637fb69f200a7c66501",
+  "voice_converter_model_revision": "f36e7edfe1684461a8343844af60babc2efbb727",
+  "plan_sha256": "e28d08497ff1059868efdae6e4304851e7ab04f545e21de53fdb4fc5f1f76dbc",
+  "controls": [
+    {
+      "original": {
+        "clip_id": "aa03252c11ff6089a4c2ec9e",
+        "system": "native_recording",
+        "sentence_id": "sent_085",
+        "speaker_id": "46aa713b",
+        "text": "खानामा नमक थोरै छ।",
+        "audio": "audio/aa03252c11ff6089a4c2ec9e.wav",
+        "sha256": "0e93e3ccd237e3bf7f1b47b4484f385576a4d6c966aa7c6621fb4c0e85a1d3ec",
+        "review_status": "unreviewed",
+        "split": "reserved_evaluation",
+        "automatic_leakage_label": null,
+        "duration": 1.66
+      },
+      "control": "identity",
+      "path": "aa03252c11ff6089a4c2ec9e_identity.wav",
+      "sha256": "ab4b4871bd2d4aa56ef451e8f3b024fd0001b16a06324182701198de3ada4cee",
+      "bytes": 72748,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 0.9931475903614458,
+        "word_timing_mae_seconds": 0.01232412347560979,
+        "mean_phone_posterior_cosine": 0.8738952279090881,
+        "relative_pitch_correlation": 0.5732080979540259,
+        "approximate_preservation_gate_passed": false,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.16933478182364317,
+          "converted_bag": 0.10863454783686449,
+          "bag_score_delta": -0.06070023398677868,
+          "max_absolute_word_score_delta": 0.07683690496662926
+        },
+        "prosody": {
+          "original_bag": 0.37341330447804855,
+          "converted_bag": 0.40561792500950405,
+          "bag_score_delta": 0.03220462053145551,
+          "max_absolute_word_score_delta": 0.11534574077864346
+        },
+        "combined": {
+          "original_bag": 0.15864036003330192,
+          "converted_bag": 0.10696147136153632,
+          "bag_score_delta": -0.05167888867176561,
+          "max_absolute_word_score_delta": 0.07067344883613733
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.9999926119335687,
+        "converted_score": 0.9999949789138112,
+        "delta": 2.3669802424741704e-06
+      },
+      "detail": "aa03252c11ff6089a4c2ec9e_identity.json",
+      "detail_sha256": "46df56e8c40a9a8ee5e1599fcf9e7f80f351aa0262aed9e9d36a3d73e6f5234d",
+      "detail_bytes": 28732
+    },
+    {
+      "original": {
+        "clip_id": "aa03252c11ff6089a4c2ec9e",
+        "system": "native_recording",
+        "sentence_id": "sent_085",
+        "speaker_id": "46aa713b",
+        "text": "खानामा नमक थोरै छ।",
+        "audio": "audio/aa03252c11ff6089a4c2ec9e.wav",
+        "sha256": "0e93e3ccd237e3bf7f1b47b4484f385576a4d6c966aa7c6621fb4c0e85a1d3ec",
+        "review_status": "unreviewed",
+        "split": "reserved_evaluation",
+        "automatic_leakage_label": null,
+        "duration": 1.66
+      },
+      "control": "voice_a",
+      "path": "aa03252c11ff6089a4c2ec9e_voice_a.wav",
+      "sha256": "2599f3878bca2abe0da56063d5ed75b5a3da1e2e1dc3e0db3742ffcb9fedaea1",
+      "bytes": 72748,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 0.9931475903614458,
+        "word_timing_mae_seconds": 0.013988757621951241,
+        "mean_phone_posterior_cosine": 0.7596645951271057,
+        "relative_pitch_correlation": 0.43310153064682955,
+        "approximate_preservation_gate_passed": false,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.16933478182364317,
+          "converted_bag": 0.08067985236445249,
+          "bag_score_delta": -0.08865492945919068,
+          "max_absolute_word_score_delta": 0.1287384406836558
+        },
+        "prosody": {
+          "original_bag": 0.37341330447804855,
+          "converted_bag": 0.3851543025614175,
+          "bag_score_delta": 0.011740998083368981,
+          "max_absolute_word_score_delta": 0.08557183666905493
+        },
+        "combined": {
+          "original_bag": 0.15864036003330192,
+          "converted_bag": 0.07352158025541301,
+          "bag_score_delta": -0.08511877977788891,
+          "max_absolute_word_score_delta": 0.1334700356234455
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.9999926119335687,
+        "converted_score": 0.999991072147785,
+        "delta": -1.539785783655212e-06
+      },
+      "detail": "aa03252c11ff6089a4c2ec9e_voice_a.json",
+      "detail_sha256": "5eeb40f9e510c8bc0827605e938520b06aa30a6a2cebca546f173560fd394397",
+      "detail_bytes": 28898
+    },
+    {
+      "original": {
+        "clip_id": "aa03252c11ff6089a4c2ec9e",
+        "system": "native_recording",
+        "sentence_id": "sent_085",
+        "speaker_id": "46aa713b",
+        "text": "खानामा नमक थोरै छ।",
+        "audio": "audio/aa03252c11ff6089a4c2ec9e.wav",
+        "sha256": "0e93e3ccd237e3bf7f1b47b4484f385576a4d6c966aa7c6621fb4c0e85a1d3ec",
+        "review_status": "unreviewed",
+        "split": "reserved_evaluation",
+        "automatic_leakage_label": null,
+        "duration": 1.66
+      },
+      "control": "voice_b",
+      "path": "aa03252c11ff6089a4c2ec9e_voice_b.wav",
+      "sha256": "b8cd65275971f3ce2f3393c9e22aaa7c7f824ee87293927465147fc825c22e82",
+      "bytes": 72748,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 0.9931475903614458,
+        "word_timing_mae_seconds": 0.016379382621951235,
+        "mean_phone_posterior_cosine": 0.7476282119750977,
+        "relative_pitch_correlation": 0.5560543808271086,
+        "approximate_preservation_gate_passed": false,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.16933478182364317,
+          "converted_bag": 0.1222612594313203,
+          "bag_score_delta": -0.047073522392322875,
+          "max_absolute_word_score_delta": 0.06642895307560456
+        },
+        "prosody": {
+          "original_bag": 0.37341330447804855,
+          "converted_bag": 0.4334163126737768,
+          "bag_score_delta": 0.060003008195728236,
+          "max_absolute_word_score_delta": 0.14337983432981138
+        },
+        "combined": {
+          "original_bag": 0.15864036003330192,
+          "converted_bag": 0.1148076930595735,
+          "bag_score_delta": -0.043832666973728424,
+          "max_absolute_word_score_delta": 0.06712691307884534
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.9999926119335687,
+        "converted_score": 0.9999977327581419,
+        "delta": 5.120824573157101e-06
+      },
+      "detail": "aa03252c11ff6089a4c2ec9e_voice_b.json",
+      "detail_sha256": "dfc384717daf8a658afa038ea5fdc37224bd0822cc282a86ef6853a400612e2f",
+      "detail_bytes": 28965
+    },
+    {
+      "original": {
+        "clip_id": "f37935a9d9b8dfb35669ccf8",
+        "system": "audio8_dpo_R3",
+        "sentence_id": "sent_085",
+        "speaker_id": "46aa713b",
+        "text": "खानामा नमक थोरै छ।",
+        "audio": "audio/f37935a9d9b8dfb35669ccf8.wav",
+        "sha256": "a46fa9fe343620b133cbb0aa1635f6c11cdc2e36a16f9cf2b2e17a30ff419ed7",
+        "review_status": "unreviewed",
+        "split": "reserved_evaluation",
+        "automatic_leakage_label": null,
+        "duration": 1.6718367346938776
+      },
+      "control": "identity",
+      "path": "f37935a9d9b8dfb35669ccf8_identity.wav",
+      "sha256": "a6f2167c80e302edd542dd4551d01776043f5216ac37a6cc2b7ae2e2bb5c7546",
+      "bytes": 73772,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 1.0,
+        "word_timing_mae_seconds": 0.010071536144578327,
+        "mean_phone_posterior_cosine": 0.9070368409156799,
+        "relative_pitch_correlation": 0.9417265164413817,
+        "approximate_preservation_gate_passed": true,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.9500665873235739,
+          "converted_bag": 0.7340376682790474,
+          "bag_score_delta": -0.21602891904452648,
+          "max_absolute_word_score_delta": 0.5467464743360464
+        },
+        "prosody": {
+          "original_bag": 0.5555799538713668,
+          "converted_bag": 0.5014603366733018,
+          "bag_score_delta": -0.05411961719806502,
+          "max_absolute_word_score_delta": 0.1626706479444765
+        },
+        "combined": {
+          "original_bag": 0.9429705100752687,
+          "converted_bag": 0.6606969910495832,
+          "bag_score_delta": -0.2822735190256854,
+          "max_absolute_word_score_delta": 0.528605985546078
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.9999989124436448,
+        "converted_score": 0.9999999910957754,
+        "delta": 1.0786521306149766e-06
+      },
+      "detail": "f37935a9d9b8dfb35669ccf8_identity.json",
+      "detail_sha256": "7d12fc51cdc46039715aad31d8ba6427400fc10aa3bba763bd24f3f671eae007",
+      "detail_bytes": 27354
+    },
+    {
+      "original": {
+        "clip_id": "f37935a9d9b8dfb35669ccf8",
+        "system": "audio8_dpo_R3",
+        "sentence_id": "sent_085",
+        "speaker_id": "46aa713b",
+        "text": "खानामा नमक थोरै छ।",
+        "audio": "audio/f37935a9d9b8dfb35669ccf8.wav",
+        "sha256": "a46fa9fe343620b133cbb0aa1635f6c11cdc2e36a16f9cf2b2e17a30ff419ed7",
+        "review_status": "unreviewed",
+        "split": "reserved_evaluation",
+        "automatic_leakage_label": null,
+        "duration": 1.6718367346938776
+      },
+      "control": "voice_a",
+      "path": "f37935a9d9b8dfb35669ccf8_voice_a.wav",
+      "sha256": "0598e4383cb2b759814195731b7838e4fc35919efa31d979dc990fef2afe77bd",
+      "bytes": 73772,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 1.0,
+        "word_timing_mae_seconds": 0.005035768072289157,
+        "mean_phone_posterior_cosine": 0.7824373841285706,
+        "relative_pitch_correlation": 0.8269337650851049,
+        "approximate_preservation_gate_passed": false,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.9500665873235739,
+          "converted_bag": 0.2690265189620815,
+          "bag_score_delta": -0.6810400683614923,
+          "max_absolute_word_score_delta": 0.7210665716531429
+        },
+        "prosody": {
+          "original_bag": 0.5555799538713668,
+          "converted_bag": 0.4826666960243288,
+          "bag_score_delta": -0.072913257847038,
+          "max_absolute_word_score_delta": 0.18974490667441385
+        },
+        "combined": {
+          "original_bag": 0.9429705100752687,
+          "converted_bag": 0.20890691002191683,
+          "bag_score_delta": -0.7340636000533518,
+          "max_absolute_word_score_delta": 0.694344822317097
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.9999989124436448,
+        "converted_score": 0.9999999998600793,
+        "delta": 1.0874164344532034e-06
+      },
+      "detail": "f37935a9d9b8dfb35669ccf8_voice_a.json",
+      "detail_sha256": "5d5e20f95f88b0f437fc5bfbd408cf5d3f598dfd68d70e3bf3bf570c0a4bb590",
+      "detail_bytes": 28689
+    },
+    {
+      "original": {
+        "clip_id": "f37935a9d9b8dfb35669ccf8",
+        "system": "audio8_dpo_R3",
+        "sentence_id": "sent_085",
+        "speaker_id": "46aa713b",
+        "text": "खानामा नमक थोरै छ।",
+        "audio": "audio/f37935a9d9b8dfb35669ccf8.wav",
+        "sha256": "a46fa9fe343620b133cbb0aa1635f6c11cdc2e36a16f9cf2b2e17a30ff419ed7",
+        "review_status": "unreviewed",
+        "split": "reserved_evaluation",
+        "automatic_leakage_label": null,
+        "duration": 1.6718367346938776
+      },
+      "control": "voice_b",
+      "path": "f37935a9d9b8dfb35669ccf8_voice_b.wav",
+      "sha256": "72c22baa26fda5530462df5a8ec9ebc9054a34276fcb4840864ce8fda4ad16de",
+      "bytes": 73772,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 1.0,
+        "word_timing_mae_seconds": 0.007553652108433749,
+        "mean_phone_posterior_cosine": 0.7549613118171692,
+        "relative_pitch_correlation": 0.8191406916568634,
+        "approximate_preservation_gate_passed": false,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.9500665873235739,
+          "converted_bag": 0.2850706550354353,
+          "bag_score_delta": -0.6649959322881385,
+          "max_absolute_word_score_delta": 0.640830001077182
+        },
+        "prosody": {
+          "original_bag": 0.5555799538713668,
+          "converted_bag": 0.5225924589552966,
+          "bag_score_delta": -0.032987494916070226,
+          "max_absolute_word_score_delta": 0.10626845311350391
+        },
+        "combined": {
+          "original_bag": 0.9429705100752687,
+          "converted_bag": 0.25687792035895557,
+          "bag_score_delta": -0.686092589716313,
+          "max_absolute_word_score_delta": 0.6614192580149036
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.9999989124436448,
+        "converted_score": 0.9999999789293539,
+        "delta": 1.06648570907808e-06
+      },
+      "detail": "f37935a9d9b8dfb35669ccf8_voice_b.json",
+      "detail_sha256": "0c032ac6284c5981eb2b50ca44261ee2c741a18b0dd51d5a0aa385a12397549a",
+      "detail_bytes": 28658
+    },
+    {
+      "original": {
+        "clip_id": "b174e8ae8d47d8da4f3d9349",
+        "system": "native_recording",
+        "sentence_id": "sent_109",
+        "speaker_id": "46aa713b",
+        "text": "तपाईं जानुहुन्छ?",
+        "audio": "audio/b174e8ae8d47d8da4f3d9349.wav",
+        "sha256": "ecf6b09cc7f54ee9aa79aef2d71a9b815bf319a536aa4ac31542e7ae9e985bcc",
+        "review_status": "unreviewed",
+        "split": "reserved_evaluation",
+        "automatic_leakage_label": null,
+        "duration": 0.98
+      },
+      "control": "identity",
+      "path": "b174e8ae8d47d8da4f3d9349_identity.wav",
+      "sha256": "53f681c932856270f4519ee6800a3d00b7a45a750071269f5ba64e3fc3d838af",
+      "bytes": 43052,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 0.9951530612244898,
+        "word_timing_mae_seconds": 0.007281249999999961,
+        "mean_phone_posterior_cosine": 0.9146098494529724,
+        "relative_pitch_correlation": 0.9551750994116525,
+        "approximate_preservation_gate_passed": true,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.019248513291044475,
+          "converted_bag": 0.033185129318620596,
+          "bag_score_delta": 0.01393661602757612,
+          "max_absolute_word_score_delta": 0.024023883879375575
+        },
+        "prosody": {
+          "original_bag": 0.4574516547862148,
+          "converted_bag": 0.38029791344836616,
+          "bag_score_delta": -0.07715374133784864,
+          "max_absolute_word_score_delta": 0.1339824300932147
+        },
+        "combined": {
+          "original_bag": 0.019174031110756704,
+          "converted_bag": 0.026719708339735478,
+          "bag_score_delta": 0.007545677228978774,
+          "max_absolute_word_score_delta": 0.013556205260967194
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.9999999988521999,
+        "converted_score": 0.9999999988870103,
+        "delta": 3.481037680330701e-11
+      },
+      "detail": "b174e8ae8d47d8da4f3d9349_identity.json",
+      "detail_sha256": "2b674a7311acec1aec617f5859748113d7c6b3756d78e1e95de97b0d8acf085b",
+      "detail_bytes": 16684
+    },
+    {
+      "original": {
+        "clip_id": "b174e8ae8d47d8da4f3d9349",
+        "system": "native_recording",
+        "sentence_id": "sent_109",
+        "speaker_id": "46aa713b",
+        "text": "तपाईं जानुहुन्छ?",
+        "audio": "audio/b174e8ae8d47d8da4f3d9349.wav",
+        "sha256": "ecf6b09cc7f54ee9aa79aef2d71a9b815bf319a536aa4ac31542e7ae9e985bcc",
+        "review_status": "unreviewed",
+        "split": "reserved_evaluation",
+        "automatic_leakage_label": null,
+        "duration": 0.98
+      },
+      "control": "voice_a",
+      "path": "b174e8ae8d47d8da4f3d9349_voice_a.wav",
+      "sha256": "519a573eb60f004aa44501e308bc987ee52243dc56aae92ed8056965e2667799",
+      "bytes": 43052,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 0.9951530612244898,
+        "word_timing_mae_seconds": 0.007281249999999961,
+        "mean_phone_posterior_cosine": 0.8860132694244385,
+        "relative_pitch_correlation": 0.971903349382828,
+        "approximate_preservation_gate_passed": true,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.019248513291044475,
+          "converted_bag": 0.7499693912344352,
+          "bag_score_delta": 0.7307208779433907,
+          "max_absolute_word_score_delta": 0.8258219560793304
+        },
+        "prosody": {
+          "original_bag": 0.4574516547862148,
+          "converted_bag": 0.4353652117748625,
+          "bag_score_delta": -0.02208644301135232,
+          "max_absolute_word_score_delta": 0.033076484581504306
+        },
+        "combined": {
+          "original_bag": 0.019174031110756704,
+          "converted_bag": 0.696564048706493,
+          "bag_score_delta": 0.6773900175957364,
+          "max_absolute_word_score_delta": 0.789685771367246
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.9999999988521999,
+        "converted_score": 0.9999999997488898,
+        "delta": 8.966898334961115e-10
+      },
+      "detail": "b174e8ae8d47d8da4f3d9349_voice_a.json",
+      "detail_sha256": "d8ad36f7e6853ce809262f7901d90087994b014cc336c43d91b52ac18e9402b4",
+      "detail_bytes": 16878
+    },
+    {
+      "original": {
+        "clip_id": "b174e8ae8d47d8da4f3d9349",
+        "system": "native_recording",
+        "sentence_id": "sent_109",
+        "speaker_id": "46aa713b",
+        "text": "तपाईं जानुहुन्छ?",
+        "audio": "audio/b174e8ae8d47d8da4f3d9349.wav",
+        "sha256": "ecf6b09cc7f54ee9aa79aef2d71a9b815bf319a536aa4ac31542e7ae9e985bcc",
+        "review_status": "unreviewed",
+        "split": "reserved_evaluation",
+        "automatic_leakage_label": null,
+        "duration": 0.98
+      },
+      "control": "voice_b",
+      "path": "b174e8ae8d47d8da4f3d9349_voice_b.wav",
+      "sha256": "4f4357b7f0ca1004ab1c036c8f966885a84275050c2940d72a5ed5ea0663d3ce",
+      "bytes": 43052,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 0.9951530612244898,
+        "word_timing_mae_seconds": 0.007281249999999961,
+        "mean_phone_posterior_cosine": 0.9102550745010376,
+        "relative_pitch_correlation": 0.9509009997514071,
+        "approximate_preservation_gate_passed": true,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.019248513291044475,
+          "converted_bag": 0.10018962098619381,
+          "bag_score_delta": 0.08094110769514934,
+          "max_absolute_word_score_delta": 0.10425424566057928
+        },
+        "prosody": {
+          "original_bag": 0.4574516547862148,
+          "converted_bag": 0.3679289220174349,
+          "bag_score_delta": -0.08952273276877992,
+          "max_absolute_word_score_delta": 0.16840964058879654
+        },
+        "combined": {
+          "original_bag": 0.019174031110756704,
+          "converted_bag": 0.08496106178992652,
+          "bag_score_delta": 0.06578703067916981,
+          "max_absolute_word_score_delta": 0.090013577260829
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.9999999988521999,
+        "converted_score": 0.9999999972200562,
+        "delta": -1.632143753482751e-09
+      },
+      "detail": "b174e8ae8d47d8da4f3d9349_voice_b.json",
+      "detail_sha256": "81a963463ad73ea7a15c484ede7a58d7b259a4e279ecdee612eac21a61429757",
+      "detail_bytes": 16901
+    },
+    {
+      "original": {
+        "clip_id": "5236f8575609fc35449231ef",
+        "system": "audio8_dpo_R3",
+        "sentence_id": "sent_109",
+        "speaker_id": "46aa713b",
+        "text": "तपाईं जानुहुन्छ?",
+        "audio": "audio/5236f8575609fc35449231ef.wav",
+        "sha256": "a1b18dc9845a1b415027cbed6f58ef4a0fcb3068b14454091f532ff03ce7ec4e",
+        "review_status": "unreviewed",
+        "split": "reserved_evaluation",
+        "automatic_leakage_label": null,
+        "duration": 1.5789569160997732
+      },
+      "control": "identity",
+      "path": "5236f8575609fc35449231ef_identity.wav",
+      "sha256": "c52c1fe50fb2e4fd9e2acaeeb8e1faa417bb7602262c05ee1e3916df1b18257c",
+      "bytes": 69676,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 1.0,
+        "word_timing_mae_seconds": 0.015182692307692314,
+        "mean_phone_posterior_cosine": 0.8889530897140503,
+        "relative_pitch_correlation": 0.21990438847333235,
+        "approximate_preservation_gate_passed": false,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.9787554435748784,
+          "converted_bag": 0.9666720535697819,
+          "bag_score_delta": -0.012083390005096506,
+          "max_absolute_word_score_delta": 0.006218337064142987
+        },
+        "prosody": {
+          "original_bag": 0.5841724290380926,
+          "converted_bag": 0.6022503398554547,
+          "bag_score_delta": 0.018077910817362097,
+          "max_absolute_word_score_delta": 0.15580057106116202
+        },
+        "combined": {
+          "original_bag": 0.9800109294175009,
+          "converted_bag": 0.9699902507147697,
+          "bag_score_delta": -0.010020678702731156,
+          "max_absolute_word_score_delta": 0.005143543355996982
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.999995364698478,
+        "converted_score": 0.9999999996659286,
+        "delta": 4.634967450511951e-06
+      },
+      "detail": "5236f8575609fc35449231ef_identity.json",
+      "detail_sha256": "da561a4ae4314bada52675e8673c2bce929843a86d18ea5d4194539810eef56f",
+      "detail_bytes": 22624
+    },
+    {
+      "original": {
+        "clip_id": "5236f8575609fc35449231ef",
+        "system": "audio8_dpo_R3",
+        "sentence_id": "sent_109",
+        "speaker_id": "46aa713b",
+        "text": "तपाईं जानुहुन्छ?",
+        "audio": "audio/5236f8575609fc35449231ef.wav",
+        "sha256": "a1b18dc9845a1b415027cbed6f58ef4a0fcb3068b14454091f532ff03ce7ec4e",
+        "review_status": "unreviewed",
+        "split": "reserved_evaluation",
+        "automatic_leakage_label": null,
+        "duration": 1.5789569160997732
+      },
+      "control": "voice_a",
+      "path": "5236f8575609fc35449231ef_voice_a.wav",
+      "sha256": "d183e307c019e8f77779542a71596b25ab7e0637c33805d40ce00cadf146e157",
+      "bytes": 69676,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 1.0,
+        "word_timing_mae_seconds": 0.005060897435897438,
+        "mean_phone_posterior_cosine": 0.7420033812522888,
+        "relative_pitch_correlation": -0.022786708757193647,
+        "approximate_preservation_gate_passed": false,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.9787554435748784,
+          "converted_bag": 0.999999999998172,
+          "bag_score_delta": 0.021244556423293592,
+          "max_absolute_word_score_delta": 0.047179796680312976
+        },
+        "prosody": {
+          "original_bag": 0.5841724290380926,
+          "converted_bag": 0.45712555274278377,
+          "bag_score_delta": -0.12704687629530886,
+          "max_absolute_word_score_delta": 0.175605603214124
+        },
+        "combined": {
+          "original_bag": 0.9800109294175009,
+          "converted_bag": 0.9999999999989648,
+          "bag_score_delta": 0.01998907058146393,
+          "max_absolute_word_score_delta": 0.04537910582391485
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.999995364698478,
+        "converted_score": 0.9999999999890374,
+        "delta": 4.635290559384941e-06
+      },
+      "detail": "5236f8575609fc35449231ef_voice_a.json",
+      "detail_sha256": "b1b2631cdb1c00a875b14b0c215340e8805828f6a6b464dbb8a5367d41eeb278",
+      "detail_bytes": 24652
+    },
+    {
+      "original": {
+        "clip_id": "5236f8575609fc35449231ef",
+        "system": "audio8_dpo_R3",
+        "sentence_id": "sent_109",
+        "speaker_id": "46aa713b",
+        "text": "तपाईं जानुहुन्छ?",
+        "audio": "audio/5236f8575609fc35449231ef.wav",
+        "sha256": "a1b18dc9845a1b415027cbed6f58ef4a0fcb3068b14454091f532ff03ce7ec4e",
+        "review_status": "unreviewed",
+        "split": "reserved_evaluation",
+        "automatic_leakage_label": null,
+        "duration": 1.5789569160997732
+      },
+      "control": "voice_b",
+      "path": "5236f8575609fc35449231ef_voice_b.wav",
+      "sha256": "98c33db94b44eb64dd3d34c063fdb2b80f0fe4ea5c6967b810b91d2a21181ae2",
+      "bytes": 69676,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 1.0,
+        "word_timing_mae_seconds": 0.010121794871794876,
+        "mean_phone_posterior_cosine": 0.9334360957145691,
+        "relative_pitch_correlation": 0.6330391979163397,
+        "approximate_preservation_gate_passed": false,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.9787554435748784,
+          "converted_bag": 0.9992593702128292,
+          "bag_score_delta": 0.020503926637950753,
+          "max_absolute_word_score_delta": 0.07198378557584008
+        },
+        "prosody": {
+          "original_bag": 0.5841724290380926,
+          "converted_bag": 0.48470639921908854,
+          "bag_score_delta": -0.0994660298190041,
+          "max_absolute_word_score_delta": 0.14785160516882367
+        },
+        "combined": {
+          "original_bag": 0.9800109294175009,
+          "converted_bag": 0.9993235905471743,
+          "bag_score_delta": 0.019312661129673447,
+          "max_absolute_word_score_delta": 0.07542711459351194
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.999995364698478,
+        "converted_score": 0.9999999651578136,
+        "delta": 4.600459335590834e-06
+      },
+      "detail": "5236f8575609fc35449231ef_voice_b.json",
+      "detail_sha256": "43611ee08fc68e4ed072e3e986d61653421fcea4465ea7074f5c65d794a60efe",
+      "detail_bytes": 23896
+    },
+    {
+      "original": {
+        "clip_id": "632a900df266346081427582",
+        "audio": "indicf5/sent_085.wav",
+        "sha256": "f4ecb0d4f4dffa9972aeb6e805732d95ad4291d2fec50505969144fa9428aac3",
+        "system": "indicf5_stock",
+        "sentence_id": "sent_085",
+        "speaker_id": "46aa713b",
+        "text": "खानामा नमक थोरै छ।",
+        "split": "reserved_evaluation",
+        "duration": 1.0133333333333334
+      },
+      "control": "identity",
+      "path": "632a900df266346081427582_identity.wav",
+      "sha256": "3274d496e897362efc4e24b46f0ffc594960023c9e6926db375b0fed4822cd70",
+      "bytes": 44588,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 0.9967928950289873,
+        "word_timing_mae_seconds": 0.013032812500000018,
+        "mean_phone_posterior_cosine": 0.9349727630615234,
+        "relative_pitch_correlation": 0.5590049549006628,
+        "approximate_preservation_gate_passed": false,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.9924428793791421,
+          "converted_bag": 0.9737621726788069,
+          "bag_score_delta": -0.01868070670033517,
+          "max_absolute_word_score_delta": 0.03529645204236134
+        },
+        "prosody": {
+          "original_bag": 0.6216072399964042,
+          "converted_bag": 0.6206189738163038,
+          "bag_score_delta": -0.0009882661801003945,
+          "max_absolute_word_score_delta": 0.022046233153838246
+        },
+        "combined": {
+          "original_bag": 0.9925497653399342,
+          "converted_bag": 0.9740067056105288,
+          "bag_score_delta": -0.018543059729405398,
+          "max_absolute_word_score_delta": 0.03580428071260877
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.9999999999999947,
+        "converted_score": 0.999999999999994,
+        "delta": -6.661338147750939e-16
+      },
+      "detail": "632a900df266346081427582_identity.json",
+      "detail_sha256": "c40a9b582b072e6a065f5261638690483eecf7eaa9250c95bb2a2fea039bd247",
+      "detail_bytes": 19350
+    },
+    {
+      "original": {
+        "clip_id": "632a900df266346081427582",
+        "audio": "indicf5/sent_085.wav",
+        "sha256": "f4ecb0d4f4dffa9972aeb6e805732d95ad4291d2fec50505969144fa9428aac3",
+        "system": "indicf5_stock",
+        "sentence_id": "sent_085",
+        "speaker_id": "46aa713b",
+        "text": "खानामा नमक थोरै छ।",
+        "split": "reserved_evaluation",
+        "duration": 1.0133333333333334
+      },
+      "control": "voice_a",
+      "path": "632a900df266346081427582_voice_a.wav",
+      "sha256": "b91f2cde23e8a857d06ad9231c802912d250690f7109b6e1a09ef58b071fae8a",
+      "bytes": 44588,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 0.9967928950289873,
+        "word_timing_mae_seconds": 0.001722499999999974,
+        "mean_phone_posterior_cosine": 0.9055598974227905,
+        "relative_pitch_correlation": 0.05711616309645735,
+        "approximate_preservation_gate_passed": false,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.9924428793791421,
+          "converted_bag": 0.8044523303093661,
+          "bag_score_delta": -0.18799054906977597,
+          "max_absolute_word_score_delta": 0.05695751649947478
+        },
+        "prosody": {
+          "original_bag": 0.6216072399964042,
+          "converted_bag": 0.5882693524568829,
+          "bag_score_delta": -0.03333788753952127,
+          "max_absolute_word_score_delta": 0.1442682681776063
+        },
+        "combined": {
+          "original_bag": 0.9925497653399342,
+          "converted_bag": 0.791041369214417,
+          "bag_score_delta": -0.2015083961255172,
+          "max_absolute_word_score_delta": 0.0616348108460113
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.9999999999999947,
+        "converted_score": 0.9999999999999492,
+        "delta": -4.551914400963142e-14
+      },
+      "detail": "632a900df266346081427582_voice_a.json",
+      "detail_sha256": "e79ddb76a2da60640523efca31370906cd2cfc708eb2884477b0108fa4ed2689",
+      "detail_bytes": 20768
+    },
+    {
+      "original": {
+        "clip_id": "632a900df266346081427582",
+        "audio": "indicf5/sent_085.wav",
+        "sha256": "f4ecb0d4f4dffa9972aeb6e805732d95ad4291d2fec50505969144fa9428aac3",
+        "system": "indicf5_stock",
+        "sentence_id": "sent_085",
+        "speaker_id": "46aa713b",
+        "text": "खानामा नमक थोरै छ।",
+        "split": "reserved_evaluation",
+        "duration": 1.0133333333333334
+      },
+      "control": "voice_b",
+      "path": "632a900df266346081427582_voice_b.wav",
+      "sha256": "80cca5898af44016473ba44a11e67f5964ffde91b38675723c14858ce9009e9f",
+      "bytes": 44588,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 0.9967928950289873,
+        "word_timing_mae_seconds": 0.00866468749999999,
+        "mean_phone_posterior_cosine": 0.855183482170105,
+        "relative_pitch_correlation": 0.550478393399885,
+        "approximate_preservation_gate_passed": false,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.9924428793791421,
+          "converted_bag": 0.9907388615970508,
+          "bag_score_delta": -0.0017040177820912827,
+          "max_absolute_word_score_delta": 0.06617768380346255
+        },
+        "prosody": {
+          "original_bag": 0.6216072399964042,
+          "converted_bag": 0.6579338037443997,
+          "bag_score_delta": 0.03632656374799548,
+          "max_absolute_word_score_delta": 0.11265935451444964
+        },
+        "combined": {
+          "original_bag": 0.9925497653399342,
+          "converted_bag": 0.9899758985880112,
+          "bag_score_delta": -0.0025738667519230596,
+          "max_absolute_word_score_delta": 0.054844557589051976
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.9999999999999947,
+        "converted_score": 0.9999999999999862,
+        "delta": -8.43769498715119e-15
+      },
+      "detail": "632a900df266346081427582_voice_b.json",
+      "detail_sha256": "ccd809e5884cb3950c5a0e5ac9c0422a3a39dbe268f62ff236577ec10e6cfa7c",
+      "detail_bytes": 20546
+    },
+    {
+      "original": {
+        "clip_id": "a07e1692f11d12a1909ed9d0",
+        "audio": "indicf5/sent_109.wav",
+        "sha256": "a3a24ae5616958a4a10cf9c3259c8eab2e8e0202c72609be00884d16715777ae",
+        "system": "indicf5_stock",
+        "sentence_id": "sent_109",
+        "speaker_id": "46aa713b",
+        "text": "तपाईं जानुहुन्छ?",
+        "split": "reserved_evaluation",
+        "duration": 0.928
+      },
+      "control": "identity",
+      "path": "a07e1692f11d12a1909ed9d0_identity.wav",
+      "sha256": "d9db0098568dc9f97dfda772b28139fba277d5464a77ffdfcc645d805be846d5",
+      "bytes": 40492,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 0.988415948275862,
+        "word_timing_mae_seconds": 0.004153442028985516,
+        "mean_phone_posterior_cosine": 0.6117318272590637,
+        "relative_pitch_correlation": -0.17176330735011613,
+        "approximate_preservation_gate_passed": false,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.9999994947891601,
+          "converted_bag": 0.9999999999695008,
+          "bag_score_delta": 5.051803407818412e-07,
+          "max_absolute_word_score_delta": 0.5913162294871768
+        },
+        "prosody": {
+          "original_bag": 0.5009027162954052,
+          "converted_bag": 0.5912025339530405,
+          "bag_score_delta": 0.09029981765763528,
+          "max_absolute_word_score_delta": 0.20339160885042545
+        },
+        "combined": {
+          "original_bag": 0.999999716299325,
+          "converted_bag": 0.999999999991392,
+          "bag_score_delta": 2.83692066949115e-07,
+          "max_absolute_word_score_delta": 0.7173815014297809
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.9999999999999996,
+        "converted_score": 0.9999999999999962,
+        "delta": -3.3306690738754696e-15
+      },
+      "detail": "a07e1692f11d12a1909ed9d0_identity.json",
+      "detail_sha256": "8a9d40b7c8600a78f18f9c073b720e37b4933c1326d4de8dad7deabdac590f21",
+      "detail_bytes": 15815
+    },
+    {
+      "original": {
+        "clip_id": "a07e1692f11d12a1909ed9d0",
+        "audio": "indicf5/sent_109.wav",
+        "sha256": "a3a24ae5616958a4a10cf9c3259c8eab2e8e0202c72609be00884d16715777ae",
+        "system": "indicf5_stock",
+        "sentence_id": "sent_109",
+        "speaker_id": "46aa713b",
+        "text": "तपाईं जानुहुन्छ?",
+        "split": "reserved_evaluation",
+        "duration": 0.928
+      },
+      "control": "voice_a",
+      "path": "a07e1692f11d12a1909ed9d0_voice_a.wav",
+      "sha256": "1e62077c3a32add381c4e7ec5eef74138fafcca70a58fa2109c5e2965059bef1",
+      "bytes": 40492,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 0.988415948275862,
+        "word_timing_mae_seconds": 0.01874293478260869,
+        "mean_phone_posterior_cosine": 0.730812668800354,
+        "relative_pitch_correlation": 0.6887395032088871,
+        "approximate_preservation_gate_passed": false,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.9999994947891601,
+          "converted_bag": 0.999999985766187,
+          "bag_score_delta": 4.90977026923467e-07,
+          "max_absolute_word_score_delta": 0.3827898585678393
+        },
+        "prosody": {
+          "original_bag": 0.5009027162954052,
+          "converted_bag": 0.5263944363098096,
+          "bag_score_delta": 0.025491720014404473,
+          "max_absolute_word_score_delta": 0.04352700631412876
+        },
+        "combined": {
+          "original_bag": 0.999999716299325,
+          "converted_bag": 0.9999999906850215,
+          "bag_score_delta": 2.7438569649707034e-07,
+          "max_absolute_word_score_delta": 0.24565974709507776
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.9999999999999996,
+        "converted_score": 0.9999999999999993,
+        "delta": -2.220446049250313e-16
+      },
+      "detail": "a07e1692f11d12a1909ed9d0_voice_a.json",
+      "detail_sha256": "ad2d6950583c2022bb8c2078a0de04b84877cfd431d440dc6e3ebf76ea3efa06",
+      "detail_bytes": 16341
+    },
+    {
+      "original": {
+        "clip_id": "a07e1692f11d12a1909ed9d0",
+        "audio": "indicf5/sent_109.wav",
+        "sha256": "a3a24ae5616958a4a10cf9c3259c8eab2e8e0202c72609be00884d16715777ae",
+        "system": "indicf5_stock",
+        "sentence_id": "sent_109",
+        "speaker_id": "46aa713b",
+        "text": "तपाईं जानुहुन्छ?",
+        "split": "reserved_evaluation",
+        "duration": 0.928
+      },
+      "control": "voice_b",
+      "path": "a07e1692f11d12a1909ed9d0_voice_b.wav",
+      "sha256": "3118bc1dbaef87a62507783e563223f2f3cd4e3f0fb93ed1fa527e242112798a",
+      "bytes": 40492,
+      "clipping_fraction_before_pcm": 0.0,
+      "quality": {
+        "duration_ratio": 0.988415948275862,
+        "word_timing_mae_seconds": 0.0034554347826086795,
+        "mean_phone_posterior_cosine": 0.6245859861373901,
+        "relative_pitch_correlation": 0.7328344034594034,
+        "approximate_preservation_gate_passed": false,
+        "gate_meaning": "Automatic diagnostic qualification only; not proof that every Nepali phone/accent is preserved"
+      },
+      "word_branches": {
+        "phonetics": {
+          "original_bag": 0.9999994947891601,
+          "converted_bag": 0.9999981851787357,
+          "bag_score_delta": -1.30961042432709e-06,
+          "max_absolute_word_score_delta": 0.6167288866944312
+        },
+        "prosody": {
+          "original_bag": 0.5009027162954052,
+          "converted_bag": 0.513308470766687,
+          "bag_score_delta": 0.012405754471281782,
+          "max_absolute_word_score_delta": 0.03131232724659894
+        },
+        "combined": {
+          "original_bag": 0.999999716299325,
+          "converted_bag": 0.9999961095330362,
+          "bag_score_delta": -3.6067662888550345e-06,
+          "max_absolute_word_score_delta": 0.7540773904989244
+        }
+      },
+      "old_global_model": {
+        "original_score": 0.9999999999999996,
+        "converted_score": 0.9999999999999118,
+        "delta": -8.770761894538737e-14
+      },
+      "detail": "a07e1692f11d12a1909ed9d0_voice_b.json",
+      "detail_sha256": "1d4b81e323264bcd387c6b4bb3c002777838aa7b69c69870025c752ce86c7cec",
+      "detail_bytes": 16193
+    }
+  ],
+  "qualified_controls": 4,
+  "target_references": [
+    {
+      "speaker_id": "S4257279900309919",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257279900309919_015789.wav",
+      "sha256": "9422790eca4cda069cec3cc74b6ac23e93db136ad6164156aa7c5f3c4cdb473c"
+    },
+    {
+      "speaker_id": "S4259445500306484",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259445500306484_002555.wav",
+      "sha256": "2992641d95aac6c80bed0057b28bb8d1ba50531566933335dd58ce23174b0e06"
+    }
+  ],
+  "limits": [
+    "Voice conversion itself can change phones/prosody; failed-preservation cases cannot establish voice sensitivity.",
+    "Identity resynthesis separates common-decoder artifacts from additional voice conversion effects.",
+    "Automatic phone/pitch preservation checks are imperfect and do not establish human phonetic identity.",
+    "Source/word models remain weakly supervised; no word-level Hindi accuracy follows from this test."
+  ]
+}

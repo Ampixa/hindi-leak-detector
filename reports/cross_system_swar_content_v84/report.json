@@ -1,0 +1,8 @@
+{
+  "outcomes": {
+    "pass": 100,
+    "quarantine": 4
+  },
+  "items_sha256": "c0bdd20e2ee86559d04bed57956b2504dabae3838962a18801326d402b07b54d",
+  "actual_hindi_error_accuracy": null
+}

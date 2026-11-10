@@ -1,0 +1,44 @@
+{
+  "training_inputs": {
+    "directory": "/Volumes/T9/hindi-detector/reports/native_main_controls_train_v71",
+    "items_sha256": "17ba6a3e065a4c836683cd304d7347b8f437cce8b8b75e07d2376ac56ba9b471",
+    "content_sha256": "ea22ac41ef91400082b8e42af020f0482fbe79f951cce538153fe5dd7cab3e6e"
+  },
+  "development_inputs": {
+    "directory": "/Volumes/T9/hindi-detector/reports/native_main_controls_development_v71",
+    "items_sha256": "71dd9d182c8f69e2fa00c9bb0c3b72bcf63e799dc976b44e3ddbdb358914df2d",
+    "content_sha256": "c395e73e79ebb41fa209da018370305e2e27edac8518e841d5d281f1622d5a8f"
+  },
+  "model_family": "Convex linear logistic classifiers only; no word/source/voice/duration/availability/anchor-damage inputs.",
+  "candidate_modes": [
+    "local14",
+    "primary7",
+    "secondary7",
+    "gap_mass4",
+    "no_margin8"
+  ],
+  "ridges": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "cv": "Train only:3 phonetic-collision folds x4 voice cells. Validation=(groupfold=k AND voice=v); training excludes groupfold=k OR voice=v. All source variants share a cell.",
+  "selection": "Minimum equal-group/source/class weighted pooled out-of-fold BCE, then fewer features, then stronger ridge. Final fit train only. No development early stopping.",
+  "calibration": "Development only: threshold=max(0.5,99th percentile of S0,99th percentile of S2)+1e-5. Hardest predeclared family; do not pool easy controls. Development results are calibration, not accuracy.",
+  "post_edit_failures": "Recorded in attempted datasets and denominator; missing features excluded from fitting only, with counts by label/family. Positive abstentions are misses in test; negative abstentions are not counted correct.",
+  "unfiltered_sources": "Canonical and natural edited requests are unlabeled realization diagnostics, not acceptable-Native/error gold and not used to set threshold.",
+  "test": "Separate test control directory is not read or created here. Open once after external hash freeze.",
+  "admission_before_test": {
+    "minimum_test_P1_sources": 80,
+    "minimum_test_lexemes": 40,
+    "minimum_test_conditioning_groups": 4,
+    "P1_recall": 0.8,
+    "P1w_recall": 0.8,
+    "S0_false_flag_rate": 0.025,
+    "other_retained_vowel_control_false_flag_rate": 0.05,
+    "maximum_abstention_per_family": 0.05,
+    "P1u_recall_drop_vs_P1": 0.1
+  },
+  "actual_hindi_error_accuracy": null,
+  "production_changed": false
+}

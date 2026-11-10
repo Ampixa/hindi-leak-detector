@@ -1,0 +1,10 @@
+{
+  "pid": 15244,
+  "command": [
+    "/Volumes/T9/hindi-detector/.venv-indicf5/bin/python",
+    "-u",
+    "-m",
+    "scripts.finalize_corrected_training"
+  ],
+  "created_utc": "2026-11-08T08:38:09.379068+00:00"
+}

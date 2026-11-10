@@ -1,0 +1,2958 @@
+{
+  "experiment_id": "teacher_indicf5_v14",
+  "role": "prosody_transfer_third_native_donor",
+  "jobs": [
+    {
+      "id": "proso49_bd55bb80e1d6402d5f8c",
+      "text_id": "night11_1d91b596dabd41bc22c7",
+      "text": "कृपया बहन भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया बहन भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "बहन"
+      ],
+      "speaker_id": "S4259065500397435",
+      "split": "train",
+      "reference_audio": "references/b4dbd4e331d85f74be88.wav",
+      "reference_text": "मेरो पेटिएम वालेट सक्रिय गर्न कृपया मेरो प्यान कार्ड",
+      "reference_sha256": "d7f317a293d1f49e09db014a3995db4b9dcb571d91b9c90eec71be5d801934d3",
+      "source_reference_sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_5b2e0d49bff14b493763",
+      "text_id": "night11_12ecdc07c27ee326020c",
+      "text": "अर्को शब्द होइन, मैले मल्ल भनेको हुँ।",
+      "canonical_text": "अर्को शब्द होइन, मैले मल्ल भनेको हुँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "मल्ल"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_f1a2ce0abf940209d65e",
+      "text_id": "night11_0238f289bd6234a52ba9",
+      "text": "म फेरि गहना भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि गहना भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "गहना"
+      ],
+      "speaker_id": "S4259065500397435",
+      "split": "train",
+      "reference_audio": "references/b4dbd4e331d85f74be88.wav",
+      "reference_text": "मेरो पेटिएम वालेट सक्रिय गर्न कृपया मेरो प्यान कार्ड",
+      "reference_sha256": "d7f317a293d1f49e09db014a3995db4b9dcb571d91b9c90eec71be5d801934d3",
+      "source_reference_sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_fdeb85d3ca536461a989",
+      "text_id": "night11_03acb94857f7fed3d50a",
+      "text": "म फेरि सिद्ध भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि सिद्ध भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "सिद्ध"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_5c8244762d34c4d79081",
+      "text_id": "night11_0497b28f49f95009b292",
+      "text": "तपाईंले केर भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले केर भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "केर"
+      ],
+      "speaker_id": "S4259065500397435",
+      "split": "train",
+      "reference_audio": "references/b4dbd4e331d85f74be88.wav",
+      "reference_text": "मेरो पेटिएम वालेट सक्रिय गर्न कृपया मेरो प्यान कार्ड",
+      "reference_sha256": "d7f317a293d1f49e09db014a3995db4b9dcb571d91b9c90eec71be5d801934d3",
+      "source_reference_sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_a22d53a6793fc3c29c18",
+      "text_id": "night11_38ca3f721c28a161169a",
+      "text": "मैले एनजिओ मदर हेल्प टचलाई दिएको चन्दाको रसिद किन पाएको छैन",
+      "canonical_text": "मैले एनजिओ मदर हेल्प टचलाई दिएको चन्दाको रसिद किन पाएको छैन",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "किन"
+      ],
+      "speaker_id": "S4257298100347538",
+      "split": "train",
+      "reference_audio": "references/1b6bbab00edeae707ea0.wav",
+      "reference_text": "म सङ्गीत सुन्न रुचाउँछु मलाई आधुनिक प्रकारको",
+      "reference_sha256": "d4d56b3a3fe9776df4bd70d84f68b6c3223f7538bf431d31df2bdc8b93d1061f",
+      "source_reference_sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_82dd8cc99351cb795753",
+      "text_id": "night11_1b0358edfa0d075fec45",
+      "text": "हामी डिसनेरी जस्तो डिस्नेरी छ शब्दकोशहरू यहाँको शब्दकोश र उहाँको शब्दकोशहरू हेर्छु शब्दकोशमा एउटै अर्थ हुन्छ एउटै",
+      "canonical_text": "हामी डिसनेरी जस्तो डिस्नेरी छ शब्दकोशहरू यहाँको शब्दकोश र उहाँको शब्दकोशहरू हेर्छु शब्दकोशमा एउटै अर्थ हुन्छ एउटै",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "अर्थ"
+      ],
+      "speaker_id": "S4259065500397435",
+      "split": "train",
+      "reference_audio": "references/b4dbd4e331d85f74be88.wav",
+      "reference_text": "मेरो पेटिएम वालेट सक्रिय गर्न कृपया मेरो प्यान कार्ड",
+      "reference_sha256": "d7f317a293d1f49e09db014a3995db4b9dcb571d91b9c90eec71be5d801934d3",
+      "source_reference_sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_13282d41c200d1db85ca",
+      "text_id": "night11_1e5fb950e0a5e20866c9",
+      "text": "म फेरि पुर भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि पुर भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "पुर"
+      ],
+      "speaker_id": "S4257689200333878",
+      "split": "train",
+      "reference_audio": "references/1e15d89ce82208962c53.wav",
+      "reference_text": "मेरो वस्तु सूचीबाट नेचर ल्यान्ड अर्गानिक्स कसुरी मेथी",
+      "reference_sha256": "b9fd0d72cade8dd69a7d7abcf15cb4d6c969e09bb8d2d3aa23c95a32360dcd8e",
+      "source_reference_sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_8d42e19c1f353709032e",
+      "text_id": "night11_1e68f787072aca469652",
+      "text": "उनले अन्त्यमा अर्ब शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा अर्ब शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "अर्ब"
+      ],
+      "speaker_id": "S4257751100369637",
+      "split": "train",
+      "reference_audio": "references/6ed10838a90596e87758.wav",
+      "reference_text": "जन्मसिद्ध अधिकारको निम्ति चाहिँ झुक्दै नझुक्नु",
+      "reference_sha256": "107a7e84affa1ff219e75013472aaa0230d54269c25eb14fd1cfd64033886bbb",
+      "source_reference_sha256": "6ed10838a90596e8775880ff7a3116342079317d98b9ec29fe1737eaeebe9e6b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_bc6a396a44b22668f4d8",
+      "text_id": "night11_173796553bbcf3315be8",
+      "text": "तपाईंले स्वर्ण भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले स्वर्ण भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "स्वर्ण"
+      ],
+      "speaker_id": "S4259477200361463",
+      "split": "train",
+      "reference_audio": "references/b3ce03a672bcb6eaf985.wav",
+      "reference_text": "बाल्यकालमा हामी सबै मिली स्कुलको",
+      "reference_sha256": "483e173339e7a6658d61602271a5efed0c381c41138be6d84e0821c35b9ed35c",
+      "source_reference_sha256": "b3ce03a672bcb6eaf9859682766953f05055ade8277e6c23afd1b00efa038247",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_d4e95913dc5fd9c889d4",
+      "text_id": "night11_0183e199ea7d95f24f88",
+      "text": "कृपया छान भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया छान भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "छान"
+      ],
+      "speaker_id": "S4257387500340373",
+      "split": "train",
+      "reference_audio": "references/68c1e148215f30f0a62f.wav",
+      "reference_text": "ब यसको व्याकरण छुट्टै एउटा मौलिकतामा नेपाली भाषा आजको समय",
+      "reference_sha256": "1d1f5a71937070ac54c890438d53f955773a7108d42ff6e3ae9a8dcb0aaf57e0",
+      "source_reference_sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_b55dbc15cfe8c2759937",
+      "text_id": "night11_0cf4026905f7eba05eed",
+      "text": "तपाईंले मेहरा भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले मेहरा भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "मेहरा"
+      ],
+      "speaker_id": "S4257298100347538",
+      "split": "train",
+      "reference_audio": "references/1b6bbab00edeae707ea0.wav",
+      "reference_text": "म सङ्गीत सुन्न रुचाउँछु मलाई आधुनिक प्रकारको",
+      "reference_sha256": "d4d56b3a3fe9776df4bd70d84f68b6c3223f7538bf431d31df2bdc8b93d1061f",
+      "source_reference_sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_997b4a4c9f2df101c7df",
+      "text_id": "night11_0977a68948e49d92b425",
+      "text": "यो वाक्यमा सिवाय शब्द प्रयोग गरिएको छ।",
+      "canonical_text": "यो वाक्यमा सिवाय शब्द प्रयोग गरिएको छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "सिवाय"
+      ],
+      "speaker_id": "S4257689200333878",
+      "split": "train",
+      "reference_audio": "references/1e15d89ce82208962c53.wav",
+      "reference_text": "मेरो वस्तु सूचीबाट नेचर ल्यान्ड अर्गानिक्स कसुरी मेथी",
+      "reference_sha256": "b9fd0d72cade8dd69a7d7abcf15cb4d6c969e09bb8d2d3aa23c95a32360dcd8e",
+      "source_reference_sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_ea29145886ce37b544c1",
+      "text_id": "night11_20cdc3af88165186c9b6",
+      "text": "तपाईंले समेट भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले समेट भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "समेट"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_27d6832338f769d95f01",
+      "text_id": "night11_0d73dd7c0a60f307c602",
+      "text": "म फेरि बोहरा भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि बोहरा भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "बोहरा"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_8bf09ffd1eb3fa0704a3",
+      "text_id": "night11_173a3537d04f1e68e5d5",
+      "text": "अर्को शब्द होइन, मैले गुप्त भनेको हुँ।",
+      "canonical_text": "अर्को शब्द होइन, मैले गुप्त भनेको हुँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "गुप्त"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_8e85ff29655a3f7d1549",
+      "text_id": "night11_17baa36765f607083eba",
+      "text": "उनले अन्त्यमा रक्त शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा रक्त शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "रक्त"
+      ],
+      "speaker_id": "S4259477200361463",
+      "split": "train",
+      "reference_audio": "references/b3ce03a672bcb6eaf985.wav",
+      "reference_text": "बाल्यकालमा हामी सबै मिली स्कुलको",
+      "reference_sha256": "483e173339e7a6658d61602271a5efed0c381c41138be6d84e0821c35b9ed35c",
+      "source_reference_sha256": "b3ce03a672bcb6eaf9859682766953f05055ade8277e6c23afd1b00efa038247",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_b59b73f80c4555373ed7",
+      "text_id": "night11_1e88fe7926836b45370e",
+      "text": "उनले अन्त्यमा कन शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा कन शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "कन"
+      ],
+      "speaker_id": "S4259065500397435",
+      "split": "train",
+      "reference_audio": "references/b4dbd4e331d85f74be88.wav",
+      "reference_text": "मेरो पेटिएम वालेट सक्रिय गर्न कृपया मेरो प्यान कार्ड",
+      "reference_sha256": "d7f317a293d1f49e09db014a3995db4b9dcb571d91b9c90eec71be5d801934d3",
+      "source_reference_sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_b76a7d8d37bd49c56db1",
+      "text_id": "night11_3f06ebf321db9fc64e4e",
+      "text": "ग्रीष्म ऋतु चालिस सेल्सियससम्म बढेको तापमानसँग गरम हुन्छ",
+      "canonical_text": "ग्रीष्म ऋतु चालिस सेल्सियससम्म बढेको तापमानसँग गरम हुन्छ",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "गरम"
+      ],
+      "speaker_id": "S4257751100369637",
+      "split": "train",
+      "reference_audio": "references/6ed10838a90596e87758.wav",
+      "reference_text": "जन्मसिद्ध अधिकारको निम्ति चाहिँ झुक्दै नझुक्नु",
+      "reference_sha256": "107a7e84affa1ff219e75013472aaa0230d54269c25eb14fd1cfd64033886bbb",
+      "source_reference_sha256": "6ed10838a90596e8775880ff7a3116342079317d98b9ec29fe1737eaeebe9e6b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_a19ce206d6de92a1f600",
+      "text_id": "night11_06cc99a803afbcb698d2",
+      "text": "अर्को शब्द होइन, मैले बुद्ध भनेको हुँ।",
+      "canonical_text": "अर्को शब्द होइन, मैले बुद्ध भनेको हुँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "बुद्ध"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_032334655bc23fcd5be5",
+      "text_id": "night11_0cc2193207eb86b8022f",
+      "text": "कृपया कल्प भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया कल्प भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "कल्प"
+      ],
+      "speaker_id": "S4257689200333878",
+      "split": "train",
+      "reference_audio": "references/1e15d89ce82208962c53.wav",
+      "reference_text": "मेरो वस्तु सूचीबाट नेचर ल्यान्ड अर्गानिक्स कसुरी मेथी",
+      "reference_sha256": "b9fd0d72cade8dd69a7d7abcf15cb4d6c969e09bb8d2d3aa23c95a32360dcd8e",
+      "source_reference_sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_294c70f7b537140e6d7e",
+      "text_id": "night11_14e9463a4f2a39ee99ca",
+      "text": "आजको अभ्यासमा हामी जब शब्द पढ्छौँ।",
+      "canonical_text": "आजको अभ्यासमा हामी जब शब्द पढ्छौँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "जब"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_745712e93f82a31cdeda",
+      "text_id": "night11_231036a3537e879c4ca7",
+      "text": "खटखतेमा कम्तिमा पाँच तरकारी ताजा नरिवल र विशेष गोआन मसला हुन्छन् जसले सुगन्ध थप्छ",
+      "canonical_text": "खटखतेमा कम्तिमा पाँच तरकारी ताजा नरिवल र विशेष गोआन मसला हुन्छन् जसले सुगन्ध थप्छ",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "मसला"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_aed5a1d70035b90d0570",
+      "text_id": "night11_1bdddc044ee6df57f5c8",
+      "text": "कृपया ज्येष्ठ भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया ज्येष्ठ भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "ज्येष्ठ"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_4f268ff4c4e09f8a18e7",
+      "text_id": "night11_207113ba7e106029128a",
+      "text": "उनले अन्त्यमा युद्ध शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा युद्ध शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "युद्ध"
+      ],
+      "speaker_id": "S4257298100347538",
+      "split": "train",
+      "reference_audio": "references/1b6bbab00edeae707ea0.wav",
+      "reference_text": "म सङ्गीत सुन्न रुचाउँछु मलाई आधुनिक प्रकारको",
+      "reference_sha256": "d4d56b3a3fe9776df4bd70d84f68b6c3223f7538bf431d31df2bdc8b93d1061f",
+      "source_reference_sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_fe735604d0bec9e0c157",
+      "text_id": "night11_1691127e2da52a971b06",
+      "text": "तपाईंले लट्ठ भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले लट्ठ भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "लट्ठ"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_cad33c57bdd2cea041ae",
+      "text_id": "night11_3f2994577eb8f1bce6c1",
+      "text": "कति खान खानापिउने खानापिना किन्नुपर्ने यो सब महिलाको काम हुन्छ र",
+      "canonical_text": "कति खान खानापिउने खानापिना किन्नुपर्ने यो सब महिलाको काम हुन्छ र",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "खान"
+      ],
+      "speaker_id": "S4259065500397435",
+      "split": "train",
+      "reference_audio": "references/b4dbd4e331d85f74be88.wav",
+      "reference_text": "मेरो पेटिएम वालेट सक्रिय गर्न कृपया मेरो प्यान कार्ड",
+      "reference_sha256": "d7f317a293d1f49e09db014a3995db4b9dcb571d91b9c90eec71be5d801934d3",
+      "source_reference_sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_b350d2c1d83b9c4628d9",
+      "text_id": "night11_174c3d71620f7c33df35",
+      "text": "आजको अभ्यासमा हामी पुतला शब्द पढ्छौँ।",
+      "canonical_text": "आजको अभ्यासमा हामी पुतला शब्द पढ्छौँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "पुतला"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_194d4b4bc9d1e8533789",
+      "text_id": "night11_00b115d80d4cd84eca68",
+      "text": "अनि त्यसपछि टाइगर हिल जहाँबाट चाहिँ हामी सूर्य उदायको हेर्न देख्न सक्छौँ बिहान दुईबजे",
+      "canonical_text": "अनि त्यसपछि टाइगर हिल जहाँबाट चाहिँ हामी सूर्य उदायको हेर्न देख्न सक्छौँ बिहान दुईबजे",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "बिहान"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_9c894fbd1243c1c9de2f",
+      "text_id": "night11_0c7952ceb65be3c92214",
+      "text": "कृपया पय भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया पय भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "पय"
+      ],
+      "speaker_id": "S4257298100347538",
+      "split": "train",
+      "reference_audio": "references/1b6bbab00edeae707ea0.wav",
+      "reference_text": "म सङ्गीत सुन्न रुचाउँछु मलाई आधुनिक प्रकारको",
+      "reference_sha256": "d4d56b3a3fe9776df4bd70d84f68b6c3223f7538bf431d31df2bdc8b93d1061f",
+      "source_reference_sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_747ffeeacc967ae38799",
+      "text_id": "night11_149582b032eac5d98946",
+      "text": "तपाईंले जय भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले जय भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "जय"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_71532eaf2935cd5a0c93",
+      "text_id": "night11_202be8ecbc86393660b8",
+      "text": "तपाईंले दोस्त भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले दोस्त भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "दोस्त"
+      ],
+      "speaker_id": "S4259477200361463",
+      "split": "train",
+      "reference_audio": "references/b3ce03a672bcb6eaf985.wav",
+      "reference_text": "बाल्यकालमा हामी सबै मिली स्कुलको",
+      "reference_sha256": "483e173339e7a6658d61602271a5efed0c381c41138be6d84e0821c35b9ed35c",
+      "source_reference_sha256": "b3ce03a672bcb6eaf9859682766953f05055ade8277e6c23afd1b00efa038247",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_f003368a967b367fb7f2",
+      "text_id": "night11_1ddb0558191282370817",
+      "text": "म फेरि नगर भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि नगर भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "नगर"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_22c3bf325d16850ba676",
+      "text_id": "night11_2c32ba0aa370bf415431",
+      "text": "वातावरणीय अवस्थालाई हेऱ्यौँ भने यहाँनिर यहाँको स्वच्छ जलवायु र त छँदैछ तर बढ्दो जनसङ्ख्या र",
+      "canonical_text": "वातावरणीय अवस्थालाई हेऱ्यौँ भने यहाँनिर यहाँको स्वच्छ जलवायु र त छँदैछ तर बढ्दो जनसङ्ख्या र",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "स्वच्छ"
+      ],
+      "speaker_id": "S4257387500340373",
+      "split": "train",
+      "reference_audio": "references/68c1e148215f30f0a62f.wav",
+      "reference_text": "ब यसको व्याकरण छुट्टै एउटा मौलिकतामा नेपाली भाषा आजको समय",
+      "reference_sha256": "1d1f5a71937070ac54c890438d53f955773a7108d42ff6e3ae9a8dcb0aaf57e0",
+      "source_reference_sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_ed143b67ed906dea872e",
+      "text_id": "night11_18ed117b1cd183a21632",
+      "text": "कृपया पदार्थ भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया पदार्थ भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "पदार्थ"
+      ],
+      "speaker_id": "S4257387500340373",
+      "split": "train",
+      "reference_audio": "references/68c1e148215f30f0a62f.wav",
+      "reference_text": "ब यसको व्याकरण छुट्टै एउटा मौलिकतामा नेपाली भाषा आजको समय",
+      "reference_sha256": "1d1f5a71937070ac54c890438d53f955773a7108d42ff6e3ae9a8dcb0aaf57e0",
+      "source_reference_sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_cbeb33cb998b612d4ad6",
+      "text_id": "night11_15270fa0c91bfd075129",
+      "text": "म फेरि अल्लाह भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि अल्लाह भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "अल्लाह"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_c847f9324e19156df71f",
+      "text_id": "night11_1db927b73fd521383e43",
+      "text": "कृपया कर्मचारी भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया कर्मचारी भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "कर्मचारी"
+      ],
+      "speaker_id": "S4257751100369637",
+      "split": "train",
+      "reference_audio": "references/6ed10838a90596e87758.wav",
+      "reference_text": "जन्मसिद्ध अधिकारको निम्ति चाहिँ झुक्दै नझुक्नु",
+      "reference_sha256": "107a7e84affa1ff219e75013472aaa0230d54269c25eb14fd1cfd64033886bbb",
+      "source_reference_sha256": "6ed10838a90596e8775880ff7a3116342079317d98b9ec29fe1737eaeebe9e6b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_3bab12171d9b9c29a1f8",
+      "text_id": "night11_12a4e5340a63c822a292",
+      "text": "उनले अन्त्यमा युक्त शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा युक्त शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "युक्त"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_bccec279935f3935216b",
+      "text_id": "night11_1570ef890d5d98ad59a8",
+      "text": "आजको अभ्यासमा हामी पस शब्द पढ्छौँ।",
+      "canonical_text": "आजको अभ्यासमा हामी पस शब्द पढ्छौँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "पस"
+      ],
+      "speaker_id": "S4257387500340373",
+      "split": "train",
+      "reference_audio": "references/68c1e148215f30f0a62f.wav",
+      "reference_text": "ब यसको व्याकरण छुट्टै एउटा मौलिकतामा नेपाली भाषा आजको समय",
+      "reference_sha256": "1d1f5a71937070ac54c890438d53f955773a7108d42ff6e3ae9a8dcb0aaf57e0",
+      "source_reference_sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_bb5a23cc8c39b4754f2c",
+      "text_id": "night11_09dd168606bbfef2224c",
+      "text": "उनले अन्त्यमा कलह शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा कलह शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "कलह"
+      ],
+      "speaker_id": "S4257689200333878",
+      "split": "train",
+      "reference_audio": "references/1e15d89ce82208962c53.wav",
+      "reference_text": "मेरो वस्तु सूचीबाट नेचर ल्यान्ड अर्गानिक्स कसुरी मेथी",
+      "reference_sha256": "b9fd0d72cade8dd69a7d7abcf15cb4d6c969e09bb8d2d3aa23c95a32360dcd8e",
+      "source_reference_sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_50b033ec6cbb49289806",
+      "text_id": "night11_1694c778dbd510c50b38",
+      "text": "कृपया लब्ध भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया लब्ध भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "लब्ध"
+      ],
+      "speaker_id": "S4257387500340373",
+      "split": "train",
+      "reference_audio": "references/68c1e148215f30f0a62f.wav",
+      "reference_text": "ब यसको व्याकरण छुट्टै एउटा मौलिकतामा नेपाली भाषा आजको समय",
+      "reference_sha256": "1d1f5a71937070ac54c890438d53f955773a7108d42ff6e3ae9a8dcb0aaf57e0",
+      "source_reference_sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_4846dbfaf106d7f38fbd",
+      "text_id": "night11_04a1356a49283fb9e947",
+      "text": "अर्को शब्द होइन, मैले साध भनेको हुँ।",
+      "canonical_text": "अर्को शब्द होइन, मैले साध भनेको हुँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "साध"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_ac5a2cab91a738a80261",
+      "text_id": "night11_0415b1f26bd2b4a79cf1",
+      "text": "कृपया कष्ट भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया कष्ट भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "कष्ट"
+      ],
+      "speaker_id": "S4257387500340373",
+      "split": "train",
+      "reference_audio": "references/68c1e148215f30f0a62f.wav",
+      "reference_text": "ब यसको व्याकरण छुट्टै एउटा मौलिकतामा नेपाली भाषा आजको समय",
+      "reference_sha256": "1d1f5a71937070ac54c890438d53f955773a7108d42ff6e3ae9a8dcb0aaf57e0",
+      "source_reference_sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_6c2f3b1ce8ca4d972544",
+      "text_id": "night11_112d6d6aca0f0807b7ab",
+      "text": "अर्को शब्द होइन, मैले दशहरा भनेको हुँ।",
+      "canonical_text": "अर्को शब्द होइन, मैले दशहरा भनेको हुँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "दशहरा"
+      ],
+      "speaker_id": "S4257387500340373",
+      "split": "train",
+      "reference_audio": "references/68c1e148215f30f0a62f.wav",
+      "reference_text": "ब यसको व्याकरण छुट्टै एउटा मौलिकतामा नेपाली भाषा आजको समय",
+      "reference_sha256": "1d1f5a71937070ac54c890438d53f955773a7108d42ff6e3ae9a8dcb0aaf57e0",
+      "source_reference_sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_594b474fa0d1b22fb925",
+      "text_id": "night11_1e9e7935912a540189c6",
+      "text": "म फेरि नलिन भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि नलिन भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "नलिन"
+      ],
+      "speaker_id": "S4257751100369637",
+      "split": "train",
+      "reference_audio": "references/6ed10838a90596e87758.wav",
+      "reference_text": "जन्मसिद्ध अधिकारको निम्ति चाहिँ झुक्दै नझुक्नु",
+      "reference_sha256": "107a7e84affa1ff219e75013472aaa0230d54269c25eb14fd1cfd64033886bbb",
+      "source_reference_sha256": "6ed10838a90596e8775880ff7a3116342079317d98b9ec29fe1737eaeebe9e6b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_4adcf51d3bfaac631030",
+      "text_id": "night11_0afb765d1c7339321dc0",
+      "text": "म फेरि कमला भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि कमला भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "कमला"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_301174e31c2ab034ab63",
+      "text_id": "night11_28aaeaf1a295b04308b4",
+      "text": "पश्चिम बङ्गाल गुजरात पन्जाब महाराष्ट्र तेलङ्गना",
+      "canonical_text": "पश्चिम बङ्गाल गुजरात पन्जाब महाराष्ट्र तेलङ्गना",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "गुजरात"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_059df9598a64cc1ca6b8",
+      "text_id": "night11_20ef2939f1e7661f163f",
+      "text": "अर्को शब्द होइन, मैले दायर भनेको हुँ।",
+      "canonical_text": "अर्को शब्द होइन, मैले दायर भनेको हुँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "दायर"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_5709167eb9d125991009",
+      "text_id": "night11_11add79c2018ae75aa02",
+      "text": "उनले अन्त्यमा सार्थ शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा सार्थ शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "सार्थ"
+      ],
+      "speaker_id": "S4257298100347538",
+      "split": "train",
+      "reference_audio": "references/1b6bbab00edeae707ea0.wav",
+      "reference_text": "म सङ्गीत सुन्न रुचाउँछु मलाई आधुनिक प्रकारको",
+      "reference_sha256": "d4d56b3a3fe9776df4bd70d84f68b6c3223f7538bf431d31df2bdc8b93d1061f",
+      "source_reference_sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_1e3dfeab4bbcee0a247d",
+      "text_id": "night11_0f7d2c6b4c7207a89f68",
+      "text": "कृपया शुल्क भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया शुल्क भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "शुल्क"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_a64b36da4daba5d2e361",
+      "text_id": "night11_1e0937c48c21879703e2",
+      "text": "उनले अन्त्यमा खरब शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा खरब शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "खरब"
+      ],
+      "speaker_id": "S4257387500340373",
+      "split": "train",
+      "reference_audio": "references/68c1e148215f30f0a62f.wav",
+      "reference_text": "ब यसको व्याकरण छुट्टै एउटा मौलिकतामा नेपाली भाषा आजको समय",
+      "reference_sha256": "1d1f5a71937070ac54c890438d53f955773a7108d42ff6e3ae9a8dcb0aaf57e0",
+      "source_reference_sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_aed7acabb4a282f0cafa",
+      "text_id": "night11_06f4f370d4c9274d1284",
+      "text": "कृपया तरह भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया तरह भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "तरह"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_934058661be036310eea",
+      "text_id": "night11_19fd83acfc3d700a8b1a",
+      "text": "आजको अभ्यासमा हामी सपना शब्द पढ्छौँ।",
+      "canonical_text": "आजको अभ्यासमा हामी सपना शब्द पढ्छौँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "सपना"
+      ],
+      "speaker_id": "S4259477200361463",
+      "split": "train",
+      "reference_audio": "references/b3ce03a672bcb6eaf985.wav",
+      "reference_text": "बाल्यकालमा हामी सबै मिली स्कुलको",
+      "reference_sha256": "483e173339e7a6658d61602271a5efed0c381c41138be6d84e0821c35b9ed35c",
+      "source_reference_sha256": "b3ce03a672bcb6eaf9859682766953f05055ade8277e6c23afd1b00efa038247",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_09d0de3f5cdaf82787ef",
+      "text_id": "night11_1c35bc574d47428241b8",
+      "text": "कृपया जिरह भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया जिरह भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "जिरह"
+      ],
+      "speaker_id": "S4257689200333878",
+      "split": "train",
+      "reference_audio": "references/1e15d89ce82208962c53.wav",
+      "reference_text": "मेरो वस्तु सूचीबाट नेचर ल्यान्ड अर्गानिक्स कसुरी मेथी",
+      "reference_sha256": "b9fd0d72cade8dd69a7d7abcf15cb4d6c969e09bb8d2d3aa23c95a32360dcd8e",
+      "source_reference_sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_eb397850a4c20c52447b",
+      "text_id": "night11_0ae3e82c9914d46f66fd",
+      "text": "तपाईंले सराहना भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले सराहना भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "सराहना"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_859c965fc43338c8d5e2",
+      "text_id": "night11_0a96480bbef90c81ed6f",
+      "text": "म फेरि सायर भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि सायर भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "सायर"
+      ],
+      "speaker_id": "S4259477200361463",
+      "split": "train",
+      "reference_audio": "references/b3ce03a672bcb6eaf985.wav",
+      "reference_text": "बाल्यकालमा हामी सबै मिली स्कुलको",
+      "reference_sha256": "483e173339e7a6658d61602271a5efed0c381c41138be6d84e0821c35b9ed35c",
+      "source_reference_sha256": "b3ce03a672bcb6eaf9859682766953f05055ade8277e6c23afd1b00efa038247",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_1cdd988062dc9ddc6f70",
+      "text_id": "night11_19045f7594ae0b4b1362",
+      "text": "कृपया साह भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया साह भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "साह"
+      ],
+      "speaker_id": "S4257689200333878",
+      "split": "train",
+      "reference_audio": "references/1e15d89ce82208962c53.wav",
+      "reference_text": "मेरो वस्तु सूचीबाट नेचर ल्यान्ड अर्गानिक्स कसुरी मेथी",
+      "reference_sha256": "b9fd0d72cade8dd69a7d7abcf15cb4d6c969e09bb8d2d3aa23c95a32360dcd8e",
+      "source_reference_sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_9cd82f465f205da996a5",
+      "text_id": "night11_05d49bcc1469cae06d30",
+      "text": "यहाँ सकल शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ सकल शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "सकल"
+      ],
+      "speaker_id": "S4257298100347538",
+      "split": "train",
+      "reference_audio": "references/1b6bbab00edeae707ea0.wav",
+      "reference_text": "म सङ्गीत सुन्न रुचाउँछु मलाई आधुनिक प्रकारको",
+      "reference_sha256": "d4d56b3a3fe9776df4bd70d84f68b6c3223f7538bf431d31df2bdc8b93d1061f",
+      "source_reference_sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_bef3749f60fd30b59a83",
+      "text_id": "night11_0139e645ac37ae2a5bf6",
+      "text": "आजको अभ्यासमा हामी नहर शब्द पढ्छौँ।",
+      "canonical_text": "आजको अभ्यासमा हामी नहर शब्द पढ्छौँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "नहर"
+      ],
+      "speaker_id": "S4259477200361463",
+      "split": "train",
+      "reference_audio": "references/b3ce03a672bcb6eaf985.wav",
+      "reference_text": "बाल्यकालमा हामी सबै मिली स्कुलको",
+      "reference_sha256": "483e173339e7a6658d61602271a5efed0c381c41138be6d84e0821c35b9ed35c",
+      "source_reference_sha256": "b3ce03a672bcb6eaf9859682766953f05055ade8277e6c23afd1b00efa038247",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_76488f3650cd6479ac15",
+      "text_id": "night11_07cabebacc50098994ef",
+      "text": "अर्को शब्द होइन, मैले ढाक भनेको हुँ।",
+      "canonical_text": "अर्को शब्द होइन, मैले ढाक भनेको हुँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "ढाक"
+      ],
+      "speaker_id": "S4257298100347538",
+      "split": "train",
+      "reference_audio": "references/1b6bbab00edeae707ea0.wav",
+      "reference_text": "म सङ्गीत सुन्न रुचाउँछु मलाई आधुनिक प्रकारको",
+      "reference_sha256": "d4d56b3a3fe9776df4bd70d84f68b6c3223f7538bf431d31df2bdc8b93d1061f",
+      "source_reference_sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_31649e86e3beb40f5107",
+      "text_id": "night11_207bc0554618b0b02796",
+      "text": "म फेरि लाद भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि लाद भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "लाद"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_64bd54d957de21575e2f",
+      "text_id": "night11_04b47fb918be21655391",
+      "text": "यहाँ मर्म शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ मर्म शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "मर्म"
+      ],
+      "speaker_id": "S4257751100369637",
+      "split": "train",
+      "reference_audio": "references/6ed10838a90596e87758.wav",
+      "reference_text": "जन्मसिद्ध अधिकारको निम्ति चाहिँ झुक्दै नझुक्नु",
+      "reference_sha256": "107a7e84affa1ff219e75013472aaa0230d54269c25eb14fd1cfd64033886bbb",
+      "source_reference_sha256": "6ed10838a90596e8775880ff7a3116342079317d98b9ec29fe1737eaeebe9e6b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_32f9deb72682ac8ae538",
+      "text_id": "night11_154504bd1ab9872e652f",
+      "text": "अर्को शब्द होइन, मैले हर्ष भनेको हुँ।",
+      "canonical_text": "अर्को शब्द होइन, मैले हर्ष भनेको हुँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "हर्ष"
+      ],
+      "speaker_id": "S4259065500397435",
+      "split": "train",
+      "reference_audio": "references/b4dbd4e331d85f74be88.wav",
+      "reference_text": "मेरो पेटिएम वालेट सक्रिय गर्न कृपया मेरो प्यान कार्ड",
+      "reference_sha256": "d7f317a293d1f49e09db014a3995db4b9dcb571d91b9c90eec71be5d801934d3",
+      "source_reference_sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_612c235db09e2c4d4ea8",
+      "text_id": "night11_06f18a7d49b3a0b5a09e",
+      "text": "गायन गर्नु एकदमै कठिन कार्य नै हो है त्यसमा धेरै साधना चाहिन्छ",
+      "canonical_text": "गायन गर्नु एकदमै कठिन कार्य नै हो है त्यसमा धेरै साधना चाहिन्छ",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "साधना"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_c32bd9b9de261713e30e",
+      "text_id": "night11_0099b29912ce050d78cb",
+      "text": "तपाईंले दग्ध भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले दग्ध भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "दग्ध"
+      ],
+      "speaker_id": "S4257298100347538",
+      "split": "train",
+      "reference_audio": "references/1b6bbab00edeae707ea0.wav",
+      "reference_text": "म सङ्गीत सुन्न रुचाउँछु मलाई आधुनिक प्रकारको",
+      "reference_sha256": "d4d56b3a3fe9776df4bd70d84f68b6c3223f7538bf431d31df2bdc8b93d1061f",
+      "source_reference_sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_76d20cd8cb83dfd3faee",
+      "text_id": "night11_1be5e5519b93394ddc33",
+      "text": "कृपया रुग्ण भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया रुग्ण भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "रुग्ण"
+      ],
+      "speaker_id": "S4257689200333878",
+      "split": "train",
+      "reference_audio": "references/1e15d89ce82208962c53.wav",
+      "reference_text": "मेरो वस्तु सूचीबाट नेचर ल्यान्ड अर्गानिक्स कसुरी मेथी",
+      "reference_sha256": "b9fd0d72cade8dd69a7d7abcf15cb4d6c969e09bb8d2d3aa23c95a32360dcd8e",
+      "source_reference_sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_45496bc8ee651bc68d34",
+      "text_id": "night11_03b613696fffe9a1b2a0",
+      "text": "तपाईंले रहन भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले रहन भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "रहन"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_62e8fa4379eebcdb94a7",
+      "text_id": "night11_12cc580add2497e507af",
+      "text": "यहाँ मुडेर शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ मुडेर शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "मुडेर"
+      ],
+      "speaker_id": "S4257689200333878",
+      "split": "train",
+      "reference_audio": "references/1e15d89ce82208962c53.wav",
+      "reference_text": "मेरो वस्तु सूचीबाट नेचर ल्यान्ड अर्गानिक्स कसुरी मेथी",
+      "reference_sha256": "b9fd0d72cade8dd69a7d7abcf15cb4d6c969e09bb8d2d3aa23c95a32360dcd8e",
+      "source_reference_sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_74b4f04e359a7013e340",
+      "text_id": "night11_0ac71094693297a59771",
+      "text": "यहाँ प्रश्न शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ प्रश्न शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "प्रश्न"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_f57542b6265febc23c36",
+      "text_id": "night11_1ac253cc6dd39b076721",
+      "text": "यो वाक्यमा पोखरा शब्द प्रयोग गरिएको छ।",
+      "canonical_text": "यो वाक्यमा पोखरा शब्द प्रयोग गरिएको छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "पोखरा"
+      ],
+      "speaker_id": "S4257298100347538",
+      "split": "train",
+      "reference_audio": "references/1b6bbab00edeae707ea0.wav",
+      "reference_text": "म सङ्गीत सुन्न रुचाउँछु मलाई आधुनिक प्रकारको",
+      "reference_sha256": "d4d56b3a3fe9776df4bd70d84f68b6c3223f7538bf431d31df2bdc8b93d1061f",
+      "source_reference_sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_3d16ac64846f9cb159cd",
+      "text_id": "night11_0570021d6790aa16d94f",
+      "text": "कृपया छिन्न भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया छिन्न भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "छिन्न"
+      ],
+      "speaker_id": "S4257387500340373",
+      "split": "train",
+      "reference_audio": "references/68c1e148215f30f0a62f.wav",
+      "reference_text": "ब यसको व्याकरण छुट्टै एउटा मौलिकतामा नेपाली भाषा आजको समय",
+      "reference_sha256": "1d1f5a71937070ac54c890438d53f955773a7108d42ff6e3ae9a8dcb0aaf57e0",
+      "source_reference_sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_7ddf7831367a4b656557",
+      "text_id": "night11_02d65b527f27217a5136",
+      "text": "यहाँ सतह शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ सतह शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "सतह"
+      ],
+      "speaker_id": "S4257689200333878",
+      "split": "train",
+      "reference_audio": "references/1e15d89ce82208962c53.wav",
+      "reference_text": "मेरो वस्तु सूचीबाट नेचर ल्यान्ड अर्गानिक्स कसुरी मेथी",
+      "reference_sha256": "b9fd0d72cade8dd69a7d7abcf15cb4d6c969e09bb8d2d3aa23c95a32360dcd8e",
+      "source_reference_sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_559792ff70b145b93e1a",
+      "text_id": "night11_1d232985c361ea4f226a",
+      "text": "उनले अन्त्यमा काष्ठ शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा काष्ठ शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "काष्ठ"
+      ],
+      "speaker_id": "S4257751100369637",
+      "split": "train",
+      "reference_audio": "references/6ed10838a90596e87758.wav",
+      "reference_text": "जन्मसिद्ध अधिकारको निम्ति चाहिँ झुक्दै नझुक्नु",
+      "reference_sha256": "107a7e84affa1ff219e75013472aaa0230d54269c25eb14fd1cfd64033886bbb",
+      "source_reference_sha256": "6ed10838a90596e8775880ff7a3116342079317d98b9ec29fe1737eaeebe9e6b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_4ddc4506af34e60cb3e3",
+      "text_id": "night11_15ef06678fa53100932f",
+      "text": "कृपया डाह भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया डाह भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "डाह"
+      ],
+      "speaker_id": "S4257751100369637",
+      "split": "train",
+      "reference_audio": "references/6ed10838a90596e87758.wav",
+      "reference_text": "जन्मसिद्ध अधिकारको निम्ति चाहिँ झुक्दै नझुक्नु",
+      "reference_sha256": "107a7e84affa1ff219e75013472aaa0230d54269c25eb14fd1cfd64033886bbb",
+      "source_reference_sha256": "6ed10838a90596e8775880ff7a3116342079317d98b9ec29fe1737eaeebe9e6b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_9d6a62116daaacb02af3",
+      "text_id": "night11_1bc08a2abc50507e72c3",
+      "text": "यहाँ कनिष्ठ शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ कनिष्ठ शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "कनिष्ठ"
+      ],
+      "speaker_id": "S4257387500340373",
+      "split": "train",
+      "reference_audio": "references/68c1e148215f30f0a62f.wav",
+      "reference_text": "ब यसको व्याकरण छुट्टै एउटा मौलिकतामा नेपाली भाषा आजको समय",
+      "reference_sha256": "1d1f5a71937070ac54c890438d53f955773a7108d42ff6e3ae9a8dcb0aaf57e0",
+      "source_reference_sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_c8192e89811ef9945a7e",
+      "text_id": "night11_004b632649556f54c374",
+      "text": "म फेरि मलमास भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि मलमास भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "मलमास"
+      ],
+      "speaker_id": "S4259477200361463",
+      "split": "train",
+      "reference_audio": "references/b3ce03a672bcb6eaf985.wav",
+      "reference_text": "बाल्यकालमा हामी सबै मिली स्कुलको",
+      "reference_sha256": "483e173339e7a6658d61602271a5efed0c381c41138be6d84e0821c35b9ed35c",
+      "source_reference_sha256": "b3ce03a672bcb6eaf9859682766953f05055ade8277e6c23afd1b00efa038247",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_81d769178a78d5992822",
+      "text_id": "night11_1caee4b7cced7b03471d",
+      "text": "यो वाक्यमा स्थापना शब्द प्रयोग गरिएको छ।",
+      "canonical_text": "यो वाक्यमा स्थापना शब्द प्रयोग गरिएको छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "स्थापना"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_54457c725ca0b9df0279",
+      "text_id": "night11_01af8bd6b05fd4a01f0d",
+      "text": "कृपया सदर भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया सदर भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "सदर"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_50513d8f0bdd86551c33",
+      "text_id": "night11_11c3b187a65c3e11f17e",
+      "text": "यहाँ याचना शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ याचना शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "याचना"
+      ],
+      "speaker_id": "S4257298100347538",
+      "split": "train",
+      "reference_audio": "references/1b6bbab00edeae707ea0.wav",
+      "reference_text": "म सङ्गीत सुन्न रुचाउँछु मलाई आधुनिक प्रकारको",
+      "reference_sha256": "d4d56b3a3fe9776df4bd70d84f68b6c3223f7538bf431d31df2bdc8b93d1061f",
+      "source_reference_sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_d2b082e597304b0b50d1",
+      "text_id": "night11_0a55c777d1f6ee1df2b2",
+      "text": "तपाईंले मातहत भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले मातहत भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "मातहत"
+      ],
+      "speaker_id": "S4259065500397435",
+      "split": "train",
+      "reference_audio": "references/b4dbd4e331d85f74be88.wav",
+      "reference_text": "मेरो पेटिएम वालेट सक्रिय गर्न कृपया मेरो प्यान कार्ड",
+      "reference_sha256": "d7f317a293d1f49e09db014a3995db4b9dcb571d91b9c90eec71be5d801934d3",
+      "source_reference_sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_4910fe5018a84063a4ce",
+      "text_id": "night11_12afd58775f511d81dc1",
+      "text": "उनले अन्त्यमा श्राद्ध शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा श्राद्ध शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "श्राद्ध"
+      ],
+      "speaker_id": "S4257387500340373",
+      "split": "train",
+      "reference_audio": "references/68c1e148215f30f0a62f.wav",
+      "reference_text": "ब यसको व्याकरण छुट्टै एउटा मौलिकतामा नेपाली भाषा आजको समय",
+      "reference_sha256": "1d1f5a71937070ac54c890438d53f955773a7108d42ff6e3ae9a8dcb0aaf57e0",
+      "source_reference_sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_1bef55c83663f62a5625",
+      "text_id": "night11_1b6bdb91ac44e973beb3",
+      "text": "र विशेष गरेर चाहिँ यो तिनवटा भरिमा म अलिकति ज्यादा पुस्तकलाई नै ध्यान दिन्छु पुस्त म पुस्तक नै पढ्ने गर्छु",
+      "canonical_text": "र विशेष गरेर चाहिँ यो तिनवटा भरिमा म अलिकति ज्यादा पुस्तकलाई नै ध्यान दिन्छु पुस्त म पुस्तक नै पढ्ने गर्छु",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "पुस्त"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_5703efcfc5836c07a2a0",
+      "text_id": "night11_08ad790a70d612cee6d0",
+      "text": "तपाईंले सराय भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले सराय भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "सराय"
+      ],
+      "speaker_id": "S4258716800392755",
+      "split": "train",
+      "reference_audio": "references/f8e07c2a2204536aa7ea.wav",
+      "reference_text": "मैले तपाईँहरूको कालिम्पोङ ट्राभल एजेन्सीबाट एउटा गाडी बुक",
+      "reference_sha256": "3d8792df8332bc98dd0cfeb699132ff73b8aeda788fc862373a9ebfa038f4372",
+      "source_reference_sha256": "f8e07c2a2204536aa7eabd42651434d166948a1c393cf1dc861132da0e36a72b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_f5a24ecb797e9fda8209",
+      "text_id": "night11_1e4890dd2caadd8a73d3",
+      "text": "कृपया भक्त भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया भक्त भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "भक्त"
+      ],
+      "speaker_id": "S4257387500340373",
+      "split": "train",
+      "reference_audio": "references/68c1e148215f30f0a62f.wav",
+      "reference_text": "ब यसको व्याकरण छुट्टै एउटा मौलिकतामा नेपाली भाषा आजको समय",
+      "reference_sha256": "1d1f5a71937070ac54c890438d53f955773a7108d42ff6e3ae9a8dcb0aaf57e0",
+      "source_reference_sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_b356682305d0330f370d",
+      "text_id": "night11_0f445d97fb56d7933434",
+      "text": "म फेरि स्वर्ग भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि स्वर्ग भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "स्वर्ग"
+      ],
+      "speaker_id": "S4257298100347538",
+      "split": "train",
+      "reference_audio": "references/1b6bbab00edeae707ea0.wav",
+      "reference_text": "म सङ्गीत सुन्न रुचाउँछु मलाई आधुनिक प्रकारको",
+      "reference_sha256": "d4d56b3a3fe9776df4bd70d84f68b6c3223f7538bf431d31df2bdc8b93d1061f",
+      "source_reference_sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_347742f23ba0ee33892f",
+      "text_id": "night11_1d808a412242ab9e1322",
+      "text": "अर्को शब्द होइन, मैले निमित्त भनेको हुँ।",
+      "canonical_text": "अर्को शब्द होइन, मैले निमित्त भनेको हुँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "निमित्त"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_d4daa3c4a5b1e78662bc",
+      "text_id": "night11_03b035df7f6db02be920",
+      "text": "यहाँ डसना शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ डसना शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "डसना"
+      ],
+      "speaker_id": "S4259065500397435",
+      "split": "train",
+      "reference_audio": "references/b4dbd4e331d85f74be88.wav",
+      "reference_text": "मेरो पेटिएम वालेट सक्रिय गर्न कृपया मेरो प्यान कार्ड",
+      "reference_sha256": "d7f317a293d1f49e09db014a3995db4b9dcb571d91b9c90eec71be5d801934d3",
+      "source_reference_sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_1f9f0649f4a430f37350",
+      "text_id": "night11_161c1f9a755da7381f9c",
+      "text": "आजको अभ्यासमा हामी मेहमान शब्द पढ्छौँ।",
+      "canonical_text": "आजको अभ्यासमा हामी मेहमान शब्द पढ्छौँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "मेहमान"
+      ],
+      "speaker_id": "S4257298100347538",
+      "split": "train",
+      "reference_audio": "references/1b6bbab00edeae707ea0.wav",
+      "reference_text": "म सङ्गीत सुन्न रुचाउँछु मलाई आधुनिक प्रकारको",
+      "reference_sha256": "d4d56b3a3fe9776df4bd70d84f68b6c3223f7538bf431d31df2bdc8b93d1061f",
+      "source_reference_sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_0801e1f3d34c9fba07c0",
+      "text_id": "night11_140f8c054b76439a3d83",
+      "text": "अब एकदमै गिलोभन्दा गिलो भात जतिसक्दो गिलोभन्दा गिलो पानीजस्तो लिक्विड टाइपको के हो भात अब एकदमै नरम जसले चाहिँ अब नानीहरूले पचाउनसक्ने खालको",
+      "canonical_text": "अब एकदमै गिलोभन्दा गिलो भात जतिसक्दो गिलोभन्दा गिलो पानीजस्तो लिक्विड टाइपको के हो भात अब एकदमै नरम जसले चाहिँ अब नानीहरूले पचाउनसक्ने खालको",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "नरम"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_976eeff59f9cb9466477",
+      "text_id": "night11_05d4cc8375e0a9db01ba",
+      "text": "म फेरि ग्रह भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि ग्रह भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "ग्रह"
+      ],
+      "speaker_id": "S4257387500340373",
+      "split": "train",
+      "reference_audio": "references/68c1e148215f30f0a62f.wav",
+      "reference_text": "ब यसको व्याकरण छुट्टै एउटा मौलिकतामा नेपाली भाषा आजको समय",
+      "reference_sha256": "1d1f5a71937070ac54c890438d53f955773a7108d42ff6e3ae9a8dcb0aaf57e0",
+      "source_reference_sha256": "68c1e148215f30f0a62f1092440ea42fb4eb924e654755763110a9ba3aeae7d1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_0078c32912abfc406dd0",
+      "text_id": "night11_1ac91b94340cdd4c8e17",
+      "text": "यहाँ थाप शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ थाप शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "थाप"
+      ],
+      "speaker_id": "S4257298100347538",
+      "split": "train",
+      "reference_audio": "references/1b6bbab00edeae707ea0.wav",
+      "reference_text": "म सङ्गीत सुन्न रुचाउँछु मलाई आधुनिक प्रकारको",
+      "reference_sha256": "d4d56b3a3fe9776df4bd70d84f68b6c3223f7538bf431d31df2bdc8b93d1061f",
+      "source_reference_sha256": "1b6bbab00edeae707ea083083875bc46c74b658cb2ac302084b6e5d8fe10a605",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_2af077c199ebcc91e7e1",
+      "text_id": "night11_1c30dd44cced47ad6484",
+      "text": "तपाईंले दुष्ट भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले दुष्ट भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "दुष्ट"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_5dd671b98d8ca20b19a8",
+      "text_id": "night11_1a16ca30802c54262b96",
+      "text": "उनले अन्त्यमा सामना शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा सामना शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "सामना"
+      ],
+      "speaker_id": "S4257689200333878",
+      "split": "train",
+      "reference_audio": "references/1e15d89ce82208962c53.wav",
+      "reference_text": "मेरो वस्तु सूचीबाट नेचर ल्यान्ड अर्गानिक्स कसुरी मेथी",
+      "reference_sha256": "b9fd0d72cade8dd69a7d7abcf15cb4d6c969e09bb8d2d3aa23c95a32360dcd8e",
+      "source_reference_sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_25d82ea97871bc9dbe9e",
+      "text_id": "night11_00b17a926fa376f1c0d9",
+      "text": "उनले अन्त्यमा चित्त शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा चित्त शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "चित्त"
+      ],
+      "speaker_id": "S4257689200333878",
+      "split": "train",
+      "reference_audio": "references/1e15d89ce82208962c53.wav",
+      "reference_text": "मेरो वस्तु सूचीबाट नेचर ल्यान्ड अर्गानिक्स कसुरी मेथी",
+      "reference_sha256": "b9fd0d72cade8dd69a7d7abcf15cb4d6c969e09bb8d2d3aa23c95a32360dcd8e",
+      "source_reference_sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_f651584d47fb1605fd04",
+      "text_id": "night11_2928d7ae743afcb3eb58",
+      "text": "लक्ष्मी महतो मीरा शर्मा मञ्जु लेप्चा रूपा जोर्डान निला सोमानी",
+      "canonical_text": "लक्ष्मी महतो मीरा शर्मा मञ्जु लेप्चा रूपा जोर्डान निला सोमानी",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "महतो"
+      ],
+      "speaker_id": "S4257689200333878",
+      "split": "train",
+      "reference_audio": "references/1e15d89ce82208962c53.wav",
+      "reference_text": "मेरो वस्तु सूचीबाट नेचर ल्यान्ड अर्गानिक्स कसुरी मेथी",
+      "reference_sha256": "b9fd0d72cade8dd69a7d7abcf15cb4d6c969e09bb8d2d3aa23c95a32360dcd8e",
+      "source_reference_sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_d93f0a18735f1e678a10",
+      "text_id": "night11_180aacc5c9c80d5bd115",
+      "text": "म फेरि मार्ग भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि मार्ग भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "मार्ग"
+      ],
+      "speaker_id": "S4258453800348915",
+      "split": "train",
+      "reference_audio": "references/cfdd0df3fe8e3c5760b4.wav",
+      "reference_text": "नेपाल भुटान बङलादेश श्रीलङ्का",
+      "reference_sha256": "b1d42457e96ea93620bb38ecc82b13b126e731676ace4eea1c2f90c8763a2718",
+      "source_reference_sha256": "cfdd0df3fe8e3c5760b4d7a59dc7e225508456516eab9281235f60dee0e3cf97",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_54824584431903fc11da",
+      "text_id": "night11_02a6096e625f4b7abc8b",
+      "text": "यो वाक्यमा स्निग्ध शब्द प्रयोग गरिएको छ।",
+      "canonical_text": "यो वाक्यमा स्निग्ध शब्द प्रयोग गरिएको छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "स्निग्ध"
+      ],
+      "speaker_id": "S4257751100369637",
+      "split": "train",
+      "reference_audio": "references/6ed10838a90596e87758.wav",
+      "reference_text": "जन्मसिद्ध अधिकारको निम्ति चाहिँ झुक्दै नझुक्नु",
+      "reference_sha256": "107a7e84affa1ff219e75013472aaa0230d54269c25eb14fd1cfd64033886bbb",
+      "source_reference_sha256": "6ed10838a90596e8775880ff7a3116342079317d98b9ec29fe1737eaeebe9e6b",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_6bd7630e69132034babf",
+      "text_id": "night11_096289fecd649423b726",
+      "text": "म फेरि बहर भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि बहर भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "बहर"
+      ],
+      "speaker_id": "S4259477200361463",
+      "split": "train",
+      "reference_audio": "references/b3ce03a672bcb6eaf985.wav",
+      "reference_text": "बाल्यकालमा हामी सबै मिली स्कुलको",
+      "reference_sha256": "483e173339e7a6658d61602271a5efed0c381c41138be6d84e0821c35b9ed35c",
+      "source_reference_sha256": "b3ce03a672bcb6eaf9859682766953f05055ade8277e6c23afd1b00efa038247",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_ba38192e5635d25bd21d",
+      "text_id": "night11_20eebad438b24adbc1f5",
+      "text": "म फेरि जेष्ठ भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि जेष्ठ भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "जेष्ठ"
+      ],
+      "speaker_id": "S4259065500397435",
+      "split": "train",
+      "reference_audio": "references/b4dbd4e331d85f74be88.wav",
+      "reference_text": "मेरो पेटिएम वालेट सक्रिय गर्न कृपया मेरो प्यान कार्ड",
+      "reference_sha256": "d7f317a293d1f49e09db014a3995db4b9dcb571d91b9c90eec71be5d801934d3",
+      "source_reference_sha256": "b4dbd4e331d85f74be889c3f7e1670dafea35afcdf690388bb0827e625b8b949",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_0ffdde8503a778dc4146",
+      "text_id": "night11_1090088559ff712f358f",
+      "text": "यो वाक्यमा धूर्त शब्द प्रयोग गरिएको छ।",
+      "canonical_text": "यो वाक्यमा धूर्त शब्द प्रयोग गरिएको छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "धूर्त"
+      ],
+      "speaker_id": "S4257689200333878",
+      "split": "train",
+      "reference_audio": "references/1e15d89ce82208962c53.wav",
+      "reference_text": "मेरो वस्तु सूचीबाट नेचर ल्यान्ड अर्गानिक्स कसुरी मेथी",
+      "reference_sha256": "b9fd0d72cade8dd69a7d7abcf15cb4d6c969e09bb8d2d3aa23c95a32360dcd8e",
+      "source_reference_sha256": "1e15d89ce82208962c53b4e2c5c1a609396bf1df5555fa2942a3dc90cee28ef5",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_2ceec7620c8029f07c21",
+      "text_id": "night11_263c2191b1fb7680b6ed",
+      "text": "अर्को शब्द होइन, मैले मुजरा भनेको हुँ।",
+      "canonical_text": "अर्को शब्द होइन, मैले मुजरा भनेको हुँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "मुजरा"
+      ],
+      "speaker_id": "S4258254800397423",
+      "split": "development",
+      "reference_audio": "references/2324e89c0e9fab1255a0.wav",
+      "reference_text": "जीवनमा म आफ्नो परिवार अनि आफ्नो नानीहरूलाई नै बेसी",
+      "reference_sha256": "399622766949265b9da61ca93036fa60a3369a275e7c10ea43313793470b88ea",
+      "source_reference_sha256": "2324e89c0e9fab1255a05f15a9daa3271b1d0f74f964ca76a1e4fd4d78d3d6f1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_e4364d442feab215807e",
+      "text_id": "night11_014f5ea8996a2e627022",
+      "text": "कृपया तह भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया तह भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "तह"
+      ],
+      "speaker_id": "S4256933800326415",
+      "split": "development",
+      "reference_audio": "references/14dcc7e2d2f417d11db9.wav",
+      "reference_text": "मैले गत हप्तादेखि डियोड्रेन्टस प्राप्त गरेको छैन अनुमानित",
+      "reference_sha256": "164b174fa28e1f14f9e9763c6abc86d3e7ffcf5ea118b2d445f8fa6144ef7af5",
+      "source_reference_sha256": "14dcc7e2d2f417d11db91bf8fae9e767af05952d1b8d17b488a1648b20aaa638",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_2db6c0f11e0ce071c52a",
+      "text_id": "night11_2c163e1b47f78d70736c",
+      "text": "कृपया द्रोण भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया द्रोण भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "द्रोण"
+      ],
+      "speaker_id": "S4259790200369285",
+      "split": "development",
+      "reference_audio": "references/09716e1dd999ef87a834.wav",
+      "reference_text": "जम्मू कश्मीर आसाम मेघालय पश्चिम",
+      "reference_sha256": "6b30eea0001bbc1d4590f9f365b2dd6d9c02d57e8cc8a252986456ed9145c392",
+      "source_reference_sha256": "09716e1dd999ef87a83452a89f9bfc3f801c4b5936aadd6035434ce6fe74828a",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_f3928267a44ff2414fbe",
+      "text_id": "night11_04641880089eed3f270d",
+      "text": "यहाँ फाल शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ फाल शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "फाल"
+      ],
+      "speaker_id": "S4258254800397423",
+      "split": "development",
+      "reference_audio": "references/2324e89c0e9fab1255a0.wav",
+      "reference_text": "जीवनमा म आफ्नो परिवार अनि आफ्नो नानीहरूलाई नै बेसी",
+      "reference_sha256": "399622766949265b9da61ca93036fa60a3369a275e7c10ea43313793470b88ea",
+      "source_reference_sha256": "2324e89c0e9fab1255a05f15a9daa3271b1d0f74f964ca76a1e4fd4d78d3d6f1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_9386422e98a64914945c",
+      "text_id": "night11_2ffd2df05ccc4f95c13b",
+      "text": "यहाँ राख शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ राख शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "राख"
+      ],
+      "speaker_id": "S4258254800397423",
+      "split": "development",
+      "reference_audio": "references/2324e89c0e9fab1255a0.wav",
+      "reference_text": "जीवनमा म आफ्नो परिवार अनि आफ्नो नानीहरूलाई नै बेसी",
+      "reference_sha256": "399622766949265b9da61ca93036fa60a3369a275e7c10ea43313793470b88ea",
+      "source_reference_sha256": "2324e89c0e9fab1255a05f15a9daa3271b1d0f74f964ca76a1e4fd4d78d3d6f1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_31fae9b4daa28dd89523",
+      "text_id": "night11_1ea0ba118d0455a71238",
+      "text": "म फेरि ठप्प भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि ठप्प भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "ठप्प"
+      ],
+      "speaker_id": "S4256933800326415",
+      "split": "development",
+      "reference_audio": "references/14dcc7e2d2f417d11db9.wav",
+      "reference_text": "मैले गत हप्तादेखि डियोड्रेन्टस प्राप्त गरेको छैन अनुमानित",
+      "reference_sha256": "164b174fa28e1f14f9e9763c6abc86d3e7ffcf5ea118b2d445f8fa6144ef7af5",
+      "source_reference_sha256": "14dcc7e2d2f417d11db91bf8fae9e767af05952d1b8d17b488a1648b20aaa638",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_ce8cd6eb0f3f877e4526",
+      "text_id": "night11_1ea244874b5e9d8dde7b",
+      "text": "यो वाक्यमा पादरी शब्द प्रयोग गरिएको छ।",
+      "canonical_text": "यो वाक्यमा पादरी शब्द प्रयोग गरिएको छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "पादरी"
+      ],
+      "speaker_id": "S4258147000367444",
+      "split": "development",
+      "reference_audio": "references/15ed78181b636b5435f4.wav",
+      "reference_text": "कति मूर्ख छ कति ज्ञानी छ र कस्ता कस्ता",
+      "reference_sha256": "8be634d9fe6147d1bffdd2815c6dff1019590560e9441aea3fc43f4ccfff3721",
+      "source_reference_sha256": "15ed78181b636b5435f43f185992b43025c7684412bd030a52bf288a0ce1d28e",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_0084df7cdabc64fcc7c7",
+      "text_id": "night11_2aa5ef01dbeac20467cb",
+      "text": "कृपया मूर्त भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया मूर्त भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "मूर्त"
+      ],
+      "speaker_id": "S4258254800397423",
+      "split": "development",
+      "reference_audio": "references/2324e89c0e9fab1255a0.wav",
+      "reference_text": "जीवनमा म आफ्नो परिवार अनि आफ्नो नानीहरूलाई नै बेसी",
+      "reference_sha256": "399622766949265b9da61ca93036fa60a3369a275e7c10ea43313793470b88ea",
+      "source_reference_sha256": "2324e89c0e9fab1255a05f15a9daa3271b1d0f74f964ca76a1e4fd4d78d3d6f1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_e86155a1f76211cc2dc2",
+      "text_id": "night11_2e776660c441023e8e62",
+      "text": "कृपया गह भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया गह भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "गह"
+      ],
+      "speaker_id": "S4259790200369285",
+      "split": "development",
+      "reference_audio": "references/09716e1dd999ef87a834.wav",
+      "reference_text": "जम्मू कश्मीर आसाम मेघालय पश्चिम",
+      "reference_sha256": "6b30eea0001bbc1d4590f9f365b2dd6d9c02d57e8cc8a252986456ed9145c392",
+      "source_reference_sha256": "09716e1dd999ef87a83452a89f9bfc3f801c4b5936aadd6035434ce6fe74828a",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_d8db04b4cc6ccce4d66e",
+      "text_id": "night11_141fc6cfaa0f6163d10d",
+      "text": "आजको अभ्यासमा हामी चेतना शब्द पढ्छौँ।",
+      "canonical_text": "आजको अभ्यासमा हामी चेतना शब्द पढ्छौँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "चेतना"
+      ],
+      "speaker_id": "S4256933800326415",
+      "split": "development",
+      "reference_audio": "references/14dcc7e2d2f417d11db9.wav",
+      "reference_text": "मैले गत हप्तादेखि डियोड्रेन्टस प्राप्त गरेको छैन अनुमानित",
+      "reference_sha256": "164b174fa28e1f14f9e9763c6abc86d3e7ffcf5ea118b2d445f8fa6144ef7af5",
+      "source_reference_sha256": "14dcc7e2d2f417d11db91bf8fae9e767af05952d1b8d17b488a1648b20aaa638",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_1962c9ef947875518187",
+      "text_id": "night11_00530d9481b9c6a420a2",
+      "text": "यो वाक्यमा देख शब्द प्रयोग गरिएको छ।",
+      "canonical_text": "यो वाक्यमा देख शब्द प्रयोग गरिएको छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "देख"
+      ],
+      "speaker_id": "S4259790200369285",
+      "split": "development",
+      "reference_audio": "references/09716e1dd999ef87a834.wav",
+      "reference_text": "जम्मू कश्मीर आसाम मेघालय पश्चिम",
+      "reference_sha256": "6b30eea0001bbc1d4590f9f365b2dd6d9c02d57e8cc8a252986456ed9145c392",
+      "source_reference_sha256": "09716e1dd999ef87a83452a89f9bfc3f801c4b5936aadd6035434ce6fe74828a",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_76dc14af41ee892cc26d",
+      "text_id": "night11_2d48a4e85ff70dd2349a",
+      "text": "उनले अन्त्यमा सहर शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा सहर शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "सहर"
+      ],
+      "speaker_id": "S4258147000367444",
+      "split": "development",
+      "reference_audio": "references/15ed78181b636b5435f4.wav",
+      "reference_text": "कति मूर्ख छ कति ज्ञानी छ र कस्ता कस्ता",
+      "reference_sha256": "8be634d9fe6147d1bffdd2815c6dff1019590560e9441aea3fc43f4ccfff3721",
+      "source_reference_sha256": "15ed78181b636b5435f43f185992b43025c7684412bd030a52bf288a0ce1d28e",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_a6fa6add12a7e9247b3c",
+      "text_id": "night11_19db162e012ca2d11610",
+      "text": "म फेरि घबराहट भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि घबराहट भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "घबराहट"
+      ],
+      "speaker_id": "S4259790200369285",
+      "split": "development",
+      "reference_audio": "references/09716e1dd999ef87a834.wav",
+      "reference_text": "जम्मू कश्मीर आसाम मेघालय पश्चिम",
+      "reference_sha256": "6b30eea0001bbc1d4590f9f365b2dd6d9c02d57e8cc8a252986456ed9145c392",
+      "source_reference_sha256": "09716e1dd999ef87a83452a89f9bfc3f801c4b5936aadd6035434ce6fe74828a",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_ff5472d2fdc0fbb67f7b",
+      "text_id": "night11_1a3b2dfa436eace3d933",
+      "text": "यहाँ दुरुस्त शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ दुरुस्त शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "दुरुस्त"
+      ],
+      "speaker_id": "S4256933800326415",
+      "split": "development",
+      "reference_audio": "references/14dcc7e2d2f417d11db9.wav",
+      "reference_text": "मैले गत हप्तादेखि डियोड्रेन्टस प्राप्त गरेको छैन अनुमानित",
+      "reference_sha256": "164b174fa28e1f14f9e9763c6abc86d3e7ffcf5ea118b2d445f8fa6144ef7af5",
+      "source_reference_sha256": "14dcc7e2d2f417d11db91bf8fae9e767af05952d1b8d17b488a1648b20aaa638",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_bb0873795d9136bf90be",
+      "text_id": "night11_2ce870e0162fab15c12e",
+      "text": "यहाँ परास्त शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ परास्त शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "परास्त"
+      ],
+      "speaker_id": "S4259790200369285",
+      "split": "development",
+      "reference_audio": "references/09716e1dd999ef87a834.wav",
+      "reference_text": "जम्मू कश्मीर आसाम मेघालय पश्चिम",
+      "reference_sha256": "6b30eea0001bbc1d4590f9f365b2dd6d9c02d57e8cc8a252986456ed9145c392",
+      "source_reference_sha256": "09716e1dd999ef87a83452a89f9bfc3f801c4b5936aadd6035434ce6fe74828a",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_6e863b3dee7211d29c94",
+      "text_id": "night11_0c03f9d000cfd97ddb87",
+      "text": "आजको अभ्यासमा हामी लहर शब्द पढ्छौँ।",
+      "canonical_text": "आजको अभ्यासमा हामी लहर शब्द पढ्छौँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "लहर"
+      ],
+      "speaker_id": "S4259790200369285",
+      "split": "development",
+      "reference_audio": "references/09716e1dd999ef87a834.wav",
+      "reference_text": "जम्मू कश्मीर आसाम मेघालय पश्चिम",
+      "reference_sha256": "6b30eea0001bbc1d4590f9f365b2dd6d9c02d57e8cc8a252986456ed9145c392",
+      "source_reference_sha256": "09716e1dd999ef87a83452a89f9bfc3f801c4b5936aadd6035434ce6fe74828a",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_c9f37cd8bef76985bd9a",
+      "text_id": "night11_026ed8f50e0cd5ba04cf",
+      "text": "यो वाक्यमा रसना शब्द प्रयोग गरिएको छ।",
+      "canonical_text": "यो वाक्यमा रसना शब्द प्रयोग गरिएको छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "रसना"
+      ],
+      "speaker_id": "S4258254800397423",
+      "split": "development",
+      "reference_audio": "references/2324e89c0e9fab1255a0.wav",
+      "reference_text": "जीवनमा म आफ्नो परिवार अनि आफ्नो नानीहरूलाई नै बेसी",
+      "reference_sha256": "399622766949265b9da61ca93036fa60a3369a275e7c10ea43313793470b88ea",
+      "source_reference_sha256": "2324e89c0e9fab1255a05f15a9daa3271b1d0f74f964ca76a1e4fd4d78d3d6f1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_9dce95ccd6256f27cd3d",
+      "text_id": "night11_2f4c9300dd09df764dad",
+      "text": "अर्को शब्द होइन, मैले खन भनेको हुँ।",
+      "canonical_text": "अर्को शब्द होइन, मैले खन भनेको हुँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "खन"
+      ],
+      "speaker_id": "S4258254800397423",
+      "split": "development",
+      "reference_audio": "references/2324e89c0e9fab1255a0.wav",
+      "reference_text": "जीवनमा म आफ्नो परिवार अनि आफ्नो नानीहरूलाई नै बेसी",
+      "reference_sha256": "399622766949265b9da61ca93036fa60a3369a275e7c10ea43313793470b88ea",
+      "source_reference_sha256": "2324e89c0e9fab1255a05f15a9daa3271b1d0f74f964ca76a1e4fd4d78d3d6f1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_3df991580a47985f71b7",
+      "text_id": "night11_36734789eed7acbb16b9",
+      "text": "म फेरि जोगिन भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि जोगिन भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "जोगिन"
+      ],
+      "speaker_id": "S4259790200369285",
+      "split": "development",
+      "reference_audio": "references/09716e1dd999ef87a834.wav",
+      "reference_text": "जम्मू कश्मीर आसाम मेघालय पश्चिम",
+      "reference_sha256": "6b30eea0001bbc1d4590f9f365b2dd6d9c02d57e8cc8a252986456ed9145c392",
+      "source_reference_sha256": "09716e1dd999ef87a83452a89f9bfc3f801c4b5936aadd6035434ce6fe74828a",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_6c6476823d0cf1d9150e",
+      "text_id": "night11_0a23cc0068df4b13af15",
+      "text": "यो वाक्यमा म्लेच्छ शब्द प्रयोग गरिएको छ।",
+      "canonical_text": "यो वाक्यमा म्लेच्छ शब्द प्रयोग गरिएको छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "म्लेच्छ"
+      ],
+      "speaker_id": "S4258147000367444",
+      "split": "development",
+      "reference_audio": "references/15ed78181b636b5435f4.wav",
+      "reference_text": "कति मूर्ख छ कति ज्ञानी छ र कस्ता कस्ता",
+      "reference_sha256": "8be634d9fe6147d1bffdd2815c6dff1019590560e9441aea3fc43f4ccfff3721",
+      "source_reference_sha256": "15ed78181b636b5435f43f185992b43025c7684412bd030a52bf288a0ce1d28e",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_141660bac39fc9e6cb16",
+      "text_id": "night11_21f5580d64f1bfc58b1f",
+      "text": "उनले अन्त्यमा प्रारब्ध शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा प्रारब्ध शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "प्रारब्ध"
+      ],
+      "speaker_id": "S4258254800397423",
+      "split": "development",
+      "reference_audio": "references/2324e89c0e9fab1255a0.wav",
+      "reference_text": "जीवनमा म आफ्नो परिवार अनि आफ्नो नानीहरूलाई नै बेसी",
+      "reference_sha256": "399622766949265b9da61ca93036fa60a3369a275e7c10ea43313793470b88ea",
+      "source_reference_sha256": "2324e89c0e9fab1255a05f15a9daa3271b1d0f74f964ca76a1e4fd4d78d3d6f1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_4f6375da99082b358dcc",
+      "text_id": "night11_339cd20503b229223435",
+      "text": "यो वाक्यमा शहर शब्द प्रयोग गरिएको छ।",
+      "canonical_text": "यो वाक्यमा शहर शब्द प्रयोग गरिएको छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "शहर"
+      ],
+      "speaker_id": "S4258254800397423",
+      "split": "development",
+      "reference_audio": "references/2324e89c0e9fab1255a0.wav",
+      "reference_text": "जीवनमा म आफ्नो परिवार अनि आफ्नो नानीहरूलाई नै बेसी",
+      "reference_sha256": "399622766949265b9da61ca93036fa60a3369a275e7c10ea43313793470b88ea",
+      "source_reference_sha256": "2324e89c0e9fab1255a05f15a9daa3271b1d0f74f964ca76a1e4fd4d78d3d6f1",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_8bb4877ccd88d87319ac",
+      "text_id": "night11_0fe9d189c784d5648553",
+      "text": "म फेरि कर्म भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि कर्म भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "कर्म"
+      ],
+      "speaker_id": "S4259790200369285",
+      "split": "development",
+      "reference_audio": "references/09716e1dd999ef87a834.wav",
+      "reference_text": "जम्मू कश्मीर आसाम मेघालय पश्चिम",
+      "reference_sha256": "6b30eea0001bbc1d4590f9f365b2dd6d9c02d57e8cc8a252986456ed9145c392",
+      "source_reference_sha256": "09716e1dd999ef87a83452a89f9bfc3f801c4b5936aadd6035434ce6fe74828a",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_701db0ca8a33f52e51ef",
+      "text_id": "night11_10bc553f197ee86625d5",
+      "text": "यहाँ ढकना शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ ढकना शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "ढकना"
+      ],
+      "speaker_id": "S4258147000367444",
+      "split": "development",
+      "reference_audio": "references/15ed78181b636b5435f4.wav",
+      "reference_text": "कति मूर्ख छ कति ज्ञानी छ र कस्ता कस्ता",
+      "reference_sha256": "8be634d9fe6147d1bffdd2815c6dff1019590560e9441aea3fc43f4ccfff3721",
+      "source_reference_sha256": "15ed78181b636b5435f43f185992b43025c7684412bd030a52bf288a0ce1d28e",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_603aa1ffbec61fb52c0e",
+      "text_id": "night11_2502252328ad32ec3888",
+      "text": "उनले अन्त्यमा कहन शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा कहन शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "कहन"
+      ],
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/c4a074963f46e1c48534.wav",
+      "reference_text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी",
+      "reference_sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "source_reference_sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_a0df2a6548b5e31ca4c4",
+      "text_id": "night11_1f0b06bafb6476c5a7b8",
+      "text": "अर्को शब्द होइन, मैले जबर भनेको हुँ।",
+      "canonical_text": "अर्को शब्द होइन, मैले जबर भनेको हुँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "जबर"
+      ],
+      "speaker_id": "S4257018100398290",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/cefd966a49f8f9f10ce7.wav",
+      "reference_text": "वृद्धहरूको निम्ति ओल्ड एज होमहको सुविधाहरू",
+      "reference_sha256": "0450c9ded02ed5c9e34fc13ebd652e195f0e051052819951b65a747c0fad45b7",
+      "source_reference_sha256": "cefd966a49f8f9f10ce7230ce9ddfa902a44b09ea269537250525d8c54e44c65",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_760c1006e783f1fde8d5",
+      "text_id": "night11_105d1139a69c785e41ad",
+      "text": "म फेरि इष्ट भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि इष्ट भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "इष्ट"
+      ],
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/c4a074963f46e1c48534.wav",
+      "reference_text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी",
+      "reference_sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "source_reference_sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_68ddd6561bd1b65e15d3",
+      "text_id": "night11_128bcd250556e20d4fe4",
+      "text": "कृपया पट्ट भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया पट्ट भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "पट्ट"
+      ],
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/c4a074963f46e1c48534.wav",
+      "reference_text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी",
+      "reference_sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "source_reference_sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_05ae49edb13a722e1990",
+      "text_id": "night11_ef198c1b90a8187f96e4",
+      "text": "थप छुट प्राप्त गर्न जोयो पेडल प प्लास्टिक गार्बेज बिनको मात्रा बढाउनुहोस्",
+      "canonical_text": "थप छुट प्राप्त गर्न जोयो पेडल प प्लास्टिक गार्बेज बिनको मात्रा बढाउनुहोस्",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "प्राप्त"
+      ],
+      "speaker_id": "S4259085700325035",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/159e1e624ed7cb903c96.wav",
+      "reference_text": "यस विवादको भँगालो छुटेपछि छुट्टीको महत्त्व केही शताब्दीहरूको",
+      "reference_sha256": "e5ee397a2a8160ca6c1ae4a14d80d83bb305d48c223a96db242aa9d079adc059",
+      "source_reference_sha256": "159e1e624ed7cb903c96e40b8da88b7d713a3dad977162f8be666a2fb3fc9a51",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_7aa4c1de412e0b7cc2a4",
+      "text_id": "night11_1d537720874db68d4d61",
+      "text": "आजको अभ्यासमा हामी भनभन शब्द पढ्छौँ।",
+      "canonical_text": "आजको अभ्यासमा हामी भनभन शब्द पढ्छौँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "भनभन"
+      ],
+      "speaker_id": "S4259279700316061",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/f52796252bd27627d20a.wav",
+      "reference_text": "र अघि मैले भनिहाले उनलाई अब त्यसैले अब पहाड के गान्धी",
+      "reference_sha256": "54fade88c78bfc28c9a2eedbd7fdfb2f61833bcdcba1baac51eee2162f12052e",
+      "source_reference_sha256": "f52796252bd27627d20a4a011fc8c82e5cf36669dcd779c58c7ab43ef10cbcf4",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_c19b07720d72d0af903b",
+      "text_id": "night11_85cac061f2a038adafb5",
+      "text": "मन्जना अरुणा अन्जना रचना मनीषा",
+      "canonical_text": "मन्जना अरुणा अन्जना रचना मनीषा",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "रचना"
+      ],
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/c4a074963f46e1c48534.wav",
+      "reference_text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी",
+      "reference_sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "source_reference_sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_c361942ef0f6711ab8c2",
+      "text_id": "night11_22119c2f8393095cc9ea",
+      "text": "कृपया सहरी भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया सहरी भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "सहरी"
+      ],
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/c4a074963f46e1c48534.wav",
+      "reference_text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी",
+      "reference_sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "source_reference_sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_bfd7953eea97e4c115ec",
+      "text_id": "night11_0855caf6beb6d956e791",
+      "text": "अर्को शब्द होइन, मैले अष्ट भनेको हुँ।",
+      "canonical_text": "अर्को शब्द होइन, मैले अष्ट भनेको हुँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "अष्ट"
+      ],
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/c4a074963f46e1c48534.wav",
+      "reference_text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी",
+      "reference_sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "source_reference_sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_f602f712a79c3727c96f",
+      "text_id": "night11_079a3f51db68a390dc11",
+      "text": "आजको अभ्यासमा हामी अमर शब्द पढ्छौँ।",
+      "canonical_text": "आजको अभ्यासमा हामी अमर शब्द पढ्छौँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "अमर"
+      ],
+      "speaker_id": "S4259085700325035",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/159e1e624ed7cb903c96.wav",
+      "reference_text": "यस विवादको भँगालो छुटेपछि छुट्टीको महत्त्व केही शताब्दीहरूको",
+      "reference_sha256": "e5ee397a2a8160ca6c1ae4a14d80d83bb305d48c223a96db242aa9d079adc059",
+      "source_reference_sha256": "159e1e624ed7cb903c96e40b8da88b7d713a3dad977162f8be666a2fb3fc9a51",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_cd43197deec208cd578e",
+      "text_id": "night11_037c62df8aa35171a78a",
+      "text": "उनले अन्त्यमा तर्क शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा तर्क शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "तर्क"
+      ],
+      "speaker_id": "S4257018100398290",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/cefd966a49f8f9f10ce7.wav",
+      "reference_text": "वृद्धहरूको निम्ति ओल्ड एज होमहको सुविधाहरू",
+      "reference_sha256": "0450c9ded02ed5c9e34fc13ebd652e195f0e051052819951b65a747c0fad45b7",
+      "source_reference_sha256": "cefd966a49f8f9f10ce7230ce9ddfa902a44b09ea269537250525d8c54e44c65",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_3528376b68b6e77a0a25",
+      "text_id": "night11_21ec521d0eaf01341046",
+      "text": "तपाईंले अर्ध भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले अर्ध भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "अर्ध"
+      ],
+      "speaker_id": "S4259279700316061",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/f52796252bd27627d20a.wav",
+      "reference_text": "र अघि मैले भनिहाले उनलाई अब त्यसैले अब पहाड के गान्धी",
+      "reference_sha256": "54fade88c78bfc28c9a2eedbd7fdfb2f61833bcdcba1baac51eee2162f12052e",
+      "source_reference_sha256": "f52796252bd27627d20a4a011fc8c82e5cf36669dcd779c58c7ab43ef10cbcf4",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_d39bd0b4c892bc40a7c1",
+      "text_id": "night11_05b29c9c98f499a4274c",
+      "text": "यो वाक्यमा कूर्म शब्द प्रयोग गरिएको छ।",
+      "canonical_text": "यो वाक्यमा कूर्म शब्द प्रयोग गरिएको छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "कूर्म"
+      ],
+      "speaker_id": "S4259085700325035",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/159e1e624ed7cb903c96.wav",
+      "reference_text": "यस विवादको भँगालो छुटेपछि छुट्टीको महत्त्व केही शताब्दीहरूको",
+      "reference_sha256": "e5ee397a2a8160ca6c1ae4a14d80d83bb305d48c223a96db242aa9d079adc059",
+      "source_reference_sha256": "159e1e624ed7cb903c96e40b8da88b7d713a3dad977162f8be666a2fb3fc9a51",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_b47a63877b462a358174",
+      "text_id": "night11_135b42b6a429ed823423",
+      "text": "तपाईंले नष्ट भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले नष्ट भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "नष्ट"
+      ],
+      "speaker_id": "S4259279700316061",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/f52796252bd27627d20a.wav",
+      "reference_text": "र अघि मैले भनिहाले उनलाई अब त्यसैले अब पहाड के गान्धी",
+      "reference_sha256": "54fade88c78bfc28c9a2eedbd7fdfb2f61833bcdcba1baac51eee2162f12052e",
+      "source_reference_sha256": "f52796252bd27627d20a4a011fc8c82e5cf36669dcd779c58c7ab43ef10cbcf4",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_f266218b49b8862de962",
+      "text_id": "night11_084228171b347267949c",
+      "text": "कृपया महरा भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया महरा भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "महरा"
+      ],
+      "speaker_id": "S4259085700325035",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/159e1e624ed7cb903c96.wav",
+      "reference_text": "यस विवादको भँगालो छुटेपछि छुट्टीको महत्त्व केही शताब्दीहरूको",
+      "reference_sha256": "e5ee397a2a8160ca6c1ae4a14d80d83bb305d48c223a96db242aa9d079adc059",
+      "source_reference_sha256": "159e1e624ed7cb903c96e40b8da88b7d713a3dad977162f8be666a2fb3fc9a51",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_82713e05b89197900c2b",
+      "text_id": "night11_0a94c5ba5603dc9a62d1",
+      "text": "उनले अन्त्यमा साट शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा साट शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "साट"
+      ],
+      "speaker_id": "S4257018100398290",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/cefd966a49f8f9f10ce7.wav",
+      "reference_text": "वृद्धहरूको निम्ति ओल्ड एज होमहको सुविधाहरू",
+      "reference_sha256": "0450c9ded02ed5c9e34fc13ebd652e195f0e051052819951b65a747c0fad45b7",
+      "source_reference_sha256": "cefd966a49f8f9f10ce7230ce9ddfa902a44b09ea269537250525d8c54e44c65",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_f392995d709b544526c5",
+      "text_id": "night11_303975d4c78c07e02127",
+      "text": "म फेरि बलिष्ठ भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि बलिष्ठ भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "बलिष्ठ"
+      ],
+      "speaker_id": "S4259279700316061",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/f52796252bd27627d20a.wav",
+      "reference_text": "र अघि मैले भनिहाले उनलाई अब त्यसैले अब पहाड के गान्धी",
+      "reference_sha256": "54fade88c78bfc28c9a2eedbd7fdfb2f61833bcdcba1baac51eee2162f12052e",
+      "source_reference_sha256": "f52796252bd27627d20a4a011fc8c82e5cf36669dcd779c58c7ab43ef10cbcf4",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_db690ee5331fdfb52cb9",
+      "text_id": "night11_2f050d18f820aea90559",
+      "text": "आजको अभ्यासमा हामी गमला शब्द पढ्छौँ।",
+      "canonical_text": "आजको अभ्यासमा हामी गमला शब्द पढ्छौँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "गमला"
+      ],
+      "speaker_id": "S4259279700316061",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/f52796252bd27627d20a.wav",
+      "reference_text": "र अघि मैले भनिहाले उनलाई अब त्यसैले अब पहाड के गान्धी",
+      "reference_sha256": "54fade88c78bfc28c9a2eedbd7fdfb2f61833bcdcba1baac51eee2162f12052e",
+      "source_reference_sha256": "f52796252bd27627d20a4a011fc8c82e5cf36669dcd779c58c7ab43ef10cbcf4",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_59d9e21f5b08394afefd",
+      "text_id": "night11_0c03205356e53d20a6ea",
+      "text": "यहाँ मार शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ मार शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "मार"
+      ],
+      "speaker_id": "S4259279700316061",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/f52796252bd27627d20a.wav",
+      "reference_text": "र अघि मैले भनिहाले उनलाई अब त्यसैले अब पहाड के गान्धी",
+      "reference_sha256": "54fade88c78bfc28c9a2eedbd7fdfb2f61833bcdcba1baac51eee2162f12052e",
+      "source_reference_sha256": "f52796252bd27627d20a4a011fc8c82e5cf36669dcd779c58c7ab43ef10cbcf4",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_70f076333c26b09bafac",
+      "text_id": "night11_1d947096d3eafde58683",
+      "text": "म फेरि ब्रह्म भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि ब्रह्म भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "ब्रह्म"
+      ],
+      "speaker_id": "S4259085700325035",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/159e1e624ed7cb903c96.wav",
+      "reference_text": "यस विवादको भँगालो छुटेपछि छुट्टीको महत्त्व केही शताब्दीहरूको",
+      "reference_sha256": "e5ee397a2a8160ca6c1ae4a14d80d83bb305d48c223a96db242aa9d079adc059",
+      "source_reference_sha256": "159e1e624ed7cb903c96e40b8da88b7d713a3dad977162f8be666a2fb3fc9a51",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_bb7dd4bdd0c6f2ea103e",
+      "text_id": "night11_1c59554683ac298c7428",
+      "text": "कृपया भिन्न भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया भिन्न भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "भिन्न"
+      ],
+      "speaker_id": "S4257018100398290",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/cefd966a49f8f9f10ce7.wav",
+      "reference_text": "वृद्धहरूको निम्ति ओल्ड एज होमहको सुविधाहरू",
+      "reference_sha256": "0450c9ded02ed5c9e34fc13ebd652e195f0e051052819951b65a747c0fad45b7",
+      "source_reference_sha256": "cefd966a49f8f9f10ce7230ce9ddfa902a44b09ea269537250525d8c54e44c65",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_dfa18a64706cbffe9f49",
+      "text_id": "night11_1958e40b177fd5c2127e",
+      "text": "म फेरि थपना भन्ने शब्द भन्छु।",
+      "canonical_text": "म फेरि थपना भन्ने शब्द भन्छु।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "थपना"
+      ],
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/c4a074963f46e1c48534.wav",
+      "reference_text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी",
+      "reference_sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "source_reference_sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_367c445f47c9d1daaddc",
+      "text_id": "night11_1846b04fe5dd333a0b91",
+      "text": "यहाँ आज शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ आज शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "आज"
+      ],
+      "speaker_id": "S4259279700316061",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/f52796252bd27627d20a.wav",
+      "reference_text": "र अघि मैले भनिहाले उनलाई अब त्यसैले अब पहाड के गान्धी",
+      "reference_sha256": "54fade88c78bfc28c9a2eedbd7fdfb2f61833bcdcba1baac51eee2162f12052e",
+      "source_reference_sha256": "f52796252bd27627d20a4a011fc8c82e5cf36669dcd779c58c7ab43ef10cbcf4",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_8c539ca499a09bebc432",
+      "text_id": "night11_b16fa5356246b282496b",
+      "text": "त्यस्ता युज गर्नको लागि चाहिँ हामीले सिम्पल र असल तरिकाले पनि त्यसलाई हामीले बनाउन सक्छौँ घरमै बसेर पनि",
+      "canonical_text": "त्यस्ता युज गर्नको लागि चाहिँ हामीले सिम्पल र असल तरिकाले पनि त्यसलाई हामीले बनाउन सक्छौँ घरमै बसेर पनि",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "असल"
+      ],
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/c4a074963f46e1c48534.wav",
+      "reference_text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी",
+      "reference_sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "source_reference_sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_56742ed3e2cb9659629b",
+      "text_id": "night11_22336ff0b481630e8b77",
+      "text": "आजको अभ्यासमा हामी गरिष्ठ शब्द पढ्छौँ।",
+      "canonical_text": "आजको अभ्यासमा हामी गरिष्ठ शब्द पढ्छौँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "गरिष्ठ"
+      ],
+      "speaker_id": "S4259279700316061",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/f52796252bd27627d20a.wav",
+      "reference_text": "र अघि मैले भनिहाले उनलाई अब त्यसैले अब पहाड के गान्धी",
+      "reference_sha256": "54fade88c78bfc28c9a2eedbd7fdfb2f61833bcdcba1baac51eee2162f12052e",
+      "source_reference_sha256": "f52796252bd27627d20a4a011fc8c82e5cf36669dcd779c58c7ab43ef10cbcf4",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_497f7047409774e8f0e4",
+      "text_id": "night11_143fbcf854a623fea4ab",
+      "text": "उनले अन्त्यमा बहल शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा बहल शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "बहल"
+      ],
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/c4a074963f46e1c48534.wav",
+      "reference_text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी",
+      "reference_sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "source_reference_sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_2c2fb2ffc40657499d2f",
+      "text_id": "night11_057694398f9fb46e1b91",
+      "text": "अर्को शब्द होइन, मैले चाहना भनेको हुँ।",
+      "canonical_text": "अर्को शब्द होइन, मैले चाहना भनेको हुँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "चाहना"
+      ],
+      "speaker_id": "S4259279700316061",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/f52796252bd27627d20a.wav",
+      "reference_text": "र अघि मैले भनिहाले उनलाई अब त्यसैले अब पहाड के गान्धी",
+      "reference_sha256": "54fade88c78bfc28c9a2eedbd7fdfb2f61833bcdcba1baac51eee2162f12052e",
+      "source_reference_sha256": "f52796252bd27627d20a4a011fc8c82e5cf36669dcd779c58c7ab43ef10cbcf4",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_6a6551bca5c079d084fe",
+      "text_id": "night11_292fff78d568a74e7ba5",
+      "text": "तपाईंले सृजना भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले सृजना भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "सृजना"
+      ],
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/c4a074963f46e1c48534.wav",
+      "reference_text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी",
+      "reference_sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "source_reference_sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_2522ad6c270e97cdab7d",
+      "text_id": "night11_084386930f4206140cb3",
+      "text": "यो वाक्यमा मलय शब्द प्रयोग गरिएको छ।",
+      "canonical_text": "यो वाक्यमा मलय शब्द प्रयोग गरिएको छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "मलय"
+      ],
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/c4a074963f46e1c48534.wav",
+      "reference_text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी",
+      "reference_sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "source_reference_sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_e3b136f26fdb61c32af8",
+      "text_id": "night11_1efe2258a018c09de5ea",
+      "text": "यहाँ महल शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ महल शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "महल"
+      ],
+      "speaker_id": "S4259085700325035",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/159e1e624ed7cb903c96.wav",
+      "reference_text": "यस विवादको भँगालो छुटेपछि छुट्टीको महत्त्व केही शताब्दीहरूको",
+      "reference_sha256": "e5ee397a2a8160ca6c1ae4a14d80d83bb305d48c223a96db242aa9d079adc059",
+      "source_reference_sha256": "159e1e624ed7cb903c96e40b8da88b7d713a3dad977162f8be666a2fb3fc9a51",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_e51a587cad3829cd0339",
+      "text_id": "night11_00b3ce829e7e95292f3c",
+      "text": "उनले अन्त्यमा गिरोह शब्द दोहोर्‍याए।",
+      "canonical_text": "उनले अन्त्यमा गिरोह शब्द दोहोर्‍याए।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "गिरोह"
+      ],
+      "speaker_id": "S4259085700325035",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/159e1e624ed7cb903c96.wav",
+      "reference_text": "यस विवादको भँगालो छुटेपछि छुट्टीको महत्त्व केही शताब्दीहरूको",
+      "reference_sha256": "e5ee397a2a8160ca6c1ae4a14d80d83bb305d48c223a96db242aa9d079adc059",
+      "source_reference_sha256": "159e1e624ed7cb903c96e40b8da88b7d713a3dad977162f8be666a2fb3fc9a51",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_42e3e3b10da123adf03c",
+      "text_id": "night11_303209212f9f8d919b34",
+      "text": "यहाँ जीर्ण शब्द स्पष्ट सुनिनुपर्छ।",
+      "canonical_text": "यहाँ जीर्ण शब्द स्पष्ट सुनिनुपर्छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "जीर्ण"
+      ],
+      "speaker_id": "S4257018100398290",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/cefd966a49f8f9f10ce7.wav",
+      "reference_text": "वृद्धहरूको निम्ति ओल्ड एज होमहको सुविधाहरू",
+      "reference_sha256": "0450c9ded02ed5c9e34fc13ebd652e195f0e051052819951b65a747c0fad45b7",
+      "source_reference_sha256": "cefd966a49f8f9f10ce7230ce9ddfa902a44b09ea269537250525d8c54e44c65",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_80254ee6eabf86c43543",
+      "text_id": "night11_18e44813caa0abe120ef",
+      "text": "कृपया धर्म भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया धर्म भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "धर्म"
+      ],
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/c4a074963f46e1c48534.wav",
+      "reference_text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी",
+      "reference_sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "source_reference_sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_cf97de8da70dee5d80bc",
+      "text_id": "night11_7ae894e027d0c101090f",
+      "text": "केही नो अब्जेक्सन अक्षरहरू अपेक्षाकृत अनौपचारिक हुन्छन् जबकि अरूले निश्चित ढाँचा पालना गर्नु पर्दछ",
+      "canonical_text": "केही नो अब्जेक्सन अक्षरहरू अपेक्षाकृत अनौपचारिक हुन्छन् जबकि अरूले निश्चित ढाँचा पालना गर्नु पर्दछ",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "पालना"
+      ],
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/c4a074963f46e1c48534.wav",
+      "reference_text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी",
+      "reference_sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "source_reference_sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_68415b5f275e79774b4e",
+      "text_id": "night11_1ba81c27e9247cf9957a",
+      "text": "कृपया देय भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया देय भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "देय"
+      ],
+      "speaker_id": "S4259085700325035",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/159e1e624ed7cb903c96.wav",
+      "reference_text": "यस विवादको भँगालो छुटेपछि छुट्टीको महत्त्व केही शताब्दीहरूको",
+      "reference_sha256": "e5ee397a2a8160ca6c1ae4a14d80d83bb305d48c223a96db242aa9d079adc059",
+      "source_reference_sha256": "159e1e624ed7cb903c96e40b8da88b7d713a3dad977162f8be666a2fb3fc9a51",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_0903482f72e00d67d6fc",
+      "text_id": "night11_0276a5334c91840c6666",
+      "text": "कृपया कसर भन्ने शब्द एकपटक भन्नुहोस्।",
+      "canonical_text": "कृपया कसर भन्ने शब्द एकपटक भन्नुहोस्।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "कसर"
+      ],
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/c4a074963f46e1c48534.wav",
+      "reference_text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी",
+      "reference_sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "source_reference_sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_70f9c3bf994491316139",
+      "text_id": "night11_0036463e0f5e24cc11ed",
+      "text": "यो वाक्यमा दुग्ध शब्द प्रयोग गरिएको छ।",
+      "canonical_text": "यो वाक्यमा दुग्ध शब्द प्रयोग गरिएको छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "दुग्ध"
+      ],
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/c4a074963f46e1c48534.wav",
+      "reference_text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी",
+      "reference_sha256": "0f2702e4f8d9baab84aff7a510ab6c883c794f6ff519498db5151c3408389ce8",
+      "source_reference_sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_92c097c4e24a1155c32f",
+      "text_id": "night11_112f00cd6226b2508684",
+      "text": "यो वाक्यमा चूर्ण शब्द प्रयोग गरिएको छ।",
+      "canonical_text": "यो वाक्यमा चूर्ण शब्द प्रयोग गरिएको छ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "चूर्ण"
+      ],
+      "speaker_id": "S4259279700316061",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/f52796252bd27627d20a.wav",
+      "reference_text": "र अघि मैले भनिहाले उनलाई अब त्यसैले अब पहाड के गान्धी",
+      "reference_sha256": "54fade88c78bfc28c9a2eedbd7fdfb2f61833bcdcba1baac51eee2162f12052e",
+      "source_reference_sha256": "f52796252bd27627d20a4a011fc8c82e5cf36669dcd779c58c7ab43ef10cbcf4",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_6989b0f710d406acf5b4",
+      "text_id": "night11_064866381d59bab1ecb5",
+      "text": "अर्को शब्द होइन, मैले जाग भनेको हुँ।",
+      "canonical_text": "अर्को शब्द होइन, मैले जाग भनेको हुँ।",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "जाग"
+      ],
+      "speaker_id": "S4259279700316061",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/f52796252bd27627d20a.wav",
+      "reference_text": "र अघि मैले भनिहाले उनलाई अब त्यसैले अब पहाड के गान्धी",
+      "reference_sha256": "54fade88c78bfc28c9a2eedbd7fdfb2f61833bcdcba1baac51eee2162f12052e",
+      "source_reference_sha256": "f52796252bd27627d20a4a011fc8c82e5cf36669dcd779c58c7ab43ef10cbcf4",
+      "seed": 0,
+      "automatic_leakage_label": null
+    },
+    {
+      "id": "proso49_ce83744f641b373a2e57",
+      "text_id": "night11_2cccbdb706498c50917b",
+      "text": "तपाईंले अमन भन्ने शब्द सुन्नुभयो?",
+      "canonical_text": "तपाईंले अमन भन्ने शब्द सुन्नुभयो?",
+      "text_kind": "third_native_prosody_donor",
+      "target_words": [
+        "अमन"
+      ],
+      "speaker_id": "S4259085700325035",
+      "split": "reserved_evaluation",
+      "reference_audio": "references/159e1e624ed7cb903c96.wav",
+      "reference_text": "यस विवादको भँगालो छुटेपछि छुट्टीको महत्त्व केही शताब्दीहरूको",
+      "reference_sha256": "e5ee397a2a8160ca6c1ae4a14d80d83bb305d48c223a96db242aa9d079adc059",
+      "source_reference_sha256": "159e1e624ed7cb903c96e40b8da88b7d713a3dad977162f8be666a2fb3fc9a51",
+      "seed": 0,
+      "automatic_leakage_label": null
+    }
+  ]
+}

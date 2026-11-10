@@ -1,0 +1,41 @@
+{
+  "k2": {
+    "source_files_verified": 122,
+    "owned_live_processes": {
+      "f5_mps": "83042 14:11 /Volumes/T9/hindi-detector/.venv-indicf5/bin/python -m scripts.run_indicf5_comparison --pack data/human_matched_f5_v9 --device mps",
+      "continuation": "84110 09:52 /Volumes/T9/hindi-detector/.venv-indicf5/bin/python -m scripts.continue_human_matched",
+      "readonly_service": "85765 03:11 /Volumes/T9/hindi-detector/.venv-indicf5/bin/python -m hindi_detector.wordlab_server --pack data/indicf5_audio8_v1 --pack data/pocket_architecture_probe_v3 --pack data/human_g2p_bank_v5 --pack data/wordmatrix_v3 --pack data/pocket_wordmatrix_v4 --page review/wordlab.html --data review/human_word_data_v8 --port 8770"
+    },
+    "free_bytes": 268651323392,
+    "sizes": {
+      "models": 4357061150,
+      "data/human_original_audio_v6": 491681404,
+      "data/schwa_interventions_v7": 33982135,
+      "data/human_matched_pocket_v9": 63375252,
+      "data/human_matched_f5_v9": 42327289,
+      "review/human_word_data_v8": 19425498,
+      "reports/real_word_transfer_v8": 9179125,
+      "reports/real_word_transfer_summary_v8": 7812475
+    },
+    "continuation": {
+      "phase": "verified_wait_for_owned_f5_generation",
+      "pid": 84110,
+      "updated_utc": "2026-11-07T16:27:38.185294+00:00",
+      "verified_live_f5_pid": 83042,
+      "expected_clips": 126
+    },
+    "real_word_clips": 1928,
+    "planned_word_occurrences": 1844,
+    "actual_hindi_accuracy": null
+  },
+  "local_free_bytes": 51014651904,
+  "tests_passed": 86,
+  "website_cases": 110,
+  "api_browser_checks": "reports/ui_transfer_v8",
+  "retired_review_bytes_per_host": 14949362,
+  "qa_deleted_bytes_local": 259091,
+  "cleanup_scope": "Only owned superseded review case/index copies and completed browser QA; exact historical JSON restoration from current v8 proved. No original recordings, annotations, model checkpoints or active worker outputs deleted.",
+  "actual_hindi_accuracy": null,
+  "actual_prosody_accuracy": null,
+  "overall_goal_achieved": false
+}

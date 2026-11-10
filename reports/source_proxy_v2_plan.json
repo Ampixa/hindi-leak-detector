@@ -1,0 +1,30 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "created_utc": "2026-11-07T07:20:25.414834+00:00",
+  "owner": "Ampixa/user",
+  "status": "active",
+  "purpose": "Predeclared v2 experiment; no benchmark-driven candidate or threshold selection",
+  "next_review": "2026-11-14",
+  "changes": [
+    "Add native corpus speech as weak negative anchors",
+    "Full + deterministic 1.5s/2.5s development views address observed duration shift",
+    "Converged L2 logistic fit with paired full-utterance ranking loss",
+    "Choose representation and regularization using only training-speaker grouped cross-validation; keep development and original benchmark separate"
+  ],
+  "candidate_representations": [
+    "layer12",
+    "layer24",
+    "both"
+  ],
+  "candidate_l2": [
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "pair_loss_coefficient": 0.5,
+  "decision_threshold": 0.5,
+  "native_weighted_negative_prior": "IndicF5 0.5; Audio8 0.25; native corpus 0.25",
+  "fresh_probe": "32 unused source speaker groups, full and 1.5s windows, locked before fitting",
+  "limitation": "The old benchmark was inspected during v1 development; v2 reuse is an exploratory comparison, not a pristine independent accuracy claim."
+}

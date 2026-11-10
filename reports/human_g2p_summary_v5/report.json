@@ -1,0 +1,22 @@
+{
+  "status": "real_human_dual_g2p_evidence_collected_unlabelled",
+  "word_families": 32,
+  "families_with_supported_comparisons": 20,
+  "observed_planned_word_occurrences": 264,
+  "extraction_successes": 232,
+  "extraction_failures": 0,
+  "native_acceptability_accuracy": null,
+  "preferred_style_accuracy": null,
+  "hindi_error_accuracy": null,
+  "geography_used_as_label": false,
+  "g2p_outputs_used_as_gold": false,
+  "limits": [
+    "This is a speaker-weighted observation bank, not a trained/validated human-word error classifier.",
+    "Full predicted path preference mixes phone quality, phone count and model path-length bias.",
+    "Both G2P paths may fit poorly; per-frame comparisons with the probe greedy sequence are retained.",
+    "Unsupported IPA and impossible paths remain explicit, never native support or zero risk.",
+    "Current regional coverage is reported West Bengal districts; Nepal-region coverage is not established.",
+    "Single-original-utterance candidacy uses text/duration metadata, not verified original audio identity.",
+    "Native variation, preferred TTS style and Hindi-phone evidence are separate requested outputs."
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "source_utf8": "import pathlib,json,hashlib,io,importlib.metadata,numpy as np,soundfile as sf,sphn\nfrom hindi_detector.wave_identity import comparison\nroot=pathlib.Path('/Volumes/T9/hindi-detector');out=root/'data/human_original_audio_pilot_v6';ins=json.loads((out/'inspection.json').read_text());old=json.loads((out/'waveform_correspondence.json').read_text())['records'];results=[]\nfor row,pair in zip(ins['records'],old,strict=True):\n original,sr=sf.read(out/row['payload_path'],dtype='float32',always_2d=True)\n # The actual inspected staging recipe: mean channels, sphn resample, peak .95, PCM16.\n decoded=sphn.resample(original.mean(axis=1),sr,24000)\n if decoded.ndim!=1: raise ValueError('Unexpected actual sphn result shape')\n predicted=decoded*(.95/(float(np.abs(decoded).max()) or 1.))\n buffer=io.BytesIO();sf.write(buffer,predicted,24000,format='WAV',subtype='PCM_16');encoded=buffer.getvalue()\n staged,br=sf.read(pair['staged_audio'],dtype='float32');results.append({'row':row['row'],'staged_audio':pair['staged_audio'],'original_payload_sha256':row['payload_sha256'],'reproduced_staged_sha256':hashlib.sha256(encoded).hexdigest(),'expected_staged_sha256':pair['staged_sha256'],'encoded_staged_bytes_identical':hashlib.sha256(encoded).hexdigest()==pair['staged_sha256'],'waveform_comparison':comparison(predicted,24000,staged,br)})\npackage=pathlib.Path(sphn.__file__).parent\nresources=[{'path':str(p),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(package.rglob('*')) if p.is_file() and p.suffix in {'.py','.so','.dylib','.pyi'}]\nrecord={'source_utf8':SOURCE,'sphn_version':importlib.metadata.version('sphn'),'numpy_version':np.__version__,'soundfile_version':sf.__version__,'libsndfile_version':sf.__libsndfile_version__,'sphn_resources':resources,'results':results,'historical_preprocessing_revision_known':False,'conclusion':'Exact inspected-recipe reconstruction is checked per selected clip. Matching these two recordings does not establish all other staging clips or native-accent labels.'}\n(out/'recipe_reproduction.json').write_text(json.dumps(record,indent=2)+'\\n');print(json.dumps(results))\n",
+  "sphn_version": "0.2.1",
+  "numpy_version": "2.5.2",
+  "soundfile_version": "0.14.0",
+  "libsndfile_version": "1.2.2",
+  "sphn_resources": [
+    {
+      "path": "/Users/k2/madhyam/pocket-tts/.venv/lib/python3.12/site-packages/sphn/__init__.py",
+      "bytes": 20,
+      "sha256": "b584fe46f24e9e34d013dc601bd5019c280f749f629a38b3c4b7447c1c7386e1"
+    },
+    {
+      "path": "/Users/k2/madhyam/pocket-tts/.venv/lib/python3.12/site-packages/sphn/__init__.pyi",
+      "bytes": 5124,
+      "sha256": "44ede228a5fffe9b13be203a65bf51ddee211830c52bbc1da62bd8dc149cfca1"
+    },
+    {
+      "path": "/Users/k2/madhyam/pocket-tts/.venv/lib/python3.12/site-packages/sphn/sphn.cpython-312-darwin.so",
+      "bytes": 4653488,
+      "sha256": "7dda25a0b34444f8969cf7c785baa8bebf5103468e791ef4c82a88539bb40dc0"
+    }
+  ],
+  "results": [
+    {
+      "row": 28,
+      "staged_audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258804100339766_000033.wav",
+      "original_payload_sha256": "a54fb1e567d41c26db780ed6b3657742d06cbb933a447ad1fc3f424b040ccfd2",
+      "reproduced_staged_sha256": "c2dbde98b568869177b9a2d9dd4ba7b2990a4226ce2e0f0e9a59924b4f5dae57",
+      "expected_staged_sha256": "c2dbde98b568869177b9a2d9dd4ba7b2990a4226ce2e0f0e9a59924b4f5dae57",
+      "encoded_staged_bytes_identical": true,
+      "waveform_comparison": {
+        "source_sample_rate": 24000,
+        "source_frames": 172032,
+        "staged_sample_rate": 24000,
+        "staged_frames": 172032,
+        "comparison_resampling": null,
+        "comparison_frames": 172032,
+        "resampled_frame_count_difference": 0,
+        "comparison_shift_samples": 0,
+        "least_squares_gain": 1.0000003933011865,
+        "pearson_correlation": 0.9999999978923613,
+        "gain_adjusted_rmse": 1.7614603941294684e-05,
+        "gain_adjusted_max_error": 3.068404242190237e-05,
+        "same_rate_length_and_gain_adjusted_samples_within_1e_minus4": true,
+        "meaning": "Waveform correspondence under an explicit gain/resampling comparison. This is not an accent, speaker-identity or native-acceptability label."
+      }
+    },
+    {
+      "row": 37,
+      "staged_audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257061600351107_000038.wav",
+      "original_payload_sha256": "fc631d30d31cc40455f47e11ef57fb7b2c748a8d60797219d5987ba9f6f3a927",
+      "reproduced_staged_sha256": "7441094e28f2e286c00fe024af82bc81d5a11f964e220f363652e376c85bf81e",
+      "expected_staged_sha256": "7441094e28f2e286c00fe024af82bc81d5a11f964e220f363652e376c85bf81e",
+      "encoded_staged_bytes_identical": true,
+      "waveform_comparison": {
+        "source_sample_rate": 24000,
+        "source_frames": 148480,
+        "staged_sample_rate": 24000,
+        "staged_frames": 148480,
+        "comparison_resampling": null,
+        "comparison_frames": 148480,
+        "resampled_frame_count_difference": 0,
+        "comparison_shift_samples": 0,
+        "least_squares_gain": 1.000000020260034,
+        "pearson_correlation": 0.9999999970052904,
+        "gain_adjusted_rmse": 1.7685902502389293e-05,
+        "gain_adjusted_max_error": 3.051723677584969e-05,
+        "same_rate_length_and_gain_adjusted_samples_within_1e_minus4": true,
+        "meaning": "Waveform correspondence under an explicit gain/resampling comparison. This is not an accent, speaker-identity or native-acceptability label."
+      }
+    }
+  ],
+  "historical_preprocessing_revision_known": false,
+  "conclusion": "Exact inspected-recipe reconstruction is checked per selected clip. Matching these two recordings does not establish all other staging clips or native-accent labels."
+}

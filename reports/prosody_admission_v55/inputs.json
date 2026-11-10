@@ -1,0 +1,18 @@
+[
+  {
+    "path": "reports/recovered_prosody_audit_v48/report.json",
+    "sha256": "0a766646ae8cb8d7fb68635ec74605033f27edd0c4310fc50ec62f0a9fb402c9"
+  },
+  {
+    "path": "reports/prosody_transfer_training_v49/report.json",
+    "sha256": "a27e26c25e92499237bb23d6875d827b4dfe33edded847cd376b09f623bb8676"
+  },
+  {
+    "path": "reports/prosody_direction_development_v50/report.json",
+    "sha256": "af3a3cac72569cff2efa030cb172aaa20d478f0f5ebfeaae8344381c383dfd76"
+  },
+  {
+    "path": "reports/rhythm_transfer_training_v52/report.json",
+    "sha256": "f97b80ef229ee32676c9622d4590431087fd2cfbeba3dc66c27612f6d7a31aef"
+  }
+]

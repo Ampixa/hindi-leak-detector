@@ -1,0 +1,118 @@
+[
+  {
+    "id": "real_yt_yt08_060",
+    "original_text": "१३ हप्ता छ दिन भित्र गर्न मिल्ने जाहाच हो त्यो प्रेग्नेन्सीमा अनि दिउसो गर्न आउनु भा थियो रिपोर्ट नर्मल थियो हैन गरेर",
+    "analysis_text": "तेह्र हप्ता छ दिन भित्र गर्न मिल्ने जाहाच हो त्यो प्रेग्नेन्सीमा अनि दिउसो गर्न आउनु भा थियो रिपोर्ट नर्मल थियो हैन गरेर",
+    "qualified_sources": [
+      "real",
+      "swar"
+    ],
+    "repair": {
+      "replace": {
+        "१३": "तेह्र"
+      },
+      "counts": {
+        "१३": 1
+      },
+      "phrases": [
+        [
+          [
+            "तेह्र हप्ता"
+          ],
+          1
+        ]
+      ]
+    },
+    "meaning": "ASR-corroborated numeric lexical value, not human-verified phone/error gold."
+  },
+  {
+    "id": "real_yt_yt09_069",
+    "original_text": "मैले ३ हजार रुपैया तिरेर ट्रेनिङ लिएको थिए। ३ हजार रुपैया त्यतिखेर एउटा पैसा थियो।",
+    "analysis_text": "मैले तीन हजार रुपैया तिरेर ट्रेनिङ लिएको थिए। तीन हजार रुपैया त्यतिखेर एउटा पैसा थियो।",
+    "qualified_sources": [
+      "real",
+      "swar",
+      "a450"
+    ],
+    "repair": {
+      "replace": {
+        "३": "तीन"
+      },
+      "counts": {
+        "३": 2
+      },
+      "phrases": [
+        [
+          [
+            "तिन हजार",
+            "तीन हजार"
+          ],
+          2
+        ]
+      ]
+    },
+    "meaning": "ASR-corroborated numeric lexical value, not human-verified phone/error gold."
+  },
+  {
+    "id": "real_yt_yt10_073",
+    "original_text": "अनि १२ हजार माग्छु कि १५ हजार माग्छु म दिन रेडी छु।",
+    "analysis_text": "अनि बाह्र हजार माग्छु कि पन्ध्र हजार माग्छु म दिन रेडी छु।",
+    "qualified_sources": [
+      "real",
+      "swar",
+      "a450"
+    ],
+    "repair": {
+      "replace": {
+        "१२": "बाह्र",
+        "१५": "पन्ध्र"
+      },
+      "counts": {
+        "१२": 1,
+        "१५": 1
+      },
+      "phrases": [
+        [
+          [
+            "बाह्र हजार"
+          ],
+          1
+        ],
+        [
+          [
+            "पन्ध्र हजार"
+          ],
+          1
+        ]
+      ]
+    },
+    "meaning": "ASR-corroborated numeric lexical value, not human-verified phone/error gold."
+  },
+  {
+    "id": "real_yt_yt12_092",
+    "original_text": "हुनुभयो। दोस्रो नम्बरमा यहाँको व्यवसायले १५ करोड सम्मको को कारोबार गरेको छ त्यो त्यसमा एलिजिबल हुनुभयो।",
+    "analysis_text": "हुनुभयो। दोस्रो नम्बरमा यहाँको व्यवसायले पन्ध्र करोड सम्मको को कारोबार गरेको छ त्यो त्यसमा एलिजिबल हुनुभयो।",
+    "qualified_sources": [
+      "real",
+      "swar",
+      "a450"
+    ],
+    "repair": {
+      "replace": {
+        "१५": "पन्ध्र"
+      },
+      "counts": {
+        "१५": 1
+      },
+      "phrases": [
+        [
+          [
+            "पन्ध्र करोड"
+          ],
+          1
+        ]
+      ]
+    },
+    "meaning": "ASR-corroborated numeric lexical value, not human-verified phone/error gold."
+  }
+]

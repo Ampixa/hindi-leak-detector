@@ -1,0 +1,119 @@
+{
+  "created_utc": "2026-11-09T09:22:40.550518+00:00",
+  "sentences": 26,
+  "conditioning_groups": 4,
+  "systems": {
+    "pocket_teacher_250000_24l": {
+      "requested": 104,
+      "statuses": {
+        "scored_vowel_evidence": 104
+      },
+      "content_decisions": {
+        "pass": 104
+      },
+      "readings_with_word_flags": 15,
+      "readings_with_focal_flags": 4,
+      "focal_flags_on_content_pass_queries": 4,
+      "tested_word_positions": 126,
+      "word_positions_with_alignment": 724,
+      "word_positions_all_requested": 724,
+      "accuracy": null
+    },
+    "indicf5_stock": {
+      "requested": 104,
+      "statuses": {
+        "scored_vowel_evidence": 104
+      },
+      "content_decisions": {
+        "pass": 93,
+        "quarantine": 11
+      },
+      "readings_with_word_flags": 79,
+      "readings_with_focal_flags": 70,
+      "focal_flags_on_content_pass_queries": 60,
+      "tested_word_positions": 126,
+      "word_positions_with_alignment": 724,
+      "word_positions_all_requested": 724,
+      "accuracy": null
+    }
+  },
+  "raw_readings": 208,
+  "highlights": [
+    {
+      "id": "cross80_s19",
+      "word": "सहमति",
+      "text": "लामो छलफलपछि सबै पक्षबीच सहमति भयो।",
+      "voice_ordinal": 0,
+      "query_system": "indicf5_stock",
+      "audio_sha256": "065eed3b71581712e1413702ce772d0ace379dc3b6d36c36c4b1b33efa7e1703",
+      "content": "pass",
+      "reference_support": "both qualified Native references",
+      "human_error_label": null,
+      "link": "http://100.115.106.117:8782/#case=cross80_s19&voice=0&system=indicf5_stock"
+    },
+    {
+      "id": "cross80_s21",
+      "word": "नैतिक",
+      "text": "यो निर्णय गर्दा नैतिक पक्ष पनि विचार गर्नुपर्छ।",
+      "voice_ordinal": 1,
+      "query_system": "indicf5_stock",
+      "audio_sha256": "411c035ed8236c03659e634b997506237634844c2bb93135a741f54bae1e148d",
+      "content": "pass",
+      "reference_support": "both qualified Native references",
+      "human_error_label": null,
+      "link": "http://100.115.106.117:8782/#case=cross80_s21&voice=1&system=indicf5_stock"
+    },
+    {
+      "id": "cross80_s23",
+      "word": "बैठक",
+      "text": "भोलिको बैठक बिहान ठीक दस बजे सुरु हुन्छ।",
+      "voice_ordinal": 2,
+      "query_system": "indicf5_stock",
+      "audio_sha256": "f80a4b8b282472db62959db9cac3620688bb239e54c646dcc2c69df80d10ec05",
+      "content": "pass",
+      "reference_support": "both qualified Native references",
+      "human_error_label": null,
+      "link": "http://100.115.106.117:8782/#case=cross80_s23&voice=2&system=indicf5_stock"
+    }
+  ],
+  "native_focal_candidates": [
+    {
+      "id": "cross80_s00",
+      "word": "हैन",
+      "voice_ordinal": 0,
+      "human_error_label": null,
+      "interpretation": "Unresolved Native-teacher candidate; not automatic false-positive/negative gold."
+    },
+    {
+      "id": "cross80_s16",
+      "word": "सपना",
+      "voice_ordinal": 0,
+      "human_error_label": null,
+      "interpretation": "Unresolved Native-teacher candidate; not automatic false-positive/negative gold."
+    },
+    {
+      "id": "cross80_s16",
+      "word": "सपना",
+      "voice_ordinal": 1,
+      "human_error_label": null,
+      "interpretation": "Unresolved Native-teacher candidate; not automatic false-positive/negative gold."
+    },
+    {
+      "id": "cross80_s24",
+      "word": "सबैलाई",
+      "voice_ordinal": 0,
+      "human_error_label": null,
+      "interpretation": "Unresolved Native-teacher candidate; not automatic false-positive/negative gold."
+    }
+  ],
+  "source_claim": "Fresh sentence/source evidence outside Swar. These model families appeared in earlier work; no unseen-engine or morphology-disjoint accuracy claim.",
+  "model_sha256": "58422b5a360149406cdb5a12e63e3360a0f4133224d26b556f9136468c2fce85",
+  "production_model_changed": false,
+  "training": false,
+  "new_human_confirmations": 0,
+  "parity": {
+    "quality": "reports/cross_system_batch_parity_v80/report.json",
+    "new_word_deletion": "Exact full-word/bounds/site/decision/qualification parity with unchanged production CLI on सहमति.",
+    "newword_cold_sha256": "d797ad369b480c0e2393cb1452fc6382de6d0a4040afea80d9b992309b49c22a"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "cache_report_sha256": "a160023b6593bb57d392bbbefe4000ed8e1e9bae87cd63f43a9d95606f2bc621",
+  "target_report_sha256": "99e08bd39e8611c0a4535defc32f8dd0f091198b18e4709420401c363d25eb0b",
+  "trainer_sha256": "64e527a6e6c122e108c7da34a7664032248a8ab59b48d2162ce876f0f2ccf0bd",
+  "metadata_model_sha256": "52ce46440e58392b2193091ea0b3faca7eb12e23c3ff4b327e74b8be8c011ce7",
+  "nucleus_code_sha256": "1d6316deb80af13fe38711512780fddafe3d7d86afa6329ca4f2afb68e584d9c",
+  "v81_helper_sha256": "d0f3205b44892941051e50d7a13edff25098656df532f6215b4149fcc49d4d71",
+  "stem_receipt": {
+    "protocol_sha256": "1eec244b9718af428d851d816ed25fe58561b7f831dc0efdf8640bed1037c233",
+    "report_sha256": "7d981dffc117b1a448a8e37674c178b7dde836c716d9f1058704b3f2e9e7135c",
+    "builder_sha256": "45a12dccd5b652305d1322741b18d95ff965232a3edb99a18e6fb79ab6927b9d",
+    "validation_sha256": "4770b959c345cb0212a1ce391ac62f7aa77b10c16b4acfcf88a9d068190d5028",
+    "validation": {
+      "status": "passed_actual_source_sample_rate_and_grid_tests",
+      "reviewed_utc": "2026-11-09T14:42:17.695366+00:00",
+      "actual_16k_mono_controls": {
+        "train": 2689,
+        "development": 775
+      },
+      "grid_tests": "203 suite passed; includes torch.stft(center=True)+F.interpolate(align_corners=False) equivalence at start,end,actualfloatword fixture,1e-8sampletolerance; pinned feature dimensions count checked on every emitted convolution output.",
+      "do_normalize": true,
+      "device": "mps",
+      "torch": "2.6.0",
+      "transformers": "4.49.0",
+      "upstream_convolution_freeze_during_espeak_finetune": "unknown; not asserted",
+      "project_training_of_frontend": "none; original pinned checkpoint remains unchanged",
+      "normalization_limit": "Whole-query normalization statistics change slightly after deletion; per-frame LayerNorm dampens but does not prove invariance."
+    },
+    "depth": 5,
+    "stride_samples": 80,
+    "receptive_field_samples": 160,
+    "checkpoint_inventory": {
+      "model": "facebook/wav2vec2-xlsr-53-espeak-cv-ft",
+      "revision": "2c733782da5604684829819a5eb744c193fe9398",
+      "created_utc": "2026-11-06T07:39:56.870362+00:00",
+      "host": "Khatra-Dev-Nepals-Mac-Studio.local",
+      "files": [
+        {
+          "path": "config.json",
+          "bytes": 1856,
+          "sha256": "4609fb49b7e1d28aecb2840da1926c40bd915bc6f1120a940afacf7159bbfb13"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "bytes": 212,
+          "sha256": "a2254a5b58f72cd4de3632f8eee64f3f098b7c1402128d2f419e7d00ae13e335"
+        },
+        {
+          "path": "vocab.json",
+          "bytes": 4637,
+          "sha256": "d732ab2456c0c017930001dc9af0b41b3b93d25b2eb9740bf9d925508d7d87d0"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 412,
+          "sha256": "d663833dacef7d29f563e23029d448fe41415dbe5e8e6d5a98b598a5258c18d8"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "bytes": 85,
+          "sha256": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3043,
+          "sha256": "32a058c9a338807e9e237fad17a9f400f67c64ee2e18d71750c912ffbfb9e22b"
+        },
+        {
+          "path": "pytorch_model.bin",
+          "bytes": 1263535127,
+          "sha256": "04366b6c8d24099ef313cf02f0e58d26f5dddfda16edbfc8eb2c713d94a9f551"
+        }
+      ]
+    }
+  },
+  "stem_code_sha256": "c8fff6c966a9b8716ca777c0b4cce6a6dda58f3808d13c845f99bab03b4e0d64"
+}

@@ -1,0 +1,35 @@
+{
+  "observed_utc": "2026-11-09T00:50:51.811601+00:00",
+  "obsolete_generated_wavs": 33868,
+  "current_extracted_and_served_wavs": 2940,
+  "unused_unextracted_wavs": 30928,
+  "unused_logical_bytes": 10599895232,
+  "current_consumer": "2940 extracted source recordings remain whitelisted for legacy benchmark playback; preserve all. Unextracted30928 have no current training, served audio, benchmark, release or queue consumer. Sources were explicitly superseded by24-layer teacher/stockIndicF5.",
+  "producer_states": "All4 generators complete; ASR stopped at cutoff; extractor complete_bounded_word_extraction. ps audit showed no old generator/ASR/extractor/trainer; lsof showed0 open files under old bulk.",
+  "cleanup_status": "automatic_approval_review_blocked_destructive_file_removal",
+  "reason": "dcg core.filesystem:unlink-general requires explicit human approval",
+  "files_deleted": 0,
+  "space_reclaimed_bytes": 0,
+  "free_bytes": 231421829120,
+  "generation_receipts": [
+    {
+      "path": "data/pocket_bulk_v11/worker_0/items.jsonl",
+      "sha256": "d8f3078245a5136a1974d23df05f5b2562b0af9432ed5e6b5e6dcc08599849e5"
+    },
+    {
+      "path": "data/pocket_bulk_v11/worker_1/items.jsonl",
+      "sha256": "79acb7b83ebe2ac0bf69eb139cb0946953c1bfc36b50fcc7a72f6695c81ae5e2"
+    },
+    {
+      "path": "data/pocket_bulk_v11/worker_2/items.jsonl",
+      "sha256": "663a0dfe47b3b6828caf04335b1ac8ce0bf774d37a2a84a6186c77a333c61633"
+    },
+    {
+      "path": "data/pocket_bulk_v11/worker_3/items.jsonl",
+      "sha256": "111f85837eb267d7695ad6cfb51cd971ea9d5ca3bdaea9ad09e0d66b08af5e45"
+    }
+  ],
+  "next_review": "2026-11-10",
+  "status": "needs-review",
+  "models_and_unique_source_data_untouched": true
+}

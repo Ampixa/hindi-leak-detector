@@ -1,0 +1,30 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "created_utc": "2026-11-07T08:34:05.216306+00:00",
+  "owner": "Ampixa/user",
+  "status": "active",
+  "next_review": "2026-11-14",
+  "purpose": "Voice-confound controls introduced before observing any converted scores",
+  "sources": "sent_085 and first actual question-mark sentence, native/Audio8 R3/IndicF5",
+  "controls": [
+    "same-style identity resynthesis",
+    "common target voice from native probe reference 4",
+    "common target voice from native probe reference 5"
+  ],
+  "same_noise_seed": 0,
+  "native_converter_tau": 0.3,
+  "approximate_preservation_gate": {
+    "duration_ratio": [
+      0.98,
+      1.02
+    ],
+    "word_timing_mae_seconds": 0.08,
+    "relative_pitch_correlation": 0.85,
+    "mean_phone_posterior_cosine": 0.85
+  },
+  "limitations": [
+    "Gate is an automatic diagnostic, not human proof of exact phonetic/prosodic preservation.",
+    "Do not infer accent-model voice sensitivity from failed-preservation conversions.",
+    "Compare original-to-identity decoder effects separately from identity-to-common-voice effects."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "created_utc": "2026-11-07T09:22:06.061167+00:00",
+  "owner": "Ampixa/user",
+  "status": "reference",
+  "next_review": "2026-11-14",
+  "deleted": [
+    {
+      "path": ".playwright-mcp/wordlab-mobile-20261107.png",
+      "bytes": 224387,
+      "sha256": "c9e1c3e092ffba109ed587f7fb39e225bc0a8b0c1536e72c01faebea3d0a87de",
+      "reason": "Browser QA complete: mobile layout, actual audio playback, 30 cases, 6 progress steps verified. No continuing render consumer."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T09-08-33-879Z.yml",
+      "bytes": 2873,
+      "sha256": "cdc02d5ed78e11ba1887e4e629682733cf377b1df88f6172bf76097f624aa4db",
+      "reason": "Browser QA complete: mobile layout, actual audio playback, 30 cases, 6 progress steps verified. No continuing render consumer."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T08-06-56-788Z.yml",
+      "bytes": 6645,
+      "sha256": "c1dbcaa9ff70ac680605b5b3e47202bf91595bdade5ab6176c036e68bb5993ea",
+      "reason": "Browser QA complete: mobile layout, actual audio playback, 30 cases, 6 progress steps verified. No continuing render consumer."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T08-06-32-816Z.yml",
+      "bytes": 2791,
+      "sha256": "8951689568c9ccf73cc918fd16b5ccbb734bad528fe2b5bd57b576af8d7f4223",
+      "reason": "Browser QA complete: mobile layout, actual audio playback, 30 cases, 6 progress steps verified. No continuing render consumer."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T09-03-58-593Z.yml",
+      "bytes": 2819,
+      "sha256": "94ddc6b661a6e478441b280aa1391def6d73705590bbb8751182902fba606eea",
+      "reason": "Browser QA complete: mobile layout, actual audio playback, 30 cases, 6 progress steps verified. No continuing render consumer."
+    },
+    {
+      "path": ".playwright-mcp/page-2026-11-07T09-09-12-708Z.yml",
+      "bytes": 6812,
+      "sha256": "631746ee6c9da3210acb79b29efe8d160ba4a4496d92675646c1fbc1ac06c938",
+      "reason": "Browser QA complete: mobile layout, actual audio playback, 30 cases, 6 progress steps verified. No continuing render consumer."
+    }
+  ],
+  "bytes_deleted": 246327,
+  "free_bytes_before": 8616464384,
+  "free_bytes_after": 8616697856,
+  "raw_QA_files_no_longer_restorable": true
+}

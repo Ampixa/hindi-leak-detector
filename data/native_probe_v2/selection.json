@@ -1,0 +1,596 @@
+{
+  "schema_version": 1,
+  "creator": "Codex GPT-6 /root",
+  "created_utc": "2026-11-07T07:20:38.059404+00:00",
+  "source_manifest": "/Volumes/T9/indicvoices_r_ne/groups.jsonl",
+  "source_manifest_sha256": "4beceb30ab26a29588e5e1b0407b9c8c227a290986fcd875a069e818c940c57b",
+  "external_audio_roots": [
+    "/Volumes/T9/indicvoices_r_ne/audio"
+  ],
+  "jobs": [
+    {
+      "id": "probe_v2_00",
+      "text": "यस विवादको भँगालो छुटेपछि छुट्टीको महत्त्व केही शताब्दीहरूको लागि घटेर गयो",
+      "speaker_id": "S4259085700325035",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_01",
+      "text": "वृद्धहरूको निम्ति ओल्ड एज होमहको सुविधाहरू बनाइएको छैन इत्यादि",
+      "speaker_id": "S4257018100398290",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_02",
+      "text": "र अघि मैले भनिहाले उनलाई अब त्यसैले अब पहाड के गान्धी भनेर पनि भनिन्थ्यो",
+      "speaker_id": "S4259279700316061",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_03",
+      "text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी अलिपुरद्वार मालदा",
+      "speaker_id": "S4259326600373607",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_04",
+      "text": "जग्गा जग्गा भएको कारणले गर्दा कतिवटा जग्गाको मलाई त्यस्तो थाहा त छैन तर अब त्यो जगाहरूमा",
+      "speaker_id": "S4257279900309919",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_05",
+      "text": "ए हुन्छ अलिक छिटो ल्याइदिनुहोस् ल मलाई अघि अर्डर गेरको यहाँ मेरो साथीहरू आएको छ अन्त खाना पर्खिरहेको हामी",
+      "speaker_id": "S4259445500306484",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_06",
+      "text": "भूमिका सुब्बा प्रतिभा दर्नाल सुमित्र दर्नाल",
+      "speaker_id": "S4257741500304512",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_07",
+      "text": "वेस्ट बेङ्गाल सिक्किम अनि मणिपुर आसम नागाल्यान्ड",
+      "speaker_id": "S4258405200335282",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_08",
+      "text": "सिडनी पेरिस टोकियो न्युयोर्क हङकङ",
+      "speaker_id": "S4257391800340504",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_09",
+      "text": "अनि त्यो खाना पाएर जब मैले खोलेर हेरेँ त्यो खाना साँच्चै तातोतातो थियो र मैले खान सुरु गरेँ",
+      "speaker_id": "S4259333900344578",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_10",
+      "text": "तुसारोहरू बिहान झरेको हुन्छ पानी पनि चिसो एकदमै चिसो पानी हुन्छ",
+      "speaker_id": "S4257177400338821",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_11",
+      "text": "अब त्यही हो मान्छेले सरकारी काम पाएन पाएन भने पनि अब प्राइभेट काम गरेरै अब मान्छेले जीविका चलाउँछ है यति नै हो",
+      "speaker_id": "S4258785100392834",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_12",
+      "text": "भारत नेपाल भुटान अमेरिका फ्रान्स",
+      "speaker_id": "S4258012700311274",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_13",
+      "text": "पनि उयो चाहिन्थ्यो फलामको कोइला लगाएर उयो लुगाहरू प्रेस गर्दाखेरि त्यसरी गर्नु पर्थ्यो",
+      "speaker_id": "S4257482900307073",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_14",
+      "text": "हाम्रो क्षेत्रमा लोकगीतहरू चलिरहेको चाहिँ अब अनि अरू त यादै भएन बिर्सेँछु",
+      "speaker_id": "S4258124900316554",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_15",
+      "text": "कोरोना भाइरस बिमा बिमाको लागि बिमित रकम रुपिँया तिन हजार चयन गर्नुहोस्",
+      "speaker_id": "S4259460700361524",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_16",
+      "text": "अब अहिले चाहिँ पानी एकदमै उनै अहिले वेदरको फिक्सै छैन जति बेला पनि केही पनि हुनसक्छ अब",
+      "speaker_id": "S4257727300382701",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_17",
+      "text": "अनि त्यहाँबाट सागसब्जी है अरू मकैहरूको लागि चाहिँ एकदमै राम्रो छ है हाम्रो अब अलैँचीहरू पनि लगाउँछ अलैँचीहरू पनि",
+      "speaker_id": "S4259300900382367",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_18",
+      "text": "एउटा खेलेकोमा हामीले उयो अनुभव हामीले त्यो गहिरोमा चाहिँ खेल्नुभएन त्यस्तोमा चाहिँ अलिक सचेत भएर खेल्नुपऱ्यो नि त हामीले",
+      "speaker_id": "S4257734800306057",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_19",
+      "text": "ग्रान्ड स्लाम प्रतियोगितामा खेल्ने पहिलो भारतीय महिला निरूपमा वैद्यनाथन पनि राज्यकै हुन्",
+      "speaker_id": "S4258145700306807",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_20",
+      "text": "आफूले पठाएको खबर चाँडै पुग्नेछ साथै आफूलाई पनि सजिलो पर्द्छ",
+      "speaker_id": "S4259382400392883",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_21",
+      "text": "मलाई चाहिँ खाना चाहिँ एकदम समय दिएर नै पकाएको पकाउनु मन लाग्छ र मलाई एकदमै साह्रो परेको खाना",
+      "speaker_id": "S4258134900316977",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_22",
+      "text": "कुखुराहरू निस्किएको छ गाउँ घरमा सबैले पालिरहेको छ मेरोमा चाहिँ अहिले अब घरको कुखुरा लोकल कुखुरा छ",
+      "speaker_id": "S4259099900302234",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_23",
+      "text": "मैले आजसम्म त्यस्तो ठुलो मूर्ति वा कला सृजना गरेकी छुइनँ",
+      "speaker_id": "S4257592000350688",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_24",
+      "text": "र अति नै सबैजना घरपरिवारले पनि मनपरायो मलाई झन् अति नै मनपरेर अहिले पनि मैले त्यो ज्याकेट लगाइरहेको छु",
+      "speaker_id": "S4259806300383273",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_25",
+      "text": "धेरै जानकारी प्रस्तुत गर्नबाट बच्न आफ्नो परिचय एक अनुच्छेद भन्दा कम्तीमा राख्नुहोस्",
+      "speaker_id": "S4257775500306176",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_26",
+      "text": "म जातको नेवार परेकोले नेवारहरूको विधि एउटा अचम्मको पो छ क्या",
+      "speaker_id": "S4259303500373494",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_27",
+      "text": "म मेरो वस्तु सूचीबाट एभिटी चिया खारेज गर्न चाहन्छु",
+      "speaker_id": "S4257799100369302",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_28",
+      "text": "अन्त अब के गर्नु अब स्याहार्नै पऱ्यो सानो नानी सानो छ हो",
+      "speaker_id": "S4257893600334805",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_29",
+      "text": "एक हजार दुई हजार तिन हजार चार हजार पाँच हजार",
+      "speaker_id": "S4258193000306125",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_30",
+      "text": "के म आज दिनको अन्त्यसम्ममा बन्सिवाला पेठा रोयल मिक्स प्राप्त गर्नसक्छु",
+      "speaker_id": "S4258521300379169",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    },
+    {
+      "id": "probe_v2_31",
+      "text": "संसारमा भएको विभिन्न जातिहरू कसरी बसोबास गर्छन् र त्यहाँको कल्चरहरू मलाई सबै नै जान्नु मन छ है",
+      "speaker_id": "S4258700800392918",
+      "split": "reserved_evaluation",
+      "category": "fresh_native_negative_proxy"
+    }
+  ],
+  "clips": [
+    {
+      "clip_id": "e9566b85be322cc069ec3491",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_00",
+      "speaker_id": "S4259085700325035",
+      "text": "यस विवादको भँगालो छुटेपछि छुट्टीको महत्त्व केही शताब्दीहरूको लागि घटेर गयो",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259085700325035_000321.wav",
+      "sha256": "159e1e624ed7cb903c96e40b8da88b7d713a3dad977162f8be666a2fb3fc9a51",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "2df0abeb4b45aa323348a9c4",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_01",
+      "speaker_id": "S4257018100398290",
+      "text": "वृद्धहरूको निम्ति ओल्ड एज होमहको सुविधाहरू बनाइएको छैन इत्यादि",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257018100398290_024741.wav",
+      "sha256": "cefd966a49f8f9f10ce7230ce9ddfa902a44b09ea269537250525d8c54e44c65",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "000e5d33dbedddf498006ad5",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_02",
+      "speaker_id": "S4259279700316061",
+      "text": "र अघि मैले भनिहाले उनलाई अब त्यसैले अब पहाड के गान्धी भनेर पनि भनिन्थ्यो",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259279700316061_013003.wav",
+      "sha256": "f52796252bd27627d20a4a011fc8c82e5cf36669dcd779c58c7ab43ef10cbcf4",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "dabfef6b43527494a9be3ce0",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_03",
+      "speaker_id": "S4259326600373607",
+      "text": "दार्जीलिङ कालिम्पोङ जलपाइगुडी अलिपुरद्वार मालदा",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259326600373607_015369.wav",
+      "sha256": "c4a074963f46e1c48534eda28e74f75964f911cf097aee15be1c0268e65b8662",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "a704916d4c316c4b8da4bcbe",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_04",
+      "speaker_id": "S4257279900309919",
+      "text": "जग्गा जग्गा भएको कारणले गर्दा कतिवटा जग्गाको मलाई त्यस्तो थाहा त छैन तर अब त्यो जगाहरूमा",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257279900309919_015789.wav",
+      "sha256": "9422790eca4cda069cec3cc74b6ac23e93db136ad6164156aa7c5f3c4cdb473c",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "dae555e582b08c5cc331c947",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_05",
+      "speaker_id": "S4259445500306484",
+      "text": "ए हुन्छ अलिक छिटो ल्याइदिनुहोस् ल मलाई अघि अर्डर गेरको यहाँ मेरो साथीहरू आएको छ अन्त खाना पर्खिरहेको हामी",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259445500306484_002555.wav",
+      "sha256": "2992641d95aac6c80bed0057b28bb8d1ba50531566933335dd58ce23174b0e06",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "7dcf306d731a893ab6625d1f",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_06",
+      "speaker_id": "S4257741500304512",
+      "text": "भूमिका सुब्बा प्रतिभा दर्नाल सुमित्र दर्नाल",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257741500304512_024073.wav",
+      "sha256": "aeb55aabb9cbdd6a77be9e210fdaa36657c4d37b8aae7635e4f1696804e6f212",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "6bf88e06c08568a54ad8fecf",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_07",
+      "speaker_id": "S4258405200335282",
+      "text": "वेस्ट बेङ्गाल सिक्किम अनि मणिपुर आसम नागाल्यान्ड",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258405200335282_025231.wav",
+      "sha256": "84b61e2572c2f69053b9037f0e2eb10586e0efb7607bcfc9e8ac3019407fc6b5",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "4e5e622ed90923a1901497ba",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_08",
+      "speaker_id": "S4257391800340504",
+      "text": "सिडनी पेरिस टोकियो न्युयोर्क हङकङ",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257391800340504_014739.wav",
+      "sha256": "91fb8bcb6bc63fe74a9c9d1909415d0bf5ff1c3feb796f9e33b024e9926f6fb4",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "bdecb6d8071475fada5b39a6",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_09",
+      "speaker_id": "S4259333900344578",
+      "text": "अनि त्यो खाना पाएर जब मैले खोलेर हेरेँ त्यो खाना साँच्चै तातोतातो थियो र मैले खान सुरु गरेँ",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259333900344578_011116.wav",
+      "sha256": "5d9ec73c4e44b7196f59a32f8f124fa0c773473fab1377dbd466a6efd75983a9",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "a78e7f36f331f866b4220eef",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_10",
+      "speaker_id": "S4257177400338821",
+      "text": "तुसारोहरू बिहान झरेको हुन्छ पानी पनि चिसो एकदमै चिसो पानी हुन्छ",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257177400338821_023442.wav",
+      "sha256": "8697939c1fc9a7737e55a3893b95938edfcd17e2e280c52863aa62400945f847",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "613c4e218131d0850f541715",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_11",
+      "speaker_id": "S4258785100392834",
+      "text": "अब त्यही हो मान्छेले सरकारी काम पाएन पाएन भने पनि अब प्राइभेट काम गरेरै अब मान्छेले जीविका चलाउँछ है यति नै हो",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258785100392834_008301.wav",
+      "sha256": "18be1de63c5c53f97217de350981af2ef1f0003e8e982d2b84a89c58f0987fc7",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "0fe5741dc1dcf2cb1b050146",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_12",
+      "speaker_id": "S4258012700311274",
+      "text": "भारत नेपाल भुटान अमेरिका फ्रान्स",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258012700311274_023089.wav",
+      "sha256": "a81efb19b68ac33bc96d36fb5fd554102a951f60a8af82d56034c951f512c221",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "f4a6a36e8b508b174355beab",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_13",
+      "speaker_id": "S4257482900307073",
+      "text": "पनि उयो चाहिन्थ्यो फलामको कोइला लगाएर उयो लुगाहरू प्रेस गर्दाखेरि त्यसरी गर्नु पर्थ्यो",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257482900307073_004596.wav",
+      "sha256": "7ef8d17d847afb705d53fa508665127bb3b351ff2ba119b2385348f9038e1e26",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "1e30d5ed1a4f92bbb7dce47a",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_14",
+      "speaker_id": "S4258124900316554",
+      "text": "हाम्रो क्षेत्रमा लोकगीतहरू चलिरहेको चाहिँ अब अनि अरू त यादै भएन बिर्सेँछु",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258124900316554_005807.wav",
+      "sha256": "4bedc455f4cdc4e4b5d1c948c096fcc128fe67dc1679ee6feac5a9637a4d7c0f",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "54d06ead6d863d65f8dd5367",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_15",
+      "speaker_id": "S4259460700361524",
+      "text": "कोरोना भाइरस बिमा बिमाको लागि बिमित रकम रुपिँया तिन हजार चयन गर्नुहोस्",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259460700361524_018267.wav",
+      "sha256": "9a1573add3c716b7ab77ae96803add6f3f8ee2e0d81cc585d92f1a1907f83a1f",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "43927e899718f8e25c5a5931",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_16",
+      "speaker_id": "S4257727300382701",
+      "text": "अब अहिले चाहिँ पानी एकदमै उनै अहिले वेदरको फिक्सै छैन जति बेला पनि केही पनि हुनसक्छ अब",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257727300382701_011619.wav",
+      "sha256": "ddce8376ae9f2fd132abe840ccefb4eb4b158f7005de8484bb02f3990d67c935",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "6e067107ef05b53abd1a26b6",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_17",
+      "speaker_id": "S4259300900382367",
+      "text": "अनि त्यहाँबाट सागसब्जी है अरू मकैहरूको लागि चाहिँ एकदमै राम्रो छ है हाम्रो अब अलैँचीहरू पनि लगाउँछ अलैँचीहरू पनि",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259300900382367_015128.wav",
+      "sha256": "e5f1b56369e0ae362b107fdd33a913286057a185353efd05a2d197c021ddc49c",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "da306e247bd201eec5c5fc16",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_18",
+      "speaker_id": "S4257734800306057",
+      "text": "एउटा खेलेकोमा हामीले उयो अनुभव हामीले त्यो गहिरोमा चाहिँ खेल्नुभएन त्यस्तोमा चाहिँ अलिक सचेत भएर खेल्नुपऱ्यो नि त हामीले",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257734800306057_011664.wav",
+      "sha256": "e0cf0940b1cfa2e2393a3f051674351e37b5485a78a21054390efe579c634bc8",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "e237b4610289632c3d7d003b",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_19",
+      "speaker_id": "S4258145700306807",
+      "text": "ग्रान्ड स्लाम प्रतियोगितामा खेल्ने पहिलो भारतीय महिला निरूपमा वैद्यनाथन पनि राज्यकै हुन्",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258145700306807_004344.wav",
+      "sha256": "284f4948017273527c6377e587b1ed85ca77db6fe3e6c213f2786f8f1f86a556",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "d96f3e49106d582efbf1d4df",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_20",
+      "speaker_id": "S4259382400392883",
+      "text": "आफूले पठाएको खबर चाँडै पुग्नेछ साथै आफूलाई पनि सजिलो पर्द्छ",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259382400392883_021199.wav",
+      "sha256": "26e77d6691e9bc210182efa2b2b097cf003524858971ea367c2cc9f239e799eb",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "24e9e898568c36db7e5bc95f",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_21",
+      "speaker_id": "S4258134900316977",
+      "text": "मलाई चाहिँ खाना चाहिँ एकदम समय दिएर नै पकाएको पकाउनु मन लाग्छ र मलाई एकदमै साह्रो परेको खाना",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258134900316977_006479.wav",
+      "sha256": "58e8e1c9cf1a14411bde1f74ea392ca37c7e37d0710475736da069d65701f4a1",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "3f4916de4c89f841ae98a7df",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_22",
+      "speaker_id": "S4259099900302234",
+      "text": "कुखुराहरू निस्किएको छ गाउँ घरमा सबैले पालिरहेको छ मेरोमा चाहिँ अहिले अब घरको कुखुरा लोकल कुखुरा छ",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259099900302234_005160.wav",
+      "sha256": "f4b4c1e7799ffb88376b6ff3d34f19ffb1753b0f23a4c5db95b31659d747e34e",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "32f386d227ebabe45cb6ac35",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_23",
+      "speaker_id": "S4257592000350688",
+      "text": "मैले आजसम्म त्यस्तो ठुलो मूर्ति वा कला सृजना गरेकी छुइनँ",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257592000350688_021534.wav",
+      "sha256": "d831c1933a50967ec7994efe4255b0d44f36dc0688fc8faade432c1d83ba26c5",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "03347e74d6fd5d8300b2d815",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_24",
+      "speaker_id": "S4259806300383273",
+      "text": "र अति नै सबैजना घरपरिवारले पनि मनपरायो मलाई झन् अति नै मनपरेर अहिले पनि मैले त्यो ज्याकेट लगाइरहेको छु",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259806300383273_001014.wav",
+      "sha256": "cb2c97e23ebfb3c67176340cc922bf9bd41da83154665fbc46633a565f2cfd98",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "0101ee258edbada676524c92",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_25",
+      "speaker_id": "S4257775500306176",
+      "text": "धेरै जानकारी प्रस्तुत गर्नबाट बच्न आफ्नो परिचय एक अनुच्छेद भन्दा कम्तीमा राख्नुहोस्",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257775500306176_007531.wav",
+      "sha256": "22d4dbfaf1ec2812eb0f50c9a0ab14a12add4ead47796bc3074832479edce1b1",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "a6c21e78efda62e210f85514",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_26",
+      "speaker_id": "S4259303500373494",
+      "text": "म जातको नेवार परेकोले नेवारहरूको विधि एउटा अचम्मको पो छ क्या",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4259303500373494_004182.wav",
+      "sha256": "708a474cf3faa357a5be5cdea621f355b63318862c727a4448cdff22e4ac7514",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "ca4097496e9fe877ffa88252",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_27",
+      "speaker_id": "S4257799100369302",
+      "text": "म मेरो वस्तु सूचीबाट एभिटी चिया खारेज गर्न चाहन्छु",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257799100369302_011423.wav",
+      "sha256": "bb770d3cf4e8306b73e349446400911d4161edc33f4566a9c4e9d2b0889d3263",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "68543ee5a5c768da93dad763",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_28",
+      "speaker_id": "S4257893600334805",
+      "text": "अन्त अब के गर्नु अब स्याहार्नै पऱ्यो सानो नानी सानो छ हो",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4257893600334805_008875.wav",
+      "sha256": "428d730f02860f91df483872bac1f129e603b5d6203004fcade6788d36244b7b",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "e946a1d1b56b4d66a3fc1c2a",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_29",
+      "speaker_id": "S4258193000306125",
+      "text": "एक हजार दुई हजार तिन हजार चार हजार पाँच हजार",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258193000306125_009228.wav",
+      "sha256": "ee5900059b7091f47391a2df0dedcf9e02dd81b8b97ced0d0e5c84e603921211",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "f342bf4146ec235fc9a2431b",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_30",
+      "speaker_id": "S4258521300379169",
+      "text": "के म आज दिनको अन्त्यसम्ममा बन्सिवाला पेठा रोयल मिक्स प्राप्त गर्नसक्छु",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258521300379169_014010.wav",
+      "sha256": "9ecec06eebb39f11e7e0b2aafe64b10d1539cd83ba245ced288f22eb89173ba2",
+      "automatic_leakage_label": null
+    },
+    {
+      "clip_id": "2677d91489b25a229cb3a890",
+      "system": "native_recording",
+      "sentence_id": "probe_v2_31",
+      "speaker_id": "S4258700800392918",
+      "text": "संसारमा भएको विभिन्न जातिहरू कसरी बसोबास गर्छन् र त्यहाँको कल्चरहरू मलाई सबै नै जान्नु मन छ है",
+      "split": "reserved_evaluation",
+      "audio": "/Volumes/T9/indicvoices_r_ne/audio/S4258700800392918_006548.wav",
+      "sha256": "37b66d84b7fe157e9096ad0b627fd0a7564895394a73f912e928686678ef9875",
+      "automatic_leakage_label": null
+    }
+  ],
+  "purpose": "Fresh native negative-proxy probe locked before v2 fitting; full and short-window feature views",
+  "limits": [
+    "Native corpus identity is a weak negative assumption, not human accent gold.",
+    "Source speaker groups disjoint from development; cross-corpus real-person identity remains unverified.",
+    "Short deterministic windows can begin/end inside a word; not word-level schwa annotations."
+  ]
+}

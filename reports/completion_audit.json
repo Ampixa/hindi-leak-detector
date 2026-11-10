@@ -1,0 +1,83 @@
+{
+  "creator": "Codex GPT-6 /root",
+  "created_utc": "2026-11-06T10:37:42.798606+00:00",
+  "origin_host": "cdjk with live k2 inspection",
+  "origin_path": "/Users/cdjk/github/hindi-detector",
+  "owner": "Ampixa/user",
+  "status": "active",
+  "purpose": "Completion and blocker audit for the original detector goal",
+  "next_review": "2026-11-13",
+  "goal_complete": false,
+  "previous_goal_turn": "progress: completed independent synthesis and feature caches, implemented guarded training/evaluation, verified 27 tests",
+  "current_live_evidence": {
+    "review_eval": {
+      "port": 8768,
+      "clips": 96,
+      "human_events": 0
+    },
+    "review_development": {
+      "port": 8769,
+      "clips": 64,
+      "human_events": 0
+    },
+    "annotation_jsonl_files": 0,
+    "trained_model_json_files": 0,
+    "k2_free_bytes": 290595536896
+  },
+  "requirements": [
+    {
+      "requirement": "Verify actual IndicF5 and Audio8 checkpoints/inference",
+      "status": "verified for current comparison",
+      "evidence": [
+        "models/README.md",
+        "data/indicf5_audio8_v1/source_manifest.json",
+        "data/indicf5_audio8_v1/indicf5/run.json"
+      ]
+    },
+    {
+      "requirement": "Generate matched Nepali inputs",
+      "status": "verified",
+      "evidence": [
+        "reports/comparison_qc_v1/",
+        "data/development_v1/indicf5/run.json",
+        "reports/validation_goal.json"
+      ]
+    },
+    {
+      "requirement": "Establish reviewed pronunciation targets and genuine leakage labels",
+      "status": "missing",
+      "evidence": "Both live review endpoints have zero events; annotations directory has no JSONL files. Lexicon contrasts and MOS scores are not gold leakage labels."
+    },
+    {
+      "requirement": "Train supported leakage detector",
+      "status": "not achieved",
+      "evidence": "No trained model file; guarded trainer correctly refuses absent supervision."
+    },
+    {
+      "requirement": "Report held-out performance and limits",
+      "status": "not achieved",
+      "evidence": "Evaluator code exists; genuine test judgments and fitted weights are absent. No accuracy can be computed."
+    },
+    {
+      "requirement": "Readable listening/review website",
+      "status": "verified",
+      "evidence": [
+        "review/index.html",
+        "http://127.0.0.1:8768/",
+        "http://127.0.0.1:8769/"
+      ]
+    },
+    {
+      "requirement": "Reproducible source and artifact provenance",
+      "status": "current sources verified; historical limitation disclosed",
+      "evidence": [
+        "reports/goal_source_inventory.json",
+        "reports/comparison_features_v1/README.md"
+      ],
+      "limitation": "Original evaluation feature extractor source bytes were superseded without snapshot. Immutable original outputs and their hashes remain; current documented numerical recipe can regenerate a new feature group."
+    }
+  ],
+  "blocker": "Genuine human Hindi-leakage labels remain absent across three consecutive goal turns. Training, schwa target validation and independent accuracy require native judgments or an existing explicit label set.",
+  "unblock_action": "Two independent native reviewers annotate the blind development and reserved-evaluation packs for the same named Nepali variety, or provide an existing explicit leakage-label dataset for verification.",
+  "retention": "Keep compact audit/source/receipts and required review audio while native review consumes them. No new data/model downloads. No HF/public upload."
+}

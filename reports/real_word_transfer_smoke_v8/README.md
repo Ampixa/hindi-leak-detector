@@ -1,0 +1,7 @@
+# Real-word transfer smoke check
+Creator/owner: Codex /root, model GPT-6; created UTC: 2026-11-07T15:55:06.310594+00:00.
+Original host/path: k2:/Volumes/T9/hindi-detector/reports/real_word_transfer_smoke_v8.
+Purpose/current consumer: verify fixed synthetic schwa components can run independently on actual word crops before full real-speech application. This is software/inference verification, not Hindi accuracy.
+Inventory: README.md this provenance; worker.log tracebacks/progress (disposable after summarized); pid worker PID; source_snapshot.json exact source and SHA256; plan.json verified source inputs/model hashes and sample selection; items.jsonl per-clip word scores/abstentions; status.json progress; result/README.md and result/report.json final counts (if completed).
+Inputs: five existing documented speech packs, frozen intervention_heads_v7 models, existing aligned word evidence; source paths/checksums captured by plan.json. No new model/data downloads; NOT on HF. Underlying source licenses continue to apply; no new redistribution grant.
+Status: active; size pending end-of-run measurement. Last review: 2026-11-07; next review/expiry: 2026-11-08. Keep compact evidence/source hashes while consumed by real-word application. Delete redundant logs within24h after experiment closes. No unique source audio copied here. Reproduce: .venv-indicf5/bin/python -m scripts.apply_schwa_components --out NEW_DOCUMENTED_DIRECTORY --max-clips-per-source 1.
