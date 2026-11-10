@@ -10,23 +10,85 @@ not been measured against human labels.
 
 ## How it works
 
-For each word in a sentence:
+The detector never asks "does this sound Hindi?" in the abstract. It asks a
+narrower question it can measure: **at a vowel where Nepali and Hindi
+pronunciation differ, does this reading move away from a trusted Nepali
+reading of the same sentence, in the Hindi direction?**
 
-1. **Dual G2P** builds the Nepali pronunciation and the Hindi alternative, e.g.
-   हैन → Nepali `h ʌi̯ n ʌ` vs Hindi `h ɛː n`. Where they differ is a testable site.
-2. **Same-text reference**: two readings of the sentence by the Nepali teacher
-   in *other* voices. Each is ASR-checked and must itself show the Nepali vowel
-   to count ("qualified").
-3. **Alignment** with frozen MMS locates each word in query and reference.
-4. **Evidence** from two frozen phone encoders (XLSR-53, LV-60): CTC path
-   margins Nepali-vs-Hindi and vowel-region features, 57 per site.
-5. **Two 945-parameter MLP heads** score vowel-quality change and deletion.
-   A word is flagged only when the qualified references agree; disagreement
-   is `uncertain`.
+```
+   query.wav  +  Nepali text                     same text, other voices
+        │                                                 │
+        ▼                                                 ▼
+ ┌──────────────┐                              ┌──────────────────────┐
+ │ content gate │  Nepali Zipformer +          │ Nepali teacher reads │
+ │  (ASR)       │  IndicConformer; wrong       │ the sentence twice   │
+ └──────┬───────┘  words → unscored            │ (cached or rendered) │
+        │                                      └──────────┬───────────┘
+        │                                                 │ ASR content check
+        ▼                                                 ▼
+ ┌─────────────────────────────────────────────────────────────────────┐
+ │ 1. Dual G2P                                                          │
+ │    हैन  Nepali  h  ʌi̯  n  ʌ      Hindi  h  ɛː  n                     │
+ │                  ▲         ▲                                         │
+ │          quality site   deletion site   (only differing vowels)     │
+ └─────────────────────────────────────────────────────────────────────┘
+        │
+        ▼
+ ┌─────────────────────────────────────────────────────────────────────┐
+ │ 2. Word alignment (frozen MMS)  →  word spans in query and refs      │
+ │ 3. Phone evidence (frozen XLSR-53 + wav2vec2 LV-60 CTC)              │
+ │      • path margin: Nepali phones vs Hindi phones over the word      │
+ │      • vowel-region evidence at 3 boundary settings                  │
+ │      → 57 features per site: query, reference, query − reference     │
+ └─────────────────────────────────────────────────────────────────────┘
+        │
+        ▼
+ ┌──────────────────────────┐   ┌──────────────────────────┐
+ │ quality head  (MLP, 945) │   │ deletion head (MLP, 945) │
+ │ ʌi̯ → ɛː ?                 │   │ final ʌ dropped ?        │
+ └────────────┬─────────────┘   └────────────┬─────────────┘
+              └──────────────┬───────────────┘
+                             ▼
+ ┌─────────────────────────────────────────────────────────────────────┐
+ │ 4. Reference consensus, per site                                     │
+ │    reference "qualified" only if it clearly shows the Nepali vowel   │
+ │    all qualified refs say change   → strong_vowel_change  (flag)     │
+ │    all qualified refs say no       → no_strong_vowel_change          │
+ │    qualified refs disagree         → uncertain                       │
+ │    no qualified ref                → unsupported_reference           │
+ └─────────────────────────────────────────────────────────────────────┘
+```
 
-Worked example (हैन, from `reports/cross_system_results_v80/cases/cross80_s00.json`):
-IndicF5 scores 0.999 against qualified references in every voice and ASR hears
-"hand"; the Nepali teacher mostly scores 0.02–0.17 and ASR hears होइन.
+Design choices, and why:
+
+- **Relative, not absolute.** Every score is query-vs-reference for the same
+  text, so speaker, sentence and recording differences largely cancel. No word
+  lookup table, speaker ID or voice embedding is a model input.
+- **Two tiny heads on frozen encoders.** 945 parameters each, trained on
+  paired same-text examples (418 quality pairs, 238 deletion pairs; 147
+  development pairs), so they score "this vowel differs from the reference"
+  rather than memorising words.
+- **Abstain rather than guess.** Wrong words, an unqualified reference or
+  disagreeing references produce `unscored_*` / `uncertain`, never a flag.
+- **Narrow coverage, stated.** Only words with a modelled Nepali/Hindi vowel
+  contrast are tested (126 of 724 positions in the 26-sentence set); phones
+  without an acoustic representation (e.g. `d͡z`, nasal `ã`) are skipped.
+
+### Worked example: हैन
+
+From `reports/cross_system_results_v80/cases/cross80_s00.json`,
+*यो बाटो पुरानो हैन, नयाँ पुलतिर जानुपर्छ।*
+
+| Reading | ASR heard | Quality score vs qualified ref | Decision |
+|---|---|---|---|
+| IndicF5, voice 1 | "hand" | 0.999 | flagged |
+| IndicF5, voice 2 | "hand" | 0.999 | flagged |
+| Teacher, voice 1 | होइन | 0.021 | not flagged |
+| Teacher, voice 2 | होइन | 0.17 | not flagged |
+| Teacher, voice 0 | होइन | 0.996 | flagged (candidate false alarm) |
+
+IndicF5 says Hindi *hɛːn*; the Nepali teacher says *haina*. The last row is
+why flags stay candidates until a listener confirms them.
 
 ## Example measurement: Swar by Naamche Labs
 
